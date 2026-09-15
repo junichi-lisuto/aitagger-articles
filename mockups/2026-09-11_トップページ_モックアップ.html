@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AIタッガー ツールセンター</title>
+<style>
+  :root{
+    --blue:#2563EB;
+    --blue-dark:#1E3A8A;
+    --blue-wash:#EFF6FF;
+    --ink:#0F172A;
+    --ink-mid:#475569;
+    --ink-soft:#64748B;
+    --line:#E2E8F0;
+    --tint:#F8FAFC;
+    /* カテゴリ色：アイコンの地の色に使う */
+    --c-csv:#2563EB;
+    --c-link:#7C3AED;
+    --c-img:#EA580C;
+    --c-check:#16A34A;
+    --maxw:1120px;
+    --jp:"Noto Sans JP","Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,system-ui,sans-serif;
+  }
+  *{box-sizing:border-box}
+  /* display指定を持つ要素にhiddenを付けても消えないため、明示的に打ち消す */
+  [hidden]{display:none!important}
+  body{margin:0;background:#fff;color:var(--ink);font-family:var(--jp);
+       font-size:16px;line-height:1.8;-webkit-font-smoothing:antialiased}
+  a{color:inherit}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding-inline:24px}
+
+  /* ── ヘッダー ───────────────────────────── */
+  header{border-bottom:1px solid var(--line);background:#fff;
+         position:sticky;top:0;z-index:20}
+  .hbar{display:flex;align-items:center;gap:28px;height:68px}
+  .logo{display:flex;align-items:center;gap:10px;font-weight:700;
+        font-size:17px;letter-spacing:.01em;text-decoration:none;flex:none}
+  .logo .mark{background:var(--blue);color:#fff;font-weight:800;font-size:13px;
+        padding:5px 7px;border-radius:5px;letter-spacing:.04em}
+  .logo .sub{color:var(--ink-soft);font-weight:500;font-size:13px;
+        border-left:1px solid var(--line);padding-left:10px;margin-left:2px}
+  nav{margin-left:auto;display:flex;gap:26px;align-items:center}
+  nav a{font-size:14px;font-weight:500;color:var(--ink-mid);text-decoration:none;
+        padding:6px 0;border-bottom:2px solid transparent}
+  nav a:hover{color:var(--blue);border-bottom-color:var(--blue)}
+  .toadmin{font-size:13px;font-weight:600;color:#fff;background:var(--blue);
+        padding:9px 16px;border-radius:6px;text-decoration:none;white-space:nowrap}
+  .toadmin:hover{background:#1D4ED8}
+
+  /* ── ヒーロー ─────────────────────────── */
+  .hero{padding:66px 0 46px;text-align:center}
+  .eyebrow{font-size:12px;letter-spacing:.14em;color:var(--blue);
+        font-weight:700;margin:0 0 18px}
+  h1{font-size:38px;line-height:1.45;letter-spacing:-.01em;font-weight:700;
+     margin:0 0 18px;color:var(--blue-dark)}
+  .lede{font-size:16px;color:var(--ink-mid);margin:0 auto;max-width:40em}
+
+  /* ── カテゴリタブ ──────────────────────── */
+  .tabs{display:flex;gap:6px;justify-content:center;flex-wrap:wrap;
+        margin:38px 0 0;padding-bottom:2px}
+  .tab{font-family:inherit;font-size:14px;font-weight:600;padding:9px 18px;
+       border:1px solid var(--line);background:#fff;color:var(--ink-mid);
+       border-radius:999px;cursor:pointer;transition:.15s}
+  .tab:hover{border-color:var(--blue);color:var(--blue)}
+  .tab[aria-pressed="true"]{background:var(--blue);border-color:var(--blue);color:#fff}
+  .tab:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+
+  /* ── セクション ────────────────────────── */
+  section{padding:56px 0 68px}
+  .band{background:var(--tint);border-block:1px solid var(--line)}
+  .shead{display:flex;align-items:baseline;gap:14px;margin-bottom:8px}
+  h2{font-size:22px;font-weight:700;margin:0;letter-spacing:.01em;color:var(--ink)}
+  .count{font-size:13px;color:var(--ink-soft)}
+  .sdesc{font-size:14px;color:var(--ink-mid);margin:0 0 30px;max-width:46em}
+
+  /* ── ツールカード ──────────────────────── */
+  .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+  .card{border:1px solid var(--line);border-radius:12px;background:#fff;
+        padding:24px 20px 20px;text-decoration:none;display:flex;
+        flex-direction:column;transition:border-color .15s,box-shadow .15s,transform .15s}
+  .card:hover{border-color:var(--blue);transform:translateY(-2px);
+        box-shadow:0 6px 20px rgba(15,23,42,.07)}
+  .card:focus-visible{outline:2px solid var(--blue);outline-offset:3px}
+  /* 署名要素：ベタ塗りの角丸アイコン。カテゴリごとに色が変わる */
+  .ico{width:46px;height:46px;border-radius:11px;display:flex;
+       align-items:center;justify-content:center;margin-bottom:15px;flex:none}
+  .ico svg{width:23px;height:23px;stroke:#fff;fill:none;
+       stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+  .card[data-cat="csv"]   .ico{background:var(--c-csv)}
+  .card[data-cat="link"]  .ico{background:var(--c-link)}
+  .card[data-cat="img"]   .ico{background:var(--c-img)}
+  .card[data-cat="check"] .ico{background:var(--c-check)}
+  .card h3{font-size:16px;font-weight:700;margin:0 0 7px;line-height:1.5}
+  .card p{font-size:13px;line-height:1.7;color:var(--ink-mid);margin:0 0 16px}
+  .mps{margin-top:auto;display:flex;gap:5px;flex-wrap:wrap;
+       padding-top:13px;border-top:1px solid var(--line)}
+  .mp{font-size:10.5px;font-weight:700;letter-spacing:.02em;padding:3px 7px;
+      border-radius:4px;background:var(--tint);color:var(--ink-soft)}
+  .mp.all{background:#ECFDF5;color:#15803D}
+  .empty{display:none;padding:40px 0;color:var(--ink-soft);font-size:15px}
+
+  /* ── 記事カード ───────────────────────── */
+  .reads{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+  .read{display:grid;grid-template-columns:148px 1fr;gap:18px;
+        background:#fff;border:1px solid var(--line);border-radius:11px;
+        padding:16px;text-decoration:none;transition:.15s}
+  .read:hover{border-color:var(--blue);box-shadow:0 5px 16px rgba(15,23,42,.06)}
+  .read:focus-visible{outline:2px solid var(--blue);outline-offset:3px}
+  .thumb{width:148px;height:104px;border-radius:7px;overflow:hidden;
+         background:var(--blue-wash);display:block}
+  .thumb svg{width:100%;height:100%;display:block}
+  .meta{display:flex;gap:9px;align-items:center;margin-bottom:7px;
+        font-size:11px;color:var(--ink-soft);letter-spacing:.02em}
+  .meta .badge{font-weight:700;color:var(--blue-dark);background:var(--blue-wash);
+        padding:2px 7px;border-radius:4px}
+  .read h4{font-size:14.5px;font-weight:700;margin:0 0 9px;line-height:1.55}
+  .read:hover h4{color:var(--blue)}
+  .read ul{margin:0;padding:0;list-style:none}
+  .read li{font-size:12.5px;line-height:1.65;color:var(--ink-mid);
+        padding-left:13px;position:relative;margin-bottom:2px}
+  .read li::before{content:"";position:absolute;left:0;top:.65em;
+        width:4px;height:4px;border-radius:50%;background:var(--ink-soft)}
+
+  /* ── サポート ─────────────────────────── */
+  .support{display:grid;grid-template-columns:1.1fr 1fr;gap:44px;align-items:start}
+  .support h2{margin-bottom:10px}
+  .support p{font-size:14.5px;color:var(--ink-mid);margin:0 0 22px;max-width:34em}
+  .btn{display:inline-block;background:var(--blue);color:#fff;font-weight:600;
+       font-size:14.5px;padding:13px 26px;border-radius:7px;text-decoration:none}
+  .btn:hover{background:#1D4ED8}
+  .contact{border:1px solid var(--line);border-radius:10px;padding:24px;background:#fff}
+  .contact dt{font-size:11.5px;letter-spacing:.08em;color:var(--ink-soft);
+        font-weight:700;margin-bottom:4px}
+  .contact dd{margin:0 0 18px;font-size:15px;font-weight:600}
+  .contact dd:last-child{margin-bottom:0}
+  .contact a{color:var(--blue);text-decoration:none}
+
+  footer{border-top:1px solid var(--line);padding:34px 0}
+  .frow{display:flex;gap:24px;align-items:center;flex-wrap:wrap;
+        font-size:13px;color:var(--ink-soft)}
+  .frow a{text-decoration:none}
+  .frow a:hover{color:var(--blue)}
+  .frow .right{margin-left:auto}
+
+  @media(max-width:1000px){ .grid{grid-template-columns:repeat(3,1fr)} }
+  @media(max-width:860px){
+    .grid{grid-template-columns:repeat(2,1fr)}
+    .reads,.support{grid-template-columns:1fr}
+    .support{gap:32px}
+    h1{font-size:29px}
+    nav{display:none}
+  }
+  @media(max-width:560px){
+    .grid{grid-template-columns:1fr}
+    .hero{padding:40px 0 32px}
+    section{padding:42px 0 50px}
+    h1{font-size:24px}
+    .read{grid-template-columns:1fr}
+    .thumb{width:100%;height:132px}
+  }
+  @media(prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap hbar">
+    <a class="logo" href="#"><span class="mark">AI</span>タッガー<span class="sub">ツールセンター</span></a>
+    <nav>
+      <a href="#tools">ツール</a>
+      <a href="#reads">AI検索を知る</a>
+      <a href="#support">困ったときは</a>
+    </nav>
+    <a class="toadmin" href="#">管理画面を開く</a>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="wrap">
+    <p class="eyebrow">AIタッガーをご利用中のお客様へ</p>
+    <h1>タグ登録の前後にある作業を、<br>ここでまとめて片づける。</h1>
+    <p class="lede">CSVの整形、他ツールとの受け渡し、画像の一括変換。AIタッガー本体では扱わない周辺の手作業を、ブラウザだけで終わらせます。</p>
+    <div class="tabs">
+      <button class="tab" data-cat="all" aria-pressed="true">すべて</button>
+      <button class="tab" data-cat="csv" aria-pressed="false">CSV加工</button>
+      <button class="tab" data-cat="link" aria-pressed="false">他ツール連携</button>
+      <button class="tab" data-cat="img" aria-pressed="false">画像</button>
+      <button class="tab" data-cat="check" aria-pressed="false">確認・検証</button>
+    </div>
+  </div>
+</div>
+
+<section id="tools" style="padding-top:34px">
+  <div class="wrap">
+    <div class="shead">
+      <h2>ツール</h2>
+      <span class="count" id="cnt">8件</span>
+    </div>
+    <p class="sdesc">各ページに使い方が載っています。インストールは不要です。アップロードしたファイルはブラウザ内だけで処理され、サーバーには送信されません。</p>
+
+    <div class="grid" id="grid">
+
+      <a class="card" href="#" data-cat="csv">
+        <span class="ico"><svg viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/><path d="M9 3v18M15 3v18"/></svg></span>
+        <h3>CSV列エディタ</h3>
+        <p>列の並べ替え・削除・名前の変更をドラッグで行います。</p>
+        <span class="mps"><span class="mp all">全モール対応</span></span>
+      </a>
+
+      <a class="card" href="#" data-cat="link">
+        <span class="ico"><svg viewBox="0 0 24 24"><path d="M4 8h11l-3-3M20 16H9l3 3"/></svg></span>
+        <h3>フォーマット変換</h3>
+        <p>楽天市場の商品CSVを、Yahoo!ショッピングの項目名に合わせます。</p>
+        <span class="mps"><span class="mp">楽天市場</span><span class="mp">Yahoo!</span></span>
+      </a>
+
+      <a class="card" href="#" data-cat="csv">
+        <span class="ico"><svg viewBox="0 0 24 24"><path d="M12 3v7M12 14v7"/><path d="M5 10h14v4H5z"/><path d="M9 6l3-3 3 3M9 18l3 3 3-3"/></svg></span>
+        <h3>CSV分割・結合</h3>
+        <p>行数の上限に引っかかる大きなCSVを、指定した件数ごとに分けます。</p>
+        <span class="mps"><span class="mp all">全モール対応</span></span>
+      </a>
+
+      <a class="card" href="#" data-cat="csv">
+        <span class="ico"><svg viewBox="0 0 24 24"><path d="M4 7V5h7v14H8"/><path d="M13 12h7M17 9l3 3-3 3"/></svg></span>
+        <h3>文字コード変換</h3>
+        <p>Shift_JISとUTF-8を相互に変換します。文字化けするときに。</p>
+        <span class="mps"><span class="mp all">全モール対応</span></span>
+      </a>
+
+      <a class="card" href="#" data-cat="check">
+        <span class="ico"><svg viewBox="0 0 24 24"><path d="M4 5h7v14H4zM13 5h7v14h-7z"/><path d="M15.5 12l1.5 1.5 2.5-2.5"/></svg></span>
+        <h3>タグ差分チェッカー</h3>
+        <p>タグ登録の前後で何が変わったかを並べて表示します。</p>
+        <span class="mps"><span class="mp">楽天市場</span><span class="mp">Yahoo!</span></span>
+      </a>
+
+      <a class="card" href="#" data-cat="img">
+        <span class="ico"><svg viewBox="0 0 24 24"><path d="M4 5h16v14H4z"/><circle cx="9" cy="10" r="1.6"/><path d="M4 16l4.5-4 3.5 3 3-2.5L20 17"/></svg></span>
+        <h3>商品画像リサイズ</h3>
+        <p>複数の画像を各モールの規定サイズにまとめて変換します。</p>
+        <span class="mps"><span class="mp all">全モール対応</span></span>
+      </a>
+
+      <a class="card" href="#" data-cat="csv">
+        <span class="ico"><svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h10M4 17h7"/><path d="M17 15l2 2 3-3.5"/></svg></span>
+        <h3>型番・SKU整形</h3>
+        <p>全角半角や記号がそろっていない型番を、ルールを決めて整えます。</p>
+        <span class="mps"><span class="mp all">全モール対応</span></span>
+      </a>
+
+      <a class="card" href="#" data-cat="link">
+        <span class="ico"><svg viewBox="0 0 24 24"><path d="M5 4h9l5 5v11H5z"/><path d="M8 12h8M8 16h8M8 8h3"/></svg></span>
+        <h3>スプレッドシート書き出し</h3>
+        <p>処理したCSVをGoogleスプレッドシートへ直接書き出します。</p>
+        <span class="mps"><span class="mp all">全モール対応</span></span>
+      </a>
+
+    </div>
+    <p class="empty" id="empty">このカテゴリのツールはまだありません。</p>
+  </div>
+</section>
+
+<section class="band" id="reads">
+  <div class="wrap">
+    <div class="shead"><h2>AI検索を知る</h2></div>
+    <p class="sdesc">商品が「見つかる」しくみは動いています。読んでおくと判断が変わるものだけを置いています。</p>
+    <div class="reads">
+
+      <a class="read" href="#">
+        <span class="thumb"><svg viewBox="0 0 148 104" preserveAspectRatio="xMidYMid slice"><rect width="148" height="104" fill="#EFF6FF"/><circle cx="52" cy="52" r="21" fill="none" stroke="#2563EB" stroke-width="3"/><path d="M68 68l16 16" stroke="#2563EB" stroke-width="3" stroke-linecap="round"/><path d="M96 34h34M96 46h26M96 58h34M96 70h20" stroke="#93C5FD" stroke-width="4" stroke-linecap="round"/></svg></span>
+        <span>
+          <span class="meta"><span class="badge">LISUTOブログ</span><span>2026/09/08</span></span>
+          <h4>モール内検索が「タグ一致」から意図の解釈へ動いている</h4>
+          <ul>
+            <li>キーワードの一致率だけでは取りこぼす場面が増えた</li>
+            <li>用途・シーンを表す語の有無で表示順が変わる</li>
+            <li>既存商品に足すべき属性を3つに整理</li>
+          </ul>
+        </span>
+      </a>
+
+      <a class="read" href="#">
+        <span class="thumb"><svg viewBox="0 0 148 104" preserveAspectRatio="xMidYMid slice"><rect width="148" height="104" fill="#FEF2F2"/><rect x="26" y="24" width="96" height="56" rx="5" fill="none" stroke="#DC2626" stroke-width="3"/><path d="M38 44h32M38 56h50M38 68h24" stroke="#FCA5A5" stroke-width="4" stroke-linecap="round"/><circle cx="104" cy="70" r="13" fill="#DC2626"/><path d="M104 64v7M104 75.5v.5" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/></svg></span>
+        <span>
+          <span class="meta"><span class="badge">楽天 RMS</span><span>2026/08/27</span></span>
+          <h4>楽天市場 タグ仕様アップデート（2026年秋）</h4>
+          <ul>
+            <li>属性が12項目追加、うち3項目が必須化</li>
+            <li>既存商品も対象。未対応だと検索面での露出が下がる</li>
+            <li>対応期限は2026年11月末</li>
+          </ul>
+        </span>
+      </a>
+
+      <a class="read" href="#">
+        <span class="thumb"><svg viewBox="0 0 148 104" preserveAspectRatio="xMidYMid slice"><rect width="148" height="104" fill="#F5F3FF"/><path d="M74 26l5.5 12.5L92 44l-12.5 5.5L74 62l-5.5-12.5L56 44l12.5-5.5z" fill="#7C3AED"/><path d="M108 62l3 7 7 3-7 3-3 7-3-7-7-3 7-3z" fill="#C4B5FD"/><path d="M36 74h76" stroke="#C4B5FD" stroke-width="4" stroke-linecap="round"/><path d="M36 86h48" stroke="#DDD6FE" stroke-width="4" stroke-linecap="round"/></svg></span>
+        <span>
+          <span class="meta"><span class="badge">外部記事</span><span>2026/08/19</span></span>
+          <h4>生成AIの回答に商品が引用される条件</h4>
+          <ul>
+            <li>構造化データの記述で引用率が2.4倍変わった調査</li>
+            <li>価格・在庫・レビュー数の3点が揃うと引用されやすい</li>
+            <li>ECサイト18社の実測データつき</li>
+          </ul>
+        </span>
+      </a>
+
+      <a class="read" href="#">
+        <span class="thumb"><svg viewBox="0 0 148 104" preserveAspectRatio="xMidYMid slice"><rect width="148" height="104" fill="#FFFBEB"/><rect x="30" y="30" width="42" height="44" rx="4" fill="#FCD34D"/><rect x="80" y="30" width="42" height="44" rx="4" fill="none" stroke="#D97706" stroke-width="3" stroke-dasharray="5 4"/><path d="M88 46h26M88 56h18" stroke="#D97706" stroke-width="3.4" stroke-linecap="round"/></svg></span>
+        <span>
+          <span class="meta"><span class="badge">Yahoo! JAPAN</span><span>2026/08/05</span></span>
+          <h4>Yahoo!ショッピング 商品情報の項目追加について</h4>
+          <ul>
+            <li>当面は任意項目として運用が始まる</li>
+            <li>検索面での扱いは2027年以降に変わる見込み</li>
+            <li>先に埋めておくと移行時の作業が不要</li>
+          </ul>
+        </span>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<section id="support">
+  <div class="wrap support">
+    <div>
+      <h2>困ったときは</h2>
+      <p>ツールの使い方、AIタッガー本体の操作、タグの設計方針まで。担当者がお答えします。「こういうツールが欲しい」というご要望も、ここから届きます。</p>
+      <a class="btn" href="#">問い合わせる</a>
+    </div>
+    <dl class="contact">
+      <dt>メール</dt>
+      <dd><a href="mailto:support@lisuto.com">support@lisuto.com</a></dd>
+      <dt>電話</dt>
+      <dd>03-6277-7445</dd>
+      <dt>受付時間</dt>
+      <dd style="font-weight:500;font-size:14px;color:var(--ink-mid)">平日 10:00 – 18:00</dd>
+    </dl>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap frow">
+    <span>© 2026 LISUTO</span>
+    <a href="#">会社概要</a>
+    <a href="#">利用規約</a>
+    <a href="#">プライバシーポリシー</a>
+    <span class="right">AIタッガーをご契約のお客様向けページです</span>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var grid=document.getElementById('grid'),
+      cards=[].slice.call(grid.querySelectorAll('.card')),
+      cnt=document.getElementById('cnt'),
+      empty=document.getElementById('empty'),
+      tabs=[].slice.call(document.querySelectorAll('.tab'));
+
+  function apply(cat){
+    var hit=0;
+    cards.forEach(function(c){
+      var ok = cat==='all' || c.getAttribute('data-cat')===cat;
+      c.hidden=!ok;
+      if(ok)hit++;
+    });
+    cnt.textContent=hit+'件';
+    empty.style.display=hit?'none':'block';
+  }
+  tabs.forEach(function(tab){
+    tab.addEventListener('click',function(){
+      tabs.forEach(function(t){t.setAttribute('aria-pressed','false');});
+      tab.setAttribute('aria-pressed','true');
+      apply(tab.dataset.cat);
+    });
+  });
+})();
+</script>
+</body>
+</html>
