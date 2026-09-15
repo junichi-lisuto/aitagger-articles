@@ -1,0 +1,1136 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>楽天 属性整列ツール｜AIタッガー ツールセンター</title>
+<style>
+  :root{
+    --blue:#2563EB;
+    --blue-dark:#1E3A8A;
+    --blue-wash:#EFF6FF;
+    --ink:#0F172A;
+    --ink-mid:#475569;
+    --ink-soft:#64748B;
+    --line:#E2E8F0;
+    --tint:#F8FAFC;
+    --green:#16A34A;
+    --amber:#B45309;
+    --amber-wash:#FFFBEB;
+    --red:#DC2626;
+    --red-wash:#FEF2F2;
+    --maxw:1120px;
+    --jp:"Noto Sans JP","Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,system-ui,sans-serif;
+    --mono:ui-monospace,"SFMono-Regular",Consolas,"Liberation Mono",monospace;
+  }
+  *{box-sizing:border-box}
+  [hidden]{display:none!important}
+  body{margin:0;background:#fff;color:var(--ink);font-family:var(--jp);
+       font-size:16px;line-height:1.8;-webkit-font-smoothing:antialiased}
+  a{color:inherit}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding-inline:24px}
+
+  header{border-bottom:1px solid var(--line);background:#fff;position:sticky;top:0;z-index:20}
+  .hbar{display:flex;align-items:center;gap:28px;height:68px}
+  .logo{display:flex;align-items:center;gap:10px;font-weight:700;font-size:17px;
+        text-decoration:none;flex:none}
+  .logo .mark{background:var(--blue);color:#fff;font-weight:800;font-size:13px;
+        padding:5px 7px;border-radius:5px;letter-spacing:.04em}
+  .logo .sub{color:var(--ink-soft);font-weight:500;font-size:13px;
+        border-left:1px solid var(--line);padding-left:10px;margin-left:2px}
+  nav{margin-left:auto;display:flex;gap:26px;align-items:center}
+  nav a{font-size:14px;font-weight:500;color:var(--ink-mid);text-decoration:none;
+        padding:6px 0;border-bottom:2px solid transparent}
+  nav a:hover{color:var(--blue);border-bottom-color:var(--blue)}
+  .toadmin{font-size:13px;font-weight:600;color:#fff;background:var(--blue);
+        padding:9px 16px;border-radius:6px;text-decoration:none;white-space:nowrap}
+
+  .crumb{font-size:12.5px;color:var(--ink-soft);padding:16px 0 0}
+  .crumb a{text-decoration:none}
+  .crumb a:hover{color:var(--blue)}
+  .crumb span{margin:0 7px;color:#CBD5E1}
+
+  .thead{display:flex;gap:18px;align-items:flex-start;padding:20px 0 26px}
+  .ico{width:54px;height:54px;border-radius:13px;background:var(--blue);flex:none;
+       display:flex;align-items:center;justify-content:center}
+  .ico svg{width:27px;height:27px;stroke:#fff;fill:none;stroke-width:1.9;
+       stroke-linecap:round;stroke-linejoin:round}
+  .thead h1{font-size:28px;font-weight:700;margin:0 0 6px;letter-spacing:-.01em;
+       color:var(--blue-dark);line-height:1.4}
+  .thead p{font-size:15px;color:var(--ink-mid);margin:0;max-width:46em}
+  .tmeta{display:flex;gap:6px;margin-top:11px;flex-wrap:wrap}
+  .mp{font-size:10.5px;font-weight:700;padding:3px 8px;border-radius:4px;
+      background:#ECFDF5;color:#15803D}
+  .mp.grey{background:var(--tint);color:var(--ink-soft)}
+  .mp.src{background:var(--tint);color:var(--ink-soft);font-family:var(--mono);font-weight:500}
+
+  .bench{border:1px solid var(--line);border-radius:14px;overflow:hidden;
+         box-shadow:0 1px 3px rgba(15,23,42,.04)}
+  .steps{display:flex;background:var(--tint);border-bottom:1px solid var(--line)}
+  .step{flex:1;padding:13px 18px;font-size:13px;font-weight:600;color:var(--ink-soft);
+        display:flex;align-items:center;gap:9px;border-right:1px solid var(--line)}
+  .step:last-child{border-right:none}
+  .step .n{width:21px;height:21px;border-radius:50%;background:#CBD5E1;color:#fff;
+        font-size:11.5px;display:flex;align-items:center;justify-content:center;flex:none}
+  .step.on{color:var(--blue-dark);background:#fff}
+  .step.on .n{background:var(--blue)}
+  .step.done .n{background:var(--green)}
+
+  /* 状態A：投入口 */
+  .drop{padding:44px 24px;background:#fff}
+  .dropgrid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+  .dropzone{border:2px dashed #CBD5E1;border-radius:12px;padding:30px 20px;
+        background:var(--tint);transition:.15s;text-align:center;position:relative}
+  .dropzone.hasfile{border-style:solid;border-color:var(--green);background:#F0FDF4}
+  .dropzone:hover{border-color:var(--blue);background:var(--blue-wash)}
+  .dropzone.hasfile:hover{background:#F0FDF4}
+  .dropzone svg{width:34px;height:34px;stroke:var(--blue);fill:none;stroke-width:1.6;
+        stroke-linecap:round;stroke-linejoin:round;margin-bottom:12px}
+  .dropzone.hasfile svg{stroke:var(--green)}
+  .dropzone h2{font-size:15px;font-weight:700;margin:0 0 4px}
+  .dropzone .sub{font-size:12px;color:var(--ink-soft);margin:0 0 16px}
+  .dropzone .fname{font-size:12.5px;color:var(--green);font-weight:600;
+        margin-top:10px;word-break:break-all;font-family:var(--mono)}
+  input[type=file]{display:none}
+  .btn{display:inline-block;background:var(--blue);color:#fff;font-weight:600;
+       font-size:14px;padding:10px 22px;border-radius:8px;text-decoration:none;
+       border:none;font-family:inherit;cursor:pointer}
+  .btn:hover{background:#1D4ED8}
+  .btn:disabled{background:#CBD5E1;cursor:not-allowed}
+  .btn:focus-visible{outline:2px solid var(--blue-dark);outline-offset:3px}
+  .btn.ghost{background:#fff;color:var(--blue);border:1.5px solid var(--line)}
+  .btn.ghost:hover{border-color:var(--blue);background:var(--blue-wash)}
+  .btn.sm{padding:8px 16px;font-size:13px}
+  .note{font-size:12px;color:var(--ink-soft);margin-top:18px;text-align:center}
+  .note b{color:var(--ink-mid);font-weight:600}
+  .arrow{display:flex;align-items:center;justify-content:center;color:#CBD5E1;font-size:20px}
+
+  /* 状態B：設定（出力形式） */
+  .settings{padding:32px 24px;background:#fff}
+  .setrow{display:flex;gap:22px;flex-wrap:wrap;align-items:flex-start;margin-bottom:22px}
+  .filesummary{flex:1;min-width:260px;display:flex;flex-direction:column;gap:8px}
+  .fitem{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--ink-mid)}
+  .fitem .dot{width:7px;height:7px;border-radius:50%;background:var(--green);flex:none}
+  .fitem code{font-family:var(--mono);font-size:12px;background:var(--tint);
+        padding:2px 6px;border-radius:4px;word-break:break-all}
+  .fmtbox{flex:1;min-width:280px}
+  .fmtbox h3{font-size:13px;font-weight:700;margin:0 0 10px}
+  .fmt{display:flex;flex-direction:column;gap:8px}
+  .fmt label{display:flex;align-items:flex-start;gap:10px;padding:10px 12px;
+        border:1px solid var(--line);border-radius:8px;cursor:pointer;font-size:13px}
+  .fmt label:hover{border-color:var(--blue)}
+  .fmt input{margin-top:2px}
+  .fmt .t{font-weight:600;color:var(--ink)}
+  .fmt .d{color:var(--ink-soft);font-size:11.5px;margin-top:2px}
+  .detected{font-size:12.5px;color:var(--ink-soft);margin-bottom:12px;
+        background:var(--tint);padding:8px 12px;border-radius:7px}
+  .detected b{color:var(--blue-dark)}
+
+  /* 進捗・結果 */
+  .running{padding:60px 24px;text-align:center}
+  .spinner{width:36px;height:36px;border:3px solid var(--line);border-top-color:var(--blue);
+        border-radius:50%;margin:0 auto 18px;animation:spin .8s linear infinite}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  .running p{font-size:14px;color:var(--ink-mid);margin:0}
+
+  .result{padding:32px 24px}
+  .result.err{background:var(--red-wash)}
+  .rhead{display:flex;align-items:center;gap:10px;margin-bottom:18px}
+  .rhead .ricon{width:32px;height:32px;border-radius:50%;background:var(--green);
+        display:flex;align-items:center;justify-content:center;flex:none}
+  .rhead .ricon svg{width:16px;height:16px;stroke:#fff;fill:none;stroke-width:2.5;
+        stroke-linecap:round;stroke-linejoin:round}
+  .result.err .rhead .ricon{background:var(--red)}
+  .rhead h2{font-size:17px;font-weight:700;margin:0}
+  .errbox{font-size:13.5px;color:var(--red);background:#fff;border:1px solid #FECACA;
+        border-radius:8px;padding:14px 16px;white-space:pre-wrap;line-height:1.7;font-family:var(--mono)}
+  .summarytable{width:100%;border-collapse:collapse;font-size:13px;margin-bottom:18px}
+  .summarytable td{padding:7px 4px;border-bottom:1px solid var(--line)}
+  .summarytable td:first-child{color:var(--ink-soft);width:60%}
+  .summarytable td:last-child{text-align:right;font-weight:600;font-variant-numeric:tabular-nums}
+  .summarytable tr.warn td:last-child{color:var(--amber)}
+  .outname{font-family:var(--mono);font-size:13px;background:var(--tint);
+        padding:10px 14px;border-radius:8px;margin-bottom:18px;word-break:break-all}
+  .bar{display:flex;gap:10px;padding:15px 24px;border-top:1px solid var(--line);
+       background:var(--tint);align-items:center;flex-wrap:wrap}
+  .bar .sp{margin-left:auto;font-size:12.5px;color:var(--ink-soft)}
+
+  section{padding:60px 0}
+  .band{background:var(--tint);border-block:1px solid var(--line)}
+  h2.sec{font-size:21px;font-weight:700;margin:0 0 6px}
+  .sdesc{font-size:14px;color:var(--ink-mid);margin:0 0 32px;max-width:46em}
+  .howto{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+  .how{background:#fff;border:1px solid var(--line);border-radius:11px;padding:22px}
+  .how .n{width:26px;height:26px;border-radius:7px;background:var(--blue);color:#fff;
+       font-size:13px;font-weight:700;display:flex;align-items:center;
+       justify-content:center;margin-bottom:13px}
+  .how h3{font-size:15px;font-weight:700;margin:0 0 7px;line-height:1.55}
+  .how p{font-size:13px;color:var(--ink-mid);margin:0;line-height:1.75}
+
+  .rules{background:#fff;border:1px solid var(--line);border-radius:11px;padding:24px 26px}
+  .rules ul{margin:0;padding-left:20px;font-size:13.5px;color:var(--ink-mid);line-height:2}
+
+  .faq{max-width:800px}
+  details{border-bottom:1px solid var(--line)}
+  summary{font-size:15px;font-weight:600;padding:17px 34px 17px 0;cursor:pointer;
+       list-style:none;position:relative;line-height:1.6}
+  summary::-webkit-details-marker{display:none}
+  summary::after{content:"";position:absolute;right:8px;top:26px;width:8px;height:8px;
+       border-right:2px solid var(--ink-soft);border-bottom:2px solid var(--ink-soft);
+       transform:rotate(45deg);transition:.15s}
+  details[open] summary::after{transform:rotate(-135deg);top:29px}
+  summary:hover{color:var(--blue)}
+  details p{font-size:14px;color:var(--ink-mid);margin:0 0 19px;padding-right:34px}
+
+  .sourcebox{font-size:12px;color:var(--ink-soft);background:var(--tint);
+        border:1px solid var(--line);border-radius:8px;padding:12px 16px;
+        font-family:var(--mono);word-break:break-all;margin-top:8px}
+
+  footer{border-top:1px solid var(--line);padding:34px 0}
+  .frow{display:flex;gap:24px;align-items:center;flex-wrap:wrap;
+        font-size:13px;color:var(--ink-soft)}
+  .frow a{text-decoration:none}
+  .frow a:hover{color:var(--blue)}
+  .frow .right{margin-left:auto}
+
+  @media(max-width:900px){
+    .dropgrid{grid-template-columns:1fr}
+    .arrow{transform:rotate(90deg);padding:4px}
+    .howto{grid-template-columns:1fr}
+    nav{display:none}
+    .thead h1{font-size:23px}
+    .step{font-size:0;padding:13px 10px;justify-content:center}
+    .step .n{font-size:11.5px}
+  }
+  @media(prefers-reduced-motion:reduce){*{transition:none!important}.spinner{animation:none}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap hbar">
+    <a class="logo" href="../../mockups/2026-09-11_トップページ_モックアップ.html"><span class="mark">AI</span>タッガー<span class="sub">ツールセンター</span></a>
+    <nav>
+      <a href="#">ツール</a>
+      <a href="#">AI検索を知る</a>
+      <a href="#">困ったときは</a>
+    </nav>
+    <a class="toadmin" href="#">管理画面を開く</a>
+  </div>
+</header>
+
+<div class="wrap">
+  <p class="crumb"><a href="#">ツール</a><span>/</span><a href="#">CSV加工</a><span>/</span>属性整列ツール</p>
+
+  <div class="thead">
+    <span class="ico"><svg viewBox="0 0 24 24"><path d="M8 6h13M8 12h13M8 18h13"/><path d="M3 6h.01M3 12h.01M3 18h.01"/></svg></span>
+    <div>
+      <h1>属性整列ツール</h1>
+      <p>元の商品CSVとAIタッガー処理後CSVを突き合わせ、商品属性（項目・値・単位）を元データの並びに揃えて出力します。AI側だけにある属性は末尾に追加され、抜け漏れはエラーで教えてくれます。</p>
+      <div class="tmeta">
+        <span class="mp">楽天</span>
+        <span class="mp grey">CSV加工</span>
+        <span class="mp grey">ブラウザ内で処理</span>
+        <span class="mp src">元ツール: ピンポイント系\楽天AIタッガー属性整列ツール_全項目対応版.py</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="bench">
+    <div class="steps" id="steps">
+      <div class="step on" data-step="1"><span class="n">1</span>ファイルを選ぶ</div>
+      <div class="step" data-step="2"><span class="n">2</span>出力形式を選ぶ</div>
+      <div class="step" data-step="3"><span class="n">3</span>ダウンロード</div>
+    </div>
+
+    <!-- 状態A：投入口 -->
+    <div id="paneDrop">
+      <div class="drop">
+        <div class="dropgrid">
+          <div class="dropzone" id="zoneOrig">
+            <svg viewBox="0 0 24 24"><path d="M12 16V4M8 8l4-4 4 4"/><path d="M4 15v3a2 2 0 002 2h12a2 2 0 002-2v-3"/></svg>
+            <h2>元データCSV</h2>
+            <p class="sub">整列の基準にする、加工前の楽天商品CSV</p>
+            <button class="btn sm" id="pickOrig" type="button">ファイルを選ぶ</button>
+            <input type="file" id="fileOrig" accept=".csv">
+            <div class="fname" id="nameOrig" hidden></div>
+          </div>
+          <div class="dropzone" id="zoneAuto">
+            <svg viewBox="0 0 24 24"><path d="M12 16V4M8 8l4-4 4 4"/><path d="M4 15v3a2 2 0 002 2h12a2 2 0 002-2v-3"/></svg>
+            <h2>AIタッガー後CSV</h2>
+            <p class="sub">AIタッガーで属性を付けた後のCSV（更新版・詳細版どちらでも可）</p>
+            <button class="btn sm" id="pickAuto" type="button">ファイルを選ぶ</button>
+            <input type="file" id="fileAuto" accept=".csv">
+            <div class="fname" id="nameAuto" hidden></div>
+          </div>
+        </div>
+        <p class="note">
+          対応形式: CSV（Shift_JIS / UTF-8）<br>
+          <b>ファイルはお使いのブラウザの中だけで処理され、サーバーへは送信されません。</b>
+        </p>
+      </div>
+    </div>
+
+    <!-- 状態B：出力形式の選択 -->
+    <div id="paneSettings" hidden>
+      <div class="settings">
+        <div class="setrow">
+          <div class="filesummary">
+            <div class="fitem"><span class="dot"></span>元データCSV: <code id="sumOrig"></code></div>
+            <div class="fitem"><span class="dot"></span>AIタッガー後CSV: <code id="sumAuto"></code></div>
+          </div>
+          <div class="fmtbox">
+            <h3>出力形式</h3>
+            <div class="detected" id="detected"></div>
+            <div class="fmt">
+              <label><input type="radio" name="fmt" value="auto" checked>
+                <span><span class="t">自動判定（推奨）</span><span class="d">詳細版なら詳細版形式、それ以外は更新版形式で出力</span></span>
+              </label>
+              <label><input type="radio" name="fmt" value="update">
+                <span><span class="t">更新版形式</span><span class="d">商品管理番号・ジャンルID・SKU管理番号と属性列だけを出力</span></span>
+              </label>
+              <label><input type="radio" name="fmt" value="detail">
+                <span><span class="t">詳細版形式</span><span class="d">AIタッガー後CSVが詳細版のときだけ選べます</span></span>
+              </label>
+              <label><input type="radio" name="fmt" value="full">
+                <span><span class="t">全項目</span><span class="d">AIタッガー後CSVの全列を残し、属性の並びだけ整列</span></span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bar">
+        <button class="btn" id="runBtn">この形式で処理する</button>
+        <button class="btn ghost" id="resetFromSettings">ファイルを選び直す</button>
+      </div>
+    </div>
+
+    <!-- 状態C：処理中 -->
+    <div id="paneRunning" hidden>
+      <div class="running">
+        <div class="spinner"></div>
+        <p>突き合わせて整列しています…</p>
+      </div>
+    </div>
+
+    <!-- 状態D：結果 -->
+    <div id="paneResult" hidden>
+      <div class="result" id="resultBox">
+        <div class="rhead">
+          <span class="ricon" id="resultIcon"><svg viewBox="0 0 24 24"><path d="M5 12l5 5L20 7"/></svg></span>
+          <h2 id="resultTitle">処理が完了しました</h2>
+        </div>
+        <div id="resultBody"></div>
+      </div>
+      <div class="bar" id="resultBar">
+        <button class="btn" id="downloadBtn">ダウンロード</button>
+        <button class="btn ghost" id="reset">別のファイルにする</button>
+        <span class="sp" id="outLabel"></span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══ 使い方 ══ -->
+<section class="band">
+  <div class="wrap">
+    <h2 class="sec">使い方</h2>
+    <p class="sdesc">3ステップで終わります。ファイルはどこにも送信されません。</p>
+    <div class="howto">
+      <div class="how">
+        <span class="n">1</span>
+        <h3>2つのCSVを読み込む</h3>
+        <p>「元データCSV」に加工前の楽天商品CSV、「AIタッガー後CSV」にAIタッガーで属性を付けた後のCSVを入れてください。文字コードは自動で判別します。</p>
+      </div>
+      <div class="how">
+        <span class="n">2</span>
+        <h3>出力形式を選ぶ</h3>
+        <p>迷ったら「自動判定」のままで構いません。AIタッガー側の全列を残したい場合だけ「全項目」を選んでください。</p>
+      </div>
+      <div class="how">
+        <span class="n">3</span>
+        <h3>書き出す</h3>
+        <p>属性の並びが元データに揃った状態でCSVが保存されます。商品管理番号・SKU管理番号で突き合わせるため、行の順番が違っていても正しく揃います。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ 整列のルール ══ -->
+<section>
+  <div class="wrap">
+    <h2 class="sec">整列のルール</h2>
+    <p class="sdesc">元のツールと同じ判定をそのままブラウザで行っています。</p>
+    <div class="rules">
+      <ul>
+        <li>商品管理番号（商品URL）とSKU管理番号で、2つのCSVの行を突き合わせます。</li>
+        <li>属性の並び順は元データCSVを基準にします。同じ項目名がAI側にもあれば、値・単位はAI側を採用します（空欄でもAI側優先）。</li>
+        <li>AI側にしかない属性は、元データの属性の末尾に追加します。</li>
+        <li>AIタッガー後CSV側にしかない商品・SKUがある場合は、データの組み合わせ間違いの可能性が高いためエラーで停止します。</li>
+        <li>元データ側にしかない商品・SKUは出力せず、完了時に件数だけ表示します。</li>
+        <li>商品オプションレベルの行（SKUを持たない2行目以降）は出力対象外です。</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ══ よくある質問 ══ -->
+<section class="band">
+  <div class="wrap">
+    <h2 class="sec">よくある質問</h2>
+    <p class="sdesc">ここにない場合は、下の窓口までお問い合わせください。</p>
+    <div class="faq">
+      <details open>
+        <summary>アップロードした商品データが外部に送られることはありませんか</summary>
+        <p>ありません。このツールはお使いのブラウザの中だけで動いており、ファイルの中身はLISUTOのサーバーを含め、どこにも送信していません。</p>
+      </details>
+      <details>
+        <summary>「詳細版形式」が選べません</summary>
+        <p>AIタッガー後CSVが詳細版（AI出力タグ・AI削除タグ・結果・AIエラーの列を持つ形式）でない場合は選べません。AI側の全列を残したい場合は「全項目」をお使いください。</p>
+      </details>
+      <details>
+        <summary>「AIタッガー側のデータに、元データに無い商品またはSKUが存在しています」と出ました</summary>
+        <p>2つのCSVの組み合わせが揃っていない可能性があります。同じ時点で書き出した元データCSVと、それをAIタッガーに通したCSVの組み合わせか確認してください。</p>
+      </details>
+      <details>
+        <summary>出力の文字コードは何になりますか</summary>
+        <p>入力したCSVと同じ文字コード（Shift_JISまたはUTF-8）で出力します。楽天RMSへそのままアップロードできます。</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap frow">
+    <span>© 2026 LISUTO</span>
+    <a href="#">会社概要</a>
+    <a href="#">利用規約</a>
+    <a href="#">プライバシーポリシー</a>
+    <span class="right">AIタッガーをご契約のお客様向けページです</span>
+  </div>
+</footer>
+
+<script>
+(function(){
+  "use strict";
+
+  // ───────────────────────── 定数 ─────────────────────────
+  var URL_COL = "商品管理番号（商品URL）";
+  var GENRE_COL = "ジャンルID";
+  var SKU_COL = "SKU管理番号";
+  var DETAIL_COLS = ["AI出力タグ", "AI削除タグ", "結果", "AIエラー"];
+
+  // ───────────────────────── 状態 ─────────────────────────
+  var state = {
+    orig: null,   // {file, encoding, header, rows}
+    auto: null,
+    result: null  // {blob, filename}
+  };
+
+  // ───────────────────────── 画面遷移 ─────────────────────────
+  var panes = {
+    drop: document.getElementById('paneDrop'),
+    settings: document.getElementById('paneSettings'),
+    running: document.getElementById('paneRunning'),
+    result: document.getElementById('paneResult')
+  };
+  var steps = [].slice.call(document.querySelectorAll('.step'));
+
+  function showPane(name){
+    Object.keys(panes).forEach(function(k){ panes[k].hidden = (k !== name); });
+    var stepMap = { drop: 1, settings: 2, running: 2, result: 3 };
+    var active = stepMap[name];
+    steps.forEach(function(s){
+      var n = parseInt(s.dataset.step, 10);
+      s.className = 'step' + (n < active ? ' done' : (n === active ? ' on' : ''));
+    });
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+
+  function resetAll(){
+    state.orig = null;
+    state.auto = null;
+    state.result = null;
+    ['Orig','Auto'].forEach(function(k){
+      document.getElementById('zone'+k).classList.remove('hasfile');
+      document.getElementById('name'+k).hidden = true;
+      document.getElementById('name'+k).textContent = '';
+      document.getElementById('file'+k).value = '';
+    });
+    showPane('drop');
+  }
+
+  // ───────────────────────── 文字コード判定つきCSV読込 ─────────────────────────
+  function detectAndDecode(buffer){
+    // Shift_JIS(cp932)優先で判定し、UTF-8として妥当ならUTF-8を採用する。
+    var bytes = new Uint8Array(buffer);
+    var hasBOM = bytes.length >= 3 && bytes[0] === 0xEF && bytes[1] === 0xBB && bytes[2] === 0xBF;
+    if (hasBOM) {
+      return { text: new TextDecoder('utf-8').decode(buffer), encoding: 'UTF-8' };
+    }
+    try {
+      var utf8 = new TextDecoder('utf-8', { fatal: true }).decode(buffer);
+      return { text: utf8, encoding: 'UTF-8' };
+    } catch (e) {
+      var sjis = new TextDecoder('shift_jis').decode(buffer);
+      return { text: sjis, encoding: 'Shift_JIS' };
+    }
+  }
+
+  function encodeForDownload(text, encoding){
+    if (encoding === 'UTF-8') {
+      return new Blob([text], { type: 'text/csv' });
+    }
+    // Shift_JISで書き出す（Encoding APIが無い環境のフォールバックとしてUTF-8を使う）
+    if (typeof TextEncoder !== 'undefined' && window.Encoding) {
+      // 未使用: 標準APIのみで完結させるため到達しない
+    }
+    return encodeShiftJIS(text);
+  }
+
+  // 簡易Shift_JISエンコーダ（JIS X 0208範囲＋半角・記号をカバー）
+  var SJIS_ENCODER_CACHE = null;
+  function encodeShiftJIS(text){
+    // ブラウザ標準にShift_JISエンコーダは無いため、UTF-8→Shift_JISの変換テーブルをTextDecoderの逆引きで構築する。
+    if (!SJIS_ENCODER_CACHE) {
+      SJIS_ENCODER_CACHE = buildShiftJISEncoder();
+    }
+    var map = SJIS_ENCODER_CACHE;
+    var out = [];
+    for (var i = 0; i < text.length; i++) {
+      var ch = text[i];
+      var bytes = map.get(ch);
+      if (bytes) {
+        for (var j = 0; j < bytes.length; j++) out.push(bytes[j]);
+      } else {
+        out.push(0x3F); // '?' 代替
+      }
+    }
+    return new Blob([new Uint8Array(out)], { type: 'text/csv' });
+  }
+
+  function buildShiftJISEncoder(){
+    var map = new Map();
+    var dec = new TextDecoder('shift_jis');
+    // 1バイト領域 0x00-0x7F, 0xA1-0xDF
+    for (var b = 0x00; b <= 0xFF; b++) {
+      if ((b >= 0x80 && b <= 0xA0) || b > 0xDF) continue;
+      var ch = dec.decode(new Uint8Array([b]));
+      if (ch && ch.length === 1) map.set(ch, [b]);
+    }
+    // 2バイト領域（主要な範囲を総当たり。初回のみ実行するため許容コスト）
+    for (var hi = 0x81; hi <= 0xFC; hi++) {
+      if (hi >= 0xA0 && hi <= 0xDF) continue;
+      for (var lo = 0x40; lo <= 0xFC; lo++) {
+        if (lo === 0x7F) continue;
+        var pair = new Uint8Array([hi, lo]);
+        var decoded;
+        try { decoded = dec.decode(pair); } catch (e) { continue; }
+        if (decoded && decoded.length === 1 && decoded.charCodeAt(0) !== 0xFFFD && !map.has(decoded)) {
+          map.set(decoded, [hi, lo]);
+        }
+      }
+    }
+    return map;
+  }
+
+  // ───────────────────────── CSVパース（引用符・改行対応） ─────────────────────────
+  function parseCSV(text){
+    var rows = [];
+    var row = [];
+    var field = '';
+    var inQuotes = false;
+    var i = 0;
+    var len = text.length;
+
+    // BOM除去
+    if (text.charCodeAt(0) === 0xFEFF) { text = text.slice(1); len = text.length; }
+
+    while (i < len) {
+      var c = text[i];
+      if (inQuotes) {
+        if (c === '"') {
+          if (text[i+1] === '"') { field += '"'; i += 2; continue; }
+          inQuotes = false; i++; continue;
+        }
+        field += c; i++; continue;
+      } else {
+        if (c === '"') { inQuotes = true; i++; continue; }
+        if (c === ',') { row.push(field); field = ''; i++; continue; }
+        if (c === '\r') {
+          if (text[i+1] === '\n') i++;
+          row.push(field); field = ''; rows.push(row); row = []; i++; continue;
+        }
+        if (c === '\n') {
+          row.push(field); field = ''; rows.push(row); row = []; i++; continue;
+        }
+        field += c; i++; continue;
+      }
+    }
+    if (field !== '' || row.length > 0) { row.push(field); rows.push(row); }
+    // 末尾の空行を除去
+    while (rows.length && rows[rows.length-1].length === 1 && rows[rows.length-1][0] === '') rows.pop();
+    return rows;
+  }
+
+  function csvCellNeedsQuote(v){
+    return /[",\r\n]/.test(v);
+  }
+  function csvCell(v){
+    v = v == null ? '' : String(v);
+    if (csvCellNeedsQuote(v)) return '"' + v.replace(/"/g, '""') + '"';
+    return v;
+  }
+  function toCSVText(header, rows){
+    var lines = [header.map(csvCell).join(',')];
+    for (var i = 0; i < rows.length; i++) {
+      var r = rows[i];
+      lines.push(header.map(function(col){ return csvCell(r[col] != null ? r[col] : ''); }).join(','));
+    }
+    return lines.join('\r\n') + '\r\n';
+  }
+
+  function norm(v){ return (v == null ? '' : String(v)).trim(); }
+  function raw(v){ return v == null ? '' : String(v); }
+
+  function readCsvDicts(text, filename){
+    var allRows = parseCSV(text);
+    if (!allRows.length) throw new ToolError('CSVが空です：' + filename);
+
+    var header = allRows[0];
+    var seen = {};
+    var dupes = [];
+    header.forEach(function(c){
+      var n = norm(c);
+      if (!n) return;
+      if (seen[n] && dupes.indexOf(n) === -1) dupes.push(n);
+      seen[n] = true;
+    });
+    if (dupes.length) throw new ToolError('ヘッダーに重複列があります：' + dupes.join('、'));
+
+    var width = header.length;
+    var rows = [];
+    for (var i = 1; i < allRows.length; i++) {
+      var lineNo = i + 1;
+      var arr = allRows[i].slice();
+      if (arr.length < width) {
+        while (arr.length < width) arr.push('');
+      } else if (arr.length > width) {
+        throw new ToolError('列数がヘッダーより多い行があります。ファイル：' + filename + ' / 行番号：' + lineNo);
+      }
+      var obj = {};
+      for (var j = 0; j < width; j++) obj[header[j]] = arr[j];
+      obj.__line_no__ = lineNo;
+      rows.push(obj);
+    }
+    return { header: header, rows: rows };
+  }
+
+  function ToolError(message){ this.message = message; this.name = 'ToolError'; }
+  ToolError.prototype = Object.create(Error.prototype);
+
+  // ───────────────────────── 属性トリプレット列 ─────────────────────────
+  function getAttrTripletColumns(header, fileLabel){
+    var itemByNo = {}, valByNo = {}, unitByNo = {};
+    var reItem = /^商品属性（項目）(\d+)$/;
+    var reVal = /^商品属性（値）(\d+)$/;
+    var reUnit = /^商品属性（単位）(\d+)$/;
+    header.forEach(function(col){
+      var m;
+      if ((m = reItem.exec(col))) itemByNo[+m[1]] = col;
+      else if ((m = reVal.exec(col))) valByNo[+m[1]] = col;
+      else if ((m = reUnit.exec(col))) unitByNo[+m[1]] = col;
+    });
+    var nums = Array.from(new Set(
+      Object.keys(itemByNo).map(Number)
+        .concat(Object.keys(valByNo).map(Number))
+        .concat(Object.keys(unitByNo).map(Number))
+    )).sort(function(a,b){ return a-b; });
+
+    if (!nums.length) throw new ToolError(fileLabel + 'に商品属性（項目/値/単位）列が見つかりません。');
+
+    var missing = [];
+    nums.forEach(function(no){
+      if (!(no in itemByNo)) missing.push('商品属性（項目）' + no);
+      if (!(no in valByNo)) missing.push('商品属性（値）' + no);
+      if (!(no in unitByNo)) missing.push('商品属性（単位）' + no);
+    });
+    if (missing.length) throw new ToolError(fileLabel + 'の商品属性3列セットが崩れています。不足列：' + missing.join('、'));
+
+    return nums.map(function(no){ return [itemByNo[no], valByNo[no], unitByNo[no]]; });
+  }
+
+  function validateRequiredColumns(header, fileLabel){
+    [URL_COL, GENRE_COL, SKU_COL].forEach(function(col){
+      if (header.indexOf(col) === -1) throw new ToolError(fileLabel + 'に必要な列がありません：' + col);
+    });
+  }
+
+  // ───────────────────────── 行レベル判定 ─────────────────────────
+  function classifyRows(rows, fileLabel){
+    var classified = [];
+    var seenUrls = {};
+    var closedUrls = {};
+    var currentUrl = null;
+
+    rows.forEach(function(row){
+      var lineNo = row.__line_no__;
+      var url = norm(row[URL_COL]);
+      var sku = norm(row[SKU_COL]);
+
+      if (!url) throw new ToolError(fileLabel + 'の行番号' + lineNo + 'で商品管理番号（商品URL）が空欄です。');
+
+      if (currentUrl !== null && url !== currentUrl) closedUrls[currentUrl] = true;
+
+      if (closedUrls[url]) {
+        throw new ToolError(fileLabel + 'の行番号' + lineNo + 'で商品管理番号（商品URL）が再出現しています。同一商品の行は連続している必要があります。');
+      }
+
+      var rowType;
+      if (!seenUrls[url]) { rowType = 'product'; seenUrls[url] = true; }
+      else { rowType = sku ? 'sku' : 'option'; }
+
+      currentUrl = url;
+      classified.push({ row: row, type: rowType, url: url, sku: sku });
+    });
+    return classified;
+  }
+
+  function targetKey(item){
+    if (item.type === 'product') return 'product' + item.url + '';
+    if (item.type === 'sku') return 'sku' + item.url + '' + item.sku;
+    return null;
+  }
+  function describeTargetKey(key){
+    var parts = key.split('');
+    if (parts[0] === 'product') return '商品レベル行 / 商品管理番号：' + parts[1];
+    if (parts[0] === 'sku') return 'SKUレベル行 / 商品管理番号：' + parts[1] + ' / SKU管理番号：' + parts[2];
+    return key;
+  }
+
+  function buildTargetMap(targets, fileLabel){
+    var mp = {};
+    var order = [];
+    targets.forEach(function(item){
+      var key = targetKey(item);
+      if (mp.hasOwnProperty(key)) {
+        throw new ToolError(fileLabel + 'で同じ商品行またはSKU行が重複しています。\n' + describeTargetKey(key));
+      }
+      mp[key] = item;
+      order.push(key);
+    });
+    return { map: mp, order: order };
+  }
+
+  // ───────────────────────── 属性抽出 ─────────────────────────
+  function extractAttrsFromRow(row, triplets, fileLabel){
+    var attrs = [];
+    var seen = {};
+    var lineNo = row.__line_no__;
+    var url = norm(row[URL_COL]);
+    var sku = norm(row[SKU_COL]);
+
+    triplets.forEach(function(t){
+      var itemCol = t[0], valCol = t[1], unitCol = t[2];
+      var itemRaw = raw(row[itemCol]);
+      var valRaw = raw(row[valCol]);
+      var unitRaw = raw(row[unitCol]);
+      var itemNorm = norm(itemRaw);
+
+      if (itemNorm === '') {
+        if (norm(valRaw) !== '' || norm(unitRaw) !== '') {
+          throw new ToolError(fileLabel + 'の行番号' + lineNo + 'で、商品属性の項目名が空欄のまま値または単位が入っています。商品管理番号：' + url + ' / SKU管理番号：' + sku);
+        }
+        return;
+      }
+      if (seen[itemNorm]) {
+        throw new ToolError(fileLabel + 'の行番号' + lineNo + 'で、同じ商品属性項目が重複しています：' + itemNorm + '\n商品管理番号：' + url + ' / SKU管理番号：' + sku);
+      }
+      seen[itemNorm] = true;
+      attrs.push([itemRaw, valRaw, unitRaw]);
+    });
+    return attrs;
+  }
+
+  function attrsToMap(attrs){
+    var mp = {};
+    var order = [];
+    attrs.forEach(function(a){
+      var key = norm(a[0]);
+      mp[key] = a;
+      order.push(key);
+    });
+    return { map: mp, order: order };
+  }
+
+  function detectAutoFormat(header){
+    return DETAIL_COLS.every(function(c){ return header.indexOf(c) !== -1; }) ? '詳細版' : '更新版';
+  }
+
+  // ───────────────────────── 出力ヘッダー ─────────────────────────
+  function buildUpdateHeader(maxAttrCount){
+    var header = [URL_COL, GENRE_COL, SKU_COL];
+    for (var i = 1; i <= maxAttrCount; i++) {
+      header.push('商品属性（項目）' + i, '商品属性（値）' + i, '商品属性（単位）' + i);
+    }
+    return header;
+  }
+
+  function buildDetailHeader(autoHeader, maxAttrCount){
+    var header = autoHeader.filter(function(c){ return c !== '__line_no__'; });
+    var existingNums = [];
+    header.forEach(function(col){
+      var m = /^商品属性（(?:項目|値|単位)）(\d+)$/.exec(col);
+      if (m) existingNums.push(+m[1]);
+    });
+    var currentMax = existingNums.length ? Math.max.apply(null, existingNums) : 0;
+    if (currentMax >= maxAttrCount) return header;
+
+    var insertAt = -1;
+    header.forEach(function(col, idx){
+      if (/^商品属性（(?:項目|値|単位)）\d+$/.test(col)) insertAt = idx + 1;
+    });
+    if (insertAt === -1) {
+      insertAt = header.indexOf(SKU_COL) !== -1 ? header.indexOf(SKU_COL) + 1 : header.length;
+    }
+    var addCols = [];
+    for (var i = currentMax + 1; i <= maxAttrCount; i++) {
+      addCols.push('商品属性（項目）' + i, '商品属性（値）' + i, '商品属性（単位）' + i);
+    }
+    return header.slice(0, insertAt).concat(addCols, header.slice(insertAt));
+  }
+
+  function setAttrsToRow(row, attrs, maxAttrCount){
+    for (var i = 1; i <= maxAttrCount; i++) {
+      row['商品属性（項目）' + i] = '';
+      row['商品属性（値）' + i] = '';
+      row['商品属性（単位）' + i] = '';
+    }
+    attrs.forEach(function(a, idx){
+      var i = idx + 1;
+      row['商品属性（項目）' + i] = a[0];
+      row['商品属性（値）' + i] = a[1];
+      row['商品属性（単位）' + i] = a[2];
+    });
+  }
+
+  // ───────────────────────── 本処理 ─────────────────────────
+  function buildProcessedItems(origData, autoData){
+    validateRequiredColumns(origData.header, '元データCSV');
+    validateRequiredColumns(autoData.header, 'AIタッガー後CSV');
+
+    var origTriplets = getAttrTripletColumns(origData.header, '元データCSV');
+    var autoTriplets = getAttrTripletColumns(autoData.header, 'AIタッガー後CSV');
+
+    var origClassified = classifyRows(origData.rows, '元データCSV');
+    var autoClassified = classifyRows(autoData.rows, 'AIタッガー後CSV');
+
+    var origTargets = origClassified.filter(function(x){ return x.type === 'product' || x.type === 'sku'; });
+    var autoTargets = autoClassified.filter(function(x){ return x.type === 'product' || x.type === 'sku'; });
+
+    var origBuilt = buildTargetMap(origTargets, '元データCSV');
+    var autoBuilt = buildTargetMap(autoTargets, 'AIタッガー後CSV');
+    var origMap = origBuilt.map, origOrder = origBuilt.order;
+    var autoMap = autoBuilt.map, autoOrder = autoBuilt.order;
+
+    var autoOnlyKeys = autoOrder.filter(function(k){ return !origMap.hasOwnProperty(k); });
+    if (autoOnlyKeys.length) {
+      throw new ToolError(
+        'AIタッガー側のデータに、元データに無い商品またはSKUが存在しています。\n' +
+        '元データCSVとAIタッガー後CSVの組み合わせを確認してください。\n' +
+        '件数：' + autoOnlyKeys.length + '件\n' +
+        '最初の不一致：' + describeTargetKey(autoOnlyKeys[0])
+      );
+    }
+
+    var skippedOrigOnlyKeys = origOrder.filter(function(k){ return !autoMap.hasOwnProperty(k); });
+
+    autoOrder.forEach(function(key){
+      extractAttrsFromRow(origMap[key].row, origTriplets, '元データCSV');
+      extractAttrsFromRow(autoMap[key].row, autoTriplets, 'AIタッガー後CSV');
+    });
+
+    var processed = [];
+    var maxAttrCount = 0;
+    var addedAttrCount = 0;
+    var rowsWithAddedAttrs = 0;
+    var productCount = 0;
+    var skuCount = 0;
+
+    autoOrder.forEach(function(key){
+      var origItem = origMap[key];
+      var autoItem = autoMap[key];
+
+      var origAttrs = extractAttrsFromRow(origItem.row, origTriplets, '元データCSV');
+      var autoAttrs = extractAttrsFromRow(autoItem.row, autoTriplets, 'AIタッガー後CSV');
+
+      var autoAttrBuilt = attrsToMap(autoAttrs);
+      var autoAttrMap = autoAttrBuilt.map, autoAttrOrder = autoAttrBuilt.order;
+      var origNames = {};
+      origAttrs.forEach(function(a){ origNames[norm(a[0])] = true; });
+
+      var finalAttrs = [];
+      origAttrs.forEach(function(a){
+        var attrKey = norm(a[0]);
+        if (autoAttrMap.hasOwnProperty(attrKey)) {
+          var aiEntry = autoAttrMap[attrKey];
+          finalAttrs.push([a[0], aiEntry[1], aiEntry[2]]);
+        } else {
+          finalAttrs.push([a[0], a[1], a[2]]);
+        }
+      });
+
+      var rowAdded = 0;
+      autoAttrOrder.forEach(function(attrKey){
+        if (origNames[attrKey]) return;
+        var entry = autoAttrMap[attrKey];
+        finalAttrs.push(entry);
+        addedAttrCount++;
+        rowAdded++;
+      });
+      if (rowAdded) rowsWithAddedAttrs++;
+
+      if (origItem.type === 'product') productCount++;
+      else if (origItem.type === 'sku') skuCount++;
+
+      maxAttrCount = Math.max(maxAttrCount, finalAttrs.length);
+      processed.push({ origItem: origItem, autoItem: autoItem, attrs: finalAttrs });
+    });
+
+    var optionCountOrig = origClassified.filter(function(x){ return x.type === 'option'; }).length;
+    var optionCountAuto = autoClassified.filter(function(x){ return x.type === 'option'; }).length;
+    var skippedProductRows = skippedOrigOnlyKeys.filter(function(k){ return k.indexOf('product') === 0; }).length;
+    var skippedSkuRows = skippedOrigOnlyKeys.filter(function(k){ return k.indexOf('sku') === 0; }).length;
+
+    return {
+      processed: processed,
+      summary: {
+        autoFormat: detectAutoFormat(autoData.header),
+        outputRows: processed.length,
+        productRows: productCount,
+        skuRows: skuCount,
+        excludedOptionRowsOrig: optionCountOrig,
+        ignoredOptionRowsAuto: optionCountAuto,
+        skippedOrigOnlyRows: skippedOrigOnlyKeys.length,
+        skippedOrigOnlyProductRows: skippedProductRows,
+        skippedOrigOnlySkuRows: skippedSkuRows,
+        maxAttrCount: maxAttrCount,
+        addedAttrCount: addedAttrCount,
+        rowsWithAddedAttrs: rowsWithAddedAttrs,
+        autoHeader: autoData.header
+      }
+    };
+  }
+
+  function buildUpdateOutput(processed, maxAttrCount){
+    var outHeader = buildUpdateHeader(maxAttrCount);
+    var outRows = processed.map(function(item){
+      var autoRow = item.autoItem.row;
+      var row = {};
+      row[URL_COL] = raw(autoRow[URL_COL]);
+      row[GENRE_COL] = raw(autoRow[GENRE_COL]);
+      row[SKU_COL] = raw(autoRow[SKU_COL]);
+      setAttrsToRow(row, item.attrs, maxAttrCount);
+      return row;
+    });
+    return { header: outHeader, rows: outRows };
+  }
+
+  function buildDetailOutput(processed, autoHeader, maxAttrCount){
+    var outHeader = buildDetailHeader(autoHeader, maxAttrCount);
+    var outRows = processed.map(function(item){
+      var autoRow = item.autoItem.row;
+      var row = {};
+      outHeader.forEach(function(col){ row[col] = raw(autoRow[col]); });
+      setAttrsToRow(row, item.attrs, maxAttrCount);
+      return row;
+    });
+    return { header: outHeader, rows: outRows };
+  }
+
+  function processCsvs(origData, autoData, requestedFormat){
+    var built = buildProcessedItems(origData, autoData);
+    var processed = built.processed, summary = built.summary;
+    var autoFormat = summary.autoFormat;
+    var maxAttrCount = summary.maxAttrCount;
+
+    var outputFormat = requestedFormat;
+    if (outputFormat === 'auto') {
+      outputFormat = (autoFormat === '詳細版') ? 'detail' : 'update';
+    }
+    if (outputFormat === 'detail' && autoFormat !== '詳細版') {
+      throw new ToolError('AIタッガー後CSVが詳細版ではないため、詳細版形式では出力できません。\nAIタッガー側の列をすべて残したい場合は「全項目」を選択してください。');
+    }
+
+    var out, outputTypeLabel;
+    if (outputFormat === 'detail') {
+      out = buildDetailOutput(processed, summary.autoHeader, maxAttrCount);
+      outputTypeLabel = '詳細版形式';
+    } else if (outputFormat === 'full') {
+      out = buildDetailOutput(processed, summary.autoHeader, maxAttrCount);
+      outputTypeLabel = '全項目';
+    } else {
+      out = buildUpdateOutput(processed, maxAttrCount);
+      outputTypeLabel = '更新版形式';
+    }
+    if (requestedFormat === 'auto') outputTypeLabel += '（自動判定）';
+
+    var ts = timestamp();
+    var outputName;
+    if (outputFormat === 'detail') outputName = 'auto_tag_full_' + ts + '.csv';
+    else if (outputFormat === 'full') outputName = 'auto_tag_all_columns_' + ts + '.csv';
+    else outputName = 'normal-item_update_' + ts + '.csv';
+
+    summary.outputName = outputName;
+    summary.outputTypeLabel = outputTypeLabel;
+    summary.outHeader = out.header;
+    summary.outRows = out.rows;
+    return summary;
+  }
+
+  function timestamp(){
+    var d = new Date();
+    function p(n){ return (n < 10 ? '0' : '') + n; }
+    return '' + d.getFullYear() + p(d.getMonth()+1) + p(d.getDate()) + p(d.getHours()) + p(d.getMinutes()) + p(d.getSeconds());
+  }
+
+  // ───────────────────────── UIハンドラ：ファイル選択 ─────────────────────────
+  function bindPicker(zoneKey, pickId, fileId, nameId){
+    var pickBtn = document.getElementById(pickId);
+    var fileInput = document.getElementById(fileId);
+    var zone = document.getElementById('zone'+zoneKey);
+    var nameEl = document.getElementById(nameId);
+
+    pickBtn.addEventListener('click', function(){ fileInput.click(); });
+    zone.addEventListener('dragover', function(e){ e.preventDefault(); });
+    zone.addEventListener('drop', function(e){
+      e.preventDefault();
+      if (e.dataTransfer.files && e.dataTransfer.files[0]) loadFile(e.dataTransfer.files[0]);
+    });
+    fileInput.addEventListener('change', function(){
+      if (fileInput.files && fileInput.files[0]) loadFile(fileInput.files[0]);
+    });
+
+    function loadFile(file){
+      var reader = new FileReader();
+      reader.onload = function(){
+        try {
+          var decoded = detectAndDecode(reader.result);
+          var parsed = readCsvDicts(decoded.text, file.name);
+          var data = { file: file, encoding: decoded.encoding, header: parsed.header, rows: parsed.rows };
+          if (zoneKey === 'Orig') state.orig = data; else state.auto = data;
+          zone.classList.add('hasfile');
+          nameEl.hidden = false;
+          nameEl.textContent = file.name + '（' + decoded.encoding + '）';
+          maybeGoToSettings();
+        } catch (err) {
+          alert((err && err.message) ? err.message : String(err));
+        }
+      };
+      reader.readAsArrayBuffer(file);
+    }
+  }
+  bindPicker('Orig', 'pickOrig', 'fileOrig', 'nameOrig');
+  bindPicker('Auto', 'pickAuto', 'fileAuto', 'nameAuto');
+
+  function maybeGoToSettings(){
+    if (!state.orig || !state.auto) return;
+
+    document.getElementById('sumOrig').textContent = state.orig.file.name;
+    document.getElementById('sumAuto').textContent = state.auto.file.name;
+
+    var autoFormat;
+    try {
+      autoFormat = detectAutoFormat(state.auto.header);
+    } catch (e) {
+      autoFormat = '更新版';
+    }
+    document.getElementById('detected').innerHTML = 'AIタッガー後CSVの自動判定: <b>' + autoFormat + '</b>';
+
+    var detailRadio = document.querySelector('input[name=fmt][value=detail]');
+    detailRadio.disabled = (autoFormat !== '詳細版');
+    detailRadio.closest('label').style.opacity = detailRadio.disabled ? '.45' : '1';
+
+    showPane('settings');
+  }
+
+  document.getElementById('resetFromSettings').addEventListener('click', resetAll);
+  document.getElementById('reset').addEventListener('click', resetAll);
+
+  // ───────────────────────── 実行 ─────────────────────────
+  document.getElementById('runBtn').addEventListener('click', function(){
+    var fmt = document.querySelector('input[name=fmt]:checked').value;
+    showPane('running');
+    // 大きいCSVでも画面が固まって見えないよう、描画を1フレーム待ってから処理する
+    setTimeout(function(){ runProcess(fmt); }, 30);
+  });
+
+  function runProcess(fmt){
+    try {
+      var summary = processCsvs(state.orig, state.auto, fmt);
+      var csvText = toCSVText(summary.outHeader, summary.outRows);
+      var encoding = state.orig.encoding; // 元データCSVの文字コードを踏襲する
+      var blob = encodeForDownload(csvText, encoding);
+      state.result = { blob: blob, filename: summary.outputName };
+      renderSuccess(summary, encoding);
+    } catch (err) {
+      renderError(err);
+    }
+    showPane('result');
+  }
+
+  function renderSuccess(summary, encoding){
+    var box = document.getElementById('resultBox');
+    box.classList.remove('err');
+    document.getElementById('resultIcon').innerHTML = '<svg viewBox="0 0 24 24"><path d="M5 12l5 5L20 7"/></svg>';
+    document.getElementById('resultTitle').textContent = '処理が完了しました';
+
+    var rows = [
+      ['出力形式', summary.outputTypeLabel],
+      ['AIタッガー後CSV形式', summary.autoFormat],
+      ['出力行数', summary.outputRows + '行（商品 ' + summary.productRows + ' / SKU ' + summary.skuRows + '）'],
+      ['AI側だけにあった属性の追加数', summary.addedAttrCount + '件（' + summary.rowsWithAddedAttrs + '行）'],
+      ['元データ側だけのため除外した行', summary.skippedOrigOnlyRows + '件（商品 ' + summary.skippedOrigOnlyProductRows + ' / SKU ' + summary.skippedOrigOnlySkuRows + '）']
+    ];
+    var html = '<table class="summarytable"><tbody>';
+    rows.forEach(function(r, idx){
+      var warn = (idx === 4 && summary.skippedOrigOnlyRows > 0) ? ' class="warn"' : '';
+      html += '<tr' + warn + '><td>' + r[0] + '</td><td>' + r[1] + '</td></tr>';
+    });
+    html += '</tbody></table>';
+    html += '<div class="outname">' + summary.outputName + '（' + encoding + '）</div>';
+    document.getElementById('resultBody').innerHTML = html;
+    document.getElementById('resultBar').hidden = false;
+    document.getElementById('outLabel').textContent = '出力: ' + summary.outputName;
+  }
+
+  function renderError(err){
+    var box = document.getElementById('resultBox');
+    box.classList.add('err');
+    document.getElementById('resultIcon').innerHTML = '<svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg>';
+    document.getElementById('resultTitle').textContent = '処理を中止しました';
+    var msg = (err && err.message) ? err.message : String(err);
+    document.getElementById('resultBody').innerHTML = '<div class="errbox">' + escapeHtml(msg) + '</div>';
+    document.getElementById('resultBar').hidden = true;
+  }
+
+  function escapeHtml(s){
+    return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  }
+
+  document.getElementById('downloadBtn').addEventListener('click', function(){
+    if (!state.result) return;
+    var url = URL.createObjectURL(state.result.blob);
+    var a = document.createElement('a');
+    a.href = url;
+    a.download = state.result.filename;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    setTimeout(function(){ URL.revokeObjectURL(url); }, 1000);
+  });
+
+})();
+</script>
+</body>
+</html>
