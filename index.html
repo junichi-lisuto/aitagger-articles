@@ -114,8 +114,8 @@
   .read:focus-visible{outline:2px solid var(--blue);outline-offset:3px}
   .thumb{width:200px;height:132px;border-radius:8px;overflow:hidden;
          background:var(--blue-wash);display:block;flex:none}
-  .thumb svg{width:100%;height:100%;display:block}
-  .meta{display:flex;gap:9px;align-items:center;margin-bottom:8px;
+  .thumb svg,.thumb img{width:100%;height:100%;display:block;object-fit:cover}
+  .meta{display:flex;gap:9px;align-items:center;margin-bottom:8px;flex-wrap:wrap;
         font-size:11px;color:var(--ink-soft);letter-spacing:.02em}
   .meta .badge{font-weight:700;color:#fff;padding:3px 9px;border-radius:999px}
   .badge.ai{background:var(--c-ai)}
@@ -202,66 +202,87 @@
   <div class="wrap">
     <div class="shead">
       <h2>ツール</h2>
-      <span class="count" id="cnt">8件</span>
+      <span class="count" id="cnt">11件</span>
     </div>
     <p class="sdesc">各ページに使い方が載っています。インストールは不要です。アップロードしたファイルはブラウザ内だけで処理され、サーバーには送信されません。</p>
 
     <div class="grid" id="grid">
 
-      <a class="card" href="#" data-cat="csv">
+      <a class="card" href="tools/rakuten-attribute-align/" data-cat="csv">
+        <span class="ico"><svg viewBox="0 0 24 24"><path d="M8 6h13M8 12h13M8 18h13"/><path d="M3 6h.01M3 12h.01M3 18h.01"/></svg></span>
+        <h3>属性整列ツール</h3>
+        <p>元データCSVとAIタッガー処理後CSVを突き合わせ、商品属性の並びを揃えます。</p>
+        <span class="mps"><span class="mp">楽天市場</span></span>
+      </a>
+
+      <a class="card" href="tools/csv-text-cleaner/" data-cat="csv">
+        <span class="ico"><svg viewBox="0 0 24 24"><path d="M4 7V4h16v3"/><path d="M9 20h6"/><path d="M12 4v16"/><path d="M6 12l2 2-2 2M18 12l-2 2 2 2"/></svg></span>
+        <h3>CSVテキストクリーナー</h3>
+        <p>商品名・説明文などの列から、指定した文字列を削除・置換します。</p>
+        <span class="mps"><span class="mp all">全モール対応</span></span>
+      </a>
+
+      <a class="card" href="tools/csv-row-filter/" data-cat="csv">
         <span class="ico"><svg viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/><path d="M9 3v18M15 3v18"/></svg></span>
-        <h3>CSV列エディタ</h3>
-        <p>列の並べ替え・削除・名前の変更をドラッグで行います。</p>
+        <h3>CSV行抽出ツール</h3>
+        <p>列・条件・検索文字列を指定して、条件に一致する行だけを抜き出します。</p>
         <span class="mps"><span class="mp all">全モール対応</span></span>
       </a>
 
-      <a class="card" href="#" data-cat="link">
-        <span class="ico"><svg viewBox="0 0 24 24"><path d="M4 8h11l-3-3M20 16H9l3 3"/></svg></span>
-        <h3>フォーマット変換</h3>
-        <p>楽天市場の商品CSVを、Yahoo!ショッピングの項目名に合わせます。</p>
+      <a class="card" href="tools/attribute-delete-keep/" data-cat="csv">
+        <span class="ico"><svg viewBox="0 0 24 24"><path d="M8 6h13M8 12h13M8 18h13"/><path d="M3 6h.01M3 12h.01M3 18h.01"/></svg></span>
+        <h3>属性削除／残すツール</h3>
+        <p>指定した商品属性だけを削除する、または指定した属性だけを残します。</p>
+        <span class="mps"><span class="mp">楽天市場</span></span>
+      </a>
+
+      <a class="card" href="tools/capacity-weight-annotator/" data-cat="csv">
+        <span class="ico"><svg viewBox="0 0 24 24"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9z"/><path d="M12 12v9M4 7.5l8 4.5 8-4.5"/></svg></span>
+        <h3>容量・重量補完ツール</h3>
+        <p>「180ml×3本」のような表記から、単品量・総量の注記を自動で書き足します。</p>
         <span class="mps"><span class="mp">楽天市場</span><span class="mp">Yahoo!</span></span>
       </a>
 
-      <a class="card" href="#" data-cat="csv">
-        <span class="ico"><svg viewBox="0 0 24 24"><path d="M12 3v7M12 14v7"/><path d="M5 10h14v4H5z"/><path d="M9 6l3-3 3 3M9 18l3 3 3-3"/></svg></span>
-        <h3>CSV分割・結合</h3>
-        <p>行数の上限に引っかかる大きなCSVを、指定した件数ごとに分けます。</p>
-        <span class="mps"><span class="mp all">全モール対応</span></span>
+      <a class="card" href="tools/range-to-average/" data-cat="csv">
+        <span class="ico"><svg viewBox="0 0 24 24"><path d="M4 12h16"/><path d="M4 12l4-4M4 12l4 4M20 12l-4-4M20 12l-4 4"/></svg></span>
+        <h3>範囲表記→平均値ツール</h3>
+        <p>「10～20cm」のような範囲表記を、平均値1つの数値に書き換えます。</p>
+        <span class="mps"><span class="mp">楽天市場</span></span>
       </a>
 
-      <a class="card" href="#" data-cat="csv">
-        <span class="ico"><svg viewBox="0 0 24 24"><path d="M4 7V5h7v14H8"/><path d="M13 12h7M17 9l3 3-3 3"/></svg></span>
-        <h3>文字コード変換</h3>
-        <p>Shift_JISとUTF-8を相互に変換します。文字化けするときに。</p>
-        <span class="mps"><span class="mp all">全モール対応</span></span>
-      </a>
-
-      <a class="card" href="#" data-cat="check">
-        <span class="ico"><svg viewBox="0 0 24 24"><path d="M4 5h7v14H4zM13 5h7v14h-7z"/><path d="M15.5 12l1.5 1.5 2.5-2.5"/></svg></span>
-        <h3>タグ差分チェッカー</h3>
-        <p>タグ登録の前後で何が変わったかを並べて表示します。</p>
-        <span class="mps"><span class="mp">楽天市場</span><span class="mp">Yahoo!</span></span>
-      </a>
-
-      <a class="card" href="#" data-cat="img">
-        <span class="ico"><svg viewBox="0 0 24 24"><path d="M4 5h16v14H4z"/><circle cx="9" cy="10" r="1.6"/><path d="M4 16l4.5-4 3.5 3 3-2.5L20 17"/></svg></span>
-        <h3>商品画像リサイズ</h3>
-        <p>複数の画像を各モールの規定サイズにまとめて変換します。</p>
-        <span class="mps"><span class="mp all">全モール対応</span></span>
-      </a>
-
-      <a class="card" href="#" data-cat="csv">
+      <a class="card" href="tools/dimension-transfer/" data-cat="csv">
         <span class="ico"><svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h10M4 17h7"/><path d="M17 15l2 2 3-3.5"/></svg></span>
-        <h3>型番・SKU整形</h3>
-        <p>全角半角や記号がそろっていない型番を、ルールを決めて整えます。</p>
-        <span class="mps"><span class="mp all">全モール対応</span></span>
+        <h3>寸法転記ツール</h3>
+        <p>商品説明文からサイズ別の実寸を読み取り、バリエーション項目選択肢へ転記します。</p>
+        <span class="mps"><span class="mp">楽天市場</span></span>
       </a>
 
-      <a class="card" href="#" data-cat="link">
-        <span class="ico"><svg viewBox="0 0 24 24"><path d="M5 4h9l5 5v11H5z"/><path d="M8 12h8M8 16h8M8 8h3"/></svg></span>
-        <h3>スプレッドシート書き出し</h3>
-        <p>処理したCSVをGoogleスプレッドシートへ直接書き出します。</p>
-        <span class="mps"><span class="mp all">全モール対応</span></span>
+      <a class="card" href="tools/crossmall-optimizer/" data-cat="link">
+        <span class="ico"><svg viewBox="0 0 24 24"><path d="M4 8h11l-3-3M20 16H9l3 3"/></svg></span>
+        <h3>CROSSMALL列削除ツール</h3>
+        <p>元CSVとAIタッガー処理後CSVを突き合わせ、CROSSMALL向けの列構成に整えます。</p>
+        <span class="mps"><span class="mp">楽天市場</span></span>
+      </a>
+
+      <a class="card" href="tools/itemrobot-optimizer/" data-cat="link">
+        <span class="ico"><svg viewBox="0 0 24 24"><path d="M4 8h11l-3-3M20 16H9l3 3"/></svg></span>
+        <h3>itemrobot列削除ツール</h3>
+        <p>元CSVとAIタッガー処理後CSVを突き合わせ、itemRobot向けの列構成に整えます。</p>
+        <span class="mps"><span class="mp">楽天市場</span></span>
+      </a>
+
+      <a class="card" href="tools/result-column-filter/" data-cat="check">
+        <span class="ico"><svg viewBox="0 0 24 24"><path d="M4 5h7v14H4zM13 5h7v14h-7z"/><path d="M15.5 12l1.5 1.5 2.5-2.5"/></svg></span>
+        <h3>結果列フィルタ</h3>
+        <p>AIタッガー処理後CSVの「結果」列を見て、変更・タグ追加があった商品だけを抽出します。</p>
+        <span class="mps"><span class="mp">楽天市場</span></span>
+      </a>
+
+      <a class="card" href="tools/duplicate-product-splitter/" data-cat="check">
+        <span class="ico"><svg viewBox="0 0 24 24"><path d="M9 9h10v10H9z"/><path d="M5 5h10v10H5z"/></svg></span>
+        <h3>重複商品振り分けツール</h3>
+        <p>2つのCSVを比べて、両方に存在する商品を取り除きます。</p>
+        <span class="mps"><span class="mp">楽天市場</span></span>
       </a>
 
     </div>
@@ -275,7 +296,7 @@
     <p class="sdesc">商品が「見つかる」しくみは動いています。読んでおくと判断が変わるものだけを置いています。</p>
     <div class="reads">
 
-      <a class="read" href="#">
+      <a class="read" href="https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/" target="_blank" rel="noopener">
         <span class="thumb"><svg viewBox="0 0 200 132" preserveAspectRatio="xMidYMid slice"><rect width="200" height="132" fill="#EFF6FF"/><circle cx="60" cy="66" r="28" fill="none" stroke="#2563EB" stroke-width="4"/><path d="M80 86l22 22" stroke="#2563EB" stroke-width="4" stroke-linecap="round"/><path d="M120 46h56M120 62h40M120 78h56M120 94h32" stroke="#93C5FD" stroke-width="5" stroke-linecap="round"/></svg></span>
         <span>
           <span class="meta"><span class="badge ai">AI検索</span><span>Google公式ブログ</span><span>2026/08/31</span></span>
@@ -288,8 +309,21 @@
         </span>
       </a>
 
-      <a class="read" href="#">
-        <span class="thumb"><svg viewBox="0 0 200 132" preserveAspectRatio="xMidYMid slice"><rect width="200" height="132" fill="#FEF2F2"/><rect x="30" y="30" width="70" height="72" rx="8" fill="none" stroke="#DC2626" stroke-width="4"/><rect x="112" y="30" width="70" height="72" rx="8" fill="none" stroke="#F87171" stroke-width="4"/><path d="M42 50h46M42 66h30M42 82h38" stroke="#FCA5A5" stroke-width="4" stroke-linecap="round"/></svg></span>
+      <a class="read" href="https://searchengineland.com/google-is-dynamically-expanding-ai-overviews-for-some-queries-486200" target="_blank" rel="noopener">
+        <span class="thumb"><svg viewBox="0 0 200 132" preserveAspectRatio="xMidYMid slice"><rect width="200" height="132" fill="#F5F3FF"/><path d="M96 30l10 24 24 10-24 10-10 24-10-24-24-10 24-10z" fill="#7C3AED"/><path d="M148 84l6 14 14 6-14 6-6 14-6-14-14-6 14-6z" fill="#C4B5FD"/><path d="M40 116h130" stroke="#DDD6FE" stroke-width="5" stroke-linecap="round"/></svg></span>
+        <span>
+          <span class="meta"><span class="badge seo">SEO</span><span>Search Engine Land</span><span>2026/08/28</span></span>
+          <h4>「AI Overviewsの自動拡大」をGoogleが解説、その裏でオーガニック検索結果はさらに下に</h4>
+          <ul>
+            <li>Google広報が「動的な拡大でユーザーは検索をより有用と感じる」と説明したと報じた。</li>
+            <li>AI Overviewsの拡大分、従来の検索結果（オーガニックリンク）がさらに下へ押し下げられる。</li>
+            <li>拡大が起きるクエリの条件や判定信号は、Googleが非開示のままとした。</li>
+          </ul>
+        </span>
+      </a>
+
+      <a class="read" href="https://www.nikkei.com/article/DGXZQOUC077660X00C26A7000000/" target="_blank" rel="noopener">
+        <span class="thumb"><img src="https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3277322007072026000000-2.png?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&w=1200&s=6e64a15bbb563fbaa537458efc4ef55d" alt="" loading="lazy"></span>
         <span>
           <span class="meta"><span class="badge rakuten">楽天AI</span><span>日本経済新聞</span><span>2026/07/07</span></span>
           <h4>楽天市場のAI検索、商品を最大4つまで並べて比較できる新機能を追加</h4>
@@ -301,8 +335,8 @@
         </span>
       </a>
 
-      <a class="read" href="#">
-        <span class="thumb"><svg viewBox="0 0 200 132" preserveAspectRatio="xMidYMid slice"><rect width="200" height="132" fill="#FFFBEB"/><rect x="36" y="30" width="60" height="72" rx="8" fill="#FCD34D"/><rect x="112" y="30" width="60" height="72" rx="8" fill="none" stroke="#D97706" stroke-width="4" stroke-dasharray="6 5"/><path d="M124 58h36M124 76h24" stroke="#D97706" stroke-width="4.5" stroke-linecap="round"/></svg></span>
+      <a class="read" href="https://www.lycorp.co.jp/ja/news/release/020144/" target="_blank" rel="noopener">
+        <span class="thumb"><img src="https://www.lycorp.co.jp/ja/news/2026/1ec4604668ca79e5aa17ee63fd0f654737364eae.png" alt="" loading="lazy"></span>
         <span>
           <span class="meta"><span class="badge yahoo">Yahoo!AI</span><span>LINEヤフー公式</span><span>2026/06/23</span></span>
           <h4>Yahoo!ショッピング、メモした内容からAIが商品を提案する「AIお買い物メモ」を開始</h4>
@@ -314,7 +348,7 @@
         </span>
       </a>
 
-      <a class="read" href="#">
+      <a class="read" href="https://www.cnbc.com/2026/03/24/openai-revamps-shopping-experience-in-chatgpt-after-instant-checkout.html" target="_blank" rel="noopener">
         <span class="thumb"><svg viewBox="0 0 200 132" preserveAspectRatio="xMidYMid slice"><rect width="200" height="132" fill="#EFF6FF"/><rect x="30" y="38" width="60" height="56" rx="7" fill="none" stroke="#2563EB" stroke-width="4"/><path d="M100 66h30" stroke="#2563EB" stroke-width="4" stroke-linecap="round"/><path d="M120 56l18 10-18 10" stroke="#2563EB" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/><rect x="150" y="38" width="50" height="56" rx="7" fill="#DBEAFE"/></svg></span>
         <span>
           <span class="meta"><span class="badge ai">AI検索</span><span>CNBC</span><span>2026/03/24</span></span>
