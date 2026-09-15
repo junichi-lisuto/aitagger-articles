@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CSVテキストクリーナー｜AIタッガー ツールセンター</title>
+<style>
+  :root{
+    --blue:#2563EB;
+    --blue-dark:#1E3A8A;
+    --blue-wash:#EFF6FF;
+    --ink:#0F172A;
+    --ink-mid:#475569;
+    --ink-soft:#64748B;
+    --line:#E2E8F0;
+    --tint:#F8FAFC;
+    --green:#16A34A;
+    --amber:#B45309;
+    --amber-wash:#FFFBEB;
+    --red:#DC2626;
+    --red-wash:#FEF2F2;
+    --maxw:1120px;
+    --jp:"Noto Sans JP","Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,system-ui,sans-serif;
+    --mono:ui-monospace,"SFMono-Regular",Consolas,"Liberation Mono",monospace;
+  }
+  *{box-sizing:border-box}
+  [hidden]{display:none!important}
+  body{margin:0;background:#fff;color:var(--ink);font-family:var(--jp);
+       font-size:16px;line-height:1.8;-webkit-font-smoothing:antialiased}
+  a{color:inherit}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding-inline:24px}
+
+  header{border-bottom:1px solid var(--line);background:#fff;position:sticky;top:0;z-index:20}
+  .hbar{display:flex;align-items:center;gap:28px;height:68px}
+  .logo{display:flex;align-items:center;gap:10px;font-weight:700;font-size:17px;
+        text-decoration:none;flex:none}
+  .logo .mark{background:var(--blue);color:#fff;font-weight:800;font-size:13px;
+        padding:5px 7px;border-radius:5px;letter-spacing:.04em}
+  .logo .sub{color:var(--ink-soft);font-weight:500;font-size:13px;
+        border-left:1px solid var(--line);padding-left:10px;margin-left:2px}
+  nav{margin-left:auto;display:flex;gap:26px;align-items:center}
+  nav a{font-size:14px;font-weight:500;color:var(--ink-mid);text-decoration:none;
+        padding:6px 0;border-bottom:2px solid transparent}
+  nav a:hover{color:var(--blue);border-bottom-color:var(--blue)}
+  .toadmin{font-size:13px;font-weight:600;color:#fff;background:var(--blue);
+        padding:9px 16px;border-radius:6px;text-decoration:none;white-space:nowrap}
+
+  .crumb{font-size:12.5px;color:var(--ink-soft);padding:16px 0 0}
+  .crumb a{text-decoration:none}
+  .crumb a:hover{color:var(--blue)}
+  .crumb span{margin:0 7px;color:#CBD5E1}
+
+  .thead{display:flex;gap:18px;align-items:flex-start;padding:20px 0 26px}
+  .ico{width:54px;height:54px;border-radius:13px;background:var(--blue);flex:none;
+       display:flex;align-items:center;justify-content:center}
+  .ico svg{width:27px;height:27px;stroke:#fff;fill:none;stroke-width:1.9;
+       stroke-linecap:round;stroke-linejoin:round}
+  .thead h1{font-size:28px;font-weight:700;margin:0 0 6px;letter-spacing:-.01em;
+       color:var(--blue-dark);line-height:1.4}
+  .thead p{font-size:15px;color:var(--ink-mid);margin:0;max-width:46em}
+  .tmeta{display:flex;gap:6px;margin-top:11px;flex-wrap:wrap}
+  .mp{font-size:10.5px;font-weight:700;padding:3px 8px;border-radius:4px;
+      background:#ECFDF5;color:#15803D}
+  .mp.grey{background:var(--tint);color:var(--ink-soft)}
+  .mp.src{background:var(--tint);color:var(--ink-soft);font-family:var(--mono);font-weight:500}
+
+  .bench{border:1px solid var(--line);border-radius:14px;overflow:hidden;
+         box-shadow:0 1px 3px rgba(15,23,42,.04)}
+  .steps{display:flex;background:var(--tint);border-bottom:1px solid var(--line)}
+  .step{flex:1;padding:13px 18px;font-size:13px;font-weight:600;color:var(--ink-soft);
+        display:flex;align-items:center;gap:9px;border-right:1px solid var(--line)}
+  .step:last-child{border-right:none}
+  .step .n{width:21px;height:21px;border-radius:50%;background:#CBD5E1;color:#fff;
+        font-size:11.5px;display:flex;align-items:center;justify-content:center;flex:none}
+  .step.on{color:var(--blue-dark);background:#fff}
+  .step.on .n{background:var(--blue)}
+  .step.done .n{background:var(--green)}
+
+  /* 状態A：投入口 */
+  .drop{padding:52px 24px;text-align:center;background:#fff}
+  .dropzone{border:2px dashed #CBD5E1;border-radius:12px;padding:44px 24px;
+        background:var(--tint);transition:.15s}
+  .dropzone:hover{border-color:var(--blue);background:var(--blue-wash)}
+  .dropzone.hasfile{border-style:solid;border-color:var(--green);background:#F0FDF4}
+  .dropzone svg{width:44px;height:44px;stroke:var(--blue);fill:none;stroke-width:1.6;
+        stroke-linecap:round;stroke-linejoin:round;margin-bottom:16px}
+  .dropzone.hasfile svg{stroke:var(--green)}
+  .dropzone h2{font-size:18px;font-weight:700;margin:0 0 8px}
+  .dropzone p{font-size:13.5px;color:var(--ink-soft);margin:0 0 22px}
+  input[type=file]{display:none}
+  .btn{display:inline-block;background:var(--blue);color:#fff;font-weight:600;
+       font-size:15px;padding:13px 30px;border-radius:8px;text-decoration:none;
+       border:none;font-family:inherit;cursor:pointer}
+  .btn:hover{background:#1D4ED8}
+  .btn:disabled{background:#CBD5E1;cursor:not-allowed}
+  .btn:focus-visible{outline:2px solid var(--blue-dark);outline-offset:3px}
+  .btn.ghost{background:#fff;color:var(--blue);border:1.5px solid var(--line)}
+  .btn.ghost:hover{border-color:var(--blue);background:var(--blue-wash)}
+  .btn.sm{padding:8px 16px;font-size:13px}
+  .btn.danger{background:#fff;color:var(--red);border:1.5px solid #FECACA}
+  .btn.danger:hover{background:var(--red-wash);border-color:var(--red)}
+  .note{font-size:12px;color:var(--ink-soft);margin-top:18px}
+  .note b{color:var(--ink-mid);font-weight:600}
+
+  /* 状態B：ルール編集 */
+  .work{padding:24px}
+  .rulebuild{display:grid;grid-template-columns:1.1fr 1fr;gap:24px;margin-bottom:22px}
+  .field{margin-bottom:12px}
+  .field label{display:block;font-size:12px;font-weight:700;color:var(--ink-mid);margin-bottom:5px}
+  .field select,.field input[type=text]{
+        width:100%;padding:9px 11px;border:1px solid var(--line);border-radius:7px;
+        font-family:inherit;font-size:13.5px;background:#fff;color:var(--ink)}
+  .field select:focus,.field input[type=text]:focus{outline:2px solid var(--blue);outline-offset:-1px}
+  .fieldrow{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+  .modedesc{font-size:12px;color:var(--ink-soft);background:var(--tint);
+        padding:8px 11px;border-radius:7px;margin-bottom:12px;min-height:16px}
+  .addbtns{display:flex;gap:8px;flex-wrap:wrap}
+
+  .presetbox{border:1px solid var(--line);border-radius:10px;padding:16px;background:var(--tint)}
+  .presetbox h3{font-size:13px;font-weight:700;margin:0 0 10px}
+  .presetlist{display:flex;flex-direction:column;gap:6px;max-height:160px;overflow:auto;margin-bottom:10px}
+  .presetitem{display:flex;align-items:center;gap:8px;background:#fff;border:1px solid var(--line);
+        border-radius:7px;padding:7px 10px;font-size:12.5px}
+  .presetitem label{flex:1;cursor:pointer;display:flex;flex-direction:column;gap:1px}
+  .presetitem .pname{font-weight:600;color:var(--ink)}
+  .presetitem .pcond{color:var(--ink-soft);font-size:11px;font-family:var(--mono)}
+  .presetempty{font-size:12px;color:var(--ink-soft);padding:8px 2px}
+  .savepreset{display:flex;gap:8px;align-items:center;margin-top:10px;padding-top:10px;border-top:1px dashed var(--border,var(--line))}
+  .savepreset input{flex:1;padding:7px 10px;border:1px solid var(--line);border-radius:6px;font-size:12.5px;font-family:inherit}
+
+  .ruletable{width:100%;border-collapse:collapse;font-size:12.5px;margin-bottom:4px}
+  .ruletable th{background:var(--tint);text-align:left;padding:8px 10px;font-weight:700;
+        border:1px solid var(--line);color:var(--ink-mid);white-space:nowrap}
+  .ruletable td{padding:7px 10px;border:1px solid var(--line);color:var(--ink-mid)}
+  .ruletable td.kw{font-family:var(--mono);font-size:11.5px;word-break:break-all}
+  .ruletable .rowbtns{display:flex;gap:4px;white-space:nowrap}
+  .iconbtn{background:none;border:1px solid var(--line);border-radius:5px;width:26px;height:26px;
+        cursor:pointer;color:var(--ink-soft);font-size:13px;line-height:1;font-family:inherit}
+  .iconbtn:hover{border-color:var(--blue);color:var(--blue)}
+  .iconbtn.rm:hover{border-color:var(--red);color:var(--red)}
+  .rulesempty{font-size:12.5px;color:var(--ink-soft);padding:16px;text-align:center;
+        border:1px dashed var(--line);border-radius:8px;background:var(--tint)}
+
+  .warnbox{font-size:12px;color:var(--amber);background:var(--amber-wash);
+        border:1px solid var(--fix-border,#FDE68A);border-radius:8px;padding:10px 13px;margin:16px 0}
+
+  .running{padding:60px 24px;text-align:center}
+  .spinner{width:36px;height:36px;border:3px solid var(--line);border-top-color:var(--blue);
+        border-radius:50%;margin:0 auto 18px;animation:spin .8s linear infinite}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  .running p{font-size:14px;color:var(--ink-mid);margin:0}
+
+  .result{padding:32px 24px}
+  .result.err{background:var(--red-wash)}
+  .rhead{display:flex;align-items:center;gap:10px;margin-bottom:18px}
+  .rhead .ricon{width:32px;height:32px;border-radius:50%;background:var(--green);
+        display:flex;align-items:center;justify-content:center;flex:none}
+  .rhead .ricon svg{width:16px;height:16px;stroke:#fff;fill:none;stroke-width:2.5;
+        stroke-linecap:round;stroke-linejoin:round}
+  .result.err .rhead .ricon{background:var(--red)}
+  .rhead h2{font-size:17px;font-weight:700;margin:0}
+  .errbox{font-size:13.5px;color:var(--red);background:#fff;border:1px solid #FECACA;
+        border-radius:8px;padding:14px 16px;white-space:pre-wrap;line-height:1.7;font-family:var(--mono)}
+  .summarytable{width:100%;border-collapse:collapse;font-size:13px;margin-bottom:18px}
+  .summarytable td{padding:7px 4px;border-bottom:1px solid var(--line)}
+  .summarytable td:first-child{color:var(--ink-soft);width:60%}
+  .summarytable td:last-child{text-align:right;font-weight:600;font-variant-numeric:tabular-nums}
+  .outname{font-family:var(--mono);font-size:13px;background:var(--tint);
+        padding:10px 14px;border-radius:8px;margin-bottom:18px;word-break:break-all}
+  .bar{display:flex;gap:10px;padding:15px 24px;border-top:1px solid var(--line);
+       background:var(--tint);align-items:center;flex-wrap:wrap}
+  .bar .sp{margin-left:auto;font-size:12.5px;color:var(--ink-soft)}
+  .filepill{font-size:12.5px;color:var(--ink-mid);background:var(--tint);
+        border:1px solid var(--line);border-radius:999px;padding:6px 14px;display:inline-flex;
+        align-items:center;gap:8px;margin-bottom:18px}
+  .filepill .dot{width:7px;height:7px;border-radius:50%;background:var(--green)}
+  .filepill code{font-family:var(--mono);font-size:11.5px}
+
+  section{padding:60px 0}
+  .band{background:var(--tint);border-block:1px solid var(--line)}
+  h2.sec{font-size:21px;font-weight:700;margin:0 0 6px}
+  .sdesc{font-size:14px;color:var(--ink-mid);margin:0 0 32px;max-width:46em}
+  .howto{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+  .how{background:#fff;border:1px solid var(--line);border-radius:11px;padding:22px}
+  .how .n{width:26px;height:26px;border-radius:7px;background:var(--blue);color:#fff;
+       font-size:13px;font-weight:700;display:flex;align-items:center;
+       justify-content:center;margin-bottom:13px}
+  .how h3{font-size:15px;font-weight:700;margin:0 0 7px;line-height:1.55}
+  .how p{font-size:13px;color:var(--ink-mid);margin:0;line-height:1.75}
+
+  table.modetable{width:100%;border-collapse:collapse;font-size:13px;background:#fff;
+        border:1px solid var(--line);border-radius:11px;overflow:hidden}
+  table.modetable th{background:var(--tint);text-align:left;padding:11px 14px;font-weight:700;
+        border-bottom:1px solid var(--line);color:var(--ink-mid)}
+  table.modetable td{padding:11px 14px;border-bottom:1px solid var(--line);color:var(--ink-mid)}
+  table.modetable tr:last-child td{border-bottom:none}
+
+  .faq{max-width:800px}
+  details{border-bottom:1px solid var(--line)}
+  summary{font-size:15px;font-weight:600;padding:17px 34px 17px 0;cursor:pointer;
+       list-style:none;position:relative;line-height:1.6}
+  summary::-webkit-details-marker{display:none}
+  summary::after{content:"";position:absolute;right:8px;top:26px;width:8px;height:8px;
+       border-right:2px solid var(--ink-soft);border-bottom:2px solid var(--ink-soft);
+       transform:rotate(45deg);transition:.15s}
+  details[open] summary::after{transform:rotate(-135deg);top:29px}
+  summary:hover{color:var(--blue)}
+  details p{font-size:14px;color:var(--ink-mid);margin:0 0 19px;padding-right:34px}
+
+  footer{border-top:1px solid var(--line);padding:34px 0}
+  .frow{display:flex;gap:24px;align-items:center;flex-wrap:wrap;
+        font-size:13px;color:var(--ink-soft)}
+  .frow a{text-decoration:none}
+  .frow a:hover{color:var(--blue)}
+  .frow .right{margin-left:auto}
+
+  @media(max-width:900px){
+    .rulebuild{grid-template-columns:1fr}
+    .fieldrow{grid-template-columns:1fr}
+    .howto{grid-template-columns:1fr}
+    nav{display:none}
+    .thead h1{font-size:23px}
+    .step{font-size:0;padding:13px 10px;justify-content:center}
+    .step .n{font-size:11.5px}
+    table.modetable{display:block;overflow-x:auto}
+  }
+  @media(prefers-reduced-motion:reduce){*{transition:none!important}.spinner{animation:none}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap hbar">
+    <a class="logo" href="../../mockups/2026-09-11_トップページ_モックアップ.html"><span class="mark">AI</span>タッガー<span class="sub">ツールセンター</span></a>
+    <nav>
+      <a href="#">ツール</a>
+      <a href="#">AI検索を知る</a>
+      <a href="#">困ったときは</a>
+    </nav>
+    <a class="toadmin" href="#">管理画面を開く</a>
+  </div>
+</header>
+
+<div class="wrap">
+  <p class="crumb"><a href="#">ツール</a><span>/</span><a href="#">CSV加工</a><span>/</span>CSVテキストクリーナー</p>
+
+  <div class="thead">
+    <span class="ico"><svg viewBox="0 0 24 24"><path d="M4 7V4h16v3"/><path d="M9 20h6"/><path d="M12 4v16"/><path d="M6 12l2 2-2 2M18 12l-2 2 2 2"/></svg></span>
+    <div>
+      <h1>CSVテキストクリーナー</h1>
+      <p>商品名・説明文などの列から、指定した文字列を削除・置換します。ルールを複数登録して順番に適用でき、よく使う条件はプリセットとして保存できます。</p>
+      <div class="tmeta">
+        <span class="mp">全モール対応</span>
+        <span class="mp grey">CSV加工</span>
+        <span class="mp grey">ブラウザ内で処理</span>
+        <span class="mp src">元ツール: 説明文系\説明文削除ツール\CSVテキストクリーナー.py ／ 説明文系\説明文置換ツール\説明文置換ツール.py</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="bench">
+    <div class="steps" id="steps">
+      <div class="step on" data-step="1"><span class="n">1</span>ファイルを選ぶ</div>
+      <div class="step" data-step="2"><span class="n">2</span>ルールを設定する</div>
+      <div class="step" data-step="3"><span class="n">3</span>ダウンロード</div>
+    </div>
+
+    <!-- 状態A：投入口 -->
+    <div id="paneDrop">
+      <div class="drop">
+        <div class="dropzone" id="zoneFile">
+          <svg viewBox="0 0 24 24"><path d="M12 16V4M8 8l4-4 4 4"/><path d="M4 15v3a2 2 0 002 2h12a2 2 0 002-2v-3"/></svg>
+          <h2>CSVファイルをここにドラッグ</h2>
+          <p>または、ボタンからファイルを選んでください</p>
+          <button class="btn" id="pickFile" type="button">ファイルを選ぶ</button>
+          <input type="file" id="fileInput" accept=".csv">
+        </div>
+        <p class="note">
+          対応形式: CSV（Shift_JIS / UTF-8）<br>
+          <b>ファイルはお使いのブラウザの中だけで処理され、サーバーへは送信されません。</b>
+        </p>
+      </div>
+    </div>
+
+    <!-- 状態B：ルール編集 -->
+    <div id="paneWork" hidden>
+      <div class="work">
+        <div class="filepill"><span class="dot"></span>読み込んだファイル: <code id="fileName"></code></div>
+
+        <div class="rulebuild">
+          <div>
+            <div class="fieldrow">
+              <div class="field">
+                <label for="selCol">対象列</label>
+                <select id="selCol"></select>
+              </div>
+              <div class="field">
+                <label for="selMode">処理タイプ</label>
+                <select id="selMode">
+                  <option value="after">指定文字以降を削除／置換</option>
+                  <option value="before">指定文字以前を削除／置換</option>
+                  <option value="exact">指定文字を削除／置換</option>
+                  <option value="regex">正規表現で削除／置換</option>
+                  <option value="between">指定文字の間を削除／置換</option>
+                </select>
+              </div>
+            </div>
+            <div class="modedesc" id="modeDesc"></div>
+            <div class="fieldrow">
+              <div class="field">
+                <label id="lblKw1" for="inKw1">検索文字列</label>
+                <input type="text" id="inKw1" placeholder="例: &lt;!--関連">
+              </div>
+              <div class="field" id="fieldKw2" hidden>
+                <label for="inKw2">終了文字列</label>
+                <input type="text" id="inKw2" placeholder="例: &lt;!--比較">
+              </div>
+            </div>
+            <div class="field">
+              <label for="inRep">置換後文字列（空欄なら削除になります）</label>
+              <input type="text" id="inRep" placeholder="空欄でよければそのまま">
+            </div>
+            <div class="addbtns">
+              <button class="btn sm" id="addRuleBtn">ルールを追加</button>
+              <button class="btn sm ghost" id="savePresetOpenBtn">このルールをプリセットとして保存</button>
+            </div>
+          </div>
+
+          <div class="presetbox">
+            <h3>プリセット</h3>
+            <div class="presetlist" id="presetList"></div>
+            <button class="btn sm ghost" id="addFromPresetBtn" style="width:100%">選択したプリセットを追加</button>
+            <div class="savepreset" id="savePresetRow" hidden>
+              <input type="text" id="presetNameInput" placeholder="プリセット名を入力">
+              <button class="btn sm" id="savePresetConfirmBtn">保存</button>
+            </div>
+          </div>
+        </div>
+
+        <table class="ruletable" id="ruleTable">
+          <thead>
+            <tr><th>列</th><th>処理タイプ</th><th>検索文字列／範囲</th><th>置換後</th><th></th></tr>
+          </thead>
+          <tbody id="ruleTbody"></tbody>
+        </table>
+        <p class="rulesempty" id="rulesEmpty">まだルールがありません。上のフォームから追加してください。</p>
+      </div>
+
+      <div class="bar">
+        <button class="btn" id="runBtn">実行して保存</button>
+        <button class="btn ghost" id="resetFromWork">別のファイルにする</button>
+        <span class="sp" id="ruleCount">ルール 0件</span>
+      </div>
+    </div>
+
+    <!-- 状態C：処理中 -->
+    <div id="paneRunning" hidden>
+      <div class="running">
+        <div class="spinner"></div>
+        <p>ルールを適用しています…</p>
+      </div>
+    </div>
+
+    <!-- 状態D：結果 -->
+    <div id="paneResult" hidden>
+      <div class="result" id="resultBox">
+        <div class="rhead">
+          <span class="ricon" id="resultIcon"><svg viewBox="0 0 24 24"><path d="M5 12l5 5L20 7"/></svg></span>
+          <h2 id="resultTitle">処理が完了しました</h2>
+        </div>
+        <div id="resultBody"></div>
+      </div>
+      <div class="bar" id="resultBar">
+        <button class="btn" id="downloadBtn">ダウンロード</button>
+        <button class="btn ghost" id="reset">別のファイルにする</button>
+        <span class="sp" id="outLabel"></span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══ 使い方 ══ -->
+<section class="band">
+  <div class="wrap">
+    <h2 class="sec">使い方</h2>
+    <p class="sdesc">3ステップで終わります。ファイルはどこにも送信されません。</p>
+    <div class="howto">
+      <div class="how">
+        <span class="n">1</span>
+        <h3>CSVを読み込む</h3>
+        <p>商品名・説明文などが入ったCSVをそのまま入れてください。文字コードは自動で判別します。</p>
+      </div>
+      <div class="how">
+        <span class="n">2</span>
+        <h3>ルールを設定する</h3>
+        <p>対象列・処理タイプ・検索文字列を指定して「ルールを追加」。複数ルールは上から順に適用されます。よく使う条件はプリセットに保存できます。</p>
+      </div>
+      <div class="how">
+        <span class="n">3</span>
+        <h3>実行して保存</h3>
+        <p>「実行して保存」を押すと、ルールが適用されたCSVがダウンロードされます。プリセットはブラウザに保存され、次回もそのまま使えます。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ 処理タイプ一覧 ══ -->
+<section>
+  <div class="wrap">
+    <h2 class="sec">処理タイプ一覧</h2>
+    <p class="sdesc">置換後文字列を空欄にすると削除、何か入力すると置換になります。</p>
+    <table class="modetable">
+      <thead><tr><th>処理タイプ</th><th>内容</th></tr></thead>
+      <tbody>
+        <tr><td>指定文字以降を削除／置換</td><td>指定した文字列が見つかった場合、その文字列以降の内容を削除・置換します。</td></tr>
+        <tr><td>指定文字以前を削除／置換</td><td>指定した文字列が見つかった場合、その文字列より前の内容を削除・置換します。</td></tr>
+        <tr><td>指定文字を削除／置換</td><td>指定した文字列だけを削除・置換します。</td></tr>
+        <tr><td>正規表現で削除／置換</td><td>正規表現に一致する部分を削除・置換します。HTMLタグ除去などに使えます。</td></tr>
+        <tr><td>指定文字の間を削除／置換</td><td>開始文字列と終了文字列を指定し、その間の内容を削除・置換します。</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ══ よくある質問 ══ -->
+<section class="band">
+  <div class="wrap">
+    <h2 class="sec">よくある質問</h2>
+    <p class="sdesc">ここにない場合は、下の窓口までお問い合わせください。</p>
+    <div class="faq">
+      <details open>
+        <summary>アップロードした商品データが外部に送られることはありませんか</summary>
+        <p>ありません。このツールはお使いのブラウザの中だけで動いており、ファイルの中身はLISUTOのサーバーを含め、どこにも送信していません。</p>
+      </details>
+      <details>
+        <summary>「以降を削除」で想定より広い範囲が消えました</summary>
+        <p>検索文字列が別の場所にも含まれていないか確認してください。ルールは上から順に適用されるため、先のルールで文字列が変わり、後のルールの検索文字列に一致しなくなることもあります。元のCSVから最初からやり直してください。</p>
+      </details>
+      <details>
+        <summary>プリセットはどこに保存されますか</summary>
+        <p>お使いのブラウザの中に保存されます。他のパソコンやブラウザには引き継がれません。よく使うルールは名前を付けて保存しておくと、次回すぐに呼び出せます。</p>
+      </details>
+      <details>
+        <summary>元のファイルは上書きされますか</summary>
+        <p>されません。処理結果は新しいCSVファイルとしてダウンロードされ、元のファイルはそのまま残ります。</p>
+      </details>
+      <details>
+        <summary>出力の文字コードは何になりますか</summary>
+        <p>入力したCSVと同じ文字コード（Shift_JISまたはUTF-8）で出力します。楽天RMSなどへそのままアップロードできます。</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap frow">
+    <span>© 2026 LISUTO</span>
+    <a href="#">会社概要</a>
+    <a href="#">利用規約</a>
+    <a href="#">プライバシーポリシー</a>
+    <span class="right">AIタッガーをご契約のお客様向けページです</span>
+  </div>
+</footer>
+
+<script>
+(function(){
+  "use strict";
+
+  var PRESET_STORAGE_KEY = 'csvTextCleaner.presets.v1';
+
+  var MODE_LABELS = {
+    after:   '指定文字以降を削除／置換',
+    before:  '指定文字以前を削除／置換',
+    exact:   '指定文字を削除／置換',
+    regex:   '正規表現で削除／置換',
+    between: '指定文字の間を削除／置換'
+  };
+  var MODE_DESC = {
+    after:   '指定文字列が見つかった場合、その文字列以降を削除（置換後文字列があれば末尾に付加）します。',
+    before:  '指定文字列が見つかった場合、その文字列より前を削除（置換後文字列があれば先頭に付加）します。',
+    exact:   '指定した文字列を、置換後文字列（空欄なら削除）に置き換えます。',
+    regex:   '正規表現に一致する部分を、置換後文字列（空欄なら削除）に置き換えます。',
+    between: '開始文字列と終了文字列の間を、置換後文字列（空欄なら削除）に置き換えます。'
+  };
+
+  var state = {
+    fileName: null,
+    encoding: null,
+    header: [],
+    rows: [],      // array of arrays
+    rules: [],     // {column, mode, keyword1, keyword2, replaceText}
+    presets: [],
+    result: null
+  };
+
+  // ───────────────────────── 画面遷移 ─────────────────────────
+  var panes = {
+    drop: document.getElementById('paneDrop'),
+    work: document.getElementById('paneWork'),
+    running: document.getElementById('paneRunning'),
+    result: document.getElementById('paneResult')
+  };
+  var steps = [].slice.call(document.querySelectorAll('.step'));
+
+  function showPane(name){
+    Object.keys(panes).forEach(function(k){ panes[k].hidden = (k !== name); });
+    var stepMap = { drop: 1, work: 2, running: 2, result: 3 };
+    var active = stepMap[name];
+    steps.forEach(function(s){
+      var n = parseInt(s.dataset.step, 10);
+      s.className = 'step' + (n < active ? ' done' : (n === active ? ' on' : ''));
+    });
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+
+  function resetAll(){
+    state.fileName = null;
+    state.encoding = null;
+    state.header = [];
+    state.rows = [];
+    state.rules = [];
+    state.result = null;
+    document.getElementById('zoneFile').classList.remove('hasfile');
+    document.getElementById('fileInput').value = '';
+    renderRules();
+    showPane('drop');
+  }
+
+  // ───────────────────────── 文字コード判定つきCSV読込 ─────────────────────────
+  function detectAndDecode(buffer){
+    var bytes = new Uint8Array(buffer);
+    var hasBOM = bytes.length >= 3 && bytes[0] === 0xEF && bytes[1] === 0xBB && bytes[2] === 0xBF;
+    if (hasBOM) {
+      return { text: new TextDecoder('utf-8').decode(buffer), encoding: 'UTF-8' };
+    }
+    try {
+      var utf8 = new TextDecoder('utf-8', { fatal: true }).decode(buffer);
+      return { text: utf8, encoding: 'UTF-8' };
+    } catch (e) {
+      var sjis = new TextDecoder('shift_jis').decode(buffer);
+      return { text: sjis, encoding: 'Shift_JIS' };
+    }
+  }
+
+  function encodeForDownload(text, encoding){
+    if (encoding === 'UTF-8') return new Blob([text], { type: 'text/csv' });
+    return encodeShiftJIS(text);
+  }
+
+  var SJIS_ENCODER_CACHE = null;
+  function encodeShiftJIS(text){
+    if (!SJIS_ENCODER_CACHE) SJIS_ENCODER_CACHE = buildShiftJISEncoder();
+    var map = SJIS_ENCODER_CACHE;
+    var out = [];
+    for (var i = 0; i < text.length; i++) {
+      var bytes = map.get(text[i]);
+      if (bytes) { for (var j = 0; j < bytes.length; j++) out.push(bytes[j]); }
+      else out.push(0x3F);
+    }
+    return new Blob([new Uint8Array(out)], { type: 'text/csv' });
+  }
+
+  function buildShiftJISEncoder(){
+    var map = new Map();
+    var dec = new TextDecoder('shift_jis');
+    for (var b = 0x00; b <= 0xFF; b++) {
+      if ((b >= 0x80 && b <= 0xA0) || b > 0xDF) continue;
+      var ch = dec.decode(new Uint8Array([b]));
+      if (ch && ch.length === 1) map.set(ch, [b]);
+    }
+    for (var hi = 0x81; hi <= 0xFC; hi++) {
+      if (hi >= 0xA0 && hi <= 0xDF) continue;
+      for (var lo = 0x40; lo <= 0xFC; lo++) {
+        if (lo === 0x7F) continue;
+        var pair = new Uint8Array([hi, lo]);
+        var decoded;
+        try { decoded = dec.decode(pair); } catch (e) { continue; }
+        if (decoded && decoded.length === 1 && decoded.charCodeAt(0) !== 0xFFFD && !map.has(decoded)) {
+          map.set(decoded, [hi, lo]);
+        }
+      }
+    }
+    return map;
+  }
+
+  // ───────────────────────── CSVパース／組み立て ─────────────────────────
+  function parseCSV(text){
+    var rows = [], row = [], field = '', inQuotes = false, i = 0, len = text.length;
+    if (text.charCodeAt(0) === 0xFEFF) { text = text.slice(1); len = text.length; }
+    while (i < len) {
+      var c = text[i];
+      if (inQuotes) {
+        if (c === '"') {
+          if (text[i+1] === '"') { field += '"'; i += 2; continue; }
+          inQuotes = false; i++; continue;
+        }
+        field += c; i++; continue;
+      } else {
+        if (c === '"') { inQuotes = true; i++; continue; }
+        if (c === ',') { row.push(field); field = ''; i++; continue; }
+        if (c === '\r') { if (text[i+1] === '\n') i++; row.push(field); field=''; rows.push(row); row=[]; i++; continue; }
+        if (c === '\n') { row.push(field); field=''; rows.push(row); row=[]; i++; continue; }
+        field += c; i++; continue;
+      }
+    }
+    if (field !== '' || row.length > 0) { row.push(field); rows.push(row); }
+    while (rows.length && rows[rows.length-1].length === 1 && rows[rows.length-1][0] === '') rows.pop();
+    return rows;
+  }
+
+  function csvCell(v){
+    v = v == null ? '' : String(v);
+    if (/[",\r\n]/.test(v)) return '"' + v.replace(/"/g, '""') + '"';
+    return v;
+  }
+  function toCSVText(header, rows){
+    var lines = [header.map(csvCell).join(',')];
+    for (var i = 0; i < rows.length; i++) lines.push(rows[i].map(csvCell).join(','));
+    return lines.join('\r\n') + '\r\n';
+  }
+
+  function ToolError(message){ this.message = message; this.name = 'ToolError'; }
+  ToolError.prototype = Object.create(Error.prototype);
+
+  function readCsv(text, filename){
+    var allRows = parseCSV(text);
+    if (!allRows.length) throw new ToolError('CSVが空です：' + filename);
+    var header = allRows[0];
+    var width = header.length;
+    var rows = [];
+    for (var i = 1; i < allRows.length; i++) {
+      var arr = allRows[i].slice();
+      if (arr.length < width) { while (arr.length < width) arr.push(''); }
+      else if (arr.length > width) {
+        // 元ツール同様、超過分は末尾列にまとめる
+        var extra = arr.slice(width - 1).join(',');
+        arr = arr.slice(0, width - 1).concat([extra]);
+      }
+      rows.push(arr);
+    }
+    return { header: header, rows: rows };
+  }
+
+  // ───────────────────────── ルール適用 ─────────────────────────
+  function applyRule(text, rule){
+    if (text == null) return text;
+    var s = String(text);
+    var kw1 = rule.keyword1, kw2 = rule.keyword2 || '', rep = rule.replaceText || '';
+    switch (rule.mode) {
+      case 'after':
+        if (kw1 && s.indexOf(kw1) !== -1) s = s.split(kw1)[0] + rep;
+        break;
+      case 'before':
+        if (kw1 && s.indexOf(kw1) !== -1) {
+          var parts = s.split(kw1);
+          s = rep + parts[parts.length - 1];
+        }
+        break;
+      case 'exact':
+        if (kw1) s = s.split(kw1).join(rep);
+        break;
+      case 'regex':
+        try { s = s.replace(new RegExp(kw1, 'g'), rep); } catch (e) { /* 不正な正規表現は無視して素通し */ }
+        break;
+      case 'between':
+        if (kw1 && kw2) {
+          try {
+            var pattern = escapeRegExp(kw1) + '[\\s\\S]*?' + escapeRegExp(kw2);
+            s = s.replace(new RegExp(pattern, 'g'), rep);
+          } catch (e) { /* 到達しない想定 */ }
+        }
+        break;
+    }
+    return s.trim();
+  }
+  function escapeRegExp(s){ return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }
+
+  function applyAllRules(header, rows, rules){
+    var colIndex = {};
+    header.forEach(function(c, i){ colIndex[c] = i; });
+    var outRows = rows.map(function(r){ return r.slice(); });
+    rules.forEach(function(rule){
+      var idx = colIndex[rule.column];
+      if (idx === undefined) return;
+      outRows.forEach(function(r){
+        if (idx < r.length) r[idx] = applyRule(r[idx], rule);
+      });
+    });
+    return outRows;
+  }
+
+  function timestamp(){
+    var d = new Date();
+    function p(n){ return (n < 10 ? '0' : '') + n; }
+    return '' + d.getFullYear() + p(d.getMonth()+1) + p(d.getDate()) + p(d.getHours()) + p(d.getMinutes()) + p(d.getSeconds());
+  }
+
+  // ───────────────────────── プリセット（localStorage） ─────────────────────────
+  function loadPresets(){
+    try {
+      var raw = localStorage.getItem(PRESET_STORAGE_KEY);
+      state.presets = raw ? JSON.parse(raw) : [];
+    } catch (e) { state.presets = []; }
+  }
+  function savePresets(){
+    try { localStorage.setItem(PRESET_STORAGE_KEY, JSON.stringify(state.presets)); } catch (e) { /* 保存不可な環境は無視 */ }
+  }
+
+  function condText(rule){
+    return rule.keyword2 ? (rule.keyword1 + '～' + rule.keyword2) : rule.keyword1;
+  }
+
+  function renderPresets(){
+    var list = document.getElementById('presetList');
+    list.innerHTML = '';
+    if (!state.presets.length) {
+      list.innerHTML = '<p class="presetempty">保存済みのプリセットはありません。</p>';
+      return;
+    }
+    state.presets.forEach(function(p, idx){
+      var item = document.createElement('div');
+      item.className = 'presetitem';
+      item.innerHTML =
+        '<input type="checkbox" data-idx="' + idx + '">' +
+        '<label><span class="pname">' + escapeHtml(p.name) + '（' + escapeHtml(p.column) + '）</span>' +
+        '<span class="pcond">' + escapeHtml(MODE_LABELS[p.mode] || p.mode) + ' / ' + escapeHtml(condText(p)) +
+        (p.replaceText ? ' → ' + escapeHtml(p.replaceText) : '') + '</span></label>' +
+        '<button class="iconbtn rm" data-del="' + idx + '" aria-label="プリセットを削除" type="button">×</button>';
+      list.appendChild(item);
+    });
+    list.querySelectorAll('[data-del]').forEach(function(btn){
+      btn.addEventListener('click', function(){
+        var idx = +btn.dataset.del;
+        state.presets.splice(idx, 1);
+        savePresets();
+        renderPresets();
+      });
+    });
+  }
+
+  document.getElementById('addFromPresetBtn').addEventListener('click', function(){
+    var checked = document.querySelectorAll('#presetList input[type=checkbox]:checked');
+    if (!checked.length) { alert('追加するプリセットを選んでください。'); return; }
+    checked.forEach(function(cb){
+      var p = state.presets[+cb.dataset.idx];
+      if (p) state.rules.push({ column: p.column, mode: p.mode, keyword1: p.keyword1, keyword2: p.keyword2 || '', replaceText: p.replaceText || '' });
+    });
+    renderRules();
+  });
+
+  document.getElementById('savePresetOpenBtn').addEventListener('click', function(){
+    document.getElementById('savePresetRow').hidden = false;
+    document.getElementById('presetNameInput').focus();
+  });
+  document.getElementById('savePresetConfirmBtn').addEventListener('click', function(){
+    var name = document.getElementById('presetNameInput').value.trim();
+    if (!name) { alert('プリセット名を入力してください。'); return; }
+    var draft = readRuleForm();
+    if (!draft) return;
+    state.presets.push({ name: name, column: draft.column, mode: draft.mode, keyword1: draft.keyword1, keyword2: draft.keyword2, replaceText: draft.replaceText });
+    savePresets();
+    renderPresets();
+    document.getElementById('presetNameInput').value = '';
+    document.getElementById('savePresetRow').hidden = true;
+  });
+
+  // ───────────────────────── ルールフォーム ─────────────────────────
+  function updateModeUI(){
+    var mode = document.getElementById('selMode').value;
+    document.getElementById('modeDesc').textContent = MODE_DESC[mode] || '';
+    var isBetween = mode === 'between';
+    document.getElementById('lblKw1').textContent = isBetween ? '開始文字列' : '検索文字列';
+    document.getElementById('fieldKw2').hidden = !isBetween;
+    if (!isBetween) document.getElementById('inKw2').value = '';
+  }
+  document.getElementById('selMode').addEventListener('change', updateModeUI);
+
+  function readRuleForm(){
+    var column = document.getElementById('selCol').value;
+    var mode = document.getElementById('selMode').value;
+    var kw1 = document.getElementById('inKw1').value;
+    var kw2 = document.getElementById('inKw2').value;
+    var rep = document.getElementById('inRep').value;
+    if (!column) { alert('対象列を選んでください。'); return null; }
+    if (!kw1) { alert('検索文字列を入力してください。'); return null; }
+    if (mode === 'between' && !kw2) { alert('「指定文字の間」では終了文字列も入力してください。'); return null; }
+    return { column: column, mode: mode, keyword1: kw1, keyword2: mode === 'between' ? kw2 : '', replaceText: rep };
+  }
+
+  document.getElementById('addRuleBtn').addEventListener('click', function(){
+    var rule = readRuleForm();
+    if (!rule) return;
+    state.rules.push(rule);
+    document.getElementById('inKw1').value = '';
+    document.getElementById('inKw2').value = '';
+    document.getElementById('inRep').value = '';
+    renderRules();
+  });
+
+  function renderRules(){
+    var tbody = document.getElementById('ruleTbody');
+    tbody.innerHTML = '';
+    var empty = document.getElementById('rulesEmpty');
+    var table = document.getElementById('ruleTable');
+    document.getElementById('ruleCount').textContent = 'ルール ' + state.rules.length + '件';
+
+    if (!state.rules.length) { table.hidden = true; empty.hidden = false; return; }
+    table.hidden = false; empty.hidden = true;
+
+    state.rules.forEach(function(rule, idx){
+      var tr = document.createElement('tr');
+      tr.innerHTML =
+        '<td>' + escapeHtml(rule.column) + '</td>' +
+        '<td>' + escapeHtml(MODE_LABELS[rule.mode]) + '</td>' +
+        '<td class="kw">' + escapeHtml(condText(rule)) + '</td>' +
+        '<td class="kw">' + (rule.replaceText ? escapeHtml(rule.replaceText) : '（削除）') + '</td>' +
+        '<td><span class="rowbtns">' +
+          '<button class="iconbtn" data-up="' + idx + '" aria-label="上へ" type="button">▲</button>' +
+          '<button class="iconbtn" data-down="' + idx + '" aria-label="下へ" type="button">▼</button>' +
+          '<button class="iconbtn rm" data-del="' + idx + '" aria-label="削除" type="button">×</button>' +
+        '</span></td>';
+      tbody.appendChild(tr);
+    });
+
+    tbody.querySelectorAll('[data-up]').forEach(function(btn){
+      btn.addEventListener('click', function(){
+        var idx = +btn.dataset.up;
+        if (idx > 0) { var tmp = state.rules[idx-1]; state.rules[idx-1] = state.rules[idx]; state.rules[idx] = tmp; renderRules(); }
+      });
+    });
+    tbody.querySelectorAll('[data-down]').forEach(function(btn){
+      btn.addEventListener('click', function(){
+        var idx = +btn.dataset.down;
+        if (idx < state.rules.length - 1) { var tmp = state.rules[idx+1]; state.rules[idx+1] = state.rules[idx]; state.rules[idx] = tmp; renderRules(); }
+      });
+    });
+    tbody.querySelectorAll('[data-del]').forEach(function(btn){
+      btn.addEventListener('click', function(){
+        state.rules.splice(+btn.dataset.del, 1);
+        renderRules();
+      });
+    });
+  }
+
+  function escapeHtml(s){
+    return String(s == null ? '' : s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  }
+
+  // ───────────────────────── ファイル読込 ─────────────────────────
+  var pickBtn = document.getElementById('pickFile');
+  var fileInput = document.getElementById('fileInput');
+  var zone = document.getElementById('zoneFile');
+
+  pickBtn.addEventListener('click', function(){ fileInput.click(); });
+  zone.addEventListener('dragover', function(e){ e.preventDefault(); });
+  zone.addEventListener('drop', function(e){
+    e.preventDefault();
+    if (e.dataTransfer.files && e.dataTransfer.files[0]) loadFile(e.dataTransfer.files[0]);
+  });
+  fileInput.addEventListener('change', function(){
+    if (fileInput.files && fileInput.files[0]) loadFile(fileInput.files[0]);
+  });
+
+  function loadFile(file){
+    var reader = new FileReader();
+    reader.onload = function(){
+      try {
+        var decoded = detectAndDecode(reader.result);
+        var parsed = readCsv(decoded.text, file.name);
+        state.fileName = file.name;
+        state.encoding = decoded.encoding;
+        state.header = parsed.header;
+        state.rows = parsed.rows;
+        state.rules = [];
+
+        document.getElementById('fileName').textContent = file.name + '（' + decoded.encoding + '・' + parsed.rows.length + '行）';
+        var colSelect = document.getElementById('selCol');
+        colSelect.innerHTML = state.header.map(function(c){ return '<option value="' + escapeHtml(c) + '">' + escapeHtml(c) + '</option>'; }).join('');
+
+        updateModeUI();
+        renderRules();
+        showPane('work');
+      } catch (err) {
+        alert((err && err.message) ? err.message : String(err));
+      }
+    };
+    reader.readAsArrayBuffer(file);
+  }
+
+  document.getElementById('resetFromWork').addEventListener('click', resetAll);
+  document.getElementById('reset').addEventListener('click', resetAll);
+
+  // ───────────────────────── 実行 ─────────────────────────
+  document.getElementById('runBtn').addEventListener('click', function(){
+    if (!state.rules.length) { alert('ルールを1件以上追加してください。'); return; }
+
+    var hasRangeRule = state.rules.some(function(r){ return r.mode === 'after' || r.mode === 'before' || r.mode === 'between'; });
+    var warnText =
+      '設定したルールに基づいてCSVを書き換えます。\n' +
+      (hasRangeRule ? '「以降」「以前」「間」を含むルールは、想定より広い範囲が削除・置換される場合があります。\n' : '') +
+      'ルールは上から順に適用されます。順序と内容をよく確認してください。\n\n' +
+      'このまま処理を実行しますか？';
+    if (!confirm(warnText)) return;
+
+    showPane('running');
+    setTimeout(runProcess, 30);
+  });
+
+  function runProcess(){
+    try {
+      var outRows = applyAllRules(state.header, state.rows, state.rules);
+      var csvText = toCSVText(state.header, outRows);
+      var blob = encodeForDownload(csvText, state.encoding);
+      var outputName = 'text_cleaned_' + timestamp() + '.csv';
+      state.result = { blob: blob, filename: outputName };
+      renderSuccess(outRows.length, outputName);
+    } catch (err) {
+      renderError(err);
+    }
+    showPane('result');
+  }
+
+  function renderSuccess(rowCount, outputName){
+    var box = document.getElementById('resultBox');
+    box.classList.remove('err');
+    document.getElementById('resultIcon').innerHTML = '<svg viewBox="0 0 24 24"><path d="M5 12l5 5L20 7"/></svg>';
+    document.getElementById('resultTitle').textContent = '処理が完了しました';
+
+    var rows = [
+      ['適用したルール数', state.rules.length + '件'],
+      ['出力行数', rowCount + '行']
+    ];
+    var html = '<table class="summarytable"><tbody>';
+    rows.forEach(function(r){ html += '<tr><td>' + r[0] + '</td><td>' + r[1] + '</td></tr>'; });
+    html += '</tbody></table>';
+    html += '<div class="outname">' + outputName + '（' + state.encoding + '）</div>';
+    document.getElementById('resultBody').innerHTML = html;
+    document.getElementById('resultBar').hidden = false;
+    document.getElementById('outLabel').textContent = '出力: ' + outputName;
+  }
+
+  function renderError(err){
+    var box = document.getElementById('resultBox');
+    box.classList.add('err');
+    document.getElementById('resultIcon').innerHTML = '<svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg>';
+    document.getElementById('resultTitle').textContent = '処理を中止しました';
+    var msg = (err && err.message) ? err.message : String(err);
+    document.getElementById('resultBody').innerHTML = '<div class="errbox">' + escapeHtml(msg) + '</div>';
+    document.getElementById('resultBar').hidden = true;
+  }
+
+  document.getElementById('downloadBtn').addEventListener('click', function(){
+    if (!state.result) return;
+    var url = URL.createObjectURL(state.result.blob);
+    var a = document.createElement('a');
+    a.href = url;
+    a.download = state.result.filename;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    setTimeout(function(){ URL.revokeObjectURL(url); }, 1000);
+  });
+
+  // ───────────────────────── 初期化 ─────────────────────────
+  loadPresets();
+  renderPresets();
+  updateModeUI();
+
+})();
+</script>
+</body>
+</html>
