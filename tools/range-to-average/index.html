@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>範囲表記→平均値ツール｜AIタッガー ツールセンター</title>
+<style>
+  :root{
+    --blue:#2563EB; --blue-dark:#1E3A8A; --blue-wash:#EFF6FF;
+    --ink:#0F172A; --ink-mid:#475569; --ink-soft:#64748B;
+    --line:#E2E8F0; --tint:#F8FAFC; --green:#16A34A;
+    --red:#DC2626; --red-wash:#FEF2F2;
+    --maxw:1120px;
+    --jp:"Noto Sans JP","Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,system-ui,sans-serif;
+    --mono:ui-monospace,"SFMono-Regular",Consolas,"Liberation Mono",monospace;
+  }
+  *{box-sizing:border-box}
+  [hidden]{display:none!important}
+  body{margin:0;background:#fff;color:var(--ink);font-family:var(--jp);font-size:16px;line-height:1.8;-webkit-font-smoothing:antialiased}
+  a{color:inherit}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding-inline:24px}
+
+  header{border-bottom:1px solid var(--line);background:#fff;position:sticky;top:0;z-index:20}
+  .hbar{display:flex;align-items:center;gap:28px;height:68px}
+  .logo{display:flex;align-items:center;gap:10px;font-weight:700;font-size:17px;text-decoration:none;flex:none}
+  .logo .mark{background:var(--blue);color:#fff;font-weight:800;font-size:13px;padding:5px 7px;border-radius:5px;letter-spacing:.04em}
+  .logo .sub{color:var(--ink-soft);font-weight:500;font-size:13px;border-left:1px solid var(--line);padding-left:10px;margin-left:2px}
+  nav{margin-left:auto;display:flex;gap:26px;align-items:center}
+  nav a{font-size:14px;font-weight:500;color:var(--ink-mid);text-decoration:none;padding:6px 0;border-bottom:2px solid transparent}
+  nav a:hover{color:var(--blue);border-bottom-color:var(--blue)}
+  .toadmin{font-size:13px;font-weight:600;color:#fff;background:var(--blue);padding:9px 16px;border-radius:6px;text-decoration:none;white-space:nowrap}
+
+  .crumb{font-size:12.5px;color:var(--ink-soft);padding:16px 0 0}
+  .crumb a{text-decoration:none}
+  .crumb a:hover{color:var(--blue)}
+  .crumb span{margin:0 7px;color:#CBD5E1}
+
+  .thead{display:flex;gap:18px;align-items:flex-start;padding:20px 0 26px}
+  .ico{width:54px;height:54px;border-radius:13px;background:var(--blue);flex:none;display:flex;align-items:center;justify-content:center}
+  .ico svg{width:27px;height:27px;stroke:#fff;fill:none;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+  .thead h1{font-size:28px;font-weight:700;margin:0 0 6px;letter-spacing:-.01em;color:var(--blue-dark);line-height:1.4}
+  .thead p{font-size:15px;color:var(--ink-mid);margin:0;max-width:46em}
+  .tmeta{display:flex;gap:6px;margin-top:11px;flex-wrap:wrap}
+  .mp{font-size:10.5px;font-weight:700;padding:3px 8px;border-radius:4px;background:#ECFDF5;color:#15803D}
+  .mp.grey{background:var(--tint);color:var(--ink-soft)}
+  .mp.src{background:var(--tint);color:var(--ink-soft);font-family:var(--mono);font-weight:500}
+
+  .bench{border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:0 1px 3px rgba(15,23,42,.04)}
+  .steps{display:flex;background:var(--tint);border-bottom:1px solid var(--line)}
+  .step{flex:1;padding:13px 18px;font-size:13px;font-weight:600;color:var(--ink-soft);display:flex;align-items:center;gap:9px;border-right:1px solid var(--line)}
+  .step:last-child{border-right:none}
+  .step .n{width:21px;height:21px;border-radius:50%;background:#CBD5E1;color:#fff;font-size:11.5px;display:flex;align-items:center;justify-content:center;flex:none}
+  .step.on{color:var(--blue-dark);background:#fff}
+  .step.on .n{background:var(--blue)}
+  .step.done .n{background:var(--green)}
+
+  .drop{padding:52px 24px;text-align:center;background:#fff}
+  .dropzone{border:2px dashed #CBD5E1;border-radius:12px;padding:44px 24px;background:var(--tint);transition:.15s}
+  .dropzone:hover{border-color:var(--blue);background:var(--blue-wash)}
+  .dropzone svg{width:44px;height:44px;stroke:var(--blue);fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;margin-bottom:16px}
+  .dropzone h2{font-size:18px;font-weight:700;margin:0 0 8px}
+  .dropzone p{font-size:13.5px;color:var(--ink-soft);margin:0 0 22px}
+  input[type=file]{display:none}
+  .btn{display:inline-block;background:var(--blue);color:#fff;font-weight:600;font-size:15px;padding:13px 30px;border-radius:8px;text-decoration:none;border:none;font-family:inherit;cursor:pointer}
+  .btn:hover{background:#1D4ED8}
+  .btn:disabled{background:#CBD5E1;cursor:not-allowed}
+  .btn:focus-visible{outline:2px solid var(--blue-dark);outline-offset:3px}
+  .btn.ghost{background:#fff;color:var(--blue);border:1.5px solid var(--line)}
+  .btn.ghost:hover{border-color:var(--blue);background:var(--blue-wash)}
+  .note{font-size:12px;color:var(--ink-soft);margin-top:18px}
+  .note b{color:var(--ink-mid);font-weight:600}
+
+  .work{padding:32px 24px}
+  .filepill{font-size:12.5px;color:var(--ink-mid);background:var(--tint);border:1px solid var(--line);border-radius:999px;padding:6px 14px;display:inline-flex;align-items:center;gap:8px;margin-bottom:22px}
+  .filepill .dot{width:7px;height:7px;border-radius:50%;background:var(--green)}
+  .filepill code{font-family:var(--mono);font-size:11.5px}
+
+  .colbox h3{font-size:13px;font-weight:700;margin:0 0 12px}
+  .collist{display:flex;flex-direction:column;gap:8px;max-width:480px}
+  .colitem{display:flex;align-items:center;gap:10px;padding:10px 12px;border:1px solid var(--line);border-radius:8px;cursor:pointer;font-size:13.5px}
+  .colitem:hover{border-color:var(--blue)}
+  .colitem input{width:16px;height:16px}
+  .colactions{display:flex;gap:8px;margin-top:12px}
+
+  .running{padding:60px 24px;text-align:center}
+  .spinner{width:36px;height:36px;border:3px solid var(--line);border-top-color:var(--blue);border-radius:50%;margin:0 auto 18px;animation:spin .8s linear infinite}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  .running p{font-size:14px;color:var(--ink-mid);margin:0}
+
+  .result{padding:32px 24px}
+  .result.err{background:var(--red-wash)}
+  .rhead{display:flex;align-items:center;gap:10px;margin-bottom:18px}
+  .rhead .ricon{width:32px;height:32px;border-radius:50%;background:var(--green);display:flex;align-items:center;justify-content:center;flex:none}
+  .rhead .ricon svg{width:16px;height:16px;stroke:#fff;fill:none;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round}
+  .result.err .rhead .ricon{background:var(--red)}
+  .rhead h2{font-size:17px;font-weight:700;margin:0}
+  .errbox{font-size:13.5px;color:var(--red);background:#fff;border:1px solid #FECACA;border-radius:8px;padding:14px 16px;white-space:pre-wrap;line-height:1.7;font-family:var(--mono)}
+  .summarytable{width:100%;border-collapse:collapse;font-size:13px;margin-bottom:18px}
+  .summarytable td{padding:7px 4px;border-bottom:1px solid var(--line)}
+  .summarytable td:first-child{color:var(--ink-soft);width:60%}
+  .summarytable td:last-child{text-align:right;font-weight:600;font-variant-numeric:tabular-nums}
+  .outname{font-family:var(--mono);font-size:13px;background:var(--tint);padding:10px 14px;border-radius:8px;margin-bottom:18px;word-break:break-all}
+  .bar{display:flex;gap:10px;padding:15px 24px;border-top:1px solid var(--line);background:var(--tint);align-items:center;flex-wrap:wrap}
+  .bar .sp{margin-left:auto;font-size:12.5px;color:var(--ink-soft)}
+
+  section{padding:60px 0}
+  .band{background:var(--tint);border-block:1px solid var(--line)}
+  h2.sec{font-size:21px;font-weight:700;margin:0 0 6px}
+  .sdesc{font-size:14px;color:var(--ink-mid);margin:0 0 32px;max-width:46em}
+  .howto{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+  .how{background:#fff;border:1px solid var(--line);border-radius:11px;padding:22px}
+  .how .n{width:26px;height:26px;border-radius:7px;background:var(--blue);color:#fff;font-size:13px;font-weight:700;display:flex;align-items:center;justify-content:center;margin-bottom:13px}
+  .how h3{font-size:15px;font-weight:700;margin:0 0 7px;line-height:1.55}
+  .how p{font-size:13px;color:var(--ink-mid);margin:0;line-height:1.75}
+
+  .examples{background:#fff;border:1px solid var(--line);border-radius:11px;padding:24px 26px}
+  .examples table{width:100%;border-collapse:collapse;font-size:13px}
+  .examples th{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);color:var(--ink-soft);font-weight:700}
+  .examples td{padding:8px 10px;border-bottom:1px solid var(--line);color:var(--ink-mid);font-family:var(--mono);font-size:12.5px}
+
+  .faq{max-width:800px}
+  details{border-bottom:1px solid var(--line)}
+  summary{font-size:15px;font-weight:600;padding:17px 34px 17px 0;cursor:pointer;list-style:none;position:relative;line-height:1.6}
+  summary::-webkit-details-marker{display:none}
+  summary::after{content:"";position:absolute;right:8px;top:26px;width:8px;height:8px;border-right:2px solid var(--ink-soft);border-bottom:2px solid var(--ink-soft);transform:rotate(45deg);transition:.15s}
+  details[open] summary::after{transform:rotate(-135deg);top:29px}
+  summary:hover{color:var(--blue)}
+  details p{font-size:14px;color:var(--ink-mid);margin:0 0 19px;padding-right:34px}
+
+  footer{border-top:1px solid var(--line);padding:34px 0}
+  .frow{display:flex;gap:24px;align-items:center;flex-wrap:wrap;font-size:13px;color:var(--ink-soft)}
+  .frow a{text-decoration:none}
+  .frow a:hover{color:var(--blue)}
+  .frow .right{margin-left:auto}
+
+  @media(max-width:900px){
+    .howto{grid-template-columns:1fr}
+    nav{display:none}
+    .thead h1{font-size:23px}
+    .step{font-size:0;padding:13px 10px;justify-content:center}
+    .step .n{font-size:11.5px}
+    .examples{overflow-x:auto}
+  }
+  @media(prefers-reduced-motion:reduce){*{transition:none!important}.spinner{animation:none}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap hbar">
+    <a class="logo" href="../../mockups/2026-09-11_トップページ_モックアップ.html"><span class="mark">AI</span>タッガー<span class="sub">ツールセンター</span></a>
+    <nav>
+      <a href="#">ツール</a>
+      <a href="#">AI検索を知る</a>
+      <a href="#">困ったときは</a>
+    </nav>
+    <a class="toadmin" href="#">管理画面を開く</a>
+  </div>
+</header>
+
+<div class="wrap">
+  <p class="crumb"><a href="#">ツール</a><span>/</span><a href="#">CSV加工</a><span>/</span>範囲表記→平均値ツール</p>
+
+  <div class="thead">
+    <span class="ico"><svg viewBox="0 0 24 24"><path d="M4 12h16"/><path d="M4 12l4-4M4 12l4 4M20 12l-4-4M20 12l-4 4"/></svg></span>
+    <div>
+      <h1>範囲表記→平均値ツール</h1>
+      <p>説明文にある「10～20cm」のような範囲表記を、平均値の1つの数値（例：15cm）に書き換えます。</p>
+      <div class="tmeta">
+        <span class="mp">楽天</span>
+        <span class="mp grey">CSV加工</span>
+        <span class="mp grey">ブラウザ内で処理</span>
+        <span class="mp src">元ツール: 説明文系\説明文の範囲指定表記を平均値に修正.py</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="bench">
+    <div class="steps" id="steps">
+      <div class="step on" data-step="1"><span class="n">1</span>ファイルを選ぶ</div>
+      <div class="step" data-step="2"><span class="n">2</span>列を選ぶ</div>
+      <div class="step" data-step="3"><span class="n">3</span>ダウンロード</div>
+    </div>
+
+    <!-- 状態A：投入口 -->
+    <div id="paneDrop">
+      <div class="drop">
+        <div class="dropzone" id="zoneFile">
+          <svg viewBox="0 0 24 24"><path d="M12 16V4M8 8l4-4 4 4"/><path d="M4 15v3a2 2 0 002 2h12a2 2 0 002-2v-3"/></svg>
+          <h2>CSVファイルをここにドラッグ</h2>
+          <p>または、ボタンからファイルを選んでください</p>
+          <button class="btn" id="pickFile" type="button">ファイルを選ぶ</button>
+          <input type="file" id="fileInput" accept=".csv">
+        </div>
+        <p class="note">
+          対応形式: CSV（Shift_JIS / UTF-8）<br>
+          <b>ファイルはお使いのブラウザの中だけで処理され、サーバーへは送信されません。</b>
+        </p>
+      </div>
+    </div>
+
+    <!-- 状態B：列選択 -->
+    <div id="paneWork" hidden>
+      <div class="work">
+        <div class="filepill"><span class="dot"></span>読み込んだファイル: <code id="fileName"></code></div>
+        <div class="colbox">
+          <h3>処理する列を選んでください</h3>
+          <div class="collist" id="colList"></div>
+          <div class="colactions">
+            <button class="btn ghost" id="selectAllCols" type="button" style="padding:8px 16px;font-size:13px">すべて選択</button>
+          </div>
+        </div>
+      </div>
+      <div class="bar">
+        <button class="btn" id="runBtn">この内容で処理する</button>
+        <button class="btn ghost" id="resetFromWork">別のファイルにする</button>
+      </div>
+    </div>
+
+    <!-- 状態C：処理中 -->
+    <div id="paneRunning" hidden>
+      <div class="running">
+        <div class="spinner"></div>
+        <p>範囲表記を探しています…</p>
+      </div>
+    </div>
+
+    <!-- 状態D：結果 -->
+    <div id="paneResult" hidden>
+      <div class="result" id="resultBox">
+        <div class="rhead">
+          <span class="ricon" id="resultIcon"><svg viewBox="0 0 24 24"><path d="M5 12l5 5L20 7"/></svg></span>
+          <h2 id="resultTitle">処理が完了しました</h2>
+        </div>
+        <div id="resultBody"></div>
+      </div>
+      <div class="bar" id="resultBar">
+        <button class="btn" id="downloadBtn">ダウンロード</button>
+        <button class="btn ghost" id="reset">別のファイルにする</button>
+        <span class="sp" id="outLabel"></span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══ 使い方 ══ -->
+<section class="band">
+  <div class="wrap">
+    <h2 class="sec">使い方</h2>
+    <p class="sdesc">3ステップで終わります。ファイルはどこにも送信されません。</p>
+    <div class="howto">
+      <div class="how">
+        <span class="n">1</span>
+        <h3>CSVを読み込む</h3>
+        <p>商品説明文の列を含む楽天CSVを入れてください。文字コードは自動で判別します。</p>
+      </div>
+      <div class="how">
+        <span class="n">2</span>
+        <h3>処理する列を選ぶ</h3>
+        <p>PC用商品説明文・スマートフォン用商品説明文・PC用販売説明文の中から、存在する列だけが候補になります。</p>
+      </div>
+      <div class="how">
+        <span class="n">3</span>
+        <h3>書き出す</h3>
+        <p>「10～20cm」のような範囲表記が、平均値の1つの数値に置き換わったCSVがダウンロードされます。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ 表記の例 ══ -->
+<section>
+  <div class="wrap">
+    <h2 class="sec">置換される表記の例</h2>
+    <p class="sdesc">数値と数値の間にある「～」「-」「−」「―」「ー」「–」「—」のいずれかの記号を範囲区切りとして認識します。</p>
+    <div class="examples">
+      <table>
+        <thead><tr><th>置換前</th><th>置換後</th></tr></thead>
+        <tbody>
+          <tr><td>10～20cm</td><td>15cm</td></tr>
+          <tr><td>幅30-40</td><td>幅35cm</td></tr>
+          <tr><td>15.5～16.5cm</td><td>16cm</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ══ よくある質問 ══ -->
+<section class="band">
+  <div class="wrap">
+    <h2 class="sec">よくある質問</h2>
+    <p class="sdesc">ここにない場合は、下の窓口までお問い合わせください。</p>
+    <div class="faq">
+      <details open>
+        <summary>アップロードした商品データが外部に送られることはありませんか</summary>
+        <p>ありません。このツールはお使いのブラウザの中だけで動いており、ファイルの中身はLISUTOのサーバーを含め、どこにも送信していません。</p>
+      </details>
+      <details>
+        <summary>単位が付いていない範囲表記はどうなりますか</summary>
+        <p>単位が書かれていない場合は「cm」を補って出力します（例: 30-40 → 35cm）。</p>
+      </details>
+      <details>
+        <summary>年数や電話番号のようなハイフンにも反応しますか</summary>
+        <p>数値と数値の間にハイフン等の記号がある形であれば反応します。範囲表記以外の数字列に影響しないか、実行後に出力CSVをご確認ください。</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap frow">
+    <span>© 2026 LISUTO</span>
+    <a href="#">会社概要</a>
+    <a href="#">利用規約</a>
+    <a href="#">プライバシーポリシー</a>
+    <span class="right">AIタッガーをご契約のお客様向けページです</span>
+  </div>
+</footer>
+
+<script>
+(function(){
+  "use strict";
+
+  var AVAILABLE_COLS = ["PC用商品説明文", "スマートフォン用商品説明文", "PC用販売説明文"];
+
+  var state = { fileName: null, encoding: null, header: [], rows: [], existingCols: [], result: null };
+
+  var panes = {
+    drop: document.getElementById('paneDrop'),
+    work: document.getElementById('paneWork'),
+    running: document.getElementById('paneRunning'),
+    result: document.getElementById('paneResult')
+  };
+  var steps = [].slice.call(document.querySelectorAll('.step'));
+
+  function showPane(name){
+    Object.keys(panes).forEach(function(k){ panes[k].hidden = (k !== name); });
+    var stepMap = { drop: 1, work: 2, running: 2, result: 3 };
+    var active = stepMap[name];
+    steps.forEach(function(s){
+      var n = parseInt(s.dataset.step, 10);
+      s.className = 'step' + (n < active ? ' done' : (n === active ? ' on' : ''));
+    });
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+
+  function resetAll(){
+    state = { fileName: null, encoding: null, header: [], rows: [], existingCols: [], result: null };
+    document.getElementById('fileInput').value = '';
+    showPane('drop');
+  }
+
+  // ───────────────────────── 文字コード／CSV基盤 ─────────────────────────
+  function detectAndDecode(buffer){
+    var bytes = new Uint8Array(buffer);
+    var hasBOM = bytes.length >= 3 && bytes[0] === 0xEF && bytes[1] === 0xBB && bytes[2] === 0xBF;
+    if (hasBOM) return { text: new TextDecoder('utf-8').decode(buffer), encoding: 'UTF-8' };
+    try { return { text: new TextDecoder('utf-8', { fatal: true }).decode(buffer), encoding: 'UTF-8' }; }
+    catch (e) { return { text: new TextDecoder('shift_jis').decode(buffer), encoding: 'Shift_JIS' }; }
+  }
+  function encodeForDownload(text, encoding){
+    if (encoding === 'UTF-8') return new Blob([text], { type: 'text/csv' });
+    return encodeShiftJIS(text);
+  }
+  var SJIS_ENCODER_CACHE = null;
+  function encodeShiftJIS(text){
+    if (!SJIS_ENCODER_CACHE) SJIS_ENCODER_CACHE = buildShiftJISEncoder();
+    var map = SJIS_ENCODER_CACHE, out = [];
+    for (var i = 0; i < text.length; i++) {
+      var bytes = map.get(text[i]);
+      if (bytes) { for (var j = 0; j < bytes.length; j++) out.push(bytes[j]); }
+      else out.push(0x3F);
+    }
+    return new Blob([new Uint8Array(out)], { type: 'text/csv' });
+  }
+  function buildShiftJISEncoder(){
+    var map = new Map(); var dec = new TextDecoder('shift_jis');
+    for (var b = 0x00; b <= 0xFF; b++) {
+      if ((b >= 0x80 && b <= 0xA0) || b > 0xDF) continue;
+      var ch = dec.decode(new Uint8Array([b]));
+      if (ch && ch.length === 1) map.set(ch, [b]);
+    }
+    for (var hi = 0x81; hi <= 0xFC; hi++) {
+      if (hi >= 0xA0 && hi <= 0xDF) continue;
+      for (var lo = 0x40; lo <= 0xFC; lo++) {
+        if (lo === 0x7F) continue;
+        var pair = new Uint8Array([hi, lo]); var decoded;
+        try { decoded = dec.decode(pair); } catch (e) { continue; }
+        if (decoded && decoded.length === 1 && decoded.charCodeAt(0) !== 0xFFFD && !map.has(decoded)) map.set(decoded, [hi, lo]);
+      }
+    }
+    return map;
+  }
+
+  function parseCSV(text){
+    var rows = [], row = [], field = '', inQuotes = false, i = 0, len = text.length;
+    if (text.charCodeAt(0) === 0xFEFF) { text = text.slice(1); len = text.length; }
+    while (i < len) {
+      var c = text[i];
+      if (inQuotes) {
+        if (c === '"') { if (text[i+1] === '"') { field += '"'; i += 2; continue; } inQuotes = false; i++; continue; }
+        field += c; i++; continue;
+      } else {
+        if (c === '"') { inQuotes = true; i++; continue; }
+        if (c === ',') { row.push(field); field = ''; i++; continue; }
+        if (c === '\r') { if (text[i+1] === '\n') i++; row.push(field); field=''; rows.push(row); row=[]; i++; continue; }
+        if (c === '\n') { row.push(field); field=''; rows.push(row); row=[]; i++; continue; }
+        field += c; i++; continue;
+      }
+    }
+    if (field !== '' || row.length > 0) { row.push(field); rows.push(row); }
+    while (rows.length && rows[rows.length-1].length === 1 && rows[rows.length-1][0] === '') rows.pop();
+    return rows;
+  }
+  function csvCell(v){ v = v == null ? '' : String(v); return '"' + v.replace(/"/g, '""') + '"'; }
+  function toCSVText(header, rows){
+    var lines = [header.map(csvCell).join(',')];
+    for (var i = 0; i < rows.length; i++) lines.push(header.map(function(col){ return csvCell(rows[i][col] != null ? rows[i][col] : ''); }).join(','));
+    return lines.join('\r\n') + '\r\n';
+  }
+
+  function ToolError(message){ this.message = message; this.name = 'ToolError'; }
+  ToolError.prototype = Object.create(Error.prototype);
+
+  function readCsvDicts(text, filename){
+    var allRows = parseCSV(text);
+    if (!allRows.length) throw new ToolError('CSVが空です：' + filename);
+    var header = allRows[0];
+    var width = header.length;
+    var rows = [];
+    for (var i = 1; i < allRows.length; i++) {
+      var arr = allRows[i].slice();
+      if (arr.length < width) { while (arr.length < width) arr.push(''); }
+      else if (arr.length > width) { arr = arr.slice(0, width); }
+      var obj = {};
+      for (var j = 0; j < width; j++) obj[header[j]] = arr[j];
+      rows.push(obj);
+    }
+    return { header: header, rows: rows };
+  }
+
+  // ───────────────────────── 範囲表記→平均値 ─────────────────────────
+  // 数値 [～~\-−―ー–—] 数値 (cm|㎝)?
+  var RANGE_PATTERN = /(\d+(?:\.\d+)?)\s*([～~\-−―ー–—])\s*(\d+(?:\.\d+)?)\s*(cm|㎠)?/gi;
+
+  function normalizeRangeToAvg(text){
+    if (typeof text !== 'string' || !text.trim()) return text;
+    return text.replace(RANGE_PATTERN, function(match, a, sep, b, unit){
+      var avg = (parseFloat(a) + parseFloat(b)) / 2;
+      var avgStr;
+      if (Number.isInteger(avg)) avgStr = String(avg);
+      else avgStr = String(avg).replace(/0+$/, '').replace(/\.$/, '');
+      return avgStr + (unit || 'cm');
+    });
+  }
+
+  function timestamp(){
+    var d = new Date();
+    function p(n){ return (n < 10 ? '0' : '') + n; }
+    return '' + d.getFullYear() + p(d.getMonth()+1) + p(d.getDate()) + p(d.getHours()) + p(d.getMinutes()) + p(d.getSeconds());
+  }
+
+  // ───────────────────────── ファイル読込 ─────────────────────────
+  var pickBtn = document.getElementById('pickFile');
+  var fileInput = document.getElementById('fileInput');
+  var zone = document.getElementById('zoneFile');
+  pickBtn.addEventListener('click', function(){ fileInput.click(); });
+  zone.addEventListener('dragover', function(e){ e.preventDefault(); });
+  zone.addEventListener('drop', function(e){
+    e.preventDefault();
+    if (e.dataTransfer.files && e.dataTransfer.files[0]) loadFile(e.dataTransfer.files[0]);
+  });
+  fileInput.addEventListener('change', function(){
+    if (fileInput.files && fileInput.files[0]) loadFile(fileInput.files[0]);
+  });
+
+  function loadFile(file){
+    var reader = new FileReader();
+    reader.onload = function(){
+      try {
+        var decoded = detectAndDecode(reader.result);
+        var parsed = readCsvDicts(decoded.text, file.name);
+        var existingCols = AVAILABLE_COLS.filter(function(c){ return parsed.header.indexOf(c) !== -1; });
+        if (!existingCols.length) {
+          throw new ToolError('対象列がCSVに存在しません。\n対象候補: ' + AVAILABLE_COLS.join('、') + '\nCSVの列名: ' + parsed.header.join('、'));
+        }
+
+        state.fileName = file.name;
+        state.encoding = decoded.encoding;
+        state.header = parsed.header;
+        state.rows = parsed.rows;
+        state.existingCols = existingCols;
+
+        document.getElementById('fileName').textContent = file.name + '（' + decoded.encoding + '・' + parsed.rows.length + '行）';
+        renderColList(existingCols);
+        showPane('work');
+      } catch (err) {
+        alert((err && err.message) ? err.message : String(err));
+      }
+    };
+    reader.readAsArrayBuffer(file);
+  }
+
+  function renderColList(cols){
+    var list = document.getElementById('colList');
+    list.innerHTML = '';
+    cols.forEach(function(col, idx){
+      var label = document.createElement('label');
+      label.className = 'colitem';
+      label.innerHTML = '<input type="checkbox" value="' + escapeHtml(col) + '"' + (idx === 0 ? ' checked' : '') + '> ' + escapeHtml(col);
+      list.appendChild(label);
+    });
+  }
+
+  document.getElementById('selectAllCols').addEventListener('click', function(){
+    document.querySelectorAll('#colList input[type=checkbox]').forEach(function(cb){ cb.checked = true; });
+  });
+
+  document.getElementById('resetFromWork').addEventListener('click', resetAll);
+  document.getElementById('reset').addEventListener('click', resetAll);
+
+  document.getElementById('runBtn').addEventListener('click', function(){
+    var targetCols = [].slice.call(document.querySelectorAll('#colList input[type=checkbox]:checked')).map(function(cb){ return cb.value; });
+    if (!targetCols.length) { alert('処理する列を1つ以上選んでください。'); return; }
+    showPane('running');
+    setTimeout(function(){ runProcess(targetCols); }, 30);
+  });
+
+  function runProcess(targetCols){
+    try {
+      var replacedCount = 0;
+      var changedRows = 0;
+      var outRows = state.rows.map(function(row){
+        var out = Object.assign({}, row);
+        var rowChanged = false;
+        targetCols.forEach(function(col){
+          var original = row[col] || '';
+          var replaced = normalizeRangeToAvg(original);
+          if (replaced !== original) {
+            out[col] = replaced;
+            rowChanged = true;
+            var m = original.match(RANGE_PATTERN);
+            if (m) replacedCount += m.length;
+          }
+        });
+        if (rowChanged) changedRows++;
+        return out;
+      });
+
+      var csvText = toCSVText(state.header, outRows);
+      var blob = encodeForDownload(csvText, state.encoding);
+      var outputName = state.fileName.replace(/\.csv$/i, '') + '_output.csv';
+      state.result = { blob: blob, filename: outputName };
+      renderSuccess(targetCols, changedRows, replacedCount, outputName);
+    } catch (err) {
+      renderError(err);
+    }
+    showPane('result');
+  }
+
+  function renderSuccess(targetCols, changedRows, replacedCount, outputName){
+    var box = document.getElementById('resultBox');
+    box.classList.remove('err');
+    document.getElementById('resultIcon').innerHTML = '<svg viewBox="0 0 24 24"><path d="M5 12l5 5L20 7"/></svg>';
+    document.getElementById('resultTitle').textContent = '処理が完了しました';
+
+    var rows = [
+      ['処理対象列', targetCols.join('、')],
+      ['変更があった行数', changedRows + '行'],
+      ['置換した箇所数', replacedCount + '箇所']
+    ];
+    var html = '<table class="summarytable"><tbody>';
+    rows.forEach(function(r){ html += '<tr><td>' + r[0] + '</td><td>' + r[1] + '</td></tr>'; });
+    html += '</tbody></table>';
+    html += '<div class="outname">' + outputName + '（' + state.encoding + '）</div>';
+    document.getElementById('resultBody').innerHTML = html;
+    document.getElementById('resultBar').hidden = false;
+    document.getElementById('outLabel').textContent = '出力: ' + outputName;
+  }
+
+  function renderError(err){
+    var box = document.getElementById('resultBox');
+    box.classList.add('err');
+    document.getElementById('resultIcon').innerHTML = '<svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg>';
+    document.getElementById('resultTitle').textContent = '処理を中止しました';
+    var msg = (err && err.message) ? err.message : String(err);
+    document.getElementById('resultBody').innerHTML = '<div class="errbox">' + escapeHtml(msg) + '</div>';
+    document.getElementById('resultBar').hidden = true;
+  }
+  function escapeHtml(s){ return String(s == null ? '' : s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+
+  document.getElementById('downloadBtn').addEventListener('click', function(){
+    if (!state.result) return;
+    var url = URL.createObjectURL(state.result.blob);
+    var a = document.createElement('a');
+    a.href = url; a.download = state.result.filename;
+    document.body.appendChild(a); a.click(); document.body.removeChild(a);
+    setTimeout(function(){ URL.revokeObjectURL(url); }, 1000);
+  });
+
+})();
+</script>
+</body>
+</html>
