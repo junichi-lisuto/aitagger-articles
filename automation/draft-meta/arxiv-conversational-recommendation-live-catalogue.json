@@ -1,0 +1,22 @@
+{
+  "slug": "arxiv-conversational-recommendation-live-catalogue",
+  "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/arxiv-conversational-recommendation-live-catalogue.html",
+  "sourceUrl": "https://arxiv.org/abs/2608.27006",
+  "platforms": [
+    "other-ai"
+  ],
+  "viewpoint": "seller",
+  "theme": "optimization",
+  "source": "arXiv(研究論文、ACM RecSys 2026採択)",
+  "date": "2026-08-27",
+  "title": "リアルタイムに変化するECカタログに対応する会話型推薦システムの手法",
+  "bullets": [
+    "在庫変動に強い会話型AI推薦の手法をACM RecSys採択論文で提案",
+    "商品の変更分だけを処理する自己更新型レトリーバーが核",
+    "WhatsApp向けショッピングAIとして実装し動作を確認"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+  }
+}

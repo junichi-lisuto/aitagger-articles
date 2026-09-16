@@ -1,0 +1,22 @@
+{
+  "slug": "mynavi-yahoo-ec-pilot-48percent",
+  "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/mynavi-yahoo-ec-pilot-48percent.html",
+  "sourceUrl": "https://news.mynavi.jp/techplus/article/20260819-4836182/",
+  "platforms": [
+    "yahoo"
+  ],
+  "viewpoint": "seller",
+  "theme": "optimization",
+  "source": "マイナビニュース",
+  "date": "2026-08-19",
+  "title": "Yahoo!ショッピング、出店者向けAI「EC Pilot」の利用ストアが48%に到達",
+  "bullets": [
+    "Yahoo!ショッピングの出店者向けAI、利用率が48%に到達",
+    "利用ストアは非利用ストアより成長率が15ポイント高い",
+    "AIエージェント経由の注文金額は全体の約2割に"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "url": "https://news.mynavi.jp/techplus/article/20260819-4836182/ogp_images/ogp.jpg"
+  }
+}

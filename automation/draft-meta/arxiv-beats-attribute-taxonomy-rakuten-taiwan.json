@@ -1,0 +1,23 @@
+{
+  "slug": "arxiv-beats-attribute-taxonomy-rakuten-taiwan",
+  "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/arxiv-beats-attribute-taxonomy-rakuten-taiwan.html",
+  "sourceUrl": "https://arxiv.org/html/2606.04909v1",
+  "platforms": [
+    "rakuten",
+    "other-ai"
+  ],
+  "viewpoint": "seller",
+  "theme": "visibility",
+  "source": "arXiv(研究論文)",
+  "date": "2026-06-03",
+  "title": "台湾楽天で実装、人間とAIの協働で商品属性分類を自動構築する「BEATS」",
+  "bullets": [
+    "台湾楽天で実装、人間とAI協働の属性分類構築手法「BEATS」",
+    "540万商品に6.7万件の属性を自動タグ付け",
+    "検索の回収率が66.6%から70.4%に改善"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+  }
+}

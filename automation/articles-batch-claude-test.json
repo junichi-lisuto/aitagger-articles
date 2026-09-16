@@ -1,0 +1,761 @@
+[
+  {
+    "slug": "cnbc-amazon-rufus-alexa-shopping-rename",
+    "title": "Amazon、AIチャット「Rufus」を廃止し「Alexa for Shopping」に統合",
+    "origTitle": "Amazon ditches Rufus chatbot, launches Alexa shopping agent in AI strategy pivot",
+    "sourceUrl": "https://www.cnbc.com/2026/05/13/amazon-ditches-rufus-ai-chatbot-in-favor-of-alexa-shopping-agent.html",
+    "source": "CNBC",
+    "date": "2026-05-13",
+    "dateDisplay": "2026年5月13日",
+    "platforms": ["amazon"],
+    "viewpoint": "buyer",
+    "theme": "visibility",
+    "background": "Amazonは商品検索AI「Rufus」を単独のチャットボットとして提供する体制を終了し、より高度な会話能力を持つ「Alexa+」と統合した新サービス「Alexa for Shopping」への一本化を発表した。検索窓の位置づけそのものをAIエージェントに置き換える大きな転換であり、単なる機能追加ではなく購買導線の起点を作り直す動きである。",
+    "bullets": [
+      "Rufusを廃止し、Alexa+の会話能力と統合した「Alexa for Shopping」をAmazonの検索バーおよびサイト内に直接組み込んだ。",
+      "サインイン済みの米国利用者全員に標準提供され、Prime会員登録やEchoデバイスがなくても利用できる。",
+      "Amazon以外のサイトでの購入代行(Buy for Me)など、自社モールの外まで購買行動を代行するエージェント機能を持つ。",
+      "旧Rufusは3億人超が利用し、年間約120億ドルの追加売上に貢献したとされ、その基盤の上に統合が行われている。"
+    ],
+    "cardBullets": [
+      "AmazonがAI「Rufus」を廃止し「Alexa for Shopping」に統合",
+      "検索バーに直接AIエージェントを組み込み全利用者に標準提供",
+      "Amazon以外のサイトでの購入代行までカバーする設計に"
+    ],
+    "meaning": "検索窓そのものがAIエージェント化するという変化は、商品がキーワードでヒットするかどうかより、AIが会話の文脈から「この条件に合う」と判断できるかどうかが重要になることを示している。商品属性が単なる検索キーワードの集合ではなく、AIの判断材料として機能しているかを見直す契機になる。",
+    "thumbnail": "https://image.cnbcfm.com/api/v1/image/108107890-17405935162025-02-26t175625z_1468855485_rc2h2davv7ny_rtrmadp_0_amazon-com-alexa.jpeg?v=1747278045&w=1920&h=1080"
+  },
+  {
+    "slug": "lycorp-agent-i-shopping-lens",
+    "title": "LINEヤフー、AIエージェント「Agent i」に写真から商品を探す「ショッピングレンズ」機能を追加",
+    "sourceUrl": "https://www.lycorp.co.jp/ja/news/release/020686/",
+    "source": "LINEヤフー",
+    "date": "2026-07-30",
+    "dateDisplay": "2026年7月30日",
+    "platforms": ["yahoo"],
+    "viewpoint": "buyer",
+    "theme": "visibility",
+    "background": "LINEヤフーが展開するAIエージェントブランド「Agent i」は段階的に対応領域を拡大しており、今回「お買い物」機能に写真から商品を探す「ショッピングレンズ」を追加した。商品名がわからない場合でもテキスト入力なしで欲しい商品にたどり着けるようにする機能で、検索の起点をキーワードから画像へと広げる動きである。",
+    "bullets": [
+      "写真をアップロードするだけでAIが類似商品を提案する「ショッピングレンズ」機能を追加し、商品名や説明文の入力なしで検索できるようにした。",
+      "取扱ストアと価格をまとめて比較表示する機能を持ち、家電・家具インテリア・ファッション衣類・雑貨など幅広いカテゴリに対応する。",
+      "同時に「天気コーデ」「ズバトクナビ」「美容・健康」の3エージェントを追加し、Agent iの累計対応領域は25領域(β版含む)に拡大した。",
+      "Yahoo! JAPANアプリ、LINEアプリ、スマートフォンブラウザー版で利用できる。"
+    ],
+    "cardBullets": [
+      "Agent iに写真から商品を探す「ショッピングレンズ」機能を追加",
+      "テキスト入力なしで取扱ストア・価格をまとめて比較表示",
+      "対応領域は3つ追加され累計25領域(β版含む)に拡大"
+    ],
+    "meaning": "「商品名がわからなくても写真で探せる」という体験は、商品ページの文章だけでは拾われない検索経路が増えていることを意味する。商品画像そのものがどのカテゴリ・特徴として認識されるかは、画像に紐づくタグやメタ情報の精度に左右されるため、画像側のデータ整備の重要性が増している。",
+    "thumbnail": "https://www.lycorp.co.jp/ja/news/2026/20260730_KV.jpg"
+  },
+  {
+    "slug": "businessinsider-rakuten-ai-concierge-41percent",
+    "title": "楽天市場のAIコンシェルジュ、購入決定時間を約41%短縮・平均注文金額も約17%上昇",
+    "sourceUrl": "https://www.businessinsider.jp/article/2607-rakuten-ichiba-ai-concierge-shopping/",
+    "source": "Business Insider Japan",
+    "date": "2026-07-08",
+    "dateDisplay": "2026年7月8日",
+    "platforms": ["rakuten"],
+    "viewpoint": "buyer",
+    "theme": "visibility",
+    "background": "楽天市場は2025年12月から提供する会話型の「AIコンシェルジュ」について、実際の利用データに基づく効果測定の結果を公表した。単なる新機能の紹介にとどまらず、AI経由の購買行動が通常のキーワード検索と比べてどう違うかを具体的な数値で示した点が特徴である。",
+    "bullets": [
+      "2026年5月1日から25日のデータで、AIコンシェルジュ経由の購入決定までの時間が通常検索と比べて約41%短縮されたことを示した。",
+      "AIコンシェルジュ利用者の平均注文金額は約17%上昇しており、比較・レビュー確認までAIが担うことで購買の質にも変化が出ている。",
+      "商品比較機能では最大4商品を同時に比較でき、在庫状況・レビュー要約・獲得ポイントを商品ページに遷移せず確認できる。",
+      "楽天市場は5万店舗・5億点以上の商品を抱え、直近開発中のAI機能は8種類、導入計画中は50種類以上にのぼる。"
+    ],
+    "cardBullets": [
+      "楽天AIコンシェルジュで購入決定時間が約41%短縮と判明",
+      "利用者の平均注文金額は通常検索比で約17%上昇",
+      "4商品同時比較やレビュー要約も商品ページ遷移なしで確認可能"
+    ],
+    "meaning": "AIコンシェルジュ経由の方が注文金額が高くなるという結果は、AIが単に「見つけやすくする」だけでなく「比較検討の質を上げている」ことを示している。商品ページに遷移せず比較材料が提示される以上、レビュー要約や在庫情報などページ外でも参照される情報の正確さが、購買の決め手として機能し始めている。",
+    "thumbnail": "https://media.loom-app.com/loom/2026/07/07/adff991f-e16f-49ad-9e23-c3de07a136f9/original.jpg?w=1200&h=630"
+  },
+  {
+    "slug": "bing-copilot-shopping-ads",
+    "title": "Bing Copilotの検索結果にショッピング広告が表示開始",
+    "origTitle": "Bing Copilot Results Now Display Shopping Ads",
+    "sourceUrl": "https://ppcnewsfeed.com/ppc-news/2026-09/bing-copilot-results-now-display-shopping-ads/",
+    "source": "PPC News Feed",
+    "date": "2026-09-12",
+    "dateDisplay": "2026年9月12日",
+    "platforms": ["other-ai"],
+    "viewpoint": "buyer",
+    "theme": "visibility",
+    "background": "MicrosoftはBing CopilotのAI生成回答の中に、ショッピング広告を直接表示する機能を追加した。会話型AIの回答と広告表示を同じ画面に統合する動きであり、AIが生成した文章の中に商品の価格・画像・購入リンクが並ぶ体験がBing/Copilotでも標準化されつつあることを示している。",
+    "bullets": [
+      "Bing Copilotの会話型回答の中に、価格・画像・購入リンク付きのショッピング広告を直接表示するようになった。",
+      "広告主はAI生成回答と同じ画面上で商品の視認性を高められるようになり、会話型検索と広告表示が同一体験に統合された。",
+      "Microsoft広告プラットフォームの拡張であり、Copilotの利用拡大に合わせた収益化と購買導線構築の一環と位置づけられる。"
+    ],
+    "cardBullets": [
+      "Bing Copilotの回答内にショッピング広告が表示されるように",
+      "価格・画像・購入リンク付き広告がAI回答と同一画面に統合",
+      "会話型検索と広告表示の一体化がBing/Copilotでも標準化"
+    ],
+    "meaning": "AIの回答文の中に広告としての商品情報が組み込まれるようになると、オーガニックな引用と広告枠の両方でどう表示されるかを意識する必要が出てくる。プラットフォームが増えるほど、同じ商品情報を複数のAI面に一貫した形で供給できる体制の有無が差になっていく。",
+    "thumbnail": "https://ppcnewsfeed.com/wp-content/uploads/2026/09/bing-copilot-shopping-ads-walking-aids.jpg"
+  },
+  {
+    "slug": "semrush-ai-visibility-index-126m-prompts",
+    "title": "Semrush、1億2,600万件のAI検索プロンプトを分析した「AI Visibility Index」を拡大発表",
+    "origTitle": "Semrush Releases Expanded 2026 AI Visibility Index, Analyzing 126 Million AI Search Prompts",
+    "sourceUrl": "https://www.semrush.com/news/463141-semrush-releases-expanded-2026-ai-visibility-index-analyzing-126-million-ai-search-prompts/",
+    "source": "Semrush",
+    "date": "2026-06-26",
+    "dateDisplay": "2026年6月26日",
+    "platforms": ["google", "chatgpt", "other-ai"],
+    "viewpoint": "buyer",
+    "theme": "measurement",
+    "background": "Semrushは2025年9月に2,500件のプロンプトで開始したAI検索可視性の調査「AI Visibility Index」を、2026年1月から4月の米国向け1億2,600万件のプロンプト分析へと大幅に拡張した。AI検索での企業の見え方を測る指標が、小規模な試験調査から実務で使える規模のベンチマークへ育ってきていることを示す発表である。",
+    "bullets": [
+      "2026年1月から4月の1億2,600万件の米国AI検索プロンプトを分析し、22業種でベンチマークを構築した。",
+      "マーケティング責任者の45%がAI生成回答での自社の見え方を測定できていないと回答している。",
+      "4つのAIプラットフォームすべてで可視性を維持できたグローバルブランドはわずか36社にとどまった。",
+      "SEOとAI可視性戦略を統合している組織では81%が「AIプラットフォーム経由のトラフィックやリードが増加した」と回答し、分断して管理する組織の36%を大きく上回った。",
+      "米国小売サイトへのAI経由トラフィックは2024年10月から2026年5月の間に1,324%増加した。"
+    ],
+    "cardBullets": [
+      "1.26億件のAI検索プロンプトを分析した可視性指数を公開",
+      "4AIすべてで可視性を保てた企業はわずか36社にとどまる",
+      "AI経由トラフィックは1年半で1,324%増と急拡大"
+    ],
+    "meaning": "AI検索での「見え方」は単一のAIで測れるものではなく、プラットフォームごとに結果が大きく異なる。自社の商品がどのAIでどう扱われているかを横断的に把握できていない企業が半数近いという事実は、可視性の管理自体がまだ属人的・場当たり的である現状を映している。",
+    "thumbnail": "https://prowly-prod.s3.eu-west-1.amazonaws.com/uploads/landing_page/template_background/463141/97317df35019a64d83090bf369d61290.jpg"
+  },
+  {
+    "slug": "seer-interactive-aio-ctr-recovery-2026",
+    "title": "GoogleのAI Overviews、クリック率が2026年に入り85%回復",
+    "origTitle": "AIO Impact on Google CTR: 2026 Update",
+    "sourceUrl": "https://www.seerinteractive.com/insights/aio-impact-on-google-ctr-2026-update",
+    "source": "Seer Interactive",
+    "date": "2026-04-24",
+    "dateDisplay": "2026年4月24日",
+    "platforms": ["google"],
+    "viewpoint": "buyer",
+    "theme": "measurement",
+    "background": "Seer Interactiveは、Google検索にAI Overviewsが表示された際のクリック率(CTR)の変化を継続的に追跡している調査会社で、今回で3回目となる年次アップデートを公開した。AI Overviews登場直後に大きく落ち込んだCTRが、その後どう推移しているかを長期データで示した点が特徴である。",
+    "bullets": [
+      "53ブランド、547万件のクエリ、24億3,000万件のオーガニックインプレッションを2025年1月から2026年2月にかけて追跡した。",
+      "AI Overviewsが表示されるクエリのオーガニックCTRは2025年12月の1.3%から2026年2月には2.4%まで回復し、85%の上昇を記録した。",
+      "AI Overviewsが表示されないクエリのCTRも2025年1月の2.8%から2026年2月の3.8%まで上昇しており、クリックの分布自体が変化している。"
+    ],
+    "cardBullets": [
+      "GoogleのAI Overviews、CTRが1年で85%回復したと判明",
+      "53ブランド・547万クエリを追跡した3年目の年次調査",
+      "AI Overviews表示の有無でクリックの分布そのものが変化"
+    ],
+    "meaning": "AI Overviewsは登場当初「クリックを奪う」と見られていたが、実際にはクリックの総量よりも配分が変わってきている。AIに引用されるかどうかが、従来の検索順位以上にサイトへの流入を左右する要因になりつつあることを示すデータである。",
+    "thumbnail": "https://7982212.fs1.hubspotusercontent-na1.net/hubfs/7982212/AIO%20Impact%20on%20Google%20CTR%202026%20Update%20(1).png"
+  },
+  {
+    "slug": "ppc-land-amazon-perplexity-injunction",
+    "title": "AmazonがPerplexityのAI購買エージェントを止める仮処分に敗訴",
+    "origTitle": "Amazon loses injunction blocking Perplexity's AI shopping agent",
+    "sourceUrl": "https://ppc.land/amazon-loses-injunction-blocking-perplexitys-ai-shopping-agent/",
+    "source": "PPC Land",
+    "date": "2026-08-04",
+    "dateDisplay": "2026年8月4日",
+    "platforms": ["amazon", "other-ai"],
+    "viewpoint": "buyer",
+    "theme": "visibility",
+    "background": "Amazonは、AI検索サービスPerplexityのブラウザエージェント「Comet」がユーザーに代わってAmazonにアクセスし購買代行することを不正アクセスとして提訴していたが、米連邦控訴裁判所(第9巡回区)がAmazon側の仮処分を取り消す判断を下した。AIエージェントによる自社サイトへのアクセスをモール側が一方的に遮断できるかどうかが争われた重要な判断である。",
+    "bullets": [
+      "裁判所は、Amazonのサーバーにアクセスしているのは「AIエージェントを使う人間本人」であり、Perplexity自体ではないと判断した。",
+      "Perplexityのブラウザアシスタントは独立した主体ではなく道具として機能しているとされ、不正アクセス関連法の適用対象外とされた。",
+      "この判断により、小売業者は不正アクセス関連の法律を根拠にAIエージェントを一律で遮断することが難しくなり、利用規約などの契約的な手段に頼らざるを得なくなった。"
+    ],
+    "cardBullets": [
+      "Amazon対PerplexityのAI購買代行訴訟、Amazonが敗訴",
+      "裁判所はAIエージェント利用の責任は「人間側」と判断",
+      "モール側は法的にAIエージェントを一律遮断しにくくなった"
+    ],
+    "meaning": "この判断は、AIエージェントがユーザーに代わって他社サイトを閲覧・購入代行する動きを止めにくくすることを意味する。自社サイトが意図しないAIエージェント経由でアクセスされる前提に立ち、価格・在庫・商品情報がその場合でも正しく伝わるようになっているかを確認しておく価値が増す。",
+    "thumbnail": "https://ppc.land/content/images/2026/09/Amazon-loses-injunction-blocking-Perplexity-s-AI-shopping-agent.jpg"
+  },
+  {
+    "slug": "sparktoro-zero-click-2026",
+    "title": "2026年、Google検索の3分の2以上がクリックなしで終了",
+    "origTitle": "In 2026, Less than One Third of Google Searches Still Send a Click",
+    "sourceUrl": "https://sparktoro.com/blog/in-2026-less-than-one-third-of-google-searches-still-send-a-click/",
+    "source": "SparkToro",
+    "date": "2026-06-09",
+    "dateDisplay": "2026年6月9日",
+    "platforms": ["google"],
+    "viewpoint": "buyer",
+    "theme": "measurement",
+    "background": "SparkToroは検索データ分析企業Similarwebと共同で、Google検索がどれだけ外部サイトへのクリックにつながっているかを継続調査している。AI OverviewsやAI Modeの普及に伴い、検索結果ページ内で情報が完結する「ゼロクリック検索」の割合がどこまで進んでいるかを示した最新データである。",
+    "bullets": [
+      "2026年最初の4か月間で、Google検索の68.01%がどこにもクリックされずに終了したことが判明した。",
+      "AI機能・即時回答・関連する追加検索などにより、検索結果ページ内で完結する行動が増えていることが要因とされている。",
+      "外部サイトへのクリックを伴わない検索が主流になりつつあり、サイト流入だけを指標にするとAI検索での実際の露出を見誤るリスクを示している。"
+    ],
+    "cardBullets": [
+      "2026年、Google検索の68%がクリックなしで終了と判明",
+      "AI機能・即時回答が検索結果内で完結する行動を後押し",
+      "サイト流入だけでは見えないAI検索での露出把握が課題に"
+    ],
+    "meaning": "クリックされない検索が主流になるということは、サイトへの流入数だけを見ていては自社商品がAIにどう扱われているかを把握できないということでもある。AIの回答の中でどう紹介されているか、引用されているかを別の方法で確認する必要性が高まっている。",
+    "thumbnail": "https://images.sparktoro.com/blog/wp-content/uploads/2026/06/2026-what-happens-after-google-search-sparktoro-similarweb.png"
+  },
+  {
+    "slug": "lycorp-yahoo-shopping-ai-omakase-compare",
+    "title": "Yahoo!ショッピング、AIが自動で商品比較し最適な1品を提案する「AIおまかせ比較」を開始",
+    "sourceUrl": "https://www.lycorp.co.jp/ja/news/release/020421/",
+    "source": "LINEヤフー",
+    "date": "2026-05-20",
+    "dateDisplay": "2026年5月20日",
+    "platforms": ["yahoo"],
+    "viewpoint": "buyer",
+    "theme": "optimization",
+    "background": "LINEヤフーは、Yahoo!ショッピングの「AIエージェント」の新機能として、AIが自動で複数商品を比較し最適な1品を提案する「AIおまかせ比較」の提供を開始した。「AIお買い物メモ」に続く機能拡充であり、比較・検討という購買プロセスの中盤をAIが担う流れが強まっていることを示す。",
+    "bullets": [
+      "AIが自動で約15〜20商品を比較し、ユーザーのニーズに最適な商品を「WINNER」として提案する機能である。",
+      "「価格」「レビュー」「耐久性」といった具体的な比較軸から、「スタイリッシュなデザイン」のような抽象的な要望まで指定でき、最短約60秒で比較を完了できる。",
+      "AIエージェント経由の取扱高は全体の15%以上に伸長し、AIエージェント利用者の購買率は非利用者の1.5倍に達している。"
+    ],
+    "cardBullets": [
+      "Yahoo!ショッピングにAIが自動比較する新機能が登場",
+      "約15~20商品を比較し最適な1品を60秒で提案",
+      "AIエージェント経由の取扱高が全体の15%以上に伸長"
+    ],
+    "meaning": "AIが商品を比較する際の判断材料は、価格やレビューだけでなく「耐久性」「デザイン」といった抽象的な要望にも及ぶ。こうした比較に組み込まれるためには、商品ページの文章がAIにとって比較可能な形(素材・用途・特徴の明確な記述)になっているかどうかが重要になる。",
+    "thumbnail": "https://www.lycorp.co.jp/ja/news/2026/78d07e2908db85ebe65f024f9593154d3e2f8c19.png"
+  },
+  {
+    "slug": "google-ucp-updates-march-2026",
+    "title": "Google、Universal Commerce Protocol(UCP)の新機能でAIショッピングをさらに簡易化",
+    "origTitle": "AI shopping gets simpler with Universal Commerce Protocol updates",
+    "sourceUrl": "https://blog.google/products-and-platforms/products/shopping/ucp-updates/",
+    "source": "Google",
+    "date": "2026-03-19",
+    "dateDisplay": "2026年3月19日",
+    "platforms": ["google"],
+    "viewpoint": "seller",
+    "theme": "optimization",
+    "background": "Googleは業界各社と共同開発したオープン標準「Universal Commerce Protocol(UCP)」の機能拡張を発表した。AIエージェントが商品をカートに追加し購入手続きまで進める「エージェント型ショッピング」を支える基盤技術であり、小売業者側の導入負荷を下げる方向の更新が中心である。",
+    "bullets": [
+      "AIエージェントが複数の商品を一度にカートへ追加できるようになり、通常の買い物により近い体験になった。",
+      "リアルタイムの商品情報(バリエーション・在庫・価格)にAIエージェントがアクセスできるカタログ機能を追加した。",
+      "統合プラットフォーム上でショッパーがロイヤルティ特典を受け取れるアイデンティティ連携機能を導入した。",
+      "Google Merchant CenterでのUCP導入プロセスを簡素化し、より多くの小売業者がエージェント型コマースに参加できるようにした。"
+    ],
+    "cardBullets": [
+      "GoogleのUCPが更新、AIエージェントの複数商品カート対応",
+      "在庫・価格などリアルタイム商品情報へのアクセスを拡充",
+      "Merchant CenterでのUCP導入手続きを簡素化"
+    ],
+    "meaning": "AIエージェントが商品をまとめてカートに入れられるようになるということは、商品ページの情報が「人が読む」だけでなく「AIがリアルタイムに参照し取引を進める」データとしても機能し始めていることを意味する。在庫・価格情報の更新頻度と正確さが、これまで以上に購買機会に直結するようになる。",
+    "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_shopping_gets_simple_social.width-1300.png"
+  },
+  {
+    "slug": "google-conversational-attributes-merchant-center",
+    "title": "Google、AI検索向けにMerchant Centerへ「会話型属性」を追加",
+    "origTitle": "Conversational Attributes",
+    "sourceUrl": "https://business.google.com/us/accelerate/announcements/conversational-attributes/",
+    "source": "Google",
+    "date": "2026-05-19",
+    "dateDisplay": "2026年5月19日",
+    "platforms": ["google"],
+    "viewpoint": "seller",
+    "theme": "optimization",
+    "background": "Googleは年次イベント「Google Marketing Live 2026」にあわせて、Merchant Centerに「Conversational Attributes(会話型属性)」と呼ぶ新しいデータ項目群を追加した。AI ModeやGeminiなど会話型の検索面に向けて、既存の商品フィードだけでは伝えきれない情報を補完する仕組みである。",
+    "bullets": [
+      "商品のFAQ・関連商品・PDF資料・バリエーション構成・人気度など、既存の商品データ仕様にはなかった項目を追加できるようにした。",
+      "既存の主要フィードとは別の補助フィードやMerchant API経由で提出でき、主要フィードの承認状況に影響を与えない設計になっている。",
+      "AI Modeなどの会話型検索がより詳細で微妙なニュアンスを含む質問に答えられるよう、既存データを補完する位置づけとされている。"
+    ],
+    "cardBullets": [
+      "GoogleがMerchant Centerに「会話型属性」を追加",
+      "FAQ・関連商品・人気度など既存フィードにない項目に対応",
+      "AI Modeが詳細な質問に答えるための補完データとして機能"
+    ],
+    "meaning": "会話型属性が別枠で用意されたのは、通常の商品フィードの型では「なぜこの商品が良いのか」「よくある質問への回答」といった情報を表現しきれないからである。商品データを型どおり埋めるだけでなく、FAQ的な情報や関連商品のつながりまで含めて用意できているかが、AI経由の会話型検索での見え方を左右する。",
+    "thumbnail": "https://www.gstatic.com/marketing-cms/assets/images/ads/07/4d/f463024e4eb8a15d3a63392be8ce/conversational-attributes-update.webp=n-w554-h700-fcrop64=1,00000000ffffffff-rw"
+  },
+  {
+    "slug": "gs1uk-google-gtin-march-2026",
+    "title": "Google、2026年3月の仕様変更でGTIN・商品IDの扱いを厳格化",
+    "origTitle": "Google changes in March 2026: how to get GTINs and product IDs right",
+    "sourceUrl": "https://www.gs1uk.org/insights/news/Google-changes-in-March-2026-how-to-get-GTINs-and-product-IDs-right",
+    "source": "GS1 UK",
+    "date": "2026-02-17",
+    "dateDisplay": "2026年2月17日",
+    "platforms": ["google"],
+    "viewpoint": "seller",
+    "theme": "optimization",
+    "background": "商品識別コードを管理する国際機関GS1の英国法人は、2026年3月に予定されているGoogleの商品データ仕様変更について、出店者が取るべき対応をまとめた解説記事を公開した。オンラインと店舗で価格・在庫・状態が異なる商品の扱いが変わる、実務に直結する変更である。",
+    "bullets": [
+      "2026年3月以降、オンラインと店舗で価格・在庫状況・状態が異なる商品は、異なる商品IDで2つの商品として申請する必要があるようになった。",
+      "GTIN(商品識別コード)を商品データに含めることで商品パフォーマンスが向上し、コンバージョン率が最大20%上昇する可能性があるとしている。",
+      "正確な商品識別により、GoogleはShopping形式のマッチング精度を高め、検索・YouTube・ディスプレイなど複数のプラットフォームへの配信を最適化できるとしている。"
+    ],
+    "cardBullets": [
+      "Googleが2026年3月からGTIN・商品IDの扱いを厳格化",
+      "オンラインと店舗で異なる場合は別商品IDでの申請が必要に",
+      "正確なGTINでコンバージョン率が最大20%上昇の可能性"
+    ],
+    "meaning": "GTINのような一見地味な識別コードの正確さが、AIによる商品マッチングの精度に直結するようになっている。オンラインと店舗で条件が異なる商品を同一IDのまま放置していると、複数のプラットフォームへの配信そのものがうまく機能しなくなるリスクがある。",
+    "thumbnail": "https://www.gs1uk.org/sites/default/files/2026-02/card-google-march-update.jpg"
+  },
+  {
+    "slug": "commercepick-rakuten-ai-70percent-reduction",
+    "title": "楽天市場の店舗向けAI、問い合わせ対応時間を約70%削減",
+    "sourceUrl": "https://www.commercepick.com/archives/97080",
+    "source": "コマースピック",
+    "date": "2026-07-09",
+    "dateDisplay": "2026年7月9日",
+    "platforms": ["rakuten"],
+    "viewpoint": "seller",
+    "theme": "optimization",
+    "background": "楽天グループは2026年7月7日、出店店舗向けAI活用に関する説明会を開催した。店舗運営システム「RMS」に組み込まれたAI機能群「Rakuten AI for RMS」の活用が広がっている実態と、具体的な店舗の成果事例が紹介された。",
+    "bullets": [
+      "ギフト専門店「プチギフトmomo-fuku」の事例では、問い合わせ対応にかかる時間が月67時間から20時間へ、約70%削減された。",
+      "同店舗では商品登録数がAI活用により約1,000点から1万点超へと大幅に増加した。",
+      "出店店舗の約半数が店舗向けAI機能を毎月活用しており、データ分析エージェントの利用は導入店舗の72.9%に達している。",
+      "AI活用は問い合わせ対応・商品登録にとどまらず、画像加工やレビュー返信にも広がっている。"
+    ],
+    "cardBullets": [
+      "楽天市場の店舗向けAIで問い合わせ対応時間が約70%削減",
+      "商品登録数が約1,000点から1万点超へ大幅増加した事例も",
+      "出店店舗の約半数がAI機能を毎月活用する状況に"
+    ],
+    "meaning": "問い合わせ対応や商品登録といった日々の運営業務がAIで効率化されると、店舗側の時間が「商品情報をどう充実させるか」に回せるようになる。AI活用が進むほど、削減できた時間をどこに再投資するかという運用面の設計が成果の差を分けるようになる。",
+    "thumbnail": "https://www.commercepick.com/wp-content/uploads/2026/07/202607081539.jpeg"
+  },
+  {
+    "slug": "arxiv-scaling-attribute-extraction-parallel-decoding",
+    "title": "並列デコードでEC商品属性抽出を高速化する手法を提案",
+    "origTitle": "Scaling E-Commerce Attribute Extraction with Parallel Decoding",
+    "sourceUrl": "https://arxiv.org/abs/2609.09716",
+    "source": "arXiv(研究論文)",
+    "date": "2026-09-09",
+    "dateDisplay": "2026年9月9日",
+    "platforms": ["other-ai"],
+    "viewpoint": "seller",
+    "theme": "optimization",
+    "background": "商品の属性(色・素材・用途など)をAIで自動抽出する技術は、商品数が膨大なECサイトほど処理コストが課題になる。本論文は、購買判断に関わる属性を自動発見したうえで軽量LLMと並列デコードにより高速に属性値を抽出する二段階パイプラインを提案する研究である。",
+    "bullets": [
+      "購買判断に関連する属性スキーマをカテゴリごとに自動発見し、軽量LLM(Qwen3-4B)とHyper-Parallel Decodingで属性値を抽出する二段階手法を提案している。",
+      "基盤となる大規模モデルと同等の85%の抽出精度を保ちながら、推論コストを92%削減することに成功した。",
+      "構造化された商品知識ベースを自動構築でき、大規模カタログでの商品発見・充実を本番運用の速度で実現できるとしている。"
+    ],
+    "cardBullets": [
+      "商品属性抽出を高速化するAI手法の論文が公開",
+      "精度85%を保ちつつ推論コストを92%削減する二段階方式",
+      "大規模カタログでも本番運用速度での属性抽出が可能に"
+    ],
+    "meaning": "商品属性の自動抽出が高速・低コストになるほど、タグ付け作業を人手でカバーしきれない規模のカタログでも構造化データの整備が現実的になる。属性抽出の技術が進化するほど、元となる商品説明文や画像がどれだけ情報を持っているかが、抽出できる属性の質を左右するようになる。",
+    "thumbnail": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+  },
+  {
+    "slug": "arxiv-e-geo-testbed-ecommerce",
+    "title": "EC向け生成エンジン最適化(GEO)の効果を検証する実験基盤「E-GEO」",
+    "origTitle": "E-GEO: A Testbed for Generative Engine Optimization in E-Commerce",
+    "sourceUrl": "https://arxiv.org/abs/2511.20867",
+    "source": "arXiv(研究論文)",
+    "date": "2026-07-14",
+    "dateDisplay": "2026年7月14日",
+    "platforms": ["other-ai"],
+    "viewpoint": "seller",
+    "theme": "optimization",
+    "background": "生成AI検索エンジンに商品が引用・推薦されやすくする「GEO」対策は、EC分野ではまだ効果検証の枠組みが乏しかった。本論文は、13,747件の実際の消費者商品クエリを含むデータセットと、5つの生成エンジン・7つのLLMリライター・15のヒューリスティック手法を横断評価する実験基盤「E-GEO」を提案している。",
+    "bullets": [
+      "13,747件の複数文からなる実際の消費者商品クエリを含むデータセット「E-GEO」を初めて構築した。",
+      "5つの生成エンジン、7つのLLMによる書き換え手法、15の手作りヒューリスティックを横断的に評価し、汎用的な最適化手法の効果を検証した。",
+      "攻撃シナリオ(不正な最適化)への耐性も検証し、GEOによる改善が見せかけではなく本質的なコンテンツ品質向上を反映していることを確認する軽量な最適化手法を開発した。"
+    ],
+    "cardBullets": [
+      "EC向けGEO対策の効果を検証する実験基盤「E-GEO」提案",
+      "13,747件の実消費者クエリで5つの生成AIを横断評価",
+      "不正な最適化と本質的な品質向上を見分ける手法も検証"
+    ],
+    "meaning": "GEO対策と称する手法の中には、見せかけの最適化に過ぎないものも含まれうる。この研究が示すように、AIに引用されやすくするための工夫が本当にコンテンツの質を高めているのか、それとも表面的な操作に過ぎないのかを見分ける視点が、今後のGEO対策には必要になる。",
+    "thumbnail": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+  },
+  {
+    "slug": "digitalcommerce360-shopify-chatgpt-integration",
+    "title": "Shopify、ChatGPT内でブランドの商品を購入可能にする統合機能を発表",
+    "origTitle": "Shopify integration makes brands shoppable within ChatGPT",
+    "sourceUrl": "https://www.digitalcommerce360.com/2026/03/25/shopify-brands-shoppable-inside-chatgpt-integration/",
+    "source": "Digital Commerce 360",
+    "date": "2026-03-25",
+    "dateDisplay": "2026年3月25日",
+    "platforms": ["chatgpt"],
+    "viewpoint": "seller",
+    "theme": "visibility",
+    "background": "ShopifyはOpenAIと連携し、ChatGPT内でShopify加盟店の商品をそのまま購入できるようにする統合機能「Agentic Storefronts」を発表した。ChatGPT側からもShopify Catalogを経由して商品を推薦できるようになり、会話型AIの中で商品発見から購入までが完結する体制が一段と広がった。",
+    "bullets": [
+      "ChatGPTで商品推薦を求めると、Shopify Catalogを経由して関連商品が表示され、購入は各マーチャント独自のストアフロント上で完結する仕組みである。",
+      "アプリのインストールや個別の技術統合が不要で、対象プランのShopify加盟店であれば自動的に対応する。",
+      "マーチャントはサブスクリプション・バンドル・独自の価格設定・Shop Payなどの既存機能を維持したまま対応できる。",
+      "Shopify社長は、この段階で対応するマーチャントほどAIショッピング普及期のブランド認知で優位に立てると述べている。"
+    ],
+    "cardBullets": [
+      "ShopifyがChatGPT内で商品購入できる統合機能を発表",
+      "アプリ導入不要でShopify Catalog経由に自動対応",
+      "購入は各マーチャント独自のストアフロントで完結"
+    ],
+    "meaning": "ChatGPTのような会話型AIが商品推薦から購入までの導線を持つようになると、モール内の検索順位とは別に「AIにどう推薦されるか」という新しい露出経路が生まれる。プラットフォーム側の対応を待つだけでなく、自社の商品データがそうした連携に耐えられる形で整理されているかを確認しておく必要がある。",
+    "thumbnail": "https://www.digitalcommerce360.com/wp-content/uploads/2026/03/Finkelstein.png"
+  },
+  {
+    "slug": "arxiv-beats-attribute-taxonomy-rakuten-taiwan",
+    "title": "台湾楽天で実装、人間とAIの協働で商品属性分類を自動構築する「BEATS」",
+    "origTitle": "BEATS: Bootstrapping E-commerce Attribute Taxonomies for Search through Iterative Human-AI Collaboration",
+    "sourceUrl": "https://arxiv.org/html/2606.04909v1",
+    "source": "arXiv(研究論文)",
+    "date": "2026-06-03",
+    "dateDisplay": "2026年6月3日",
+    "platforms": ["rakuten", "other-ai"],
+    "viewpoint": "seller",
+    "theme": "visibility",
+    "background": "属性分類体系(タクソノミー)が存在しない、あるいは不十分なECプラットフォームでは、商品属性によるタグ付けを一から構築する必要がある。本論文は台湾楽天で実際に実装された、複数のLLMと人間の検証を組み合わせて属性分類をゼロから構築するフレームワーク「BEATS」を報告している。",
+    "bullets": [
+      "複数の異なるLLMによる生成、統合、洗練、品質チェック、人間による検証という5段階のパイプラインで属性分類体系をゼロから構築する。",
+      "台湾楽天での実装により、67,277個の属性を生成し540万以上の製品にタグ付けした。",
+      "属性で強化された商品データを用いた検索で、回収率(必要な商品を正しく見つけられる割合)が66.6%から70.4%に改善した。",
+      "各ラウンドの人間によるフィードバックを踏まえてプロンプトを継続的に改良する反復的な仕組みが、本番運用における品質確保に不可欠だったとしている。"
+    ],
+    "cardBullets": [
+      "台湾楽天で実装、人間とAI協働の属性分類構築手法「BEATS」",
+      "540万商品に6.7万件の属性を自動タグ付け",
+      "検索の回収率が66.6%から70.4%に改善"
+    ],
+    "meaning": "楽天という実際のモールで、属性タグ付けが検索の回収率を数ポイット改善したという実証結果は、タグ付けの精度が検索結果の露出に直結することを裏付けている。属性分類の設計そのものをAIと人間の反復作業で磨き上げるという発想は、自社のタグ付け運用を見直す際の具体的な参考になる。",
+    "thumbnail": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+  },
+  {
+    "slug": "netshop-rakuten-ai-optimism-2026-preview",
+    "title": "楽天、AI活用を発信するビジネスイベント「Rakuten AI Optimism」を8月に開催",
+    "sourceUrl": "https://netshop.impress.co.jp/n/2026/06/02/16171",
+    "source": "ネットショップ担当者フォーラム",
+    "date": "2026-06-02",
+    "dateDisplay": "2026年6月2日",
+    "platforms": ["rakuten"],
+    "viewpoint": "buyer",
+    "theme": "visibility",
+    "background": "楽天グループは、AI活用の取り組みを社内外に発信するグループ最大級のビジネスイベント「Rakuten AI Optimism」を2026年8月5日から7日にパシフィコ横浜で開催すると発表した。累計参加者数は約84万人に達しており、楽天のサービスに実装されたAI技術を来場者が体験できる場として継続開催されている。",
+    "bullets": [
+      "会期は2026年8月5日から7日の3日間、会場はパシフィコ横浜で、入場無料・事前登録制のイベントである。",
+      "三木谷浩史代表取締役会長兼社長のほか、慶應義塾大学教授でLINEヤフーシニアストラテジストの安宅和人氏らが登壇する。",
+      "展示エリアではAI技術の体験コーナーや商談ブースが設けられ、楽天の各サービスで実装されたAIコンテンツに実際に触れられる。",
+      "累計参加者数は約84万人に達しており、グループ内外にAI活用を発信する場として位置づけられている。"
+    ],
+    "cardBullets": [
+      "楽天のAIイベント「Rakuten AI Optimism」8月開催へ",
+      "三木谷社長やLINEヤフー安宅氏らが登壇予定",
+      "累計参加者約84万人、AI体験コーナーや商談ブースも設置"
+    ],
+    "meaning": "楽天がグループ最大級のイベントとしてAI活用を前面に打ち出す姿勢は、AIが一部の先進的な取り組みではなく、モール全体の標準的な運営手法になりつつあることを示している。こうした場で発表される新機能の多くが、後に出店者向けの標準機能として展開される流れを踏まえ、動向を継続的に追う価値がある。",
+    "thumbnail": "https://netshop.impress.co.jp/sites/default/files/styles/1200x630/public/images/news/2026/news-node16171-ogp.jpg?itok=OeXDjsbi"
+  },
+  {
+    "slug": "arxiv-conversational-recommendation-live-catalogue",
+    "title": "リアルタイムに変化するECカタログに対応する会話型推薦システムの手法",
+    "origTitle": "Conversational Recommendation over Live E-Commerce Catalogues with Self-Refreshing Retrieval",
+    "sourceUrl": "https://arxiv.org/abs/2608.27006",
+    "source": "arXiv(研究論文、ACM RecSys 2026採択)",
+    "date": "2026-08-27",
+    "dateDisplay": "2026年8月27日",
+    "platforms": ["other-ai"],
+    "viewpoint": "seller",
+    "theme": "optimization",
+    "background": "在庫や価格が頻繁に変わるECカタログに対して、会話型AIが常に最新の商品情報に基づいて推薦できるようにするのは技術的に難しい課題である。本論文はWhatsApp対応のショッピングアシスタントとして実装された、カタログの変更を効率的に反映する自己更新型の推薦システムを提案しており、ACM RecSys 2026に採択されている。",
+    "bullets": [
+      "商品ごとのハッシュ値を用いて新規・変更・削除・未変更の商品を識別し、変更分(デルタ)だけを処理する自己更新型のレトリーバーを中核に据えている。",
+      "LLMは意図分類と好みの抽出のみに使用し、検索・再ランキング・多様性の確保は専用の関数で処理することで効率化している。",
+      "WhatsApp対応のショッピングアシスタントとして実装され、カタログの変更が次回の同期後に推薦結果へ反映される動作を確認した。"
+    ],
+    "cardBullets": [
+      "在庫変動に強い会話型AI推薦の手法をACM RecSys採択論文で提案",
+      "商品の変更分だけを処理する自己更新型レトリーバーが核",
+      "WhatsApp向けショッピングAIとして実装し動作を確認"
+    ],
+    "meaning": "会話型AIによる商品推薦は、カタログが常に更新される前提で設計されて初めて実用に耐える。在庫切れの商品を推薦し続けたり、値下げ後の価格が反映されないといった事態を防ぐには、商品データの更新頻度とAI側の反映速度がかみ合っているかを意識する必要がある。",
+    "thumbnail": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+  },
+  {
+    "slug": "nikkei-rakuten-ai-store-manager",
+    "title": "楽天市場、店舗ごとに24時間接客する「AI店長」を実装へ",
+    "sourceUrl": "https://www.nikkei.com/article/DGXZQOUC04BI50U6A800C2000000/",
+    "source": "日本経済新聞",
+    "date": "2026-08-05",
+    "dateDisplay": "2026年8月5日",
+    "platforms": ["rakuten"],
+    "viewpoint": "seller",
+    "theme": "visibility",
+    "background": "楽天グループは横浜市で開催した「Rakuten AI Optimism」で、店舗ごとの接客を24時間365日担う「AI店長」(展示名称は「マーチャントAI」)を初めて披露した。バーチャル試着やRMSバナー画像生成なども合わせて紹介され、AIが接客の一部を代行する構想が具体的な機能として示された。",
+    "bullets": [
+      "店舗ごとの接客を24時間365日担う「AI店長」を初披露し、各店舗のプロフィールやキャラクター性に合わせてカスタマイズされる。",
+      "生成AIによるバーチャル試着機能も紹介され、利用者が全身写真をアップロードするとおすすめコーディネートを提案し、着用イメージ画像を生成する構想である。",
+      "出店店舗向け管理システム「RMS」に組み込むAI機能群「Rakuten AI for RMS」でも、9月提供予定のバナー画像生成機能などが披露された。"
+    ],
+    "cardBullets": [
+      "楽天市場に24時間接客の「AI店長」を実装へ",
+      "生成AIによるバーチャル試着機能も披露",
+      "RMSにバナー画像自動生成機能を9月提供予定"
+    ],
+    "meaning": "「AI店長」が店舗ごとの個性を反映してカスタマイズされるという発想は、AIによる接客が画一的な自動応答ではなく、店舗ブランドの延長として機能することを目指している。店舗の個性や強みが、AIに引き継げる形で言語化・データ化されているかどうかが、この種の機能を活かせるかの分かれ目になる。",
+    "thumbnail": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3412424005082026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&fp-x=0.77&fp-y=0.26&h=630&w=1200&s=796333388f68da9bffafc5ebd67fffe2"
+  },
+  {
+    "slug": "microsoft-clarity-citations-ga",
+    "title": "Microsoft Clarity、AIの回答での引用状況を無料で追跡できる「Citations」を一般提供開始",
+    "origTitle": "Understand Your Influence in AI Answers: Citations Now Generally Available",
+    "sourceUrl": "https://clarity.microsoft.com/blog/citations-now-generally-available/",
+    "source": "Microsoft Clarity",
+    "date": "2026-05-13",
+    "dateDisplay": "2026年5月13日",
+    "platforms": ["other-ai"],
+    "viewpoint": "seller",
+    "theme": "measurement",
+    "background": "Microsoftは無料のアクセス解析ツール「Clarity」に、AIが生成した回答の中で自社サイトがどう引用されているかを追跡する「Citations」機能を一般提供した。これまで専門の有料ツールが必要だったAI引用の計測が、無料の分析基盤に組み込まれた点が大きな変化である。",
+    "bullets": [
+      "AIが生成した回答でドメインが参照された回数を示す「ページ引用数」を測定できる。",
+      "同じクエリ内で自社ドメインが占める引用の割合を競合と比較できる「権威シェア」を提供する。",
+      "AIアシスタント経由でサイトに流入するセッションの比率や、どのURLがAIの信頼できる情報源として選ばれているかも分析できる。",
+      "Clarityの追跡コードとBing Webmaster ToolsまたはGoogle Search Consoleでのドメイン確認のみで利用でき、追加のCDNやサーバー連携は不要である。"
+    ],
+    "cardBullets": [
+      "Microsoft Clarity、AI引用の無料追跡機能を一般提供",
+      "ページ引用数・競合比較・AI経由流入まで無料で計測",
+      "追跡コードとドメイン確認のみで導入可能"
+    ],
+    "meaning": "AIにどれだけ引用されているかを無料で確認できるようになったことで、可視性の計測は一部の企業だけのものではなくなった。計測手段が身近になった以上、まず自社の商品ページがどのAIにどう引用されているかを実際に確認するところから始められる環境が整ったと言える。",
+    "thumbnail": "https://clarity.microsoft.com/blog/wp-content/uploads/2026/05/Blog-AI-Citation-1.png"
+  },
+  {
+    "slug": "airops-third-party-brand-mentions-85percent",
+    "title": "AI検索でのブランド言及、85%が自社ドメイン以外の第三者ソース由来と判明",
+    "origTitle": "Third-Party Sources Drive 85% of Brand Discovery",
+    "sourceUrl": "https://www.airops.com/report/the-influence-of-offsite-signals-in-ai-search",
+    "source": "AirOps",
+    "date": "2025-10-17",
+    "dateDisplay": "2025年10月17日",
+    "platforms": ["chatgpt", "other-ai"],
+    "viewpoint": "seller",
+    "theme": "measurement",
+    "background": "AirOpsは、AI検索でブランドがどのように言及されるかを分析する調査を実施し、自社ドメインと第三者ドメインのどちらからの言及がAI回答に影響しているかを定量化した。従来のSEOでは自社サイトの最適化が中心だったが、AI検索では外部からの評価の重みが大きく異なることを示す結果である。",
+    "bullets": [
+      "500件以上の商業意図クエリ、21,311件のブランド言及を、GPT-5・Claude Sonnet 4.5・Perplexity Sonarの3つのAIプラットフォームで分析した。",
+      "ブランド言及の85%が第三者ドメイン由来であり、自社ドメインからの言及はわずか13.2%にとどまった。",
+      "ブランドは自社サイトよりも第三者ソースで6.5倍多く言及されており、そのうち約9割がリスティクル(まとめ記事)・比較記事・レビュー由来だった。"
+    ],
+    "cardBullets": [
+      "AI検索のブランド言及、85%が第三者サイト由来と判明",
+      "自社ドメイン発の言及はわずか13.2%にとどまる",
+      "まとめ記事・比較・レビューが第三者言及の9割を占める"
+    ],
+    "meaning": "AI検索での見え方は、自社の商品ページをいくら整えても、それだけでは決まらない。第三者による比較記事やレビューでどう扱われているかが、AIの回答に強く影響するという事実は、自社コンテンツの充実と並行して、外部での言及・評価をどう獲得するかという視点が欠かせないことを示している。",
+    "thumbnail": "https://cdn.prod.website-files.com/62203be3930f396b6cdb3478/697d37367a36197c8f39821a_AO-Thumbnail-Report-ThirdParty-1080x1080-2.avif"
+  },
+  {
+    "slug": "arxiv-critical-survey-geo-2023-2026",
+    "title": "生成エンジン最適化(GEO)研究45本を批判的に検証したサーベイ論文",
+    "origTitle": "Optimizing Visibility in Generative Engines: A Critical Survey of Generative Engine Optimization (2023-2026)",
+    "sourceUrl": "https://arxiv.org/abs/2607.14035",
+    "source": "arXiv(研究論文)",
+    "date": "2026-07-15",
+    "dateDisplay": "2026年7月15日",
+    "platforms": ["other-ai"],
+    "viewpoint": "seller",
+    "theme": "measurement",
+    "background": "GEO(生成エンジン最適化)という新しい分野は、2023年から2026年にかけて急速に研究が積み上がってきたが、その手法や成果にはばらつきが大きい。本論文は、この期間に発表された45本の研究論文を横断的に検証し、GEOという営みが実際には何を意味するのかを批判的に整理したサーベイである。",
+    "bullets": [
+      "2023年11月から2026年7月までに発表された45本の研究を対象に、GEOに関する知見を批判的に整理した。",
+      "GEOは単なるランキング課題ではなく、検索の起動・クロール・インデックス化・検索・再ランキング・引用・顕著性という複数の段階にまたがる確率的なプロセスであると論じている。",
+      "トピックとの関連性や文脈内での位置づけが最も再現性のある効果を持つ一方、汎用的なテクニックは他の状況に転用しにくいと指摘している。",
+      "競合の存在によって個々の対策の効果が薄れる可能性があり、有機的な発見可能性を継続的に高める確立された技術はまだ存在しないとしている。"
+    ],
+    "cardBullets": [
+      "GEO研究45本を検証した批判的サーベイ論文が公開",
+      "GEOは複数段階にまたがる確率的プロセスと結論づけ",
+      "汎用的なテクニックの効果は転用しにくいと指摘"
+    ],
+    "meaning": "GEO対策には「これをやれば必ず引用される」という単純な必勝法が存在しないことを、多数の研究を横断した検証結果が裏付けている。特定のテクニックに飛びつくのではなく、地道にコンテンツの関連性や具体性を積み上げる姿勢が、結局は最も再現性のある土台になる。",
+    "thumbnail": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+  },
+  {
+    "slug": "sej-google-search-console-ai-impressions",
+    "title": "Google Search Consoleが「AI検索でのインプレッション」を報告開始",
+    "origTitle": "Google Now Reports AI Search Impressions. Here's How To Read Them",
+    "sourceUrl": "https://www.searchenginejournal.com/google-reports-ai-search-impressions-how-to-read-them/582824/",
+    "source": "Search Engine Journal",
+    "date": "2026-06-03",
+    "dateDisplay": "2026年6月3日",
+    "platforms": ["google"],
+    "viewpoint": "seller",
+    "theme": "measurement",
+    "background": "Googleは、Search ConsoleにAI OverviewsやAI Modeでの表示状況を確認できる専用の「生成AIパフォーマンスレポート」を追加した。従来の検索パフォーマンスレポートとは別枠で用意されており、AI検索面での自社コンテンツの扱われ方を初めて公式に確認できるようになった。",
+    "bullets": [
+      "ページ・国・デバイス・日付ごとにAI OverviewsやAI Modeでの表示回数(インプレッション)を確認できるようになった。",
+      "現時点ではクリック数・クリック率・掲載順位といった指標は含まれておらず、インプレッションのみのデータにとどまる。",
+      "通常の検索結果への表示を維持したまま、AI機能への表示だけを個別にオプトアウトできる機能も試験提供されている。",
+      "記事の著者は、このレポートを「新しい成績表ではなく診断のためのレンズ」と位置づけ、従来の検索パフォーマンスと合わせて解釈する必要があるとしている。"
+    ],
+    "cardBullets": [
+      "Search ConsoleがAI検索での表示回数を報告開始",
+      "現時点ではクリック数・順位は含まれずインプレッションのみ",
+      "AI機能表示だけを個別オプトアウトする機能も試験提供中"
+    ],
+    "meaning": "自社のどのページがAIの回答生成に使われているかを公式ツールで確認できるようになった意義は大きいが、クリックや売上への影響までは分からない点に注意が必要である。インプレッションの増減だけで一喜一憂せず、実際の問い合わせや売上といった指標と合わせて確認する姿勢が求められる。",
+    "thumbnail": "https://cdn.searchenginejournal.com/wp-content/uploads/2026/07/impressions-933.png"
+  },
+  {
+    "slug": "commercepick-genai-purchase-behavior-70percent",
+    "title": "生成AI経由の購買行動調査、70%がAIとの対話で商品購入候補を広げていた",
+    "sourceUrl": "https://www.commercepick.com/archives/98804",
+    "source": "コマースピック",
+    "date": "2026-07-28",
+    "dateDisplay": "2026年7月28日",
+    "platforms": ["chatgpt", "other-ai"],
+    "viewpoint": "buyer",
+    "theme": "measurement",
+    "background": "ChatGPTやGeminiとの対話を通じて実際に商品購入やサービス申し込みに至った事例100件を分析した調査が公開された。生成AIが単なる検索の代替ではなく、購入候補そのものを広げる役割を果たしている実態を具体的な数値で示した。",
+    "bullets": [
+      "分析対象100件のうち70%が、AIとの対話を通じて商品購入候補を広げていたことが判明した。",
+      "そのうち42%は「認知していなかった商品」、28%は「認知していたが購入候補外だった商品」がAIとの対話で候補に加わっていた。",
+      "17%はすでに購入候補の一つだった商品を、13%は購入予定の商品を確認する目的でAIとの対話を利用していた。"
+    ],
+    "cardBullets": [
+      "生成AI対話で70%が購入候補を拡大していたと判明",
+      "42%は認知していなかった商品がAI経由で候補入り",
+      "AIは「候補形成」の段階から購買に関与している"
+    ],
+    "meaning": "この調査が示すのは、生成AIが単に「知っている商品を探す」道具ではなく、「知らなかった商品を教える」役割まで担い始めているという点である。すでに検索されている商品名だけでなく、まだ認知されていない商品がどう紹介されるかという観点も、AI時代の商品情報整備では意識する価値がある。",
+    "thumbnail": "https://www.commercepick.com/wp-content/uploads/2026/07/main_dd31dd648cab49c0ad8fa167b90b1b74.png"
+  },
+  {
+    "slug": "commercepick-ai-chosen-not-searched",
+    "title": "商品は「検索される」から「AIに選ばれる」へ、Amazon・楽天・Google・Shopifyの最新動向",
+    "sourceUrl": "https://www.commercepick.com/archives/98063",
+    "source": "コマースピック",
+    "date": "2026-07-21",
+    "dateDisplay": "2026年7月21日",
+    "platforms": ["amazon", "rakuten", "google", "chatgpt"],
+    "viewpoint": "seller",
+    "theme": "measurement",
+    "background": "AIによる商品推薦が実際の購買プロセスに組み込まれ始める中、主要なプラットフォーム各社の対応を横断的に整理した記事が公開された。各社に共通するのは、単なる文字数削減や機能追加ではなく、商品情報そのものをAIが扱いやすい形に「再設計」する動きである。",
+    "bullets": [
+      "Amazonは2026年7月27日以降、商品名をスペース込み75文字以内に制限し、素材や用途などの補足情報は検索対象になる「商品のハイライト」として分離する仕様に変更した。",
+      "楽天市場は用途や予算から検索できるAIコンシェルジュを軸に、商品との出会い方そのものを変えようとしている。",
+      "Googleは複数プラットフォームを横断する「Universal Cart」を展開し、商品フィードの情報整備をエージェント型ショッピングの前提としている。",
+      "Shopifyは商品データを構造化し、外部のAIサービスへ配信できる形に整える方向で対応を進めている。"
+    ],
+    "cardBullets": [
+      "Amazon・楽天・Google・Shopifyの商品情報対応を横断整理",
+      "Amazonは商品名75文字制限とハイライト機能で情報を分離",
+      "各社共通で商品情報の『AI向け再設計』が進む"
+    ],
+    "meaning": "「識別する情報」と「比較する情報」を分けるというAmazonの発想は、商品名に何でも詰め込んできた従来のやり方からの転換を意味する。プラットフォームごとに要求される形式は異なっても、商品情報を「識別」と「比較」の観点で整理し直すという考え方自体は、どのモールでも応用できる。",
+    "thumbnail": "https://www.commercepick.com/wp-content/uploads/2026/07/202607201231.jpeg"
+  },
+  {
+    "slug": "arxiv-geo-bench-ranking-manipulation",
+    "title": "生成エンジン最適化(GEO)におけるランキング操作攻撃を評価するベンチマーク「GEO-Bench」",
+    "origTitle": "GEO-Bench: Benchmarking Ranking Manipulation in Generative Engine Optimization",
+    "sourceUrl": "https://arxiv.org/abs/2605.29107",
+    "source": "arXiv(研究論文)",
+    "date": "2026-05-30",
+    "dateDisplay": "2026年5月30日",
+    "platforms": ["other-ai"],
+    "viewpoint": "seller",
+    "theme": "measurement",
+    "background": "GEO対策が広がるにつれて、正当な最適化と不正なランキング操作の境界が曖昧になりつつある。本論文は、LLMを用いたランキング操作攻撃を統一的に評価するベンチマーク「GEO-Bench」を提案し、どのような手法がAIの推薦順位を不当に操作しうるかを体系的に検証している。",
+    "bullets": [
+      "ブラックボックス型(内部を知らずに攻撃)とホワイトボックス型(内部構造を利用する攻撃)の複数の手法を統一的な基準で評価するベンチマークを構築した。",
+      "5つのデータセットと固定のLLMランカーを用いた実験により、有効性と発覚しにくさのトレードオフを定量的に分析した。",
+      "ブラックボックス型のコンテンツ改変が、より高度なホワイトボックス型の手法と同等かそれ以上の効果を持つ場合があることを示した。"
+    ],
+    "cardBullets": [
+      "AI検索のランキング操作攻撃を検証するベンチマーク公開",
+      "5データセットで有効性と発覚しにくさのトレードオフを分析",
+      "単純な手法が高度な手法と同等の効果を持つ場合もあると判明"
+    ],
+    "meaning": "この研究が示すのは、AIの推薦順位を不正に操作する手法が、必ずしも高度な技術を要するとは限らないという点である。GEO対策と称して行われる施策が、実は不正な操作と紙一重になっていないか、自社の取り組みを一度点検する視点として参考になる。",
+    "thumbnail": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+  },
+  {
+    "slug": "aws-rufus-bedrock-scaling",
+    "title": "AmazonのAIアシスタント「Rufus」、Amazon Bedrockで数百万人規模の会話型ショッピングを支える",
+    "origTitle": "How Rufus scales conversational shopping experiences to millions of Amazon customers with Amazon Bedrock",
+    "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/how-rufus-scales-conversational-shopping-experiences-to-millions-of-amazon-customers-with-amazon-bedrock/",
+    "source": "AWS(Amazon Web Services)",
+    "date": "2025-11-20",
+    "dateDisplay": "2025年11月20日",
+    "platforms": ["amazon"],
+    "viewpoint": "seller",
+    "theme": "optimization",
+    "background": "AmazonのAIショッピングアシスタント「Rufus」が数百万人規模の会話型体験をどう支えているかを、開発基盤であるAmazon Bedrockの活用事例として技術解説した記事である。ビジネス側の成果だけでなく、大規模な会話型AIを安定運用する技術的な裏側を示している。",
+    "bullets": [
+      "年間2億5,000万人以上の顧客がRufusを利用し、月間ユーザー数は前年比140%増加した。",
+      "Amazon Bedrockが複数の基盤モデル(Amazon Nova、Claude Sonnetなど)をホストし、最小限のシステム変更で迅速な統合を可能にしている。",
+      "Amazon Bedrockの導入により開発速度が6倍以上向上したとしている。",
+      "価格履歴確認・自動購入・会話型の再注文など、動的でパーソナライズされたショッピング体験をツール統合によって実現している。"
+    ],
+    "cardBullets": [
+      "Amazon Bedrockが数百万人規模の会話型AI体験を支える",
+      "複数基盤モデルの統合で開発速度が6倍以上に向上",
+      "価格履歴確認や自動購入などツール統合で体験を拡張"
+    ],
+    "meaning": "大規模な会話型AIを支える基盤技術は、ユーザーの目に触れない部分だが体験の速さや安定性を左右する。ここで語られる「複数モデルを組み合わせ迅速に機能追加する」という発想は自社開発の話に見えるが、AIサービスを選ぶ・組み合わせる側にとっても、裏側でどんな仕組みが動いているかを知る材料になる。",
+    "thumbnail": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2025/11/20/ml-19594-2-1-1120x630.jpeg"
+  },
+  {
+    "slug": "yahoo-finance-walmart-sparky-40percent",
+    "title": "WalmartのAI「Sparky」利用者、非利用者より40%多く購入と判明",
+    "origTitle": "Walmart says its AI assistant, Sparky, is leading to customers spending 40% more than those who shop without it",
+    "sourceUrl": "https://finance.yahoo.com/technology/ai/articles/walmart-says-ai-assistant-sparky-163000558.html",
+    "source": "Yahoo Finance",
+    "date": "2026-08-26",
+    "dateDisplay": "2026年8月26日",
+    "platforms": ["other-ai"],
+    "viewpoint": "buyer",
+    "theme": "visibility",
+    "background": "米小売大手WalmartのAIショッピングアシスタント「Sparky」の利用実態について、実際の購買データに基づく分析結果が報じられた。楽天やYahoo!ショッピングと同様、海外の大規模ECでも会話型AIの利用が売上と連動し始めている実例である。",
+    "bullets": [
+      "Sparky利用者は非利用者に比べて1注文あたり約40%多く購入していることが分かった。",
+      "Sparkyの利用者数は前年比70%増加しており、利用の広がりが加速している。",
+      "Walmartのeコマース売上は前年同期比23%増となり、四半期の売上高は1,879億ドルに達した。",
+      "データ科学者はこの40%増という結果について、因果関係ではなく相関関係である可能性(Sparky利用者はもともと購買頻度が高い層である可能性)を指摘している。"
+    ],
+    "cardBullets": [
+      "Walmart AI「Sparky」利用者は購入額が40%多いと判明",
+      "利用者数は前年比70%増、eコマース売上も23%増",
+      "40%増は相関関係で因果関係ではない可能性も指摘"
+    ],
+    "meaning": "AI利用と購買額の相関は魅力的な数字だが、そのまま「AIを使わせれば売上が伸びる」と単純化するのは早計である。利用者層の違いという交絡要因を踏まえたうえで、AIが実際にどんな判断を後押ししているのかを見極める視点が、海外の派手な数字を国内の施策に落とし込む際には欠かせない。",
+    "thumbnail": "https://s.yimg.com/lo/mysterio/api/7dcc57f39b9bbb828768b90ee47d3c76f9f914047977860be32b822ac4c8e9e6/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmoneywise_327%2Fc371e183ea3e12b92f9430398f47d0d8.jpg"
+  },
+  {
+    "slug": "mynavi-yahoo-ec-pilot-48percent",
+    "title": "Yahoo!ショッピング、出店者向けAI「EC Pilot」の利用ストアが48%に到達",
+    "origTitle": "AIが「欲しいものを揃えている」 - Yahoo!ショッピングが進めるECのAIエージェント化",
+    "sourceUrl": "https://news.mynavi.jp/techplus/article/20260819-4836182/",
+    "source": "マイナビニュース",
+    "date": "2026-08-19",
+    "dateDisplay": "2026年8月19日",
+    "platforms": ["yahoo"],
+    "viewpoint": "seller",
+    "theme": "optimization",
+    "background": "LINEヤフーが2026年3月から正式提供している出店者向けAI運営支援サービス「Yahoo! EC Pilot」について、利用状況と成果をまとめた記事である。ユーザー向けのAIエージェント機能だけでなく、出店者側のAI活用がどこまで浸透しているかを具体的な数値で示している。",
+    "bullets": [
+      "2026年7月時点で、AIエージェント経由の注文金額がYahoo!ショッピング全体の約2割に達した。",
+      "出店者向けAI運営支援「Yahoo! EC Pilot」は2026年7月時点でストアの約48%が利用している。",
+      "Yahoo! EC Pilotの利用ストアは、非利用ストアと比べて取扱高の前年比成長率が15ポイント高い結果となった。",
+      "今後は配送予測、コーディネート生成、個人向けトップページ作成などの機能拡充に加え、課題分析と改善提案を行う「コンサルティングレポート」も予定している。"
+    ],
+    "cardBullets": [
+      "Yahoo!ショッピングの出店者向けAI、利用率が48%に到達",
+      "利用ストアは非利用ストアより成長率が15ポイント高い",
+      "AIエージェント経由の注文金額は全体の約2割に"
+    ],
+    "meaning": "出店者向けAIの利用有無が成長率の差として表れているという結果は、AI活用が「あれば便利」ではなく「使わないと相対的に取り残される」段階に入りつつあることを示している。無料で使える運営支援ツールがある以上、まず使ってみて自店舗の商品情報のどこが弱いかを診断してもらうことが、遠回りに見えて近道になる。",
+    "thumbnail": "https://news.mynavi.jp/techplus/article/20260819-4836182/ogp_images/ogp.jpg"
+  }
+]

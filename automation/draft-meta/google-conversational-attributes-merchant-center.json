@@ -1,0 +1,22 @@
+{
+  "slug": "google-conversational-attributes-merchant-center",
+  "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/google-conversational-attributes-merchant-center.html",
+  "sourceUrl": "https://business.google.com/us/accelerate/announcements/conversational-attributes/",
+  "platforms": [
+    "google"
+  ],
+  "viewpoint": "seller",
+  "theme": "optimization",
+  "source": "Google",
+  "date": "2026-05-19",
+  "title": "Google、AI検索向けにMerchant Centerへ「会話型属性」を追加",
+  "bullets": [
+    "GoogleがMerchant Centerに「会話型属性」を追加",
+    "FAQ・関連商品・人気度など既存フィードにない項目に対応",
+    "AI Modeが詳細な質問に答えるための補完データとして機能"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "url": "https://www.gstatic.com/marketing-cms/assets/images/ads/07/4d/f463024e4eb8a15d3a63392be8ce/conversational-attributes-update.webp=n-w554-h700-fcrop64=1,00000000ffffffff-rw"
+  }
+}

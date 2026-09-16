@@ -1,0 +1,22 @@
+{
+  "slug": "arxiv-scaling-attribute-extraction-parallel-decoding",
+  "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/arxiv-scaling-attribute-extraction-parallel-decoding.html",
+  "sourceUrl": "https://arxiv.org/abs/2609.09716",
+  "platforms": [
+    "other-ai"
+  ],
+  "viewpoint": "seller",
+  "theme": "optimization",
+  "source": "arXiv(研究論文)",
+  "date": "2026-09-09",
+  "title": "並列デコードでEC商品属性抽出を高速化する手法を提案",
+  "bullets": [
+    "商品属性抽出を高速化するAI手法の論文が公開",
+    "精度85%を保ちつつ推論コストを92%削減する二段階方式",
+    "大規模カタログでも本番運用速度での属性抽出が可能に"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "commercepick-ai-chosen-not-searched",
+  "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/commercepick-ai-chosen-not-searched.html",
+  "sourceUrl": "https://www.commercepick.com/archives/98063",
+  "platforms": [
+    "amazon",
+    "rakuten",
+    "google",
+    "chatgpt"
+  ],
+  "viewpoint": "seller",
+  "theme": "measurement",
+  "source": "コマースピック",
+  "date": "2026-07-21",
+  "title": "商品は「検索される」から「AIに選ばれる」へ、Amazon・楽天・Google・Shopifyの最新動向",
+  "bullets": [
+    "Amazon・楽天・Google・Shopifyの商品情報対応を横断整理",
+    "Amazonは商品名75文字制限とハイライト機能で情報を分離",
+    "各社共通で商品情報の『AI向け再設計』が進む"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "url": "https://www.commercepick.com/wp-content/uploads/2026/07/202607201231.jpeg"
+  }
+}

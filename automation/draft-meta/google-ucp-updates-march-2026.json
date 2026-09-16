@@ -1,0 +1,22 @@
+{
+  "slug": "google-ucp-updates-march-2026",
+  "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/google-ucp-updates-march-2026.html",
+  "sourceUrl": "https://blog.google/products-and-platforms/products/shopping/ucp-updates/",
+  "platforms": [
+    "google"
+  ],
+  "viewpoint": "seller",
+  "theme": "optimization",
+  "source": "Google",
+  "date": "2026-03-19",
+  "title": "Google、Universal Commerce Protocol(UCP)の新機能でAIショッピングをさらに簡易化",
+  "bullets": [
+    "GoogleのUCPが更新、AIエージェントの複数商品カート対応",
+    "在庫・価格などリアルタイム商品情報へのアクセスを拡充",
+    "Merchant CenterでのUCP導入手続きを簡素化"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_shopping_gets_simple_social.width-1300.png"
+  }
+}

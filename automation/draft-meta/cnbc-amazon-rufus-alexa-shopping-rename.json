@@ -1,0 +1,22 @@
+{
+  "slug": "cnbc-amazon-rufus-alexa-shopping-rename",
+  "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/cnbc-amazon-rufus-alexa-shopping-rename.html",
+  "sourceUrl": "https://www.cnbc.com/2026/05/13/amazon-ditches-rufus-ai-chatbot-in-favor-of-alexa-shopping-agent.html",
+  "platforms": [
+    "amazon"
+  ],
+  "viewpoint": "buyer",
+  "theme": "visibility",
+  "source": "CNBC",
+  "date": "2026-05-13",
+  "title": "Amazon、AIチャット「Rufus」を廃止し「Alexa for Shopping」に統合",
+  "bullets": [
+    "AmazonがAI「Rufus」を廃止し「Alexa for Shopping」に統合",
+    "検索バーに直接AIエージェントを組み込み全利用者に標準提供",
+    "Amazon以外のサイトでの購入代行までカバーする設計に"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "url": "https://image.cnbcfm.com/api/v1/image/108107890-17405935162025-02-26t175625z_1468855485_rc2h2davv7ny_rtrmadp_0_amazon-com-alexa.jpeg?v=1747278045&w=1920&h=1080"
+  }
+}

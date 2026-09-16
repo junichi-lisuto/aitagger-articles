@@ -1,0 +1,22 @@
+{
+  "slug": "nikkei-rakuten-ai-store-manager",
+  "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/nikkei-rakuten-ai-store-manager.html",
+  "sourceUrl": "https://www.nikkei.com/article/DGXZQOUC04BI50U6A800C2000000/",
+  "platforms": [
+    "rakuten"
+  ],
+  "viewpoint": "seller",
+  "theme": "visibility",
+  "source": "日本経済新聞",
+  "date": "2026-08-05",
+  "title": "楽天市場、店舗ごとに24時間接客する「AI店長」を実装へ",
+  "bullets": [
+    "楽天市場に24時間接客の「AI店長」を実装へ",
+    "生成AIによるバーチャル試着機能も披露",
+    "RMSにバナー画像自動生成機能を9月提供予定"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "url": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3412424005082026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&fp-x=0.77&fp-y=0.26&h=630&w=1200&s=796333388f68da9bffafc5ebd67fffe2"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "ppc-land-amazon-perplexity-injunction",
+  "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/ppc-land-amazon-perplexity-injunction.html",
+  "sourceUrl": "https://ppc.land/amazon-loses-injunction-blocking-perplexitys-ai-shopping-agent/",
+  "platforms": [
+    "amazon",
+    "other-ai"
+  ],
+  "viewpoint": "buyer",
+  "theme": "visibility",
+  "source": "PPC Land",
+  "date": "2026-08-04",
+  "title": "AmazonがPerplexityのAI購買エージェントを止める仮処分に敗訴",
+  "bullets": [
+    "Amazon対PerplexityのAI購買代行訴訟、Amazonが敗訴",
+    "裁判所はAIエージェント利用の責任は「人間側」と判断",
+    "モール側は法的にAIエージェントを一律遮断しにくくなった"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "url": "https://ppc.land/content/images/2026/09/Amazon-loses-injunction-blocking-Perplexity-s-AI-shopping-agent.jpg"
+  }
+}

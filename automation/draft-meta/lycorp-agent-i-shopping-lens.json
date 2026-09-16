@@ -1,0 +1,22 @@
+{
+  "slug": "lycorp-agent-i-shopping-lens",
+  "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/lycorp-agent-i-shopping-lens.html",
+  "sourceUrl": "https://www.lycorp.co.jp/ja/news/release/020686/",
+  "platforms": [
+    "yahoo"
+  ],
+  "viewpoint": "buyer",
+  "theme": "visibility",
+  "source": "LINEヤフー",
+  "date": "2026-07-30",
+  "title": "LINEヤフー、AIエージェント「Agent i」に写真から商品を探す「ショッピングレンズ」機能を追加",
+  "bullets": [
+    "Agent iに写真から商品を探す「ショッピングレンズ」機能を追加",
+    "テキスト入力なしで取扱ストア・価格をまとめて比較表示",
+    "対応領域は3つ追加され累計25領域(β版含む)に拡大"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "url": "https://www.lycorp.co.jp/ja/news/2026/20260730_KV.jpg"
+  }
+}
