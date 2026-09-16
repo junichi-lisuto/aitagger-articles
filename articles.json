@@ -14,7 +14,10 @@
         "長い回答が有用と判断された検索では、画面の大部分をAIの回答が占める。",
         "通常のリンク一覧が下に押しやられ、GEO対策の優先度が一段と上がる。"
       ],
-      "thumbnail": { "type": "default", "category": "ai" }
+      "thumbnail": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/August_AI_Recap_social.width-1300.png"
+      }
     },
     {
       "slug": "search-engine-land-ai-overviews",
@@ -29,7 +32,10 @@
         "AI Overviewsの拡大分、従来の検索結果（オーガニックリンク）がさらに下へ押し下げられる。",
         "拡大が起きるクエリの条件や判定信号は、Googleが非開示のままとした。"
       ],
-      "thumbnail": { "type": "default", "category": "seo" }
+      "thumbnail": {
+        "type": "image",
+        "url": "https://searchengineland.com/wp-content/seloads/2026/08/google-expansion-logo-1920.jpg"
+      }
     },
     {
       "slug": "rakuten-ai-compare",
@@ -80,7 +86,10 @@
         "OpenAIは「商品発見（Product Discovery）」の支援に注力する方針へシフトした。",
         "ChatGPTに商品を正しく認識させるフィード整備が実務的な次の一手になる。"
       ],
-      "thumbnail": { "type": "default", "category": "ai" }
+      "thumbnail": {
+        "type": "image",
+        "url": "https://image.cnbcfm.com/api/v1/image/108236133-17647882242025-11-06t201852z_653951074_rc2umcacl8qk_rtrmadp_0_openai-outlook.jpeg?v=1765924912&w=1920&h=1080"
+      }
     }
   ]
 }
