@@ -1,0 +1,22 @@
+{
+  "slug": "google-ai-personalization-shopping",
+  "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/google-ai-personalization-shopping.html",
+  "sourceUrl": "https://blog.google/products/ads-commerce/ai-personalization-and-the-future-of-shopping/",
+  "platforms": [
+    "google"
+  ],
+  "viewpoint": "seller",
+  "theme": "optimization",
+  "source": "Google",
+  "date": "2025-03-03",
+  "title": "Google、AI・パーソナライゼーションとショッピングの未来を示す",
+  "bullets": [
+    "GoogleはAIを広告・ショッピングの関連性向上へ使う方針を示す。",
+    "Lens広告、AI Shopping、3D商品表現などを取り上げる。",
+    "画像と商品データの表現力が訴求の中心になる。"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/ai_personalization_shopping.max-1000x1000.format-webp.webp"
+  }
+}

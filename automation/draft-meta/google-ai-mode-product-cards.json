@@ -1,0 +1,22 @@
+{
+  "slug": "google-ai-mode-product-cards",
+  "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/google-ai-mode-product-cards.html",
+  "sourceUrl": "https://blog.google/products-and-platforms/products/search/ai-mode-updates-may-2025/",
+  "platforms": [
+    "google"
+  ],
+  "viewpoint": "buyer",
+  "theme": "visibility",
+  "source": "Google",
+  "date": "2025-05-01",
+  "title": "Google、AI Modeで情報と対話する新しい方法を追加",
+  "bullets": [
+    "商品カードに価格、配送、在庫、画像を表示する。",
+    "長く具体的な会話型クエリで候補を比較できる。",
+    "Shopping Graphは毎時20億件以上の商品情報を更新する。"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_Mode_product_cards.max-1000x1000.format-webp.webp"
+  }
+}

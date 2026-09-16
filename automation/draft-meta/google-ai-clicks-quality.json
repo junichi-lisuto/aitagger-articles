@@ -1,0 +1,22 @@
+{
+  "slug": "google-ai-clicks-quality",
+  "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/google-ai-clicks-quality.html",
+  "sourceUrl": "https://blog.google/products-and-platforms/products/search/ai-search-driving-more-queries-higher-quality-clicks/",
+  "platforms": [
+    "google"
+  ],
+  "viewpoint": "seller",
+  "theme": "measurement",
+  "source": "Google",
+  "date": "2025-08-06",
+  "title": "Google、AI検索はクエリ増加と高品質クリックを促進すると説明",
+  "bullets": [
+    "GoogleはAI機能経由でもウェブへのクリックを送り続けると説明する。",
+    "「すぐ戻らないクリック」を高品質クリックとして捉える。",
+    "AI検索の評価では流入数だけでなく訪問後行動が重要になる。"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/ai_search_clicks.max-1000x1000.format-webp.webp"
+  }
+}

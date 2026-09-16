@@ -1,0 +1,22 @@
+{
+  "slug": "rakuten-ai-concierge-app",
+  "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/rakuten-ai-concierge-app.html",
+  "sourceUrl": "https://corp.rakuten.co.jp/news/press/2026/0105_02.html",
+  "platforms": [
+    "rakuten"
+  ],
+  "viewpoint": "buyer",
+  "theme": "visibility",
+  "source": "楽天グループ株式会社",
+  "date": "2026-01-05",
+  "title": "楽天、エージェント型AIツール「Rakuten AI」を「楽天市場」アプリに搭載",
+  "bullets": [
+    "楽天市場アプリに対話型のAIコンシェルジュを搭載した。",
+    "予算・用途・画像・音声から約5億点を横断して商品を提案する。",
+    "商品情報以外に自然検索・トレンドも提案へ反映する。"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "url": "https://corp.rakuten.co.jp/news/assets/img/press/2026_press_jp/0105_02/Main_pic_260105.png"
+  }
+}

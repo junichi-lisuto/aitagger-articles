@@ -1,0 +1,22 @@
+{
+  "slug": "google-multimodal-search-ai-mode",
+  "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/google-multimodal-search-ai-mode.html",
+  "sourceUrl": "https://blog.google/products-and-platforms/products/search/ai-mode-multimodal-search/",
+  "platforms": [
+    "google"
+  ],
+  "viewpoint": "seller",
+  "theme": "optimization",
+  "source": "Google",
+  "date": "2025-04-07",
+  "title": "Google、AI Modeにマルチモーダル検索を追加",
+  "bullets": [
+    "LensとGeminiで画像内の物体・素材・色・形を理解する。",
+    "一枚の画像から複数の関連検索を実行する。",
+    "商品画像が検索対象の構造情報になることを示す。"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/ai_mode_multimodal.max-1000x1000.format-webp.webp"
+  }
+}

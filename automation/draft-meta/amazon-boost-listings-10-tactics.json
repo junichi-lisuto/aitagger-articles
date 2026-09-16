@@ -1,0 +1,22 @@
+{
+  "slug": "amazon-boost-listings-10-tactics",
+  "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/amazon-boost-listings-10-tactics.html",
+  "sourceUrl": "https://sell.amazon.com/blog/how-to-boost-amazon-listings",
+  "platforms": [
+    "amazon"
+  ],
+  "viewpoint": "seller",
+  "theme": "optimization",
+  "source": "Amazon Selling Partners",
+  "date": "2026-04-29",
+  "title": "Amazon、商品リスティングを改善する10の施策を解説",
+  "bullets": [
+    "商品名・説明文は購入者の用途、解決する課題、主要な便益を明確にし、重複しない独自の内容にするよう案内している。",
+    "購入意図のある検索語と商品属性を商品情報へ適切に織り込み、AI検索にも理解しやすいよう、顧客の質問へ直接答える構成を勧めている。",
+    "画像・説明文・タイトルは「Manage Your Experiments」で比較し、閲覧数は多いのに売れない商品を優先して改善する考え方を示す。"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "url": "https://cdn.sell2.brightspotcdn.com/dims4/default/e5950d9/2147483647/strip/true/crop/1000x800%2B0%2B0/resize/500x400%21/quality/90/?url=https%3A%2F%2Fsell2-production-sell2.s3.us-west-2.amazonaws.com%2Fbrightspot%2Fea%2F4d%2F16eaac6d4c449efa3b1a493b0373%2Fblog-boost-listing.png"
+  }
+}

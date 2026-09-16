@@ -1,0 +1,22 @@
+{
+  "slug": "google-shopping-agentic-checkout",
+  "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/google-shopping-agentic-checkout.html",
+  "sourceUrl": "https://blog.google/products-and-platforms/products/shopping/agentic-checkout-holiday-ai-shopping/",
+  "platforms": [
+    "google"
+  ],
+  "viewpoint": "seller",
+  "theme": "optimization",
+  "source": "Google",
+  "date": "2025-11-13",
+  "title": "Google Shopping、エージェント型チェックアウト等の新機能を発表",
+  "bullets": [
+    "自然文の商品要望に対し、価格・レビュー・在庫を整理して表示する。",
+    "価格条件の追跡から、対象店舗での購入支援までを提供する。",
+    "正確な商品データをShopping Graphへ供給する前提が強まる。"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/holiday_shopping_hero.width-200.format-webp_jYHca1x.webp"
+  }
+}

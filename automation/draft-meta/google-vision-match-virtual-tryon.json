@@ -1,0 +1,22 @@
+{
+  "slug": "google-vision-match-virtual-tryon",
+  "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/google-vision-match-virtual-tryon.html",
+  "sourceUrl": "https://blog.google/products-and-platforms/products/shopping/ai-vision-match-ar-beauty-virtual-try-on/",
+  "platforms": [
+    "google"
+  ],
+  "viewpoint": "buyer",
+  "theme": "visibility",
+  "source": "Google",
+  "date": "2025-03-05",
+  "title": "Google、AIで理想の服を見つけ、メイクを試せる新機能を発表",
+  "bullets": [
+    "Google Shoppingで、言葉で説明した服のイメージから近い商品を探す「vision match」を提供する。",
+    "Geminiを使ったメイクのバーチャル試着と、衣服の試着対象拡大を発表した。",
+    "商品発見の入口が商品名・絞り込み条件だけでなく、意図と画像表現へ広がることを示す。"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Immersive_Shopping_AI.width-200.format-webp.webp"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "google-store-widget",
+  "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/google-store-widget.html",
+  "sourceUrl": "https://developers.google.com/search/blog/2025/09/store-widget",
+  "platforms": [
+    "google"
+  ],
+  "viewpoint": "seller",
+  "theme": "optimization",
+  "source": "Google Search Central",
+  "date": "2025-09-18",
+  "title": "Google、ストア評価・配送方針を表示する「ストアウィジェット」を発表",
+  "bullets": [
+    "Googleのストア評価、配送・返品ポリシー、レビューを自社サイトに表示するストアウィジェットを案内する。",
+    "「Top Quality」「Store rating」など、ストア品質評価に応じた3種類の表示がある。",
+    "Googleは導入事業者について、類似事業者比で90日以内に売上が最大8%高かったとしている。"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "url": "https://developers.google.com/static/search/blog/images/top-quality-store-widget-embedded.gif"
+  }
+}

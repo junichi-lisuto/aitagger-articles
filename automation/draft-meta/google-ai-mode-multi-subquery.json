@@ -1,0 +1,22 @@
+{
+  "slug": "google-ai-mode-multi-subquery",
+  "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/google-ai-mode-multi-subquery.html",
+  "sourceUrl": "https://blog.google/products-and-platforms/products/search/google-search-ai-mode-update/",
+  "platforms": [
+    "google"
+  ],
+  "viewpoint": "buyer",
+  "theme": "visibility",
+  "source": "Google",
+  "date": "2025-05-20",
+  "title": "Google、AI Modeで複数のサブクエリを並列処理する仕組みを説明",
+  "bullets": [
+    "AI Modeが複数のサブクエリを並列実行して回答を作る。",
+    "購買では比較、仮想試着、購入支援までを想定する。",
+    "検索結果は単一キーワードの順位表示から変化する。"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/ai_mode_hero.max-1000x1000.format-webp.webp"
+  }
+}
