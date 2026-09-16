@@ -216,6 +216,27 @@
     empty.hidden = list.length > 0;
     more.hidden = state.visible >= list.length;
     document.getElementById("am-count").textContent = list.length ? list.length + "件の記事" : "";
+    syncHeight();
+  }
+
+  // Unbounceはページ/ブロック/このCustom HTML要素の高さをpx固定値でCSSに焼き込む仕様で、
+  // コンテンツの増減に自動追随しない。このHTML要素がページ最下部にある前提で、
+  // 実際に描画された高さぶんだけ #lp-code-14 / #lp-pom-block-11 / #lp-pom-root を都度書き換える。
+  function syncHeight(){
+    requestAnimationFrame(function(){
+      var content = document.getElementById("aa-media-root");
+      if (!content) return;
+      var height = content.getBoundingClientRect().height;
+
+      var code = content.closest(".lp-code");
+      if (code) code.style.height = height + "px";
+
+      var block = content.closest(".lp-pom-block");
+      if (block) block.style.height = height + "px";
+
+      var root = document.getElementById("lp-pom-root");
+      if (root) root.style.height = height + "px";
+    });
   }
 
   function init(data){
@@ -226,6 +247,7 @@
       state.visible += PAGE_SIZE;
       renderArticles();
     });
+    window.addEventListener("resize", syncHeight);
   }
 
   fetch(FEED_URL, { cache: "no-store" })
@@ -235,6 +257,7 @@
       var empty = document.getElementById("am-empty");
       empty.textContent = "記事一覧の読み込みに失敗しました。時間をおいて再度お試しください。";
       empty.hidden = false;
+      syncHeight();
     });
 })();
 </script>
