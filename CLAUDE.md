@@ -138,14 +138,20 @@ Codexへの依頼を作る前に、必ず
 別セッション・別マシンではこのファイル自体にアクセスできない場合がある。その場合は
 以下の要点だけでも必ず守ること）。
 
-1. **URL・サムネイル画像URLは、200 OKかつ実際に中身が表示されることを確認する。**
-   403/404は理由を問わず即NG。「bot対策で弾かれているだけ」と自己判断して見逃さない
-   （実際に`storage.googleapis.com`のGCSアクセス拒否を403＝bot判定と誤認し、
-   14件のサムネイルが壊れたまま公開してしまった事例がある）
+1. **URL・サムネイル画像URLの200 OK確認はCodexにやらせない。必ずClaude自身が
+   curl等で全件行う（2026-09-16、原因判明・方針確定）。** `codex exec -s workspace-write`
+   のサンドボックスは外向きTCP通信（80/443番ポート含む全ポート）を構造的に遮断しており、
+   Codexのシェルコマンドからは`curl: (7) Failed to connect`（HTTPステータス`000`）に
+   なることが常に発生する。これはURLの問題でも依頼文の書き方の問題でもなく、
+   サンドボックスモード自体のネットワークポリシーであり、セッションや依頼内容に
+   関係なく再現する。**Codexは`web_search`ツール（別経路）でフォールバックして
+   「確認できた」と報告してくることがあるが、これは実際のHTTP到達性の保証にはならない**
+   （以前「Codexが確認した」を信じて14件のサムネイルが403のまま公開されていた事例、
+   10件のファイルパスが捏造されていた事例は、いずれもこのフォールバック起因の
+   誤認が根本原因だった可能性が高い）
 2. **サムネイル画像URLは、元記事ページの`og:image`メタタグに実際に書かれている値
-   そのものを使う。** 記事内容から画像ファイル名を推測して作らない（Codexが記事内容を
-   もとに実在しないファイルパスを捏造し、10件が壊れていた事例がある）。低解像度版
-   （`width-200`等）も使わない
+   そのものを使うようCodexに指示する。** 記事内容から画像ファイル名を推測して作らない
+   よう明記する。低解像度版（`width-200`等）も使わない
 3. **鮮度は「本数の少なくとも半数を直近3ヶ月以内」を数値で強制する。** 「直近3ヶ月を
    優先する」という努力目標の書き方では実効性がなく、30本中実質0本しか満たさなかった。
    探す順番も「直近1ヶ月→1〜3ヶ月→3ヶ月〜1年」の順に広げるよう指定し、見つけやすい
@@ -153,8 +159,8 @@ Codexへの依頼を作る前に、必ず
 4. **依頼内で集める記事どうし・サムネイル画像どうしの重複も、既出URLと同様にチェックする**
    （既出URLとの重複だけでなく、今回の依頼内での重複も別途確認が必要）
 
-反映後は必ずClaude自身も機械的な実在確認（curl等でHTTPステータス確認）を行い、
-「Codexが確認した」という報告を鵜呑みにしない。
+**反映前に必ずClaude自身が機械的な実在確認（curl等でHTTPステータス確認）を全件行う。**
+Codex側の「200でした」「確認できました」という報告は参考情報に留め、鵜呑みにしない。
 
 ### Codex CLI (`codex.exe exec`) が別セッションで実行できない場合（2026-09-16判明・解決済み）
 
@@ -207,6 +213,14 @@ CODEX="/c/Users/junic/.vscode/extensions/openai.chatgpt-<version>-win32-x64/bin/
 この形式であれば、自動モードのセッションでもブロックされずに実行できた（2026-09-16、
 動作確認用記事1本のリサーチ→HTML化→draft push→Slack通知まで通しで成功）。
 
+**ただし`-s workspace-write`は外向きTCP通信（80/443番ポート含む全ポート）を構造的に
+遮断しており、Codex側からのURL到達確認（curl等）は常に失敗する（2026-09-16判明、
+詳細は上記「Codexへのリサーチ依頼で必ず守ること」1番を参照）。** これは実行の組み立て方や
+セッションの違いによるものではなく、サンドボックスモードそのものの制約。
+`-s danger-full-access`にすれば制約は外れるが、承認なしで任意コマンドを無制限実行できる
+状態になりリスクが高いため使わない方針とした（2026-09-16決定）。URL実在確認は
+Codexに担わせず、常にClaude側が別途curlで行う。
+
 リンク集は腐る。**厳選して少数を保つ**。各記事に「なぜ読むべきか」が伝わる箇条書きを付け、
 公開日を入れて更新されている証拠を見せる。
 
@@ -218,19 +232,26 @@ CODEX="/c/Users/junic/.vscode/extensions/openai.chatgpt-<version>-win32-x64/bin/
 承認の意思表示は必ずClaude Codeのチャットで直接行う（Slack上で返信しても検知されない）。
 
 ```
-1. Codex: 元記事を調査し、下書きMarkdownに背景・ポイント3行までを書く
-           （「AIタッガーユーザーへの意味」パートはここでは書かない）
-2. Claude: 下書きを受け取り「意味」パートを書き足し、記事HTMLを articles/draft/<slug>.html に生成。
+1. Codex: 元記事を調査し、下書きMarkdownに背景・結論（元の数値・固有名詞を含む箇条書き、
+           篇数無制限）を書く（「メッセージ」パートはここでは書かない。URL実在確認も
+           Codexにはやらせない＝上記の通り構造的に不可能）
+2. Claude: Codexの下書きに書かれた記事URL・サムネイルURLを全件curlで機械確認する
+           （200 OK・記事固有の画像かを検証。Codexの「確認できた」報告は鵜呑みにしない）
+3. Claude: 「メッセージ」パートを書き足し、記事HTMLを articles/draft/<slug>.html に生成
+           （背景/結論/メッセージの3セクション構成、カード用bulletsは3件・55文字以内）。
            対応するメタ情報（articles.json登録用の1件分）を automation/draft-meta/<slug>.json に保存。
            git push（articles/draft/ 配下はarticles.json未登録のため一覧・Unbounceには一切出ない）
-3. Claude: Slack通知（下書きURL付き）を投稿
+4. Claude: Slack通知（下書きURL付き）を投稿
      node automation/post-articles-to-slack.js <slug> <slug> ...
-4. 矢頭さん: 通知内のGitHub Pages URL（articles/draft/<slug>.html）で実際のページを確認し、
+5. 矢頭さん: 通知内のGitHub Pages URL（articles/draft/<slug>.html）で実際のページを確認し、
            Claude Codeのチャットで「1と3を承認」のように直接伝える
-5a. 承認: node automation/promote-draft.js <slug> <slug> ...
+6a. 承認: node automation/promote-draft.js <slug> <slug> ...
      → articles/draft/ から articles/ 直下へ移動、articles.jsonに登録、
        used-source-urls.md再生成まで一括実行。その後 git push。
-5b. 否認: node automation/reject-draft.js <slug> <slug> ...
+     （promote前にarticles.json用のbullets＝一覧カード用3件・55文字以内を、
+       draft-metaのbulletsとして別途用意しておくこと。結論の全項目をそのまま
+       流用するとカードのレイアウトが崩れる。詳細は「記事の型」節を参照）
+6b. 否認: node automation/reject-draft.js <slug> <slug> ...
      → draftのファイルを削除するだけ。articles.json未登録なので実害なし。
 ```
 
