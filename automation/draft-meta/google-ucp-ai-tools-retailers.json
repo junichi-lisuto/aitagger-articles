@@ -1,0 +1,22 @@
+{
+  "slug": "google-ucp-ai-tools-retailers",
+  "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/google-ucp-ai-tools-retailers.html",
+  "sourceUrl": "https://blog.google/products-and-platforms/products/shopping/shopping-updates-google-marketing-live/",
+  "platforms": [
+    "google"
+  ],
+  "viewpoint": "seller",
+  "theme": "optimization",
+  "source": "Google",
+  "date": "2026-05-20",
+  "title": "Google、UCPとAIツールで小売事業者のAI検索対応を支援",
+  "bullets": [
+    "Merchant CenterでAI面のシェアオブボイスを把握する機能を予告した。",
+    "会話的な検索に合わせて商品説明を更新する属性機能を提供する。",
+    "UCP連携した商品データと販促が、AI上の購入導線につながる。"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/commerce_social.width-1300.png"
+  }
+}

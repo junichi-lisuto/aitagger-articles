@@ -1,0 +1,22 @@
+{
+  "slug": "amazon-rufus-smarter-shopping-assistant",
+  "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/amazon-rufus-smarter-shopping-assistant.html",
+  "sourceUrl": "https://www.aboutamazon.com/news/retail/amazon-rufus-ai-assistant-personalized-shopping-features",
+  "platforms": [
+    "amazon"
+  ],
+  "viewpoint": "buyer",
+  "theme": "visibility",
+  "source": "Amazon",
+  "date": "2025-11-13",
+  "title": "Amazon、AIショッピングアシスタント「Rufus」を高度化",
+  "bullets": [
+    "Rufusは目的・利用場面から商品を探し、比較、価格追跡、カート投入まで支援する。",
+    "商品カタログ、レビュー、Q&A、Web情報を組み合わせて回答する。",
+    "Amazon内外の商品発見へ対象を広げている。"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "url": "https://assets.aboutamazon.com/dims4/default/2328b3a/2147483647/strip/true/crop/2000x1000+0+51/resize/1200x600!/quality/90/?url=https%3A%2F%2Fassets.aboutamazon.com%2F2d%2Fe4%2Fe3fcb64e41718766601f96d0ddc2%2Frufus-pr-hero-v2.jpg"
+  }
+}

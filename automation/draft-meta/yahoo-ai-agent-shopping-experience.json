@@ -1,0 +1,22 @@
+{
+  "slug": "yahoo-ai-agent-shopping-experience",
+  "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/yahoo-ai-agent-shopping-experience.html",
+  "sourceUrl": "https://www.lycorp.co.jp/ja/story/20260820/yjshopping_ai.html",
+  "platforms": [
+    "yahoo"
+  ],
+  "viewpoint": "buyer",
+  "theme": "visibility",
+  "source": "LINEヤフー株式会社",
+  "date": "2026-08-20",
+  "title": "Yahoo!ショッピング、AIエージェントで「買う」「売る」を支援する新体験を発表",
+  "bullets": [
+    "Yahoo!ショッピングは、想起から配送までの購買行動をAIで支援する機能群を紹介した。",
+    "AIエージェント経由の取扱高比率は2026年7月時点で約20%とされる。",
+    "商品比較・お得な購入日提案・画像を読ませる買い物メモが商品発見の入口になる。"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "url": "https://www.lycorp.co.jp/ja/story/shopping_ai_title.jpg"
+  }
+}

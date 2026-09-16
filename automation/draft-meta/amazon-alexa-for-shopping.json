@@ -1,0 +1,22 @@
+{
+  "slug": "amazon-alexa-for-shopping",
+  "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/amazon-alexa-for-shopping.html",
+  "sourceUrl": "https://www.aboutamazon.com/news/retail/alexa-for-shopping-ai-assistant",
+  "platforms": [
+    "amazon"
+  ],
+  "viewpoint": "buyer",
+  "theme": "visibility",
+  "source": "Amazon",
+  "date": "2026-05-13",
+  "title": "Amazon、パーソナライズ型AIアシスタント「Alexa for Shopping」を発表",
+  "bullets": [
+    "AmazonはRufusとAlexa+を統合し、検索バーから使える買い物AIを提供する。",
+    "価格履歴、比較、買い物ガイド、条件付き自動購入に対応する。",
+    "個人の履歴と会話文脈を使う比較・発見体験が前面に出る。"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "url": "https://assets.aboutamazon.com/dims4/default/8736259/2147483647/strip/true/crop/2000x1000+0+57/resize/1200x600!/quality/90/?url=https%3A%2F%2Fassets.aboutamazon.com%2F53%2Fdd%2Ffb5a1fac4850ae9bfde31cca551b%2F2026-pr-bh-gtm-2000x1125-1.GIF"
+  }
+}

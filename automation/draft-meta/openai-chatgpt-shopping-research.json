@@ -1,0 +1,22 @@
+{
+  "slug": "openai-chatgpt-shopping-research",
+  "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/openai-chatgpt-shopping-research.html",
+  "sourceUrl": "https://openai.com/index/chatgpt-shopping-research/",
+  "platforms": [
+    "chatgpt"
+  ],
+  "viewpoint": "buyer",
+  "theme": "visibility",
+  "source": "OpenAI",
+  "date": "2025-11-24",
+  "title": "OpenAI、ChatGPTのショッピングリサーチ機能を発表",
+  "bullets": [
+    "購入条件を会話で深掘りし、比較ガイドを作成する機能を公開した。",
+    "価格、在庫、仕様、画像をWebから集め、途中のフィードバックで候補を調整する。",
+    "出力の誤りもあり得るため、購入先の商品ページ確認を促している。"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "url": "https://images.ctfassets.net/kftzwdyauwt9/6GMdWQXwjX6584WneE1LFi/2a78299daa3b337a9530ab231f857532/Shopping_Research-ArtCard-16x9.png?w=1600&h=900&fit=fill"
+  }
+}

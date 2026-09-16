@@ -1,0 +1,22 @@
+{
+  "slug": "openai-commerce-policies",
+  "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/openai-commerce-policies.html",
+  "sourceUrl": "https://openai.com/policies/commerce-policies/",
+  "platforms": [
+    "chatgpt"
+  ],
+  "viewpoint": "seller",
+  "theme": "measurement",
+  "source": "OpenAI",
+  "date": "2026-06-24",
+  "title": "OpenAI、コマースポリシーを公開",
+  "bullets": [
+    "OpenAIのコマース面で扱えない商品・サービスと加盟店の責任を定める。",
+    "商品フィード、加盟店、リンク先Webページをポリシーの対象に含める。",
+    "商品露出を計測する前に、掲載継続の前提となる適合性を点検できる。"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "url": "https://images.ctfassets.net/kftzwdyauwt9/4cRQViGMim2kzoeBqEMiJb/42b81747b2e65e236280946fe9fe0916/Frame-1.png?w=1600&h=900&fit=fill"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "google-retail-ai-merchant-data",
+  "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/google-retail-ai-merchant-data.html",
+  "sourceUrl": "https://blog.google/products/ads-commerce/retail-sales-ai/",
+  "platforms": [
+    "google"
+  ],
+  "viewpoint": "seller",
+  "theme": "optimization",
+  "source": "Google",
+  "date": "2026-04-08",
+  "title": "Google、「AIが小売を変える中で事業者が取るべき対応」を解説",
+  "bullets": [
+    "AI Mode、仮想試着、CTVの買い物体験はMerchant Centerの商品データを基盤にする。",
+    "フィードが不完全・不整合なら、顧客は商品を見つけられないと明示した。",
+    "基礎データの整備を小売のAI対応の出発点と位置付ける。"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Decoded_Podcast_-_Thumbnail_-_S1E6.max-1440x810.jpg"
+  }
+}

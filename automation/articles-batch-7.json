@@ -1,0 +1,668 @@
+[
+  {
+    "slug": "yahoo-ai-agent-shopping-experience",
+    "title": "Yahoo!ショッピング、AIエージェントで「買う」「売る」を支援する新体験を発表",
+    "origTitle": "",
+    "sourceUrl": "https://www.lycorp.co.jp/ja/story/20260820/yjshopping_ai.html",
+    "source": "LINEヤフー株式会社",
+    "date": "2026-08-20",
+    "dateDisplay": "2026/08/20",
+    "lang": "ja",
+    "platforms": ["yahoo"],
+    "viewpoint": "buyer",
+    "theme": "visibility",
+    "thumbnail": "https://www.lycorp.co.jp/ja/story/shopping_ai_title.jpg",
+    "bullets": [
+      "Yahoo!ショッピングは、想起から配送までの購買行動をAIで支援する機能群を紹介した。",
+      "AIエージェント経由の取扱高比率は2026年7月時点で約20%とされる。",
+      "商品比較・お得な購入日提案・画像を読ませる買い物メモが商品発見の入口になる。"
+    ],
+    "meaning": "Yahoo!ショッピング内では検索語だけでなく、用途・比較条件・画像から商品へ至る導線がすでに取扱高の2割を占める規模に育っている。商品名の一致だけに頼らず、用途やシーンを説明する情報を整えることが、この導線に乗るための前提になる。",
+    "related": []
+  },
+  {
+    "slug": "rakuten-super-sale-ai-experience",
+    "title": "楽天市場、AI活用による「楽天スーパーSALE」のお買い物体験を強化",
+    "origTitle": "",
+    "sourceUrl": "https://corp.rakuten.co.jp/news/press/2026/0602_01.html",
+    "source": "楽天グループ株式会社",
+    "date": "2026-06-02",
+    "dateDisplay": "2026/06/02",
+    "lang": "ja",
+    "platforms": ["rakuten"],
+    "viewpoint": "buyer",
+    "theme": "visibility",
+    "thumbnail": "https://corp.rakuten.co.jp/assets/img/common/og_image_logo.png",
+    "bullets": [
+      "AIコンシェルジュが用途・予算を会話で受け、セール商品を探す。",
+      "ディスカバリーレコメンデーションは興味に合わせ商品画像・動画・商品ページ情報を表示する。",
+      "キーワード検索外で商品と出会う経路を楽天市場が拡張している。"
+    ],
+    "meaning": "楽天市場では商品属性を会話条件に照合する発見面がセール期間中にも広がっている。商品名やカテゴリだけでなく、用途・シーンの説明が欠けていると、この発見面自体から漏れてしまう。",
+    "related": [
+      { "slug": "rakuten-ai-concierge-app", "title": "楽天、エージェント型AIツール「Rakuten AI」を「楽天市場」アプリに搭載" },
+      { "slug": "rakuten-discovery-recommendation", "title": "「楽天市場」、AI活用により新たな商品との出会いを創出する新機能「ディスカバリーレコメンデーション」の本格提供を開始" }
+    ]
+  },
+  {
+    "slug": "amazon-rufus-smarter-shopping-assistant",
+    "title": "Amazon、AIショッピングアシスタント「Rufus」を高度化",
+    "origTitle": "Amazon's next-gen AI assistant for shopping is now even smarter, more capable, and more helpful",
+    "sourceUrl": "https://www.aboutamazon.com/news/retail/amazon-rufus-ai-assistant-personalized-shopping-features",
+    "source": "Amazon",
+    "date": "2025-11-13",
+    "dateDisplay": "2025/11/13",
+    "lang": "en",
+    "platforms": ["amazon"],
+    "viewpoint": "buyer",
+    "theme": "visibility",
+    "thumbnail": "https://assets.aboutamazon.com/dims4/default/2328b3a/2147483647/strip/true/crop/2000x1000+0+51/resize/1200x600!/quality/90/?url=https%3A%2F%2Fassets.aboutamazon.com%2F2d%2Fe4%2Fe3fcb64e41718766601f96d0ddc2%2Frufus-pr-hero-v2.jpg",
+    "bullets": [
+      "Rufusは目的・利用場面から商品を探し、比較、価格追跡、カート投入まで支援する。",
+      "商品カタログ、レビュー、Q&A、Web情報を組み合わせて回答する。",
+      "Amazon内外の商品発見へ対象を広げている。"
+    ],
+    "meaning": "商品名の一致だけでなく、用途・レビュー・属性の一貫性がAIの推薦候補を左右する構造になっている。レビューやQ&Aとの内容の食い違いは、Rufusが回答を作る際の障害になりうる。",
+    "related": [
+      { "slug": "amazon-lens-live", "title": "Amazon、Lens LiveとLive Shoppingを発表" }
+    ]
+  },
+  {
+    "slug": "amazon-alexa-for-shopping",
+    "title": "Amazon、パーソナライズ型AIアシスタント「Alexa for Shopping」を発表",
+    "origTitle": "Meet Alexa for Shopping, your personalized, agentic AI assistant on Amazon",
+    "sourceUrl": "https://www.aboutamazon.com/news/retail/alexa-for-shopping-ai-assistant",
+    "source": "Amazon",
+    "date": "2026-05-13",
+    "dateDisplay": "2026/05/13",
+    "lang": "en",
+    "platforms": ["amazon"],
+    "viewpoint": "buyer",
+    "theme": "visibility",
+    "thumbnail": "https://assets.aboutamazon.com/dims4/default/8736259/2147483647/strip/true/crop/2000x1000+0+57/resize/1200x600!/quality/90/?url=https%3A%2F%2Fassets.aboutamazon.com%2F53%2Fdd%2Ffb5a1fac4850ae9bfde31cca551b%2F2026-pr-bh-gtm-2000x1125-1.GIF",
+    "bullets": [
+      "AmazonはRufusとAlexa+を統合し、検索バーから使える買い物AIを提供する。",
+      "価格履歴、比較、買い物ガイド、条件付き自動購入に対応する。",
+      "個人の履歴と会話文脈を使う比較・発見体験が前面に出る。"
+    ],
+    "meaning": "商品詳細ページだけでなく、比較検討の会話の中でどの属性がAIに伝わるかが問われる場面が増える。価格や仕様の記載が古いままだと、比較の土台にすら乗らなくなる。",
+    "related": []
+  },
+  {
+    "slug": "openai-powering-product-discovery-chatgpt",
+    "title": "OpenAI、ChatGPTの商品発見を支える仕組みを解説",
+    "origTitle": "Powering Product Discovery in ChatGPT",
+    "sourceUrl": "https://openai.com/index/powering-product-discovery-in-chatgpt/",
+    "source": "OpenAI",
+    "date": "2026-03-24",
+    "dateDisplay": "2026/03/24",
+    "lang": "en",
+    "platforms": ["chatgpt"],
+    "viewpoint": "buyer",
+    "theme": "visibility",
+    "thumbnail": "https://images.ctfassets.net/kftzwdyauwt9/54zHAGljzaGUAL8FNoSXAV/a2dda4a62fccf740c4717bf1afac17eb/Shopping-SEO-1200x630.png?w=1600&h=900&fit=fill",
+    "bullets": [
+      "ChatGPTで商品の視覚的な探索、横並び比較、会話による絞り込みを強化した。",
+      "Agentic Commerce Protocolを通じ、商品フィードと販促情報を扱う。",
+      "Shopify Catalog連携では商品データが会話内の表示精度を支える。"
+    ],
+    "meaning": "AI回答面での露出は検索順位だけで決まらず、商品データの接続と比較可能性で決まる部分が大きい。フィード連携の有無や属性の粒度が、ChatGPT上に表示されるかどうかに直結する。",
+    "related": [
+      { "slug": "openai-chatgpt-shopping-research", "title": "OpenAI、ChatGPTのショッピングリサーチ機能を発表" }
+    ]
+  },
+  {
+    "slug": "openai-chatgpt-shopping-research",
+    "title": "OpenAI、ChatGPTのショッピングリサーチ機能を発表",
+    "origTitle": "Introducing shopping research in ChatGPT",
+    "sourceUrl": "https://openai.com/index/chatgpt-shopping-research/",
+    "source": "OpenAI",
+    "date": "2025-11-24",
+    "dateDisplay": "2025/11/24",
+    "lang": "en",
+    "platforms": ["chatgpt"],
+    "viewpoint": "buyer",
+    "theme": "visibility",
+    "thumbnail": "https://images.ctfassets.net/kftzwdyauwt9/6GMdWQXwjX6584WneE1LFi/2a78299daa3b337a9530ab231f857532/Shopping_Research-ArtCard-16x9.png?w=1600&h=900&fit=fill",
+    "bullets": [
+      "購入条件を会話で深掘りし、比較ガイドを作成する機能を公開した。",
+      "価格、在庫、仕様、画像をWebから集め、途中のフィードバックで候補を調整する。",
+      "出力の誤りもあり得るため、購入先の商品ページ確認を促している。"
+    ],
+    "meaning": "比較される前提で、仕様・在庫・画像を誤解なく公開しておく必要性が具体的になっている。ChatGPTが集めた情報と商品ページの実際の内容がずれていると、購入直前で離脱されるリスクがある。",
+    "related": [
+      { "slug": "openai-powering-product-discovery-chatgpt", "title": "OpenAI、ChatGPTの商品発見を支える仕組みを解説" }
+    ]
+  },
+  {
+    "slug": "google-explore-web-generative-ai-search",
+    "title": "Google、生成AI検索でWebを探索する5つの新機能を追加",
+    "origTitle": "5 new ways to explore the web with generative AI in Search",
+    "sourceUrl": "https://blog.google/products-and-platforms/products/search/explore-web-generative-ai-search/",
+    "source": "Google",
+    "date": "2026-05-06",
+    "dateDisplay": "2026/05/06",
+    "lang": "en",
+    "platforms": ["google"],
+    "viewpoint": "buyer",
+    "theme": "visibility",
+    "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/5_Ways_to_Explore_Web_with_Gen_AI_ss.width-1300.png",
+    "bullets": [
+      "AI ModeとAI Overviewsで、回答からWebへ進むリンク表示を改善した。",
+      "関連サイト、記事プレビュー、個人の視点を見つける導線を追加する。",
+      "AI回答が検索の終点ではなく、複数サイトを比較する起点になる設計である。"
+    ],
+    "meaning": "AI回答内のリンク先として選ばれた際に、商品ページで比較・検討を完結できる情報設計が必要になる。リンク先に飛んでも情報が薄ければ、比較の続きは他サイトで完結されてしまう。",
+    "related": [
+      { "slug": "google-ai-mode-updates-search-io", "title": "Google、「A new era for AI Search」でAI Modeの新機能を発表" }
+    ]
+  },
+  {
+    "slug": "google-ai-mode-updates-search-io",
+    "title": "Google、「A new era for AI Search」でAI Modeの新機能を発表",
+    "origTitle": "A new era for AI Search",
+    "sourceUrl": "https://blog.google/products-and-platforms/products/search/search-io-2026/",
+    "source": "Google",
+    "date": "2026-05-19",
+    "dateDisplay": "2026/05/19",
+    "lang": "en",
+    "platforms": ["google"],
+    "viewpoint": "buyer",
+    "theme": "visibility",
+    "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Search_AI_and_search_engine_v46_16x9_1.width-1300.jpg",
+    "bullets": [
+      "AI Modeは月間10億ユーザーを超え、検索ボックス自体を会話型に拡張した。",
+      "画像・動画・ファイル・タブを入力にでき、複雑な条件を扱う。",
+      "AI Overviewから文脈を保ったままAI Modeへ移行できる。"
+    ],
+    "meaning": "購入者の問いが長文化・条件化するため、商品属性の粒度がこれまで以上に重要になる。単純なキーワード一致ではなく、複数条件を同時に満たす商品として認識される情報整備が求められる。",
+    "related": [
+      { "slug": "google-explore-web-generative-ai-search", "title": "Google、生成AI検索でWebを探索する5つの新機能を追加" }
+    ]
+  },
+  {
+    "slug": "google-ai-mode-seamless-search",
+    "title": "Google、AI Overviewから会話を続けられる新しい検索体験を発表",
+    "origTitle": "Just ask anything: a seamless new Search experience",
+    "sourceUrl": "https://blog.google/products-and-platforms/products/search/ai-mode-ai-overviews-updates/",
+    "source": "Google",
+    "date": "2026-01-27",
+    "dateDisplay": "2026/01/27",
+    "lang": "en",
+    "platforms": ["google"],
+    "viewpoint": "buyer",
+    "theme": "visibility",
+    "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Seamless-Search---Blog-social.width-1300.png",
+    "bullets": [
+      "AI Overviewから追質問を行い、AI Modeとの会話を連続できるようにした。",
+      "Gemini 3をAI Overviewの既定モデルとして採用した。",
+      "短い検索から深い検討へ滑らかに移るUIである。"
+    ],
+    "meaning": "最初の検索語だけを最適化するのでは足りず、比較の追質問にも答えられる商品情報が必要になる。会話の続きで聞かれそうな仕様・条件をあらかじめ商品ページに含めておく発想が求められる。",
+    "related": []
+  },
+  {
+    "slug": "google-preferred-sources-ai-search",
+    "title": "Google、AI検索で好みの情報源と一次情報を見つける新機能を追加",
+    "origTitle": "New ways to find your favorite sources and original content in AI Search",
+    "sourceUrl": "https://blog.google/products-and-platforms/products/search/original-high-quality-content-search/",
+    "source": "Google",
+    "date": "2026-05-27",
+    "dateDisplay": "2026/05/27",
+    "lang": "en",
+    "platforms": ["google"],
+    "viewpoint": "buyer",
+    "theme": "visibility",
+    "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Preferred_Sources_social.width-1300.png",
+    "bullets": [
+      "Preferred SourcesをAI OverviewsとAI Modeへ導入した。",
+      "速報性のある検索では記事・視点を示すカルーセルを追加する。",
+      "一次情報と信頼できる出典の選択を支援する。"
+    ],
+    "meaning": "メーカー・店舗自身が一次情報を発信し、検索面で識別される価値が相対的に上がっている。他サイトの転載情報に頼らず、自社が一次情報源として認識される発信が今後の差別化になる。",
+    "related": []
+  },
+  {
+    "slug": "google-ucp-ai-tools-retailers",
+    "title": "Google、UCPとAIツールで小売事業者のAI検索対応を支援",
+    "origTitle": "How we're helping retailers thrive with new Universal Commerce Protocol features and AI tools on Google",
+    "sourceUrl": "https://blog.google/products-and-platforms/products/shopping/shopping-updates-google-marketing-live/",
+    "source": "Google",
+    "date": "2026-05-20",
+    "dateDisplay": "2026/05/20",
+    "lang": "en",
+    "platforms": ["google"],
+    "viewpoint": "seller",
+    "theme": "optimization",
+    "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/commerce_social.width-1300.png",
+    "bullets": [
+      "Merchant CenterでAI面のシェアオブボイスを把握する機能を予告した。",
+      "会話的な検索に合わせて商品説明を更新する属性機能を提供する。",
+      "UCP連携した商品データと販促が、AI上の購入導線につながる。"
+    ],
+    "meaning": "商品説明を検索語の羅列ではなく、会話条件で読める属性へ整える具体的な根拠になる。AI面での見え方を数値で確認できるようになるため、対策の効果測定もセットで考える必要がある。",
+    "related": [
+      { "slug": "google-ai-max-shopping-campaigns", "title": "Google、AI MaxでShoppingキャンペーンを現代の検索へ適応" }
+    ]
+  },
+  {
+    "slug": "google-retail-ai-merchant-data",
+    "title": "Google、「AIが小売を変える中で事業者が取るべき対応」を解説",
+    "origTitle": "AI is changing retail. Here's how businesses can keep up.",
+    "sourceUrl": "https://blog.google/products/ads-commerce/retail-sales-ai/",
+    "source": "Google",
+    "date": "2026-04-08",
+    "dateDisplay": "2026/04/08",
+    "lang": "en",
+    "platforms": ["google"],
+    "viewpoint": "seller",
+    "theme": "optimization",
+    "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Decoded_Podcast_-_Thumbnail_-_S1E6.max-1440x810.jpg",
+    "bullets": [
+      "AI Mode、仮想試着、CTVの買い物体験はMerchant Centerの商品データを基盤にする。",
+      "フィードが不完全・不整合なら、顧客は商品を見つけられないと明示した。",
+      "基礎データの整備を小売のAI対応の出発点と位置付ける。"
+    ],
+    "meaning": "タグ・属性・説明の欠損が新しいAI面での非表示に直結するという、優先順位の根拠になる。派手な新機能への対応より先に、基礎的な商品データの整備が土台であることを示している。",
+    "related": []
+  },
+  {
+    "slug": "google-ai-max-shopping-campaigns",
+    "title": "Google、AI MaxでShoppingキャンペーンを現代の検索へ適応",
+    "origTitle": "Adapt your Shopping campaigns to modern Search with AI Max",
+    "sourceUrl": "https://blog.google/products/ads-commerce/ai-max-for-shopping/",
+    "source": "Google",
+    "date": "2026-04-30",
+    "dateDisplay": "2026/04/30",
+    "lang": "en",
+    "platforms": ["google"],
+    "viewpoint": "seller",
+    "theme": "optimization",
+    "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Shopping_x_AI_Max_Road_to_GML_Master-Header.max-1440x810.png",
+    "bullets": [
+      "Merchant Centerフィードの素材・耐久性・フィット感などを会話意図の理解に使う。",
+      "AIが広告文、遷移先、広告形式を意図に合わせる。",
+      "従来の具体的な商品名検索より前の探索段階へ接点を広げる。"
+    ],
+    "meaning": "属性を「検索語」ではなく、顧客の相談文に答える情報として設計する必要がある。素材や着用感といった従来は補足情報だった項目が、AIの意図理解の材料として重みを増している。",
+    "related": [
+      { "slug": "google-ucp-ai-tools-retailers", "title": "Google、UCPとAIツールで小売事業者のAI検索対応を支援" },
+      { "slug": "google-ai-max-turns-one", "title": "Google、AI Max 1周年で成果を制御する新機能を追加" }
+    ]
+  },
+  {
+    "slug": "amazon-listing-ai-guide",
+    "title": "Amazon、AIで商品リスティングを作成する方法を解説",
+    "origTitle": "How to use Amazon AI to create product listings",
+    "sourceUrl": "https://sell.amazon.com/blog/amazon-listing-ai",
+    "source": "Amazon",
+    "date": "2025-11-03",
+    "dateDisplay": "2025/11/03",
+    "lang": "en",
+    "platforms": ["amazon"],
+    "viewpoint": "seller",
+    "theme": "optimization",
+    "thumbnail": "https://cdn.sell2.brightspotcdn.com/dims4/default/3b91c2e/2147483647/strip/true/crop/1420x690+0+118/resize/1440x700!/quality/90/?url=https%3A%2F%2Fsell2-production-sell2.s3.us-west-2.amazonaws.com%2Fbrightspot%2Fb8%2F3c%2Fa8013d0441e1a144400978bdad6f%2Fai-illustration.jpg",
+    "bullets": [
+      "短い説明、画像、既存ページURL、スプレッドシートからAIが商品属性を補完する。",
+      "AI生成後は出品者が正確性・完全性・規約適合性をレビューする必要がある。",
+      "一括投入後の下書きを確認・編集して公開する流れを示す。"
+    ],
+    "meaning": "AI補完を使っても、元となる商品データの正確さと人の検品が不可欠だと実務手順で確認できる。AIタッガーで属性を自動生成した後も、最終チェックの工程を省略しない姿勢の裏付けになる。",
+    "related": [
+      { "slug": "amazon-product-listings-guide", "title": "Amazon、商品リスティングの作成方法を解説" }
+    ]
+  },
+  {
+    "slug": "amazon-product-listings-guide",
+    "title": "Amazon、商品リスティングの作成方法を解説",
+    "origTitle": "How to create Amazon product listings",
+    "sourceUrl": "https://sell.amazon.com/blog/amazon-product-listings",
+    "source": "Amazon",
+    "date": "2026-04-29",
+    "dateDisplay": "2026/04/29",
+    "lang": "en",
+    "platforms": ["amazon"],
+    "viewpoint": "seller",
+    "theme": "optimization",
+    "thumbnail": "https://cdn.sell2.brightspotcdn.com/dims4/default/eaf975e/2147483647/strip/true/crop/1420x690+0+175/resize/1440x700!/quality/90/?url=https%3A%2F%2Fsell2-production-sell2.s3.us-west-2.amazonaws.com%2Fbrightspot%2F0d%2F3d%2Fb35681654a9facb4657a56c2aac0%2Flist-new-products.jpg",
+    "bullets": [
+      "商品名、説明、箇条書き、画像、色などの属性を商品詳細ページに投入する手順を解説する。",
+      "キーワード、バリエーション、ブランド管理で見つけやすさと情報の正確性を高める。",
+      "生成AIでタイトル・説明・属性を作れるが、商品情報そのものの整備が前提である。"
+    ],
+    "meaning": "AI検索対応の前に、商品データをどの項目に分解して保持すべきかを具体的に確認できる。バリエーションや色といった細かい属性の粒度が、そのまま検索・比較での見つかりやすさに直結する。",
+    "related": [
+      { "slug": "amazon-listing-ai-guide", "title": "Amazon、AIで商品リスティングを作成する方法を解説" }
+    ]
+  },
+  {
+    "slug": "amazon-shop-direct-ai-feeds",
+    "title": "Amazon、AI搭載Shop Direct向けの商品フィードを導入",
+    "origTitle": "Amazon introduces feeds to make it easier for merchants to reach more customers through AI-powered Shop Direct",
+    "sourceUrl": "https://www.aboutamazon.com/news/retail/amazon-shop-direct-external-stores",
+    "source": "Amazon",
+    "date": "2026-03-11",
+    "dateDisplay": "2026/03/11",
+    "lang": "en",
+    "platforms": ["amazon"],
+    "viewpoint": "seller",
+    "theme": "optimization",
+    "thumbnail": "https://assets.aboutamazon.com/dims4/default/a1d0f28/2147483647/strip/true/crop/2000x1000+0+63/resize/1200x600!/quality/90/?url=https%3A%2F%2Fassets.aboutamazon.com%2Fd0%2F19%2Fa1fbbcea4009bcf626a75404daac%2Fshop-direct-hero.jpg",
+    "bullets": [
+      "外部店舗はフィード連携でカタログ、価格、在庫をリアルタイム同期できる。",
+      "Amazon検索結果とAIアシスタントで表示対象になる。",
+      "40万超の加盟店、1億超の商品を含むShop Directへの参加経路を広げた。"
+    ],
+    "meaning": "AI面の露出に必要なのは文章の工夫だけでなく、価格・在庫まで矛盾なく同期する運用だと分かる。フィード連携の裏側にある在庫・価格更新の頻度そのものが、露出の条件になっている。",
+    "related": []
+  },
+  {
+    "slug": "openai-merchant-feed-terms",
+    "title": "OpenAI、Merchant Feed利用規約を公開",
+    "origTitle": "OpenAI Merchant Feed Terms of Service",
+    "sourceUrl": "https://openai.com/policies/merchant-feed-terms-of-service/",
+    "source": "OpenAI",
+    "date": "2026-06-15",
+    "dateDisplay": "2026/06/15",
+    "lang": "en",
+    "platforms": ["chatgpt"],
+    "viewpoint": "seller",
+    "theme": "optimization",
+    "thumbnail": "https://images.ctfassets.net/kftzwdyauwt9/7EQeVi3fOTDtyh524IX4qX/ce70dbc4e896b0447dc652df806cfb5d/Frame-1.png?w=1600&h=900&fit=fill",
+    "bullets": [
+      "加盟店は商品コンテンツをフィード等でOpenAIへ提供できる。",
+      "提供データはProduct Feed Specに従う必要がある。",
+      "フィードの内容と提供主体への責任を加盟店側に明確化している。"
+    ],
+    "meaning": "ChatGPT向けの商品フィードを検討する際、仕様対応とデータ責任を先に把握できる。フィードの形式が仕様に合っていないと、そもそも掲載対象にならない可能性がある。",
+    "related": [
+      { "slug": "openai-commerce-policies", "title": "OpenAI、コマースポリシーを公開" }
+    ]
+  },
+  {
+    "slug": "openai-wayfair-catalog-accuracy",
+    "title": "Wayfair、OpenAIでカタログ精度とサポート速度を改善",
+    "origTitle": "Wayfair boosts catalog accuracy and support speed with OpenAI",
+    "sourceUrl": "https://openai.com/index/wayfair/",
+    "source": "OpenAI",
+    "date": "2026-03-11",
+    "dateDisplay": "2026/03/11",
+    "lang": "en",
+    "platforms": ["chatgpt"],
+    "viewpoint": "seller",
+    "theme": "optimization",
+    "thumbnail": "https://images.ctfassets.net/kftzwdyauwt9/2BwLsAc9CDgCMWPnvMG6zT/88486652ebb56e9410a9949bfb4938f8/oai_wayfair_SEO.png?w=1600&h=900&fit=fill",
+    "bullets": [
+      "Wayfairは商品クラスごとの属性分類をAIで運用し、カタログ品質を改善した。",
+      "250万件のプロダクトタグを修正した実績を示す。",
+      "サプライヤー問い合わせの自動化と商品データ品質を同じ基盤で扱う。"
+    ],
+    "meaning": "タグ付けを単発の作業でなく、大規模カタログの品質管理工程として設計する参考になる。250万件規模の修正実績は、タグ付けが一度きりの作業ではなく継続的な運用であることを裏付けている。",
+    "related": []
+  },
+  {
+    "slug": "google-omnichannel-retail-ai-readiness",
+    "title": "Google、北欧・ベネルクスの小売業者がAI対応できていない理由を調査",
+    "origTitle": "Why retailers in Northern Europe might not be AI ready",
+    "sourceUrl": "https://business.google.com/en-all/think/ai-excellence/ominchannel-retail-report-2026-nordics-benelux/",
+    "source": "Google / Impact Commerce",
+    "date": "2026-05-01",
+    "dateDisplay": "2026/05",
+    "lang": "en",
+    "platforms": ["google"],
+    "viewpoint": "seller",
+    "theme": "optimization",
+    "thumbnail": "https://www.gstatic.com/marketing-cms/assets/images/ads/af/4d/d626626c4a8c9a9a892ed4d178e4/twg-ne-3377-omnichannel-report-inlines-4.webp=n-w794-h274-fcrop64=1,00000000ffffffff",
+    "bullets": [
+      "GoogleとImpact Commerceが、6か国373の小売ブランドの27,600超のデータポイントを調査した。",
+      "AIエージェントが読めるように構造化された商品ページを持つのは調査対象の42%、ビジュアル検索対応は3%だった。",
+      "商品フィードの属性・画像を機械可読な形で整備し、Merchant Excellence reportで欠損を点検することを提案している。"
+    ],
+    "meaning": "AIタッガーで補う属性・画像情報を「AIに理解される商品データ」として扱い、商品ごとの欠損を改善対象に変えられる。ビジュアル検索対応がわずか3%という数字は、対応できていること自体が差別化になる段階を示している。",
+    "related": []
+  },
+  {
+    "slug": "google-ai-max-turns-one",
+    "title": "Google、AI Max 1周年で成果を制御する新機能を追加",
+    "origTitle": "AI Max Turns 1 with new ways to steer performance",
+    "sourceUrl": "https://blog.google/products/ads-commerce/ai-max-new-features/",
+    "source": "Google",
+    "date": "2026-04-30",
+    "dateDisplay": "2026/04/30",
+    "lang": "en",
+    "platforms": ["google"],
+    "viewpoint": "seller",
+    "theme": "optimization",
+    "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_Max_Road_to_GML_Master-Header-4.width-1300.png",
+    "bullets": [
+      "AI Max for Shoppingは商品フィードを会話型のShopping広告へ変換する。",
+      "AI Briefで事業文脈、訴求、対象者を自社の言葉でAIに渡せる。",
+      "遷移先の自動選択とフォーマット選択を制御できる。"
+    ],
+    "meaning": "商品属性だけでなく、ブランドとして何を誰に伝えるかをAIへ明示する設計が必要になる。AI Briefのような仕組みは、商品データと合わせて事業文脈を渡す発想が広がっていることを示す。",
+    "related": [
+      { "slug": "google-ai-max-shopping-campaigns", "title": "Google、AI MaxでShoppingキャンペーンを現代の検索へ適応" }
+    ]
+  },
+  {
+    "slug": "google-digital-advertising-commerce-2026",
+    "title": "Google、2026年のデジタル広告・コマースの見通しを発表",
+    "origTitle": "What to expect in digital advertising and commerce in 2026",
+    "sourceUrl": "https://blog.google/products/ads-commerce/digital-advertising-commerce-2026/",
+    "source": "Google",
+    "date": "2026-02-03",
+    "dateDisplay": "2026/02/03",
+    "lang": "en",
+    "platforms": ["google"],
+    "viewpoint": "seller",
+    "theme": "measurement",
+    "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Retouched_Final-social.width-1300.png",
+    "bullets": [
+      "AI Modeの買い物広告とUCPチェックアウトの展開を整理する。",
+      "商品データを基に、意図の強い比較・購入段階へ広告を出す。",
+      "商取引面の変化に合わせて広告成果を見る必要を示す。"
+    ],
+    "meaning": "「AIに出たか」を感覚で判断せず、競合比較を含む計測の形で持つ参考になる。表示された・されないの二択ではなく、比較段階でどう扱われたかまで含めて見る視点が必要になる。",
+    "related": []
+  },
+  {
+    "slug": "amazon-seller-assistant-agentic-ai",
+    "title": "Amazon、出品者体験にエージェント型AIを導入",
+    "origTitle": "Amazon introduces agentic AI across the seller experience",
+    "sourceUrl": "https://www.aboutamazon.com/news/innovation-at-amazon/seller-assistant-agentic-ai",
+    "source": "Amazon",
+    "date": "2025-09-17",
+    "dateDisplay": "2025/09/17",
+    "lang": "en",
+    "platforms": ["amazon"],
+    "viewpoint": "seller",
+    "theme": "measurement",
+    "thumbnail": "https://assets.aboutamazon.com/dims4/default/74cf576/2147483647/strip/true/crop/1600x800+0+50/resize/1200x600!/quality/90/?url=https%3A%2F%2Fassets.aboutamazon.com%2F77%2F26%2Fecebc82c426a8d85505206e8fe48%2Fnew-hero.png",
+    "bullets": [
+      "Seller Assistantが在庫、販売速度、アカウント健全性を継続監視する。",
+      "需要パターンと現行トレンドから補充提案を作成する。",
+      "売上・顧客行動を分析し、カテゴリや広告施策の示唆も出す。"
+    ],
+    "meaning": "商品データ改善の効果を、在庫・販売速度・アカウント状態まで横断して観測する設計の参考になる。タグ付け改善の成果を、売上だけでなく在庫の回転や補充のタイミングでも確認できる。",
+    "related": []
+  },
+  {
+    "slug": "amazon-new-product-success-tips",
+    "title": "Amazon、新商品の立ち上げと拡大を速めるヒントを解説",
+    "origTitle": "Tips for new product success: Launch and scale faster",
+    "sourceUrl": "https://sell.amazon.com/blog/new-product-success",
+    "source": "Amazon",
+    "date": "2026-01-06",
+    "dateDisplay": "2026/01/06",
+    "lang": "en",
+    "platforms": ["amazon"],
+    "viewpoint": "seller",
+    "theme": "measurement",
+    "thumbnail": "https://cdn.sell2.brightspotcdn.com/dims4/default/41b8749/2147483647/strip/true/crop/1991x968+0+508/resize/1440x700!/quality/90/?url=https%3A%2F%2Fsell2-production-sell2.s3.us-west-2.amazonaws.com%2Fbrightspot%2Fa9%2Fa2%2Fabb1b0fb4acdb67ed1e4a26eb740%2Fpackage-in-cart-illu.jpg",
+    "bullets": [
+      "Product Opportunity Explorerで顧客の検索行動と購入パターンを分析できる。",
+      "新商品は投入前・投入中・投入後で確認する指標を変えるべきだと解説する。",
+      "需要と競合状況を根拠に、商品選定と改善を行う。"
+    ],
+    "meaning": "タグや商品情報の改善を、検索需要・購買パターンの変化で検証する視点を持てる。投入直後と数か月後とで見るべき指標が変わるという考え方は、タグ付けの効果測定にもそのまま当てはまる。",
+    "related": [
+      { "slug": "amazon-trending-products-2026", "title": "Amazon、2026年にオンラインで販売する高需要・トレンド商品を紹介" }
+    ]
+  },
+  {
+    "slug": "amazon-trending-products-2026",
+    "title": "Amazon、2026年にオンラインで販売する高需要・トレンド商品を紹介",
+    "origTitle": "18 high-demand and trending products to sell online in 2026",
+    "sourceUrl": "https://sell.amazon.com/blog/products-to-sell",
+    "source": "Amazon",
+    "date": "2026-01-16",
+    "dateDisplay": "2026/01/16",
+    "lang": "en",
+    "platforms": ["amazon"],
+    "viewpoint": "seller",
+    "theme": "measurement",
+    "thumbnail": "https://cdn.sell2.brightspotcdn.com/dims4/default/216d88d/2147483647/strip/true/crop/1000x486+0+157/resize/1440x700!/quality/90/?url=https%3A%2F%2Fsell2-production-sell2.s3.us-west-2.amazonaws.com%2Fbrightspot%2F9f%2F95%2F7c1f4deb4243b32bdc86204f8b9a%2Ftrending-products.jpg",
+    "bullets": [
+      "Amazonのベストセラーと需要データを、新商品候補の検討材料として扱う。",
+      "出品者向けの分析ツールで、顧客ニーズと競合状況を確認できる。",
+      "商品選定後も需要変化を継続的に見直す前提を示す。"
+    ],
+    "meaning": "タグ付け・説明文の更新を「投入した」で終わらせず、実際の検索語とのずれで点検できる。トレンドは変化し続けるため、一度設定した属性やタグも定期的な見直しが前提になる。",
+    "related": [
+      { "slug": "amazon-new-product-success-tips", "title": "Amazon、新商品の立ち上げと拡大を速めるヒントを解説" }
+    ]
+  },
+  {
+    "slug": "openai-commerce-policies",
+    "title": "OpenAI、コマースポリシーを公開",
+    "origTitle": "Commerce policies",
+    "sourceUrl": "https://openai.com/policies/commerce-policies/",
+    "source": "OpenAI",
+    "date": "2026-06-24",
+    "dateDisplay": "2026/06/24",
+    "lang": "en",
+    "platforms": ["chatgpt"],
+    "viewpoint": "seller",
+    "theme": "measurement",
+    "thumbnail": "https://images.ctfassets.net/kftzwdyauwt9/4cRQViGMim2kzoeBqEMiJb/42b81747b2e65e236280946fe9fe0916/Frame-1.png?w=1600&h=900&fit=fill",
+    "bullets": [
+      "OpenAIのコマース面で扱えない商品・サービスと加盟店の責任を定める。",
+      "商品フィード、加盟店、リンク先Webページをポリシーの対象に含める。",
+      "商品露出を計測する前に、掲載継続の前提となる適合性を点検できる。"
+    ],
+    "meaning": "AI上の露出をKPI化するなら、ポリシー違反による表示停止リスクも運用指標に含めるべきだと分かる。露出が増えても、規約違反で突然掲載停止になれば計測の前提が崩れてしまう。",
+    "related": [
+      { "slug": "openai-merchant-feed-terms", "title": "OpenAI、Merchant Feed利用規約を公開" }
+    ]
+  },
+  {
+    "slug": "amazon-agentic-gen-ai-shopping-experience",
+    "title": "Amazon、生成AI・エージェントAIによる買い物体験の変革を整理",
+    "origTitle": "How Amazon is using generative and agentic AI to transform the shopping experience",
+    "sourceUrl": "https://www.aboutamazon.com/news/retail/amazon-agentic-ai-gen-ai-shopping",
+    "source": "Amazon",
+    "date": "2025-11-13",
+    "dateDisplay": "2025/11/13",
+    "lang": "en",
+    "platforms": ["amazon"],
+    "viewpoint": "buyer",
+    "theme": "measurement",
+    "thumbnail": "https://assets.aboutamazon.com/dims4/default/729509e/2147483647/strip/true/crop/2000x1000+0+0/resize/1200x600!/quality/90/?url=https%3A%2F%2Fassets.aboutamazon.com%2Fa6%2F0a%2F4efb19c2408cad25b81983fa9a2d%2Fimage-3.png",
+    "bullets": [
+      "AmazonはRufus、Lens Live、レビュー要約など複数のAI買い物機能を整理した。",
+      "商品の属性、レビューの肯定・否定傾向、比較を画面上で扱う。",
+      "商品発見・比較・購入の各段階で見るべき利用行動を把握できる。"
+    ],
+    "meaning": "AI導線の評価では表示回数だけでなく、比較利用から購入までの行動指標を分けて追う必要がある。機能ごとに関わる段階が違うため、どの機能がどの段階の指標に効いているかを切り分けて見る必要がある。",
+    "related": []
+  },
+  {
+    "slug": "amazon-fba-fees-guide",
+    "title": "Amazon、FBA手数料を理解して利益を最大化する方法を解説",
+    "origTitle": "Learn how Amazon FBA fees work to maximize your profit",
+    "sourceUrl": "https://sell.amazon.com/blog/fba-fees-guide",
+    "source": "Amazon",
+    "date": "2026-07-24",
+    "dateDisplay": "2026/07/24",
+    "lang": "en",
+    "platforms": ["amazon"],
+    "viewpoint": "seller",
+    "theme": "measurement",
+    "thumbnail": "https://cdn.sell2.brightspotcdn.com/dims4/default/40216a2/2147483647/strip/true/crop/1500x1200%2B0%2B0/resize/500x400%21/quality/90/?url=https%3A%2F%2Fsell2-production-sell2.s3.us-west-2.amazonaws.com%2Fbrightspot%2Fd0%2F45%2F0dd484b94c35923142783cd5b6a7%2Ffba-fees.png",
+    "bullets": [
+      "AmazonはFBA費用を販売手数料、出荷・保管、返品・長期在庫などに分け、商品サイズ・重量・季節により変わることを説明している。",
+      "FBA DashboardとInventory Performance dashboardで在庫指標を確認し、過剰在庫や保管コストを抑える運用を案内する。",
+      "Revenue Calculator、Fee Preview report、Payments dashboardを使い、配送方法別の純利益・利益率を比較できるとしている。"
+    ],
+    "meaning": "商品属性・寸法・重量の整備や在庫施策を、露出だけでなくFBA費用と商品別の純利益まで含めて測定できる。タグ付けで露出が増えても、手数料構造まで見なければ本当に利益に貢献したかは分からない。",
+    "related": [
+      { "slug": "amazon-calculate-profit-margins", "title": "Amazon、EC商品の利益率を計算する方法を解説" }
+    ]
+  },
+  {
+    "slug": "google-seo-is-good-geo",
+    "title": "Google、「良いSEOは良いGEOである」と説明",
+    "origTitle": "Good SEO is good GEO",
+    "sourceUrl": "https://business.google.com/uk/think/search-and-video/ai-search-era-brand-authority-strategy/",
+    "source": "Google",
+    "date": "2026-06-01",
+    "dateDisplay": "2026/06",
+    "lang": "en",
+    "platforms": ["google"],
+    "viewpoint": "seller",
+    "theme": "measurement",
+    "thumbnail": "https://www.gstatic.com/marketing-cms/assets/images/ads/50/e9/97caedcb4bb7ac5db64e49f15aa7/twg-us-2832-5-conversations-im-having-with-cmos-daily-on-seo-for-ai-search-inline.webp=n-w800-h421-fcrop64=1,00000000ffffffff",
+    "bullets": [
+      "Googleは、AI Mode・AI Overviewsへの最適化も、役に立つ一次性の高いコンテンツと良いWeb体験というSEOの基礎に立つと説明する。",
+      "Search ConsoleではAI機能からの表示回数、Merchant Centerでは生成AI面での商品リスティング表示を確認できると案内している。",
+      "第三者の推定値を唯一の指標にせず、リード・売上・登録など事業目標を効果測定の中心に置くべきだとしている。"
+    ],
+    "meaning": "AI露出の推定スコアではなく、Search Console・Merchant Centerの実測と売上をつなげてタグ付け改善の効果を判定できる。第三者ツールの推定値に一喜一憂するより、自社の実測データを軸にする姿勢が推奨されている。",
+    "related": []
+  },
+  {
+    "slug": "amazon-customer-reviews-social-proof",
+    "title": "Amazon、カスタマーレビューで事業を成長させる方法を解説",
+    "origTitle": "How to use customer reviews to grow your business",
+    "sourceUrl": "https://sell.amazon.com/blog/customer-reviews-social-proof",
+    "source": "Amazon",
+    "date": "2026-08-18",
+    "dateDisplay": "2026/08/18",
+    "lang": "en",
+    "platforms": ["amazon"],
+    "viewpoint": "seller",
+    "theme": "measurement",
+    "thumbnail": "https://cdn.sell2.brightspotcdn.com/dims4/default/94ff461/2147483647/strip/true/crop/2500x2000%2B500%2B0/resize/500x400%21/quality/90/?url=https%3A%2F%2Fsell2-production-sell2.s3.us-west-2.amazonaws.com%2Fbrightspot%2Fc4%2Fea%2Fd830e5db43e5b55609bda3bf76cd%2Fcustomer-segment-insitu.jpg",
+    "bullets": [
+      "Amazonはレビューをリアルタイムの市場調査として扱い、評価・レビュー数・頻出語を商品改善に使う方法を解説している。",
+      "高評価で繰り返し言及される属性・利用場面・顧客の表現を、商品説明や写真に反映するよう促す。",
+      "低評価を品質、配送、期待との不一致、用途不一致に分類し、月次で傾向と改善後の変化を追う手順を示す。"
+    ],
+    "meaning": "タグや商品説明を改善した後、レビュー内の属性語・期待違い・CVへの影響を継続指標として追える。レビューに出てくる言葉こそが、顧客が実際に使っている検索語やタグの手がかりになる。",
+    "related": []
+  },
+  {
+    "slug": "amazon-calculate-profit-margins",
+    "title": "Amazon、EC商品の利益率を計算する方法を解説",
+    "origTitle": "How to calculate margins for ecommerce products with Amazon",
+    "sourceUrl": "https://sell.amazon.com/blog/calculate-profit-margins",
+    "source": "Amazon",
+    "date": "2026-07-27",
+    "dateDisplay": "2026/07/27",
+    "lang": "en",
+    "platforms": ["amazon"],
+    "viewpoint": "seller",
+    "theme": "measurement",
+    "thumbnail": "https://cdn.sell2.brightspotcdn.com/dims4/default/a772a7f/2147483647/strip/true/crop/750x600%2B0%2B1/resize/500x400%21/quality/90/?url=https%3A%2F%2Fsell2-production-sell2.s3.us-west-2.amazonaws.com%2Fbrightspot%2Fe8%2F31%2F73e046664dada478b96086d5358d%2Fframe-2147205941.jpg",
+    "bullets": [
+      "Amazonは、売上から原価・運営費を差し引く粗利率、営業利益率、純利益率を商品単位で分けて計算する方法を解説している。",
+      "販売手数料、フルフィルメント、広告、返品・顧客対応を含めて利益率を計算する具体例を示す。",
+      "Revenue Calculatorで価格・配送方法ごとの手数料と純収益を試算し、低利益商品を定期的に見直すことを勧めている。"
+    ],
+    "meaning": "商品情報の改善でCVや売上が動いたとしても、広告費・返品・配送費を含む商品別利益で施策の成否を判断できる。売上が伸びても利益率が下がっていれば、タグ付け改善の評価としては不十分になる。",
+    "related": [
+      { "slug": "amazon-fba-fees-guide", "title": "Amazon、FBA手数料を理解して利益を最大化する方法を解説" }
+    ]
+  }
+]

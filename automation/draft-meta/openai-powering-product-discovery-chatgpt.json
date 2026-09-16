@@ -1,0 +1,22 @@
+{
+  "slug": "openai-powering-product-discovery-chatgpt",
+  "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/openai-powering-product-discovery-chatgpt.html",
+  "sourceUrl": "https://openai.com/index/powering-product-discovery-in-chatgpt/",
+  "platforms": [
+    "chatgpt"
+  ],
+  "viewpoint": "buyer",
+  "theme": "visibility",
+  "source": "OpenAI",
+  "date": "2026-03-24",
+  "title": "OpenAI、ChatGPTの商品発見を支える仕組みを解説",
+  "bullets": [
+    "ChatGPTで商品の視覚的な探索、横並び比較、会話による絞り込みを強化した。",
+    "Agentic Commerce Protocolを通じ、商品フィードと販促情報を扱う。",
+    "Shopify Catalog連携では商品データが会話内の表示精度を支える。"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "url": "https://images.ctfassets.net/kftzwdyauwt9/54zHAGljzaGUAL8FNoSXAV/a2dda4a62fccf740c4717bf1afac17eb/Shopping-SEO-1200x630.png?w=1600&h=900&fit=fill"
+  }
+}

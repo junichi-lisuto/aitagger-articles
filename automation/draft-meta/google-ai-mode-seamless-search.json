@@ -1,0 +1,22 @@
+{
+  "slug": "google-ai-mode-seamless-search",
+  "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/google-ai-mode-seamless-search.html",
+  "sourceUrl": "https://blog.google/products-and-platforms/products/search/ai-mode-ai-overviews-updates/",
+  "platforms": [
+    "google"
+  ],
+  "viewpoint": "buyer",
+  "theme": "visibility",
+  "source": "Google",
+  "date": "2026-01-27",
+  "title": "Google、AI Overviewから会話を続けられる新しい検索体験を発表",
+  "bullets": [
+    "AI Overviewから追質問を行い、AI Modeとの会話を連続できるようにした。",
+    "Gemini 3をAI Overviewの既定モデルとして採用した。",
+    "短い検索から深い検討へ滑らかに移るUIである。"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Seamless-Search---Blog-social.width-1300.png"
+  }
+}

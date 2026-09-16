@@ -1,0 +1,22 @@
+{
+  "slug": "openai-merchant-feed-terms",
+  "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/openai-merchant-feed-terms.html",
+  "sourceUrl": "https://openai.com/policies/merchant-feed-terms-of-service/",
+  "platforms": [
+    "chatgpt"
+  ],
+  "viewpoint": "seller",
+  "theme": "optimization",
+  "source": "OpenAI",
+  "date": "2026-06-15",
+  "title": "OpenAI、Merchant Feed利用規約を公開",
+  "bullets": [
+    "加盟店は商品コンテンツをフィード等でOpenAIへ提供できる。",
+    "提供データはProduct Feed Specに従う必要がある。",
+    "フィードの内容と提供主体への責任を加盟店側に明確化している。"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "url": "https://images.ctfassets.net/kftzwdyauwt9/7EQeVi3fOTDtyh524IX4qX/ce70dbc4e896b0447dc652df806cfb5d/Frame-1.png?w=1600&h=900&fit=fill"
+  }
+}

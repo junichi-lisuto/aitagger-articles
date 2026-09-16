@@ -1,0 +1,22 @@
+{
+  "slug": "google-ai-max-shopping-campaigns",
+  "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/google-ai-max-shopping-campaigns.html",
+  "sourceUrl": "https://blog.google/products/ads-commerce/ai-max-for-shopping/",
+  "platforms": [
+    "google"
+  ],
+  "viewpoint": "seller",
+  "theme": "optimization",
+  "source": "Google",
+  "date": "2026-04-30",
+  "title": "Google、AI MaxでShoppingキャンペーンを現代の検索へ適応",
+  "bullets": [
+    "Merchant Centerフィードの素材・耐久性・フィット感などを会話意図の理解に使う。",
+    "AIが広告文、遷移先、広告形式を意図に合わせる。",
+    "従来の具体的な商品名検索より前の探索段階へ接点を広げる。"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Shopping_x_AI_Max_Road_to_GML_Master-Header.max-1440x810.png"
+  }
+}

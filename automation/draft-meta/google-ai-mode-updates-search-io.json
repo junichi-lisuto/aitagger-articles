@@ -1,0 +1,22 @@
+{
+  "slug": "google-ai-mode-updates-search-io",
+  "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/google-ai-mode-updates-search-io.html",
+  "sourceUrl": "https://blog.google/products-and-platforms/products/search/search-io-2026/",
+  "platforms": [
+    "google"
+  ],
+  "viewpoint": "buyer",
+  "theme": "visibility",
+  "source": "Google",
+  "date": "2026-05-19",
+  "title": "Google、「A new era for AI Search」でAI Modeの新機能を発表",
+  "bullets": [
+    "AI Modeは月間10億ユーザーを超え、検索ボックス自体を会話型に拡張した。",
+    "画像・動画・ファイル・タブを入力にでき、複雑な条件を扱う。",
+    "AI Overviewから文脈を保ったままAI Modeへ移行できる。"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Search_AI_and_search_engine_v46_16x9_1.width-1300.jpg"
+  }
+}

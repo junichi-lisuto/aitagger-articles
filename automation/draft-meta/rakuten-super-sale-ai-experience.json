@@ -1,0 +1,22 @@
+{
+  "slug": "rakuten-super-sale-ai-experience",
+  "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/rakuten-super-sale-ai-experience.html",
+  "sourceUrl": "https://corp.rakuten.co.jp/news/press/2026/0602_01.html",
+  "platforms": [
+    "rakuten"
+  ],
+  "viewpoint": "buyer",
+  "theme": "visibility",
+  "source": "楽天グループ株式会社",
+  "date": "2026-06-02",
+  "title": "楽天市場、AI活用による「楽天スーパーSALE」のお買い物体験を強化",
+  "bullets": [
+    "AIコンシェルジュが用途・予算を会話で受け、セール商品を探す。",
+    "ディスカバリーレコメンデーションは興味に合わせ商品画像・動画・商品ページ情報を表示する。",
+    "キーワード検索外で商品と出会う経路を楽天市場が拡張している。"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "url": "https://corp.rakuten.co.jp/assets/img/common/og_image_logo.png"
+  }
+}
