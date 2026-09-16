@@ -1,0 +1,86 @@
+{
+  "updatedAt": "2026-09-16",
+  "articles": [
+    {
+      "slug": "google-ai-overviews-expand",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/google-ai-overviews-expand.html",
+      "category": "ai",
+      "categoryLabel": "AI検索",
+      "source": "Google公式ブログ",
+      "date": "2026-08-31",
+      "title": "Googleの「AI Overviews」、検索結果画面いっぱいに自動で広がる仕様に",
+      "bullets": [
+        "Googleが一部の検索で、AI回答を自動的にフル表示へ拡大すると公式に認めた。",
+        "長い回答が有用と判断された検索では、画面の大部分をAIの回答が占める。",
+        "通常のリンク一覧が下に押しやられ、GEO対策の優先度が一段と上がる。"
+      ],
+      "thumbnail": { "type": "default", "category": "ai" }
+    },
+    {
+      "slug": "search-engine-land-ai-overviews",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/search-engine-land-ai-overviews.html",
+      "category": "seo",
+      "categoryLabel": "SEO",
+      "source": "Search Engine Land",
+      "date": "2026-08-28",
+      "title": "「AI Overviewsの自動拡大」をGoogleが解説、その裏でオーガニック検索結果はさらに下に",
+      "bullets": [
+        "Google広報が「動的な拡大でユーザーは検索をより有用と感じる」と説明したと報じた。",
+        "AI Overviewsの拡大分、従来の検索結果（オーガニックリンク）がさらに下へ押し下げられる。",
+        "拡大が起きるクエリの条件や判定信号は、Googleが非開示のままとした。"
+      ],
+      "thumbnail": { "type": "default", "category": "seo" }
+    },
+    {
+      "slug": "rakuten-ai-compare",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/rakuten-ai-compare.html",
+      "category": "rakuten",
+      "categoryLabel": "楽天AI",
+      "source": "日本経済新聞",
+      "date": "2026-07-07",
+      "title": "楽天市場のAI検索、商品を最大4つまで並べて比較できる新機能を追加",
+      "bullets": [
+        "楽天市場アプリのAI検索に、商品同士を比較できる機能を追加した。",
+        "最大4商品を選び、発送日数やレビュー傾向を表形式で見比べられる。",
+        "比較の場で見劣りしないスペック表記の整備が出店者側の課題になる。"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3277322007072026000000-2.png?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&w=1200&s=6e64a15bbb563fbaa537458efc4ef55d"
+      }
+    },
+    {
+      "slug": "yahoo-ai-shopping-memo",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/yahoo-ai-shopping-memo.html",
+      "category": "yahoo",
+      "categoryLabel": "Yahoo!AI",
+      "source": "LINEヤフー公式",
+      "date": "2026-06-23",
+      "title": "Yahoo!ショッピング、メモした内容からAIが商品を提案する「AIお買い物メモ」を開始",
+      "bullets": [
+        "テキスト・音声・手書きメモに対応した「AIお買い物メモ」の提供を始めた。",
+        "目的ベースの入力からも、AIが文脈を理解して商品を提案する。",
+        "利用シーン・目的が伝わる商品説明文の重要性が増している。"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://www.lycorp.co.jp/ja/news/2026/1ec4604668ca79e5aa17ee63fd0f654737364eae.png"
+      }
+    },
+    {
+      "slug": "cnbc-openai-shopping-shift",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/cnbc-openai-shopping-shift.html",
+      "category": "ai",
+      "categoryLabel": "AI検索",
+      "source": "CNBC",
+      "date": "2026-03-24",
+      "title": "OpenAI、ChatGPT内の購買体験を「決済の一本化」から「商品発見の支援」へ方針転換",
+      "bullets": [
+        "ChatGPT内で決済まで完結する機能を、加盟店の決済導線を使う形へ転換した。",
+        "OpenAIは「商品発見（Product Discovery）」の支援に注力する方針へシフトした。",
+        "ChatGPTに商品を正しく認識させるフィード整備が実務的な次の一手になる。"
+      ],
+      "thumbnail": { "type": "default", "category": "ai" }
+    }
+  ]
+}
