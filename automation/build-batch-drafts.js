@@ -199,12 +199,35 @@ window.addEventListener('load', function(){ window.scrollTo(0,0); });
 
 const REQUIRED_FIELDS = ['slug', 'title', 'sourceUrl', 'source', 'date', 'background', 'bullets', 'cardBullets', 'meaning', 'thumbnail'];
 
+// Unbounce一覧カードの箇条書き(.am-points)はfont-size:12px・line-height:1.65・
+// 実効幅約360pxで2行までしか表示されない。全角1文字を約12pxとして逆算すると、
+// 1項目は全角換算55文字までなら2行に収まる（2026-09-16、カード高さ不揃いの
+// 事故を受けて設定）。超過時は自動で切り詰めない（文が不自然に途切れるため）。
+// 必ず55文字以内に収まる文章として書き直すこと。
+const CARD_BULLET_MAX_LENGTH = 55;
+
+function fullWidthLength(s) {
+  // 半角英数記号は0.5文字分としてカウントし、全角換算の文字数を概算する
+  let len = 0;
+  for (const ch of s) {
+    len += /[\x20-\x7E]/.test(ch) ? 0.5 : 1;
+  }
+  return len;
+}
+
 function validateCardBullets(data) {
   const errors = [];
   data.forEach((a, i) => {
     if (!Array.isArray(a.cardBullets) || a.cardBullets.length !== 3) {
       errors.push(`[${i}] ${a.slug || '(slug未設定)'}: "cardBullets" は必ず3件にしてください（現在${(a.cardBullets||[]).length}件）`);
+      return;
     }
+    a.cardBullets.forEach((b, j) => {
+      const len = fullWidthLength(b);
+      if (len > CARD_BULLET_MAX_LENGTH) {
+        errors.push(`[${i}] ${a.slug}: cardBullets[${j}] が全角換算${len.toFixed(1)}文字あります（上限${CARD_BULLET_MAX_LENGTH}文字）。切り詰めず、${CARD_BULLET_MAX_LENGTH}文字以内に収まる文章に書き直してください: "${b}"`);
+      }
+    });
   });
   if (errors.length) {
     throw new Error('articles-batch.json の cardBullets が不正です（トップページカードのレイアウト崩れの原因になります）:\n' + errors.join('\n'));
