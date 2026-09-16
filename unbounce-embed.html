@@ -185,6 +185,8 @@
   function current(){
     return state.articles.filter(function(a){
       return state.platform === "all" || (a.platforms || []).indexOf(state.platform) !== -1;
+    }).sort(function(a, b){
+      return a.date < b.date ? 1 : a.date > b.date ? -1 : 0;
     });
   }
 
