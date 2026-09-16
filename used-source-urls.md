@@ -3,6 +3,7 @@
 記事候補を探す前に必ずこの一覧を確認し、ここに載っているURLと同じ元記事は候補から除外すること。
 生成元: articles.json（更新日: 2026-09-16）
 
+- https://www.aboutamazon.com/news/retail/amazon-shop-direct-external-stores
 - https://arxiv.org/abs/2602.13415
 - https://ahrefs.com/blog/search-engine-ai-seo-bot-crawling/
 - https://sell.amazon.com/blog/brand-analytics

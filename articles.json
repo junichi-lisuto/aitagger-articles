@@ -3,6 +3,28 @@
   "schemaVersion": 2,
   "articles": [
     {
+      "slug": "amazon-shop-direct-feeds",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/amazon-shop-direct-feeds.html",
+      "sourceUrl": "https://www.aboutamazon.com/news/retail/amazon-shop-direct-external-stores",
+      "platforms": [
+        "amazon"
+      ],
+      "viewpoint": "seller",
+      "theme": "optimization",
+      "source": "Amazon",
+      "date": "2026-03-11",
+      "title": "Amazon、外部店舗の商品もAIで見つけられる「Shop Direct」向けフィード連携を導入",
+      "bullets": [
+        "AmazonはAmazon内で販売していない外部店舗の商品も検索・AIアシスタントで見つけられる「Shop Direct」への参加に、Feedonomics、Salsify、CEDCommerce経由の商品フィードを使えるようにした。",
+        "商品カタログ・価格・在庫をリアルタイムに同期でき、商品はAmazon検索結果とAIショッピングアシスタント「Rufus」で表示対象になる。",
+        "購入者は外部店舗へ遷移する「Shop Direct」、または対象商品でAmazonのAIが購入手続きを代行する「Buy for Me」を選べる。記事時点でShop Directには40万超の加盟店・1億超の商品が含まれる。"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://assets.aboutamazon.com/dims4/default/a1d0f28/2147483647/strip/true/crop/2000x1000+0+63/resize/1200x600!/quality/90/?url=https%3A%2F%2Fassets.aboutamazon.com%2Fd0%2F19%2Fa1fbbcea4009bcf626a75404daac%2Fshop-direct-hero.jpg"
+      }
+    },
+    {
       "slug": "arxiv-ai-search-information-markets",
       "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/arxiv-ai-search-information-markets.html",
       "sourceUrl": "https://arxiv.org/abs/2602.13415",
