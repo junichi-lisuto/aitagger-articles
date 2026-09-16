@@ -85,6 +85,11 @@
      → draftのファイルを削除するだけ。articles.json未登録なので実害なし。
 ```
 
+**承認push後、Unbounce側のトップページに反映されるまで数十秒のタイムラグがある**
+（2026-09-16確認。GitHub Pages・articles.jsonは即時反映されているが、Unbounce側のCDN/ページ
+キャッシュ由来と見られる遅延がある）。すぐ表示されなくても異常ではないので、数十秒〜数分待って
+から再確認する。
+
 `automation/config.local.json`（gitignore対象）にSlack Webhook URLを置く。
 `config.local.json.example` がテンプレート。
 
