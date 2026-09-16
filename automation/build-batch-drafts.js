@@ -25,7 +25,6 @@ const metaDir = path.join(__dirname, 'draft-meta');
 const CAT_CLASS = { visibility: 'theme-visibility', optimization: 'theme-optimization', measurement: 'theme-measurement' };
 const THEME_LABEL = { visibility: '検索結果・購買導線の変化', optimization: '商品情報・タグ付けの対策', measurement: '計測・分析' };
 const PLATFORM_LABEL = { google: 'Google', chatgpt: 'ChatGPT', rakuten: '楽天', yahoo: 'Yahoo!', 'other-ai': 'その他AI検索', amazon: 'Amazon' };
-const LANG_LABEL = { ja: '日本語記事', en: '英語記事' };
 
 function esc(s) {
   return String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -97,8 +96,7 @@ function articleHtml(a) {
   .cat.theme-visibility{background:var(--c-visibility)}
   .cat.theme-optimization{background:var(--c-optimization)}
   .cat.theme-measurement{background:var(--c-measurement)}
-  .src,.date,.lang{font-size:12.5px;color:var(--ink-soft)}
-  .lang{font-weight:700;padding:2px 7px;border-radius:4px;background:var(--tint)}
+  .src,.date{font-size:12.5px;color:var(--ink-soft)}
 
   h1{font-size:26px;margin:0 0 8px;line-height:1.5;color:var(--blue-dark)}
   .orig{font-size:13px;color:var(--ink-soft);margin:0 0 28px}
@@ -156,7 +154,6 @@ function articleHtml(a) {
     <span class="platform">${esc(platformLabel)}</span>
     <span class="src">${esc(a.source)}</span>
     <span class="date">${esc(a.dateDisplay)}</span>
-    <span class="lang">${LANG_LABEL[a.lang]}</span>
   </div>
   <h1>${esc(a.title)}</h1>
 ${a.origTitle ? `  <p class="orig">原題: ${esc(a.origTitle)}</p>\n` : ''}
