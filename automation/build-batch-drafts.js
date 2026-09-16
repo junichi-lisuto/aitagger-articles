@@ -91,7 +91,7 @@ function articleHtml(a) {
   .orig{font-size:13px;color:var(--ink-soft);margin:0 0 28px}
 
   h2{font-size:15px;letter-spacing:.04em;color:var(--ink-soft);font-weight:700;margin:0 0 12px}
-  .background{font-size:15px;color:var(--ink-mid);line-height:1.85;margin:0 0 28px}
+  .background{font-size:15.5px;color:var(--ink);line-height:1.8;margin:0 0 28px}
   .points{margin:0 0 28px;padding:0;list-style:none}
   .points li{font-size:15.5px;line-height:1.8;color:var(--ink);
         padding-left:18px;position:relative;margin-bottom:10px}
