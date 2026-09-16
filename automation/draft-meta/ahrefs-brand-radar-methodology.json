@@ -1,0 +1,24 @@
+{
+  "slug": "ahrefs-brand-radar-methodology",
+  "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/ahrefs-brand-radar-methodology.html",
+  "sourceUrl": "https://ahrefs.com/blog/brand-radar-methodology/",
+  "platforms": [
+    "google",
+    "chatgpt",
+    "other-ai"
+  ],
+  "viewpoint": "seller",
+  "theme": "measurement",
+  "source": "Ahrefs",
+  "date": "2026-02-26",
+  "title": "Ahrefs Brand RadarのAI可視性データ収集・モデル化手法",
+  "bullets": [
+    "AhrefsがAI可視性測定ツールの内部手法を公開",
+    "実際の検索に近いクエリ設計と意味的網羅性を両立",
+    "単発でなく同一条件での継続比較を重視する設計"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "url": "https://ahrefs.com/blog/wp-content/uploads/2025/10/ahrefs-brand-radar-methodology-how-we-by-rebekah-bek-product-blog.jpg"
+  }
+}

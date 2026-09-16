@@ -1,0 +1,24 @@
+{
+  "slug": "geoready-state-of-geo-august",
+  "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/geoready-state-of-geo-august.html",
+  "sourceUrl": "https://geoready.dev/state-of-geo/august-2026/",
+  "platforms": [
+    "google",
+    "chatgpt",
+    "other-ai"
+  ],
+  "viewpoint": "seller",
+  "theme": "visibility",
+  "source": "GeoReady",
+  "date": "2026-09-01",
+  "title": "GEOの現状：2026年8月",
+  "bullets": [
+    "282ドメインのAI検索対応度を8カテゴリーで評価したベンチマーク",
+    "構造化データの整備状況にドメイン間で大きな差があると判明",
+    "整備済みでもAI発見効率が伸びない構造的な課題を指摘"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "url": "https://geoready.dev/assets/og-image.png"
+  }
+}

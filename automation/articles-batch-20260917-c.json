@@ -1,0 +1,277 @@
+[
+  {
+    "slug": "semrush-ai-brand-visibility-report",
+    "title": "AIブランド可視性レポートの作り方",
+    "origTitle": "Create an AI Brand Visibility Report [+ Template]",
+    "sourceUrl": "https://www.semrush.com/blog/create-ai-seo-search-marketing-report/",
+    "source": "Semrush",
+    "date": "2026-09-02",
+    "dateDisplay": "2026年9月2日",
+    "platforms": ["google", "chatgpt", "other-ai"],
+    "viewpoint": "seller",
+    "theme": "measurement",
+    "background": "SemrushはAI検索上での露出状況を、事業成果（流入・リード・売上）と結びつけて経営層へ報告するためのレポート作成方法をテンプレート付きで公開した。AI検索の効果測定が「測って終わり」ではなく、報告・意思決定につなげる工程まで含めて整理されている点が実務的である。",
+    "bullets": [
+      "AI上の露出と、流入・リード・売上を一つのレポートへまとめる具体的な方法をテンプレート付きで解説している。",
+      "AI検索の事業への寄与は直接計測しづらいため、断定的な数値ではなく方向性を示す指標として扱うべきだとしている。",
+      "経営層向けには、露出・比較（競合との差）・事業成果の3点に絞って少数の指標で示すべきとしている。"
+    ],
+    "cardBullets": [
+      "AI検索の露出と事業成果を結ぶレポート作成法をテンプレ付きで解説",
+      "AI検索の効果は断定値でなく方向性を示す指標として扱う",
+      "経営報告は露出・競合比較・事業成果の3点に絞ると効果的"
+    ],
+    "meaning": "タグ付け改善の成果を、作業件数だけでなく「露出が増え、それが売上にどうつながったか」という形で報告できると、施策の説得力が変わる。数値化しにくいAI検索の効果を、無理に断定せず方向性として示す考え方は、社内報告の組み立て方として参考になる。",
+    "thumbnail": "https://static.semrush.com/blog/uploads/media/41/8a/418a783e792de1b2dd48a0b45d067cd6/6dcc1ec14a8b7be407fdfb2d176ae7dd/ai-brand-visibility-report.png"
+  },
+  {
+    "slug": "semrush-find-ai-visibility-gaps",
+    "title": "SemrushでAI可視性のギャップを見つける方法",
+    "origTitle": "How to find AI visibility gaps with Semrush",
+    "sourceUrl": "https://www.semrush.com/blog/find-ai-visibility-gaps-with-semrush/",
+    "source": "Semrush",
+    "date": "2026-07-27",
+    "dateDisplay": "2026年7月27日",
+    "platforms": ["google", "chatgpt", "other-ai"],
+    "viewpoint": "seller",
+    "theme": "measurement",
+    "background": "Semrushは、競合他社とのAI回答内での表示差をプロンプト単位で確認する方法を解説する記事を公開した。「AI検索で見つかっているのに売れない」という状態を、可視性のギャップという観点から特定するための具体的な手順を示している。",
+    "bullets": [
+      "競合とのAI回答内での表示差を、プロンプト（質問文）単位で確認する具体的な方法を紹介している。",
+      "レポート化することで、見つかりはするが売れない商品を特定する考え方を示している。",
+      "改善の優先順位を、この可視性ギャップの大きさから決める運用方法を提案している。"
+    ],
+    "cardBullets": [
+      "競合とのAI回答内の表示差をプロンプト単位で確認する方法",
+      "「見つかるが売れない」商品を可視性ギャップから特定",
+      "改善の優先順位を可視性ギャップの大きさから決める運用"
+    ],
+    "meaning": "商品群ごとに「属性不足で比較対象に含まれていない」という問題は、通常の売上データだけでは見えにくい。競合と比較しながらAI回答内での見え方を点検する視点を持つと、改善すべき商品を具体的に絞り込みやすくなる。",
+    "thumbnail": "https://static.semrush.com/blog/uploads/media/ab/31/ab310172cd2a0d07f7014f39cd64def0/690f968fe2ca30db1fbb178f195a42fe/ai-visibility-gaps.png"
+  },
+  {
+    "slug": "semrush-driving-ai-visibility",
+    "title": "SemrushがAI可視性を高める方法",
+    "origTitle": "How we're driving AI visibility at Semrush",
+    "sourceUrl": "https://www.semrush.com/blog/how-we-are-using-semrush-to-drive-llm-visibility/",
+    "source": "Semrush",
+    "date": "2026-05-29",
+    "dateDisplay": "2026年5月29日",
+    "platforms": ["google", "chatgpt", "other-ai"],
+    "viewpoint": "seller",
+    "theme": "measurement",
+    "background": "Semrushは自社の事例として、AI検索経由の影響をどのように測定・改善しているかを解説する記事を公開した。他社への提案ではなく自社の実践例であるため、測定運用の具体的な難しさと工夫が率直に語られている点が参考になる。",
+    "bullets": [
+      "AI由来の影響はクリック数・コンバージョン数だけでは切り出せないと説明している。",
+      "AI検索での言及・引用は日内でも変動するため、可視性は幅を持った数値として読む重要性を示している。",
+      "AI回答の確認、競合比較、通常のアクセス解析を組み合わせて運用している自社の実例を紹介している。"
+    ],
+    "cardBullets": [
+      "SemrushがAI可視性向上の自社運用事例を公開",
+      "AI由来の影響はクリック数だけで切り出せないと説明",
+      "AI回答確認・競合比較・通常分析を組み合わせる運用を紹介"
+    ],
+    "meaning": "AIタッガーの効果を「アクセスが増えたかどうか」だけで判断すると、過大評価や過小評価につながりやすい。日内変動も含めて幅のある数値として読み、複数の確認方法を組み合わせる考え方は、再現性のある測定設計を作るうえで参考になる。",
+    "thumbnail": "https://static.semrush.com/blog/uploads/media/36/43/3643b14016028793b152a91da02f9831/c78e56ee8f07407619e94c96e8b7d06b/ai-visibility-semrush.png"
+  },
+  {
+    "slug": "semrush-measure-ai-search-visibility",
+    "title": "AI検索可視性の測定・報告で本当に重要なこと",
+    "origTitle": "How to measure and report on AI search visibility (what actually matters)",
+    "sourceUrl": "https://www.semrush.com/blog/measure-ai-visibility/",
+    "source": "Semrush",
+    "date": "2026-05-20",
+    "dateDisplay": "2026年5月20日",
+    "platforms": ["google", "chatgpt", "other-ai"],
+    "viewpoint": "seller",
+    "theme": "measurement",
+    "background": "SemrushはAI検索可視性の測定・報告において「何を測るべきか」を整理した解説記事を公開した。表面的な露出回数だけでなく、事業指標まで含めた複数レイヤーの指標を報告する枠組みを提示している点が実務的である。",
+    "bullets": [
+      "言及数、引用数、引用されたページ、競合比、事業指標を分けて報告する枠組みを提示している。",
+      "AI回答を見て満足した利用者はクリックしないため、従来の流入数だけではAI検索の効果を測れないと説明している。",
+      "経営層向けには、現状・推移・競合比較・事業シグナルの4点を報告することを勧めている。"
+    ],
+    "cardBullets": [
+      "AI検索可視性測定で「本当に重要な指標」をSemrushが整理",
+      "AI回答で満足しクリックしない利用者がいるため流入数だけでは測れない",
+      "経営報告は現状・推移・競合比較・事業シグナルの4点を推奨"
+    ],
+    "meaning": "「改善したのにアクセスが増えない」という状況でも、それが失敗とは限らない。AI回答内で情報が完結してクリックに至らないケースもあるため、流入数以外に何を確認すべきかを事前に整理しておくと、施策の評価を誤らずに済む。",
+    "thumbnail": "https://static.semrush.com/blog/uploads/media/fd/c3/fdc3f974166b007e9dc351b7633120e7/df30dc036fff30c7be4910bc8216aa84/measure-ai-visibility.png"
+  },
+  {
+    "slug": "ahrefs-ai-visibility-audit",
+    "title": "AI検索可視性監査の方法",
+    "origTitle": "AI Search Visibility Audit: How to Measure Your Brand's Presence in AI Search",
+    "sourceUrl": "https://ahrefs.com/blog/ai-visibility-audit/",
+    "source": "Ahrefs",
+    "date": "2025-10-30",
+    "dateDisplay": "2025年10月30日",
+    "platforms": ["google", "chatgpt", "other-ai"],
+    "viewpoint": "seller",
+    "theme": "measurement",
+    "background": "AhrefsはAI検索上でのブランドの見え方を体系的に点検する監査手順を解説する記事を公開した。単なる表示回数の確認にとどまらず、AIがブランドをどう語っているかという内容面まで含めて点検する枠組みを提示している。",
+    "bullets": [
+      "AI回答内での言及数、引用数、表示推定、競合比を監査する具体的な手順を示している。",
+      "自社に関する表現の正確性や、ポジティブ・ネガティブといった評価のトーンも確認対象に含めるべきだとしている。",
+      "競合とのギャップから、優先的に改善すべきページを特定する方法を紹介している。"
+    ],
+    "cardBullets": [
+      "AI検索上のブランドの見え方を点検する監査手順をAhrefsが解説",
+      "表示回数だけでなく表現の正確性・評価のトーンも確認対象に",
+      "競合とのギャップから改善優先ページを特定する方法を紹介"
+    ],
+    "meaning": "商品情報がAIにどう要約・比較されているかは、単純な流入数の確認だけでは見えてこない。AIが自社商品をどんな言葉で語っているかまで踏み込んで点検することで、説明文の不正確さや誤解を招く表現に早く気づける。",
+    "thumbnail": "https://ahrefs.com/blog/wp-content/uploads/2025/10/ai-visibility-audit-how-to-measure-by-despina-gavoyannis-ai-search.jpg"
+  },
+  {
+    "slug": "ahrefs-brand-radar-methodology",
+    "title": "Ahrefs Brand RadarのAI可視性データ収集・モデル化手法",
+    "origTitle": "Ahrefs Brand Radar Methodology: How we collect and model AI visibility data",
+    "sourceUrl": "https://ahrefs.com/blog/brand-radar-methodology/",
+    "source": "Ahrefs",
+    "date": "2026-02-26",
+    "dateDisplay": "2026年2月26日",
+    "platforms": ["google", "chatgpt", "other-ai"],
+    "viewpoint": "seller",
+    "theme": "measurement",
+    "background": "Ahrefsは自社ツールBrand RadarがAI可視性データをどのように収集・モデル化しているか、その裏側の手法を公開した。測定ツールの利用方法だけでなく、測定そのものの設計思想を明かしている点が、自前で計測する際の参考になる。",
+    "bullets": [
+      "AI可視性を測る際に使うプロンプト（質問文）の集合とデータモデルの設計思想を公開している。",
+      "実際の検索行動に近い自然なクエリと、意味的な網羅性（幅広いパターンを含めること）を両立させる考え方を示している。",
+      "単発のプロンプト結果ではなく、同じ条件での継続比較を重視する測定設計を採用しているとしている。"
+    ],
+    "cardBullets": [
+      "AhrefsがAI可視性測定ツールの内部手法を公開",
+      "実際の検索に近いクエリ設計と意味的網羅性を両立",
+      "単発でなく同一条件での継続比較を重視する設計"
+    ],
+    "meaning": "AI検索での商品露出を自分で確認する際、毎回違う言葉で検索して結論を出してしまうと測定結果がぶれる。同じ条件のプロンプトを繰り返し使って継続比較するという設計思想は、社内で簡易的にAI可視性を確認する場合にも応用できる。",
+    "thumbnail": "https://ahrefs.com/blog/wp-content/uploads/2025/10/ahrefs-brand-radar-methodology-how-we-by-rebekah-bek-product-blog.jpg"
+  },
+  {
+    "slug": "ahrefs-custom-prompt-tracking",
+    "title": "AI検索可視性を測るプロンプトの選び方",
+    "origTitle": "How to Choose the Best Prompts to Monitor Your AI Search Visibility",
+    "sourceUrl": "https://ahrefs.com/blog/custom-prompt-tracking/",
+    "source": "Ahrefs",
+    "date": "2026-02-05",
+    "dateDisplay": "2026年2月5日",
+    "platforms": ["google", "chatgpt", "other-ai"],
+    "viewpoint": "seller",
+    "theme": "measurement",
+    "background": "Ahrefsは、AI検索の可視性を継続的に追跡するために、どのようなプロンプト（質問文）を選ぶべきかを解説する記事を公開した。従来のキーワード追跡とは異なる、AI検索時代の測定設計の考え方を具体的に示している。",
+    "bullets": [
+      "AI検索では会話文や条件付きの依頼が増えており、従来のキーワード単位の追跡だけでは実態を捉えきれないと説明している。",
+      "地域やプラットフォームごとに、重要な問い（プロンプト）を固定して継続的に計測する方法を提案している。",
+      "AI回答・引用は日々変動するため、日次・週次・月次といった継続的な観測が必要になるとしている。"
+    ],
+    "cardBullets": [
+      "AI検索を追跡するプロンプトの選び方をAhrefsが解説",
+      "会話文・条件付き依頼の増加で従来のキーワード追跡だけでは不足",
+      "地域・プラットフォームごとに固定した問いを継続計測"
+    ],
+    "meaning": "「用途＋属性＋予算」のように実際の購入検討に近い形の検索条件で、自社商品がAIにどう扱われるか確認する設計は、実務にそのまま応用できる。単語だけでなく条件を含む問いかけでの見え方を、定期的にチェックする習慣が有効になる。",
+    "thumbnail": "https://ahrefs.com/blog/wp-content/uploads/2026/02/how-to-choose-the-best-prompts-by-glen-allsopp-ai-search.jpg"
+  },
+  {
+    "slug": "viton13-state-of-ai-search",
+    "title": "AI検索の現状：発見・流入・コマース",
+    "origTitle": "State of AI Search: Discovery, Traffic and Commerce",
+    "sourceUrl": "https://viton13.com/research/05-state-of-ai-search",
+    "source": "VITON13 Research",
+    "date": "2026-08-13",
+    "dateDisplay": "2026年8月13日",
+    "platforms": ["google", "chatgpt", "other-ai"],
+    "viewpoint": "buyer",
+    "theme": "measurement",
+    "background": "調査機関VITON13は、AI検索が商品の発見・サイトへの流入・購買（コマース）に与える影響をまとめた2026年版の調査レポートを公開した。AI回答内での露出と、従来検索のクリックとを分けて扱うべきだという整理を、複数の測定指標とともに示している。",
+    "bullets": [
+      "AI検索が発見・流入・購買に与える影響を包括的にまとめた2026年の調査レポートである。",
+      "AI回答内での露出と、従来検索でのクリックは別の現象として扱うべきだとしている。",
+      "商品・ブランドの発見経路の変化を、単一の指標ではなく複数の測定指標で読む必要性を示している。"
+    ],
+    "cardBullets": [
+      "AI検索の発見・流入・購買への影響をまとめた2026年調査",
+      "AI回答内の露出と従来検索のクリックは別の現象と整理",
+      "発見経路の変化を複数の指標で読む必要性を提示"
+    ],
+    "meaning": "AI検索対策の目的を「検索流入を増やすこと」だけに限定すると、AI回答内で完結する発見・比較の効果を見落とす。施策の目的を発見・比較・購買という一連の流れ全体で設計する視点が必要になる。",
+    "thumbnail": "https://viton13.com/images/journal/generated/vjournal-ai-library-2026.png"
+  },
+  {
+    "slug": "contentful-agentic-commerce-guide",
+    "title": "AIが人の代わりに買い物をする時代：エージェント型コマースに事業者が必要な準備",
+    "origTitle": "AI is now shopping for people: What your business needs for agentic commerce",
+    "sourceUrl": "https://www.contentful.com/blog/agentic-commerce/",
+    "source": "Contentful",
+    "date": "2026-09-10",
+    "dateDisplay": "2026年9月10日",
+    "platforms": ["google", "chatgpt", "other-ai"],
+    "viewpoint": "seller",
+    "theme": "measurement",
+    "background": "コンテンツ管理プラットフォームのContentfulは、購買者が商品検索・比較・購入をAIエージェントへ委任する「agentic commerce」の仕組みと、それが事業者に与える影響を整理した解説記事を公開した。技術規格の観点から、商品データをどう管理すべきかを具体的に示している点が特徴である。",
+    "bullets": [
+      "購買者が商品検索・比較・購入をAIエージェントへ委任する仕組みと、事業者側が受ける影響を整理している。",
+      "AIに商品を発見・比較してもらうには、構造化され機械可読な商品データを用意し、MCP・UCP・ACPなどの接続規格に対応する必要があると解説している。",
+      "商品情報をAPIで一元管理しておくことで、特定の販売チャネルやAIプラットフォームに縛られず、ブランド情報の統制を保てるとしている。"
+    ],
+    "cardBullets": [
+      "AIが買い物を代行する「agentic commerce」の事業者側準備を解説",
+      "MCP・UCP・ACPなど接続規格への対応が商品データに必要",
+      "商品情報のAPI一元管理でチャネルを問わず統制を維持できる"
+    ],
+    "meaning": "タグ・属性を含む商品データを一貫した形で管理しておくほど、今後AIチャネルが増えても、商品の説明や絞り込み条件を崩さずに複数の窓口へ届けられる。属性整備を単一モール向けの作業ではなく、将来の複数チャネル展開を見据えた資産として捉える視点が持てる。",
+    "thumbnail": "https://images-www.contentful.com/fo9twyrwpveg/63TyVmCjd2qDeHsDm8FOUQ/57ca870abc4dd9cee8ffddca51657aae/agentic-commerce-header.png"
+  },
+  {
+    "slug": "iab-measuring-visibility-ai-era",
+    "title": "IAB、「AI時代の可視性計測」を公開――AIによる発見を計測するための指針",
+    "origTitle": "IAB Releases \"Measuring Visibility in the AI Era\" to Help Brands, Publishers, and Agencies Navigate AI-Powered Discovery",
+    "sourceUrl": "https://www.iab.com/?p=210495",
+    "source": "IAB（Interactive Advertising Bureau）",
+    "date": "2026-08-03",
+    "dateDisplay": "2026年8月3日",
+    "platforms": ["google", "chatgpt", "other-ai"],
+    "viewpoint": "seller",
+    "theme": "measurement",
+    "background": "広告業界団体IABは、AIプラットフォーム上でのブランド・商品・コンテンツの見え方を測るための業界横断ガイド「Measuring Visibility in the AI Era」を公表した。特定ベンダーの視点ではなく業界団体として、乱立する測定手法をどう評価すべきかを整理した点が特徴である。",
+    "bullets": [
+      "AIプラットフォーム上のブランド・商品・コンテンツの見え方を測るための業界ガイドを公表した。",
+      "AI可視性を測るツールはすでに20社超が提供しており、同一ブランドでも手法によって結果が変わるため、比較・評価の共通の考え方が必要だと指摘している。",
+      "指標をPresence（出現）、Prominence（目立ち方）、Portrayal（語られ方）、Persuasion（行動を促す力）の4つの観点（4P）で捉え、単純な掲載回数だけで判断しない枠組みを提示している。"
+    ],
+    "cardBullets": [
+      "業界団体IABがAI可視性計測の統一指針「4P」を公表",
+      "AI可視性ツールは20社超あり同一ブランドでも結果が変わる",
+      "出現・目立ち方・語られ方・行動喚起力の4指標で評価"
+    ],
+    "meaning": "AI検索対策の効果を測る際は「何回出たか」という回数だけでなく、商品がどんな文脈で比較・推薦され、購買行動につながる形で語られているかまで分けて検証すべきだという指摘は重要である。単純な表示回数の増減だけで施策の成否を判断しない視点を持てる。",
+    "thumbnail": "https://www.iab.com/wp-content/uploads/2026/07/business-outcomes-are-just-the-beginning-according-to-iab-digital-video-ad-spend-strategy-full-report-2.png"
+  },
+  {
+    "slug": "arxiv-dont-measure-once-geo",
+    "title": "一度だけ測らない：AI検索（GEO）における可視性の計測",
+    "origTitle": "Don't Measure Once: Measuring Visibility in AI Search (GEO)",
+    "sourceUrl": "https://arxiv.org/abs/2604.07585",
+    "source": "Julius Schulte, Malte Bleeker, Philipp Kaufmann（arXiv）",
+    "date": "2026-04-08",
+    "dateDisplay": "2026年4月8日",
+    "platforms": ["google", "chatgpt", "other-ai"],
+    "viewpoint": "seller",
+    "theme": "measurement",
+    "background": "研究者らは、LLMベースのAI検索における可視性測定の再現性の問題を扱う学術論文を発表した。同じ質問を投げても回答が毎回変わるというAI検索特有の性質が、可視性の測定方法そのものにどう影響するかを実証的に論じている。",
+    "bullets": [
+      "LLMベースのAI検索は同一の問いでも実行回・プロンプト・時点によって回答が変わり、従来の検索順位のように一回の観測で代表値を得ることは難しいと論じている。",
+      "実証研究に基づき、ブランドのAI検索上の可視性は単一の数値ではなく、繰り返し測定した結果の分布として評価する必要があると提案している。",
+      "AI検索対策の効果を判定する際は、特定の回答画面の有無だけで結論を出さず、同一条件で継続的に比較する測定設計が必要になるとしている。"
+    ],
+    "cardBullets": [
+      "AI検索の可視性測定における再現性の課題を扱う学術論文",
+      "同じ質問でも回答が毎回変わり一回の観測では代表値になりにくい",
+      "可視性は単一の数値でなく繰り返し測定した分布で評価すべき"
+    ],
+    "meaning": "AI検索での商品露出をKPI化する場合、単発の表示確認だけで一喜一憂しないことが重要になる。同じ商品群・質問群を反復して測定し、変動と実際の改善とを分けて判断する基準を持つことで、施策の効果をより正確に把握できる。",
+    "thumbnail": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+  }
+]

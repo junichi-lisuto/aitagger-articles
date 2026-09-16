@@ -1,0 +1,24 @@
+{
+  "slug": "ahrefs-custom-prompt-tracking",
+  "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/ahrefs-custom-prompt-tracking.html",
+  "sourceUrl": "https://ahrefs.com/blog/custom-prompt-tracking/",
+  "platforms": [
+    "google",
+    "chatgpt",
+    "other-ai"
+  ],
+  "viewpoint": "seller",
+  "theme": "measurement",
+  "source": "Ahrefs",
+  "date": "2026-02-05",
+  "title": "AI検索可視性を測るプロンプトの選び方",
+  "bullets": [
+    "AI検索を追跡するプロンプトの選び方をAhrefsが解説",
+    "会話文・条件付き依頼の増加で従来のキーワード追跡だけでは不足",
+    "地域・プラットフォームごとに固定した問いを継続計測"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "url": "https://ahrefs.com/blog/wp-content/uploads/2026/02/how-to-choose-the-best-prompts-by-glen-allsopp-ai-search.jpg"
+  }
+}

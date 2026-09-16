@@ -1,0 +1,24 @@
+{
+  "slug": "shopify-agentic-commerce-momentum",
+  "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/shopify-agentic-commerce-momentum.html",
+  "sourceUrl": "https://www.shopify.com/news/agentic-commerce-momentum",
+  "platforms": [
+    "google",
+    "chatgpt",
+    "other-ai"
+  ],
+  "viewpoint": "buyer",
+  "theme": "visibility",
+  "source": "Shopify",
+  "date": "2026-03-24",
+  "title": "数百万の事業者がAIチャットで販売可能に",
+  "bullets": [
+    "数百万のShopify加盟店がAIチャットで販売可能になったと発表",
+    "ChatGPT・Copilot・Google AI Modeへ価格・在庫を同期",
+    "AIチャットが実験段階から実運用の販売チャネルへ移行"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "url": "https://cdn.shopify.com/b/shopify-brochure2-assets/7abe93d1728ab3bc76fe356cf4985803.png"
+  }
+}

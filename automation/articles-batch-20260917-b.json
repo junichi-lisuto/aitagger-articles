@@ -1,0 +1,251 @@
+[
+  {
+    "slug": "google-optimizing-generative-ai-resource",
+    "title": "Google検索の生成AI機能に最適化する新リソース",
+    "origTitle": "A new resource for optimizing for generative AI in Google Search",
+    "sourceUrl": "https://developers.google.com/search/blog/2026/05/a-new-resource-for-optimizing",
+    "source": "Google Search Central",
+    "date": "2026-05-15",
+    "dateDisplay": "2026年5月15日",
+    "platforms": ["google"],
+    "viewpoint": "seller",
+    "theme": "optimization",
+    "background": "GoogleはAI Overviews・AI ModeなどSearch内の生成AI機能が拡大する中、サイト運営者向けに「生成AI検索への最適化」をテーマにした公式ガイドを新たに公開した。GEOという新しい概念を独立した技術として扱うのではなく、既存のSEO原則の延長として位置づけている点が特徴である。",
+    "bullets": [
+      "Googleが生成AI検索向けの最適化ガイドを新たに公開し、独自性・価値・ローカル情報・商品情報・画像・動画情報の重要性を明記した。",
+      "小手先のGEOテクニックではなく、既存のSEOで重視されてきた品質原則（独自性、専門性、信頼性）が生成AI検索でも基盤になると説明している。",
+      "商品ページについては、価格・在庫・レビューなど購入判断に直結する情報を正確かつ最新に保つことの重要性を強調している。"
+    ],
+    "cardBullets": [
+      "Google公式が生成AI検索向け最適化ガイドを新規公開",
+      "GEOは目新しい技術ではなく既存SEOの品質原則が基盤",
+      "商品ページは価格・在庫・レビューの正確性が重要と明記"
+    ],
+    "meaning": "「GEO対策」と聞くと新しいノウハウを覚える必要があるように感じるが、Google自身は既存のSEO品質原則の延長だと説明している。商品タグ付け・説明文の改善を、GEOという新語に振り回されず、従来からの「正確で具体的な情報を整える」作業の延長として優先順位をつけられる。",
+    "thumbnail": "https://developers.google.com/static/search/blog/images/social-share-blog.png"
+  },
+  {
+    "slug": "shopify-agentic-storefronts-winter26",
+    "title": "Shopify Agentic Storefrontsの紹介",
+    "origTitle": "Introducing Shopify Agentic Storefronts: Sell your products everywhere AI conversations happen",
+    "sourceUrl": "https://www.shopify.com/news/winter-26-edition-agentic-storefronts",
+    "source": "Shopify",
+    "date": "2025-12-10",
+    "dateDisplay": "2025年12月10日",
+    "platforms": ["google", "chatgpt", "other-ai"],
+    "viewpoint": "seller",
+    "theme": "optimization",
+    "background": "Shopifyは、加盟店の商品情報をAIチャット上での会話に正確に伝えるための新機能「Agentic Storefronts」を発表した。商品属性・FAQ・ブランド情報をAI向けに一度整備すれば複数のAI販売面へ展開できる、という設計思想を明確に打ち出した発表である。",
+    "bullets": [
+      "商品属性、metafield（追加属性情報）、FAQ、ブランド情報をAIへ正確に伝えるための設計を発表した。",
+      "商品データを一度整備し、複数のAI販売面（ChatGPT、Google AI Mode等）へ同時に配信する思想を示している。",
+      "在庫・価格のリアルタイム同期も、AIが商品を正しく提示するために必要な要素として位置づけている。"
+    ],
+    "cardBullets": [
+      "ShopifyがAIチャット向け新機能「Agentic Storefronts」を発表",
+      "商品属性・FAQ・ブランド情報を一度整備し複数AI面へ配信",
+      "在庫・価格のリアルタイム同期もAI表示の前提条件に"
+    ],
+    "meaning": "「AIタッガーで整えたタグを、どのAI販売面に対しても使い回せる」という発想が、海外の大手プラットフォームではすでに具体的な機能として実装され始めている。属性整備を一度きりの作業ではなく、複数チャネルへ展開できる資産として捉える視点が参考になる。",
+    "thumbnail": "https://cdn.shopify.com/b/shopify-brochure2-assets/c9a90f5ee90b7ebd9ad5b10a703b751c.jpg"
+  },
+  {
+    "slug": "shopify-agentic-commerce-spring26-dev",
+    "title": "すべての開発者のためのエージェント型コマース",
+    "origTitle": "Agentic commerce for every developer: The Spring '26 Edition",
+    "sourceUrl": "https://www.shopify.com/news/spring-26-edition-dev",
+    "source": "Shopify",
+    "date": "2026-06-17",
+    "dateDisplay": "2026年6月17日",
+    "platforms": ["google", "chatgpt", "other-ai"],
+    "viewpoint": "seller",
+    "theme": "optimization",
+    "background": "Shopifyは開発者向けに、商品情報をAIエージェントへ供給するための技術基盤「Catalog API」の詳細を解説する記事を公開した。単なる機能紹介ではなく、AIがどのような属性を読み取って商品を理解しているかを技術的に説明している点が実務上参考になる。",
+    "bullets": [
+      "Catalog APIが商品を構造化・検索可能なデータとしてAIへ供給する仕組みを技術的に解説している。",
+      "サイズ、色、配送見込みなど豊富な属性情報が、AIによる商品理解を助ける要素になるとしている。",
+      "テキストだけでなく画像を組み合わせたマルチモーダル検索にも対応する設計になっている。"
+    ],
+    "cardBullets": [
+      "ShopifyがAI向け商品データ供給API「Catalog API」を解説",
+      "サイズ・色・配送見込みなど豊富な属性がAI理解を助ける",
+      "テキストと画像を組み合わせたマルチモーダル検索にも対応"
+    ],
+    "meaning": "AIが商品を理解する際に重視するのは、キャッチーな謳い文句よりもサイズ・色・素材といった具体的な属性情報である。タグ付けの精度を上げる作業は、AI検索時代における「商品データのAPI化」に近い意味を持ち始めている。",
+    "thumbnail": "https://cdn.shopify.com/b/shopify-brochure2-assets/577af986f53e31419450fc1f1bdfd76d.jpg"
+  },
+  {
+    "slug": "shopify-spring26-merchant-edition",
+    "title": "Spring '26 Edition：すべての販売面を一元化",
+    "origTitle": "Selling everything, everywhere, all at once: The Spring '26 Edition",
+    "sourceUrl": "https://www.shopify.com/news/spring-26-edition-merchant",
+    "source": "Shopify",
+    "date": "2026-06-17",
+    "dateDisplay": "2026年6月17日",
+    "platforms": ["google", "chatgpt", "other-ai"],
+    "viewpoint": "seller",
+    "theme": "optimization",
+    "background": "Shopifyは加盟店向けに、AI経由で見つかっても購入に至らない商品の改善方法と、複数のAI販売面を一元管理する運用方法を解説する記事を公開した。AI対応を「導入して終わり」ではなく、継続的に成果を見ながら改善する運用フェーズとして扱っている点が特徴である。",
+    "bullets": [
+      "AIで見つかっても転換（購入）しない商品について、仕様・説明・欠損情報を継続的に改善する運用方法を示している。",
+      "AI経由の露出・注文・売上をひとつの画面で一元管理する設計を紹介している。",
+      "商品データの改善作業と、その効果測定（露出・転換データの確認）を同じ運用サイクルに組み込む重要性を説明している。"
+    ],
+    "cardBullets": [
+      "AI経由で見つかっても売れない商品の改善運用をShopifyが解説",
+      "AI経由の露出・注文・売上を一元管理する仕組みを紹介",
+      "商品改善と効果測定を同じ運用サイクルに組み込む重要性"
+    ],
+    "meaning": "商品情報の整備は「一度作って終わり」ではなく、露出はしても転換していない商品を見つけて改善し続ける運用が前提になりつつある。タグ付けの成果を、作業件数ではなく実際の露出・転換データで確認する体制づくりのヒントになる。",
+    "thumbnail": "https://cdn.shopify.com/b/shopify-brochure2-assets/de7b8f16733aa247266ecc1b5596d974.jpg"
+  },
+  {
+    "slug": "semrush-rank-in-ai-search-playbook",
+    "title": "AI検索で表示されるための6か月プレイブック",
+    "origTitle": "How to rank in AI search (6-month playbook)",
+    "sourceUrl": "https://www.semrush.com/blog/how-to-rank-in-ai-search/",
+    "source": "Semrush",
+    "date": "2026-05-11",
+    "dateDisplay": "2026年5月11日",
+    "platforms": ["google", "chatgpt", "other-ai"],
+    "viewpoint": "seller",
+    "theme": "optimization",
+    "background": "SemrushはAI検索での露出を高める取り組みを、単発の施策ではなく6か月単位の継続的な運用計画として整理したガイドを公開した。AI検索対策を「一度整えれば終わり」ではなく、検証可能な運用サイクルとして設計する視点を提供している。",
+    "bullets": [
+      "AI検索での露出向上を、コンテンツ・技術・権威性・計測の4領域にまたがる継続施策として整理している。",
+      "施策を短期的な順位操作ではなく、6か月単位で検証可能な運用計画として設計することを勧めている。",
+      "AI検索プラットフォームごとに評価基準が異なる前提で、複数プラットフォームを継続的に追跡する必要性を説明している。"
+    ],
+    "cardBullets": [
+      "AI検索での露出向上を6か月の運用計画として解説",
+      "コンテンツ・技術・権威性・計測の4領域を継続的に施策化",
+      "プラットフォームごとの評価差を前提に複数面を追跡"
+    ],
+    "meaning": "商品情報の改善は単発の登録作業で完結せず、定期的に見直して検証するサイクルが必要だという考え方は、タグ付け業務にもそのまま当てはまる。一度整えたタグを放置せず、露出状況を継続的に確認しながら更新する運用設計の参考になる。",
+    "thumbnail": "https://static.semrush.com/blog/uploads/media/d8/2d/d82d75b1e50e9c8ff4eea7c89036c001/ee54ce520a9df6e860a89d1f5f561be9/how-to-rank-in-ai-search.png"
+  },
+  {
+    "slug": "semrush-ai-visibility-2026",
+    "title": "AI可視性とは何か、2026年に高める方法",
+    "origTitle": "AI visibility: What it is and how to grow yours in 2026",
+    "sourceUrl": "https://www.semrush.com/blog/ai-visibility/",
+    "source": "Semrush",
+    "date": "2026-03-27",
+    "dateDisplay": "2026年3月27日",
+    "platforms": ["google", "chatgpt", "other-ai"],
+    "viewpoint": "seller",
+    "theme": "optimization",
+    "background": "Semrushは「AI可視性」という概念を、従来の検索順位とは異なる指標として整理し、その定義と高め方をまとめた解説記事を公開した。従来検索で上位表示されていてもAI回答には出ない、というギャップを具体的に説明している点が実務上参考になる。",
+    "bullets": [
+      "AI可視性を、AI回答内での言及・引用・推薦の頻度として定義している。",
+      "従来の検索エンジンで上位表示されていても、AI回答には出ない場合があることを具体例とともに説明している。",
+      "複数のAI面（ChatGPT、Google AI Mode等）で、ブランドと商品情報の表現がどう扱われているか確認する必要があるとしている。"
+    ],
+    "cardBullets": [
+      "「AI可視性」の定義と2026年の高め方をSemrushが解説",
+      "検索順位が高くてもAI回答に出ないギャップを具体例で説明",
+      "複数のAI面でブランド・商品の扱われ方を確認する必要性"
+    ],
+    "meaning": "検索順位というひとつの指標だけを見ていると、AI回答内での非表示に気づけない。商品ページの検索順位をKPIにしている場合、AI検索経由での露出状況も別途確認する視点を加える必要がある。",
+    "thumbnail": "https://static.semrush.com/blog/uploads/media/4c/63/4c63a3a7247ded2e64be3c7d5a99c28a/8e673f722caa0e283ab442b204c73a3d/ai-visibility.png"
+  },
+  {
+    "slug": "shopify-ai-regulation-entrepreneurs",
+    "title": "AIが事業者にもたらす機会と規制",
+    "origTitle": "AI unlocks future-proof entrepreneurs. Bad regulation crushes them.",
+    "sourceUrl": "https://www.shopify.com/news/ai-regulation",
+    "source": "Shopify",
+    "date": "2026-06-01",
+    "dateDisplay": "2026年6月1日",
+    "platforms": ["google", "chatgpt", "other-ai"],
+    "viewpoint": "seller",
+    "theme": "optimization",
+    "background": "Shopifyは規制動向への提言と合わせて、AI検索経由の注文・転換率・客単価に関する自社観測データを公表した。政策提言記事ではあるが、AIチャネル経由の購買が実際にどの程度の規模になっているかを示す一次データが含まれている点で参考価値が高い。",
+    "bullets": [
+      "AI検索経由の注文数・転換率・客単価について、Shopify自社の観測データを公表した。",
+      "AIチャネルを、既存の検索・SNS広告に次ぐ新たな顧客接点として位置づけている。",
+      "商品データをAIが扱いやすい形式に整えることの重要性を、規制環境の議論の中でも裏付けている。"
+    ],
+    "cardBullets": [
+      "ShopifyがAI検索経由の注文・転換率・客単価データを公表",
+      "AIチャネルを新たな顧客接点として位置づけ",
+      "商品データのAI対応整備の重要性を自社データで裏付け"
+    ],
+    "meaning": "AI検索対応は「将来のための準備」ではなく、すでに注文・売上として計測可能な規模になりつつある。抽象的な議論としてではなく、実際の販売実績に関わる変化として社内で共有する材料になる。",
+    "thumbnail": "https://cdn.shopify.com/b/shopify-brochure2-assets/f3493fc50a2fff12b79e5e5154350f9b.png"
+  },
+  {
+    "slug": "lycorp-ai-omemo-yahoo-shopping",
+    "title": "「AIお買い物メモ」をYahoo!ショッピングに搭載",
+    "sourceUrl": "https://www.lycorp.co.jp/ja/news/release/020538/",
+    "source": "LINEヤフー",
+    "date": "2026-06-23",
+    "dateDisplay": "2026年6月23日",
+    "platforms": ["yahoo"],
+    "viewpoint": "seller",
+    "theme": "optimization",
+    "background": "LINEヤフーは、写真・テキスト・会話を入力に関連商品と比較検討を支援する新機能「AIお買い物メモ」をYahoo!ショッピングに搭載したと発表した。出店者から見ると、Yahoo!ショッピング内でAIが商品をどう解釈し提案に使うかが具体的に示された発表である。",
+    "bullets": [
+      "写真・テキスト・会話を入力として、関連商品と比較検討を支援する「AIお買い物メモ」をYahoo!ショッピングに搭載した。",
+      "購入意図を単語ではなく、用途・季節・嗜好を含む形で扱う設計になっている。",
+      "その意図に対応できる属性・説明文の充実度が、商品提案の精度を左右するとしている。"
+    ],
+    "cardBullets": [
+      "Yahoo!ショッピングに新機能「AIお買い物メモ」を搭載",
+      "写真・会話を含む入力から関連商品を比較提案する仕組み",
+      "属性・説明文の充実度が提案精度を左右すると説明"
+    ],
+    "meaning": "Yahoo!ショッピング出店者にとって、この機能は「AIがどんな情報をもとに自社商品を薦めるか」が具体的に示された数少ない事例である。用途・季節・嗜好といった文脈情報をどれだけ属性として持たせられているかが、提案候補に入るかどうかを左右する。",
+    "thumbnail": "https://www.lycorp.co.jp/ja/news/2026/5a335d18967431d98c72c9339bcd13834ed72d64.png"
+  },
+  {
+    "slug": "anthropic-claude-commerce-agents",
+    "title": "Claudeでコマースエージェントを構築する",
+    "origTitle": "Building Commerce Agents with Claude",
+    "sourceUrl": "https://claude.com/blog/claude-for-commerce-agents",
+    "source": "Anthropic",
+    "date": "2026-09-02",
+    "dateDisplay": "2026年9月2日",
+    "platforms": ["other-ai"],
+    "viewpoint": "seller",
+    "theme": "optimization",
+    "background": "Anthropicは、小売・旅行・通信・チケット販売向けに、購買者向け・加盟店向けのコマースエージェント実装例を含む開発用ブループリントを公開した。AIチャット単体の機能紹介ではなく、実際に商品カタログやカート、決済と連携する実装レベルの情報を示している点が特徴である。",
+    "bullets": [
+      "購買者向けエージェントは自然言語での商品検索・比較・購入を扱い、商品カタログ、カート、決済、注文履歴との連携を前提にしている。",
+      "加盟店向けエージェントの実装例も含む開発用ブループリントとして、小売・旅行・通信・チケット販売の各分野向けに公開されている。",
+      "導入企業ではカート金額の拡大と購入完了率の向上が報告されており、会話型の商品発見が実装段階に移っていることを示している。"
+    ],
+    "cardBullets": [
+      "AnthropicがClaudeを使うコマースエージェント実装例を公開",
+      "商品カタログ・カート・決済と連携する開発用ブループリント",
+      "導入企業でカート金額拡大・購入完了率向上が報告される"
+    ],
+    "meaning": "AIチャットで商品を探して比較する導線が、実際の実装例として公開される段階に入っている。こうした導線では、カタログの属性情報が機械可読な形で提供されているかどうかが、AIの推薦候補に入るための前提条件になっていく。",
+    "thumbnail": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a95f44f1757be75a0616bd0_demo-retail.webp"
+  },
+  {
+    "slug": "shopify-how-agentic-commerce-works",
+    "title": "Shopifyにおけるエージェント型コマースの仕組み",
+    "origTitle": "Agentic Commerce on Shopify: How It Works",
+    "sourceUrl": "https://www.shopify.com/blog/how-agentic-commerce-works",
+    "source": "Shopify",
+    "date": "2026-06-18",
+    "dateDisplay": "2026年6月18日",
+    "platforms": ["google", "chatgpt", "other-ai"],
+    "viewpoint": "seller",
+    "theme": "optimization",
+    "background": "ShopifyはAI経由の流入・注文が実際にどの程度伸びているかを示す自社データとともに、エージェント型コマースの仕組みを解説する記事を公開した。抽象的な将来予測ではなく、実測値を伴って商品データ整備の重要性を説明している点が特徴である。",
+    "bullets": [
+      "AI経由の流入が2026年第1四半期に前年同期比8倍、AI検索経由の注文が約13倍になったとし、ChatGPT、Google AI Mode、Copilotへの販売導線を説明している。",
+      "AIエージェントは商品名、説明、画像、価格、在庫、配送情報などの構造化データを読み取り、推薦する商品を判断するため、情報の完全性が露出を左右するとしている。",
+      "商品ページの構造化データとrobots.txtのAIエージェントからの読取可否を診断する無償監査ツールも案内している。"
+    ],
+    "cardBullets": [
+      "AI経由の注文が前年比約13倍になった実測データを公表",
+      "商品名・画像・在庫など構造化データの完全性が露出を左右",
+      "AIエージェントからの読取可否を診断する無償ツールも提供"
+    ],
+    "meaning": "商品名・属性・画像・在庫の欠損を埋める作業は、従来の検索対策としてだけでなく、AIの推薦候補になるための実務に直結している。約13倍という実測値は、この対応を後回しにできない理由として社内で共有しやすい根拠になる。",
+    "thumbnail": "https://cdn.shopify.com/b/shopify-brochure2-assets/32d52b11641e85a0270fb216676527c7.jpg"
+  }
+]

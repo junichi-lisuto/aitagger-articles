@@ -1,0 +1,22 @@
+{
+  "slug": "amazon-ai-shopping-tools-prime-deals",
+  "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/amazon-ai-shopping-tools-prime-deals.html",
+  "sourceUrl": "https://www.aboutamazon.com/news/retail/amazon-ai-shopping-tools",
+  "platforms": [
+    "amazon"
+  ],
+  "viewpoint": "buyer",
+  "theme": "visibility",
+  "source": "Amazon",
+  "date": "2026-09-15",
+  "title": "Prime Big Deal Daysで役立つAmazonのAI機能8選",
+  "bullets": [
+    "AlexaやAI画像検索などAmazonのAI購買支援機能8種を一挙紹介",
+    "条件指定・価格通知・画像検索など発見経路が多様化している",
+    "商品の属性・画像・価格の精度がAI機能全体の前提になる"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "url": "https://assets.aboutamazon.com/dims4/default/c3f6372/2147483647/strip/true/crop/2000x1000+0+63/resize/1200x600!/quality/90/?url=https%3A%2F%2Fassets.aboutamazon.com%2Ff9%2Fef%2Ffad034834cca9068ed710175c4f7%2F2026-pr-afs-header-evergreen-2000x1125.jpg"
+  }
+}

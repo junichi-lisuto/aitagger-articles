@@ -1,0 +1,24 @@
+{
+  "slug": "shopify-how-agentic-commerce-works",
+  "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/shopify-how-agentic-commerce-works.html",
+  "sourceUrl": "https://www.shopify.com/blog/how-agentic-commerce-works",
+  "platforms": [
+    "google",
+    "chatgpt",
+    "other-ai"
+  ],
+  "viewpoint": "seller",
+  "theme": "optimization",
+  "source": "Shopify",
+  "date": "2026-06-18",
+  "title": "Shopifyにおけるエージェント型コマースの仕組み",
+  "bullets": [
+    "AI経由の注文が前年比約13倍になった実測データを公表",
+    "商品名・画像・在庫など構造化データの完全性が露出を左右",
+    "AIエージェントからの読取可否を診断する無償ツールも提供"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "url": "https://cdn.shopify.com/b/shopify-brochure2-assets/32d52b11641e85a0270fb216676527c7.jpg"
+  }
+}

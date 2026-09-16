@@ -1,0 +1,251 @@
+[
+  {
+    "slug": "amazon-ai-shopping-tools-prime-deals",
+    "title": "Prime Big Deal Daysで役立つAmazonのAI機能8選",
+    "origTitle": "8 Amazon AI features to help you find the best deals this Prime Big Deal Days",
+    "sourceUrl": "https://www.aboutamazon.com/news/retail/amazon-ai-shopping-tools",
+    "source": "Amazon",
+    "date": "2026-09-15",
+    "dateDisplay": "2026年9月15日",
+    "platforms": ["amazon"],
+    "viewpoint": "buyer",
+    "theme": "visibility",
+    "background": "AmazonはPrime Big Deal Daysを控え、購入者がセール期間中に最適な商品・価格を見つけられるよう、Alexa for Shoppingや画像検索など既存のAI機能をまとめて紹介する記事を公開した。単発の新機能発表ではなく、AIによる商品発見がすでに購買行動の複数の場面に組み込まれていることを示す内容になっている。",
+    "bullets": [
+      "対話形式で商品を提案するAlexa for Shopping、価格履歴の確認、画像からの類似商品検索、音声要約などAI機能8種を紹介している。",
+      "購入者は条件指定・価格通知・画像からの探索など、キーワード入力以外の方法で商品にたどり着けるようになっている。",
+      "商品の属性・画像・価格情報が、これらAI機能すべての判断材料として共通して使われている。"
+    ],
+    "cardBullets": [
+      "AlexaやAI画像検索などAmazonのAI購買支援機能8種を一挙紹介",
+      "条件指定・価格通知・画像検索など発見経路が多様化している",
+      "商品の属性・画像・価格の精度がAI機能全体の前提になる"
+    ],
+    "meaning": "セール時期に限らず、購入者がキーワードを打たずに商品へたどり着く経路が増えている。商品名や説明文だけでなく、画像や価格情報までAIが参照する材料になっているため、タグ付けを「検索に引っかかるための作業」ではなく「複数のAI機能が共通して読み取るデータ整備」として捉える必要がある。",
+    "thumbnail": "https://assets.aboutamazon.com/dims4/default/c3f6372/2147483647/strip/true/crop/2000x1000+0+63/resize/1200x600!/quality/90/?url=https%3A%2F%2Fassets.aboutamazon.com%2Ff9%2Fef%2Ffad034834cca9068ed710175c4f7%2F2026-pr-afs-header-evergreen-2000x1125.jpg"
+  },
+  {
+    "slug": "meltwater-ai-search-visibility-august",
+    "title": "AI検索可視性レポート：LinkedInが上位3位に",
+    "origTitle": "AI Search Visibility Report for August 2026: LinkedIn enters the top three",
+    "sourceUrl": "https://www.meltwater.com/en/blog/ai-search-visibility-report-august-2026",
+    "source": "Meltwater",
+    "date": "2026-09-11",
+    "dateDisplay": "2026年9月11日",
+    "platforms": ["google", "chatgpt", "other-ai"],
+    "viewpoint": "buyer",
+    "theme": "visibility",
+    "background": "Meltwaterは、複数のAI検索プラットフォームでどのサイトが引用されているかを継続的に集計する月次レポートを公開している。2026年8月版では、8つのAIプラットフォーム・約730万件の引用データを分析し、モデルごとに引用元の傾向が大きく異なる実態を示した。",
+    "bullets": [
+      "8つのAIプラットフォーム、約730万件の引用を分析した月次レポートで、LinkedInが引用元ランキングの上位3位に入った。",
+      "モデルごとに引用する情報源の構成が大きく異なり、単一のAIだけを見て「露出が高い／低い」と判断できないことを示している。",
+      "露出の確認は単一AI・単一指標ではなく、引用元とAIモデル別に分けて継続的に見る必要があるとしている。"
+    ],
+    "cardBullets": [
+      "8AI・約730万件の引用を分析した月次AI検索可視性レポート",
+      "LinkedInが引用元ランキング上位3位に浮上",
+      "AIモデルごとに引用元の傾向が大きく異なる実態が判明"
+    ],
+    "meaning": "「AI検索に強い」と一括りにできず、ChatGPTで見えてもGoogle AI Modeでは見えない、という差が実際に起きている。自社の露出確認をひとつのAIツールの結果だけで判断せず、複数のAI面を横断してチェックする発想が必要になる。",
+    "thumbnail": "https://images.prismic.io/meltwater-refresh/NOnkwxSblTRJzpNs_AugustAISearchVisibilityMETA.png?auto=format,compress&rect=0,53,1672,836&w=1200&h=600"
+  },
+  {
+    "slug": "geoready-state-of-geo-august",
+    "title": "GEOの現状：2026年8月",
+    "origTitle": "State of GEO: August 2026",
+    "sourceUrl": "https://geoready.dev/state-of-geo/august-2026/",
+    "source": "GeoReady",
+    "date": "2026-09-01",
+    "dateDisplay": "2026年9月1日",
+    "platforms": ["google", "chatgpt", "other-ai"],
+    "viewpoint": "seller",
+    "theme": "visibility",
+    "background": "GEO（Generative Engine Optimization）対策の専門サイトGeoReadyが、282の主要ドメインを対象にAI検索への対応度を評価したベンチマークレポートを公開した。構造化データの整備状況を軸に、業界横断でAI検索対応の現在地を可視化する試みである。",
+    "bullets": [
+      "282ドメインを対象に、AI検索への対応度を8カテゴリー（構造化データ、FAQ整備など）で評価するベンチマークを実施した。",
+      "Organization schemaやFAQなど構造化情報の整備状況にドメイン間で大きな差があることを明らかにした。",
+      "構造化情報を整えているドメインでも、AI Discoveryの効率（AIに発見・引用される割合）が必ずしも伸びていない点をボトルネックとして指摘している。"
+    ],
+    "cardBullets": [
+      "282ドメインのAI検索対応度を8カテゴリーで評価したベンチマーク",
+      "構造化データの整備状況にドメイン間で大きな差があると判明",
+      "整備済みでもAI発見効率が伸びない構造的な課題を指摘"
+    ],
+    "meaning": "構造化データを整えること自体は前提条件に過ぎず、それだけでAI検索での露出が保証されるわけではないという指摘は重要である。商品タグ付けも「整備した」で終わらせず、実際にAIの回答・比較に反映されているかまで確認する運用が求められる。",
+    "thumbnail": "https://geoready.dev/assets/og-image.png"
+  },
+  {
+    "slug": "lycorp-agent-i-expansion",
+    "title": "AIエージェント「Agent i」の領域エージェントを累計22領域に拡大",
+    "sourceUrl": "https://www.lycorp.co.jp/ja/news/release/020576/",
+    "source": "LINEヤフー",
+    "date": "2026-06-30",
+    "dateDisplay": "2026年6月30日",
+    "platforms": ["yahoo"],
+    "viewpoint": "buyer",
+    "theme": "visibility",
+    "background": "LINEヤフーは、対話型AIアシスタント「Agent i」を通じて提供する専門分野別の「領域エージェント」を段階的に拡張しており、今回Yahoo!ショッピングの「AIお買い物メモ」を含む形で累計22領域まで対応範囲を広げたと発表した。単発の新機能ではなく、複数のLINEヤフーサービスを横断するAI活用の一環として位置づけられている。",
+    "bullets": [
+      "Yahoo!ショッピングの「AIお買い物メモ」を含む領域エージェントの対応範囲を、累計22領域まで拡大したと発表した。",
+      "テキスト入力だけでなく、写真や会話内容からの商品探索・比較・購入を支援する機能を含む。",
+      "購入者の検索行動が、単語の入力から文脈を伴う依頼（用途・条件を含む問いかけ）へ移行しつつあることを示している。"
+    ],
+    "cardBullets": [
+      "LINEヤフー「Agent i」の対応領域が累計22領域に拡大",
+      "Yahoo!ショッピングのAIお買い物メモも対象に含まれる",
+      "写真・会話からの商品探索など文脈型の検索行動が広がる"
+    ],
+    "meaning": "Yahoo!ショッピング内でも、購入者の問いかけが単語ではなく文脈を持つ依頼に変わりつつある。「レザー 財布 メンズ」のような単語の羅列ではなく、「30代男性への誕生日プレゼントに合う財布」のような依頼にAIが答えられるかどうかは、商品属性の細かさに左右される。",
+    "thumbnail": "https://www.lycorp.co.jp/ja/news/2026/fb927ae88d443073b70b7460855e528d7a5806e3.png"
+  },
+  {
+    "slug": "shopify-agentic-commerce-momentum",
+    "title": "数百万の事業者がAIチャットで販売可能に",
+    "origTitle": "Millions of merchants can sell in AI chats",
+    "sourceUrl": "https://www.shopify.com/news/agentic-commerce-momentum",
+    "source": "Shopify",
+    "date": "2026-03-24",
+    "dateDisplay": "2026年3月24日",
+    "platforms": ["google", "chatgpt", "other-ai"],
+    "viewpoint": "buyer",
+    "theme": "visibility",
+    "background": "ShopifyはChatGPT、Copilot、Google AI Modeなど複数のAIチャットサービスへの商品配信を段階的に拡張してきており、今回その提供範囲を数百万の加盟店規模にまで広げたと発表した。AIチャット上での買い物が実験段階から実運用の規模へ移行しつつあることを示す発表である。",
+    "bullets": [
+      "ShopifyはChatGPT、Copilot、Google AI Modeなどへの商品配信の対象を、数百万の加盟店規模にまで拡張した。",
+      "価格・在庫・商品情報をAIチャット側とリアルタイムに同期し、会話の中での商品発見から購入までをつなぐ仕組みを整えている。",
+      "AIチャットが実験的な機能ではなく、独立した販売チャネルとして機能し始めていることを示している。"
+    ],
+    "cardBullets": [
+      "数百万のShopify加盟店がAIチャットで販売可能になったと発表",
+      "ChatGPT・Copilot・Google AI Modeへ価格・在庫を同期",
+      "AIチャットが実験段階から実運用の販売チャネルへ移行"
+    ],
+    "meaning": "海外の大規模ECプラットフォームでは、AIチャットがすでに「試験導入」から「本番の販売チャネル」に移っている。国内モールがこの流れに追随する将来を見据えると、商品情報を一度整備すれば複数のAI販売面に展開できる状態を今のうちに作っておく価値は高い。",
+    "thumbnail": "https://cdn.shopify.com/b/shopify-brochure2-assets/7abe93d1728ab3bc76fe356cf4985803.png"
+  },
+  {
+    "slug": "arxiv-leaps-taobao-ai-search",
+    "title": "Taobao AI Search向けLLM適応プラグインLEAPS",
+    "origTitle": "LEAPS: An LLM-Empowered Adaptive Plugin for Taobao AI Search",
+    "sourceUrl": "https://arxiv.org/abs/2601.05513",
+    "source": "Alibaba Group研究者",
+    "date": "2026-01-09",
+    "dateDisplay": "2026年1月9日",
+    "platforms": ["other-ai"],
+    "viewpoint": "buyer",
+    "theme": "visibility",
+    "background": "中国最大級のECモールTaobaoの検索基盤にLLMを組み込んだ実装・評価結果をまとめた学術論文。大規模ECモールにおいて、AI検索が研究段階ではなくすでに実運用として稼働している実例を示す一次情報である。",
+    "bullets": [
+      "Taobao AI SearchにおけるLLM活用の実装（LEAPS）とその評価結果をまとめた論文である。",
+      "大規模EC検索において、対話的な商品探索と検索結果最適化が実運用として組み込まれていることを示している。",
+      "モール型EC検索がAIエージェント化していく技術的な方向性を、実装レベルの詳細とともに把握できる。"
+    ],
+    "cardBullets": [
+      "Taobaoの検索基盤に実装されたLLM活用の論文",
+      "大規模ECモールでAI検索がすでに実運用段階にある",
+      "モール検索のAIエージェント化という技術的方向性を示す"
+    ],
+    "meaning": "海外の大規模モールでは、AI検索対応がすでに研究段階を超えて実運用に組み込まれている。国内モールの検索機能が今後どう変わっていくかを考えるうえで、技術的な方向性を先取りして知っておく材料になる。",
+    "thumbnail": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+  },
+  {
+    "slug": "amazon-aws-agentic-shopping-assistant",
+    "title": "Amazonが自社のAIショッピング技術を外部小売業者にも提供開始",
+    "origTitle": "AWS Agentic Shopping Assistant: Amazon's AI shopping tech, now for any retailer",
+    "sourceUrl": "https://www.aboutamazon.com/news/aws/aws-agentic-shopping-assistant-retailers",
+    "source": "Amazon",
+    "date": "2026-05-27",
+    "dateDisplay": "2026年5月27日",
+    "platforms": ["amazon"],
+    "viewpoint": "seller",
+    "theme": "visibility",
+    "background": "Amazonは自社のAlexa for Shopping（旧Rufus）を支える技術基盤を、AWS経由で外部の小売業者にも提供する「Agentic Shopping Assistant on AWS」を発表した。Amazon内で培ったAI接客の仕組みを、他社ECサイトにも展開する動きであり、AI接客がAmazon固有の機能から業界の標準的な選択肢へ広がりつつあることを示している。",
+    "bullets": [
+      "Alexa for Shopping（旧Rufus）を支える技術基盤を、AWS経由で外部の小売業者にも提供する新サービスを発表した。旧Rufusは前年に約120億ドルの追加売上に貢献したとしている。",
+      "各社独自の商品カタログ・顧客層・購買環境に合わせてカスタマイズされた対話型AIアシスタントを、自社構築より短い約60日で導入できるとしている。",
+      "Kate Spadeなど一部の小売業者がすでに導入しており、AWS Marketplace経由で利用できる。"
+    ],
+    "cardBullets": [
+      "AmazonがAI接客技術をAWS経由で外部小売業者にも提供開始",
+      "旧Rufus基盤の対話型AIを自社カタログに合わせて約60日で導入可能",
+      "Kate Spadeなど一部小売業者がすでに導入済み"
+    ],
+    "meaning": "Amazon内でしか使えなかったAI接客の仕組みが、外部の小売業者にも展開される流れは、AI接客が特定プラットフォームの専売機能ではなく業界標準の技術になりつつあることを示している。導入するかどうかに関わらず、AIが自社のカタログ・顧客層をどう読み取って接客するかという発想自体は参考になる。",
+    "thumbnail": "https://assets.aboutamazon.com/dims4/default/2b8fde3/2147483647/strip/true/crop/2000x1000+0+68/resize/1200x600!/quality/90/?url=https%3A%2F%2Fassets.aboutamazon.com%2F88%2Ff7%2F0e0239fa4e0da8cee844cbd1c19d%2Faws-retail-hero-animated-slowed.gif"
+  },
+  {
+    "slug": "semrush-prepare-site-for-ai-agents",
+    "title": "AIエージェントに対応できるサイトの準備方法",
+    "origTitle": "How to prepare your site for AI agents",
+    "sourceUrl": "https://www.semrush.com/blog/how-to-prepare-your-site-for-ai-agents/",
+    "source": "Semrush",
+    "date": "2026-09-02",
+    "dateDisplay": "2026年9月2日",
+    "platforms": ["google", "chatgpt", "other-ai"],
+    "viewpoint": "seller",
+    "theme": "visibility",
+    "background": "SemrushはChatGPT、Perplexity、Google AI Modeなどのエージェントがサイトを読み取る際、従来の検索クローラーとは異なる取得・引用の経路を通ることを整理した解説記事を公開した。AI検索対応をコンテンツ面だけでなく、サイトの技術的な受け入れ態勢の面からも解説している点が特徴である。",
+    "bullets": [
+      "ChatGPT・Perplexity・Google AI ModeなどのAIエージェントは、従来の検索クローラーとは異なる経路でページを取得・引用すると整理している。",
+      "検索・引用に使われるAIクローラーをrobots.txtで誤って遮断しないこと、実コンテンツをJavaScript依存にせずHTMLで提供すること、表示速度を確保することを推奨している。",
+      "商品ページでは価格・在庫・仕様・制約を検証可能な構造化された事実として示すことが、AIに比較・推薦される前提になるとしている。"
+    ],
+    "cardBullets": [
+      "AIエージェントがサイトを正しく読み取るための技術的準備を解説",
+      "AIクローラーの誤遮断・JS依存コンテンツを避けるよう指摘",
+      "価格・在庫・仕様を検証可能な形で示すことが比較の前提に"
+    ],
+    "meaning": "AI検索対策というと文章表現の話に目が向きがちだが、この記事はその手前の「AIがそもそも情報を取得できているか」という技術面の点検を促している。商品ページがAIクローラーから見て遮断されていないか、価格や在庫が動的表示だけで完結していないかは、タグ付け以前に確認すべき土台にあたる。",
+    "thumbnail": "https://static.semrush.com/blog/uploads/media/42/be/42be7ab847fce6efe52f6f5efc1a59cc/9fa1614084c8501bd796c78e28146950/how-to-prepare-your-site-for-ai-agents.png"
+  },
+  {
+    "slug": "semrush-ai-chatbots-buying-hesitation",
+    "title": "AIチャットボットはAI利用者の57.5%に購入見送りを促した",
+    "origTitle": "AI chatbots talked 57.5% of AI users out of buying",
+    "sourceUrl": "https://www.semrush.com/blog/ai-chatbots-talk-ai-users-out-of-buying/",
+    "source": "Semrush / Exploding Topics",
+    "date": "2026-09-07",
+    "dateDisplay": "2026年9月7日",
+    "platforms": ["google", "chatgpt", "other-ai"],
+    "viewpoint": "buyer",
+    "theme": "visibility",
+    "background": "Semrushは提携先のExploding Topicsと共同で、米国成人2,338人を対象にAIチャットボットが購買行動に与える影響を調査したレポートを公開した。AIが商品を「見つけさせる」だけでなく「見送らせる」働きもしている実態を、具体的な調査データで示した点が特徴である。",
+    "bullets": [
+      "2026年7月に米国成人2,338人を対象に調査し、AI利用者の65.01%が商品調査でGoogle検索の一部以上をチャットボットに置き換えたと回答した。",
+      "AI利用者の57.5%は、チャットボットが示した情報を理由に購入を見送ったと回答している。",
+      "59.27%はAIの推薦を通じて、それまで認知していなかった商品・ブランドを発見したと回答しており、購入前に販売者情報をAIで確認する消費者も多いとしている。"
+    ],
+    "cardBullets": [
+      "米国成人2,338人調査、AI利用者の57.5%が購入を見送った経験あり",
+      "65%がGoogle検索の一部以上をAIチャットボットに置き換え",
+      "59%がAIの推薦で未認知だった商品・ブランドを発見"
+    ],
+    "meaning": "AI検索は「見つけてもらう」だけでなく「見送られる」場面にも関わっている。商品説明が不十分だとAIが購入を後押しできず、逆に不正確な情報があれば購入を思いとどまらせる材料にもなり得るため、正確さと具体性の両方が問われる。",
+    "thumbnail": "https://static.semrush.com/blog/uploads/media/0c/bc/0cbcbf444616a6b4ed6ef0d9c42ed418/43a07a5a397e24b55f4e54217380ce32/ai-chatbots-buying-recommendations.png"
+  },
+  {
+    "slug": "google-shopping-universal-cart-agentic",
+    "title": "GoogleショッピングがUniversal Cartとエージェント型ショッピングを発表",
+    "origTitle": "Google Shopping introduces Universal Cart, agentic shopping",
+    "sourceUrl": "https://blog.google/products-and-platforms/products/shopping/google-shopping-cart/",
+    "source": "Google",
+    "date": "2026-05-19",
+    "dateDisplay": "2026年5月19日",
+    "platforms": ["google"],
+    "viewpoint": "buyer",
+    "theme": "visibility",
+    "background": "GoogleはGoogle I/O 2026にあわせて、Search・Gemini・YouTube・Gmailなど複数のGoogleサービスを横断して使える買い物かご機能「Universal Cart」と、AIが購入手続きまで代行するエージェント型ショッピング機能を発表した。検索結果の見え方だけでなく、購入までの導線そのものがGoogleサービス間で統合される方向性を示す発表である。",
+    "bullets": [
+      "Search、Gemini、YouTube、Gmailなど複数のGoogleサービスを横断して使える買い物かご機能「Universal Cart」を発表した。",
+      "AI Modeでの会話から商品をカートに追加し、Googleサービスをまたいで購入手続きを進められるエージェント型ショッピング機能を導入した。",
+      "AI Modeはすでに月間1億人規模の利用者を持ち、検索クエリが従来検索の3倍長くなるなど、対話型の商品探索が定着しつつあることを示している。"
+    ],
+    "cardBullets": [
+      "GoogleがサービスをまたぐAI買い物かご「Universal Cart」を発表",
+      "AI Modeの会話からカート追加・購入まで一気通貫で対応",
+      "AI Modeは月間1億人規模、検索クエリは従来の3倍長い"
+    ],
+    "meaning": "検索結果ページの中で完結していた購買行動が、Googleサービス全体を横断するカートへと広がりつつある。商品がどのGoogleサービス上の会話で言及されても、正しい属性・在庫・価格として認識される状態を保つことの重要性が増していく。",
+    "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IO2026Shopping_hero_GGHBnlG.width-1300.png"
+  }
+]

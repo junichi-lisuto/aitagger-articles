@@ -1,0 +1,24 @@
+{
+  "slug": "meltwater-ai-search-visibility-august",
+  "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/meltwater-ai-search-visibility-august.html",
+  "sourceUrl": "https://www.meltwater.com/en/blog/ai-search-visibility-report-august-2026",
+  "platforms": [
+    "google",
+    "chatgpt",
+    "other-ai"
+  ],
+  "viewpoint": "buyer",
+  "theme": "visibility",
+  "source": "Meltwater",
+  "date": "2026-09-11",
+  "title": "AI検索可視性レポート：LinkedInが上位3位に",
+  "bullets": [
+    "8AI・約730万件の引用を分析した月次AI検索可視性レポート",
+    "LinkedInが引用元ランキング上位3位に浮上",
+    "AIモデルごとに引用元の傾向が大きく異なる実態が判明"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "url": "https://images.prismic.io/meltwater-refresh/NOnkwxSblTRJzpNs_AugustAISearchVisibilityMETA.png?auto=format,compress&rect=0,53,1672,836&w=1200&h=600"
+  }
+}

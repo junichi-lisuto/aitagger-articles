@@ -1,0 +1,22 @@
+{
+  "slug": "arxiv-leaps-taobao-ai-search",
+  "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/arxiv-leaps-taobao-ai-search.html",
+  "sourceUrl": "https://arxiv.org/abs/2601.05513",
+  "platforms": [
+    "other-ai"
+  ],
+  "viewpoint": "buyer",
+  "theme": "visibility",
+  "source": "Alibaba Group研究者",
+  "date": "2026-01-09",
+  "title": "Taobao AI Search向けLLM適応プラグインLEAPS",
+  "bullets": [
+    "Taobaoの検索基盤に実装されたLLM活用の論文",
+    "大規模ECモールでAI検索がすでに実運用段階にある",
+    "モール検索のAIエージェント化という技術的方向性を示す"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+  }
+}

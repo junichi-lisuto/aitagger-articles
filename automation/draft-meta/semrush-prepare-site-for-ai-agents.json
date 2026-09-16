@@ -1,0 +1,24 @@
+{
+  "slug": "semrush-prepare-site-for-ai-agents",
+  "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/semrush-prepare-site-for-ai-agents.html",
+  "sourceUrl": "https://www.semrush.com/blog/how-to-prepare-your-site-for-ai-agents/",
+  "platforms": [
+    "google",
+    "chatgpt",
+    "other-ai"
+  ],
+  "viewpoint": "seller",
+  "theme": "visibility",
+  "source": "Semrush",
+  "date": "2026-09-02",
+  "title": "AIエージェントに対応できるサイトの準備方法",
+  "bullets": [
+    "AIエージェントがサイトを正しく読み取るための技術的準備を解説",
+    "AIクローラーの誤遮断・JS依存コンテンツを避けるよう指摘",
+    "価格・在庫・仕様を検証可能な形で示すことが比較の前提に"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "url": "https://static.semrush.com/blog/uploads/media/42/be/42be7ab847fce6efe52f6f5efc1a59cc/9fa1614084c8501bd796c78e28146950/how-to-prepare-your-site-for-ai-agents.png"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "anthropic-claude-commerce-agents",
+  "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/anthropic-claude-commerce-agents.html",
+  "sourceUrl": "https://claude.com/blog/claude-for-commerce-agents",
+  "platforms": [
+    "other-ai"
+  ],
+  "viewpoint": "seller",
+  "theme": "optimization",
+  "source": "Anthropic",
+  "date": "2026-09-02",
+  "title": "Claudeでコマースエージェントを構築する",
+  "bullets": [
+    "AnthropicがClaudeを使うコマースエージェント実装例を公開",
+    "商品カタログ・カート・決済と連携する開発用ブループリント",
+    "導入企業でカート金額拡大・購入完了率向上が報告される"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "url": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a95f44f1757be75a0616bd0_demo-retail.webp"
+  }
+}

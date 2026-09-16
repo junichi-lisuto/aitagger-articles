@@ -1,0 +1,22 @@
+{
+  "slug": "lycorp-ai-omemo-yahoo-shopping",
+  "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/lycorp-ai-omemo-yahoo-shopping.html",
+  "sourceUrl": "https://www.lycorp.co.jp/ja/news/release/020538/",
+  "platforms": [
+    "yahoo"
+  ],
+  "viewpoint": "seller",
+  "theme": "optimization",
+  "source": "LINEヤフー",
+  "date": "2026-06-23",
+  "title": "「AIお買い物メモ」をYahoo!ショッピングに搭載",
+  "bullets": [
+    "Yahoo!ショッピングに新機能「AIお買い物メモ」を搭載",
+    "写真・会話を含む入力から関連商品を比較提案する仕組み",
+    "属性・説明文の充実度が提案精度を左右すると説明"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "url": "https://www.lycorp.co.jp/ja/news/2026/5a335d18967431d98c72c9339bcd13834ed72d64.png"
+  }
+}

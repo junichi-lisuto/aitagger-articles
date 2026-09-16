@@ -1,0 +1,24 @@
+{
+  "slug": "semrush-measure-ai-search-visibility",
+  "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/semrush-measure-ai-search-visibility.html",
+  "sourceUrl": "https://www.semrush.com/blog/measure-ai-visibility/",
+  "platforms": [
+    "google",
+    "chatgpt",
+    "other-ai"
+  ],
+  "viewpoint": "seller",
+  "theme": "measurement",
+  "source": "Semrush",
+  "date": "2026-05-20",
+  "title": "AI検索可視性の測定・報告で本当に重要なこと",
+  "bullets": [
+    "AI検索可視性測定で「本当に重要な指標」をSemrushが整理",
+    "AI回答で満足しクリックしない利用者がいるため流入数だけでは測れない",
+    "経営報告は現状・推移・競合比較・事業シグナルの4点を推奨"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "url": "https://static.semrush.com/blog/uploads/media/fd/c3/fdc3f974166b007e9dc351b7633120e7/df30dc036fff30c7be4910bc8216aa84/measure-ai-visibility.png"
+  }
+}
