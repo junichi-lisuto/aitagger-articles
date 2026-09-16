@@ -3,6 +3,36 @@
 記事候補を探す前に必ずこの一覧を確認し、ここに載っているURLと同じ元記事は候補から除外すること。
 生成元: articles.json（更新日: 2026-09-16）
 
+- https://www.shopify.com/news/spring-26-edition-merchant
+- https://www.shopify.com/blog/how-agentic-commerce-works
+- https://www.shopify.com/news/ai-regulation
+- https://www.shopify.com/news/winter-26-edition-agentic-storefronts
+- https://www.shopify.com/news/spring-26-edition-dev
+- https://www.shopify.com/news/agentic-commerce-momentum
+- https://www.semrush.com/blog/how-to-rank-in-ai-search/
+- https://www.semrush.com/blog/how-to-prepare-your-site-for-ai-agents/
+- https://www.semrush.com/blog/measure-ai-visibility/
+- https://www.semrush.com/blog/find-ai-visibility-gaps-with-semrush/
+- https://www.semrush.com/blog/how-we-are-using-semrush-to-drive-llm-visibility/
+- https://www.semrush.com/blog/ai-visibility/
+- https://www.semrush.com/blog/ai-chatbots-talk-ai-users-out-of-buying/
+- https://www.semrush.com/blog/create-ai-seo-search-marketing-report/
+- https://www.meltwater.com/en/blog/ai-search-visibility-report-august-2026
+- https://www.lycorp.co.jp/ja/news/release/020538/
+- https://www.lycorp.co.jp/ja/news/release/020576/
+- https://www.iab.com/?p=210495
+- https://blog.google/products-and-platforms/products/shopping/google-shopping-cart/
+- https://developers.google.com/search/blog/2026/05/a-new-resource-for-optimizing
+- https://geoready.dev/state-of-geo/august-2026/
+- https://www.contentful.com/blog/agentic-commerce/
+- https://arxiv.org/abs/2601.05513
+- https://arxiv.org/abs/2604.07585
+- https://claude.com/blog/claude-for-commerce-agents
+- https://www.aboutamazon.com/news/aws/aws-agentic-shopping-assistant-retailers
+- https://www.aboutamazon.com/news/retail/amazon-ai-shopping-tools
+- https://ahrefs.com/blog/custom-prompt-tracking/
+- https://ahrefs.com/blog/brand-radar-methodology/
+- https://ahrefs.com/blog/ai-visibility-audit/
 - https://www.lycorp.co.jp/ja/story/20260820/yjshopping_ai.html
 - https://corp.rakuten.co.jp/news/press/2026/0602_01.html
 - https://openai.com/index/wayfair/

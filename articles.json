@@ -3,6 +3,710 @@
   "schemaVersion": 2,
   "articles": [
     {
+      "slug": "shopify-spring26-merchant-edition",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/shopify-spring26-merchant-edition.html",
+      "sourceUrl": "https://www.shopify.com/news/spring-26-edition-merchant",
+      "platforms": [
+        "google",
+        "chatgpt",
+        "other-ai"
+      ],
+      "viewpoint": "seller",
+      "theme": "optimization",
+      "source": "Shopify",
+      "date": "2026-06-17",
+      "title": "Spring '26 Edition：すべての販売面を一元化",
+      "bullets": [
+        "AI経由で見つかっても売れない商品の改善運用をShopifyが解説",
+        "AI経由の露出・注文・売上を一元管理する仕組みを紹介",
+        "商品改善と効果測定を同じ運用サイクルに組み込む重要性"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://cdn.shopify.com/b/shopify-brochure2-assets/de7b8f16733aa247266ecc1b5596d974.jpg"
+      }
+    },
+    {
+      "slug": "shopify-how-agentic-commerce-works",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/shopify-how-agentic-commerce-works.html",
+      "sourceUrl": "https://www.shopify.com/blog/how-agentic-commerce-works",
+      "platforms": [
+        "google",
+        "chatgpt",
+        "other-ai"
+      ],
+      "viewpoint": "seller",
+      "theme": "optimization",
+      "source": "Shopify",
+      "date": "2026-06-18",
+      "title": "Shopifyにおけるエージェント型コマースの仕組み",
+      "bullets": [
+        "AI経由の注文が前年比約13倍になった実測データを公表",
+        "商品名・画像・在庫など構造化データの完全性が露出を左右",
+        "AIエージェントからの読取可否を診断する無償ツールも提供"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://cdn.shopify.com/b/shopify-brochure2-assets/32d52b11641e85a0270fb216676527c7.jpg"
+      }
+    },
+    {
+      "slug": "shopify-ai-regulation-entrepreneurs",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/shopify-ai-regulation-entrepreneurs.html",
+      "sourceUrl": "https://www.shopify.com/news/ai-regulation",
+      "platforms": [
+        "google",
+        "chatgpt",
+        "other-ai"
+      ],
+      "viewpoint": "seller",
+      "theme": "optimization",
+      "source": "Shopify",
+      "date": "2026-06-01",
+      "title": "AIが事業者にもたらす機会と規制",
+      "bullets": [
+        "ShopifyがAI検索経由の注文・転換率・客単価データを公表",
+        "AIチャネルを新たな顧客接点として位置づけ",
+        "商品データのAI対応整備の重要性を自社データで裏付け"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://cdn.shopify.com/b/shopify-brochure2-assets/f3493fc50a2fff12b79e5e5154350f9b.png"
+      }
+    },
+    {
+      "slug": "shopify-agentic-storefronts-winter26",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/shopify-agentic-storefronts-winter26.html",
+      "sourceUrl": "https://www.shopify.com/news/winter-26-edition-agentic-storefronts",
+      "platforms": [
+        "google",
+        "chatgpt",
+        "other-ai"
+      ],
+      "viewpoint": "seller",
+      "theme": "optimization",
+      "source": "Shopify",
+      "date": "2025-12-10",
+      "title": "Shopify Agentic Storefrontsの紹介",
+      "bullets": [
+        "ShopifyがAIチャット向け新機能「Agentic Storefronts」を発表",
+        "商品属性・FAQ・ブランド情報を一度整備し複数AI面へ配信",
+        "在庫・価格のリアルタイム同期もAI表示の前提条件に"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://cdn.shopify.com/b/shopify-brochure2-assets/c9a90f5ee90b7ebd9ad5b10a703b751c.jpg"
+      }
+    },
+    {
+      "slug": "shopify-agentic-commerce-spring26-dev",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/shopify-agentic-commerce-spring26-dev.html",
+      "sourceUrl": "https://www.shopify.com/news/spring-26-edition-dev",
+      "platforms": [
+        "google",
+        "chatgpt",
+        "other-ai"
+      ],
+      "viewpoint": "seller",
+      "theme": "optimization",
+      "source": "Shopify",
+      "date": "2026-06-17",
+      "title": "すべての開発者のためのエージェント型コマース",
+      "bullets": [
+        "ShopifyがAI向け商品データ供給API「Catalog API」を解説",
+        "サイズ・色・配送見込みなど豊富な属性がAI理解を助ける",
+        "テキストと画像を組み合わせたマルチモーダル検索にも対応"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://cdn.shopify.com/b/shopify-brochure2-assets/577af986f53e31419450fc1f1bdfd76d.jpg"
+      }
+    },
+    {
+      "slug": "shopify-agentic-commerce-momentum",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/shopify-agentic-commerce-momentum.html",
+      "sourceUrl": "https://www.shopify.com/news/agentic-commerce-momentum",
+      "platforms": [
+        "google",
+        "chatgpt",
+        "other-ai"
+      ],
+      "viewpoint": "buyer",
+      "theme": "visibility",
+      "source": "Shopify",
+      "date": "2026-03-24",
+      "title": "数百万の事業者がAIチャットで販売可能に",
+      "bullets": [
+        "数百万のShopify加盟店がAIチャットで販売可能になったと発表",
+        "ChatGPT・Copilot・Google AI Modeへ価格・在庫を同期",
+        "AIチャットが実験段階から実運用の販売チャネルへ移行"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://cdn.shopify.com/b/shopify-brochure2-assets/7abe93d1728ab3bc76fe356cf4985803.png"
+      }
+    },
+    {
+      "slug": "semrush-rank-in-ai-search-playbook",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/semrush-rank-in-ai-search-playbook.html",
+      "sourceUrl": "https://www.semrush.com/blog/how-to-rank-in-ai-search/",
+      "platforms": [
+        "google",
+        "chatgpt",
+        "other-ai"
+      ],
+      "viewpoint": "seller",
+      "theme": "optimization",
+      "source": "Semrush",
+      "date": "2026-05-11",
+      "title": "AI検索で表示されるための6か月プレイブック",
+      "bullets": [
+        "AI検索での露出向上を6か月の運用計画として解説",
+        "コンテンツ・技術・権威性・計測の4領域を継続的に施策化",
+        "プラットフォームごとの評価差を前提に複数面を追跡"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://static.semrush.com/blog/uploads/media/d8/2d/d82d75b1e50e9c8ff4eea7c89036c001/ee54ce520a9df6e860a89d1f5f561be9/how-to-rank-in-ai-search.png"
+      }
+    },
+    {
+      "slug": "semrush-prepare-site-for-ai-agents",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/semrush-prepare-site-for-ai-agents.html",
+      "sourceUrl": "https://www.semrush.com/blog/how-to-prepare-your-site-for-ai-agents/",
+      "platforms": [
+        "google",
+        "chatgpt",
+        "other-ai"
+      ],
+      "viewpoint": "seller",
+      "theme": "visibility",
+      "source": "Semrush",
+      "date": "2026-09-02",
+      "title": "AIエージェントに対応できるサイトの準備方法",
+      "bullets": [
+        "AIエージェントがサイトを正しく読み取るための技術的準備を解説",
+        "AIクローラーの誤遮断・JS依存コンテンツを避けるよう指摘",
+        "価格・在庫・仕様を検証可能な形で示すことが比較の前提に"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://static.semrush.com/blog/uploads/media/42/be/42be7ab847fce6efe52f6f5efc1a59cc/9fa1614084c8501bd796c78e28146950/how-to-prepare-your-site-for-ai-agents.png"
+      }
+    },
+    {
+      "slug": "semrush-measure-ai-search-visibility",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/semrush-measure-ai-search-visibility.html",
+      "sourceUrl": "https://www.semrush.com/blog/measure-ai-visibility/",
+      "platforms": [
+        "google",
+        "chatgpt",
+        "other-ai"
+      ],
+      "viewpoint": "seller",
+      "theme": "measurement",
+      "source": "Semrush",
+      "date": "2026-05-20",
+      "title": "AI検索可視性の測定・報告で本当に重要なこと",
+      "bullets": [
+        "AI検索可視性測定で「本当に重要な指標」をSemrushが整理",
+        "AI回答で満足しクリックしない利用者がいるため流入数だけでは測れない",
+        "経営報告は現状・推移・競合比較・事業シグナルの4点を推奨"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://static.semrush.com/blog/uploads/media/fd/c3/fdc3f974166b007e9dc351b7633120e7/df30dc036fff30c7be4910bc8216aa84/measure-ai-visibility.png"
+      }
+    },
+    {
+      "slug": "semrush-find-ai-visibility-gaps",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/semrush-find-ai-visibility-gaps.html",
+      "sourceUrl": "https://www.semrush.com/blog/find-ai-visibility-gaps-with-semrush/",
+      "platforms": [
+        "google",
+        "chatgpt",
+        "other-ai"
+      ],
+      "viewpoint": "seller",
+      "theme": "measurement",
+      "source": "Semrush",
+      "date": "2026-07-27",
+      "title": "SemrushでAI可視性のギャップを見つける方法",
+      "bullets": [
+        "競合とのAI回答内の表示差をプロンプト単位で確認する方法",
+        "「見つかるが売れない」商品を可視性ギャップから特定",
+        "改善の優先順位を可視性ギャップの大きさから決める運用"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://static.semrush.com/blog/uploads/media/ab/31/ab310172cd2a0d07f7014f39cd64def0/690f968fe2ca30db1fbb178f195a42fe/ai-visibility-gaps.png"
+      }
+    },
+    {
+      "slug": "semrush-driving-ai-visibility",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/semrush-driving-ai-visibility.html",
+      "sourceUrl": "https://www.semrush.com/blog/how-we-are-using-semrush-to-drive-llm-visibility/",
+      "platforms": [
+        "google",
+        "chatgpt",
+        "other-ai"
+      ],
+      "viewpoint": "seller",
+      "theme": "measurement",
+      "source": "Semrush",
+      "date": "2026-05-29",
+      "title": "SemrushがAI可視性を高める方法",
+      "bullets": [
+        "SemrushがAI可視性向上の自社運用事例を公開",
+        "AI由来の影響はクリック数だけで切り出せないと説明",
+        "AI回答確認・競合比較・通常分析を組み合わせる運用を紹介"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://static.semrush.com/blog/uploads/media/36/43/3643b14016028793b152a91da02f9831/c78e56ee8f07407619e94c96e8b7d06b/ai-visibility-semrush.png"
+      }
+    },
+    {
+      "slug": "semrush-ai-visibility-2026",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/semrush-ai-visibility-2026.html",
+      "sourceUrl": "https://www.semrush.com/blog/ai-visibility/",
+      "platforms": [
+        "google",
+        "chatgpt",
+        "other-ai"
+      ],
+      "viewpoint": "seller",
+      "theme": "optimization",
+      "source": "Semrush",
+      "date": "2026-03-27",
+      "title": "AI可視性とは何か、2026年に高める方法",
+      "bullets": [
+        "「AI可視性」の定義と2026年の高め方をSemrushが解説",
+        "検索順位が高くてもAI回答に出ないギャップを具体例で説明",
+        "複数のAI面でブランド・商品の扱われ方を確認する必要性"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://static.semrush.com/blog/uploads/media/4c/63/4c63a3a7247ded2e64be3c7d5a99c28a/8e673f722caa0e283ab442b204c73a3d/ai-visibility.png"
+      }
+    },
+    {
+      "slug": "semrush-ai-chatbots-buying-hesitation",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/semrush-ai-chatbots-buying-hesitation.html",
+      "sourceUrl": "https://www.semrush.com/blog/ai-chatbots-talk-ai-users-out-of-buying/",
+      "platforms": [
+        "google",
+        "chatgpt",
+        "other-ai"
+      ],
+      "viewpoint": "buyer",
+      "theme": "visibility",
+      "source": "Semrush / Exploding Topics",
+      "date": "2026-09-07",
+      "title": "AIチャットボットはAI利用者の57.5%に購入見送りを促した",
+      "bullets": [
+        "米国成人2,338人調査、AI利用者の57.5%が購入を見送った経験あり",
+        "65%がGoogle検索の一部以上をAIチャットボットに置き換え",
+        "59%がAIの推薦で未認知だった商品・ブランドを発見"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://static.semrush.com/blog/uploads/media/0c/bc/0cbcbf444616a6b4ed6ef0d9c42ed418/43a07a5a397e24b55f4e54217380ce32/ai-chatbots-buying-recommendations.png"
+      }
+    },
+    {
+      "slug": "semrush-ai-brand-visibility-report",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/semrush-ai-brand-visibility-report.html",
+      "sourceUrl": "https://www.semrush.com/blog/create-ai-seo-search-marketing-report/",
+      "platforms": [
+        "google",
+        "chatgpt",
+        "other-ai"
+      ],
+      "viewpoint": "seller",
+      "theme": "measurement",
+      "source": "Semrush",
+      "date": "2026-09-02",
+      "title": "AIブランド可視性レポートの作り方",
+      "bullets": [
+        "AI検索の露出と事業成果を結ぶレポート作成法をテンプレ付きで解説",
+        "AI検索の効果は断定値でなく方向性を示す指標として扱う",
+        "経営報告は露出・競合比較・事業成果の3点に絞ると効果的"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://static.semrush.com/blog/uploads/media/41/8a/418a783e792de1b2dd48a0b45d067cd6/6dcc1ec14a8b7be407fdfb2d176ae7dd/ai-brand-visibility-report.png"
+      }
+    },
+    {
+      "slug": "meltwater-ai-search-visibility-august",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/meltwater-ai-search-visibility-august.html",
+      "sourceUrl": "https://www.meltwater.com/en/blog/ai-search-visibility-report-august-2026",
+      "platforms": [
+        "google",
+        "chatgpt",
+        "other-ai"
+      ],
+      "viewpoint": "buyer",
+      "theme": "visibility",
+      "source": "Meltwater",
+      "date": "2026-09-11",
+      "title": "AI検索可視性レポート：LinkedInが上位3位に",
+      "bullets": [
+        "8AI・約730万件の引用を分析した月次AI検索可視性レポート",
+        "LinkedInが引用元ランキング上位3位に浮上",
+        "AIモデルごとに引用元の傾向が大きく異なる実態が判明"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://images.prismic.io/meltwater-refresh/NOnkwxSblTRJzpNs_AugustAISearchVisibilityMETA.png?auto=format,compress&rect=0,53,1672,836&w=1200&h=600"
+      }
+    },
+    {
+      "slug": "lycorp-ai-omemo-yahoo-shopping",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/lycorp-ai-omemo-yahoo-shopping.html",
+      "sourceUrl": "https://www.lycorp.co.jp/ja/news/release/020538/",
+      "platforms": [
+        "yahoo"
+      ],
+      "viewpoint": "seller",
+      "theme": "optimization",
+      "source": "LINEヤフー",
+      "date": "2026-06-23",
+      "title": "「AIお買い物メモ」をYahoo!ショッピングに搭載",
+      "bullets": [
+        "Yahoo!ショッピングに新機能「AIお買い物メモ」を搭載",
+        "写真・会話を含む入力から関連商品を比較提案する仕組み",
+        "属性・説明文の充実度が提案精度を左右すると説明"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://www.lycorp.co.jp/ja/news/2026/5a335d18967431d98c72c9339bcd13834ed72d64.png"
+      }
+    },
+    {
+      "slug": "lycorp-agent-i-expansion",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/lycorp-agent-i-expansion.html",
+      "sourceUrl": "https://www.lycorp.co.jp/ja/news/release/020576/",
+      "platforms": [
+        "yahoo"
+      ],
+      "viewpoint": "buyer",
+      "theme": "visibility",
+      "source": "LINEヤフー",
+      "date": "2026-06-30",
+      "title": "AIエージェント「Agent i」の領域エージェントを累計22領域に拡大",
+      "bullets": [
+        "LINEヤフー「Agent i」の対応領域が累計22領域に拡大",
+        "Yahoo!ショッピングのAIお買い物メモも対象に含まれる",
+        "写真・会話からの商品探索など文脈型の検索行動が広がる"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://www.lycorp.co.jp/ja/news/2026/fb927ae88d443073b70b7460855e528d7a5806e3.png"
+      }
+    },
+    {
+      "slug": "iab-measuring-visibility-ai-era",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/iab-measuring-visibility-ai-era.html",
+      "sourceUrl": "https://www.iab.com/?p=210495",
+      "platforms": [
+        "google",
+        "chatgpt",
+        "other-ai"
+      ],
+      "viewpoint": "seller",
+      "theme": "measurement",
+      "source": "IAB（Interactive Advertising Bureau）",
+      "date": "2026-08-03",
+      "title": "IAB、「AI時代の可視性計測」を公開――AIによる発見を計測するための指針",
+      "bullets": [
+        "業界団体IABがAI可視性計測の統一指針「4P」を公表",
+        "AI可視性ツールは20社超あり同一ブランドでも結果が変わる",
+        "出現・目立ち方・語られ方・行動喚起力の4指標で評価"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://www.iab.com/wp-content/uploads/2026/07/business-outcomes-are-just-the-beginning-according-to-iab-digital-video-ad-spend-strategy-full-report-2.png"
+      }
+    },
+    {
+      "slug": "google-shopping-universal-cart-agentic",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/google-shopping-universal-cart-agentic.html",
+      "sourceUrl": "https://blog.google/products-and-platforms/products/shopping/google-shopping-cart/",
+      "platforms": [
+        "google"
+      ],
+      "viewpoint": "buyer",
+      "theme": "visibility",
+      "source": "Google",
+      "date": "2026-05-19",
+      "title": "GoogleショッピングがUniversal Cartとエージェント型ショッピングを発表",
+      "bullets": [
+        "GoogleがサービスをまたぐAI買い物かご「Universal Cart」を発表",
+        "AI Modeの会話からカート追加・購入まで一気通貫で対応",
+        "AI Modeは月間1億人規模、検索クエリは従来の3倍長い"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IO2026Shopping_hero_GGHBnlG.width-1300.png"
+      }
+    },
+    {
+      "slug": "google-optimizing-generative-ai-resource",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/google-optimizing-generative-ai-resource.html",
+      "sourceUrl": "https://developers.google.com/search/blog/2026/05/a-new-resource-for-optimizing",
+      "platforms": [
+        "google"
+      ],
+      "viewpoint": "seller",
+      "theme": "optimization",
+      "source": "Google Search Central",
+      "date": "2026-05-15",
+      "title": "Google検索の生成AI機能に最適化する新リソース",
+      "bullets": [
+        "Google公式が生成AI検索向け最適化ガイドを新規公開",
+        "GEOは目新しい技術ではなく既存SEOの品質原則が基盤",
+        "商品ページは価格・在庫・レビューの正確性が重要と明記"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://developers.google.com/static/search/blog/images/social-share-blog.png"
+      }
+    },
+    {
+      "slug": "geoready-state-of-geo-august",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/geoready-state-of-geo-august.html",
+      "sourceUrl": "https://geoready.dev/state-of-geo/august-2026/",
+      "platforms": [
+        "google",
+        "chatgpt",
+        "other-ai"
+      ],
+      "viewpoint": "seller",
+      "theme": "visibility",
+      "source": "GeoReady",
+      "date": "2026-09-01",
+      "title": "GEOの現状：2026年8月",
+      "bullets": [
+        "282ドメインのAI検索対応度を8カテゴリーで評価したベンチマーク",
+        "構造化データの整備状況にドメイン間で大きな差があると判明",
+        "整備済みでもAI発見効率が伸びない構造的な課題を指摘"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://geoready.dev/assets/og-image.png"
+      }
+    },
+    {
+      "slug": "contentful-agentic-commerce-guide",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/contentful-agentic-commerce-guide.html",
+      "sourceUrl": "https://www.contentful.com/blog/agentic-commerce/",
+      "platforms": [
+        "google",
+        "chatgpt",
+        "other-ai"
+      ],
+      "viewpoint": "seller",
+      "theme": "measurement",
+      "source": "Contentful",
+      "date": "2026-09-10",
+      "title": "AIが人の代わりに買い物をする時代：エージェント型コマースに事業者が必要な準備",
+      "bullets": [
+        "AIが買い物を代行する「agentic commerce」の事業者側準備を解説",
+        "MCP・UCP・ACPなど接続規格への対応が商品データに必要",
+        "商品情報のAPI一元管理でチャネルを問わず統制を維持できる"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://images-www.contentful.com/fo9twyrwpveg/63TyVmCjd2qDeHsDm8FOUQ/57ca870abc4dd9cee8ffddca51657aae/agentic-commerce-header.png"
+      }
+    },
+    {
+      "slug": "arxiv-leaps-taobao-ai-search",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/arxiv-leaps-taobao-ai-search.html",
+      "sourceUrl": "https://arxiv.org/abs/2601.05513",
+      "platforms": [
+        "other-ai"
+      ],
+      "viewpoint": "buyer",
+      "theme": "visibility",
+      "source": "Alibaba Group研究者",
+      "date": "2026-01-09",
+      "title": "Taobao AI Search向けLLM適応プラグインLEAPS",
+      "bullets": [
+        "Taobaoの検索基盤に実装されたLLM活用の論文",
+        "大規模ECモールでAI検索がすでに実運用段階にある",
+        "モール検索のAIエージェント化という技術的方向性を示す"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+      }
+    },
+    {
+      "slug": "arxiv-dont-measure-once-geo",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/arxiv-dont-measure-once-geo.html",
+      "sourceUrl": "https://arxiv.org/abs/2604.07585",
+      "platforms": [
+        "google",
+        "chatgpt",
+        "other-ai"
+      ],
+      "viewpoint": "seller",
+      "theme": "measurement",
+      "source": "Julius Schulte, Malte Bleeker, Philipp Kaufmann（arXiv）",
+      "date": "2026-04-08",
+      "title": "一度だけ測らない：AI検索（GEO）における可視性の計測",
+      "bullets": [
+        "AI検索の可視性測定における再現性の課題を扱う学術論文",
+        "同じ質問でも回答が毎回変わり一回の観測では代表値になりにくい",
+        "可視性は単一の数値でなく繰り返し測定した分布で評価すべき"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+      }
+    },
+    {
+      "slug": "anthropic-claude-commerce-agents",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/anthropic-claude-commerce-agents.html",
+      "sourceUrl": "https://claude.com/blog/claude-for-commerce-agents",
+      "platforms": [
+        "other-ai"
+      ],
+      "viewpoint": "seller",
+      "theme": "optimization",
+      "source": "Anthropic",
+      "date": "2026-09-02",
+      "title": "Claudeでコマースエージェントを構築する",
+      "bullets": [
+        "AnthropicがClaudeを使うコマースエージェント実装例を公開",
+        "商品カタログ・カート・決済と連携する開発用ブループリント",
+        "導入企業でカート金額拡大・購入完了率向上が報告される"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a95f44f1757be75a0616bd0_demo-retail.webp"
+      }
+    },
+    {
+      "slug": "amazon-aws-agentic-shopping-assistant",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/amazon-aws-agentic-shopping-assistant.html",
+      "sourceUrl": "https://www.aboutamazon.com/news/aws/aws-agentic-shopping-assistant-retailers",
+      "platforms": [
+        "amazon"
+      ],
+      "viewpoint": "seller",
+      "theme": "visibility",
+      "source": "Amazon",
+      "date": "2026-05-27",
+      "title": "Amazonが自社のAIショッピング技術を外部小売業者にも提供開始",
+      "bullets": [
+        "AmazonがAI接客技術をAWS経由で外部小売業者にも提供開始",
+        "旧Rufus基盤の対話型AIを自社カタログに合わせて約60日で導入可能",
+        "Kate Spadeなど一部小売業者がすでに導入済み"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://assets.aboutamazon.com/dims4/default/2b8fde3/2147483647/strip/true/crop/2000x1000+0+68/resize/1200x600!/quality/90/?url=https%3A%2F%2Fassets.aboutamazon.com%2F88%2Ff7%2F0e0239fa4e0da8cee844cbd1c19d%2Faws-retail-hero-animated-slowed.gif"
+      }
+    },
+    {
+      "slug": "amazon-ai-shopping-tools-prime-deals",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/amazon-ai-shopping-tools-prime-deals.html",
+      "sourceUrl": "https://www.aboutamazon.com/news/retail/amazon-ai-shopping-tools",
+      "platforms": [
+        "amazon"
+      ],
+      "viewpoint": "buyer",
+      "theme": "visibility",
+      "source": "Amazon",
+      "date": "2026-09-15",
+      "title": "Prime Big Deal Daysで役立つAmazonのAI機能8選",
+      "bullets": [
+        "AlexaやAI画像検索などAmazonのAI購買支援機能8種を一挙紹介",
+        "条件指定・価格通知・画像検索など発見経路が多様化している",
+        "商品の属性・画像・価格の精度がAI機能全体の前提になる"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://assets.aboutamazon.com/dims4/default/c3f6372/2147483647/strip/true/crop/2000x1000+0+63/resize/1200x600!/quality/90/?url=https%3A%2F%2Fassets.aboutamazon.com%2Ff9%2Fef%2Ffad034834cca9068ed710175c4f7%2F2026-pr-afs-header-evergreen-2000x1125.jpg"
+      }
+    },
+    {
+      "slug": "ahrefs-custom-prompt-tracking",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/ahrefs-custom-prompt-tracking.html",
+      "sourceUrl": "https://ahrefs.com/blog/custom-prompt-tracking/",
+      "platforms": [
+        "google",
+        "chatgpt",
+        "other-ai"
+      ],
+      "viewpoint": "seller",
+      "theme": "measurement",
+      "source": "Ahrefs",
+      "date": "2026-02-05",
+      "title": "AI検索可視性を測るプロンプトの選び方",
+      "bullets": [
+        "AI検索を追跡するプロンプトの選び方をAhrefsが解説",
+        "会話文・条件付き依頼の増加で従来のキーワード追跡だけでは不足",
+        "地域・プラットフォームごとに固定した問いを継続計測"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ahrefs.com/blog/wp-content/uploads/2026/02/how-to-choose-the-best-prompts-by-glen-allsopp-ai-search.jpg"
+      }
+    },
+    {
+      "slug": "ahrefs-brand-radar-methodology",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/ahrefs-brand-radar-methodology.html",
+      "sourceUrl": "https://ahrefs.com/blog/brand-radar-methodology/",
+      "platforms": [
+        "google",
+        "chatgpt",
+        "other-ai"
+      ],
+      "viewpoint": "seller",
+      "theme": "measurement",
+      "source": "Ahrefs",
+      "date": "2026-02-26",
+      "title": "Ahrefs Brand RadarのAI可視性データ収集・モデル化手法",
+      "bullets": [
+        "AhrefsがAI可視性測定ツールの内部手法を公開",
+        "実際の検索に近いクエリ設計と意味的網羅性を両立",
+        "単発でなく同一条件での継続比較を重視する設計"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ahrefs.com/blog/wp-content/uploads/2025/10/ahrefs-brand-radar-methodology-how-we-by-rebekah-bek-product-blog.jpg"
+      }
+    },
+    {
+      "slug": "ahrefs-ai-visibility-audit",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/ahrefs-ai-visibility-audit.html",
+      "sourceUrl": "https://ahrefs.com/blog/ai-visibility-audit/",
+      "platforms": [
+        "google",
+        "chatgpt",
+        "other-ai"
+      ],
+      "viewpoint": "seller",
+      "theme": "measurement",
+      "source": "Ahrefs",
+      "date": "2025-10-30",
+      "title": "AI検索可視性監査の方法",
+      "bullets": [
+        "AI検索上のブランドの見え方を点検する監査手順をAhrefsが解説",
+        "表示回数だけでなく表現の正確性・評価のトーンも確認対象に",
+        "競合とのギャップから改善優先ページを特定する方法を紹介"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ahrefs.com/blog/wp-content/uploads/2025/10/ai-visibility-audit-how-to-measure-by-despina-gavoyannis-ai-search.jpg"
+      }
+    },
+    {
       "slug": "yahoo-ai-agent-shopping-experience",
       "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/yahoo-ai-agent-shopping-experience.html",
       "sourceUrl": "https://www.lycorp.co.jp/ja/story/20260820/yjshopping_ai.html",
