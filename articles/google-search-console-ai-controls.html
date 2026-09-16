@@ -15,10 +15,9 @@
     --ink-soft:#64748B;
     --line:#E2E8F0;
     --tint:#F8FAFC;
-    --c-ai:#2563EB;
-    --c-seo:#7C3AED;
-    --c-rakuten:#DC2626;
-    --c-yahoo:#D97706;
+    --c-visibility:#2563EB;
+    --c-optimization:#7C3AED;
+    --c-measurement:#DC2626;
     --maxw:760px;
     --jp:"Noto Sans JP","Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,system-ui,sans-serif;
   }
@@ -56,10 +55,10 @@
 
   .meta{display:flex;gap:8px;align-items:center;margin:0 0 12px;flex-wrap:wrap}
   .cat{font-size:11px;font-weight:700;padding:3px 9px;border-radius:999px;color:#fff}
-  .cat.ai{background:var(--c-ai)}
-  .cat.seo{background:var(--c-seo)}
-  .cat.rakuten{background:var(--c-rakuten)}
-  .cat.yahoo{background:var(--c-yahoo)}
+  .platform{font-size:11px;font-weight:700;color:var(--ink-soft)}
+  .cat.theme-visibility{background:var(--c-visibility)}
+  .cat.theme-optimization{background:var(--c-optimization)}
+  .cat.theme-measurement{background:var(--c-measurement)}
   .src,.date,.lang{font-size:12.5px;color:var(--ink-soft)}
   .lang{font-weight:700;padding:2px 7px;border-radius:4px;background:var(--tint)}
 
@@ -115,7 +114,8 @@
   <a class="thumb" href="https://blog.google/products-and-platforms/products/search/new-controls-website-owners/" target="_blank" rel="noopener"><img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/SocialShare_6_1.width-1300.jpg" alt="" loading="lazy"></a>
 
   <div class="meta">
-    <span class="cat seo">SEO</span>
+    <span class="cat theme-measurement">計測・分析</span>
+    <span class="platform">Google</span>
     <span class="src">Google公式ブログ</span>
     <span class="date">2026/06/03</span>
     <span class="lang">英語記事</span>
