@@ -3,6 +3,693 @@
   "schemaVersion": 2,
   "articles": [
     {
+      "slug": "yahoo-ai-agent-shopping-experience",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/yahoo-ai-agent-shopping-experience.html",
+      "sourceUrl": "https://www.lycorp.co.jp/ja/story/20260820/yjshopping_ai.html",
+      "platforms": [
+        "yahoo"
+      ],
+      "viewpoint": "buyer",
+      "theme": "visibility",
+      "source": "LINEヤフー株式会社",
+      "date": "2026-08-20",
+      "title": "Yahoo!ショッピング、AIエージェントで「買う」「売る」を支援する新体験を発表",
+      "bullets": [
+        "Yahoo!ショッピングは、商品を思いつく段階から配送後まで、買い物プロセス全体をAIで支援する機能群を発表した。",
+        "AIエージェント経由の取扱高比率は2026年7月時点で約20%に達しており、無視できない規模の購買がすでにこの経路を通っている。",
+        "商品比較機能、お得な購入日を提案する機能、手書き・音声メモを商品提案に変換する「お買い物メモ」機能などが新たな商品発見の入口として位置づけられている。",
+        "これらの機能はいずれもキーワード入力に頼らず、利用者の目的・文脈をAIが解釈して商品へつなげる設計になっている。",
+        "Yahoo!ショッピング内の購買導線が、検索窓への入力から会話・画像・メモへと多様化していることを示す発表である。"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://www.lycorp.co.jp/ja/story/shopping_ai_title.jpg"
+      }
+    },
+    {
+      "slug": "rakuten-super-sale-ai-experience",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/rakuten-super-sale-ai-experience.html",
+      "sourceUrl": "https://corp.rakuten.co.jp/news/press/2026/0602_01.html",
+      "platforms": [
+        "rakuten"
+      ],
+      "viewpoint": "buyer",
+      "theme": "visibility",
+      "source": "楽天グループ株式会社",
+      "date": "2026-06-02",
+      "title": "楽天市場、AI活用による「楽天スーパーSALE」のお買い物体験を強化",
+      "bullets": [
+        "AIコンシェルジュは、利用者が用途・予算を会話形式で伝えると、それに合ったセール対象商品を探して提示する。",
+        "ディスカバリーレコメンデーションは、閲覧履歴や興味関心に合わせて商品画像・動画・商品ページ情報までを推薦対象に含める。",
+        "いずれもキーワード検索を経由しない商品との出会いの経路であり、楽天市場はセール期間中もこの経路を積極的に拡張している。",
+        "セール時の商品露出が、検索結果の順位だけでなく、AIが提示する会話・レコメンド経由の露出にも左右される構造になっていることを示す発表である。"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://corp.rakuten.co.jp/assets/img/common/og_image_logo.png"
+      }
+    },
+    {
+      "slug": "openai-wayfair-catalog-accuracy",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/openai-wayfair-catalog-accuracy.html",
+      "sourceUrl": "https://openai.com/index/wayfair/",
+      "platforms": [
+        "chatgpt"
+      ],
+      "viewpoint": "seller",
+      "theme": "optimization",
+      "source": "OpenAI",
+      "date": "2026-03-11",
+      "title": "Wayfair、OpenAIでカタログ精度とサポート速度を改善",
+      "bullets": [
+        "Wayfairは家具・インテリアという商品クラスごとに異なる属性（素材・サイズ・スタイル等）の分類作業をAIで運用する体制を構築し、カタログ全体の品質を改善した。",
+        "この取り組みにより、250万件規模のプロダクトタグを修正した実績を持つ。",
+        "サプライヤーからの問い合わせ対応を自動化する仕組みと、商品データの品質を管理する仕組みを同じAI基盤の上で運用し、カタログ管理業務全体の効率化につなげている。"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://images.ctfassets.net/kftzwdyauwt9/2BwLsAc9CDgCMWPnvMG6zT/88486652ebb56e9410a9949bfb4938f8/oai_wayfair_SEO.png?w=1600&h=900&fit=fill"
+      }
+    },
+    {
+      "slug": "openai-powering-product-discovery-chatgpt",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/openai-powering-product-discovery-chatgpt.html",
+      "sourceUrl": "https://openai.com/index/powering-product-discovery-in-chatgpt/",
+      "platforms": [
+        "chatgpt"
+      ],
+      "viewpoint": "buyer",
+      "theme": "visibility",
+      "source": "OpenAI",
+      "date": "2026-03-24",
+      "title": "OpenAI、ChatGPTの商品発見を支える仕組みを解説",
+      "bullets": [
+        "ChatGPT内で、商品を画像で視覚的に探索する機能、複数商品を横並びで比較する機能、会話を通じて条件を絞り込んでいく機能を強化したことを明らかにした。",
+        "Agentic Commerce Protocolを通じて、加盟店から提供される商品フィードや販促情報をChatGPTの商品発見機能に取り込む仕組みを説明している。",
+        "Shopifyの加盟店については、Shopify Catalogとの連携によって商品データが会話内での表示精度を支えていると位置づけている。"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://images.ctfassets.net/kftzwdyauwt9/54zHAGljzaGUAL8FNoSXAV/a2dda4a62fccf740c4717bf1afac17eb/Shopping-SEO-1200x630.png?w=1600&h=900&fit=fill"
+      }
+    },
+    {
+      "slug": "openai-merchant-feed-terms",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/openai-merchant-feed-terms.html",
+      "sourceUrl": "https://openai.com/policies/merchant-feed-terms-of-service/",
+      "platforms": [
+        "chatgpt"
+      ],
+      "viewpoint": "seller",
+      "theme": "optimization",
+      "source": "OpenAI",
+      "date": "2026-06-15",
+      "title": "OpenAI、Merchant Feed利用規約を公開",
+      "bullets": [
+        "加盟店は商品コンテンツ（価格、在庫、仕様、画像等を含む商品フィード）をOpenAIへ提供できる旨を定めた。",
+        "提供する商品データは、OpenAIが定める「Product Feed Spec」という形式仕様に従う必要があると明記している。",
+        "フィードに含まれる内容の正確性や、そのデータを提供する主体としての責任が加盟店側にあることを明確化している。"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://images.ctfassets.net/kftzwdyauwt9/7EQeVi3fOTDtyh524IX4qX/ce70dbc4e896b0447dc652df806cfb5d/Frame-1.png?w=1600&h=900&fit=fill"
+      }
+    },
+    {
+      "slug": "openai-commerce-policies",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/openai-commerce-policies.html",
+      "sourceUrl": "https://openai.com/policies/commerce-policies/",
+      "platforms": [
+        "chatgpt"
+      ],
+      "viewpoint": "seller",
+      "theme": "measurement",
+      "source": "OpenAI",
+      "date": "2026-06-24",
+      "title": "OpenAI、コマースポリシーを公開",
+      "bullets": [
+        "ChatGPT上のコマース機能で取り扱いを認めない商品・サービスの範囲を定め、加盟店側が負う責任を明文化した。",
+        "ポリシーの適用対象を、商品フィードのデータそのものだけでなく、加盟店のアカウント運用やリンク先のWebページの内容にまで広げている。",
+        "これにより、商品がAI上でどれだけ露出したかを計測する以前の段階として、そもそも掲載を継続できる適合性を満たしているかどうかを、店舗側が自ら点検できる基準が明確になった。"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://images.ctfassets.net/kftzwdyauwt9/4cRQViGMim2kzoeBqEMiJb/42b81747b2e65e236280946fe9fe0916/Frame-1.png?w=1600&h=900&fit=fill"
+      }
+    },
+    {
+      "slug": "openai-chatgpt-shopping-research",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/openai-chatgpt-shopping-research.html",
+      "sourceUrl": "https://openai.com/index/chatgpt-shopping-research/",
+      "platforms": [
+        "chatgpt"
+      ],
+      "viewpoint": "buyer",
+      "theme": "visibility",
+      "source": "OpenAI",
+      "date": "2025-11-24",
+      "title": "OpenAI、ChatGPTのショッピングリサーチ機能を発表",
+      "bullets": [
+        "利用者が予算・用途・こだわり条件などを会話で伝えると、ChatGPTがそれを踏まえた比較ガイドを自動でまとめて提示する機能を公開した。",
+        "比較ガイドの作成にあたっては、価格・在庫状況・仕様・商品画像をWeb上から収集し、調査の途中で利用者からのフィードバックを受けて候補の絞り込みを調整する仕組みになっている。",
+        "OpenAI自身が、生成された比較内容には誤りが含まれる可能性があることを明示し、購入前に実際の商品ページで最終確認するよう利用者に促している。"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://images.ctfassets.net/kftzwdyauwt9/6GMdWQXwjX6584WneE1LFi/2a78299daa3b337a9530ab231f857532/Shopping_Research-ArtCard-16x9.png?w=1600&h=900&fit=fill"
+      }
+    },
+    {
+      "slug": "google-ucp-ai-tools-retailers",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/google-ucp-ai-tools-retailers.html",
+      "sourceUrl": "https://blog.google/products-and-platforms/products/shopping/shopping-updates-google-marketing-live/",
+      "platforms": [
+        "google"
+      ],
+      "viewpoint": "seller",
+      "theme": "optimization",
+      "source": "Google",
+      "date": "2026-05-20",
+      "title": "Google、UCPとAIツールで小売事業者のAI検索対応を支援",
+      "bullets": [
+        "Search・Gemini・Maps等のGoogle各サービス上で複数のリテイラーを横断して買い物できる「Universal Cart」を発表し、初期対応ブランドとしてNike、Sephora、Target、Ulta Beauty、Walmart、Wayfair、FentyのほかShopify加盟店のSteve Maddenが名を連ねた。",
+        "決済面では、Google Pay経由のチェックアウトに加え、AffirmとKlarnaによる後払いオプションを統合した。",
+        "UCP対応チェックアウトはカナダ・オーストラリアで数ヶ月以内に、イギリスでも後日ロールアウトする計画で、Merchant Center側の機能もグローバルに順次提供する。",
+        "ホテル予約をAI Mode内の検索から直接行えるようにし、食品配達もGoogle Mapsの会話機能から注文できるよう対応カテゴリを拡張した。",
+        "Merchant Centerに、ブランドがAI面でどれだけ露出しているかを可視化する「AI Performance Insights」、AIアシスタント機能「Ask Advisor」、会話的な検索に合わせて商品説明を更新できる「Conversational Attributes」を追加した。"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/commerce_social.width-1300.png"
+      }
+    },
+    {
+      "slug": "google-seo-is-good-geo",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/google-seo-is-good-geo.html",
+      "sourceUrl": "https://business.google.com/uk/think/search-and-video/ai-search-era-brand-authority-strategy/",
+      "platforms": [
+        "google"
+      ],
+      "viewpoint": "seller",
+      "theme": "measurement",
+      "source": "Google",
+      "date": "2026-06-01",
+      "title": "Google、「良いSEOは良いGEOである」と説明",
+      "bullets": [
+        "従来のSEOへの投資は無駄にならず、「AI成功の発射台」としてそのまま機能すると位置づけている。",
+        "キーワード詰め込みやスニペット分割といった検索エンジン向けの不自然な最適化はもはや不要であり、むしろ避けるべきだと明言している。",
+        "汎用的な「ベスト10」記事ではなく、第一人称の専門知識や実体験に基づくユニークなコンテンツが競争優位になるとしている。",
+        "デバイス対応・表示速度・メインコンテンツの明確さといった良いWeb体験の基本は、AI検索時代でも継続的に重要だとしている。",
+        "Search ConsoleにAI機能経由の表示回数を示す新しいパフォーマンスレポートを、Merchant Centerに生成AI面での商品リスティング表示を可視化するレポートを、それぞれ順次展開している。",
+        "第三者ツールによる推定スコアを唯一の指標にせず、リード・売上・登録といった自社の事業目標を効果測定の中心に据えるべきだとしている。事例としてLufthansa Group、Etsy、Royal Caninの名前が挙げられている。"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://www.gstatic.com/marketing-cms/assets/images/ads/50/e9/97caedcb4bb7ac5db64e49f15aa7/twg-us-2832-5-conversations-im-having-with-cmos-daily-on-seo-for-ai-search-inline.webp=n-w800-h421-fcrop64=1,00000000ffffffff"
+      }
+    },
+    {
+      "slug": "google-retail-ai-merchant-data",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/google-retail-ai-merchant-data.html",
+      "sourceUrl": "https://blog.google/products/ads-commerce/retail-sales-ai/",
+      "platforms": [
+        "google"
+      ],
+      "viewpoint": "seller",
+      "theme": "optimization",
+      "source": "Google",
+      "date": "2026-04-08",
+      "title": "Google、「AIが小売を変える中で事業者が取るべき対応」を解説",
+      "bullets": [
+        "AI Mode内の会話型ショッピング、仮想試着機能、YouTubeなどのショッパブルCTVという3つの新しい買い物体験は、いずれもGoogleに提供されるMerchant Centerの商品データという同じ基盤の上で動作している。",
+        "Merchant Centerフィードが不完全・不整合であれば、これらAI駆動の体験のいずれにおいても顧客は商品自体を見つけられないと明言されている。",
+        "登壇者らは、AIの新機能に個別対応する前に、商品データという基本的な業務プロセスを正確に実行することが売上成長の前提条件になると強調している。"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Decoded_Podcast_-_Thumbnail_-_S1E6.max-1440x810.jpg"
+      }
+    },
+    {
+      "slug": "google-preferred-sources-ai-search",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/google-preferred-sources-ai-search.html",
+      "sourceUrl": "https://blog.google/products-and-platforms/products/search/original-high-quality-content-search/",
+      "platforms": [
+        "google"
+      ],
+      "viewpoint": "buyer",
+      "theme": "visibility",
+      "source": "Google",
+      "date": "2026-05-27",
+      "title": "Google、AI検索で好みの情報源と一次情報を見つける新機能を追加",
+      "bullets": [
+        "Preferred Sources機能では、利用者が検索パーソナライゼーション設定から自分の好きな情報源を登録でき、これまでに合計34万5,000件を超えるユニークな情報源が登録されている。",
+        "Preferred Sourcesとして登録されたサイトへのクリック率は、登録前と比べて2倍になったというデータが示された。",
+        "速報性の高いトピックでは、オンラインの議論・フォーラム・SNSの視点を紹介する専用カルーセルを新設し、その中でもPreferred Sourcesがハイライト表示される。",
+        "多くの記事から引用されている元記事を識別する「Highly Cited」バッジを新設し、オリジナルの調査報道や影響力の大きい記事を見つけやすくした。"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Preferred_Sources_social.width-1300.png"
+      }
+    },
+    {
+      "slug": "google-omnichannel-retail-ai-readiness",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/google-omnichannel-retail-ai-readiness.html",
+      "sourceUrl": "https://business.google.com/en-all/think/ai-excellence/ominchannel-retail-report-2026-nordics-benelux/",
+      "platforms": [
+        "google"
+      ],
+      "viewpoint": "seller",
+      "theme": "optimization",
+      "source": "Google / Impact Commerce",
+      "date": "2026-05-01",
+      "title": "Google、北欧・ベネルクスの小売業者がAI対応できていない理由を調査",
+      "bullets": [
+        "調査は北欧・ベネルクス6か国、373の小売ブランドを対象に、27,600件超のデータポイントを分析して行われた。",
+        "【発見1】商品ページがAIエージェントに読み取れる形（構造化データ）で整備されているブランドは42%にとどまり、画像を使ったビジュアル検索に対応できているブランドはわずか3%だった。",
+        "【発見2】顧客データを収集しているブランドは77%に上る一方、そのデータを実際にチャネルをまたいだ顧客対応（他チャネルでのパーソナライズ化など）に活用できているブランドは27%に過ぎず、「集めているが使えていない」という50ポイント分のギャップが存在する。",
+        "【発見3】多くのブランドのデジタル上の商品情報は「購入の意思決定を後押しする」よりも「決済手続きを完了させる」ことに偏って設計されており、AIが購入検討を支援する土台として機能していないケースが多い。",
+        "Googleは対策として、(1)商品フィード・画像を機械可読な形に整える「データハイジーン」の徹底、(2)あるチャネルでの顧客行動が別チャネルのパーソナライズにどれだけ速く反映されるかを計測すること、(3)自社のデジタル上の商品情報が「意思決定の支援」になっているか「決済の効率化」に留まっているかを点検すること、の3点を推奨している。",
+        "Merchant Excellence reportなどの既存ツールを使い、商品フィードの欠損を定期的に点検することも合わせて提案されている。"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://www.gstatic.com/marketing-cms/assets/images/ads/af/4d/d626626c4a8c9a9a892ed4d178e4/twg-ne-3377-omnichannel-report-inlines-4.webp=n-w794-h274-fcrop64=1,00000000ffffffff"
+      }
+    },
+    {
+      "slug": "google-explore-web-generative-ai-search",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/google-explore-web-generative-ai-search.html",
+      "sourceUrl": "https://blog.google/products-and-platforms/products/search/explore-web-generative-ai-search/",
+      "platforms": [
+        "google"
+      ],
+      "viewpoint": "buyer",
+      "theme": "visibility",
+      "source": "Google",
+      "date": "2026-05-06",
+      "title": "Google、生成AI検索でWebを探索する5つの新機能を追加",
+      "bullets": [
+        "回答の末尾に「さらに詳しく知る」リンクを追加し、テーマの異なる側面を深掘りした記事へ誘導する（例: 「緑地」の調査からソウルの清渓川復元事業やニューヨークのハイラインの記事へ）。",
+        "パブリッシャーがGoogleのフォーム経由で自社の購読導線をリンクできるようにし、テスト時点で「購読」ラベル付きリンクは通常のリンクより有意にクリックされやすいという結果が出ている。",
+        "SNSやフォーラムなど一次情報の発信者を投稿者名やコミュニティ名つきで表示する「コミュニティの視点」プレビューを追加した。",
+        "回答本文の該当箇所のすぐ隣にリンクを配置する「インラインリンク」を導入し、文脈と関連づけてリンク先が分かるようにした（例: 走行ルートの地形説明の隣にツーリングガイドへのリンク）。",
+        "デスクトップでリンクにカーソルを合わせると、サイト名とページタイトルがプレビュー表示され、遷移前に行き先が分かるようにした。"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/5_Ways_to_Explore_Web_with_Gen_AI_ss.width-1300.png"
+      }
+    },
+    {
+      "slug": "google-digital-advertising-commerce-2026",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/google-digital-advertising-commerce-2026.html",
+      "sourceUrl": "https://blog.google/products/ads-commerce/digital-advertising-commerce-2026/",
+      "platforms": [
+        "google"
+      ],
+      "viewpoint": "seller",
+      "theme": "measurement",
+      "source": "Google",
+      "date": "2026-02-03",
+      "title": "Google、2026年のデジタル広告・コマースの見通しを発表",
+      "bullets": [
+        "2025年に立ち上げたAgent Payments Protocol（AP2）に続き、複数の小売事業者を横断して安全な購入プロセスを実現するUniversal Commerce Protocol（UCP）を展開し、AI Mode上のUCP対応チェックアウトはEtsyとWayfairで先行提供、Shopify・Target・Walmartが今後対応予定であることを明らかにした。",
+        "AI Modeに、インスピレーション（きっかけ）と購入行動を組み合わせた新しい広告フォーマットを導入し、オーガニックな買い物提案と並んで表示されるスポンサー付き小売フォーマットを追加した。",
+        "購入の決め手となる瞬間にブランドが個別のオファーを提示できる「Direct Offers」機能を発表し、旅行など他カテゴリへも展開範囲を広げる方針を示した。",
+        "Gemini 3を活用したAI MaxおよびPerformance Maxが2025年第4四半期だけで7,000万件のクリエイティブ素材を生成し、Gemini生成素材は前年比3倍に増加した。AI Maxは広告主にとって「数十億件規模の新規検索」を開拓したとしている。",
+        "YouTube上でブランドと相性の良いクリエイターを自動でマッチングする新ツール「Open Call」を発表し、クリエイターパートナーシップの構築を効率化するとした。"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Retouched_Final-social.width-1300.png"
+      }
+    },
+    {
+      "slug": "google-ai-mode-updates-search-io",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/google-ai-mode-updates-search-io.html",
+      "sourceUrl": "https://blog.google/products-and-platforms/products/search/search-io-2026/",
+      "platforms": [
+        "google"
+      ],
+      "viewpoint": "buyer",
+      "theme": "visibility",
+      "source": "Google",
+      "date": "2026-05-19",
+      "title": "Google、「A new era for AI Search」でAI Modeの新機能を発表",
+      "bullets": [
+        "AI Modeは月間10億ユーザーを突破し、約98言語・200近い国と地域で提供されている。クエリ数は四半期ごとに2倍以上のペースで増加し、直近の四半期では過去最高を記録した。",
+        "検索ボックスを「過去25年以上で最大のアップグレード」としてマルチモーダル対応に刷新し、テキストだけでなく画像・動画・ファイル・Chromeタブを入力として扱えるようにした。",
+        "AI Modeの既定モデルをGemini 3.5 Flashに切り替え、エージェント的な処理やコーディング関連の応答にも対応した。",
+        "Google AI Pro/Ultra契約者向けに、情報収集を代行する「Search Agents」や、予約・地元サービスの手配を代行するエージェント機能を夏にローンチする計画を示した。",
+        "ダッシュボードやカスタムUIをその場で生成する「Agentic Coding」機能を数ヶ月内にGoogle AI Pro/Ultra契約者から順次展開する。",
+        "個人の文脈を踏まえて回答する「Personal Intelligence」機能を、サブスクリプション不要で世界的に利用可能にした。"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Search_AI_and_search_engine_v46_16x9_1.width-1300.jpg"
+      }
+    },
+    {
+      "slug": "google-ai-mode-seamless-search",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/google-ai-mode-seamless-search.html",
+      "sourceUrl": "https://blog.google/products-and-platforms/products/search/ai-mode-ai-overviews-updates/",
+      "platforms": [
+        "google"
+      ],
+      "viewpoint": "buyer",
+      "theme": "visibility",
+      "source": "Google",
+      "date": "2026-01-27",
+      "title": "Google、AI Overviewから会話を続けられる新しい検索体験を発表",
+      "bullets": [
+        "AI Overviewの要約から追質問を投げかけると、文脈を保ったままAI Modeとの会話に移行できるようになった（モバイルで世界展開）。",
+        "AI Overviewの既定モデルをGemini 3に切り替え、検索結果ページ上での回答品質を底上げした。",
+        "Googleは今回の狙いを「必要なときは一目で分かる要約、望むときは深い会話」の両立と説明しており、短い一問一答から深い比較検討までを1つの流れでつなぐ設計である。",
+        "社内検証では、文脈を維持したまま追質問できる体験の方が、検索をやり直す体験より高く評価されたことが更新の根拠になっている。"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Seamless-Search---Blog-social.width-1300.png"
+      }
+    },
+    {
+      "slug": "google-ai-max-turns-one",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/google-ai-max-turns-one.html",
+      "sourceUrl": "https://blog.google/products/ads-commerce/ai-max-new-features/",
+      "platforms": [
+        "google"
+      ],
+      "viewpoint": "seller",
+      "theme": "optimization",
+      "source": "Google",
+      "date": "2026-04-30",
+      "title": "Google、AI Max 1周年で成果を制御する新機能を追加",
+      "bullets": [
+        "AI Maxは提供開始から1年で、Google広告の中で最も急速に成長しているAI駆動型検索広告製品になったとしている。",
+        "対応範囲をショッピングキャンペーンと旅行関連の広告フォーマットにまで拡大した。",
+        "Geminiを搭載した新ツール「AI Brief」により、「価格を言及しない」といったメッセージガイドライン、「健康的な食品検索を優先」といったマッチングガイドライン、ターゲット顧客層別のオーディエンスガイドラインという3つの領域を自社の言葉でAIに指示できるようになった。",
+        "規制業界向けに、最終URL拡張（FUE）を使いながらも必須の免責事項テキストを確実に表示できる新機能を追加した。",
+        "具体的な成果指標（増加率や件数）はこの発表には記載されておらず、あくまで機能拡張の発表にとどまっている。"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_Max_Road_to_GML_Master-Header-4.width-1300.png"
+      }
+    },
+    {
+      "slug": "google-ai-max-shopping-campaigns",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/google-ai-max-shopping-campaigns.html",
+      "sourceUrl": "https://blog.google/products/ads-commerce/ai-max-for-shopping/",
+      "platforms": [
+        "google"
+      ],
+      "viewpoint": "seller",
+      "theme": "optimization",
+      "source": "Google",
+      "date": "2026-04-30",
+      "title": "Google、AI MaxでShoppingキャンペーンを現代の検索へ適応",
+      "bullets": [
+        "Merchant Centerフィードにある素材の柔らかさ・耐久性・フィット感といった情報を使い、会話型の検索クエリに応える広告コピーを自動生成する「テキストカスタマイズ」機能を導入した。",
+        "ショッパーの検索意図に最も関連するランディングページを自動選択する「最終URL拡張（FUE）」機能を追加した。必要に応じてオフにもできる。",
+        "テキスト広告かショッピング広告か、状況に応じて最適な広告フォーマットをAIが自動判定する機能も加えた。",
+        "既存のShoppingキャンペーンを使っている広告主は、ワンクリックでAI Max for Shoppingへアップグレードできる。",
+        "これまで通りの商品ターゲティングコントロールや入札の柔軟性は維持されており、既存の運用と両立できる設計になっている。"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Shopping_x_AI_Max_Road_to_GML_Master-Header.max-1440x810.png"
+      }
+    },
+    {
+      "slug": "amazon-trending-products-2026",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/amazon-trending-products-2026.html",
+      "sourceUrl": "https://sell.amazon.com/blog/products-to-sell",
+      "platforms": [
+        "amazon"
+      ],
+      "viewpoint": "seller",
+      "theme": "measurement",
+      "source": "Amazon",
+      "date": "2026-01-16",
+      "title": "Amazon、2026年にオンラインで販売する高需要・トレンド商品を紹介",
+      "bullets": [
+        "米国の独立系出品者は2024年に平均29万ドルを超える売上を達成しているというデータを示している。",
+        "紹介された18商品の例として、サージプロテクタ、Crocs、ニキビケアパッチ「Mighty Patch」（グローバルで14万件以上の評価、うち約90%が星4つ以上）、水筒「Stanley Quencher」、プロテイン「Optimum Nutrition Gold Standard」などを挙げている。",
+        "そのほかキッチン・ベビー・ペット用品から家電・電子機器アクセサリーまで幅広いカテゴリの商品を紹介している。",
+        "商品選定には「Product Opportunity Explorer」「Growth Opportunities」に加え、Amazon外のツールである「Google Trends」も併用することを勧めている。",
+        "選定後も「競争力のある価格設定」「リスト最適化」「迅速な配送」「広告戦略」の4点を継続的に見直す必要があるとしている。"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://cdn.sell2.brightspotcdn.com/dims4/default/216d88d/2147483647/strip/true/crop/1000x486+0+157/resize/1440x700!/quality/90/?url=https%3A%2F%2Fsell2-production-sell2.s3.us-west-2.amazonaws.com%2Fbrightspot%2F9f%2F95%2F7c1f4deb4243b32bdc86204f8b9a%2Ftrending-products.jpg"
+      }
+    },
+    {
+      "slug": "amazon-seller-assistant-agentic-ai",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/amazon-seller-assistant-agentic-ai.html",
+      "sourceUrl": "https://www.aboutamazon.com/news/innovation-at-amazon/seller-assistant-agentic-ai",
+      "platforms": [
+        "amazon"
+      ],
+      "viewpoint": "seller",
+      "theme": "measurement",
+      "source": "Amazon",
+      "date": "2025-09-17",
+      "title": "Amazon、出品者体験にエージェント型AIを導入",
+      "bullets": [
+        "独立系出品者がAmazon店舗売上の60%以上を占め、2024年の売上は2.5兆ドルに達しており、出品者支援AIへの投資が事業規模に見合ったものになっている。",
+        "「Intelligent Inventory Optimization」がFBA在庫管理を自動化し、「Proactive Account Health Management」がアカウント状態を継続監視する。",
+        "「Automated Compliance Navigation」が製品安全規制への対応を支援し、「Enhance My Listing」が商品説明文を自動改善する。",
+        "AI活用の広告制作機能「Creative Studio」は制作にかかる時間を数週間から数時間に短縮し、あるセラーの父の日キャンペーン活用例ではクリック率が338%、ROIが121%それぞれ増加した。",
+        "販売者が全業務を自分一人で処理する体制から、24時間稼働するAIアシスタントと協働する体制へのシフトを掲げており、現在は米国向けに提供開始、今後他国へ展開予定としている。"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://assets.aboutamazon.com/dims4/default/74cf576/2147483647/strip/true/crop/1600x800+0+50/resize/1200x600!/quality/90/?url=https%3A%2F%2Fassets.aboutamazon.com%2F77%2F26%2Fecebc82c426a8d85505206e8fe48%2Fnew-hero.png"
+      }
+    },
+    {
+      "slug": "amazon-rufus-smarter-shopping-assistant",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/amazon-rufus-smarter-shopping-assistant.html",
+      "sourceUrl": "https://www.aboutamazon.com/news/retail/amazon-rufus-ai-assistant-personalized-shopping-features",
+      "platforms": [
+        "amazon"
+      ],
+      "viewpoint": "buyer",
+      "theme": "visibility",
+      "source": "Amazon",
+      "date": "2025-11-13",
+      "title": "Amazon、AIショッピングアシスタント「Rufus」を高度化",
+      "bullets": [
+        "Rufusの利用者は2億5,000万人を超え、月間平均ユーザー数は前年比149%増、インタラクション数は前年比210%増と急拡大している。",
+        "Rufus利用者は非利用者に比べて購入確率が60%以上高く、自動購入機能では平均20%の節約を実現しているとしている。",
+        "基盤技術にはAmazon BedrockやClaude Sonnet、Amazon Novaが使われ、ニューヨーク・タイムズなど外部情報も検索拡張生成（RAG）で組み合わせて回答を作る。",
+        "目的・利用場面から商品を選べる「Help Me Decide」、購入代行の「Buy for Me」「Shop Direct」、ライブ映像で検索できる「Amazon Lens Live」など50以上の新機能を追加した。",
+        "今後数か月以内に、Kindle・Prime Video・Audibleなどサービス横断的な利用履歴も踏まえたパーソナライズ機能の実装を予定している。"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://assets.aboutamazon.com/dims4/default/2328b3a/2147483647/strip/true/crop/2000x1000+0+51/resize/1200x600!/quality/90/?url=https%3A%2F%2Fassets.aboutamazon.com%2F2d%2Fe4%2Fe3fcb64e41718766601f96d0ddc2%2Frufus-pr-hero-v2.jpg"
+      }
+    },
+    {
+      "slug": "amazon-product-listings-guide",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/amazon-product-listings-guide.html",
+      "sourceUrl": "https://sell.amazon.com/blog/amazon-product-listings",
+      "platforms": [
+        "amazon"
+      ],
+      "viewpoint": "seller",
+      "theme": "optimization",
+      "source": "Amazon",
+      "date": "2026-04-29",
+      "title": "Amazon、商品リスティングの作成方法を解説",
+      "bullets": [
+        "出品には月額固定費のかからないIndividualプラン（1商品あたり0.99ドル）と、月額39.99ドルのProfessionalプランの2種類があり、新規出品者向けに5万ドル規模のクレジット・ボーナスも用意されている。",
+        "リスティング作成は「GTIN・商品IDで商品を検索」「説明・画像・価格などの商品情報を入力」「下書き保存または投稿」という3ステップで進める。",
+        "Fulfillment by Amazon（FBA）を使うと配送・返品・カスタマーサービスをAmazon側に任せられる。",
+        "Brand Registryでブランド保護と専用ツールが使えるようになり、A+ Contentで動画・画像による訴求を強化し、Brand Analyticsで検索キーワードの傾向を分析できる。",
+        "Amazon Vineを使えば信頼できるレビュアーに商品を無償提供し、初期レビューを獲得できる。",
+        "生成AI機能により、説明文やタイトル作成を自動支援するサービスも用意されている。"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://cdn.sell2.brightspotcdn.com/dims4/default/eaf975e/2147483647/strip/true/crop/1420x690+0+175/resize/1440x700!/quality/90/?url=https%3A%2F%2Fsell2-production-sell2.s3.us-west-2.amazonaws.com%2Fbrightspot%2F0d%2F3d%2Fb35681654a9facb4657a56c2aac0%2Flist-new-products.jpg"
+      }
+    },
+    {
+      "slug": "amazon-new-product-success-tips",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/amazon-new-product-success-tips.html",
+      "sourceUrl": "https://sell.amazon.com/blog/new-product-success",
+      "platforms": [
+        "amazon"
+      ],
+      "viewpoint": "seller",
+      "theme": "measurement",
+      "source": "Amazon",
+      "date": "2026-01-06",
+      "title": "Amazon、新商品の立ち上げと拡大を速めるヒントを解説",
+      "bullets": [
+        "FBA（フルフィルメント by Amazon）による配送は、他の配送業者と比べてコストを最大70%削減できるとしている。",
+        "マルチチャネルフルフィルメント（MCF）とFBAを併用すると、在庫切れ率が19%改善し、在庫回転率も12%改善するというデータを示している。",
+        "新規出品者向けに5万ドル以上のセラークレジット・ボーナス・特典が用意されている。",
+        "開発段階では「Product Opportunity Explorer」で需要データと競合分析を行い、投入段階では「Amazon Brand Analytics」で顧客データを、「A+ Content」で比較表や動画による訴求を強化する。",
+        "「Amazon Vine」を使えば最大30件の高品質なレビューを立ち上げ初期から獲得でき、Sponsored Productsによるクリック課金型広告と組み合わせて販売段階の露出を作る。"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://cdn.sell2.brightspotcdn.com/dims4/default/41b8749/2147483647/strip/true/crop/1991x968+0+508/resize/1440x700!/quality/90/?url=https%3A%2F%2Fsell2-production-sell2.s3.us-west-2.amazonaws.com%2Fbrightspot%2Fa9%2Fa2%2Fabb1b0fb4acdb67ed1e4a26eb740%2Fpackage-in-cart-illu.jpg"
+      }
+    },
+    {
+      "slug": "amazon-listing-ai-guide",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/amazon-listing-ai-guide.html",
+      "sourceUrl": "https://sell.amazon.com/blog/amazon-listing-ai",
+      "platforms": [
+        "amazon"
+      ],
+      "viewpoint": "seller",
+      "theme": "optimization",
+      "source": "Amazon",
+      "date": "2025-11-03",
+      "title": "Amazon、AIで商品リスティングを作成する方法を解説",
+      "bullets": [
+        "AI活用によりリスティング全体の品質が40%向上したというデータを示している。",
+        "必要な商品属性の70%以上をAIが自動生成できるとしている。",
+        "「Add Products」機能は商品ID・画像・URLからリスティング内容を自動生成し、スプレッドシートによる一括作成にも対応する。",
+        "A+ Content Managerはカテゴリ内の上位商品の傾向を踏まえ、ブランド向けにテキストと画像を自動生成する。",
+        "基本的なA+コンテンツの導入で売上が最大8%、高度な実装では最大20%増加する可能性があるとしている。",
+        "AIが生成した内容についても、出品者が正確性・完全性・規約適合性を最終確認する責任を負うと明記している。"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://cdn.sell2.brightspotcdn.com/dims4/default/3b91c2e/2147483647/strip/true/crop/1420x690+0+118/resize/1440x700!/quality/90/?url=https%3A%2F%2Fsell2-production-sell2.s3.us-west-2.amazonaws.com%2Fbrightspot%2Fb8%2F3c%2Fa8013d0441e1a144400978bdad6f%2Fai-illustration.jpg"
+      }
+    },
+    {
+      "slug": "amazon-fba-fees-guide",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/amazon-fba-fees-guide.html",
+      "sourceUrl": "https://sell.amazon.com/blog/fba-fees-guide",
+      "platforms": [
+        "amazon"
+      ],
+      "viewpoint": "seller",
+      "theme": "measurement",
+      "source": "Amazon",
+      "date": "2026-07-24",
+      "title": "Amazon、FBA手数料を理解して利益を最大化する方法を解説",
+      "bullets": [
+        "FBA費用は「販売手数料」「出荷・保管費用」「返品・長期在庫の費用」などに分かれ、商品のサイズ・重量・季節（繁忙期か否か）によって金額が変わる。",
+        "FBA DashboardとInventory Performance dashboardを使うことで、在庫水準や保管コストの状況を継続的に確認でき、過剰在庫を未然に防げるとしている。",
+        "Revenue Calculatorを使えば、配送方法（FBA・自己発送など)ごとに手数料と純利益の差を事前に試算できる。",
+        "Fee Preview reportやPayments dashboardを併用することで、実際に確定した手数料と事前の見積もりの差異を商品単位で確認できる。",
+        "Amazonはこれらのツールを組み合わせて使うことで、単に売上を伸ばすだけでなく「商品ごとの実際の利益率」を継続的に管理する運用を推奨している。"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://cdn.sell2.brightspotcdn.com/dims4/default/40216a2/2147483647/strip/true/crop/1500x1200%2B0%2B0/resize/500x400%21/quality/90/?url=https%3A%2F%2Fsell2-production-sell2.s3.us-west-2.amazonaws.com%2Fbrightspot%2Fd0%2F45%2F0dd484b94c35923142783cd5b6a7%2Ffba-fees.png"
+      }
+    },
+    {
+      "slug": "amazon-customer-reviews-social-proof",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/amazon-customer-reviews-social-proof.html",
+      "sourceUrl": "https://sell.amazon.com/blog/customer-reviews-social-proof",
+      "platforms": [
+        "amazon"
+      ],
+      "viewpoint": "seller",
+      "theme": "measurement",
+      "source": "Amazon",
+      "date": "2026-08-18",
+      "title": "Amazon、カスタマーレビューで事業を成長させる方法を解説",
+      "bullets": [
+        "レビューがゼロの状態からわずか5件つくだけで、転換率が約270%上昇するというデータが示されている。",
+        "星5つの満点評価よりも、星4.2〜4.5の範囲の商品の方が転換率が高いという結果が出ており、「完璧さより不完全さが信頼を構築する」としている。",
+        "米国の独立系出品者のうち1万1,000以上が2025年に売上を10倍以上に伸ばしており、レビューを含む改善サイクルの効果が数字として表れている。",
+        "3〜4文程度で具体性・文脈・明確な結果を示すレビューが最も購買への影響力が大きいとしている。",
+        "Customer Reviewsツールで全商品のレビューを一元管理し、Customer Review Insightsで複数商品にまたがる傾向を分析し、Amazon Vineで信頼できるレビュアーから初期レビューを獲得する、という3段階の活用法を示す。",
+        "低評価は「無料の市場調査」として扱い、競合商品のレビューから自社商品の改善点を見つける発想も提案している。"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://cdn.sell2.brightspotcdn.com/dims4/default/94ff461/2147483647/strip/true/crop/2500x2000%2B500%2B0/resize/500x400%21/quality/90/?url=https%3A%2F%2Fsell2-production-sell2.s3.us-west-2.amazonaws.com%2Fbrightspot%2Fc4%2Fea%2Fd830e5db43e5b55609bda3bf76cd%2Fcustomer-segment-insitu.jpg"
+      }
+    },
+    {
+      "slug": "amazon-calculate-profit-margins",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/amazon-calculate-profit-margins.html",
+      "sourceUrl": "https://sell.amazon.com/blog/calculate-profit-margins",
+      "platforms": [
+        "amazon"
+      ],
+      "viewpoint": "seller",
+      "theme": "measurement",
+      "source": "Amazon",
+      "date": "2026-07-27",
+      "title": "Amazon、EC商品の利益率を計算する方法を解説",
+      "bullets": [
+        "粗利益率は「(売上−商品原価)÷売上×100」、営業利益率は「(売上−商品原価−営業費用)÷売上×100」、純利益率は「純利益÷売上×100」という3つの式で商品単位に分けて計算する。",
+        "販売価格35ドルのステンレス製水筒を例に、粗利益率67.1%、営業利益率25%、純利益率20.7%という具体的な試算を示している。",
+        "カテゴリ別の目安として、衣料品・ファッションは粗利益率45〜65%・純利益率10〜15%、美容・ケア用品は粗利益率60〜80%・純利益率15〜25%、電子機器は粗利益率15〜30%・純利益率5〜10%、デジタル商品は粗利益率80〜95%・純利益率40〜70%という水準を挙げている。",
+        "利益率改善の方法として、商品原価の交渉、価値ベース価格設定、平均注文額の引き上げ、配送・フルフィルメント費用の削減、低利益率商品の削除、顧客リテンション投資、業務の自動化という7つの戦略を提示している。",
+        "Revenue Calculatorを使えば、配送方法ごとの販売手数料・フルフィルメント費用を事前に試算し、価格設定や配送方法の選択に反映できるとしている。"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://cdn.sell2.brightspotcdn.com/dims4/default/a772a7f/2147483647/strip/true/crop/750x600%2B0%2B1/resize/500x400%21/quality/90/?url=https%3A%2F%2Fsell2-production-sell2.s3.us-west-2.amazonaws.com%2Fbrightspot%2Fe8%2F31%2F73e046664dada478b96086d5358d%2Fframe-2147205941.jpg"
+      }
+    },
+    {
+      "slug": "amazon-alexa-for-shopping",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/amazon-alexa-for-shopping.html",
+      "sourceUrl": "https://www.aboutamazon.com/news/retail/alexa-for-shopping-ai-assistant",
+      "platforms": [
+        "amazon"
+      ],
+      "viewpoint": "buyer",
+      "theme": "visibility",
+      "source": "Amazon",
+      "date": "2026-05-13",
+      "title": "Amazon、パーソナライズ型AIアシスタント「Alexa for Shopping」を発表",
+      "bullets": [
+        "RufusとAlexa+を統合し、検索バーや数億台のAlexa対応デバイスから使える買い物AI「Alexa for Shopping」を提供する。",
+        "Prime会員でなくても、Echo端末を持っていなくても、全Amazon顧客がアプリ・ウェブサイトから無料で利用できるようになった。",
+        "過去1年分の価格履歴表示、数億点の商品を対象にした複数商品の並べ比較、AI生成サマリーを検索結果・商品詳細ページの両方に表示する。",
+        "「Scheduled Actions」による条件付きの定期購入設定、指定条件を満たしたときの自動購入（Auto Buying）、他小売店の商品も購入代行する「Shop Direct」に対応する。"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://assets.aboutamazon.com/dims4/default/8736259/2147483647/strip/true/crop/2000x1000+0+57/resize/1200x600!/quality/90/?url=https%3A%2F%2Fassets.aboutamazon.com%2F53%2Fdd%2Ffb5a1fac4850ae9bfde31cca551b%2F2026-pr-bh-gtm-2000x1125-1.GIF"
+      }
+    },
+    {
+      "slug": "amazon-agentic-gen-ai-shopping-experience",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/amazon-agentic-gen-ai-shopping-experience.html",
+      "sourceUrl": "https://www.aboutamazon.com/news/retail/amazon-agentic-ai-gen-ai-shopping",
+      "platforms": [
+        "amazon"
+      ],
+      "viewpoint": "buyer",
+      "theme": "measurement",
+      "source": "Amazon",
+      "date": "2025-11-13",
+      "title": "Amazon、生成AI・エージェントAIによる買い物体験の変革を整理",
+      "bullets": [
+        "買い物アシスタント「Rufus」の利用者は2億5,000万人を突破し、月間ユーザー数は前年比140%増、インタラクション数は前年比210%増と急拡大している。",
+        "Rufus利用者は非利用者に比べて購入確度が60%以上高いというデータが示されており、AI接点の有無が購買行動に直結し始めている。",
+        "レビュー内容を音声で聞ける「聞く要約」機能は700万分以上のストリーミング再生を記録し、レビューハイライトも週間で数億回閲覧されている。",
+        "写真から商品を探す「Amazon Lens」の利用は2023年比で2倍以上に増加し、ライブ映像で検索できる「Lens Live」導入によりさらに利用が13%向上した。",
+        "顧客の代わりにAmazon以外のサイトでも購入を完了する「Buy for Me」は、対象商品が6万5,000点から50万点以上へと拡大した。",
+        "パーソナライズされたサイズ推奨は月間数十億回生成されており、商品発見・比較・購入それぞれの段階に個別のAI機能が根づいている。"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://assets.aboutamazon.com/dims4/default/729509e/2147483647/strip/true/crop/2000x1000+0+0/resize/1200x600!/quality/90/?url=https%3A%2F%2Fassets.aboutamazon.com%2Fa6%2F0a%2F4efb19c2408cad25b81983fa9a2d%2Fimage-3.png"
+      }
+    },
+    {
       "slug": "amazon-shop-direct-feeds",
       "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/amazon-shop-direct-feeds.html",
       "sourceUrl": "https://www.aboutamazon.com/news/retail/amazon-shop-direct-external-stores",

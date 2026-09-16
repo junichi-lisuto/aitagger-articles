@@ -3,6 +3,35 @@
 記事候補を探す前に必ずこの一覧を確認し、ここに載っているURLと同じ元記事は候補から除外すること。
 生成元: articles.json（更新日: 2026-09-16）
 
+- https://www.lycorp.co.jp/ja/story/20260820/yjshopping_ai.html
+- https://corp.rakuten.co.jp/news/press/2026/0602_01.html
+- https://openai.com/index/wayfair/
+- https://openai.com/index/powering-product-discovery-in-chatgpt/
+- https://openai.com/policies/merchant-feed-terms-of-service/
+- https://openai.com/policies/commerce-policies/
+- https://openai.com/index/chatgpt-shopping-research/
+- https://blog.google/products-and-platforms/products/shopping/shopping-updates-google-marketing-live/
+- https://business.google.com/uk/think/search-and-video/ai-search-era-brand-authority-strategy/
+- https://blog.google/products/ads-commerce/retail-sales-ai/
+- https://blog.google/products-and-platforms/products/search/original-high-quality-content-search/
+- https://business.google.com/en-all/think/ai-excellence/ominchannel-retail-report-2026-nordics-benelux/
+- https://blog.google/products-and-platforms/products/search/explore-web-generative-ai-search/
+- https://blog.google/products/ads-commerce/digital-advertising-commerce-2026/
+- https://blog.google/products-and-platforms/products/search/search-io-2026/
+- https://blog.google/products-and-platforms/products/search/ai-mode-ai-overviews-updates/
+- https://blog.google/products/ads-commerce/ai-max-new-features/
+- https://blog.google/products/ads-commerce/ai-max-for-shopping/
+- https://sell.amazon.com/blog/products-to-sell
+- https://www.aboutamazon.com/news/innovation-at-amazon/seller-assistant-agentic-ai
+- https://www.aboutamazon.com/news/retail/amazon-rufus-ai-assistant-personalized-shopping-features
+- https://sell.amazon.com/blog/amazon-product-listings
+- https://sell.amazon.com/blog/new-product-success
+- https://sell.amazon.com/blog/amazon-listing-ai
+- https://sell.amazon.com/blog/fba-fees-guide
+- https://sell.amazon.com/blog/customer-reviews-social-proof
+- https://sell.amazon.com/blog/calculate-profit-margins
+- https://www.aboutamazon.com/news/retail/alexa-for-shopping-ai-assistant
+- https://www.aboutamazon.com/news/retail/amazon-agentic-ai-gen-ai-shopping
 - https://www.aboutamazon.com/news/retail/amazon-shop-direct-external-stores
 - https://arxiv.org/abs/2602.13415
 - https://ahrefs.com/blog/search-engine-ai-seo-bot-crawling/

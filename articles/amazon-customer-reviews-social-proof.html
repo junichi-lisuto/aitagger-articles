@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script>if ('scrollRestoration' in history) { history.scrollRestoration = 'manual'; }</script>
+<title>Amazon、カスタマーレビューで事業を成長させる方法を解説｜AIタッガー ツールセンター</title>
+<style>
+  :root{
+    --blue:#2563EB;
+    --blue-dark:#1E3A8A;
+    --blue-wash:#EFF6FF;
+    --ink:#0F172A;
+    --ink-mid:#475569;
+    --ink-soft:#64748B;
+    --line:#E2E8F0;
+    --tint:#F8FAFC;
+    --c-visibility:#2563EB;
+    --c-optimization:#7C3AED;
+    --c-measurement:#DC2626;
+    --maxw:760px;
+    --jp:"Noto Sans JP","Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,system-ui,sans-serif;
+  }
+  *{box-sizing:border-box}
+  [hidden]{display:none!important}
+  body{margin:0;background:#fff;color:var(--ink);font-family:var(--jp);
+       font-size:16px;line-height:1.8;-webkit-font-smoothing:antialiased}
+  a{color:inherit}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding-inline:24px}
+
+  header{border-bottom:1px solid var(--line);background:#fff;position:sticky;top:0;z-index:20}
+  .hbar{display:flex;align-items:center;gap:28px;height:68px;max-width:1120px;margin:0 auto;padding-inline:24px}
+  .logo{display:flex;align-items:center;gap:10px;font-weight:700;font-size:17px;
+        text-decoration:none;flex:none}
+  .logo .mark{background:var(--blue);color:#fff;font-weight:800;font-size:13px;
+        padding:5px 7px;border-radius:5px;letter-spacing:.04em}
+  .logo .sub{color:var(--ink-soft);font-weight:500;font-size:13px;
+        border-left:1px solid var(--line);padding-left:10px;margin-left:2px}
+  nav{margin-left:auto;display:flex;gap:26px;align-items:center}
+  nav a{font-size:14px;font-weight:500;color:var(--ink-mid);text-decoration:none;
+        padding:6px 0;border-bottom:2px solid transparent}
+  nav a:hover{color:var(--blue);border-bottom-color:var(--blue)}
+
+  .crumb{font-size:12.5px;color:var(--ink-soft);padding:16px 0 0}
+  .crumb a{text-decoration:none}
+  .crumb a:hover{color:var(--blue)}
+  .crumb span{margin:0 7px;color:#CBD5E1}
+
+  .thumb{position:relative;display:block;width:100%;padding-top:56.25%;
+         overflow:hidden;background:var(--tint);border-radius:12px;
+         margin:20px 0;transition:opacity .15s}
+  .thumb:hover{opacity:.88}
+  .thumb svg,.thumb img{position:absolute;inset:0;width:100%;height:100%;
+         display:block;object-fit:cover}
+
+  .meta{display:flex;gap:8px;align-items:center;margin:0 0 12px;flex-wrap:wrap}
+  .cat{font-size:11px;font-weight:700;padding:3px 9px;border-radius:999px;color:#fff}
+  .platform{font-size:11px;font-weight:700;color:var(--ink-soft)}
+  .cat.theme-visibility{background:var(--c-visibility)}
+  .cat.theme-optimization{background:var(--c-optimization)}
+  .cat.theme-measurement{background:var(--c-measurement)}
+  .src,.date,.lang{font-size:12.5px;color:var(--ink-soft)}
+  .lang{font-weight:700;padding:2px 7px;border-radius:4px;background:var(--tint)}
+
+  h1{font-size:26px;margin:0 0 8px;line-height:1.5;color:var(--blue-dark)}
+  .orig{font-size:13px;color:var(--ink-soft);margin:0 0 28px}
+
+  h2{font-size:15px;letter-spacing:.04em;color:var(--ink-soft);font-weight:700;margin:0 0 12px}
+  .background{font-size:15.5px;color:var(--ink);line-height:1.8;margin:0 0 28px}
+  .points{margin:0 0 28px;padding:0;list-style:none}
+  .points li{font-size:15.5px;line-height:1.8;color:var(--ink);
+        padding-left:18px;position:relative;margin-bottom:10px}
+  .points li::before{content:"";position:absolute;left:0;top:.75em;
+        width:5px;height:5px;border-radius:50%;background:var(--blue)}
+
+  .why{background:var(--blue-wash);border-radius:12px;padding:20px 22px;margin-bottom:28px}
+  .why h2{color:var(--blue-dark);margin-bottom:8px}
+  .why p{font-size:15px;color:var(--ink);margin:0;line-height:1.8}
+
+  .source-link{display:inline-flex;align-items:center;gap:6px;font-size:14.5px;
+        font-weight:600;color:var(--blue);text-decoration:none;margin-bottom:48px}
+  .source-link:hover{text-decoration:underline}
+
+  .related{border-top:1px solid var(--line);padding:32px 0 60px}
+  .related h2{color:var(--ink);margin-bottom:16px}
+  .related a{display:block;font-size:14.5px;color:var(--blue);text-decoration:none;margin-bottom:8px}
+  .related a:hover{text-decoration:underline}
+
+  footer{border-top:1px solid var(--line);padding:34px 0;font-size:13px;color:var(--ink-soft)}
+  .frow{display:flex;gap:24px;align-items:center;flex-wrap:wrap;max-width:1120px;margin:0 auto;padding-inline:24px}
+
+  @media(max-width:560px){
+    h1{font-size:21px}
+    nav{display:none}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="hbar">
+    <a class="logo" href="../index.html"><span class="mark">AI</span>タッガー<span class="sub">ツールセンター</span></a>
+    <nav>
+      <a href="../index.html#tools">ツール</a>
+      <a href="../index.html#reads">AI検索を知る</a>
+      <a href="../index.html#support">困ったときは</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap">
+  <p class="crumb"><a href="../index.html">トップ</a><span>›</span><a href="../index.html#reads">AI検索を知る</a><span>›</span>この記事</p>
+
+  <a class="thumb" href="https://sell.amazon.com/blog/customer-reviews-social-proof" target="_blank" rel="noopener"><img src="https://cdn.sell2.brightspotcdn.com/dims4/default/94ff461/2147483647/strip/true/crop/2500x2000%2B500%2B0/resize/500x400%21/quality/90/?url=https%3A%2F%2Fsell2-production-sell2.s3.us-west-2.amazonaws.com%2Fbrightspot%2Fc4%2Fea%2Fd830e5db43e5b55609bda3bf76cd%2Fcustomer-segment-insitu.jpg" alt="" loading="lazy"></a>
+
+  <div class="meta">
+    <span class="cat theme-measurement">計測・分析</span>
+    <span class="platform">Amazon</span>
+    <span class="src">Amazon</span>
+    <span class="date">2026/08/18</span>
+    <span class="lang">英語記事</span>
+  </div>
+  <h1>Amazon、カスタマーレビューで事業を成長させる方法を解説</h1>
+  <p class="orig">原題: How to use customer reviews to grow your business</p>
+
+  <h2>背景</h2>
+  <p class="background">カスタマーレビューが単なる評価の蓄積として放置されがちなことを問題視し、Amazonはレビューをリアルタイムの市場調査データとして活用し、商品説明や写真の改善、低評価の分類・追跡に役立てる具体的な方法と、レビューが転換率に与える効果の実データを出品者向けに解説している。</p>
+
+  <h2>結論</h2>
+  <ul class="points">
+    <li>レビューがゼロの状態からわずか5件つくだけで、転換率が約270%上昇するというデータが示されている。</li>
+    <li>星5つの満点評価よりも、星4.2〜4.5の範囲の商品の方が転換率が高いという結果が出ており、「完璧さより不完全さが信頼を構築する」としている。</li>
+    <li>米国の独立系出品者のうち1万1,000以上が2025年に売上を10倍以上に伸ばしており、レビューを含む改善サイクルの効果が数字として表れている。</li>
+    <li>3〜4文程度で具体性・文脈・明確な結果を示すレビューが最も購買への影響力が大きいとしている。</li>
+    <li>Customer Reviewsツールで全商品のレビューを一元管理し、Customer Review Insightsで複数商品にまたがる傾向を分析し、Amazon Vineで信頼できるレビュアーから初期レビューを獲得する、という3段階の活用法を示す。</li>
+    <li>低評価は「無料の市場調査」として扱い、競合商品のレビューから自社商品の改善点を見つける発想も提案している。</li>
+  </ul>
+
+  <div class="why">
+    <h2>メッセージ</h2>
+    <p>転換率270%という数字が突きつけるのは、レビュー欄を「後から付いてくるもの」として放置する店舗と、意図的に集めにいく店舗との差がどれほど大きいかということだ。しかも星5つより星4.2〜4.5の方が転換率が高いという結果は、レビューの「量」だけでなく「リアルさ」が信頼を生むことを示している。低評価を隠すのではなく、そこに書かれている言葉を次の商品改善や説明文の見直しに使う姿勢そのものが、顧客に伝わる誠実さになる。</p>
+  </div>
+
+  <a class="source-link" href="https://sell.amazon.com/blog/customer-reviews-social-proof" target="_blank" rel="noopener">元記事を読む（Amazon）↗</a>
+
+  <div class="related">
+    <h2>関連記事</h2>
+
+  </div>
+</div>
+
+<footer>
+  <div class="frow">
+    <span>© 2026 LISUTO</span>
+    <span style="margin-left:auto">AIタッガーをご契約のお客様向けページです</span>
+  </div>
+</footer>
+
+<script>
+window.scrollTo(0,0);
+window.addEventListener('load', function(){ window.scrollTo(0,0); });
+</script>
+</body>
+</html>
