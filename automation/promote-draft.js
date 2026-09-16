@@ -40,7 +40,16 @@ function main() {
     const meta = JSON.parse(fs.readFileSync(metaPath, 'utf-8'));
     const destHtmlPath = path.join(articlesDir, `${slug}.html`);
 
-    fs.renameSync(draftHtmlPath, destHtmlPath);
+    // articles/draft/<slug>.html はarticles/直下より1階層深い場所からの相対パスで
+    // 書かれている（../../index.html、他記事への../<slug>.html等）。
+    // articles/直下へ移動する際、深さの差分ぶんパスを書き換える必要がある。
+    let html = fs.readFileSync(draftHtmlPath, 'utf-8');
+    html = html
+      .replace(/href="\.\.\/([a-z0-9-]+\.html)"/g, 'href="$1"')
+      .replace(/href="\.\.\/\.\.\/index\.html/g, 'href="../index.html')
+      .replace(/この記事（下書き・未公開）/g, 'この記事');
+    fs.writeFileSync(destHtmlPath, html, 'utf-8');
+    fs.unlinkSync(draftHtmlPath);
     fs.unlinkSync(metaPath);
 
     data.articles.unshift(meta);
