@@ -1,0 +1,101 @@
+<!-- Unbounceページに埋め込むコード。カスタムHTML/スクリプト要素にそのまま貼り付ける -->
+<!-- 記事の更新はこのリポジトリのarticles.jsonをpushするだけで反映される。Unbounce側の再編集は不要 -->
+<div id="aitagger-articles-root"></div>
+<style>
+  #aitagger-articles-root{
+    --blue:#2563EB; --blue-dark:#1E3A8A; --blue-wash:#EFF6FF;
+    --ink:#0F172A; --ink-mid:#475569; --ink-soft:#64748B;
+    --line:#E2E8F0; --tint:#F8FAFC;
+    --c-ai:#2563EB; --c-seo:#7C3AED; --c-rakuten:#DC2626; --c-yahoo:#D97706;
+    font-family:"Noto Sans JP","Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,system-ui,sans-serif;
+    color:var(--ink);
+  }
+  #aitagger-articles-root *{box-sizing:border-box}
+  #aitagger-articles-root .aa-reads{display:flex;flex-direction:column;gap:14px;max-width:1120px;margin:0 auto}
+  #aitagger-articles-root .aa-read{display:grid;grid-template-columns:200px 1fr;gap:24px;
+        background:#fff;border:1px solid var(--line);border-radius:12px;
+        padding:18px;text-decoration:none;transition:.15s;align-items:stretch}
+  #aitagger-articles-root .aa-read:hover{border-color:var(--blue);box-shadow:0 5px 16px rgba(15,23,42,.06)}
+  #aitagger-articles-root .aa-thumb{width:200px;height:132px;border-radius:8px;overflow:hidden;
+         background:var(--blue-wash);display:block;flex:none}
+  #aitagger-articles-root .aa-thumb svg,#aitagger-articles-root .aa-thumb img{width:100%;height:100%;display:block;object-fit:cover}
+  #aitagger-articles-root .aa-meta{display:flex;gap:9px;align-items:center;margin-bottom:8px;flex-wrap:wrap;
+        font-size:11px;color:var(--ink-soft);letter-spacing:.02em}
+  #aitagger-articles-root .aa-badge{font-weight:700;color:#fff;padding:3px 9px;border-radius:999px}
+  #aitagger-articles-root .aa-badge.ai{background:var(--c-ai)}
+  #aitagger-articles-root .aa-badge.seo{background:var(--c-seo)}
+  #aitagger-articles-root .aa-badge.rakuten{background:var(--c-rakuten)}
+  #aitagger-articles-root .aa-badge.yahoo{background:var(--c-yahoo)}
+  #aitagger-articles-root h4{font-size:16px;font-weight:700;margin:0 0 10px;line-height:1.55}
+  #aitagger-articles-root .aa-read:hover h4{color:var(--blue)}
+  #aitagger-articles-root ul{margin:0;padding:0;list-style:none}
+  #aitagger-articles-root li{font-size:13.5px;line-height:1.7;color:var(--ink-mid);
+        padding-left:14px;position:relative;margin-bottom:4px}
+  #aitagger-articles-root li::before{content:"";position:absolute;left:0;top:.7em;
+        width:4px;height:4px;border-radius:50%;background:var(--ink-soft)}
+  @media(max-width:560px){
+    #aitagger-articles-root .aa-read{grid-template-columns:1fr}
+    #aitagger-articles-root .aa-thumb{width:100%;height:132px}
+  }
+</style>
+<script>
+(function(){
+  var FEED_URL = "https://junichi-lisuto.github.io/aitagger-articles/articles.json";
+  var DEFAULT_THUMBS = {
+    ai: '<svg viewBox="0 0 200 132" preserveAspectRatio="xMidYMid slice"><rect width="200" height="132" fill="#EFF6FF"/><circle cx="60" cy="66" r="28" fill="none" stroke="#2563EB" stroke-width="4"/><path d="M80 86l22 22" stroke="#2563EB" stroke-width="4" stroke-linecap="round"/><path d="M120 46h56M120 62h40M120 78h56M120 94h32" stroke="#93C5FD" stroke-width="5" stroke-linecap="round"/></svg>',
+    seo: '<svg viewBox="0 0 200 132" preserveAspectRatio="xMidYMid slice"><rect width="200" height="132" fill="#F5F3FF"/><path d="M96 30l10 24 24 10-24 10-10 24-10-24-24-10 24-10z" fill="#7C3AED"/><path d="M148 84l6 14 14 6-14 6-6 14-6-14-14-6 14-6z" fill="#C4B5FD"/><path d="M40 116h130" stroke="#DDD6FE" stroke-width="5" stroke-linecap="round"/></svg>',
+    rakuten: '<svg viewBox="0 0 200 132" preserveAspectRatio="xMidYMid slice"><rect width="200" height="132" fill="#FEF2F2"/><circle cx="100" cy="66" r="30" fill="none" stroke="#DC2626" stroke-width="4"/><path d="M100 46v40M80 66h40" stroke="#DC2626" stroke-width="4" stroke-linecap="round"/></svg>',
+    yahoo: '<svg viewBox="0 0 200 132" preserveAspectRatio="xMidYMid slice"><rect width="200" height="132" fill="#FFFBEB"/><circle cx="100" cy="66" r="30" fill="none" stroke="#D97706" stroke-width="4"/><path d="M88 66h24M100 54v24" stroke="#D97706" stroke-width="4" stroke-linecap="round"/></svg>'
+  };
+
+  function escapeHtml(s){
+    return String(s).replace(/[&<>"']/g, function(c){
+      return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c];
+    });
+  }
+
+  function thumbHtml(a){
+    if (a.thumbnail && a.thumbnail.type === "image" && a.thumbnail.url){
+      return '<img src="' + escapeHtml(a.thumbnail.url) + '" alt="" loading="lazy">';
+    }
+    var cat = (a.thumbnail && a.thumbnail.category) || a.category;
+    return DEFAULT_THUMBS[cat] || DEFAULT_THUMBS.ai;
+  }
+
+  function cardHtml(a){
+    var bullets = (a.bullets || []).map(function(b){ return "<li>" + escapeHtml(b) + "</li>"; }).join("");
+    return (
+      '<a class="aa-read" href="' + escapeHtml(a.url) + '" target="_blank" rel="noopener">' +
+        '<span class="aa-thumb">' + thumbHtml(a) + '</span>' +
+        '<span>' +
+          '<span class="aa-meta">' +
+            '<span class="aa-badge ' + escapeHtml(a.category) + '">' + escapeHtml(a.categoryLabel) + '</span>' +
+            '<span>' + escapeHtml(a.source) + '</span>' +
+            '<span>' + escapeHtml(a.date) + '</span>' +
+          '</span>' +
+          '<h4>' + escapeHtml(a.title) + '</h4>' +
+          '<ul>' + bullets + '</ul>' +
+        '</span>' +
+      '</a>'
+    );
+  }
+
+  function render(data){
+    var root = document.getElementById("aitagger-articles-root");
+    var articles = (data && data.articles) || [];
+    if (!articles.length){
+      root.innerHTML = '<p style="color:var(--ink-soft);font-size:14px">現在表示できる記事がありません。</p>';
+      return;
+    }
+    root.innerHTML = '<div class="aa-reads">' + articles.map(cardHtml).join("") + '</div>';
+  }
+
+  fetch(FEED_URL, { cache: "no-store" })
+    .then(function(res){ return res.json(); })
+    .then(render)
+    .catch(function(){
+      var root = document.getElementById("aitagger-articles-root");
+      root.innerHTML = '<p style="color:var(--ink-soft);font-size:14px">記事一覧の読み込みに失敗しました。時間をおいて再度お試しください。</p>';
+    });
+})();
+</script>
