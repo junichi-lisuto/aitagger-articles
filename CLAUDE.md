@@ -63,18 +63,33 @@
 
 ### 記事の収集・承認フロー
 
-`automation/post-articles-to-slack.js` が、記事候補の下書きMarkdownを読み Slack へ承認依頼を投稿する。
-矢頭がSlack上で番号指定して承認したものだけを `articles/` に反映する。
+**矢頭さんは「番号リストのテキスト」ではなく「実際に描画されたページ」を見てから承認・否認したい、
+という要望（2026-09-16確認）に基づき、承認前にHTML化してGitHub Pages上のdraft URLとして
+見せる方式にしている。** Slack Incoming Webhookは投稿専用で矢頭さんの返信を受信できないため、
+承認の意思表示は必ずClaude Codeのチャットで直接行う（Slack上で返信しても検知されない）。
 
 ```
-node automation/post-articles-to-slack.js <下書きMarkdownのパス>
+1. Codex: 元記事を調査し、下書きMarkdownに背景・ポイント3行までを書く
+           （「AIタッガーユーザーへの意味」パートはここでは書かない）
+2. Claude: 下書きを受け取り「意味」パートを書き足し、記事HTMLを articles/draft/<slug>.html に生成。
+           対応するメタ情報（articles.json登録用の1件分）を automation/draft-meta/<slug>.json に保存。
+           git push（articles/draft/ 配下はarticles.json未登録のため一覧・Unbounceには一切出ない）
+3. Claude: Slack通知（下書きURL付き）を投稿
+     node automation/post-articles-to-slack.js <slug> <slug> ...
+4. 矢頭さん: 通知内のGitHub Pages URL（articles/draft/<slug>.html）で実際のページを確認し、
+           Claude Codeのチャットで「1と3を承認」のように直接伝える
+5a. 承認: node automation/promote-draft.js <slug> <slug> ...
+     → articles/draft/ から articles/ 直下へ移動、articles.jsonに登録、
+       used-source-urls.md再生成まで一括実行。その後 git push。
+5b. 否認: node automation/reject-draft.js <slug> <slug> ...
+     → draftのファイルを削除するだけ。articles.json未登録なので実害なし。
 ```
 
 `automation/config.local.json`（gitignore対象）にSlack Webhook URLを置く。
 `config.local.json.example` がテンプレート。
 
-**既出の元記事URLは、Slackに投稿する段階で自動的に除外される**（`post-articles-to-slack.js`が
-`articles.json`の`sourceUrl`と突き合わせる）。ただしこれは最後の砦であり、本命の対策ではない。
+**既出の元記事URLは、Codexへのリサーチ依頼前に`used-source-urls.md`で除外する**（下記参照）。
+promote-draft.js実行時にも自動再生成されるため、都度手動実行し忘れても次の昇格時に追いつく。
 
 ### 重複記事の防止（Codexへの依頼時点で除外する）
 

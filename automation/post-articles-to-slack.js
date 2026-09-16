@@ -1,91 +1,65 @@
-// 記事リサーチ下書き（Markdown）を読み、Slack #承認依頼 チャンネルへ投稿する。
-// 使い方: node automation/post-articles-to-slack.js <下書きMarkdownのパス>
+// articles/draft/ に置かれた下書き記事（Claudeが生成・push済み）をSlackへ通知する。
+// 矢頭さんは通知内のGitHub Pages URLで実際の記事ページを見てから、
+// Claude Codeのチャットで「1と3を承認」のように直接伝える（Slack上の返信では完結しない。
+// Incoming Webhookは投稿専用で受信できないため）。
+// 使い方: node automation/post-articles-to-slack.js <slug> <slug> ...
+//   各slugについて articles/draft/<slug>.html と automation/draft-meta/<slug>.json が必要。
 
 const fs = require('fs');
 const path = require('path');
 
 const config = require('./config.local.json');
 
-function normalizeUrl(url) {
-  return (url || '').trim().replace(/^https?:\/\//, '').replace(/\/+$/, '');
+const draftDir = path.join(__dirname, '..', 'articles', 'draft');
+const metaDir = path.join(__dirname, 'draft-meta');
+const PAGES_BASE = 'https://junichi-lisuto.github.io/aitagger-articles/articles/draft';
+
+function loadDraftArticles(slugs) {
+  return slugs.map((slug) => {
+    const htmlPath = path.join(draftDir, `${slug}.html`);
+    const metaPath = path.join(metaDir, `${slug}.json`);
+    if (!fs.existsSync(htmlPath)) {
+      throw new Error(`下書きHTMLが見つかりません: ${htmlPath}`);
+    }
+    if (!fs.existsSync(metaPath)) {
+      throw new Error(`メタ情報が見つかりません: ${metaPath}`);
+    }
+    const meta = JSON.parse(fs.readFileSync(metaPath, 'utf-8'));
+    return {
+      slug,
+      title: meta.title,
+      source: meta.source,
+      date: meta.date,
+      categoryLabel: meta.categoryLabel,
+      draftUrl: `${PAGES_BASE}/${slug}.html`,
+    };
+  });
 }
 
-function loadExistingSourceUrls() {
-  const articlesJsonPath = path.join(__dirname, '..', 'articles.json');
-  const data = JSON.parse(fs.readFileSync(articlesJsonPath, 'utf-8'));
-  return new Set(
-    data.articles
-      .map((a) => a.sourceUrl)
-      .filter(Boolean)
-      .map(normalizeUrl)
-  );
-}
-
-function parseArticles(markdown) {
-  const blocks = markdown.split(/\n## /).slice(1);
-  return blocks
-    .filter((block) => /^\d+\./.test(block))
-    .map((block) => {
-      const lines = block.split('\n');
-      const title = lines[0].replace(/^\d+\.\s*/, '').trim();
-      const get = (label) => {
-        const line = lines.find((l) => l.trim().startsWith(`- **${label}**`));
-        if (!line) return '';
-        return line.split(':').slice(1).join(':').trim();
-      };
-      return {
-        title,
-        url: get('URL'),
-        source: get('出典'),
-        date: get('公開日'),
-        category: get('カテゴリ'),
-      };
-    });
-}
-
-function buildMessage(articles, draftFileName) {
+function buildMessage(articles) {
   const lines = [
-    `[記事候補] ${draftFileName} — ${articles.length}本`,
-    '承認する番号を、このチャットで矢頭さんへ直接返信してください（例: 「1, 2, 4を承認」）。',
+    `[記事下書き] ${articles.length}本 — 実際のページを見てから判断してください`,
+    '承認する番号は、Claude Codeのチャットで矢頭さんから直接伝えてください（例:「1, 2, 4を承認」）。',
+    '（このSlack上での返信は自動では検知できません）',
     '',
   ];
   articles.forEach((a, i) => {
     lines.push(`${i + 1}. *${a.title}*`);
-    lines.push(`   ${a.category} / ${a.source} / ${a.date}`);
-    lines.push(`   ${a.url}`);
+    lines.push(`   ${a.categoryLabel} / ${a.source} / ${a.date}`);
+    lines.push(`   下書き: ${a.draftUrl}`);
   });
   return lines.join('\n');
 }
 
 async function main() {
-  const draftPath = process.argv[2];
-  if (!draftPath) {
-    console.error('使い方: node post-articles-to-slack.js <下書きMarkdownのパス>');
+  const slugs = process.argv.slice(2);
+  if (slugs.length === 0) {
+    console.error('使い方: node automation/post-articles-to-slack.js <slug> <slug> ...');
     process.exit(1);
   }
 
-  const markdown = fs.readFileSync(draftPath, 'utf-8');
-  const allArticles = parseArticles(markdown);
-  if (allArticles.length === 0) {
-    console.error('記事が1件も見つかりませんでした。Markdownのフォーマットを確認してください。');
-    process.exit(1);
-  }
-
-  const existingSourceUrls = loadExistingSourceUrls();
-  const duplicates = allArticles.filter((a) => existingSourceUrls.has(normalizeUrl(a.url)));
-  const articles = allArticles.filter((a) => !existingSourceUrls.has(normalizeUrl(a.url)));
-
-  if (duplicates.length > 0) {
-    console.warn('既出の元記事URLのため除外しました:');
-    duplicates.forEach((a) => console.warn(`  - ${a.title}\n    ${a.url}`));
-  }
-
-  if (articles.length === 0) {
-    console.error('全件が既出の元記事URLのため、Slackには投稿しませんでした。');
-    process.exit(1);
-  }
-
-  const text = buildMessage(articles, path.basename(draftPath));
+  const articles = loadDraftArticles(slugs);
+  const text = buildMessage(articles);
 
   const res = await fetch(config.slackApprovalWebhookUrl, {
     method: 'POST',
