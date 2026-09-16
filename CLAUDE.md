@@ -48,6 +48,7 @@
 | `automation/` | 記事の収集・承認フロー（Slack連携スクリプト） |
 | `mockups/` | 記事関連の下書き・プレビューHTML |
 | `index.html` | 記事一覧の簡易ビュー（Unbounce連携までの参照用） |
+| `used-source-urls.md` | 既出の元記事URL一覧（自動生成、下記参照） |
 
 ### 記事の型
 
@@ -71,6 +72,22 @@ node automation/post-articles-to-slack.js <下書きMarkdownのパス>
 
 `automation/config.local.json`（gitignore対象）にSlack Webhook URLを置く。
 `config.local.json.example` がテンプレート。
+
+**既出の元記事URLは、Slackに投稿する段階で自動的に除外される**（`post-articles-to-slack.js`が
+`articles.json`の`sourceUrl`と突き合わせる）。ただしこれは最後の砦であり、本命の対策ではない。
+
+### 重複記事の防止（Codexへの依頼時点で除外する）
+
+**テーマがかぶるのは問題ないが、同じ元記事URLの再利用はNG。** 出来上がってからSlackで弾かれるのでは
+遅い。**記事候補を探す作業をCodexに依頼する前に、必ず`used-source-urls.md`を読み込ませ、
+そこに載っているURLと同じ元記事は調査対象から外すよう指示すること。**
+
+`used-source-urls.md`は`articles.json`の`sourceUrl`一覧から生成される。
+`articles.json`に記事を追加したら、都度これを実行して最新化する。
+
+```
+node automation/generate-used-urls.js
+```
 
 ---
 

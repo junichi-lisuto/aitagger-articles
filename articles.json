@@ -4,6 +4,7 @@
     {
       "slug": "google-ai-overviews-expand",
       "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/google-ai-overviews-expand.html",
+      "sourceUrl": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
       "category": "ai",
       "categoryLabel": "AI検索",
       "source": "Google公式ブログ",
@@ -22,6 +23,7 @@
     {
       "slug": "search-engine-land-ai-overviews",
       "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/search-engine-land-ai-overviews.html",
+      "sourceUrl": "https://searchengineland.com/google-is-dynamically-expanding-ai-overviews-for-some-queries-486200",
       "category": "seo",
       "categoryLabel": "SEO",
       "source": "Search Engine Land",
@@ -40,6 +42,7 @@
     {
       "slug": "rakuten-ai-compare",
       "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/rakuten-ai-compare.html",
+      "sourceUrl": "https://www.nikkei.com/article/DGXZQOUC077660X00C26A7000000/",
       "category": "rakuten",
       "categoryLabel": "楽天AI",
       "source": "日本経済新聞",
@@ -58,6 +61,7 @@
     {
       "slug": "yahoo-ai-shopping-memo",
       "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/yahoo-ai-shopping-memo.html",
+      "sourceUrl": "https://www.lycorp.co.jp/ja/news/release/020144/",
       "category": "yahoo",
       "categoryLabel": "Yahoo!AI",
       "source": "LINEヤフー公式",
@@ -76,6 +80,7 @@
     {
       "slug": "cnbc-openai-shopping-shift",
       "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/cnbc-openai-shopping-shift.html",
+      "sourceUrl": "https://www.cnbc.com/2026/03/24/openai-revamps-shopping-experience-in-chatgpt-after-instant-checkout.html",
       "category": "ai",
       "categoryLabel": "AI検索",
       "source": "CNBC",

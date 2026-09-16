@@ -6,6 +6,21 @@ const path = require('path');
 
 const config = require('./config.local.json');
 
+function normalizeUrl(url) {
+  return (url || '').trim().replace(/^https?:\/\//, '').replace(/\/+$/, '');
+}
+
+function loadExistingSourceUrls() {
+  const articlesJsonPath = path.join(__dirname, '..', 'articles.json');
+  const data = JSON.parse(fs.readFileSync(articlesJsonPath, 'utf-8'));
+  return new Set(
+    data.articles
+      .map((a) => a.sourceUrl)
+      .filter(Boolean)
+      .map(normalizeUrl)
+  );
+}
+
 function parseArticles(markdown) {
   const blocks = markdown.split(/\n## /).slice(1);
   return blocks
@@ -50,9 +65,23 @@ async function main() {
   }
 
   const markdown = fs.readFileSync(draftPath, 'utf-8');
-  const articles = parseArticles(markdown);
-  if (articles.length === 0) {
+  const allArticles = parseArticles(markdown);
+  if (allArticles.length === 0) {
     console.error('記事が1件も見つかりませんでした。Markdownのフォーマットを確認してください。');
+    process.exit(1);
+  }
+
+  const existingSourceUrls = loadExistingSourceUrls();
+  const duplicates = allArticles.filter((a) => existingSourceUrls.has(normalizeUrl(a.url)));
+  const articles = allArticles.filter((a) => !existingSourceUrls.has(normalizeUrl(a.url)));
+
+  if (duplicates.length > 0) {
+    console.warn('既出の元記事URLのため除外しました:');
+    duplicates.forEach((a) => console.warn(`  - ${a.title}\n    ${a.url}`));
+  }
+
+  if (articles.length === 0) {
+    console.error('全件が既出の元記事URLのため、Slackには投稿しませんでした。');
     process.exit(1);
   }
 

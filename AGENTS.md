@@ -30,6 +30,19 @@
 | `automation/` | 記事の収集・承認フロー（Slack連携スクリプト） |
 | `mockups/` | 記事関連の下書き・プレビューHTML |
 | `index.html` | 記事一覧の簡易ビュー（Unbounce連携までの参照用） |
+| `used-source-urls.md` | 既出の元記事URL一覧（自動生成、下記参照） |
+
+---
+
+## 重複記事の防止（必読・依頼を受けたら最初に行うこと）
+
+**同じ元記事URLを使った記事の再作成はNG。** テーマがかぶるのは問題ないが、URLの再利用は不可。
+
+記事候補を探す・下書きを作る作業に着手する**前に**、必ず `used-source-urls.md` を読み、
+そこに載っているURLと同じ元記事は候補から除外すること。Slack承認の段階で弾かれるのでは遅い。
+
+`used-source-urls.md` は `articles.json` の `sourceUrl` から `node automation/generate-used-urls.js`
+で生成される。`articles.json` に新しい記事を追加したら、都度このコマンドを実行して再生成すること。
 
 ---
 
