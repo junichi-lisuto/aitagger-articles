@@ -1,0 +1,24 @@
+{
+  "slug": "shopify-agentic-commerce-ai",
+  "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/shopify-agentic-commerce-ai.html",
+  "sourceUrl": "https://www.shopify.com/news/ai-commerce-at-scale",
+  "platforms": [
+    "chatgpt",
+    "google",
+    "other-ai"
+  ],
+  "viewpoint": "seller",
+  "theme": "visibility",
+  "source": "Shopify",
+  "date": "2026-01-11",
+  "title": "Shopify、あらゆる加盟店をAI会話につなぐ「エージェント型コマース」基盤を発表",
+  "bullets": [
+    "ShopifyはAgentic Storefrontsを通じ、商品データをChatGPT、Google AI Mode、Gemini、Microsoft Copilotへ横断的に提供する方針を発表した。",
+    "Shopify Catalogでは商品情報をLLMで分類・補完・標準化し、会話型の探索で該当商品を出しやすくする。",
+    "店舗システムを変えずに、AI会話内の発見・比較・購入導線へ商品を載せる基盤が広がっている。"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "url": "https://cdn.shopify.com/b/shopify-brochure2-assets/1189c5a5efd6037a9a3cd617c202ccf1.png"
+  }
+}

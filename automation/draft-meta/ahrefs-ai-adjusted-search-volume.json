@@ -1,0 +1,24 @@
+{
+  "slug": "ahrefs-ai-adjusted-search-volume",
+  "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/ahrefs-ai-adjusted-search-volume.html",
+  "sourceUrl": "https://ahrefs.com/blog/how-ahrefs-estimates-ai-search-demand/",
+  "platforms": [
+    "google",
+    "chatgpt",
+    "other-ai"
+  ],
+  "viewpoint": "seller",
+  "theme": "measurement",
+  "source": "Ahrefs",
+  "date": "2026-08-17",
+  "title": "Ahrefs、AI検索の需要を推定する「AI調整済みボリューム」の考え方を解説",
+  "bullets": [
+    "AI検索の実プロンプト量は主要プラットフォームから公開されていないため、AhrefsはGoogle検索ボリュームとプラットフォーム別の流入比率から需要を推定する。",
+    "ChatGPT、Perplexity、Gemini、Claudeなどで、同じ問いでも需要推定値を分けて扱う。",
+    "推定値は市場規模の確定値ではなく、AI上の露出・Share of Voice・優先テーマを比較するための方向性指標だと明示する。"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "url": "https://ahrefs.com/blog/wp-content/uploads/2026/08/ai-adjusted-volume-how-ahrefs-approaches-by-constance-tan-product-blog-1.jpg"
+  }
+}

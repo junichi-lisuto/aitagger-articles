@@ -8,7 +8,9 @@
     "date": "2026-01-05",
     "dateDisplay": "2026/01/05",
     "lang": "ja",
-    "platforms": ["rakuten"],
+    "platforms": [
+      "rakuten"
+    ],
     "viewpoint": "buyer",
     "theme": "visibility",
     "thumbnail": "https://corp.rakuten.co.jp/news/assets/img/press/2026_press_jp/0105_02/Main_pic_260105.png",
@@ -19,8 +21,14 @@
     ],
     "meaning": "楽天内の入口がキーワード検索だけでなく、対話と商品属性の充実度で決まる局面に入ったことを意味する。商品名だけでなく用途・シーンを説明する情報の整備が問われる。",
     "related": [
-      {"slug": "rakuten-discovery-recommendation", "title": "「楽天市場」、AI活用により新たな商品との出会いを創出する新機能「ディスカバリーレコメンデーション」の本格提供を開始"},
-      {"slug": "rakuten-rakuma-ai-listing", "title": "「楽天ラクマ」、AI技術を活用した出品サポート機能を提供開始"}
+      {
+        "slug": "rakuten-discovery-recommendation",
+        "title": "「楽天市場」、AI活用により新たな商品との出会いを創出する新機能「ディスカバリーレコメンデーション」の本格提供を開始"
+      },
+      {
+        "slug": "rakuten-rakuma-ai-listing",
+        "title": "「楽天ラクマ」、AI技術を活用した出品サポート機能を提供開始"
+      }
     ]
   },
   {
@@ -32,7 +40,9 @@
     "date": "2025-11-20",
     "dateDisplay": "2025/11/20",
     "lang": "ja",
-    "platforms": ["rakuten"],
+    "platforms": [
+      "rakuten"
+    ],
     "viewpoint": "buyer",
     "theme": "visibility",
     "thumbnail": "https://corp.rakuten.co.jp/news/assets/img/press/2025_press_jp/1120_02/%E3%83%87%E3%82%A3%E3%82%B9%E3%82%AB%E3%83%90%E3%83%AA%E3%83%BC%E3%83%AC%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%87%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3_Gallery.png",
@@ -43,8 +53,14 @@
     ],
     "meaning": "検索順位外の露出にも、画像・動画を含む商品情報が使われ始めていることを意味する。検索対策だけでなく、レコメンド経由での見つかりやすさも意識する必要がある。",
     "related": [
-      {"slug": "rakuten-ai-concierge-app", "title": "楽天、エージェント型AIツール「Rakuten AI」を「楽天市場」アプリに搭載"},
-      {"slug": "rakuten-rakuma-ai-listing", "title": "「楽天ラクマ」、AI技術を活用した出品サポート機能を提供開始"}
+      {
+        "slug": "rakuten-ai-concierge-app",
+        "title": "楽天、エージェント型AIツール「Rakuten AI」を「楽天市場」アプリに搭載"
+      },
+      {
+        "slug": "rakuten-rakuma-ai-listing",
+        "title": "「楽天ラクマ」、AI技術を活用した出品サポート機能を提供開始"
+      }
     ]
   },
   {
@@ -56,10 +72,12 @@
     "date": "2025-09-30",
     "dateDisplay": "2025/09/30",
     "lang": "en",
-    "platforms": ["google"],
+    "platforms": [
+      "google"
+    ],
     "viewpoint": "buyer",
     "theme": "visibility",
-    "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/visual_search_fanout.max-1000x1000.format-webp.webp",
+    "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_mode_shopping_ss.width-1300.png",
     "bullets": [
       "曖昧な「雰囲気」の商品探索を会話と画像で行えるようにした。",
       "AI Modeは画像アップロードと追質問で候補を絞り込む。",
@@ -67,8 +85,14 @@
     ],
     "meaning": "商品名に落ちない価値も画像・属性で伝えられる商品ページが重要になることを意味する。雰囲気や用途の言葉に対応できる説明文・画像の整備が求められる。",
     "related": [
-      {"slug": "google-ai-mode-product-cards", "title": "Google、AI Modeで情報と対話する新しい方法を追加"},
-      {"slug": "google-vision-match-virtual-tryon", "title": "Google、AIで理想の服を見つけ、メイクを試せる新機能を発表"}
+      {
+        "slug": "google-ai-mode-product-cards",
+        "title": "Google、AI Modeで情報と対話する新しい方法を追加"
+      },
+      {
+        "slug": "google-vision-match-virtual-tryon",
+        "title": "Google、AIで理想の服を見つけ、メイクを試せる新機能を発表"
+      }
     ]
   },
   {
@@ -80,7 +104,9 @@
     "date": "2025-09-02",
     "dateDisplay": "2025/09/02",
     "lang": "en",
-    "platforms": ["amazon"],
+    "platforms": [
+      "amazon"
+    ],
     "viewpoint": "buyer",
     "theme": "visibility",
     "thumbnail": "https://assets.aboutamazon.com/d1/5c/837df41d4b4cb8266f1da4c57152/a-hero-2000-x-1129.jpg",
@@ -91,32 +117,48 @@
     ],
     "meaning": "モール内でも商品画像そのものが検索の入力になることを意味する。写真から探し当てられるよう、画像の質と商品属性の対応精度が問われる。",
     "related": [
-      {"slug": "amazon-interests-feature", "title": "Amazon、興味・関心から新商品を見つけるAI機能「Interests」を発表"},
-      {"slug": "google-ai-mode-product-cards", "title": "Google、AI Modeで情報と対話する新しい方法を追加"}
+      {
+        "slug": "amazon-interests-feature",
+        "title": "Amazon、興味・関心から新商品を見つけるAI機能「Interests」を発表"
+      },
+      {
+        "slug": "google-ai-mode-product-cards",
+        "title": "Google、AI Modeで情報と対話する新しい方法を追加"
+      }
     ]
   },
   {
-    "slug": "openai-chatgpt-shopping-research",
-    "title": "OpenAI、ChatGPTに「ショッピングリサーチ」機能を発表",
-    "origTitle": "Introducing shopping research in ChatGPT",
-    "sourceUrl": "https://openai.com/index/chatgpt-shopping-research/",
-    "source": "OpenAI",
-    "date": "2025-11-24",
-    "dateDisplay": "2025/11/24",
+    "slug": "shopify-agentic-commerce-ai",
+    "title": "Shopify、あらゆる加盟店をAI会話につなぐ「エージェント型コマース」基盤を発表",
+    "origTitle": "The agentic commerce platform: Shopify connects any merchant to every AI conversation",
+    "sourceUrl": "https://www.shopify.com/news/ai-commerce-at-scale",
+    "source": "Shopify",
+    "date": "2026-01-11",
+    "dateDisplay": "2026/01/11",
     "lang": "en",
-    "platforms": ["chatgpt"],
-    "viewpoint": "buyer",
-    "theme": "visibility",
-    "thumbnail": "https://images.openai.com/blob/commerce/shopping-research-hero.png",
-    "bullets": [
-      "条件を対話で確認しながら商品候補を調査・比較する。",
-      "複数サイトの情報をまとめ、購入ガイドを生成する。",
-      "家電・美容・ホーム用品など詳細比較の用途を想定する。"
+    "platforms": [
+      "chatgpt",
+      "google",
+      "other-ai"
     ],
-    "meaning": "商品ページは検索結果だけでなく、AIが比較に引用しやすい情報源になる必要があることを意味する。仕様・価格・レビュー傾向を明確に示すことが引用されやすさに直結する。",
+    "viewpoint": "seller",
+    "theme": "visibility",
+    "thumbnail": "https://cdn.shopify.com/b/shopify-brochure2-assets/1189c5a5efd6037a9a3cd617c202ccf1.png",
+    "bullets": [
+      "ShopifyはAgentic Storefrontsを通じ、商品データをChatGPT、Google AI Mode、Gemini、Microsoft Copilotへ横断的に提供する方針を発表した。",
+      "Shopify Catalogでは商品情報をLLMで分類・補完・標準化し、会話型の探索で該当商品を出しやすくする。",
+      "店舗システムを変えずに、AI会話内の発見・比較・購入導線へ商品を載せる基盤が広がっている。"
+    ],
+    "meaning": "AIタッガーで整える属性データが、将来の会話型検索・比較画面で商品を正確に出す共通入力になることを具体的に確認できることを意味する。標準化された属性データの価値が一段と高まる。",
     "related": [
-      {"slug": "bing-copilot-search", "title": "Microsoft、BingでCopilot Searchを開始"},
-      {"slug": "semrush-ai-visibility-study", "title": "Semrush、AI検索の実態を調べた「AI可視性調査」を公開"}
+      {
+        "slug": "bing-copilot-search",
+        "title": "Microsoft、BingでCopilot Searchを開始"
+      },
+      {
+        "slug": "semrush-ai-visibility-study",
+        "title": "Semrush、AI検索の実態を調べた「AI可視性調査」を公開"
+      }
     ]
   },
   {
@@ -128,7 +170,9 @@
     "date": "2025-04-04",
     "dateDisplay": "2025/04/04",
     "lang": "en",
-    "platforms": ["other-ai"],
+    "platforms": [
+      "other-ai"
+    ],
     "viewpoint": "buyer",
     "theme": "visibility",
     "thumbnail": "https://blogs.bing.com/getmedia/69979d9e-3fa3-44a0-9d63-cb4d43105a94/Copilot-Search-zero-state.png",
@@ -139,8 +183,14 @@
     ],
     "meaning": "Google以外でも「引用付き回答」が商品発見の入口になっていることを意味する。特定のAI検索だけを見て対策を止めない視野の広さが必要になる。",
     "related": [
-      {"slug": "openai-chatgpt-shopping-research", "title": "OpenAI、ChatGPTに「ショッピングリサーチ」機能を発表"},
-      {"slug": "bing-indexnow-shopping-ads", "title": "Microsoft、IndexNowでショッピング・広告情報の更新を高速化"}
+      {
+        "slug": "shopify-agentic-commerce-ai",
+        "title": "OpenAI、ChatGPTに「ショッピングリサーチ」機能を発表"
+      },
+      {
+        "slug": "bing-indexnow-shopping-ads",
+        "title": "Microsoft、IndexNowでショッピング・広告情報の更新を高速化"
+      }
     ]
   },
   {
@@ -152,10 +202,12 @@
     "date": "2025-05-01",
     "dateDisplay": "2025/05/01",
     "lang": "en",
-    "platforms": ["google"],
+    "platforms": [
+      "google"
+    ],
     "viewpoint": "buyer",
     "theme": "visibility",
-    "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_Mode_product_cards.max-1000x1000.format-webp.webp",
+    "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/20250424_AIMode_Blogpost.width-1300.png",
     "bullets": [
       "商品カードに価格、配送、在庫、画像を表示する。",
       "長く具体的な会話型クエリで候補を比較できる。",
@@ -163,8 +215,14 @@
     ],
     "meaning": "価格・配送・在庫といった基本属性の欠落が露出機会を直接失わせうることを意味する。商品カードに載る基本情報の正確さと更新頻度が問われる。",
     "related": [
-      {"slug": "google-ai-mode-visual-search", "title": "Google、AI Modeで視覚的に検索・探索できる機能を追加"},
-      {"slug": "google-ai-mode-multi-subquery", "title": "Google、AI Modeで複数のサブクエリを並列処理する仕組みを説明"}
+      {
+        "slug": "google-ai-mode-visual-search",
+        "title": "Google、AI Modeで視覚的に検索・探索できる機能を追加"
+      },
+      {
+        "slug": "google-ai-mode-multi-subquery",
+        "title": "Google、AI Modeで複数のサブクエリを並列処理する仕組みを説明"
+      }
     ]
   },
   {
@@ -176,7 +234,9 @@
     "date": "2025-03-25",
     "dateDisplay": "2025/03/25",
     "lang": "en",
-    "platforms": ["amazon"],
+    "platforms": [
+      "amazon"
+    ],
     "viewpoint": "buyer",
     "theme": "visibility",
     "thumbnail": "https://assets.aboutamazon.com/e1/92/a63c88e14c54871a37ee1e3bdc34/pr-header2x.png",
@@ -187,8 +247,14 @@
     ],
     "meaning": "属性が整った商品ほど、AIが買い手の曖昧な要望と結びつけやすいことを意味する。趣味・用途に関わる属性情報の粒度を上げることが露出機会を広げる。",
     "related": [
-      {"slug": "amazon-lens-live", "title": "Amazon、カメラで商品を即時検索する「Lens Live」を紹介"},
-      {"slug": "amazon-brand-analytics", "title": "Amazon、Brand Analyticsで商品単位のAI検索データを可視化"}
+      {
+        "slug": "amazon-lens-live",
+        "title": "Amazon、カメラで商品を即時検索する「Lens Live」を紹介"
+      },
+      {
+        "slug": "amazon-brand-analytics",
+        "title": "Amazon、Brand Analyticsで商品単位のAI検索データを可視化"
+      }
     ]
   },
   {
@@ -200,10 +266,12 @@
     "date": "2025-05-20",
     "dateDisplay": "2025/05/20",
     "lang": "en",
-    "platforms": ["google"],
+    "platforms": [
+      "google"
+    ],
     "viewpoint": "buyer",
     "theme": "visibility",
-    "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/ai_mode_hero.max-1000x1000.format-webp.webp",
+    "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IO25_SearchSizzle_YT-Thumbnail_051525_Light_V.width-1300.png",
     "bullets": [
       "AI Modeが複数のサブクエリを並列実行して回答を作る。",
       "購買では比較、仮想試着、購入支援までを想定する。",
@@ -211,8 +279,14 @@
     ],
     "meaning": "商品情報は個別キーワードだけでなく、複数条件の組み合わせで拾われることを意味する。単一キーワード対策に閉じず、条件の組み合わせを想定した情報設計が必要になる。",
     "related": [
-      {"slug": "google-ai-mode-product-cards", "title": "Google、AI Modeで情報と対話する新しい方法を追加"},
-      {"slug": "google-multimodal-search-ai-mode", "title": "Google、AI Modeにマルチモーダル検索を追加"}
+      {
+        "slug": "google-ai-mode-product-cards",
+        "title": "Google、AI Modeで情報と対話する新しい方法を追加"
+      },
+      {
+        "slug": "google-multimodal-search-ai-mode",
+        "title": "Google、AI Modeにマルチモーダル検索を追加"
+      }
     ]
   },
   {
@@ -224,10 +298,12 @@
     "date": "2025-03-05",
     "dateDisplay": "2025/03/05",
     "lang": "en",
-    "platforms": ["google"],
+    "platforms": [
+      "google"
+    ],
     "viewpoint": "buyer",
     "theme": "visibility",
-    "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Immersive_Shopping_AI.width-200.format-webp.webp",
+    "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/HERO_PT_100_customers.width-1600.format-webp.width-1300.png",
     "bullets": [
       "Google Shoppingで、言葉で説明した服のイメージから近い商品を探す「vision match」を提供する。",
       "Geminiを使ったメイクのバーチャル試着と、衣服の試着対象拡大を発表した。",
@@ -235,8 +311,14 @@
     ],
     "meaning": "商品名だけでは表現しにくい用途・色・スタイルでも見つかるよう、画像と属性情報を矛盾なく整備する必要があることを意味する。試着・比較に耐える画像品質も評価対象になる。",
     "related": [
-      {"slug": "google-ai-mode-visual-search", "title": "Google、AI Modeで視覚的に検索・探索できる機能を追加"},
-      {"slug": "google-multimodal-search-ai-mode", "title": "Google、AI Modeにマルチモーダル検索を追加"}
+      {
+        "slug": "google-ai-mode-visual-search",
+        "title": "Google、AI Modeで視覚的に検索・探索できる機能を追加"
+      },
+      {
+        "slug": "google-multimodal-search-ai-mode",
+        "title": "Google、AI Modeにマルチモーダル検索を追加"
+      }
     ]
   },
   {
@@ -248,7 +330,9 @@
     "date": "2025-10-09",
     "dateDisplay": "2025/10/09",
     "lang": "ja",
-    "platforms": ["rakuten"],
+    "platforms": [
+      "rakuten"
+    ],
     "viewpoint": "seller",
     "theme": "optimization",
     "thumbnail": "https://corp.rakuten.co.jp/news/assets/img/press/2025_press_jp/1009_01/KV%20%281%29.png",
@@ -259,8 +343,14 @@
     ],
     "meaning": "商品タグ・属性の整備を、人手の表記ゆれに頼らず仕組み化する参考になる。画像からの自動生成を使う場合も、最終的な表記統一は運用側の責任として残る。",
     "related": [
-      {"slug": "rakuten-ai-concierge-app", "title": "楽天、エージェント型AIツール「Rakuten AI」を「楽天市場」アプリに搭載"},
-      {"slug": "rakuten-ai-ecosystem-q3", "title": "楽天、Rakuten AIをエコシステム全体で展開（2025年第3四半期報告）"}
+      {
+        "slug": "rakuten-ai-concierge-app",
+        "title": "楽天、エージェント型AIツール「Rakuten AI」を「楽天市場」アプリに搭載"
+      },
+      {
+        "slug": "rakuten-ai-ecosystem-q3",
+        "title": "楽天、Rakuten AIをエコシステム全体で展開（2025年第3四半期報告）"
+      }
     ]
   },
   {
@@ -272,7 +362,9 @@
     "date": "2025-05-19",
     "dateDisplay": "2025/05/19",
     "lang": "en",
-    "platforms": ["other-ai"],
+    "platforms": [
+      "other-ai"
+    ],
     "viewpoint": "seller",
     "theme": "optimization",
     "thumbnail": "https://blogs.bing.com/getattachment/ff1abe50-2d3b-4f60-ad7d-d713dcd6965b/OnlineShoppingProductPage.jpg?lang=en-US",
@@ -283,8 +375,14 @@
     ],
     "meaning": "AI検索に出す商品情報では、作成精度に加えて更新速度も品質になることを意味する。価格・在庫変更の反映速度を上げる仕組みづくりが実務課題になる。",
     "related": [
-      {"slug": "bing-copilot-search", "title": "Microsoft、BingでCopilot Searchを開始"},
-      {"slug": "google-shopping-agentic-checkout", "title": "Google Shopping、エージェント型チェックアウト等の新機能を発表"}
+      {
+        "slug": "bing-copilot-search",
+        "title": "Microsoft、BingでCopilot Searchを開始"
+      },
+      {
+        "slug": "google-shopping-agentic-checkout",
+        "title": "Google Shopping、エージェント型チェックアウト等の新機能を発表"
+      }
     ]
   },
   {
@@ -296,10 +394,12 @@
     "date": "2025-11-13",
     "dateDisplay": "2025/11/13",
     "lang": "en",
-    "platforms": ["google"],
+    "platforms": [
+      "google"
+    ],
     "viewpoint": "seller",
     "theme": "optimization",
-    "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/holiday_shopping_hero.width-200.format-webp_jYHca1x.webp",
+    "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/holiday_shopping_ss.width-1300.png",
     "bullets": [
       "自然文の商品要望に対し、価格・レビュー・在庫を整理して表示する。",
       "価格条件の追跡から、対象店舗での購入支援までを提供する。",
@@ -307,8 +407,14 @@
     ],
     "meaning": "商品属性・価格・在庫を正確に同期することが購入エージェント対策の土台になることを意味する。データ連携の正確性が売上機会に直結する段階に入っている。",
     "related": [
-      {"slug": "google-ai-personalization-shopping", "title": "Google、AI・パーソナライゼーションとショッピングの未来を示す"},
-      {"slug": "bing-indexnow-shopping-ads", "title": "Microsoft、IndexNowでショッピング・広告情報の更新を高速化"}
+      {
+        "slug": "google-ai-personalization-shopping",
+        "title": "Google、AI・パーソナライゼーションとショッピングの未来を示す"
+      },
+      {
+        "slug": "bing-indexnow-shopping-ads",
+        "title": "Microsoft、IndexNowでショッピング・広告情報の更新を高速化"
+      }
     ]
   },
   {
@@ -320,10 +426,12 @@
     "date": "2025-03-03",
     "dateDisplay": "2025/03/03",
     "lang": "en",
-    "platforms": ["google"],
+    "platforms": [
+      "google"
+    ],
     "viewpoint": "seller",
     "theme": "optimization",
-    "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/ai_personalization_shopping.max-1000x1000.format-webp.webp",
+    "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Vidhya_Edited_26-post_copy.width-1300.png",
     "bullets": [
       "GoogleはAIを広告・ショッピングの関連性向上へ使う方針を示す。",
       "Lens広告、AI Shopping、3D商品表現などを取り上げる。",
@@ -331,8 +439,14 @@
     ],
     "meaning": "テキストだけでなく画像・商品属性を揃える優先順位を判断できることを意味する。3D・複数画像などの表現力投資が広告効果にも波及する前提になる。",
     "related": [
-      {"slug": "google-shopping-agentic-checkout", "title": "Google Shopping、エージェント型チェックアウト等の新機能を発表"},
-      {"slug": "google-multimodal-search-ai-mode", "title": "Google、AI Modeにマルチモーダル検索を追加"}
+      {
+        "slug": "google-shopping-agentic-checkout",
+        "title": "Google Shopping、エージェント型チェックアウト等の新機能を発表"
+      },
+      {
+        "slug": "google-multimodal-search-ai-mode",
+        "title": "Google、AI Modeにマルチモーダル検索を追加"
+      }
     ]
   },
   {
@@ -344,7 +458,9 @@
     "date": "2025-01-01",
     "dateDisplay": "2025年（Amazon Selling Partners公表）",
     "lang": "en",
-    "platforms": ["amazon"],
+    "platforms": [
+      "amazon"
+    ],
     "viewpoint": "seller",
     "theme": "optimization",
     "thumbnail": "https://cdn-sellingpartners.aboutamazon.com/dims4/default/f9676cd/2147483647/strip/true/crop/2489x1037%2B0%2B40/resize/1440x600%21/format/webp/quality/90/?url=https%3A%2F%2Famazon-k1-prod-ser.s3.us-west-2.amazonaws.com%2Fbrightspot%2F6d%2F8f%2F1b7c6882445785661af97ad42d38%2F37b85658f152328e07b2e1aa92c9cdba055f2423.png",
@@ -355,8 +471,14 @@
     ],
     "meaning": "タグ付け後の属性データを、商品拡張や不足情報の発見に使う視点が得られることを意味する。既存商品の情報整備が新商品企画の材料にもなる。",
     "related": [
-      {"slug": "amazon-brand-analytics", "title": "Amazon、Brand Analyticsで商品単位のAI検索データを可視化"},
-      {"slug": "amazon-small-business-empowerment-report", "title": "Amazon、中小事業者支援の実績をまとめたレポートを公開"}
+      {
+        "slug": "amazon-brand-analytics",
+        "title": "Amazon、Brand Analyticsで商品単位のAI検索データを可視化"
+      },
+      {
+        "slug": "amazon-small-business-empowerment-report",
+        "title": "Amazon、中小事業者支援の実績をまとめたレポートを公開"
+      }
     ]
   },
   {
@@ -368,7 +490,9 @@
     "date": "2025-11-13",
     "dateDisplay": "2025/11/13",
     "lang": "ja",
-    "platforms": ["rakuten"],
+    "platforms": [
+      "rakuten"
+    ],
     "viewpoint": "seller",
     "theme": "optimization",
     "thumbnail": "https://asset.watch.impress.co.jp/img/ktw/docs/2063/165/06_l.jpg",
@@ -379,8 +503,14 @@
     ],
     "meaning": "楽天内の商品データ整備を店舗のオペレーション設計に組み込む根拠になることを意味する。対話型AIの利用拡大に合わせ、対応可能な情報整備の優先度が上がる。",
     "related": [
-      {"slug": "rakuten-rakuma-ai-listing", "title": "「楽天ラクマ」、AI技術を活用した出品サポート機能を提供開始"},
-      {"slug": "rakuten-ai-ecosystem-q4", "title": "楽天、Rakuten AIをエコシステム全体で展開（2025年第4四半期報告）"}
+      {
+        "slug": "rakuten-rakuma-ai-listing",
+        "title": "「楽天ラクマ」、AI技術を活用した出品サポート機能を提供開始"
+      },
+      {
+        "slug": "rakuten-ai-ecosystem-q4",
+        "title": "楽天、Rakuten AIをエコシステム全体で展開（2025年第4四半期報告）"
+      }
     ]
   },
   {
@@ -392,10 +522,12 @@
     "date": "2025-04-07",
     "dateDisplay": "2025/04/07",
     "lang": "en",
-    "platforms": ["google"],
+    "platforms": [
+      "google"
+    ],
     "viewpoint": "seller",
     "theme": "optimization",
-    "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/ai_mode_multimodal.max-1000x1000.format-webp.webp",
+    "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AIModeLens_SocialShare_1920x1080.width-1300.png",
     "bullets": [
       "LensとGeminiで画像内の物体・素材・色・形を理解する。",
       "一枚の画像から複数の関連検索を実行する。",
@@ -403,8 +535,14 @@
     ],
     "meaning": "商品画像とタグの対応を揃えるほど、画像起点の探索で説明力を持たせられることを意味する。画像内の素材・色・形の情報とタグの一致精度が問われる。",
     "related": [
-      {"slug": "google-vision-match-virtual-tryon", "title": "Google、AIで理想の服を見つけ、メイクを試せる新機能を発表"},
-      {"slug": "google-ai-mode-multi-subquery", "title": "Google、AI Modeで複数のサブクエリを並列処理する仕組みを説明"}
+      {
+        "slug": "google-vision-match-virtual-tryon",
+        "title": "Google、AIで理想の服を見つけ、メイクを試せる新機能を発表"
+      },
+      {
+        "slug": "google-ai-mode-multi-subquery",
+        "title": "Google、AI Modeで複数のサブクエリを並列処理する仕組みを説明"
+      }
     ]
   },
   {
@@ -416,7 +554,11 @@
     "date": "2025-09-03",
     "dateDisplay": "2025/09/03",
     "lang": "en",
-    "platforms": ["google", "chatgpt", "other-ai"],
+    "platforms": [
+      "google",
+      "chatgpt",
+      "other-ai"
+    ],
     "viewpoint": "seller",
     "theme": "optimization",
     "thumbnail": "https://static.semrush.com/blog/uploads/media/ac/54/ac547cefa07810adf609ceae29196090/9c07a1eb0f75ea5e404a64f30d61aec4/image.png",
@@ -427,8 +569,14 @@
     ],
     "meaning": "AIに理解・引用される商品情報を作るには、訴求語を増やすより、属性・仕様・価格の根拠を構造化して揃える必要があることを意味する。検証可能な事実の明記が引用されやすさを左右する。",
     "related": [
-      {"slug": "google-store-widget", "title": "Google、ストア評価・配送方針を表示する「ストアウィジェット」を発表"},
-      {"slug": "ahrefs-ai-bots-vs-search-bots", "title": "Ahrefs、AIボットと検索エンジンボットのクロール状況を比較調査"}
+      {
+        "slug": "google-store-widget",
+        "title": "Google、ストア評価・配送方針を表示する「ストアウィジェット」を発表"
+      },
+      {
+        "slug": "ahrefs-ai-bots-vs-search-bots",
+        "title": "Ahrefs、AIボットと検索エンジンボットのクロール状況を比較調査"
+      }
     ]
   },
   {
@@ -440,7 +588,9 @@
     "date": "2025-09-18",
     "dateDisplay": "2025/09/18",
     "lang": "en",
-    "platforms": ["google"],
+    "platforms": [
+      "google"
+    ],
     "viewpoint": "seller",
     "theme": "optimization",
     "thumbnail": "https://developers.google.com/static/search/blog/images/top-quality-store-widget-embedded.gif",
@@ -451,8 +601,14 @@
     ],
     "meaning": "商品情報の正確さに加え、配送・返品・評価を一貫して公開することが、検索後の購入判断とショップ品質の両方に効くことを意味する。ストア単位の信頼性表示も対策範囲に含める必要がある。",
     "related": [
-      {"slug": "semrush-ai-visibility-study", "title": "Semrush、AI検索の実態を調べた「AI可視性調査」を公開"},
-      {"slug": "amazon-boost-listings-10-tactics", "title": "Amazon、商品リスティングを改善する10の施策を解説"}
+      {
+        "slug": "semrush-ai-visibility-study",
+        "title": "Semrush、AI検索の実態を調べた「AI可視性調査」を公開"
+      },
+      {
+        "slug": "amazon-boost-listings-10-tactics",
+        "title": "Amazon、商品リスティングを改善する10の施策を解説"
+      }
     ]
   },
   {
@@ -464,7 +620,9 @@
     "date": "2026-04-29",
     "dateDisplay": "2026/04/29",
     "lang": "en",
-    "platforms": ["amazon"],
+    "platforms": [
+      "amazon"
+    ],
     "viewpoint": "seller",
     "theme": "optimization",
     "thumbnail": "https://cdn.sell2.brightspotcdn.com/dims4/default/e5950d9/2147483647/strip/true/crop/1000x800%2B0%2B0/resize/500x400%21/quality/90/?url=https%3A%2F%2Fsell2-production-sell2.s3.us-west-2.amazonaws.com%2Fbrightspot%2Fea%2F4d%2F16eaac6d4c449efa3b1a493b0373%2Fblog-boost-listing.png",
@@ -475,56 +633,78 @@
     ],
     "meaning": "タグ・属性を揃えるだけで終わらせず、購入者の質問に答える商品説明とA/Bテストまでを一連の改善運用にできることを意味する。整備した情報を検証しながら磨き続ける仕組みが実務上の差になる。",
     "related": [
-      {"slug": "amazon-brand-analytics", "title": "Amazon、Brand Analyticsで商品単位のAI検索データを可視化"},
-      {"slug": "google-store-widget", "title": "Google、ストア評価・配送方針を表示する「ストアウィジェット」を発表"}
+      {
+        "slug": "amazon-brand-analytics",
+        "title": "Amazon、Brand Analyticsで商品単位のAI検索データを可視化"
+      },
+      {
+        "slug": "google-store-widget",
+        "title": "Google、ストア評価・配送方針を表示する「ストアウィジェット」を発表"
+      }
     ]
   },
   {
-    "slug": "google-ai-clicks-quality",
-    "title": "Google、AI検索はクエリ増加と高品質クリックを促進すると説明",
-    "origTitle": "AI in Search is driving more queries and higher quality clicks",
-    "sourceUrl": "https://blog.google/products-and-platforms/products/search/ai-search-driving-more-queries-higher-quality-clicks/",
-    "source": "Google",
-    "date": "2025-08-06",
-    "dateDisplay": "2025/08/06",
+    "slug": "google-search-console-ai-performance-reports",
+    "title": "Google、Search ConsoleにAI検索専用のパフォーマンスレポートを追加",
+    "origTitle": "Introducing Search Generative AI performance reports in Search Console",
+    "sourceUrl": "https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports",
+    "source": "Google Search Central",
+    "date": "2026-06-03",
+    "dateDisplay": "2026/06/03",
     "lang": "en",
-    "platforms": ["google"],
+    "platforms": [
+      "google"
+    ],
     "viewpoint": "seller",
     "theme": "measurement",
-    "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/ai_search_clicks.max-1000x1000.format-webp.webp",
+    "thumbnail": "https://developers.google.com/static/search/blog/images/social-share-blog.png",
     "bullets": [
-      "GoogleはAI機能経由でもウェブへのクリックを送り続けると説明する。",
-      "「すぐ戻らないクリック」を高品質クリックとして捉える。",
-      "AI検索の評価では流入数だけでなく訪問後行動が重要になる。"
+      "Search Consoleに、AI Overviews・AI Mode・Discoverの生成AI機能内での表示を確認する専用レポートが追加された。",
+      "URL別の表示回数に加え、国、デバイス、日付単位での推移を確認できる。",
+      "従来の総合パフォーマンスとは別に、生成AI面での露出を継続観測できるようになる。"
     ],
-    "meaning": "AI経由流入はセッション数だけでなく、商品詳細閲覧・CVまでセットで測るべきことを意味する。流入数のみのKPIでは実際の購買貢献を見誤る恐れがある。",
+    "meaning": "商品ページの改善後に、通常検索とAI検索内の表示を分けて検証するKPI設計の土台になることを意味する。AI面だけの露出変化を追える体制づくりが実務課題になる。",
     "related": [
-      {"slug": "google-commerce-media-suite", "title": "Google、Commerce Media suiteをブランド・小売事業者へ提供"},
-      {"slug": "similarweb-ai-discovery-report", "title": "Similarweb、AI経由の紹介訪問が急増と報告する2025年レポートを公開"}
+      {
+        "slug": "google-search-console-social-video-guide",
+        "title": "Google、Commerce Media suiteをブランド・小売事業者へ提供"
+      },
+      {
+        "slug": "ahrefs-ai-adjusted-search-volume",
+        "title": "Similarweb、AI経由の紹介訪問が急増と報告する2025年レポートを公開"
+      }
     ]
   },
   {
-    "slug": "google-commerce-media-suite",
-    "title": "Google、Commerce Media suiteをブランド・小売事業者へ提供",
-    "origTitle": "We're bringing Google's Commerce Media suite to brands and retailers",
-    "sourceUrl": "https://blog.google/products/ads-commerce/were-bringing-googles-commerce-media-suite-to-brands-and-retailers/",
-    "source": "Google",
-    "date": "2025-06-18",
-    "dateDisplay": "2025/06/18",
+    "slug": "google-search-console-social-video-guide",
+    "title": "Google、Search ConsoleでSNS・動画の検索実績を横断確認できる機能を展開",
+    "origTitle": "Platform properties roll out globally, plus a new social and video performance guide",
+    "sourceUrl": "https://developers.google.com/search/blog/2026/07/platform-properties-social-video-guide",
+    "source": "Google Search Central",
+    "date": "2026-07-29",
+    "dateDisplay": "2026/07/29",
     "lang": "en",
-    "platforms": ["google", "rakuten"],
+    "platforms": [
+      "google"
+    ],
     "viewpoint": "seller",
     "theme": "measurement",
-    "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/commerce_media.max-1000x1000.format-webp.webp",
+    "thumbnail": "https://developers.google.com/static/search/blog/images/social-share-blog.png",
     "bullets": [
-      "小売・ブランドの販売データを広告測定につなぐ仕組みを紹介する。",
-      "商品・カテゴリ単位で広告効果を測る試行を開始する。",
-      "楽天等のマーケットプレイスによる商品カタログ共有にも触れる。"
+      "Search ConsoleでInstagram、TikTok、X、YouTubeのコンテンツを、Google Search・Discover・Google News上の実績として確認できるようになった。",
+      "検索語、投稿別のクリック・表示、直近24時間の急増、複数プラットフォーム間の比較を行える。",
+      "導線を自社サイトだけに限定せず、コンテンツ接点ごとに検索流入を評価する考え方を示す。"
     ],
-    "meaning": "商品単位で「どの属性整備が売上につながったか」を測る方向性と一致することを意味する。カテゴリ単位ではなく商品単位の効果測定に対応できる体制が求められる。",
+    "meaning": "商品情報の整備効果をモール・自社サイト・SNSの個別施策に分断せず、流入と反応の変化で比較する参考になることを意味する。SNS運用も含めた横断計測への移行が求められる。",
     "related": [
-      {"slug": "google-ai-clicks-quality", "title": "Google、AI検索はクエリ増加と高品質クリックを促進すると説明"},
-      {"slug": "amazon-brand-analytics", "title": "Amazon、Brand Analyticsで商品単位のAI検索データを可視化"}
+      {
+        "slug": "google-search-console-ai-performance-reports",
+        "title": "Google、AI検索はクエリ増加と高品質クリックを促進すると説明"
+      },
+      {
+        "slug": "amazon-brand-analytics",
+        "title": "Amazon、Brand Analyticsで商品単位のAI検索データを可視化"
+      }
     ]
   },
   {
@@ -536,7 +716,9 @@
     "date": "2025-12-01",
     "dateDisplay": "2025/12（Amazon Selling Partners公表）",
     "lang": "en",
-    "platforms": ["amazon"],
+    "platforms": [
+      "amazon"
+    ],
     "viewpoint": "seller",
     "theme": "measurement",
     "thumbnail": "https://cdn-sellingpartners.aboutamazon.com/dims4/default/de07494/2147483647/strip/true/crop/1000x563%2B0%2B0/resize/1000x563%21/format/webp/quality/90/?url=https%3A%2F%2Famazon-k1-prod-ser.s3.us-west-2.amazonaws.com%2Fbrightspot%2F7e%2F8e%2F290e8bca497d98fdbae1527c899f%2Fser-sber25-illustration-dataviz-aag-13-1.png",
@@ -547,8 +729,14 @@
     ],
     "meaning": "モール側AIがどの業務データを成果指標として扱い始めているかを把握できることを意味する。自社の評価指標をモール側の評価軸とすり合わせる材料になる。",
     "related": [
-      {"slug": "amazon-product-opportunity-explorer", "title": "Amazon、需要データから新商品機会を提案する分析ツールを解説"},
-      {"slug": "amazon-brand-analytics", "title": "Amazon、Brand Analyticsで商品単位のAI検索データを可視化"}
+      {
+        "slug": "amazon-product-opportunity-explorer",
+        "title": "Amazon、需要データから新商品機会を提案する分析ツールを解説"
+      },
+      {
+        "slug": "amazon-brand-analytics",
+        "title": "Amazon、Brand Analyticsで商品単位のAI検索データを可視化"
+      }
     ]
   },
   {
@@ -560,7 +748,9 @@
     "date": "2026-02-13",
     "dateDisplay": "2026/02/13",
     "lang": "ja",
-    "platforms": ["rakuten"],
+    "platforms": [
+      "rakuten"
+    ],
     "viewpoint": "seller",
     "theme": "measurement",
     "thumbnail": "https://img.youtube.com/vi/zToTXB_Vb1o/maxresdefault.jpg",
@@ -571,8 +761,14 @@
     ],
     "meaning": "「露出したか」だけでなく、AI導線後の再訪・比較行動を測る視点を得られることを意味する。一度の接触だけでなく再訪行動までを評価対象に含めるべきである。",
     "related": [
-      {"slug": "rakuten-ai-ecosystem-q3", "title": "楽天、Rakuten AIをエコシステム全体で展開（2025年第3四半期報告）"},
-      {"slug": "google-ai-mode-agentic-features", "title": "Google、AI Modeにエージェント機能を追加し世界展開"}
+      {
+        "slug": "rakuten-ai-ecosystem-q3",
+        "title": "楽天、Rakuten AIをエコシステム全体で展開（2025年第3四半期報告）"
+      },
+      {
+        "slug": "google-ai-mode-agentic-features",
+        "title": "Google、AI Modeにエージェント機能を追加し世界展開"
+      }
     ]
   },
   {
@@ -584,10 +780,12 @@
     "date": "2025-08-21",
     "dateDisplay": "2025/08/21",
     "lang": "en",
-    "platforms": ["google"],
+    "platforms": [
+      "google"
+    ],
     "viewpoint": "buyer",
     "theme": "measurement",
-    "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/agentic_ai_mode.max-1000x1000.format-webp.webp",
+    "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/expanding_ai_mode_ss.width-1300.png",
     "bullets": [
       "検索、予約、候補選択までの行動をAIが補助する。",
       "パーソナルな文脈を提案へ反映する仕組みを拡張する。",
@@ -595,8 +793,14 @@
     ],
     "meaning": "AIが比較・予約等を代行するほど、遷移後だけに頼らないKPI設計が必要になることを意味する。完了行動までを見通した計測設計への移行が求められる。",
     "related": [
-      {"slug": "google-gemini3-search", "title": "Google、Gemini 3を搭載した検索を提供開始"},
-      {"slug": "rakuten-ai-ecosystem-q4", "title": "楽天、Rakuten AIをエコシステム全体で展開（2025年第4四半期報告）"}
+      {
+        "slug": "google-gemini3-search",
+        "title": "Google、Gemini 3を搭載した検索を提供開始"
+      },
+      {
+        "slug": "rakuten-ai-ecosystem-q4",
+        "title": "楽天、Rakuten AIをエコシステム全体で展開（2025年第4四半期報告）"
+      }
     ]
   },
   {
@@ -608,10 +812,12 @@
     "date": "2025-11-18",
     "dateDisplay": "2025/11/18",
     "lang": "en",
-    "platforms": ["google"],
+    "platforms": [
+      "google"
+    ],
     "viewpoint": "buyer",
     "theme": "measurement",
-    "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_3_search.max-1000x1000.format-webp.webp",
+    "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/SearchwithGemini3_Social.width-1300.png",
     "bullets": [
       "AI ModeでGemini 3を提供し、動的な回答UIを導入する。",
       "クエリごとに視覚的・対話的な結果表現を変える。",
@@ -619,32 +825,48 @@
     ],
     "meaning": "表示枠の有無だけでなく、AI回答中の商品情報がどう扱われたかを観測する必要があることを意味する。固定順位を前提にした計測方法の見直しが必要になる。",
     "related": [
-      {"slug": "google-ai-mode-agentic-features", "title": "Google、AI Modeにエージェント機能を追加し世界展開"},
-      {"slug": "arxiv-ai-search-information-markets", "title": "学術論文：AI検索の台頭が情報市場と人間の判断に与える影響"}
+      {
+        "slug": "google-ai-mode-agentic-features",
+        "title": "Google、AI Modeにエージェント機能を追加し世界展開"
+      },
+      {
+        "slug": "arxiv-ai-search-information-markets",
+        "title": "学術論文：AI検索の台頭が情報市場と人間の判断に与える影響"
+      }
     ]
   },
   {
-    "slug": "similarweb-ai-discovery-report",
-    "title": "Similarweb、AI経由の紹介訪問が急増と報告する2025年レポートを公開",
-    "origTitle": "AI Discovery Surges: Similarweb's 2025 Generative AI Report Says",
-    "sourceUrl": "https://ir.similarweb.com/news-events/press-releases/detail/138/ai-discovery-surges-similarwebs-2025-generative-ai-report-says",
-    "source": "Similarweb",
-    "date": "2025-12-02",
-    "dateDisplay": "2025/12/02",
+    "slug": "ahrefs-ai-adjusted-search-volume",
+    "title": "Ahrefs、AI検索の需要を推定する「AI調整済みボリューム」の考え方を解説",
+    "origTitle": "AI adjusted volume: How Ahrefs approaches the challenge of estimating AI Search demand",
+    "sourceUrl": "https://ahrefs.com/blog/how-ahrefs-estimates-ai-search-demand/",
+    "source": "Ahrefs",
+    "date": "2026-08-17",
+    "dateDisplay": "2026/08/17",
     "lang": "en",
-    "platforms": ["google", "chatgpt", "other-ai"],
+    "platforms": [
+      "google",
+      "chatgpt",
+      "other-ai"
+    ],
     "viewpoint": "seller",
     "theme": "measurement",
-    "thumbnail": "https://d1io3yog0oux5.cloudfront.net/_6c799610c3ed24b364e022a0683622c5/similarweb/db/876/138/press_release/2025-generative-ai-report.jpg",
+    "thumbnail": "https://ahrefs.com/blog/wp-content/uploads/2026/08/ai-adjusted-volume-how-ahrefs-approaches-by-constance-tan-product-blog-1.jpg",
     "bullets": [
-      "AIプラットフォームからの紹介訪問数を定量的に追う。",
-      "2025年6月のAI経由紹介は前年比357%増と報告する。",
-      "GoogleとAIをまたぐ複線的な発見経路を示す。"
+      "AI検索の実プロンプト量は主要プラットフォームから公開されていないため、AhrefsはGoogle検索ボリュームとプラットフォーム別の流入比率から需要を推定する。",
+      "ChatGPT、Perplexity、Gemini、Claudeなどで、同じ問いでも需要推定値を分けて扱う。",
+      "推定値は市場規模の確定値ではなく、AI上の露出・Share of Voice・優先テーマを比較するための方向性指標だと明示する。"
     ],
-    "meaning": "AI経由を一括りにせず、参照元別に流入と成果を追うKPI設計の根拠になることを意味する。急増する経路を見落とさないよう、参照元の分解計測が急務になる。",
+    "meaning": "AI経由の需要・露出を「正確な検索数」と誤認せず、商品テーマの優先順位と可視性を比較する指標として使う判断材料になることを意味する。プラットフォーム別の推定値を横並びで見る視点が有効になる。",
     "related": [
-      {"slug": "google-ai-clicks-quality", "title": "Google、AI検索はクエリ増加と高品質クリックを促進すると説明"},
-      {"slug": "ahrefs-ai-bots-vs-search-bots", "title": "Ahrefs、AIボットと検索エンジンボットのクロール状況を比較調査"}
+      {
+        "slug": "google-search-console-ai-performance-reports",
+        "title": "Google、AI検索はクエリ増加と高品質クリックを促進すると説明"
+      },
+      {
+        "slug": "ahrefs-ai-bots-vs-search-bots",
+        "title": "Ahrefs、AIボットと検索エンジンボットのクロール状況を比較調査"
+      }
     ]
   },
   {
@@ -656,7 +878,9 @@
     "date": "2025-10-08",
     "dateDisplay": "2025/10/08",
     "lang": "en",
-    "platforms": ["amazon"],
+    "platforms": [
+      "amazon"
+    ],
     "viewpoint": "seller",
     "theme": "measurement",
     "thumbnail": "https://cdn.sell2.brightspotcdn.com/dims4/default/f8e74f3/2147483647/strip/true/crop/1616x1293%2B0%2B89/resize/500x400%21/quality/90/?url=https%3A%2F%2Fsell2-production-sell2.s3.us-west-2.amazonaws.com%2Fbrightspot%2Fb2%2Fd7%2F5b20410b4a8ba9417a78bfd0d404%2F2510033-1070-sm-2.jpg",
@@ -667,8 +891,14 @@
     ],
     "meaning": "タグや属性の改善を「付与件数」で終わらせず、検索表示・クリック・購買までの商品単位KPIで検証できることを意味する。改善作業と成果測定を1つのループにできる。",
     "related": [
-      {"slug": "amazon-boost-listings-10-tactics", "title": "Amazon、商品リスティングを改善する10の施策を解説"},
-      {"slug": "amazon-product-opportunity-explorer", "title": "Amazon、需要データから新商品機会を提案する分析ツールを解説"}
+      {
+        "slug": "amazon-boost-listings-10-tactics",
+        "title": "Amazon、商品リスティングを改善する10の施策を解説"
+      },
+      {
+        "slug": "amazon-product-opportunity-explorer",
+        "title": "Amazon、需要データから新商品機会を提案する分析ツールを解説"
+      }
     ]
   },
   {
@@ -680,10 +910,14 @@
     "date": "2025-06-18",
     "dateDisplay": "2025/06/18",
     "lang": "en",
-    "platforms": ["google", "chatgpt", "other-ai"],
+    "platforms": [
+      "google",
+      "chatgpt",
+      "other-ai"
+    ],
     "viewpoint": "seller",
     "theme": "measurement",
-    "thumbnail": "https://ahrefs.com/blog/wp-content/uploads/2025/06/ai-bots-crawling.png",
+    "thumbnail": "https://ahrefs.com/blog/wp-content/uploads/2025/06/meet-the-new-web-crawlers-ai-by-patrick-stox-data-studies-1.jpg",
     "bullets": [
       "Cloudflare RadarのデータでAIボットと検索ボットのクロールを比較する。",
       "AIによる情報取得を、検索順位以外で捉える必要性を示す。",
@@ -691,8 +925,14 @@
     ],
     "meaning": "クロールされたことと売上に寄与したことを混同しない測定設計に役立つことを意味する。ボットアクセス数を成果の代理指標にしない慎重さが必要になる。",
     "related": [
-      {"slug": "similarweb-ai-discovery-report", "title": "Similarweb、AI経由の紹介訪問が急増と報告する2025年レポートを公開"},
-      {"slug": "semrush-ai-visibility-study", "title": "Semrush、AI検索の実態を調べた「AI可視性調査」を公開"}
+      {
+        "slug": "ahrefs-ai-adjusted-search-volume",
+        "title": "Similarweb、AI経由の紹介訪問が急増と報告する2025年レポートを公開"
+      },
+      {
+        "slug": "semrush-ai-visibility-study",
+        "title": "Semrush、AI検索の実態を調べた「AI可視性調査」を公開"
+      }
     ]
   },
   {
@@ -704,7 +944,11 @@
     "date": "2026-02-16",
     "dateDisplay": "2026/02/16",
     "lang": "en",
-    "platforms": ["google", "chatgpt", "other-ai"],
+    "platforms": [
+      "google",
+      "chatgpt",
+      "other-ai"
+    ],
     "viewpoint": "buyer",
     "theme": "measurement",
     "thumbnail": "https://arxiv.org/html/2602.13415v2/main_figures/mainfigure1_260211.png",
@@ -715,8 +959,14 @@
     ],
     "meaning": "「表示回数」だけではなく、比較・判断への影響まで含む長期KPIを考える材料になることを意味する。露出だけで一喜一憂せず、判断段階までの影響を見る視座が求められる。",
     "related": [
-      {"slug": "google-gemini3-search", "title": "Google、Gemini 3を搭載した検索を提供開始"},
-      {"slug": "similarweb-ai-discovery-report", "title": "Similarweb、AI経由の紹介訪問が急増と報告する2025年レポートを公開"}
+      {
+        "slug": "google-gemini3-search",
+        "title": "Google、Gemini 3を搭載した検索を提供開始"
+      },
+      {
+        "slug": "ahrefs-ai-adjusted-search-volume",
+        "title": "Similarweb、AI経由の紹介訪問が急増と報告する2025年レポートを公開"
+      }
     ]
   }
 ]
