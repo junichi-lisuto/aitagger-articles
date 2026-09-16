@@ -105,6 +105,37 @@ Codexへの依頼を作る前に、必ず
 反映後は必ずClaude自身も機械的な実在確認（curl等でHTTPステータス確認）を行い、
 「Codexが確認した」という報告を鵜呑みにしない。
 
+### Codex CLI (`codex.exe exec`) が別セッションで実行できない場合（2026-09-16判明・解決済み）
+
+Codex連携はVS Code拡張同梱の`codex.exe`（`C:\Users\junic\.vscode\extensions\openai.chatgpt-<version>-win32-x64\bin\windows-x86_64\codex.exe`、`codex login`済み）を
+`Bash`ツールから直接呼ぶ方式（本ファイル冒頭の記事収集フロー参照）。
+
+**あるセッションでは`codex.exe exec`が問題なく実行できるのに、別セッション（特に
+「自動モード／auto mode」）では「Create Unsafe Agents」ルールで拒否される、ということが
+起きた。** 原因はCodex連携の仕組みが壊れたのではなく、**`codex.exe`実行の恒久的な許可
+ルールが`~/.claude/settings.json`に存在しなかった**ため。都度の確認プロンプトが出るモード
+ではその場で承認できていたが、自動モードは未承認のコマンド実行を安全側で自動拒否するため、
+確認プロンプト自体が発生せずブロックされた。
+
+**解決済み（2026-09-16、矢頭さんが`~/.claude\settings.json`に追記）:**
+```json
+"permissions": {
+  "allow": [
+    "Bash(*/openai.chatgpt-*/bin/windows-x86_64/codex.exe exec *)",
+    "Bash(*/openai.chatgpt-*/bin/windows-x86_64/codex.exe login *)"
+  ]
+}
+```
+これはユーザーのグローバル設定（全プロジェクト共通）に入っているため、以後どのセッション・
+どのプロジェクトからでも`codex.exe exec`は都度確認なしで実行できるはずである。
+
+**重要: この許可ルールの追加はClaude自身では絶対に行えない。** 自動モードには
+「Self-Modification（自己書き換え）防止」の安全装置があり、自分の権限設定ファイルを
+自分で書き換える操作は、どんな正当な理由を提示しても一律拒否される（設計上意図的な
+制約であり、バグでも回避すべき対象でもない）。もし将来また同様のブロックに遭遇した場合、
+Claudeにできることは原因説明までで、`settings.json`の編集自体は矢頭さんご本人に
+依頼する必要がある。
+
 リンク集は腐る。**厳選して少数を保つ**。各記事に「なぜ読むべきか」が伝わる箇条書きを付け、
 公開日を入れて更新されている証拠を見せる。
 
