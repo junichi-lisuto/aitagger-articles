@@ -3,6 +3,675 @@
   "schemaVersion": 2,
   "articles": [
     {
+      "slug": "yahoo-finance-walmart-sparky-40percent",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/yahoo-finance-walmart-sparky-40percent.html",
+      "sourceUrl": "https://finance.yahoo.com/technology/ai/articles/walmart-says-ai-assistant-sparky-163000558.html",
+      "platforms": [
+        "other-ai"
+      ],
+      "viewpoint": "buyer",
+      "theme": "visibility",
+      "source": "Yahoo Finance",
+      "date": "2026-08-26",
+      "title": "WalmartのAI「Sparky」利用者、非利用者より40%多く購入と判明",
+      "bullets": [
+        "Walmart AI「Sparky」利用者は購入額が40%多いと判明",
+        "利用者数は前年比70%増、eコマース売上も23%増",
+        "40%増は相関関係で因果関係ではない可能性も指摘"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://s.yimg.com/lo/mysterio/api/7dcc57f39b9bbb828768b90ee47d3c76f9f914047977860be32b822ac4c8e9e6/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmoneywise_327%2Fc371e183ea3e12b92f9430398f47d0d8.jpg"
+      }
+    },
+    {
+      "slug": "sparktoro-zero-click-2026",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/sparktoro-zero-click-2026.html",
+      "sourceUrl": "https://sparktoro.com/blog/in-2026-less-than-one-third-of-google-searches-still-send-a-click/",
+      "platforms": [
+        "google"
+      ],
+      "viewpoint": "buyer",
+      "theme": "measurement",
+      "source": "SparkToro",
+      "date": "2026-06-09",
+      "title": "2026年、Google検索の3分の2以上がクリックなしで終了",
+      "bullets": [
+        "2026年、Google検索の68%がクリックなしで終了と判明",
+        "AI機能・即時回答が検索結果内で完結する行動を後押し",
+        "サイト流入だけでは見えないAI検索での露出把握が課題に"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://images.sparktoro.com/blog/wp-content/uploads/2026/06/2026-what-happens-after-google-search-sparktoro-similarweb.png"
+      }
+    },
+    {
+      "slug": "semrush-ai-visibility-index-126m-prompts",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/semrush-ai-visibility-index-126m-prompts.html",
+      "sourceUrl": "https://www.semrush.com/news/463141-semrush-releases-expanded-2026-ai-visibility-index-analyzing-126-million-ai-search-prompts/",
+      "platforms": [
+        "google",
+        "chatgpt",
+        "other-ai"
+      ],
+      "viewpoint": "buyer",
+      "theme": "measurement",
+      "source": "Semrush",
+      "date": "2026-06-26",
+      "title": "Semrush、1億2,600万件のAI検索プロンプトを分析した「AI Visibility Index」を拡大発表",
+      "bullets": [
+        "1.26億件のAI検索プロンプトを分析した可視性指数を公開",
+        "4AIすべてで可視性を保てた企業はわずか36社にとどまる",
+        "AI経由トラフィックは1年半で1,324%増と急拡大"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://prowly-prod.s3.eu-west-1.amazonaws.com/uploads/landing_page/template_background/463141/97317df35019a64d83090bf369d61290.jpg"
+      }
+    },
+    {
+      "slug": "sej-google-search-console-ai-impressions",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/sej-google-search-console-ai-impressions.html",
+      "sourceUrl": "https://www.searchenginejournal.com/google-reports-ai-search-impressions-how-to-read-them/582824/",
+      "platforms": [
+        "google"
+      ],
+      "viewpoint": "seller",
+      "theme": "measurement",
+      "source": "Search Engine Journal",
+      "date": "2026-06-03",
+      "title": "Google Search Consoleが「AI検索でのインプレッション」を報告開始",
+      "bullets": [
+        "Search ConsoleがAI検索での表示回数を報告開始",
+        "現時点ではクリック数・順位は含まれずインプレッションのみ",
+        "AI機能表示だけを個別オプトアウトする機能も試験提供中"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://cdn.searchenginejournal.com/wp-content/uploads/2026/07/impressions-933.png"
+      }
+    },
+    {
+      "slug": "seer-interactive-aio-ctr-recovery-2026",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/seer-interactive-aio-ctr-recovery-2026.html",
+      "sourceUrl": "https://www.seerinteractive.com/insights/aio-impact-on-google-ctr-2026-update",
+      "platforms": [
+        "google"
+      ],
+      "viewpoint": "buyer",
+      "theme": "measurement",
+      "source": "Seer Interactive",
+      "date": "2026-04-24",
+      "title": "GoogleのAI Overviews、クリック率が2026年に入り85%回復",
+      "bullets": [
+        "GoogleのAI Overviews、CTRが1年で85%回復したと判明",
+        "53ブランド・547万クエリを追跡した3年目の年次調査",
+        "AI Overviews表示の有無でクリックの分布そのものが変化"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://7982212.fs1.hubspotusercontent-na1.net/hubfs/7982212/AIO%20Impact%20on%20Google%20CTR%202026%20Update%20(1).png"
+      }
+    },
+    {
+      "slug": "ppc-land-amazon-perplexity-injunction",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/ppc-land-amazon-perplexity-injunction.html",
+      "sourceUrl": "https://ppc.land/amazon-loses-injunction-blocking-perplexitys-ai-shopping-agent/",
+      "platforms": [
+        "amazon",
+        "other-ai"
+      ],
+      "viewpoint": "buyer",
+      "theme": "visibility",
+      "source": "PPC Land",
+      "date": "2026-08-04",
+      "title": "AmazonがPerplexityのAI購買エージェントを止める仮処分に敗訴",
+      "bullets": [
+        "Amazon対PerplexityのAI購買代行訴訟、Amazonが敗訴",
+        "裁判所はAIエージェント利用の責任は「人間側」と判断",
+        "モール側は法的にAIエージェントを一律遮断しにくくなった"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ppc.land/content/images/2026/09/Amazon-loses-injunction-blocking-Perplexity-s-AI-shopping-agent.jpg"
+      }
+    },
+    {
+      "slug": "nikkei-rakuten-ai-store-manager",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/nikkei-rakuten-ai-store-manager.html",
+      "sourceUrl": "https://www.nikkei.com/article/DGXZQOUC04BI50U6A800C2000000/",
+      "platforms": [
+        "rakuten"
+      ],
+      "viewpoint": "seller",
+      "theme": "visibility",
+      "source": "日本経済新聞",
+      "date": "2026-08-05",
+      "title": "楽天市場、店舗ごとに24時間接客する「AI店長」を実装へ",
+      "bullets": [
+        "楽天市場に24時間接客の「AI店長」を実装へ",
+        "生成AIによるバーチャル試着機能も披露",
+        "RMSにバナー画像自動生成機能を9月提供予定"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3412424005082026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&fp-x=0.77&fp-y=0.26&h=630&w=1200&s=796333388f68da9bffafc5ebd67fffe2"
+      }
+    },
+    {
+      "slug": "netshop-rakuten-ai-optimism-2026-preview",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/netshop-rakuten-ai-optimism-2026-preview.html",
+      "sourceUrl": "https://netshop.impress.co.jp/n/2026/06/02/16171",
+      "platforms": [
+        "rakuten"
+      ],
+      "viewpoint": "buyer",
+      "theme": "visibility",
+      "source": "ネットショップ担当者フォーラム",
+      "date": "2026-06-02",
+      "title": "楽天、AI活用を発信するビジネスイベント「Rakuten AI Optimism」を8月に開催",
+      "bullets": [
+        "楽天のAIイベント「Rakuten AI Optimism」8月開催へ",
+        "三木谷社長やLINEヤフー安宅氏らが登壇予定",
+        "累計参加者約84万人、AI体験コーナーや商談ブースも設置"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://netshop.impress.co.jp/sites/default/files/styles/1200x630/public/images/news/2026/news-node16171-ogp.jpg?itok=OeXDjsbi"
+      }
+    },
+    {
+      "slug": "mynavi-yahoo-ec-pilot-48percent",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/mynavi-yahoo-ec-pilot-48percent.html",
+      "sourceUrl": "https://news.mynavi.jp/techplus/article/20260819-4836182/",
+      "platforms": [
+        "yahoo"
+      ],
+      "viewpoint": "seller",
+      "theme": "optimization",
+      "source": "マイナビニュース",
+      "date": "2026-08-19",
+      "title": "Yahoo!ショッピング、出店者向けAI「EC Pilot」の利用ストアが48%に到達",
+      "bullets": [
+        "Yahoo!ショッピングの出店者向けAI、利用率が48%に到達",
+        "利用ストアは非利用ストアより成長率が15ポイント高い",
+        "AIエージェント経由の注文金額は全体の約2割に"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://news.mynavi.jp/techplus/article/20260819-4836182/ogp_images/ogp.jpg"
+      }
+    },
+    {
+      "slug": "microsoft-clarity-citations-ga",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/microsoft-clarity-citations-ga.html",
+      "sourceUrl": "https://clarity.microsoft.com/blog/citations-now-generally-available/",
+      "platforms": [
+        "other-ai"
+      ],
+      "viewpoint": "seller",
+      "theme": "measurement",
+      "source": "Microsoft Clarity",
+      "date": "2026-05-13",
+      "title": "Microsoft Clarity、AIの回答での引用状況を無料で追跡できる「Citations」を一般提供開始",
+      "bullets": [
+        "Microsoft Clarity、AI引用の無料追跡機能を一般提供",
+        "ページ引用数・競合比較・AI経由流入まで無料で計測",
+        "追跡コードとドメイン確認のみで導入可能"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://clarity.microsoft.com/blog/wp-content/uploads/2026/05/Blog-AI-Citation-1.png"
+      }
+    },
+    {
+      "slug": "lycorp-yahoo-shopping-ai-omakase-compare",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/lycorp-yahoo-shopping-ai-omakase-compare.html",
+      "sourceUrl": "https://www.lycorp.co.jp/ja/news/release/020421/",
+      "platforms": [
+        "yahoo"
+      ],
+      "viewpoint": "buyer",
+      "theme": "optimization",
+      "source": "LINEヤフー",
+      "date": "2026-05-20",
+      "title": "Yahoo!ショッピング、AIが自動で商品比較し最適な1品を提案する「AIおまかせ比較」を開始",
+      "bullets": [
+        "Yahoo!ショッピングにAIが自動比較する新機能が登場",
+        "約15~20商品を比較し最適な1品を60秒で提案",
+        "AIエージェント経由の取扱高が全体の15%以上に伸長"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://www.lycorp.co.jp/ja/news/2026/78d07e2908db85ebe65f024f9593154d3e2f8c19.png"
+      }
+    },
+    {
+      "slug": "lycorp-agent-i-shopping-lens",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/lycorp-agent-i-shopping-lens.html",
+      "sourceUrl": "https://www.lycorp.co.jp/ja/news/release/020686/",
+      "platforms": [
+        "yahoo"
+      ],
+      "viewpoint": "buyer",
+      "theme": "visibility",
+      "source": "LINEヤフー",
+      "date": "2026-07-30",
+      "title": "LINEヤフー、AIエージェント「Agent i」に写真から商品を探す「ショッピングレンズ」機能を追加",
+      "bullets": [
+        "Agent iに写真から商品を探す「ショッピングレンズ」機能を追加",
+        "テキスト入力なしで取扱ストア・価格をまとめて比較表示",
+        "対応領域は3つ追加され累計25領域(β版含む)に拡大"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://www.lycorp.co.jp/ja/news/2026/20260730_KV.jpg"
+      }
+    },
+    {
+      "slug": "gs1uk-google-gtin-march-2026",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/gs1uk-google-gtin-march-2026.html",
+      "sourceUrl": "https://www.gs1uk.org/insights/news/Google-changes-in-March-2026-how-to-get-GTINs-and-product-IDs-right",
+      "platforms": [
+        "google"
+      ],
+      "viewpoint": "seller",
+      "theme": "optimization",
+      "source": "GS1 UK",
+      "date": "2026-02-17",
+      "title": "Google、2026年3月の仕様変更でGTIN・商品IDの扱いを厳格化",
+      "bullets": [
+        "Googleが2026年3月からGTIN・商品IDの扱いを厳格化",
+        "オンラインと店舗で異なる場合は別商品IDでの申請が必要に",
+        "正確なGTINでコンバージョン率が最大20%上昇の可能性"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://www.gs1uk.org/sites/default/files/2026-02/card-google-march-update.jpg"
+      }
+    },
+    {
+      "slug": "google-ucp-updates-march-2026",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/google-ucp-updates-march-2026.html",
+      "sourceUrl": "https://blog.google/products-and-platforms/products/shopping/ucp-updates/",
+      "platforms": [
+        "google"
+      ],
+      "viewpoint": "seller",
+      "theme": "optimization",
+      "source": "Google",
+      "date": "2026-03-19",
+      "title": "Google、Universal Commerce Protocol(UCP)の新機能でAIショッピングをさらに簡易化",
+      "bullets": [
+        "GoogleのUCPが更新、AIエージェントの複数商品カート対応",
+        "在庫・価格などリアルタイム商品情報へのアクセスを拡充",
+        "Merchant CenterでのUCP導入手続きを簡素化"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_shopping_gets_simple_social.width-1300.png"
+      }
+    },
+    {
+      "slug": "google-conversational-attributes-merchant-center",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/google-conversational-attributes-merchant-center.html",
+      "sourceUrl": "https://business.google.com/us/accelerate/announcements/conversational-attributes/",
+      "platforms": [
+        "google"
+      ],
+      "viewpoint": "seller",
+      "theme": "optimization",
+      "source": "Google",
+      "date": "2026-05-19",
+      "title": "Google、AI検索向けにMerchant Centerへ「会話型属性」を追加",
+      "bullets": [
+        "GoogleがMerchant Centerに「会話型属性」を追加",
+        "FAQ・関連商品・人気度など既存フィードにない項目に対応",
+        "AI Modeが詳細な質問に答えるための補完データとして機能"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://www.gstatic.com/marketing-cms/assets/images/ads/07/4d/f463024e4eb8a15d3a63392be8ce/conversational-attributes-update.webp=n-w554-h700-fcrop64=1,00000000ffffffff-rw"
+      }
+    },
+    {
+      "slug": "digitalcommerce360-shopify-chatgpt-integration",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/digitalcommerce360-shopify-chatgpt-integration.html",
+      "sourceUrl": "https://www.digitalcommerce360.com/2026/03/25/shopify-brands-shoppable-inside-chatgpt-integration/",
+      "platforms": [
+        "chatgpt"
+      ],
+      "viewpoint": "seller",
+      "theme": "visibility",
+      "source": "Digital Commerce 360",
+      "date": "2026-03-25",
+      "title": "Shopify、ChatGPT内でブランドの商品を購入可能にする統合機能を発表",
+      "bullets": [
+        "ShopifyがChatGPT内で商品購入できる統合機能を発表",
+        "アプリ導入不要でShopify Catalog経由に自動対応",
+        "購入は各マーチャント独自のストアフロントで完結"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://www.digitalcommerce360.com/wp-content/uploads/2026/03/Finkelstein.png"
+      }
+    },
+    {
+      "slug": "commercepick-rakuten-ai-70percent-reduction",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/commercepick-rakuten-ai-70percent-reduction.html",
+      "sourceUrl": "https://www.commercepick.com/archives/97080",
+      "platforms": [
+        "rakuten"
+      ],
+      "viewpoint": "seller",
+      "theme": "optimization",
+      "source": "コマースピック",
+      "date": "2026-07-09",
+      "title": "楽天市場の店舗向けAI、問い合わせ対応時間を約70%削減",
+      "bullets": [
+        "楽天市場の店舗向けAIで問い合わせ対応時間が約70%削減",
+        "商品登録数が約1,000点から1万点超へ大幅増加した事例も",
+        "出店店舗の約半数がAI機能を毎月活用する状況に"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://www.commercepick.com/wp-content/uploads/2026/07/202607081539.jpeg"
+      }
+    },
+    {
+      "slug": "commercepick-genai-purchase-behavior-70percent",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/commercepick-genai-purchase-behavior-70percent.html",
+      "sourceUrl": "https://www.commercepick.com/archives/98804",
+      "platforms": [
+        "chatgpt",
+        "other-ai"
+      ],
+      "viewpoint": "buyer",
+      "theme": "measurement",
+      "source": "コマースピック",
+      "date": "2026-07-28",
+      "title": "生成AI経由の購買行動調査、70%がAIとの対話で商品購入候補を広げていた",
+      "bullets": [
+        "生成AI対話で70%が購入候補を拡大していたと判明",
+        "42%は認知していなかった商品がAI経由で候補入り",
+        "AIは「候補形成」の段階から購買に関与している"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://www.commercepick.com/wp-content/uploads/2026/07/main_dd31dd648cab49c0ad8fa167b90b1b74.png"
+      }
+    },
+    {
+      "slug": "commercepick-ai-chosen-not-searched",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/commercepick-ai-chosen-not-searched.html",
+      "sourceUrl": "https://www.commercepick.com/archives/98063",
+      "platforms": [
+        "amazon",
+        "rakuten",
+        "google",
+        "chatgpt"
+      ],
+      "viewpoint": "seller",
+      "theme": "measurement",
+      "source": "コマースピック",
+      "date": "2026-07-21",
+      "title": "商品は「検索される」から「AIに選ばれる」へ、Amazon・楽天・Google・Shopifyの最新動向",
+      "bullets": [
+        "Amazon・楽天・Google・Shopifyの商品情報対応を横断整理",
+        "Amazonは商品名75文字制限とハイライト機能で情報を分離",
+        "各社共通で商品情報の『AI向け再設計』が進む"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://www.commercepick.com/wp-content/uploads/2026/07/202607201231.jpeg"
+      }
+    },
+    {
+      "slug": "cnbc-amazon-rufus-alexa-shopping-rename",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/cnbc-amazon-rufus-alexa-shopping-rename.html",
+      "sourceUrl": "https://www.cnbc.com/2026/05/13/amazon-ditches-rufus-ai-chatbot-in-favor-of-alexa-shopping-agent.html",
+      "platforms": [
+        "amazon"
+      ],
+      "viewpoint": "buyer",
+      "theme": "visibility",
+      "source": "CNBC",
+      "date": "2026-05-13",
+      "title": "Amazon、AIチャット「Rufus」を廃止し「Alexa for Shopping」に統合",
+      "bullets": [
+        "AmazonがAI「Rufus」を廃止し「Alexa for Shopping」に統合",
+        "検索バーに直接AIエージェントを組み込み全利用者に標準提供",
+        "Amazon以外のサイトでの購入代行までカバーする設計に"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://image.cnbcfm.com/api/v1/image/108107890-17405935162025-02-26t175625z_1468855485_rc2h2davv7ny_rtrmadp_0_amazon-com-alexa.jpeg?v=1747278045&w=1920&h=1080"
+      }
+    },
+    {
+      "slug": "businessinsider-rakuten-ai-concierge-41percent",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/businessinsider-rakuten-ai-concierge-41percent.html",
+      "sourceUrl": "https://www.businessinsider.jp/article/2607-rakuten-ichiba-ai-concierge-shopping/",
+      "platforms": [
+        "rakuten"
+      ],
+      "viewpoint": "buyer",
+      "theme": "visibility",
+      "source": "Business Insider Japan",
+      "date": "2026-07-08",
+      "title": "楽天市場のAIコンシェルジュ、購入決定時間を約41%短縮・平均注文金額も約17%上昇",
+      "bullets": [
+        "楽天AIコンシェルジュで購入決定時間が約41%短縮と判明",
+        "利用者の平均注文金額は通常検索比で約17%上昇",
+        "4商品同時比較やレビュー要約も商品ページ遷移なしで確認可能"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://media.loom-app.com/loom/2026/07/07/adff991f-e16f-49ad-9e23-c3de07a136f9/original.jpg?w=1200&h=630"
+      }
+    },
+    {
+      "slug": "bing-copilot-shopping-ads",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/bing-copilot-shopping-ads.html",
+      "sourceUrl": "https://ppcnewsfeed.com/ppc-news/2026-09/bing-copilot-results-now-display-shopping-ads/",
+      "platforms": [
+        "other-ai"
+      ],
+      "viewpoint": "buyer",
+      "theme": "visibility",
+      "source": "PPC News Feed",
+      "date": "2026-09-12",
+      "title": "Bing Copilotの検索結果にショッピング広告が表示開始",
+      "bullets": [
+        "Bing Copilotの回答内にショッピング広告が表示されるように",
+        "価格・画像・購入リンク付き広告がAI回答と同一画面に統合",
+        "会話型検索と広告表示の一体化がBing/Copilotでも標準化"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ppcnewsfeed.com/wp-content/uploads/2026/09/bing-copilot-shopping-ads-walking-aids.jpg"
+      }
+    },
+    {
+      "slug": "aws-rufus-bedrock-scaling",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/aws-rufus-bedrock-scaling.html",
+      "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/how-rufus-scales-conversational-shopping-experiences-to-millions-of-amazon-customers-with-amazon-bedrock/",
+      "platforms": [
+        "amazon"
+      ],
+      "viewpoint": "seller",
+      "theme": "optimization",
+      "source": "AWS(Amazon Web Services)",
+      "date": "2025-11-20",
+      "title": "AmazonのAIアシスタント「Rufus」、Amazon Bedrockで数百万人規模の会話型ショッピングを支える",
+      "bullets": [
+        "Amazon Bedrockが数百万人規模の会話型AI体験を支える",
+        "複数基盤モデルの統合で開発速度が6倍以上に向上",
+        "価格履歴確認や自動購入などツール統合で体験を拡張"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2025/11/20/ml-19594-2-1-1120x630.jpeg"
+      }
+    },
+    {
+      "slug": "arxiv-scaling-attribute-extraction-parallel-decoding",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/arxiv-scaling-attribute-extraction-parallel-decoding.html",
+      "sourceUrl": "https://arxiv.org/abs/2609.09716",
+      "platforms": [
+        "other-ai"
+      ],
+      "viewpoint": "seller",
+      "theme": "optimization",
+      "source": "arXiv(研究論文)",
+      "date": "2026-09-09",
+      "title": "並列デコードでEC商品属性抽出を高速化する手法を提案",
+      "bullets": [
+        "商品属性抽出を高速化するAI手法の論文が公開",
+        "精度85%を保ちつつ推論コストを92%削減する二段階方式",
+        "大規模カタログでも本番運用速度での属性抽出が可能に"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+      }
+    },
+    {
+      "slug": "arxiv-geo-bench-ranking-manipulation",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/arxiv-geo-bench-ranking-manipulation.html",
+      "sourceUrl": "https://arxiv.org/abs/2605.29107",
+      "platforms": [
+        "other-ai"
+      ],
+      "viewpoint": "seller",
+      "theme": "measurement",
+      "source": "arXiv(研究論文)",
+      "date": "2026-05-30",
+      "title": "生成エンジン最適化(GEO)におけるランキング操作攻撃を評価するベンチマーク「GEO-Bench」",
+      "bullets": [
+        "AI検索のランキング操作攻撃を検証するベンチマーク公開",
+        "5データセットで有効性と発覚しにくさのトレードオフを分析",
+        "単純な手法が高度な手法と同等の効果を持つ場合もあると判明"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+      }
+    },
+    {
+      "slug": "arxiv-e-geo-testbed-ecommerce",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/arxiv-e-geo-testbed-ecommerce.html",
+      "sourceUrl": "https://arxiv.org/abs/2511.20867",
+      "platforms": [
+        "other-ai"
+      ],
+      "viewpoint": "seller",
+      "theme": "optimization",
+      "source": "arXiv(研究論文)",
+      "date": "2026-07-14",
+      "title": "EC向け生成エンジン最適化(GEO)の効果を検証する実験基盤「E-GEO」",
+      "bullets": [
+        "EC向けGEO対策の効果を検証する実験基盤「E-GEO」提案",
+        "13,747件の実消費者クエリで5つの生成AIを横断評価",
+        "不正な最適化と本質的な品質向上を見分ける手法も検証"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+      }
+    },
+    {
+      "slug": "arxiv-critical-survey-geo-2023-2026",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/arxiv-critical-survey-geo-2023-2026.html",
+      "sourceUrl": "https://arxiv.org/abs/2607.14035",
+      "platforms": [
+        "other-ai"
+      ],
+      "viewpoint": "seller",
+      "theme": "measurement",
+      "source": "arXiv(研究論文)",
+      "date": "2026-07-15",
+      "title": "生成エンジン最適化(GEO)研究45本を批判的に検証したサーベイ論文",
+      "bullets": [
+        "GEO研究45本を検証した批判的サーベイ論文が公開",
+        "GEOは複数段階にまたがる確率的プロセスと結論づけ",
+        "汎用的なテクニックの効果は転用しにくいと指摘"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+      }
+    },
+    {
+      "slug": "arxiv-conversational-recommendation-live-catalogue",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/arxiv-conversational-recommendation-live-catalogue.html",
+      "sourceUrl": "https://arxiv.org/abs/2608.27006",
+      "platforms": [
+        "other-ai"
+      ],
+      "viewpoint": "seller",
+      "theme": "optimization",
+      "source": "arXiv(研究論文、ACM RecSys 2026採択)",
+      "date": "2026-08-27",
+      "title": "リアルタイムに変化するECカタログに対応する会話型推薦システムの手法",
+      "bullets": [
+        "在庫変動に強い会話型AI推薦の手法をACM RecSys採択論文で提案",
+        "商品の変更分だけを処理する自己更新型レトリーバーが核",
+        "WhatsApp向けショッピングAIとして実装し動作を確認"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+      }
+    },
+    {
+      "slug": "arxiv-beats-attribute-taxonomy-rakuten-taiwan",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/arxiv-beats-attribute-taxonomy-rakuten-taiwan.html",
+      "sourceUrl": "https://arxiv.org/html/2606.04909v1",
+      "platforms": [
+        "rakuten",
+        "other-ai"
+      ],
+      "viewpoint": "seller",
+      "theme": "visibility",
+      "source": "arXiv(研究論文)",
+      "date": "2026-06-03",
+      "title": "台湾楽天で実装、人間とAIの協働で商品属性分類を自動構築する「BEATS」",
+      "bullets": [
+        "台湾楽天で実装、人間とAI協働の属性分類構築手法「BEATS」",
+        "540万商品に6.7万件の属性を自動タグ付け",
+        "検索の回収率が66.6%から70.4%に改善"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+      }
+    },
+    {
+      "slug": "airops-third-party-brand-mentions-85percent",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/airops-third-party-brand-mentions-85percent.html",
+      "sourceUrl": "https://www.airops.com/report/the-influence-of-offsite-signals-in-ai-search",
+      "platforms": [
+        "chatgpt",
+        "other-ai"
+      ],
+      "viewpoint": "seller",
+      "theme": "measurement",
+      "source": "AirOps",
+      "date": "2025-10-17",
+      "title": "AI検索でのブランド言及、85%が自社ドメイン以外の第三者ソース由来と判明",
+      "bullets": [
+        "AI検索のブランド言及、85%が第三者サイト由来と判明",
+        "自社ドメイン発の言及はわずか13.2%にとどまる",
+        "まとめ記事・比較・レビューが第三者言及の9割を占める"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://cdn.prod.website-files.com/62203be3930f396b6cdb3478/697d37367a36197c8f39821a_AO-Thumbnail-Report-ThirdParty-1080x1080-2.avif"
+      }
+    },
+    {
       "slug": "shopify-spring26-merchant-edition",
       "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/shopify-spring26-merchant-edition.html",
       "sourceUrl": "https://www.shopify.com/news/spring-26-edition-merchant",

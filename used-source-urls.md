@@ -3,6 +3,36 @@
 記事候補を探す前に必ずこの一覧を確認し、ここに載っているURLと同じ元記事は候補から除外すること。
 生成元: articles.json（更新日: 2026-09-16）
 
+- https://finance.yahoo.com/technology/ai/articles/walmart-says-ai-assistant-sparky-163000558.html
+- https://sparktoro.com/blog/in-2026-less-than-one-third-of-google-searches-still-send-a-click/
+- https://www.semrush.com/news/463141-semrush-releases-expanded-2026-ai-visibility-index-analyzing-126-million-ai-search-prompts/
+- https://www.searchenginejournal.com/google-reports-ai-search-impressions-how-to-read-them/582824/
+- https://www.seerinteractive.com/insights/aio-impact-on-google-ctr-2026-update
+- https://ppc.land/amazon-loses-injunction-blocking-perplexitys-ai-shopping-agent/
+- https://www.nikkei.com/article/DGXZQOUC04BI50U6A800C2000000/
+- https://netshop.impress.co.jp/n/2026/06/02/16171
+- https://news.mynavi.jp/techplus/article/20260819-4836182/
+- https://clarity.microsoft.com/blog/citations-now-generally-available/
+- https://www.lycorp.co.jp/ja/news/release/020421/
+- https://www.lycorp.co.jp/ja/news/release/020686/
+- https://www.gs1uk.org/insights/news/Google-changes-in-March-2026-how-to-get-GTINs-and-product-IDs-right
+- https://blog.google/products-and-platforms/products/shopping/ucp-updates/
+- https://business.google.com/us/accelerate/announcements/conversational-attributes/
+- https://www.digitalcommerce360.com/2026/03/25/shopify-brands-shoppable-inside-chatgpt-integration/
+- https://www.commercepick.com/archives/97080
+- https://www.commercepick.com/archives/98804
+- https://www.commercepick.com/archives/98063
+- https://www.cnbc.com/2026/05/13/amazon-ditches-rufus-ai-chatbot-in-favor-of-alexa-shopping-agent.html
+- https://www.businessinsider.jp/article/2607-rakuten-ichiba-ai-concierge-shopping/
+- https://ppcnewsfeed.com/ppc-news/2026-09/bing-copilot-results-now-display-shopping-ads/
+- https://aws.amazon.com/blogs/machine-learning/how-rufus-scales-conversational-shopping-experiences-to-millions-of-amazon-customers-with-amazon-bedrock/
+- https://arxiv.org/abs/2609.09716
+- https://arxiv.org/abs/2605.29107
+- https://arxiv.org/abs/2511.20867
+- https://arxiv.org/abs/2607.14035
+- https://arxiv.org/abs/2608.27006
+- https://arxiv.org/html/2606.04909v1
+- https://www.airops.com/report/the-influence-of-offsite-signals-in-ai-search
 - https://www.shopify.com/news/spring-26-edition-merchant
 - https://www.shopify.com/blog/how-agentic-commerce-works
 - https://www.shopify.com/news/ai-regulation
