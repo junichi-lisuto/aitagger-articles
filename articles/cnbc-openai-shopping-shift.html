@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script>if ('scrollRestoration' in history) { history.scrollRestoration = 'manual'; }</script>
+<title>OpenAI、ChatGPT内の購買体験を「決済の一本化」から「商品発見の支援」へ方針転換｜AIタッガー ツールセンター</title>
+<style>
+  :root{
+    --blue:#2563EB;
+    --blue-dark:#1E3A8A;
+    --blue-wash:#EFF6FF;
+    --ink:#0F172A;
+    --ink-mid:#475569;
+    --ink-soft:#64748B;
+    --line:#E2E8F0;
+    --tint:#F8FAFC;
+    --c-ai:#2563EB;
+    --c-seo:#7C3AED;
+    --c-rakuten:#DC2626;
+    --c-yahoo:#D97706;
+    --maxw:760px;
+    --jp:"Noto Sans JP","Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,system-ui,sans-serif;
+  }
+  *{box-sizing:border-box}
+  [hidden]{display:none!important}
+  body{margin:0;background:#fff;color:var(--ink);font-family:var(--jp);
+       font-size:16px;line-height:1.8;-webkit-font-smoothing:antialiased}
+  a{color:inherit}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding-inline:24px}
+
+  header{border-bottom:1px solid var(--line);background:#fff;position:sticky;top:0;z-index:20}
+  .hbar{display:flex;align-items:center;gap:28px;height:68px;max-width:1120px;margin:0 auto;padding-inline:24px}
+  .logo{display:flex;align-items:center;gap:10px;font-weight:700;font-size:17px;
+        text-decoration:none;flex:none}
+  .logo .mark{background:var(--blue);color:#fff;font-weight:800;font-size:13px;
+        padding:5px 7px;border-radius:5px;letter-spacing:.04em}
+  .logo .sub{color:var(--ink-soft);font-weight:500;font-size:13px;
+        border-left:1px solid var(--line);padding-left:10px;margin-left:2px}
+  nav{margin-left:auto;display:flex;gap:26px;align-items:center}
+  nav a{font-size:14px;font-weight:500;color:var(--ink-mid);text-decoration:none;
+        padding:6px 0;border-bottom:2px solid transparent}
+  nav a:hover{color:var(--blue);border-bottom-color:var(--blue)}
+
+  .crumb{font-size:12.5px;color:var(--ink-soft);padding:16px 0 0}
+  .crumb a{text-decoration:none}
+  .crumb a:hover{color:var(--blue)}
+  .crumb span{margin:0 7px;color:#CBD5E1}
+
+  .thumb{position:relative;display:block;width:100%;padding-top:56.25%;
+         overflow:hidden;background:var(--tint);border-radius:12px;
+         margin:20px 0;transition:opacity .15s}
+  .thumb:hover{opacity:.88}
+  .thumb svg,.thumb img{position:absolute;inset:0;width:100%;height:100%;
+         display:block;object-fit:cover}
+
+  .meta{display:flex;gap:8px;align-items:center;margin:0 0 12px;flex-wrap:wrap}
+  .cat{font-size:11px;font-weight:700;padding:3px 9px;border-radius:999px;color:#fff}
+  .cat.ai{background:var(--c-ai)}
+  .cat.seo{background:var(--c-seo)}
+  .cat.rakuten{background:var(--c-rakuten)}
+  .cat.yahoo{background:var(--c-yahoo)}
+  .src,.date,.lang{font-size:12.5px;color:var(--ink-soft)}
+  .lang{font-weight:700;padding:2px 7px;border-radius:4px;background:var(--tint)}
+
+  h1{font-size:26px;margin:0 0 8px;line-height:1.5;color:var(--blue-dark)}
+  .orig{font-size:13px;color:var(--ink-soft);margin:0 0 28px}
+
+  h2{font-size:15px;letter-spacing:.04em;color:var(--ink-soft);font-weight:700;margin:0 0 12px}
+  .background{font-size:15px;color:var(--ink-mid);line-height:1.85;margin:0 0 28px}
+  .points{margin:0 0 28px;padding:0;list-style:none}
+  .points li{font-size:15.5px;line-height:1.8;color:var(--ink);
+        padding-left:18px;position:relative;margin-bottom:10px}
+  .points li::before{content:"";position:absolute;left:0;top:.75em;
+        width:5px;height:5px;border-radius:50%;background:var(--blue)}
+
+  .why{background:var(--blue-wash);border-radius:12px;padding:20px 22px;margin-bottom:28px}
+  .why h2{color:var(--blue-dark);margin-bottom:8px}
+  .why p{font-size:15px;color:var(--ink);margin:0;line-height:1.8}
+
+  .source-link{display:inline-flex;align-items:center;gap:6px;font-size:14.5px;
+        font-weight:600;color:var(--blue);text-decoration:none;margin-bottom:48px}
+  .source-link:hover{text-decoration:underline}
+
+  .related{border-top:1px solid var(--line);padding:32px 0 60px}
+  .related h2{color:var(--ink);margin-bottom:16px}
+  .related a{display:block;font-size:14.5px;color:var(--blue);text-decoration:none;margin-bottom:8px}
+  .related a:hover{text-decoration:underline}
+
+  footer{border-top:1px solid var(--line);padding:34px 0;font-size:13px;color:var(--ink-soft)}
+  .frow{display:flex;gap:24px;align-items:center;flex-wrap:wrap;max-width:1120px;margin:0 auto;padding-inline:24px}
+
+  @media(max-width:560px){
+    h1{font-size:21px}
+    nav{display:none}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="hbar">
+    <a class="logo" href="../index.html"><span class="mark">AI</span>タッガー<span class="sub">ツールセンター</span></a>
+    <nav>
+      <a href="../index.html#tools">ツール</a>
+      <a href="../index.html#reads">AI検索を知る</a>
+      <a href="../index.html#support">困ったときは</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap">
+  <p class="crumb"><a href="../index.html">トップ</a><span>›</span><a href="../index.html#reads">AI検索を知る</a><span>›</span>この記事</p>
+
+  <a class="thumb" href="https://www.cnbc.com/2026/03/24/openai-revamps-shopping-experience-in-chatgpt-after-instant-checkout.html" target="_blank" rel="noopener"><svg viewBox="0 0 200 132" preserveAspectRatio="xMidYMid slice"><rect width="200" height="132" fill="#EFF6FF"/><rect x="30" y="38" width="60" height="56" rx="7" fill="none" stroke="#2563EB" stroke-width="4"/><path d="M100 66h30" stroke="#2563EB" stroke-width="4" stroke-linecap="round"/><path d="M120 56l18 10-18 10" stroke="#2563EB" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/><rect x="150" y="38" width="50" height="56" rx="7" fill="#DBEAFE"/></svg></a>
+
+  <div class="meta">
+    <span class="cat ai">AI検索</span>
+    <span class="src">CNBC</span>
+    <span class="date">2026/03/24</span>
+    <span class="lang">英語記事</span>
+  </div>
+  <h1>OpenAI、ChatGPT内の購買体験を「決済の一本化」から「商品発見の支援」へ方針転換</h1>
+  <p class="orig">原題: OpenAI revamps shopping experience in ChatGPT after struggling with Instant Checkout offering</p>
+
+  <h2>背景</h2>
+  <p class="background">OpenAIは2026年2月16日に「Instant Checkout」を開始し、ChatGPT内で商品の検索から決済までを完結させる購買体験を打ち出していた。しかし加盟店側から決済フローの柔軟性に関する不満が上がったとみられ、開始からわずか1ヶ月余りで方針を転換。2026年6月には商品フィード管理を「ChatGPT Ads Manager」に統合し、Google Shoppingの構造化カタログ形式と互換性を持たせるなど、ChatGPTを「購買の起点」ではなく「商品発見の起点」と位置づけ直す動きが続いている。</p>
+
+  <h2>何が語られているか</h2>
+  <ul class="points">
+    <li>OpenAIが2026年2月開始の「Instant Checkout」（ChatGPT内で決済まで完結する機能）を、期待した柔軟性を提供できなかったとして方針転換した。</li>
+    <li>加盟店が自社の決済導線を使えるようにし、OpenAIは「商品発見（Product Discovery）」支援に注力する方針へシフトした。</li>
+    <li>2026年6月、商品フィード管理が「ChatGPT Ads Manager」に統合され、Google Shoppingと同じ構造化カタログを流用できるようになった。</li>
+  </ul>
+
+  <div class="why">
+    <h2>AIタッガーユーザーへの意味</h2>
+    <p>ChatGPT経由の購買導線は「決済の一本化」ではなく「商品発見→自社サイトでの決済」へ収束しつつある。ChatGPTに商品を正しく認識させるフィード整備（Google Shoppingと共通化可能）が実務的な次の一手になる。</p>
+  </div>
+
+  <a class="source-link" href="https://www.cnbc.com/2026/03/24/openai-revamps-shopping-experience-in-chatgpt-after-instant-checkout.html" target="_blank" rel="noopener">元記事を読む（CNBC・英語）↗</a>
+
+  <div class="related">
+    <h2>関連記事</h2>
+    <a href="google-ai-overviews-expand.html">Googleの「AI Overviews」、検索結果画面いっぱいに自動で広がる仕様に</a>
+    <a href="yahoo-ai-shopping-memo.html">Yahoo!ショッピング、メモした内容からAIが商品を提案する「AIお買い物メモ」を開始</a>
+  </div>
+</div>
+
+<footer>
+  <div class="frow">
+    <span>© 2026 LISUTO</span>
+    <span style="margin-left:auto">AIタッガーをご契約のお客様向けページです</span>
+  </div>
+</footer>
+
+<script>
+window.scrollTo(0,0);
+window.addEventListener('load', function(){ window.scrollTo(0,0); });
+</script>
+</body>
+</html>
