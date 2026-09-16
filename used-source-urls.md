@@ -3,6 +3,7 @@
 記事候補を探す前に必ずこの一覧を確認し、ここに載っているURLと同じ元記事は候補から除外すること。
 生成元: articles.json（更新日: 2026-09-16）
 
+- https://blog.google/products-and-platforms/products/search/new-controls-website-owners/
 - https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/
 - https://searchengineland.com/google-is-dynamically-expanding-ai-overviews-for-some-queries-486200
 - https://www.nikkei.com/article/DGXZQOUC077660X00C26A7000000/

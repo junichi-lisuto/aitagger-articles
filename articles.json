@@ -2,6 +2,25 @@
   "updatedAt": "2026-09-16",
   "articles": [
     {
+      "slug": "google-search-console-ai-controls",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/google-search-console-ai-controls.html",
+      "sourceUrl": "https://blog.google/products-and-platforms/products/search/new-controls-website-owners/",
+      "category": "seo",
+      "categoryLabel": "SEO",
+      "source": "Google公式ブログ",
+      "date": "2026-06-03",
+      "title": "Google、AI検索での表示可否を管理する新設定とSearch Consoleの分析機能を発表",
+      "bullets": [
+        "AI Overviews・AI Modeに自社サイトを表示させるかを、Search Consoleの新しい切替設定で管理できるテストを開始した。",
+        "Search Consoleに、AI検索の回答でどのページがどの国で表示されたかを示す分析情報を段階的に追加する。",
+        "独自性のある内容・整理されたページ構成・高品質な画像や動画が、AI検索での可視性を左右するとGoogleは説明した。"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/SocialShare_6_1.width-1300.jpg"
+      }
+    },
+    {
       "slug": "google-ai-overviews-expand",
       "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/google-ai-overviews-expand.html",
       "sourceUrl": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
