@@ -30,7 +30,9 @@ function loadDraftArticles(slugs) {
       title: meta.title,
       source: meta.source,
       date: meta.date,
-      categoryLabel: meta.categoryLabel,
+      platforms: meta.platforms,
+      viewpoint: meta.viewpoint,
+      theme: meta.theme,
       draftUrl: `${PAGES_BASE}/${slug}.html`,
     };
   });
@@ -45,7 +47,7 @@ function buildMessage(articles) {
   ];
   articles.forEach((a, i) => {
     lines.push(`${i + 1}. *${a.title}*`);
-    lines.push(`   ${a.categoryLabel} / ${a.source} / ${a.date}`);
+    lines.push(`   ${(a.platforms || []).join('/')} / ${a.viewpoint} / ${a.theme} / ${a.source} / ${a.date}`);
     lines.push(`   下書き: ${a.draftUrl}`);
   });
   return lines.join('\n');

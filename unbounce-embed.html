@@ -19,7 +19,11 @@
       </div>
     </section>
 
-    <nav class="am-nav" aria-label="記事カテゴリ">
+    <div class="am-viewpoint" role="group" aria-label="読む立場で絞り込み">
+      <div class="am-wrap am-viewpoint__row" id="am-viewpoints"></div>
+    </div>
+
+    <nav class="am-nav" aria-label="プラットフォームで絞り込み">
       <div class="am-wrap am-nav__row" id="am-tabs"></div>
     </nav>
 
@@ -65,6 +69,12 @@
   #aa-media-root .am-intro h1{max-width:760px;margin:0;color:var(--am-heading);font-size:clamp(30px,4.2vw,48px);font-weight:800;letter-spacing:-.035em;line-height:1.3}
   #aa-media-root .am-intro p{max-width:650px;margin:18px 0 0;color:var(--am-muted);font-size:15px;line-height:1.9}
 
+  #aa-media-root .am-viewpoint{background:var(--am-heading);border-bottom:1px solid var(--am-line)}
+  #aa-media-root .am-viewpoint__row{display:flex;align-items:stretch;gap:6px;overflow-x:auto;scrollbar-width:thin;padding:10px 28px}
+  #aa-media-root .am-vp{appearance:none;flex:none;border:1px solid rgba(255,255,255,.35);border-radius:999px;background:transparent;color:#DBEAFE;padding:7px 18px;cursor:pointer;font-size:12.5px;font-weight:700;white-space:nowrap;transition:background-color .15s ease,color .15s ease}
+  #aa-media-root .am-vp:hover{border-color:#fff;color:#fff}
+  #aa-media-root .am-vp.is-active{background:#fff;border-color:#fff;color:var(--am-heading)}
+
   #aa-media-root .am-nav{background:#fff;border-bottom:1px solid var(--am-line);position:sticky;top:0;z-index:5}
   #aa-media-root .am-nav__row{min-height:58px;display:flex;align-items:stretch;gap:0;overflow-x:auto;scrollbar-width:thin}
   #aa-media-root .am-tab{appearance:none;flex:none;position:relative;border:0;background:transparent;color:var(--am-muted);padding:0 18px;cursor:pointer;font-size:13px;font-weight:700;white-space:nowrap}
@@ -88,7 +98,8 @@
   #aa-media-root .am-copy{min-width:0;display:flex;flex-direction:column;align-items:flex-start}
   #aa-media-root .am-meta{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:9px;color:var(--am-soft);font-size:11px;line-height:1.35}
   #aa-media-root .am-badge{display:inline-flex;align-items:center;padding:3px 7px;border-radius:4px;color:#fff;font-size:10px;font-weight:800;letter-spacing:.02em;line-height:1.25}
-  #aa-media-root .am-badge.ai{background:var(--am-ai)} #aa-media-root .am-badge.seo{background:var(--am-seo)} #aa-media-root .am-badge.rakuten{background:var(--am-rakuten)} #aa-media-root .am-badge.yahoo{background:var(--am-yahoo)}
+  #aa-media-root .am-badge.theme-visibility{background:var(--am-ai)} #aa-media-root .am-badge.theme-optimization{background:var(--am-seo)} #aa-media-root .am-badge.theme-measurement{background:var(--am-rakuten)}
+  #aa-media-root .am-platforms{color:var(--am-soft);font-weight:700}
   #aa-media-root .am-title{margin:0;color:var(--am-ink);font-size:16px;font-weight:800;letter-spacing:-.012em;line-height:1.55}
   #aa-media-root .am-card--lead .am-title{font-size:clamp(20px,2.1vw,28px);line-height:1.48;letter-spacing:-.025em}
   #aa-media-root .am-card:hover .am-title{color:var(--am-blue)}
@@ -117,9 +128,12 @@
     #aa-media-root .am-intro h1{font-size:29px;line-height:1.36;letter-spacing:-.03em}
     #aa-media-root .am-pc-break{display:none}
     #aa-media-root .am-intro p{margin-top:14px;font-size:13px;line-height:1.8}
+    #aa-media-root .am-viewpoint__row{padding:8px 16px}
+    #aa-media-root .am-vp{padding:6px 13px;font-size:11.5px}
     #aa-media-root .am-nav__row{min-height:52px;padding:0 4px}
     #aa-media-root .am-tab{padding:0 12px;font-size:12px}
     #aa-media-root .am-tab::after{right:12px;left:12px}
+    #aa-media-root .am-platforms{display:none}
     #aa-media-root .am-feed{padding:29px 0 52px}
     #aa-media-root .am-feed__heading{margin-bottom:5px;padding-bottom:11px}
     #aa-media-root .am-feed__heading h2{font-size:19px}
@@ -139,19 +153,38 @@
 (function(){
   var FEED_URL = "https://junichi-lisuto.github.io/aitagger-articles/articles.json";
   var PAGE_SIZE = 12;
-  var CATEGORIES = [
-    {key:"all",label:"すべて"},{key:"ai",label:"AI検索"},{key:"seo",label:"SEO"},
-    {key:"rakuten",label:"楽天AI"},{key:"yahoo",label:"Yahoo!AI"}
+
+  var VIEWPOINTS = [
+    {key:"all",label:"すべて"},
+    {key:"seller",label:"出店者は今すぐこれを"},
+    {key:"buyer",label:"買い手側で起きていること"}
   ];
 
-  var THUMBS = {
-    ai:'<svg viewBox="0 0 640 360" aria-hidden="true"><rect width="640" height="360" fill="#EFF6FF"/><path d="M74 262c73-104 142-157 219-157 74 0 137 33 202 107" fill="none" stroke="#BFDBFE" stroke-width="32" stroke-linecap="round"/><circle cx="274" cy="165" r="73" fill="none" stroke="#2563EB" stroke-width="11"/><path d="m328 220 82 82" stroke="#2563EB" stroke-width="11" stroke-linecap="round"/><path d="M453 105h106M453 139h74M453 173h106" stroke="#93C5FD" stroke-width="12" stroke-linecap="round"/></svg>',
-    seo:'<svg viewBox="0 0 640 360" aria-hidden="true"><rect width="640" height="360" fill="#F5F3FF"/><path d="m312 61 22 55 55 22-55 22-22 55-22-55-55-22 55-22z" fill="#7C3AED"/><path d="m466 161 14 35 35 14-35 14-14 35-14-35-35-14 35-14z" fill="#C4B5FD"/><path d="M98 285h444" stroke="#DDD6FE" stroke-width="14" stroke-linecap="round"/></svg>',
-    rakuten:'<svg viewBox="0 0 640 360" aria-hidden="true"><rect width="640" height="360" fill="#FEF2F2"/><circle cx="320" cy="180" r="97" fill="none" stroke="#DC2626" stroke-width="11"/><path d="M320 121v118M261 180h118" stroke="#DC2626" stroke-width="11" stroke-linecap="round"/><path d="M98 289h444" stroke="#FECACA" stroke-width="14" stroke-linecap="round"/></svg>',
-    yahoo:'<svg viewBox="0 0 640 360" aria-hidden="true"><rect width="640" height="360" fill="#FFFBEB"/><circle cx="320" cy="180" r="97" fill="none" stroke="#D97706" stroke-width="11"/><path d="M267 180h106M320 127v106" stroke="#D97706" stroke-width="11" stroke-linecap="round"/><path d="M98 289h444" stroke="#FDE68A" stroke-width="14" stroke-linecap="round"/></svg>'
+  var PLATFORMS = [
+    {key:"all",label:"すべて"},{key:"google",label:"Google"},{key:"chatgpt",label:"ChatGPT"},
+    {key:"rakuten",label:"楽天"},{key:"yahoo",label:"Yahoo!"},{key:"other-ai",label:"その他AI検索"},
+    {key:"amazon",label:"Amazon"}
+  ];
+
+  var THEME_LABELS = {
+    visibility:"検索結果・購買導線の変化",
+    optimization:"商品情報・タグ付けの対策",
+    measurement:"計測・分析"
   };
 
-  var state = { articles: [], category: "all", visible: PAGE_SIZE };
+  var PLATFORM_LABELS = {};
+  PLATFORMS.forEach(function(p){ PLATFORM_LABELS[p.key] = p.label; });
+
+  var THUMBS = {
+    google:'<svg viewBox="0 0 640 360" aria-hidden="true"><rect width="640" height="360" fill="#EFF6FF"/><path d="M74 262c73-104 142-157 219-157 74 0 137 33 202 107" fill="none" stroke="#BFDBFE" stroke-width="32" stroke-linecap="round"/><circle cx="274" cy="165" r="73" fill="none" stroke="#2563EB" stroke-width="11"/><path d="m328 220 82 82" stroke="#2563EB" stroke-width="11" stroke-linecap="round"/><path d="M453 105h106M453 139h74M453 173h106" stroke="#93C5FD" stroke-width="12" stroke-linecap="round"/></svg>',
+    chatgpt:'<svg viewBox="0 0 640 360" aria-hidden="true"><rect width="640" height="360" fill="#F5F3FF"/><path d="m312 61 22 55 55 22-55 22-22 55-22-55-55-22 55-22z" fill="#7C3AED"/><path d="m466 161 14 35 35 14-35 14-14 35-14-35-35-14 35-14z" fill="#C4B5FD"/><path d="M98 285h444" stroke="#DDD6FE" stroke-width="14" stroke-linecap="round"/></svg>',
+    rakuten:'<svg viewBox="0 0 640 360" aria-hidden="true"><rect width="640" height="360" fill="#FEF2F2"/><circle cx="320" cy="180" r="97" fill="none" stroke="#DC2626" stroke-width="11"/><path d="M320 121v118M261 180h118" stroke="#DC2626" stroke-width="11" stroke-linecap="round"/><path d="M98 289h444" stroke="#FECACA" stroke-width="14" stroke-linecap="round"/></svg>',
+    yahoo:'<svg viewBox="0 0 640 360" aria-hidden="true"><rect width="640" height="360" fill="#FFFBEB"/><circle cx="320" cy="180" r="97" fill="none" stroke="#D97706" stroke-width="11"/><path d="M267 180h106M320 127v106" stroke="#D97706" stroke-width="11" stroke-linecap="round"/><path d="M98 289h444" stroke="#FDE68A" stroke-width="14" stroke-linecap="round"/></svg>',
+    "other-ai":'<svg viewBox="0 0 640 360" aria-hidden="true"><rect width="640" height="360" fill="#EFF6FF"/><circle cx="320" cy="180" r="97" fill="none" stroke="#2563EB" stroke-width="11"/><path d="M267 180h106M320 127v106" stroke="#2563EB" stroke-width="11" stroke-linecap="round"/></svg>',
+    amazon:'<svg viewBox="0 0 640 360" aria-hidden="true"><rect width="640" height="360" fill="#FFFBEB"/><path d="M120 220c120 70 280 70 400 0" fill="none" stroke="#D97706" stroke-width="14" stroke-linecap="round"/></svg>'
+  };
+
+  var state = { articles: [], viewpoint: "all", platform: "all", visible: PAGE_SIZE };
 
   function esc(value){
     return String(value).replace(/[&<>"']/g, function(c){
@@ -163,23 +196,41 @@
     if (a.thumbnail && a.thumbnail.type === "image" && a.thumbnail.url){
       return '<img src="' + esc(a.thumbnail.url) + '" alt="" loading="lazy">';
     }
-    var cat = (a.thumbnail && a.thumbnail.category) || a.category;
-    return THUMBS[cat] || THUMBS.ai;
+    var plat = (a.thumbnail && a.thumbnail.category) || (a.platforms && a.platforms[0]);
+    return THUMBS[plat] || THUMBS.google;
   }
 
   function current(){
-    if (state.category === "all") return state.articles;
-    return state.articles.filter(function(a){ return a.category === state.category; });
+    return state.articles.filter(function(a){
+      var vpOk = state.viewpoint === "all" || a.viewpoint === state.viewpoint;
+      var platOk = state.platform === "all" || (a.platforms || []).indexOf(state.platform) !== -1;
+      return vpOk && platOk;
+    });
+  }
+
+  function renderViewpoints(){
+    var root = document.getElementById("am-viewpoints");
+    root.innerHTML = VIEWPOINTS.map(function(v){
+      return '<button class="am-vp' + (v.key === state.viewpoint ? ' is-active' : '') + '" type="button" data-viewpoint="' + v.key + '">' + esc(v.label) + '</button>';
+    }).join("");
+    Array.prototype.forEach.call(root.querySelectorAll("button"), function(button){
+      button.addEventListener("click", function(){
+        state.viewpoint = button.getAttribute("data-viewpoint");
+        state.visible = PAGE_SIZE;
+        renderViewpoints();
+        renderArticles();
+      });
+    });
   }
 
   function renderTabs(){
     var root = document.getElementById("am-tabs");
-    root.innerHTML = CATEGORIES.map(function(c){
-      return '<button class="am-tab' + (c.key === state.category ? ' is-active' : '') + '" type="button" data-category="' + c.key + '">' + esc(c.label) + '</button>';
+    root.innerHTML = PLATFORMS.map(function(p){
+      return '<button class="am-tab' + (p.key === state.platform ? ' is-active' : '') + '" type="button" data-platform="' + p.key + '">' + esc(p.label) + '</button>';
     }).join("");
     Array.prototype.forEach.call(root.querySelectorAll("button"), function(button){
       button.addEventListener("click", function(){
-        state.category = button.getAttribute("data-category");
+        state.platform = button.getAttribute("data-platform");
         state.visible = PAGE_SIZE;
         renderTabs();
         renderArticles();
@@ -189,12 +240,15 @@
 
   function card(article, index){
     var points = (article.bullets || []).map(function(point){ return "<li>" + esc(point) + "</li>"; }).join("");
+    var platformLabel = (article.platforms || []).map(function(p){ return PLATFORM_LABELS[p] || p; }).join("・");
+    var themeLabel = THEME_LABELS[article.theme] || article.theme;
     return (
       '<a class="am-card' + (index === 0 ? ' am-card--lead' : '') + '" href="' + esc(article.url) + '" target="_blank" rel="noopener">' +
         '<span class="am-thumb">' + thumbHtml(article) + '</span>' +
         '<span class="am-copy">' +
           '<span class="am-meta">' +
-            '<span class="am-badge ' + esc(article.category) + '">' + esc(article.categoryLabel) + '</span>' +
+            '<span class="am-badge theme-' + esc(article.theme) + '">' + esc(themeLabel) + '</span>' +
+            '<span class="am-platforms">' + esc(platformLabel) + '</span>' +
             '<span>' + esc(article.source) + '</span>' +
             '<span>' + esc(article.date) + '</span>' +
           '</span>' +
@@ -241,6 +295,7 @@
 
   function init(data){
     state.articles = (data && data.articles) || [];
+    renderViewpoints();
     renderTabs();
     renderArticles();
     document.getElementById("am-more").addEventListener("click", function(){

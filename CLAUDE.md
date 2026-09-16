@@ -53,6 +53,22 @@
 ### 記事の型
 
 **サムネイル / 出典バッジ / 日付 / タイトル / 箇条書き3行** が1記事の基本情報。
+
+**カテゴリは3軸で管理する（2026-09-16、schemaVersion:2で刷新）。** 単一カテゴリ
+（旧: AI検索/SEO/楽天AI/Yahoo!AI）は「どこで起きたか」と「読者は何をすべきか」が
+混在しており、記事が増えるほど分類に無理が出ていたため分離した。
+
+- `platforms`（配列、複数可）: `google` / `chatgpt` / `rakuten` / `yahoo` / `other-ai` / `amazon`
+- `viewpoint`（単一）: `seller`=出店者が今すぐ使える対策 / `buyer`=購入者の行動がどう変わったかという事実
+- `theme`（単一）: `visibility`=検索結果・購買導線の変化 / `optimization`=商品情報・タグ付け対策 / `measurement`=計測・分析
+
+Unbounce埋め込み（`unbounce-embed.html`）では`viewpoint`を最上段のセグメント切替、
+`platforms`を2段目のタブ、`theme`をカードのバッジ色として表示する。**`viewpoint`を
+最上位に置くのは、読者が最初に判断したいのが「自分の作業に関係あるか」だから。**
+
+`seller`視点の記事が構造的に少なくなりがち（元記事の多くはプラットフォーム側の発表＝buyer視点の
+事実になりやすい）。Codexへの依頼時、`optimization`テーマを意識的に増やすよう促すこと
+（[codex-workspace/research/articles/依頼テンプレート.md](../codex-workspace/research/articles/依頼テンプレート.md)に注記済み）。
 **サムネは必ず元記事のOGP画像（`og:image`）を使う。** `articles/`のHTML（`.thumb`内の`<img src="...">`）と
 `articles.json`の`thumbnail`（`{"type":"image","url":"..."}`）の両方に反映する。取得できたのに
 `{"type":"default", "category":"..."}`のまま放置しない（過去に取得を怠り3記事がSVG仮アイコンのままになっていた）。
@@ -122,7 +138,7 @@ AIタッガー管理画面の青系トーンを踏襲する。新しい色を増
 | 本文 | `#0F172A` / 補助 `#475569` / 薄 `#64748B` |
 | 罫線 | `#E2E8F0` / 面の色 `#F8FAFC` |
 
-記事カテゴリ色: AI検索=青`#2563EB` / SEO=紫`#7C3AED` / 楽天AI=赤`#DC2626` / Yahoo!AI=黄`#D97706`
+テーマバッジ色: 検索結果・購買導線の変化(visibility)=青`#2563EB` / 商品情報・タグ付け対策(optimization)=紫`#7C3AED` / 計測・分析(measurement)=赤`#DC2626`
 
 ---
 
