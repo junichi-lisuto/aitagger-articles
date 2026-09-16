@@ -19,10 +19,6 @@
       </div>
     </section>
 
-    <div class="am-viewpoint" role="group" aria-label="読む立場で絞り込み">
-      <div class="am-wrap am-viewpoint__row" id="am-viewpoints"></div>
-    </div>
-
     <nav class="am-nav" aria-label="プラットフォームで絞り込み">
       <div class="am-wrap am-nav__row" id="am-tabs"></div>
     </nav>
@@ -68,12 +64,6 @@
   #aa-media-root .am-intro{padding:56px 0 48px;background:var(--am-tint);border-bottom:1px solid var(--am-line)}
   #aa-media-root .am-intro h1{max-width:760px;margin:0;color:var(--am-heading);font-size:clamp(30px,4.2vw,48px);font-weight:800;letter-spacing:-.035em;line-height:1.3}
   #aa-media-root .am-intro p{max-width:650px;margin:18px 0 0;color:var(--am-muted);font-size:15px;line-height:1.9}
-
-  #aa-media-root .am-viewpoint{background:var(--am-heading);border-bottom:1px solid var(--am-line)}
-  #aa-media-root .am-viewpoint__row{display:flex;align-items:stretch;gap:6px;overflow-x:auto;scrollbar-width:thin;padding:10px 28px}
-  #aa-media-root .am-vp{appearance:none;flex:none;border:1px solid rgba(255,255,255,.35);border-radius:999px;background:transparent;color:#DBEAFE;padding:7px 18px;cursor:pointer;font-size:12.5px;font-weight:700;white-space:nowrap;transition:background-color .15s ease,color .15s ease}
-  #aa-media-root .am-vp:hover{border-color:#fff;color:#fff}
-  #aa-media-root .am-vp.is-active{background:#fff;border-color:#fff;color:var(--am-heading)}
 
   #aa-media-root .am-nav{background:#fff;border-bottom:1px solid var(--am-line);position:sticky;top:0;z-index:5}
   #aa-media-root .am-nav__row{min-height:58px;display:flex;align-items:stretch;gap:0;overflow-x:auto;scrollbar-width:thin}
@@ -128,8 +118,6 @@
     #aa-media-root .am-intro h1{font-size:29px;line-height:1.36;letter-spacing:-.03em}
     #aa-media-root .am-pc-break{display:none}
     #aa-media-root .am-intro p{margin-top:14px;font-size:13px;line-height:1.8}
-    #aa-media-root .am-viewpoint__row{padding:8px 16px}
-    #aa-media-root .am-vp{padding:6px 13px;font-size:11.5px}
     #aa-media-root .am-nav__row{min-height:52px;padding:0 4px}
     #aa-media-root .am-tab{padding:0 12px;font-size:12px}
     #aa-media-root .am-tab::after{right:12px;left:12px}
@@ -153,12 +141,6 @@
 (function(){
   var FEED_URL = "https://junichi-lisuto.github.io/aitagger-articles/articles.json";
   var PAGE_SIZE = 12;
-
-  var VIEWPOINTS = [
-    {key:"all",label:"すべて"},
-    {key:"seller",label:"出店者は今すぐこれを"},
-    {key:"buyer",label:"買い手側で起きていること"}
-  ];
 
   var PLATFORMS = [
     {key:"all",label:"すべて"},{key:"google",label:"Google"},{key:"chatgpt",label:"ChatGPT"},
@@ -184,7 +166,7 @@
     amazon:'<svg viewBox="0 0 640 360" aria-hidden="true"><rect width="640" height="360" fill="#FFFBEB"/><path d="M120 220c120 70 280 70 400 0" fill="none" stroke="#D97706" stroke-width="14" stroke-linecap="round"/></svg>'
   };
 
-  var state = { articles: [], viewpoint: "all", platform: "all", visible: PAGE_SIZE };
+  var state = { articles: [], platform: "all", visible: PAGE_SIZE };
 
   function esc(value){
     return String(value).replace(/[&<>"']/g, function(c){
@@ -202,24 +184,7 @@
 
   function current(){
     return state.articles.filter(function(a){
-      var vpOk = state.viewpoint === "all" || a.viewpoint === state.viewpoint;
-      var platOk = state.platform === "all" || (a.platforms || []).indexOf(state.platform) !== -1;
-      return vpOk && platOk;
-    });
-  }
-
-  function renderViewpoints(){
-    var root = document.getElementById("am-viewpoints");
-    root.innerHTML = VIEWPOINTS.map(function(v){
-      return '<button class="am-vp' + (v.key === state.viewpoint ? ' is-active' : '') + '" type="button" data-viewpoint="' + v.key + '">' + esc(v.label) + '</button>';
-    }).join("");
-    Array.prototype.forEach.call(root.querySelectorAll("button"), function(button){
-      button.addEventListener("click", function(){
-        state.viewpoint = button.getAttribute("data-viewpoint");
-        state.visible = PAGE_SIZE;
-        renderViewpoints();
-        renderArticles();
-      });
+      return state.platform === "all" || (a.platforms || []).indexOf(state.platform) !== -1;
     });
   }
 
@@ -295,7 +260,6 @@
 
   function init(data){
     state.articles = (data && data.articles) || [];
-    renderViewpoints();
     renderTabs();
     renderArticles();
     document.getElementById("am-more").addEventListener("click", function(){

@@ -62,13 +62,19 @@
 - `viewpoint`（単一）: `seller`=出店者が今すぐ使える対策 / `buyer`=購入者の行動がどう変わったかという事実
 - `theme`（単一）: `visibility`=検索結果・購買導線の変化 / `optimization`=商品情報・タグ付け対策 / `measurement`=計測・分析
 
-Unbounce埋め込み（`unbounce-embed.html`）では`viewpoint`を最上段のセグメント切替、
-`platforms`を2段目のタブ、`theme`をカードのバッジ色として表示する。**`viewpoint`を
-最上位に置くのは、読者が最初に判断したいのが「自分の作業に関係あるか」だから。**
+Unbounce埋め込み（`unbounce-embed.html`）では`platforms`をタブとして表示する。`theme`は
+カードのバッジ色として表示する。**`viewpoint`はデータとしては持つがUIタブには出さない**
+（2026-09-16、一度は最上段セグメントとして実装したが撤回）。読者は全員EC運営者＝全員が
+「売り手」であり、seller/buyerという人物属性でタブを分けると「自分は売り手なのに買い手
+タブを見るべきか」と迷わせる。加えて実データがbuyer視点（プラットフォーム側発表の後追い）に
+大きく偏っており、タブとして機能する分布ではなかった。seller視点の記事が十分に増えた段階で
+UI復活を再検討する。
 
-`seller`視点の記事が構造的に少なくなりがち（元記事の多くはプラットフォーム側の発表＝buyer視点の
-事実になりやすい）。Codexへの依頼時、`optimization`テーマを意識的に増やすよう促すこと
-（[codex-workspace/research/articles/依頼テンプレート.md](../codex-workspace/research/articles/依頼テンプレート.md)に注記済み）。
+`theme`の網羅（特に`optimization`＝出店者が今すぐ使える対策）が構造的に手薄になりがちなため、
+Codexへの依頼は**「本数を先に決め、その内訳をノルマにする」方式ではなく「3テーマそれぞれ
+最低1本、合計本数は結果として決まる」方式にした**（2026-09-16、比率ノルマでは水増しを
+誘発すると判断して変更）。詳細は
+[codex-workspace/research/articles/依頼テンプレート.md](../codex-workspace/research/articles/依頼テンプレート.md)参照。
 **サムネは必ず元記事のOGP画像（`og:image`）を使う。** `articles/`のHTML（`.thumb`内の`<img src="...">`）と
 `articles.json`の`thumbnail`（`{"type":"image","url":"..."}`）の両方に反映する。取得できたのに
 `{"type":"default", "category":"..."}`のまま放置しない（過去に取得を怠り3記事がSVG仮アイコンのままになっていた）。
