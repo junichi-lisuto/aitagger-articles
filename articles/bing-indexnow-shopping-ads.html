@@ -124,18 +124,19 @@
   <p class="orig">原題: IndexNow Enables Faster and More Reliable Updates for Shopping and Ads</p>
 
   <h2>背景</h2>
-  <p class="background">AI検索やリアルタイムの商品モジュールでは情報の鮮度がこれまで以上に重要になっていることを受け、Microsoftは商品・広告情報の変更を検索エンジン側へ即座に通知する仕組み「IndexNow」の対象をショッピング・広告情報にも拡大した。</p>
+  <p class="background">従来の商品フィードはクローラーによる定期的な巡回に依存しており、価格変更や在庫復帰の反映に数時間から数日かかるという課題があった。AI検索やリアルタイムの商品モジュールでは情報の鮮度がこれまで以上に重要になっていることを受け、Microsoftは商品・広告情報の変更を検索エンジン側へ即座に通知する仕組み「IndexNow」の対象をショッピング・広告情報にも拡大した。</p>
 
-  <h2>何が語られているか</h2>
+  <h2>結論</h2>
   <ul class="points">
-    <li>商品・広告情報の変更を検索側へ即時通知する仕組みを説明する。</li>
-    <li>AI検索とリアルタイム商品モジュールでは鮮度が重要になる。</li>
-    <li>価格・在庫などの更新遅延を減らす実務的な選択肢となる。</li>
+    <li>IndexNowは、商品情報が変更された瞬間に単一のリアルタイム通知を送ることで、参加する検索エンジンへ変更内容を即座に伝える仕組みである。従来のクローラーによる定期スキャンを待つ必要がなくなる。</li>
+    <li>schema.org/Productに準拠した構造化データと組み合わせることで、変更内容（価格・在庫等）が検索エンジン側で正確に解釈されるようになる。</li>
+    <li>推奨される構造化データの必須項目は、title・description・price・link・image link・shipping・id・brand・gtin・mpn・datePublished・dateModifiedの12項目。category・seller・itemConditionはオプション項目として挙げられている。</li>
+    <li>記事内の実装例では、ENERGY STAR認定食器洗い機「EcoWash Pro 3000」（価格699.00ドル、SKU「EWP3000」）を用いたJSON-LDマークアップが具体的に示されている。</li>
   </ul>
 
   <div class="why">
-    <h2>AIタッガーユーザーへの意味</h2>
-    <p>AI検索に出す商品情報では、作成精度に加えて更新速度も品質になることを意味する。価格・在庫変更の反映速度を上げる仕組みづくりが実務課題になる。</p>
+    <h2>メッセージ</h2>
+    <p>セール開始直後に価格改定が検索結果へ反映されるまでのタイムラグは、値引きの効果を薄めたり、逆に旧価格のまま表示されて機会損失を招いたりする。商品情報を「正しく作る」ことと「素早く伝える」ことは別の課題であり、更新のたびに手作業でモール側へ反映するような運用では、AI検索が前提とするリアルタイム性についていけなくなる。価格・在庫の変更が起きた瞬間に自動で反映される仕組みを持っているかどうかが、これから地味に効いてくる差になる。</p>
   </div>
 
   <a class="source-link" href="https://blogs.bing.com/webmaster/May-2025/IndexNow-Enables-Faster-and-More-Reliable-Updates-for-Shopping-and-Ads" target="_blank" rel="noopener">元記事を読む（Microsoft Bing）↗</a>

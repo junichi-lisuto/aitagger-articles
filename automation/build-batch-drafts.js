@@ -1,11 +1,20 @@
-// 30本一括投入用: articles-batch.json を読み、articles/draft/*.html と
-// automation/draft-meta/*.json を一括生成する。1回限りの使い捨てスクリプト。
-// 使い方: node automation/build-batch-drafts.js
+// 記事一括投入用: articles-batch*.json を読み、articles/draft/*.html と
+// automation/draft-meta/*.json を一括生成する。
+// 見出し構成は「背景」「結論」「メッセージ」で固定（2026-09-16改訂）。
+//   - background: 何が起きたか・何が公開されたか・なぜ公開されたか
+//   - bullets（結論の箇条書き）: 数の制限なし。記事本文を読まずとも要点・数値が
+//     分かる粒度で書く。単なる事実の要約でなく「何が示されたか」「何が変わったか」まで書く
+//   - meaning（メッセージ）: タグ付け・構造化に限定しない、EC店長への気づき。
+//     結果としてタグ付け関連の話になるのは良いが、それを前提にしない
+// 使い方: node automation/build-batch-drafts.js <articles-batch-N.json のパス>
+//   （引数省略時は automation/articles-batch.json を読む）
 
 const fs = require('fs');
 const path = require('path');
 
-const dataPath = path.join(__dirname, 'articles-batch.json');
+const dataPath = process.argv[2]
+  ? path.resolve(process.argv[2])
+  : path.join(__dirname, 'articles-batch.json');
 const draftDir = path.join(__dirname, '..', 'articles', 'draft');
 const metaDir = path.join(__dirname, 'draft-meta');
 
@@ -150,13 +159,13 @@ ${a.origTitle ? `  <p class="orig">原題: ${esc(a.origTitle)}</p>\n` : ''}
   <h2>背景</h2>
   <p class="background">${esc(a.background)}</p>
 
-  <h2>何が語られているか</h2>
+  <h2>結論</h2>
   <ul class="points">
 ${points}
   </ul>
 
   <div class="why">
-    <h2>AIタッガーユーザーへの意味</h2>
+    <h2>メッセージ</h2>
     <p>${esc(a.meaning)}</p>
   </div>
 
