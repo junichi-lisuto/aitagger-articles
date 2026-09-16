@@ -2,8 +2,12 @@
 // automation/draft-meta/*.json を一括生成する。
 // 見出し構成は「背景」「結論」「メッセージ」で固定（2026-09-16改訂）。
 //   - background: 何が起きたか・何が公開されたか・なぜ公開されたか
-//   - bullets（結論の箇条書き）: 数の制限なし。記事本文を読まずとも要点・数値が
-//     分かる粒度で書く。単なる事実の要約でなく「何が示されたか」「何が変わったか」まで書く
+//   - bullets（記事詳細ページの「結論」箇条書き）: 数の制限なし。記事本文を読まずとも
+//     要点・数値が分かる粒度で書く。単なる事実の要約でなく「何が示されたか」「何が変わったか」まで書く
+//   - cardBullets（トップページ一覧カードの要点。**必ず3件**、2026-09-16追加）:
+//     bulletsとは別物。カードは幅が狭くレイアウトが崩れるため3件固定。
+//     全文を読まなくても概要がつかめるキャッチーな短い要点3つにする
+//     （bulletsから最重要3つを選ぶのではなく、カード用に短く書き直す）
 //   - meaning（メッセージ）: タグ付け・構造化に限定しない、EC店長への気づき。
 //     結果としてタグ付け関連の話になるのは良いが、それを前提にしない
 // 使い方: node automation/build-batch-drafts.js <articles-batch-N.json のパス>
@@ -193,7 +197,19 @@ window.addEventListener('load', function(){ window.scrollTo(0,0); });
 `;
 }
 
-const REQUIRED_FIELDS = ['slug', 'title', 'sourceUrl', 'source', 'date', 'background', 'bullets', 'meaning', 'thumbnail'];
+const REQUIRED_FIELDS = ['slug', 'title', 'sourceUrl', 'source', 'date', 'background', 'bullets', 'cardBullets', 'meaning', 'thumbnail'];
+
+function validateCardBullets(data) {
+  const errors = [];
+  data.forEach((a, i) => {
+    if (!Array.isArray(a.cardBullets) || a.cardBullets.length !== 3) {
+      errors.push(`[${i}] ${a.slug || '(slug未設定)'}: "cardBullets" は必ず3件にしてください（現在${(a.cardBullets||[]).length}件）`);
+    }
+  });
+  if (errors.length) {
+    throw new Error('articles-batch.json の cardBullets が不正です（トップページカードのレイアウト崩れの原因になります）:\n' + errors.join('\n'));
+  }
+}
 
 function validate(data) {
   const errors = [];
@@ -212,6 +228,7 @@ function validate(data) {
 function main() {
   const data = JSON.parse(fs.readFileSync(dataPath, 'utf-8'));
   validate(data);
+  validateCardBullets(data);
   data.forEach((a) => {
     const html = articleHtml(a);
     fs.writeFileSync(path.join(draftDir, `${a.slug}.html`), html, 'utf-8');
@@ -226,7 +243,7 @@ function main() {
       source: a.source,
       date: a.date,
       title: a.title,
-      bullets: a.bullets,
+      bullets: a.cardBullets,
       thumbnail: { type: 'image', url: a.thumbnail }
     };
     fs.writeFileSync(path.join(metaDir, `${a.slug}.json`), JSON.stringify(meta, null, 2) + '\n', 'utf-8');
