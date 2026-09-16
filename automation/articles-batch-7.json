@@ -12,6 +12,7 @@
     "viewpoint": "buyer",
     "theme": "visibility",
     "thumbnail": "https://www.lycorp.co.jp/ja/story/shopping_ai_title.jpg",
+    "background": "LINEヤフーは2026年2月に「Yahoo!ショッピング AIエージェント」を開始しており、今回はその後継として、想起から配送後まで買い物全体を横断してAIが支援する機能群をまとめて紹介したもの。AIエージェント経由の取扱高比率がすでに2割規模に達している状況を踏まえた発表である。",
     "bullets": [
       "Yahoo!ショッピングは、想起から配送までの購買行動をAIで支援する機能群を紹介した。",
       "AIエージェント経由の取扱高比率は2026年7月時点で約20%とされる。",
@@ -33,6 +34,7 @@
     "viewpoint": "buyer",
     "theme": "visibility",
     "thumbnail": "https://corp.rakuten.co.jp/assets/img/common/og_image_logo.png",
+    "background": "楽天市場はすでに常設のAIコンシェルジュ・ディスカバリーレコメンデーションを展開しており、今回は年に数回のセール商戦「楽天スーパーSALE」に合わせて、この会話型・レコメンド型の発見体験をセール文脈向けに強化した発表である。",
     "bullets": [
       "AIコンシェルジュが用途・予算を会話で受け、セール商品を探す。",
       "ディスカバリーレコメンデーションは興味に合わせ商品画像・動画・商品ページ情報を表示する。",
@@ -57,6 +59,7 @@
     "viewpoint": "buyer",
     "theme": "visibility",
     "thumbnail": "https://assets.aboutamazon.com/dims4/default/2328b3a/2147483647/strip/true/crop/2000x1000+0+51/resize/1200x600!/quality/90/?url=https%3A%2F%2Fassets.aboutamazon.com%2F2d%2Fe4%2Fe3fcb64e41718766601f96d0ddc2%2Frufus-pr-hero-v2.jpg",
+    "background": "AmazonのAIショッピングアシスタント「Rufus」は2024年から段階的に展開されてきた機能で、今回はその能力拡張版として、比較・価格追跡・カート投入までを一貫して支援する形に強化されたことを発表するもの。",
     "bullets": [
       "Rufusは目的・利用場面から商品を探し、比較、価格追跡、カート投入まで支援する。",
       "商品カタログ、レビュー、Q&A、Web情報を組み合わせて回答する。",
@@ -80,6 +83,7 @@
     "viewpoint": "buyer",
     "theme": "visibility",
     "thumbnail": "https://assets.aboutamazon.com/dims4/default/8736259/2147483647/strip/true/crop/2000x1000+0+57/resize/1200x600!/quality/90/?url=https%3A%2F%2Fassets.aboutamazon.com%2F53%2Fdd%2Ffb5a1fac4850ae9bfde31cca551b%2F2026-pr-bh-gtm-2000x1125-1.GIF",
+    "background": "AmazonはこれまでRufus（買い物特化AI）とAlexa+（汎用音声アシスタント）を別々に展開してきたが、今回両者を統合し、検索バーからも使えるパーソナライズ型の買い物AIとして「Alexa for Shopping」を新たに発表した。",
     "bullets": [
       "AmazonはRufusとAlexa+を統合し、検索バーから使える買い物AIを提供する。",
       "価格履歴、比較、買い物ガイド、条件付き自動購入に対応する。",
@@ -101,6 +105,7 @@
     "viewpoint": "buyer",
     "theme": "visibility",
     "thumbnail": "https://images.ctfassets.net/kftzwdyauwt9/54zHAGljzaGUAL8FNoSXAV/a2dda4a62fccf740c4717bf1afac17eb/Shopping-SEO-1200x630.png?w=1600&h=900&fit=fill",
+    "background": "OpenAIはAgentic Commerce Protocolやショッピングリサーチ機能など、ChatGPT内で商品を探す仕組みを段階的に整えてきており、本稿はその集大成として、視覚的探索・比較・会話による絞り込みという商品発見全体の設計思想をまとめて解説したもの。",
     "bullets": [
       "ChatGPTで商品の視覚的な探索、横並び比較、会話による絞り込みを強化した。",
       "Agentic Commerce Protocolを通じ、商品フィードと販促情報を扱う。",
@@ -124,6 +129,7 @@
     "viewpoint": "buyer",
     "theme": "visibility",
     "thumbnail": "https://images.ctfassets.net/kftzwdyauwt9/6GMdWQXwjX6584WneE1LFi/2a78299daa3b337a9530ab231f857532/Shopping_Research-ArtCard-16x9.png?w=1600&h=900&fit=fill",
+    "background": "ChatGPTはそれまで単発の商品検索が中心だったが、OpenAIは購入条件を会話で深掘りしながら比較ガイドを作る「ショッピングリサーチ」機能を新たに公開し、商品発見をより調査的な体験へ発展させた。",
     "bullets": [
       "購入条件を会話で深掘りし、比較ガイドを作成する機能を公開した。",
       "価格、在庫、仕様、画像をWebから集め、途中のフィードバックで候補を調整する。",
@@ -147,6 +153,7 @@
     "viewpoint": "buyer",
     "theme": "visibility",
     "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/5_Ways_to_Explore_Web_with_Gen_AI_ss.width-1300.png",
+    "background": "GoogleはAI OverviewsやAI Modeが「検索の終点」になり外部サイトへの流入が減るという懸念に対し、回答からWebへ進むリンク表示や関連サイトへの導線を継続的に改善しており、本発表はその一環として5つの新機能をまとめたもの。",
     "bullets": [
       "AI ModeとAI Overviewsで、回答からWebへ進むリンク表示を改善した。",
       "関連サイト、記事プレビュー、個人の視点を見つける導線を追加する。",
@@ -170,6 +177,7 @@
     "viewpoint": "buyer",
     "theme": "visibility",
     "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Search_AI_and_search_engine_v46_16x9_1.width-1300.jpg",
+    "background": "Google I/Oに続く自社カンファレンス「Search IO 2026」での発表で、AI Modeが月間10億ユーザーを超えた実績を踏まえ、検索ボックス自体を会話型に拡張し、画像・動画・ファイルを入力にできる次段階の検索体験を示したもの。",
     "bullets": [
       "AI Modeは月間10億ユーザーを超え、検索ボックス自体を会話型に拡張した。",
       "画像・動画・ファイル・タブを入力にでき、複雑な条件を扱う。",
@@ -193,6 +201,7 @@
     "viewpoint": "buyer",
     "theme": "visibility",
     "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Seamless-Search---Blog-social.width-1300.png",
+    "background": "従来のAI Overviewは検索結果ページ内で完結する要約に留まっていたが、Googleはここから連続して会話できるようAI Modeとの接続を強化し、Gemini 3をAI Overviewの既定モデルに切り替えたことを本発表で明らかにした。",
     "bullets": [
       "AI Overviewから追質問を行い、AI Modeとの会話を連続できるようにした。",
       "Gemini 3をAI Overviewの既定モデルとして採用した。",
@@ -214,6 +223,7 @@
     "viewpoint": "buyer",
     "theme": "visibility",
     "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Preferred_Sources_social.width-1300.png",
+    "background": "生成AI検索の回答が特定の出典に偏る、あるいは出典自体が見えにくいという指摘を受け、Googleは信頼できる情報源や速報性のある一次情報を利用者自身が選べる「Preferred Sources」をAI OverviewsとAI Modeに導入した。",
     "bullets": [
       "Preferred SourcesをAI OverviewsとAI Modeへ導入した。",
       "速報性のある検索では記事・視点を示すカルーセルを追加する。",
@@ -235,6 +245,7 @@
     "viewpoint": "seller",
     "theme": "optimization",
     "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/commerce_social.width-1300.png",
+    "background": "Googleは業界向けカンファレンス「Google Marketing Live」で、小売事業者のAI対応を支援する新機能群を発表しており、本稿はそのうちUniversal Commerce Protocol（UCP）とMerchant CenterのAI関連機能に焦点を当てた解説である。",
     "bullets": [
       "Merchant CenterでAI面のシェアオブボイスを把握する機能を予告した。",
       "会話的な検索に合わせて商品説明を更新する属性機能を提供する。",
@@ -258,6 +269,7 @@
     "viewpoint": "seller",
     "theme": "optimization",
     "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Decoded_Podcast_-_Thumbnail_-_S1E6.max-1440x810.jpg",
+    "background": "GoogleのAds Decoded Podcastシリーズの1本として公開された記事で、AI Mode・仮想試着・CTVといった相次ぐ新しい買い物体験がいずれもMerchant Centerの商品データを基盤にしている点を、小売事業者向けに整理して伝えるもの。",
     "bullets": [
       "AI Mode、仮想試着、CTVの買い物体験はMerchant Centerの商品データを基盤にする。",
       "フィードが不完全・不整合なら、顧客は商品を見つけられないと明示した。",
@@ -279,6 +291,7 @@
     "viewpoint": "seller",
     "theme": "optimization",
     "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Shopping_x_AI_Max_Road_to_GML_Master-Header.max-1440x810.png",
+    "background": "Googleは検索連動型広告の運用をAIに任せる「AI Max」をすでに展開しており、本発表はそのShopping向け適用として、Merchant Centerのフィード情報を会話的な検索意図の理解に活用する仕組みを新たに紹介したもの。",
     "bullets": [
       "Merchant Centerフィードの素材・耐久性・フィット感などを会話意図の理解に使う。",
       "AIが広告文、遷移先、広告形式を意図に合わせる。",
@@ -303,6 +316,7 @@
     "viewpoint": "seller",
     "theme": "optimization",
     "thumbnail": "https://cdn.sell2.brightspotcdn.com/dims4/default/3b91c2e/2147483647/strip/true/crop/1420x690+0+118/resize/1440x700!/quality/90/?url=https%3A%2F%2Fsell2-production-sell2.s3.us-west-2.amazonaws.com%2Fbrightspot%2Fb8%2F3c%2Fa8013d0441e1a144400978bdad6f%2Fai-illustration.jpg",
+    "background": "商品登録の負担が出品者にとって長年の課題だったことを受け、Amazonは短い説明・画像・既存ページURLなど手元にある断片的な情報からAIが商品属性を補完し、リスティング作成そのものを効率化する機能を出品者向けガイドとして解説している。",
     "bullets": [
       "短い説明、画像、既存ページURL、スプレッドシートからAIが商品属性を補完する。",
       "AI生成後は出品者が正確性・完全性・規約適合性をレビューする必要がある。",
@@ -326,6 +340,7 @@
     "viewpoint": "seller",
     "theme": "optimization",
     "thumbnail": "https://cdn.sell2.brightspotcdn.com/dims4/default/eaf975e/2147483647/strip/true/crop/1420x690+0+175/resize/1440x700!/quality/90/?url=https%3A%2F%2Fsell2-production-sell2.s3.us-west-2.amazonaws.com%2Fbrightspot%2F0d%2F3d%2Fb35681654a9facb4657a56c2aac0%2Flist-new-products.jpg",
+    "background": "AIによる属性補完機能の紹介に続き、Amazonは商品リスティングの基本的な作成手順（商品名・説明・箇条書き・画像・バリエーションなどの投入方法）を出品者向けガイドとして改めて整理し、AI活用の前提となる基礎項目を解説している。",
     "bullets": [
       "商品名、説明、箇条書き、画像、色などの属性を商品詳細ページに投入する手順を解説する。",
       "キーワード、バリエーション、ブランド管理で見つけやすさと情報の正確性を高める。",
@@ -349,6 +364,7 @@
     "viewpoint": "seller",
     "theme": "optimization",
     "thumbnail": "https://assets.aboutamazon.com/dims4/default/a1d0f28/2147483647/strip/true/crop/2000x1000+0+63/resize/1200x600!/quality/90/?url=https%3A%2F%2Fassets.aboutamazon.com%2Fd0%2F19%2Fa1fbbcea4009bcf626a75404daac%2Fshop-direct-hero.jpg",
+    "background": "Amazonは自社サイト外の独立系ECサイトの商品もAmazon上で発見できるようにする「Shop Direct」を展開しており、本発表はその参加店舗数拡大に向けて、カタログ・価格・在庫をリアルタイム同期できるフィード連携機能を新たに導入したもの。",
     "bullets": [
       "外部店舗はフィード連携でカタログ、価格、在庫をリアルタイム同期できる。",
       "Amazon検索結果とAIアシスタントで表示対象になる。",
@@ -370,6 +386,7 @@
     "viewpoint": "seller",
     "theme": "optimization",
     "thumbnail": "https://images.ctfassets.net/kftzwdyauwt9/7EQeVi3fOTDtyh524IX4qX/ce70dbc4e896b0447dc652df806cfb5d/Frame-1.png?w=1600&h=900&fit=fill",
+    "background": "ChatGPT上で商品を扱うAgentic Commerce Protocolの普及に伴い、OpenAIは加盟店が商品フィードを提供する際の公式なルールとして「Merchant Feed利用規約」を新たに整備し、提供データの仕様と責任範囲を明文化した。",
     "bullets": [
       "加盟店は商品コンテンツをフィード等でOpenAIへ提供できる。",
       "提供データはProduct Feed Specに従う必要がある。",
@@ -393,6 +410,7 @@
     "viewpoint": "seller",
     "theme": "optimization",
     "thumbnail": "https://images.ctfassets.net/kftzwdyauwt9/2BwLsAc9CDgCMWPnvMG6zT/88486652ebb56e9410a9949bfb4938f8/oai_wayfair_SEO.png?w=1600&h=900&fit=fill",
+    "background": "OpenAIは法人顧客の導入事例を継続的に紹介しており、本稿は大手家具ECのWayfairが商品クラスごとの属性分類にAIを活用し、250万件規模のプロダクトタグを修正した実績を、カタログ品質改善の具体例として取り上げたもの。",
     "bullets": [
       "Wayfairは商品クラスごとの属性分類をAIで運用し、カタログ品質を改善した。",
       "250万件のプロダクトタグを修正した実績を示す。",
@@ -414,6 +432,7 @@
     "viewpoint": "seller",
     "theme": "optimization",
     "thumbnail": "https://www.gstatic.com/marketing-cms/assets/images/ads/af/4d/d626626c4a8c9a9a892ed4d178e4/twg-ne-3377-omnichannel-report-inlines-4.webp=n-w794-h274-fcrop64=1,00000000ffffffff",
+    "background": "小売業界のAI対応が急速に進む一方で実態把握が進んでいないことを受け、GoogleとImpact Commerceは北欧・ベネルクス6か国の小売ブランド373社、27,600超のデータポイントを対象に、AI対応の準備状況を定量調査したレポートを公開した。",
     "bullets": [
       "GoogleとImpact Commerceが、6か国373の小売ブランドの27,600超のデータポイントを調査した。",
       "AIエージェントが読めるように構造化された商品ページを持つのは調査対象の42%、ビジュアル検索対応は3%だった。",
@@ -435,6 +454,7 @@
     "viewpoint": "seller",
     "theme": "optimization",
     "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_Max_Road_to_GML_Master-Header-4.width-1300.png",
+    "background": "検索連動型広告をAIに任せる「AI Max」の提供開始から1年が経過したことを機に、Googleはこれまでの利用実績を踏まえ、事業文脈を伝える「AI Brief」や遷移先の自動制御など、広告主が成果をより細かく制御できる新機能を追加発表した。",
     "bullets": [
       "AI Max for Shoppingは商品フィードを会話型のShopping広告へ変換する。",
       "AI Briefで事業文脈、訴求、対象者を自社の言葉でAIに渡せる。",
@@ -458,6 +478,7 @@
     "viewpoint": "seller",
     "theme": "measurement",
     "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Retouched_Final-social.width-1300.png",
+    "background": "年始の恒例として、Googleは広告・コマース領域における1年間の展望をまとめて発表しており、2026年版ではAI Modeの買い物広告やUniversal Commerce Protocol（UCP）によるチェックアウトの展開が中心テーマとして位置づけられている。",
     "bullets": [
       "AI Modeの買い物広告とUCPチェックアウトの展開を整理する。",
       "商品データを基に、意図の強い比較・購入段階へ広告を出す。",
@@ -479,6 +500,7 @@
     "viewpoint": "seller",
     "theme": "measurement",
     "thumbnail": "https://assets.aboutamazon.com/dims4/default/74cf576/2147483647/strip/true/crop/1600x800+0+50/resize/1200x600!/quality/90/?url=https%3A%2F%2Fassets.aboutamazon.com%2F77%2F26%2Fecebc82c426a8d85505206e8fe48%2Fnew-hero.png",
+    "background": "Amazonは購入者向けのAI機能に続き、出品者側の業務を支援するエージェント型AIの展開を本格化させており、本発表では在庫・販売速度・アカウント健全性を継続的に監視する「Seller Assistant」を新たに紹介している。",
     "bullets": [
       "Seller Assistantが在庫、販売速度、アカウント健全性を継続監視する。",
       "需要パターンと現行トレンドから補充提案を作成する。",
@@ -500,6 +522,7 @@
     "viewpoint": "seller",
     "theme": "measurement",
     "thumbnail": "https://cdn.sell2.brightspotcdn.com/dims4/default/41b8749/2147483647/strip/true/crop/1991x968+0+508/resize/1440x700!/quality/90/?url=https%3A%2F%2Fsell2-production-sell2.s3.us-west-2.amazonaws.com%2Fbrightspot%2Fa9%2Fa2%2Fabb1b0fb4acdb67ed1e4a26eb740%2Fpackage-in-cart-illu.jpg",
+    "background": "新商品の立ち上げに悩む出品者が多いことを受け、Amazonは需要調査ツール「Product Opportunity Explorer」の活用法とあわせ、投入前・投入中・投入後で見るべき指標が異なるという考え方を出品者向けガイドとして整理して解説している。",
     "bullets": [
       "Product Opportunity Explorerで顧客の検索行動と購入パターンを分析できる。",
       "新商品は投入前・投入中・投入後で確認する指標を変えるべきだと解説する。",
@@ -523,6 +546,7 @@
     "viewpoint": "seller",
     "theme": "measurement",
     "thumbnail": "https://cdn.sell2.brightspotcdn.com/dims4/default/216d88d/2147483647/strip/true/crop/1000x486+0+157/resize/1440x700!/quality/90/?url=https%3A%2F%2Fsell2-production-sell2.s3.us-west-2.amazonaws.com%2Fbrightspot%2F9f%2F95%2F7c1f4deb4243b32bdc86204f8b9a%2Ftrending-products.jpg",
+    "background": "新商品選定に悩む出品者向けの年次シリーズ記事として、Amazonは2026年のベストセラー・需要データを基に高需要・トレンド商品18選を紹介し、出品者向け分析ツールを使った需要の継続的な見直し方も併せて解説している。",
     "bullets": [
       "Amazonのベストセラーと需要データを、新商品候補の検討材料として扱う。",
       "出品者向けの分析ツールで、顧客ニーズと競合状況を確認できる。",
@@ -546,6 +570,7 @@
     "viewpoint": "seller",
     "theme": "measurement",
     "thumbnail": "https://images.ctfassets.net/kftzwdyauwt9/4cRQViGMim2kzoeBqEMiJb/42b81747b2e65e236280946fe9fe0916/Frame-1.png?w=1600&h=900&fit=fill",
+    "background": "Merchant Feed利用規約の整備に続き、OpenAIはChatGPT上でのコマース活動全体を対象とした「コマースポリシー」を公開し、扱えない商品・サービスの範囲と加盟店側の責任を明文化した。",
     "bullets": [
       "OpenAIのコマース面で扱えない商品・サービスと加盟店の責任を定める。",
       "商品フィード、加盟店、リンク先Webページをポリシーの対象に含める。",
@@ -569,6 +594,7 @@
     "viewpoint": "buyer",
     "theme": "measurement",
     "thumbnail": "https://assets.aboutamazon.com/dims4/default/729509e/2147483647/strip/true/crop/2000x1000+0+0/resize/1200x600!/quality/90/?url=https%3A%2F%2Fassets.aboutamazon.com%2Fa6%2F0a%2F4efb19c2408cad25b81983fa9a2d%2Fimage-3.png",
+    "background": "Rufus、Lens Live、レビュー要約などAmazonが個別に発表してきたAI買い物機能が増える中、本稿はそれらを商品発見・比較・購入という購買プロセスの段階別に整理し、生成AI・エージェントAI活用の全体像として改めてまとめたもの。",
     "bullets": [
       "AmazonはRufus、Lens Live、レビュー要約など複数のAI買い物機能を整理した。",
       "商品の属性、レビューの肯定・否定傾向、比較を画面上で扱う。",
@@ -590,6 +616,7 @@
     "viewpoint": "seller",
     "theme": "measurement",
     "thumbnail": "https://cdn.sell2.brightspotcdn.com/dims4/default/40216a2/2147483647/strip/true/crop/1500x1200%2B0%2B0/resize/500x400%21/quality/90/?url=https%3A%2F%2Fsell2-production-sell2.s3.us-west-2.amazonaws.com%2Fbrightspot%2Fd0%2F45%2F0dd484b94c35923142783cd5b6a7%2Ffba-fees.png",
+    "background": "FBA（フルフィルメント by Amazon）の手数料体系が商品サイズ・重量・季節要因で複雑に変動することが出品者の理解を難しくしていることを受け、Amazonは費用構造とダッシュボードツールの使い方を体系的に解説するガイドを公開した。",
     "bullets": [
       "AmazonはFBA費用を販売手数料、出荷・保管、返品・長期在庫などに分け、商品サイズ・重量・季節により変わることを説明している。",
       "FBA DashboardとInventory Performance dashboardで在庫指標を確認し、過剰在庫や保管コストを抑える運用を案内する。",
@@ -613,6 +640,7 @@
     "viewpoint": "seller",
     "theme": "measurement",
     "thumbnail": "https://www.gstatic.com/marketing-cms/assets/images/ads/50/e9/97caedcb4bb7ac5db64e49f15aa7/twg-us-2832-5-conversations-im-having-with-cmos-daily-on-seo-for-ai-search-inline.webp=n-w800-h421-fcrop64=1,00000000ffffffff",
+    "background": "GEO（生成AI検索最適化）という新語の登場で従来のSEOとは別物という誤解が広がっていることを受け、Googleはマーケティング責任者との日々の対話を踏まえ、AI検索対応も一次性の高いコンテンツという従来のSEOの基礎の延長にあると説明する記事を公開した。",
     "bullets": [
       "Googleは、AI Mode・AI Overviewsへの最適化も、役に立つ一次性の高いコンテンツと良いWeb体験というSEOの基礎に立つと説明する。",
       "Search ConsoleではAI機能からの表示回数、Merchant Centerでは生成AI面での商品リスティング表示を確認できると案内している。",
@@ -634,6 +662,7 @@
     "viewpoint": "seller",
     "theme": "measurement",
     "thumbnail": "https://cdn.sell2.brightspotcdn.com/dims4/default/94ff461/2147483647/strip/true/crop/2500x2000%2B500%2B0/resize/500x400%21/quality/90/?url=https%3A%2F%2Fsell2-production-sell2.s3.us-west-2.amazonaws.com%2Fbrightspot%2Fc4%2Fea%2Fd830e5db43e5b55609bda3bf76cd%2Fcustomer-segment-insitu.jpg",
+    "background": "カスタマーレビューが単なる評価の蓄積として放置されがちなことを問題視し、Amazonはレビューをリアルタイムの市場調査データとして活用し、商品説明や写真の改善、低評価の分類・追跡に役立てる具体的な方法を出品者向けに解説している。",
     "bullets": [
       "Amazonはレビューをリアルタイムの市場調査として扱い、評価・レビュー数・頻出語を商品改善に使う方法を解説している。",
       "高評価で繰り返し言及される属性・利用場面・顧客の表現を、商品説明や写真に反映するよう促す。",
@@ -655,6 +684,7 @@
     "viewpoint": "seller",
     "theme": "measurement",
     "thumbnail": "https://cdn.sell2.brightspotcdn.com/dims4/default/a772a7f/2147483647/strip/true/crop/750x600%2B0%2B1/resize/500x400%21/quality/90/?url=https%3A%2F%2Fsell2-production-sell2.s3.us-west-2.amazonaws.com%2Fbrightspot%2Fe8%2F31%2F73e046664dada478b96086d5358d%2Fframe-2147205941.jpg",
+    "background": "売上は伸びていても実際の利益が把握できていない出品者が多いことを踏まえ、AmazonはFBA手数料ガイドに続き、粗利率・営業利益率・純利益率を商品単位で計算する具体的な方法とRevenue Calculatorの使い方を解説している。",
     "bullets": [
       "Amazonは、売上から原価・運営費を差し引く粗利率、営業利益率、純利益率を商品単位で分けて計算する方法を解説している。",
       "販売手数料、フルフィルメント、広告、返品・顧客対応を含めて利益率を計算する具体例を示す。",

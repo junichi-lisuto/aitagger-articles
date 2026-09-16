@@ -147,6 +147,9 @@ function articleHtml(a) {
   </div>
   <h1>${esc(a.title)}</h1>
 ${a.origTitle ? `  <p class="orig">原題: ${esc(a.origTitle)}</p>\n` : ''}
+  <h2>背景</h2>
+  <p class="background">${esc(a.background)}</p>
+
   <h2>何が語られているか</h2>
   <ul class="points">
 ${points}
@@ -181,8 +184,25 @@ window.addEventListener('load', function(){ window.scrollTo(0,0); });
 `;
 }
 
+const REQUIRED_FIELDS = ['slug', 'title', 'sourceUrl', 'source', 'date', 'background', 'bullets', 'meaning', 'thumbnail'];
+
+function validate(data) {
+  const errors = [];
+  data.forEach((a, i) => {
+    for (const field of REQUIRED_FIELDS) {
+      if (!a[field] || (Array.isArray(a[field]) && a[field].length === 0)) {
+        errors.push(`[${i}] ${a.slug || '(slug未設定)'}: "${field}" が空です`);
+      }
+    }
+  });
+  if (errors.length) {
+    throw new Error('articles-batch.json の必須項目が不足しています:\n' + errors.join('\n'));
+  }
+}
+
 function main() {
   const data = JSON.parse(fs.readFileSync(dataPath, 'utf-8'));
+  validate(data);
   data.forEach((a) => {
     const html = articleHtml(a);
     fs.writeFileSync(path.join(draftDir, `${a.slug}.html`), html, 'utf-8');
