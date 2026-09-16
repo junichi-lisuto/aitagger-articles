@@ -3,10 +3,682 @@
   "schemaVersion": 2,
   "articles": [
     {
+      "slug": "arxiv-ai-search-information-markets",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/arxiv-ai-search-information-markets.html",
+      "sourceUrl": "https://arxiv.org/abs/2602.13415",
+      "platforms": [
+        "google",
+        "chatgpt",
+        "other-ai"
+      ],
+      "viewpoint": "buyer",
+      "theme": "measurement",
+      "source": "arXiv",
+      "date": "2026-02-16",
+      "title": "学術論文：AI検索の台頭が情報市場と人間の判断に与える影響",
+      "bullets": [
+        "AI検索の露出拡大を国・市場単位で整理する研究である。",
+        "AI Overviewsの展開範囲と情報探索行動の変化を扱う。",
+        "検索の影響を露出・判断・流通の複数段階で測る視点を示す。"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://arxiv.org/html/2602.13415v2/main_figures/mainfigure1_260211.png"
+      }
+    },
+    {
+      "slug": "ahrefs-ai-bots-vs-search-bots",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/ahrefs-ai-bots-vs-search-bots.html",
+      "sourceUrl": "https://ahrefs.com/blog/search-engine-ai-seo-bot-crawling/",
+      "platforms": [
+        "google",
+        "chatgpt",
+        "other-ai"
+      ],
+      "viewpoint": "seller",
+      "theme": "measurement",
+      "source": "Ahrefs",
+      "date": "2025-06-18",
+      "title": "Ahrefs、AIボットと検索エンジンボットのクロール状況を比較調査",
+      "bullets": [
+        "Cloudflare RadarのデータでAIボットと検索ボットのクロールを比較する。",
+        "AIによる情報取得を、検索順位以外で捉える必要性を示す。",
+        "ボットアクセスと紹介流入を分けて観測する前提を提供する。"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ahrefs.com/blog/wp-content/uploads/2025/06/meet-the-new-web-crawlers-ai-by-patrick-stox-data-studies-1.jpg"
+      }
+    },
+    {
+      "slug": "amazon-brand-analytics",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/amazon-brand-analytics.html",
+      "sourceUrl": "https://sell.amazon.com/blog/brand-analytics",
+      "platforms": [
+        "amazon"
+      ],
+      "viewpoint": "seller",
+      "theme": "measurement",
+      "source": "Amazon Selling Partners",
+      "date": "2025-10-08",
+      "title": "Amazon、Brand Analyticsで商品単位のAI検索データを可視化",
+      "bullets": [
+        "Brand Analyticsで、検索表示回数・クリック・カート追加・購入・CVRなどを商品・検索語単位で分析できる。",
+        "Search Query Performance、Top Search Terms、Repeat Purchase Behaviorなどのダッシュボードを用途別に説明する。",
+        "露出から購買、再購入までを分けて見ることで、商品情報・キーワード・価格改善の判断材料にできる。"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://cdn.sell2.brightspotcdn.com/dims4/default/f8e74f3/2147483647/strip/true/crop/1616x1293%2B0%2B89/resize/500x400%21/quality/90/?url=https%3A%2F%2Fsell2-production-sell2.s3.us-west-2.amazonaws.com%2Fbrightspot%2Fb2%2Fd7%2F5b20410b4a8ba9417a78bfd0d404%2F2510033-1070-sm-2.jpg"
+      }
+    },
+    {
+      "slug": "ahrefs-ai-adjusted-search-volume",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/ahrefs-ai-adjusted-search-volume.html",
+      "sourceUrl": "https://ahrefs.com/blog/how-ahrefs-estimates-ai-search-demand/",
+      "platforms": [
+        "google",
+        "chatgpt",
+        "other-ai"
+      ],
+      "viewpoint": "seller",
+      "theme": "measurement",
+      "source": "Ahrefs",
+      "date": "2026-08-17",
+      "title": "Ahrefs、AI検索の需要を推定する「AI調整済みボリューム」の考え方を解説",
+      "bullets": [
+        "AI検索の実プロンプト量は主要プラットフォームから公開されていないため、AhrefsはGoogle検索ボリュームとプラットフォーム別の流入比率から需要を推定する。",
+        "ChatGPT、Perplexity、Gemini、Claudeなどで、同じ問いでも需要推定値を分けて扱う。",
+        "推定値は市場規模の確定値ではなく、AI上の露出・Share of Voice・優先テーマを比較するための方向性指標だと明示する。"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ahrefs.com/blog/wp-content/uploads/2026/08/ai-adjusted-volume-how-ahrefs-approaches-by-constance-tan-product-blog-1.jpg"
+      }
+    },
+    {
+      "slug": "google-gemini3-search",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/google-gemini3-search.html",
+      "sourceUrl": "https://blog.google/products-and-platforms/products/search/gemini-3-search-ai-mode/",
+      "platforms": [
+        "google"
+      ],
+      "viewpoint": "buyer",
+      "theme": "measurement",
+      "source": "Google",
+      "date": "2025-11-18",
+      "title": "Google、Gemini 3を搭載した検索を提供開始",
+      "bullets": [
+        "AI ModeでGemini 3を提供し、動的な回答UIを導入する。",
+        "クエリごとに視覚的・対話的な結果表現を変える。",
+        "固定順位・固定SERPだけの計測が難しくなることを示す。"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/SearchwithGemini3_Social.width-1300.png"
+      }
+    },
+    {
+      "slug": "google-ai-mode-agentic-features",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/google-ai-mode-agentic-features.html",
+      "sourceUrl": "https://blog.google/products-and-platforms/products/search/ai-mode-agentic-personalized/",
+      "platforms": [
+        "google"
+      ],
+      "viewpoint": "buyer",
+      "theme": "measurement",
+      "source": "Google",
+      "date": "2025-08-21",
+      "title": "Google、AI Modeにエージェント機能を追加し世界展開",
+      "bullets": [
+        "検索、予約、候補選択までの行動をAIが補助する。",
+        "パーソナルな文脈を提案へ反映する仕組みを拡張する。",
+        "導線評価は検索クリックだけでなく完了行動へ広がる。"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/expanding_ai_mode_ss.width-1300.png"
+      }
+    },
+    {
+      "slug": "rakuten-ai-ecosystem-q4",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/rakuten-ai-ecosystem-q4.html",
+      "sourceUrl": "https://corp.rakuten.co.jp/investors/assets/doc/documents/25Q4MAINPPT_J.pdf",
+      "platforms": [
+        "rakuten"
+      ],
+      "viewpoint": "seller",
+      "theme": "measurement",
+      "source": "楽天グループ株式会社",
+      "date": "2026-02-13",
+      "title": "楽天、Rakuten AIをエコシステム全体で展開（2025年第4四半期報告）",
+      "bullets": [
+        "Rakuten AIのエコシステム展開と利用状況を投資家向けに開示する。",
+        "楽天市場でのAI体験者は非体験者より再来訪頻度が高いと報告する。",
+        "AI機能を導線指標と継続利用で評価する例になる。"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://img.youtube.com/vi/zToTXB_Vb1o/maxresdefault.jpg"
+      }
+    },
+    {
+      "slug": "amazon-small-business-empowerment-report",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/amazon-small-business-empowerment-report.html",
+      "sourceUrl": "https://cdn-sellingpartners.aboutamazon.com/b2/13/5095e06e4689acedd33672e047d9/small-business-empowerment-report-2025.pdf",
+      "platforms": [
+        "amazon"
+      ],
+      "viewpoint": "seller",
+      "theme": "measurement",
+      "source": "Amazon Selling Partners",
+      "date": "2025-12-01",
+      "title": "Amazon、中小事業者支援の実績をまとめたレポートを公開",
+      "bullets": [
+        "Amazon出品者向けのAI活用と事業支援の実績を報告する。",
+        "2025年に投入したAI搭載FBAツール群を取り上げる。",
+        "出品者支援を成果・機会の観点で把握する資料である。"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://cdn-sellingpartners.aboutamazon.com/dims4/default/de07494/2147483647/strip/true/crop/1000x563%2B0%2B0/resize/1000x563%21/format/webp/quality/90/?url=https%3A%2F%2Famazon-k1-prod-ser.s3.us-west-2.amazonaws.com%2Fbrightspot%2F7e%2F8e%2F290e8bca497d98fdbae1527c899f%2Fser-sber25-illustration-dataviz-aag-13-1.png"
+      }
+    },
+    {
+      "slug": "google-search-console-social-video-guide",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/google-search-console-social-video-guide.html",
+      "sourceUrl": "https://developers.google.com/search/blog/2026/07/platform-properties-social-video-guide",
+      "platforms": [
+        "google"
+      ],
+      "viewpoint": "seller",
+      "theme": "measurement",
+      "source": "Google Search Central",
+      "date": "2026-07-29",
+      "title": "Google、Search ConsoleでSNS・動画の検索実績を横断確認できる機能を展開",
+      "bullets": [
+        "Search ConsoleでInstagram、TikTok、X、YouTubeのコンテンツを、Google Search・Discover・Google News上の実績として確認できるようになった。",
+        "検索語、投稿別のクリック・表示、直近24時間の急増、複数プラットフォーム間の比較を行える。",
+        "導線を自社サイトだけに限定せず、コンテンツ接点ごとに検索流入を評価する考え方を示す。"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://developers.google.com/static/search/blog/images/social-share-blog.png"
+      }
+    },
+    {
+      "slug": "google-search-console-ai-performance-reports",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/google-search-console-ai-performance-reports.html",
+      "sourceUrl": "https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports",
+      "platforms": [
+        "google"
+      ],
+      "viewpoint": "seller",
+      "theme": "measurement",
+      "source": "Google Search Central",
+      "date": "2026-06-03",
+      "title": "Google、Search ConsoleにAI検索専用のパフォーマンスレポートを追加",
+      "bullets": [
+        "Search Consoleに、AI Overviews・AI Mode・Discoverの生成AI機能内での表示を確認する専用レポートが追加された。",
+        "URL別の表示回数に加え、国、デバイス、日付単位での推移を確認できる。",
+        "従来の総合パフォーマンスとは別に、生成AI面での露出を継続観測できるようになる。"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://developers.google.com/static/search/blog/images/social-share-blog.png"
+      }
+    },
+    {
+      "slug": "amazon-boost-listings-10-tactics",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/amazon-boost-listings-10-tactics.html",
+      "sourceUrl": "https://sell.amazon.com/blog/how-to-boost-amazon-listings",
+      "platforms": [
+        "amazon"
+      ],
+      "viewpoint": "seller",
+      "theme": "optimization",
+      "source": "Amazon Selling Partners",
+      "date": "2026-04-29",
+      "title": "Amazon、商品リスティングを改善する10の施策を解説",
+      "bullets": [
+        "商品名・説明文は購入者の用途、解決する課題、主要な便益を明確にし、重複しない独自の内容にするよう案内している。",
+        "購入意図のある検索語と商品属性を商品情報へ適切に織り込み、AI検索にも理解しやすいよう、顧客の質問へ直接答える構成を勧めている。",
+        "画像・説明文・タイトルは「Manage Your Experiments」で比較し、閲覧数は多いのに売れない商品を優先して改善する考え方を示す。"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://cdn.sell2.brightspotcdn.com/dims4/default/e5950d9/2147483647/strip/true/crop/1000x800%2B0%2B0/resize/500x400%21/quality/90/?url=https%3A%2F%2Fsell2-production-sell2.s3.us-west-2.amazonaws.com%2Fbrightspot%2Fea%2F4d%2F16eaac6d4c449efa3b1a493b0373%2Fblog-boost-listing.png"
+      }
+    },
+    {
+      "slug": "google-store-widget",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/google-store-widget.html",
+      "sourceUrl": "https://developers.google.com/search/blog/2025/09/store-widget",
+      "platforms": [
+        "google"
+      ],
+      "viewpoint": "seller",
+      "theme": "optimization",
+      "source": "Google Search Central",
+      "date": "2025-09-18",
+      "title": "Google、ストア評価・配送方針を表示する「ストアウィジェット」を発表",
+      "bullets": [
+        "Googleのストア評価、配送・返品ポリシー、レビューを自社サイトに表示するストアウィジェットを案内する。",
+        "「Top Quality」「Store rating」など、ストア品質評価に応じた3種類の表示がある。",
+        "Googleは導入事業者について、類似事業者比で90日以内に売上が最大8%高かったとしている。"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://developers.google.com/static/search/blog/images/top-quality-store-widget-embedded.gif"
+      }
+    },
+    {
+      "slug": "semrush-ai-visibility-study",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/semrush-ai-visibility-study.html",
+      "sourceUrl": "https://www.semrush.com/blog/ai-search-visibility-study-findings/",
+      "platforms": [
+        "google",
+        "chatgpt",
+        "other-ai"
+      ],
+      "viewpoint": "seller",
+      "theme": "optimization",
+      "source": "Semrush",
+      "date": "2025-09-03",
+      "title": "Semrush、AI検索の実態を調べた「AI可視性調査」を公開",
+      "bullets": [
+        "ChatGPTとGoogle AI Modeで、5業界のプロンプトに対する引用元・ブランド可視性を比較した調査である。",
+        "AI回答では、企業の販促ページだけでなく、具体的で検証可能な情報やコミュニティ由来の情報が引用に影響することを示す。",
+        "商品ページには仕様・価格・比較可能な事実を明確に置き、引用される情報源とブランド言及を分けて観測すべきだと提案する。"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://static.semrush.com/blog/uploads/media/ac/54/ac547cefa07810adf609ceae29196090/9c07a1eb0f75ea5e404a64f30d61aec4/image.png"
+      }
+    },
+    {
+      "slug": "google-multimodal-search-ai-mode",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/google-multimodal-search-ai-mode.html",
+      "sourceUrl": "https://blog.google/products-and-platforms/products/search/ai-mode-multimodal-search/",
+      "platforms": [
+        "google"
+      ],
+      "viewpoint": "seller",
+      "theme": "optimization",
+      "source": "Google",
+      "date": "2025-04-07",
+      "title": "Google、AI Modeにマルチモーダル検索を追加",
+      "bullets": [
+        "LensとGeminiで画像内の物体・素材・色・形を理解する。",
+        "一枚の画像から複数の関連検索を実行する。",
+        "商品画像が検索対象の構造情報になることを示す。"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AIModeLens_SocialShare_1920x1080.width-1300.png"
+      }
+    },
+    {
+      "slug": "rakuten-ai-ecosystem-q3",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/rakuten-ai-ecosystem-q3.html",
+      "sourceUrl": "https://corp.rakuten.co.jp/investors/assets/doc/documents/25Q3MAINPPT_J.pdf",
+      "platforms": [
+        "rakuten"
+      ],
+      "viewpoint": "seller",
+      "theme": "optimization",
+      "source": "楽天グループ株式会社",
+      "date": "2025-11-13",
+      "title": "楽天、Rakuten AIをエコシステム全体で展開（2025年第3四半期報告）",
+      "bullets": [
+        "楽天市場アプリへのRakuten AIのソフトローンチ状況を開示する。",
+        "店舗向けAIツールは機能追加と利用店舗の増加を続けている。",
+        "楽天内で対話型AIが横断的に使われる方向を確認できる。"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://asset.watch.impress.co.jp/img/ktw/docs/2063/165/06_l.jpg"
+      }
+    },
+    {
+      "slug": "amazon-product-opportunity-explorer",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/amazon-product-opportunity-explorer.html",
+      "sourceUrl": "https://cdn-sellingpartners.aboutamazon.com/7c/18/edd05b224e6b8884a2c7c912d02e/final-sber-report-2025-1.pdf",
+      "platforms": [
+        "amazon"
+      ],
+      "viewpoint": "seller",
+      "theme": "optimization",
+      "source": "Amazon Selling Partners",
+      "date": "2025-01-01",
+      "title": "Amazon、需要データから新商品機会を提案する分析ツールを解説",
+      "bullets": [
+        "検索、クリック、購買など大量の行動データを分析対象にする。",
+        "AIが既存商品群を考慮し、類似しつつ差別化できる商品機会を提案する。",
+        "商品企画と情報整備を需要シグナルから行う考え方を示す。"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://cdn-sellingpartners.aboutamazon.com/dims4/default/f9676cd/2147483647/strip/true/crop/2489x1037%2B0%2B40/resize/1440x600%21/format/webp/quality/90/?url=https%3A%2F%2Famazon-k1-prod-ser.s3.us-west-2.amazonaws.com%2Fbrightspot%2F6d%2F8f%2F1b7c6882445785661af97ad42d38%2F37b85658f152328e07b2e1aa92c9cdba055f2423.png"
+      }
+    },
+    {
+      "slug": "google-ai-personalization-shopping",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/google-ai-personalization-shopping.html",
+      "sourceUrl": "https://blog.google/products/ads-commerce/ai-personalization-and-the-future-of-shopping/",
+      "platforms": [
+        "google"
+      ],
+      "viewpoint": "seller",
+      "theme": "optimization",
+      "source": "Google",
+      "date": "2025-03-03",
+      "title": "Google、AI・パーソナライゼーションとショッピングの未来を示す",
+      "bullets": [
+        "GoogleはAIを広告・ショッピングの関連性向上へ使う方針を示す。",
+        "Lens広告、AI Shopping、3D商品表現などを取り上げる。",
+        "画像と商品データの表現力が訴求の中心になる。"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Vidhya_Edited_26-post_copy.width-1300.png"
+      }
+    },
+    {
+      "slug": "google-shopping-agentic-checkout",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/google-shopping-agentic-checkout.html",
+      "sourceUrl": "https://blog.google/products-and-platforms/products/shopping/agentic-checkout-holiday-ai-shopping/",
+      "platforms": [
+        "google"
+      ],
+      "viewpoint": "seller",
+      "theme": "optimization",
+      "source": "Google",
+      "date": "2025-11-13",
+      "title": "Google Shopping、エージェント型チェックアウト等の新機能を発表",
+      "bullets": [
+        "自然文の商品要望に対し、価格・レビュー・在庫を整理して表示する。",
+        "価格条件の追跡から、対象店舗での購入支援までを提供する。",
+        "正確な商品データをShopping Graphへ供給する前提が強まる。"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/holiday_shopping_ss.width-1300.png"
+      }
+    },
+    {
+      "slug": "bing-indexnow-shopping-ads",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/bing-indexnow-shopping-ads.html",
+      "sourceUrl": "https://blogs.bing.com/webmaster/May-2025/IndexNow-Enables-Faster-and-More-Reliable-Updates-for-Shopping-and-Ads",
+      "platforms": [
+        "other-ai"
+      ],
+      "viewpoint": "seller",
+      "theme": "optimization",
+      "source": "Microsoft Bing",
+      "date": "2025-05-19",
+      "title": "Microsoft、IndexNowでショッピング・広告情報の更新を高速化",
+      "bullets": [
+        "商品・広告情報の変更を検索側へ即時通知する仕組みを説明する。",
+        "AI検索とリアルタイム商品モジュールでは鮮度が重要になる。",
+        "価格・在庫などの更新遅延を減らす実務的な選択肢となる。"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://blogs.bing.com/getattachment/ff1abe50-2d3b-4f60-ad7d-d713dcd6965b/OnlineShoppingProductPage.jpg?lang=en-US"
+      }
+    },
+    {
+      "slug": "rakuten-rakuma-ai-listing",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/rakuten-rakuma-ai-listing.html",
+      "sourceUrl": "https://corp.rakuten.co.jp/news/press/2025/1009_01.html",
+      "platforms": [
+        "rakuten"
+      ],
+      "viewpoint": "seller",
+      "theme": "optimization",
+      "source": "楽天グループ株式会社",
+      "date": "2025-10-09",
+      "title": "「楽天ラクマ」、AI技術を活用した出品サポート機能を提供開始",
+      "bullets": [
+        "出品画像からカテゴリ、商品名、説明文の候補をAIが出す。",
+        "蓄積商品データと連携して入力の正確性を高める。",
+        "商品情報作成を画像起点で効率化する実装例である。"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://corp.rakuten.co.jp/news/assets/img/press/2025_press_jp/1009_01/KV%20%281%29.png"
+      }
+    },
+    {
+      "slug": "google-vision-match-virtual-tryon",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/google-vision-match-virtual-tryon.html",
+      "sourceUrl": "https://blog.google/products-and-platforms/products/shopping/ai-vision-match-ar-beauty-virtual-try-on/",
+      "platforms": [
+        "google"
+      ],
+      "viewpoint": "buyer",
+      "theme": "visibility",
+      "source": "Google",
+      "date": "2025-03-05",
+      "title": "Google、AIで理想の服を見つけ、メイクを試せる新機能を発表",
+      "bullets": [
+        "Google Shoppingで、言葉で説明した服のイメージから近い商品を探す「vision match」を提供する。",
+        "Geminiを使ったメイクのバーチャル試着と、衣服の試着対象拡大を発表した。",
+        "商品発見の入口が商品名・絞り込み条件だけでなく、意図と画像表現へ広がることを示す。"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/HERO_PT_100_customers.width-1600.format-webp.width-1300.png"
+      }
+    },
+    {
+      "slug": "google-ai-mode-multi-subquery",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/google-ai-mode-multi-subquery.html",
+      "sourceUrl": "https://blog.google/products-and-platforms/products/search/google-search-ai-mode-update/",
+      "platforms": [
+        "google"
+      ],
+      "viewpoint": "buyer",
+      "theme": "visibility",
+      "source": "Google",
+      "date": "2025-05-20",
+      "title": "Google、AI Modeで複数のサブクエリを並列処理する仕組みを説明",
+      "bullets": [
+        "AI Modeが複数のサブクエリを並列実行して回答を作る。",
+        "購買では比較、仮想試着、購入支援までを想定する。",
+        "検索結果は単一キーワードの順位表示から変化する。"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IO25_SearchSizzle_YT-Thumbnail_051525_Light_V.width-1300.png"
+      }
+    },
+    {
+      "slug": "amazon-interests-feature",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/amazon-interests-feature.html",
+      "sourceUrl": "https://www.aboutamazon.com/news/retail/artificial-intelligence-amazon-features-interest",
+      "platforms": [
+        "amazon"
+      ],
+      "viewpoint": "buyer",
+      "theme": "visibility",
+      "source": "Amazon",
+      "date": "2025-03-25",
+      "title": "Amazon、興味・関心から新商品を見つけるAI機能「Interests」を発表",
+      "bullets": [
+        "自然文の条件を商品検索用の属性・クエリへ変換する。",
+        "新商品、再入荷、セールを継続監視して通知する。",
+        "素材・価格・用途を含む詳細条件に対応する。"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://assets.aboutamazon.com/e1/92/a63c88e14c54871a37ee1e3bdc34/pr-header2x.png"
+      }
+    },
+    {
+      "slug": "google-ai-mode-product-cards",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/google-ai-mode-product-cards.html",
+      "sourceUrl": "https://blog.google/products-and-platforms/products/search/ai-mode-updates-may-2025/",
+      "platforms": [
+        "google"
+      ],
+      "viewpoint": "buyer",
+      "theme": "visibility",
+      "source": "Google",
+      "date": "2025-05-01",
+      "title": "Google、AI Modeで情報と対話する新しい方法を追加",
+      "bullets": [
+        "商品カードに価格、配送、在庫、画像を表示する。",
+        "長く具体的な会話型クエリで候補を比較できる。",
+        "Shopping Graphは毎時20億件以上の商品情報を更新する。"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/20250424_AIMode_Blogpost.width-1300.png"
+      }
+    },
+    {
+      "slug": "bing-copilot-search",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/bing-copilot-search.html",
+      "sourceUrl": "https://blogs.bing.com/search/April-2025/Introducing-Copilot-Search-in-Bing",
+      "platforms": [
+        "other-ai"
+      ],
+      "viewpoint": "buyer",
+      "theme": "visibility",
+      "source": "Microsoft Bing",
+      "date": "2025-04-04",
+      "title": "Microsoft、BingでCopilot Searchを開始",
+      "bullets": [
+        "通常検索と生成AI回答を一つの探索体験として統合する。",
+        "回答には情報源と画像・動画を添え、追加探索を促す。",
+        "リンク一覧を読む前の要約回答が購買前調査にも入る。"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://blogs.bing.com/getmedia/69979d9e-3fa3-44a0-9d63-cb4d43105a94/Copilot-Search-zero-state.png"
+      }
+    },
+    {
+      "slug": "shopify-agentic-commerce-ai",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/shopify-agentic-commerce-ai.html",
+      "sourceUrl": "https://www.shopify.com/news/ai-commerce-at-scale",
+      "platforms": [
+        "chatgpt",
+        "google",
+        "other-ai"
+      ],
+      "viewpoint": "seller",
+      "theme": "visibility",
+      "source": "Shopify",
+      "date": "2026-01-11",
+      "title": "Shopify、あらゆる加盟店をAI会話につなぐ「エージェント型コマース」基盤を発表",
+      "bullets": [
+        "ShopifyはAgentic Storefrontsを通じ、商品データをChatGPT、Google AI Mode、Gemini、Microsoft Copilotへ横断的に提供する方針を発表した。",
+        "Shopify Catalogでは商品情報をLLMで分類・補完・標準化し、会話型の探索で該当商品を出しやすくする。",
+        "店舗システムを変えずに、AI会話内の発見・比較・購入導線へ商品を載せる基盤が広がっている。"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://cdn.shopify.com/b/shopify-brochure2-assets/1189c5a5efd6037a9a3cd617c202ccf1.png"
+      }
+    },
+    {
+      "slug": "amazon-lens-live",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/amazon-lens-live.html",
+      "sourceUrl": "https://www.aboutamazon.com/news/retail/search-image-amazon-lens-live-shopping-rufus",
+      "platforms": [
+        "amazon"
+      ],
+      "viewpoint": "buyer",
+      "theme": "visibility",
+      "source": "Amazon",
+      "date": "2025-09-02",
+      "title": "Amazon、カメラで商品を即時検索する「Lens Live」を紹介",
+      "bullets": [
+        "カメラで見た商品に近いAmazon商品を即時表示する。",
+        "AIアシスタントが閲覧中の商品の質問・要約を支援する。",
+        "商品発見がテキスト検索から画像入力へ広がる。"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://assets.aboutamazon.com/d1/5c/837df41d4b4cb8266f1da4c57152/a-hero-2000-x-1129.jpg"
+      }
+    },
+    {
+      "slug": "google-ai-mode-visual-search",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/google-ai-mode-visual-search.html",
+      "sourceUrl": "https://blog.google/products-and-platforms/products/search/search-ai-updates-september-2025/",
+      "platforms": [
+        "google"
+      ],
+      "viewpoint": "buyer",
+      "theme": "visibility",
+      "source": "Google",
+      "date": "2025-09-30",
+      "title": "Google、AI Modeで視覚的に検索・探索できる機能を追加",
+      "bullets": [
+        "曖昧な「雰囲気」の商品探索を会話と画像で行えるようにした。",
+        "AI Modeは画像アップロードと追質問で候補を絞り込む。",
+        "Shopping Graphの商品情報を使い購入先へ遷移させる。"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_mode_shopping_ss.width-1300.png"
+      }
+    },
+    {
+      "slug": "rakuten-discovery-recommendation",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/rakuten-discovery-recommendation.html",
+      "sourceUrl": "https://corp.rakuten.co.jp/news/press/2025/1120_02.html",
+      "platforms": [
+        "rakuten"
+      ],
+      "viewpoint": "buyer",
+      "theme": "visibility",
+      "source": "楽天グループ株式会社",
+      "date": "2025-11-20",
+      "title": "「楽天市場」、AI活用により新たな商品との出会いを創出する新機能「ディスカバリーレコメンデーション」の本格提供を開始",
+      "bullets": [
+        "購買・閲覧・お気に入り履歴から個人ごとに商品を選ぶ。",
+        "商品画像、動画、商品ページ、特集記事も推薦対象になる。",
+        "「探す」タブで約5億点から発見を促す。"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://corp.rakuten.co.jp/news/assets/img/press/2025_press_jp/1120_02/%E3%83%87%E3%82%A3%E3%82%B9%E3%82%AB%E3%83%90%E3%83%AA%E3%83%BC%E3%83%AC%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%87%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3_Gallery.png"
+      }
+    },
+    {
+      "slug": "rakuten-ai-concierge-app",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/rakuten-ai-concierge-app.html",
+      "sourceUrl": "https://corp.rakuten.co.jp/news/press/2026/0105_02.html",
+      "platforms": [
+        "rakuten"
+      ],
+      "viewpoint": "buyer",
+      "theme": "visibility",
+      "source": "楽天グループ株式会社",
+      "date": "2026-01-05",
+      "title": "楽天、エージェント型AIツール「Rakuten AI」を「楽天市場」アプリに搭載",
+      "bullets": [
+        "楽天市場アプリに対話型のAIコンシェルジュを搭載した。",
+        "予算・用途・画像・音声から約5億点を横断して商品を提案する。",
+        "商品情報以外に自然検索・トレンドも提案へ反映する。"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://corp.rakuten.co.jp/news/assets/img/press/2026_press_jp/0105_02/Main_pic_260105.png"
+      }
+    },
+    {
       "slug": "google-search-console-ai-controls",
       "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/google-search-console-ai-controls.html",
       "sourceUrl": "https://blog.google/products-and-platforms/products/search/new-controls-website-owners/",
-      "platforms": ["google"],
+      "platforms": [
+        "google"
+      ],
       "viewpoint": "seller",
       "theme": "measurement",
       "source": "Google公式ブログ",
@@ -26,7 +698,9 @@
       "slug": "google-ai-overviews-expand",
       "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/google-ai-overviews-expand.html",
       "sourceUrl": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
-      "platforms": ["google"],
+      "platforms": [
+        "google"
+      ],
       "viewpoint": "buyer",
       "theme": "visibility",
       "source": "Google公式ブログ",
@@ -46,7 +720,9 @@
       "slug": "search-engine-land-ai-overviews",
       "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/search-engine-land-ai-overviews.html",
       "sourceUrl": "https://searchengineland.com/google-is-dynamically-expanding-ai-overviews-for-some-queries-486200",
-      "platforms": ["google"],
+      "platforms": [
+        "google"
+      ],
       "viewpoint": "buyer",
       "theme": "visibility",
       "source": "Search Engine Land",
@@ -66,7 +742,9 @@
       "slug": "rakuten-ai-compare",
       "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/rakuten-ai-compare.html",
       "sourceUrl": "https://www.nikkei.com/article/DGXZQOUC077660X00C26A7000000/",
-      "platforms": ["rakuten"],
+      "platforms": [
+        "rakuten"
+      ],
       "viewpoint": "buyer",
       "theme": "visibility",
       "source": "日本経済新聞",
@@ -86,7 +764,9 @@
       "slug": "yahoo-ai-shopping-memo",
       "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/yahoo-ai-shopping-memo.html",
       "sourceUrl": "https://www.lycorp.co.jp/ja/news/release/020144/",
-      "platforms": ["yahoo"],
+      "platforms": [
+        "yahoo"
+      ],
       "viewpoint": "buyer",
       "theme": "visibility",
       "source": "LINEヤフー公式",
@@ -106,7 +786,9 @@
       "slug": "cnbc-openai-shopping-shift",
       "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/cnbc-openai-shopping-shift.html",
       "sourceUrl": "https://www.cnbc.com/2026/03/24/openai-revamps-shopping-experience-in-chatgpt-after-instant-checkout.html",
-      "platforms": ["chatgpt"],
+      "platforms": [
+        "chatgpt"
+      ],
       "viewpoint": "buyer",
       "theme": "visibility",
       "source": "CNBC",

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script>if ('scrollRestoration' in history) { history.scrollRestoration = 'manual'; }</script>
+<title>Google、AIで理想の服を見つけ、メイクを試せる新機能を発表｜AIタッガー ツールセンター</title>
+<style>
+  :root{
+    --blue:#2563EB;
+    --blue-dark:#1E3A8A;
+    --blue-wash:#EFF6FF;
+    --ink:#0F172A;
+    --ink-mid:#475569;
+    --ink-soft:#64748B;
+    --line:#E2E8F0;
+    --tint:#F8FAFC;
+    --c-visibility:#2563EB;
+    --c-optimization:#7C3AED;
+    --c-measurement:#DC2626;
+    --maxw:760px;
+    --jp:"Noto Sans JP","Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,system-ui,sans-serif;
+  }
+  *{box-sizing:border-box}
+  [hidden]{display:none!important}
+  body{margin:0;background:#fff;color:var(--ink);font-family:var(--jp);
+       font-size:16px;line-height:1.8;-webkit-font-smoothing:antialiased}
+  a{color:inherit}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding-inline:24px}
+
+  header{border-bottom:1px solid var(--line);background:#fff;position:sticky;top:0;z-index:20}
+  .hbar{display:flex;align-items:center;gap:28px;height:68px;max-width:1120px;margin:0 auto;padding-inline:24px}
+  .logo{display:flex;align-items:center;gap:10px;font-weight:700;font-size:17px;
+        text-decoration:none;flex:none}
+  .logo .mark{background:var(--blue);color:#fff;font-weight:800;font-size:13px;
+        padding:5px 7px;border-radius:5px;letter-spacing:.04em}
+  .logo .sub{color:var(--ink-soft);font-weight:500;font-size:13px;
+        border-left:1px solid var(--line);padding-left:10px;margin-left:2px}
+  nav{margin-left:auto;display:flex;gap:26px;align-items:center}
+  nav a{font-size:14px;font-weight:500;color:var(--ink-mid);text-decoration:none;
+        padding:6px 0;border-bottom:2px solid transparent}
+  nav a:hover{color:var(--blue);border-bottom-color:var(--blue)}
+
+  .crumb{font-size:12.5px;color:var(--ink-soft);padding:16px 0 0}
+  .crumb a{text-decoration:none}
+  .crumb a:hover{color:var(--blue)}
+  .crumb span{margin:0 7px;color:#CBD5E1}
+
+  .thumb{position:relative;display:block;width:100%;padding-top:56.25%;
+         overflow:hidden;background:var(--tint);border-radius:12px;
+         margin:20px 0;transition:opacity .15s}
+  .thumb:hover{opacity:.88}
+  .thumb svg,.thumb img{position:absolute;inset:0;width:100%;height:100%;
+         display:block;object-fit:cover}
+
+  .meta{display:flex;gap:8px;align-items:center;margin:0 0 12px;flex-wrap:wrap}
+  .cat{font-size:11px;font-weight:700;padding:3px 9px;border-radius:999px;color:#fff}
+  .platform{font-size:11px;font-weight:700;color:var(--ink-soft)}
+  .cat.theme-visibility{background:var(--c-visibility)}
+  .cat.theme-optimization{background:var(--c-optimization)}
+  .cat.theme-measurement{background:var(--c-measurement)}
+  .src,.date,.lang{font-size:12.5px;color:var(--ink-soft)}
+  .lang{font-weight:700;padding:2px 7px;border-radius:4px;background:var(--tint)}
+
+  h1{font-size:26px;margin:0 0 8px;line-height:1.5;color:var(--blue-dark)}
+  .orig{font-size:13px;color:var(--ink-soft);margin:0 0 28px}
+
+  h2{font-size:15px;letter-spacing:.04em;color:var(--ink-soft);font-weight:700;margin:0 0 12px}
+  .background{font-size:15px;color:var(--ink-mid);line-height:1.85;margin:0 0 28px}
+  .points{margin:0 0 28px;padding:0;list-style:none}
+  .points li{font-size:15.5px;line-height:1.8;color:var(--ink);
+        padding-left:18px;position:relative;margin-bottom:10px}
+  .points li::before{content:"";position:absolute;left:0;top:.75em;
+        width:5px;height:5px;border-radius:50%;background:var(--blue)}
+
+  .why{background:var(--blue-wash);border-radius:12px;padding:20px 22px;margin-bottom:28px}
+  .why h2{color:var(--blue-dark);margin-bottom:8px}
+  .why p{font-size:15px;color:var(--ink);margin:0;line-height:1.8}
+
+  .source-link{display:inline-flex;align-items:center;gap:6px;font-size:14.5px;
+        font-weight:600;color:var(--blue);text-decoration:none;margin-bottom:48px}
+  .source-link:hover{text-decoration:underline}
+
+  .related{border-top:1px solid var(--line);padding:32px 0 60px}
+  .related h2{color:var(--ink);margin-bottom:16px}
+  .related a{display:block;font-size:14.5px;color:var(--blue);text-decoration:none;margin-bottom:8px}
+  .related a:hover{text-decoration:underline}
+
+  footer{border-top:1px solid var(--line);padding:34px 0;font-size:13px;color:var(--ink-soft)}
+  .frow{display:flex;gap:24px;align-items:center;flex-wrap:wrap;max-width:1120px;margin:0 auto;padding-inline:24px}
+
+  @media(max-width:560px){
+    h1{font-size:21px}
+    nav{display:none}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="hbar">
+    <a class="logo" href="../index.html"><span class="mark">AI</span>タッガー<span class="sub">ツールセンター</span></a>
+    <nav>
+      <a href="../index.html#tools">ツール</a>
+      <a href="../index.html#reads">AI検索を知る</a>
+      <a href="../index.html#support">困ったときは</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap">
+  <p class="crumb"><a href="../index.html">トップ</a><span>›</span><a href="../index.html#reads">AI検索を知る</a><span>›</span>この記事</p>
+
+  <a class="thumb" href="https://blog.google/products-and-platforms/products/shopping/ai-vision-match-ar-beauty-virtual-try-on/" target="_blank" rel="noopener"><img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/HERO_PT_100_customers.width-1600.format-webp.width-1300.png" alt="" loading="lazy"></a>
+
+  <div class="meta">
+    <span class="cat theme-visibility">検索結果・購買導線の変化</span>
+    <span class="platform">Google</span>
+    <span class="src">Google</span>
+    <span class="date">2025/03/05</span>
+    <span class="lang">英語記事</span>
+  </div>
+  <h1>Google、AIで理想の服を見つけ、メイクを試せる新機能を発表</h1>
+  <p class="orig">原題: Use AI to find exactly the right clothes, try on makeup and more</p>
+
+  <h2>何が語られているか</h2>
+  <ul class="points">
+    <li>Google Shoppingで、言葉で説明した服のイメージから近い商品を探す「vision match」を提供する。</li>
+    <li>Geminiを使ったメイクのバーチャル試着と、衣服の試着対象拡大を発表した。</li>
+    <li>商品発見の入口が商品名・絞り込み条件だけでなく、意図と画像表現へ広がることを示す。</li>
+  </ul>
+
+  <div class="why">
+    <h2>AIタッガーユーザーへの意味</h2>
+    <p>商品名だけでは表現しにくい用途・色・スタイルでも見つかるよう、画像と属性情報を矛盾なく整備する必要があることを意味する。試着・比較に耐える画像品質も評価対象になる。</p>
+  </div>
+
+  <a class="source-link" href="https://blog.google/products-and-platforms/products/shopping/ai-vision-match-ar-beauty-virtual-try-on/" target="_blank" rel="noopener">元記事を読む（Google）↗</a>
+
+  <div class="related">
+    <h2>関連記事</h2>
+    <a href="google-ai-mode-visual-search.html">Google、AI Modeで視覚的に検索・探索できる機能を追加</a>
+    <a href="google-multimodal-search-ai-mode.html">Google、AI Modeにマルチモーダル検索を追加</a>
+  </div>
+</div>
+
+<footer>
+  <div class="frow">
+    <span>© 2026 LISUTO</span>
+    <span style="margin-left:auto">AIタッガーをご契約のお客様向けページです</span>
+  </div>
+</footer>
+
+<script>
+window.scrollTo(0,0);
+window.addEventListener('load', function(){ window.scrollTo(0,0); });
+</script>
+</body>
+</html>
