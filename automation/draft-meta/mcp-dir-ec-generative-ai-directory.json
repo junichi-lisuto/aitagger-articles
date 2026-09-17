@@ -1,0 +1,22 @@
+{
+  "slug": "mcp-dir-ec-generative-ai-directory",
+  "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/mcp-dir-ec-generative-ai-directory.html",
+  "sourceUrl": "https://netshop.impress.co.jp/n/2026/09/16/16740",
+  "platforms": [
+    "other-ai"
+  ],
+  "viewpoint": "seller",
+  "theme": "optimization",
+  "source": "ネットショップ担当者フォーラム",
+  "date": "2026-09-16",
+  "title": "生成AIとEC業務データをつなぐ案内所「mcp-dir」登場、50件のMCPサーバーを業務目的別に検索可能に",
+  "bullets": [
+    "生成AIとEC業務データの接続先を業務目的で検索できる案内所が公開",
+    "6カテゴリ・50件を掲載、34件は公式MCPサーバー対応",
+    "CSV貼り付けなど手作業を省き、生成AI活用の障壁を下げる"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "url": "https://netshop.impress.co.jp/sites/default/files/styles/1200x630/public/images/news/2026/news-node16740-ogp.png?itok=PHEZ2KB5"
+  }
+}

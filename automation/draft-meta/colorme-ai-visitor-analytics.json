@@ -1,0 +1,22 @@
+{
+  "slug": "colorme-ai-visitor-analytics",
+  "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/colorme-ai-visitor-analytics.html",
+  "sourceUrl": "https://shop-pro.jp/news/20260824-ai-analytics",
+  "platforms": [
+    "other-ai"
+  ],
+  "viewpoint": "seller",
+  "theme": "measurement",
+  "source": "カラーミーショップ",
+  "date": "2026-08-24",
+  "title": "カラーミーショップ、AI経由の流入を可視化する「カラーミーAI集客アナリティクス」提供開始",
+  "bullets": [
+    "カラーミー、AI経由の流入を可視化する無料アプリを提供開始",
+    "AI経由セッション数は前年同期比で約6倍に増加と判明",
+    "llms.txt自動生成でAIに店舗情報を正確に届ける機能も搭載"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "url": "https://static-www-front.shop-pro.jp/_astro/eyecatch.DWB-4dGB_Z1r2vXs.png"
+  }
+}

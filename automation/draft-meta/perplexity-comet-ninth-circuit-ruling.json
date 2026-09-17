@@ -1,0 +1,23 @@
+{
+  "slug": "perplexity-comet-ninth-circuit-ruling",
+  "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/perplexity-comet-ninth-circuit-ruling.html",
+  "sourceUrl": "https://ppc.land/ninth-circuit-frees-perplexitys-shopping-agent-from-amazons-hacking-claim/",
+  "platforms": [
+    "other-ai",
+    "amazon"
+  ],
+  "viewpoint": "buyer",
+  "theme": "visibility",
+  "source": "PPC Land",
+  "date": "2026-09-14",
+  "title": "米控訴裁、Amazonの差止命令を取り消し。PerplexityのAI購入代行エージェントは「利用者本人のアクセス」と判断",
+  "bullets": [
+    "米控訴裁、Perplexityの購入代行AIへのAmazon差止命令を取消",
+    "「AIのアクセスも利用者本人によるもの」と技術的に認定",
+    "AmazonはCFAA等を根拠にAIエージェントを止める手段を喪失"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "url": "https://ppc.land/content/images/2026/09/Ninth-Circuit-frees-Perplexity-s-shopping-agent-from-Amazon-s-hacking-claim.jpg"
+  }
+}

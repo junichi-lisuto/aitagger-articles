@@ -1,0 +1,267 @@
+[
+  {
+    "slug": "mcp-dir-ec-generative-ai-directory",
+    "title": "生成AIとEC業務データをつなぐ案内所「mcp-dir」登場、50件のMCPサーバーを業務目的別に検索可能に",
+    "sourceUrl": "https://netshop.impress.co.jp/n/2026/09/16/16740",
+    "source": "ネットショップ担当者フォーラム",
+    "date": "2026-09-16",
+    "dateDisplay": "2026年9月16日",
+    "platforms": ["other-ai"],
+    "viewpoint": "seller",
+    "theme": "optimization",
+    "background": "ChatGPTやClaudeなどの生成AIに自社のEC業務データをつないで使うには、MCP(Model Context Protocol)サーバーという技術的な接続口が必要になるが、どのサービスがMCPサーバーを提供しているのか一覧できる場所がこれまで存在しなかった。HALDATAは2026年9月、業務目的から検索できるディレクトリサイト「mcp-dir(エムシーピー・ディレクトリ)」を公開した。",
+    "bullets": [
+      "公開時点で「売上・データ基盤」「Web解析」「EC・受注・在庫」「顧客の声・レビュー」「会計・基幹」「CRM・営業」の6カテゴリ、計50件のサービスを掲載",
+      "うち34件は公式にMCPサーバーを提供しているサービス",
+      "「売上が落ちた理由を調べたい」など業務上の言葉で検索すると、生成AIに接続できるデータ基盤の候補が見つかる設計",
+      "従来はCSVをダウンロードして生成AIに貼り付けるといった手作業が必要だったが、MCP接続によりその手間を省ける"
+    ],
+    "cardBullets": [
+      "生成AIとEC業務データの接続先を業務目的で検索できる案内所が公開",
+      "6カテゴリ・50件を掲載、34件は公式MCPサーバー対応",
+      "CSV貼り付けなど手作業を省き、生成AI活用の障壁を下げる"
+    ],
+    "meaning": "AIタッガーのようなタグ付けの仕組みも、結局は「どのデータを、どうAIにつなぐか」という設計次第で効果が変わる。mcp-dirのようなディレクトリが整うほど、生成AIに商品データや接客ログをつなぐハードルは下がっていく。EC担当者にとっては、個々のAIツールを比較する前に、まず自社のどの業務データを生成AIにつなぐ価値があるかを棚卸しすることが、これからの投資判断の起点になる。",
+    "thumbnail": "https://netshop.impress.co.jp/sites/default/files/styles/1200x630/public/images/news/2026/news-node16740-ogp.png?itok=PHEZ2KB5"
+  },
+  {
+    "slug": "anylive-ai-avatar-analytics-update",
+    "title": "AIライブコマース「AnyLive」、既存動画からのAIアバター生成と配信分析機能を強化",
+    "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000678.000018392.html",
+    "source": "AnyMind Group株式会社",
+    "date": "2026-09-15",
+    "dateDisplay": "2026年9月15日",
+    "platforms": ["other-ai"],
+    "viewpoint": "seller",
+    "theme": "optimization",
+    "background": "電通デジタルの調査によれば、ライブコマースの利用経験率は2024年の1.6%から2025年には6.0%へと拡大している。この市場の伸びを受け、多言語対応のAIライブコマースプラットフォームを提供するAnyMind Groupは2026年9月15日、「AnyLive」のAIアバター生成機能と配信分析機能を強化したと発表した。",
+    "bullets": [
+      "既存の動画素材からAIアバターを生成できる機能を新たに追加(従来は素材の新規撮影が前提だった)",
+      "身体の動き・表情・リップシンクの精度を改善し、ブランドキャラクターをもとにしたアバター生成にも対応",
+      "配信プラットフォーム間の比較、コンバージョンファネル分析、配信パフォーマンスの診断をAIが自動化",
+      "人間の配信者とAIアバター配信、双方のデータを横断し、AIが改善提案まで行う分析レイヤーを追加"
+    ],
+    "cardBullets": [
+      "AIライブコマース「AnyLive」がアバター生成・分析機能を強化",
+      "既存動画からAIアバターを生成可能に、精度も改善",
+      "人間・AI双方の配信データを比較しAIが改善提案する分析機能追加"
+    ],
+    "meaning": "ライブコマースの利用経験率が1年で4倍近くに伸びているという事実は、EC店舗にとって「動画で商品を語る」チャネルの重要度が上がっていることを示す。AIアバターが既存動画から作れるようになったことで、撮影コストという参入障壁が下がった一方、成果を左右するのは結局「どのタイミングで人が話し、どのタイミングでAIに任せるか」という運用設計であることが、今回の分析機能の重視ぶりからも読み取れる。",
+    "thumbnail": "https://prcdn.freetls.fastly.net/release_image/18392/678/18392-678-0de32b7a2dd27d99750233771fcb247f-1200x675.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+  },
+  {
+    "slug": "rakuten-music-ai-agent-search",
+    "title": "楽天、「Rakuten Music」にエージェント型AI搭載。対話形式で楽曲・プレイリストを検索可能に",
+    "sourceUrl": "https://ai.watch.impress.co.jp/docs/news/2141472.html",
+    "source": "AI Watch",
+    "date": "2026-09-16",
+    "dateDisplay": "2026年9月16日",
+    "platforms": ["rakuten"],
+    "viewpoint": "buyer",
+    "theme": "visibility",
+    "background": "楽天グループは音楽聴き放題サービス「Rakuten Music」のスマートフォンアプリに、エージェント型AIツール「Rakuten AI for Music」を搭載したと2026年9月16日に発表した。楽天市場のAIコンシェルジュに続き、グループ内の別サービスでも対話型のAI検索を実装する動きとなる。",
+    "bullets": [
+      "ホーム画面の「AIに聞いてみる」欄または専用タブから、「○○の曲を探したい」といった自然言語で楽曲・アーティスト・アルバム・プレイリストを検索可能",
+      "ユーザーの気分や興味に合わせた提案に加え、音楽ランキングやトレンド情報も反映する",
+      "検索結果から楽曲やプレイリストへシームレスに遷移して再生できる",
+      "対象はRakuten Musicの有料プラン利用者。Android版は一部ユーザーから順次配信を開始し、今後は利用パターンを学習してパーソナライズの精度を高める方針"
+    ],
+    "cardBullets": [
+      "楽天、音楽アプリに対話型AI検索「Rakuten AI for Music」搭載",
+      "自然言語で楽曲・アーティストを検索、気分に合わせて提案",
+      "有料プラン対象にAndroid版から順次展開、精度向上を今後強化"
+    ],
+    "meaning": "キーワード検索から「相談して探す」検索への移行は、EC商品検索に限った話ではなく、楽天グループ全体の設計思想になりつつある。音楽のような嗜好性の強い領域でエージェント型AIが先に実装される事実は、商品についても「スペックの一致」ではなく「好みや気分との一致」を軸にした検索体験が標準になっていく方向性を示している。タグ付けの粒度も、検索キーワードの一致だけでなく、こうした感性的な軸への対応が今後の差別化点になる。",
+    "thumbnail": "https://ai.watch.impress.co.jp/img/aiw/list/2141/472/0400.jpg"
+  },
+  {
+    "slug": "colorme-ai-visitor-analytics",
+    "title": "カラーミーショップ、AI経由の流入を可視化する「カラーミーAI集客アナリティクス」提供開始",
+    "sourceUrl": "https://shop-pro.jp/news/20260824-ai-analytics",
+    "source": "カラーミーショップ",
+    "date": "2026-08-24",
+    "dateDisplay": "2026年8月24日",
+    "platforms": ["other-ai"],
+    "viewpoint": "seller",
+    "theme": "measurement",
+    "background": "ChatGPTやGeminiなどの生成AI経由でECサイトへ訪れる顧客が増える一方、店舗オーナーが自分のショップへのAI経由アクセスをどれだけ把握できているかは従来の解析ツールでは見えにくかった。カラーミーショップは2026年8月24日、AIサービス経由の集客状況を可視化する無料アプリ「カラーミーAI集客アナリティクス」の提供を開始した。",
+    "bullets": [
+      "2025年と2026年のそれぞれ2〜3月のセッション数を比較すると、AI経由の流入は約6倍に増加",
+      "セッション数・購入数・購入率を、AI経由とその他のチャネルとで比較できるレポート機能を提供",
+      "店舗情報を自動でllms.txt形式のファイルに生成し、AIに正確な店舗情報を届けやすくする機能も搭載",
+      "対象はレギュラー・ラージ・プラチナ・プレミアムの各プラン。料金は無料"
+    ],
+    "cardBullets": [
+      "カラーミー、AI経由の流入を可視化する無料アプリを提供開始",
+      "AI経由セッション数は前年同期比で約6倍に増加と判明",
+      "llms.txt自動生成でAIに店舗情報を正確に届ける機能も搭載"
+    ],
+    "meaning": "AI経由の流入が1年で6倍という数字は、多くの店舗にとって「気づかないうちに新しい集客チャネルが育っていた」ことを意味する。重要なのは、この流入を可視化して初めて、商品ページやタグの整備がAI経由の売上にどう効いているかを検証できるようになる点だ。計測の仕組みがないままAI検索対策を語っても、効果測定ができず改善のサイクルが回らない。まず「見える化」してから対策の優先順位を決める、という順番の大切さを示す事例と言える。",
+    "thumbnail": "https://static-www-front.shop-pro.jp/_astro/eyecatch.DWB-4dGB_Z1r2vXs.png"
+  },
+  {
+    "slug": "amazon-ads-inside-chatgpt-pilot",
+    "title": "Amazon、自社広告主向けにChatGPT内への広告出稿を開始。DSPから会話型広告へ拡張",
+    "origTitle": "Amazon starts selling ads inside ChatGPT to its own advertisers",
+    "sourceUrl": "https://ppc.land/amazon-starts-selling-ads-inside-chatgpt-to-its-own-advertisers/",
+    "source": "PPC Land",
+    "date": "2026-09-10",
+    "dateDisplay": "2026年9月10日",
+    "platforms": ["amazon", "chatgpt"],
+    "viewpoint": "seller",
+    "theme": "visibility",
+    "background": "ChatGPTの広告事業は2026年9月初旬に年換算10億ドルの売上規模に達し、急成長を続けている。こうした中、Amazonは自社が運営しないプラットフォームへ広告枠を仲介するという新しい役割に踏み出し、Amazon DSP(広告配信プラットフォーム)の広告主が、そのままChatGPT内にも広告を出稿できるパイロットプログラムを米国で開始したと2026年9月10日に報じられた。",
+    "bullets": [
+      "Amazon DSPの広告在庫として年換算700億ドル規模の広告事業を持つAmazonが、自社の管理下にないChatGPT上への広告出稿を仲介する初の事例",
+      "ChatGPTの広告事業は2026年9月初旬に年換算10億ドルの売上規模を突破",
+      "ChatGPTのモバイル広告密度は2026年4月から8月にかけて163%増加",
+      "Delta Vacationsが新フォーマットをテストする最初の広告主として名前が挙がっている",
+      "会話内でのインプレッションをAmazonの他の広告枠とどう重複排除し、購入にどう結びつけて計測するかという計測基盤の詳細は発表に含まれておらず、広告主にとっては効果測定の空白域が残る"
+    ],
+    "cardBullets": [
+      "Amazon、自社広告主向けにChatGPT内広告への出稿を開始",
+      "ChatGPT広告事業は年換算10億ドル規模に急成長中",
+      "会話内広告の計測方法は未整備、効果測定に課題残る"
+    ],
+    "meaning": "検索広告の主戦場がGoogleからChatGPTへと広がりつつあることを象徴する動きだが、同時に「広告は出せても、成果をどう測るか」という計測基盤が追いついていない実態も浮き彫りになった。EC事業者にとっても、AI検索経由の流入や広告効果をどう計測するかは、出稿先を増やす以上に優先度の高い課題になりつつある。露出先を広げる前に、まず自社側の計測体制を整えておくことが、こうした新しい広告チャネルを活かす前提条件になる。",
+    "thumbnail": "https://ppc.land/content/images/2026/09/Amazon-starts-selling-ads-inside-ChatGPT-to-its-own-advertisers.jpg"
+  },
+  {
+    "slug": "openai-chatgpt-ads-hubspot-shopify",
+    "title": "OpenAI、HubSpotとShopifyからChatGPT広告を運用可能に。広告事業は200日未満で年換算10億ドル到達",
+    "origTitle": "OpenAI lets advertisers run ChatGPT ads from HubSpot and Shopify",
+    "sourceUrl": "https://ppc.land/openai-lets-advertisers-run-chatgpt-ads-from-hubspot-and-shopify/",
+    "source": "PPC Land",
+    "date": "2026-09-16",
+    "dateDisplay": "2026年9月16日",
+    "platforms": ["chatgpt"],
+    "viewpoint": "seller",
+    "theme": "optimization",
+    "background": "OpenAIは2026年9月16日、ChatGPT内の広告機能をCRMやECプラットフォームと直接連携させる拡張を発表した。ChatGPT Adsは開始から200日足らずで年換算10億ドルの売上規模に到達しており、広告主管理ツールの整備を急いでいる段階にある。",
+    "bullets": [
+      "HubSpotが初のCRM連携パートナーとなり、HubSpotの画面を離れずにChatGPT Adsアカウントの接続・広告作成・成果確認・リード対応まで完結できるように",
+      "Shopifyアプリストアで無料の「ChatGPT Ads」アプリが2026年9月3日に公開され、加盟店はキャンペーン管理と商品在庫の同期が可能に。国際展開は9月23日開始予定",
+      "広告事業は開始から6週間で年換算1億ドル、200日足らずで年換算10億ドルの売上規模に到達",
+      "Free・Goプランのユーザーに表示されるChatGPTの回答のうち、約26%がスポンサー付き表示を含む",
+      "ランディングページから広告文・画像案をAIが提案する機能や、会話の文脈に応じて見出しを自動翻訳する機能、7日・14日・30日から選べるアトリビューション期間の設定などを追加",
+      "広告配信は41以上の市場で提供。米国限定で、広告クリックが企業専用のAIエージェントとの会話に遷移する「スポンサードエージェント」のテストも開始"
+    ],
+    "cardBullets": [
+      "OpenAI、ChatGPT広告をHubSpot・Shopifyから直接運用可能に",
+      "ChatGPT広告事業、200日足らずで年換算10億ドル規模に到達",
+      "無料・Goプラン表示の約26%がスポンサー付き、米国では新広告形式も試験"
+    ],
+    "meaning": "ChatGPT広告がShopifyの管理画面から直結できるようになったことで、EC事業者にとってAI検索対策と広告運用の境界がさらに曖昧になった。Free・Goユーザーへの表示の4分の1超にすでに広告が入っているという数字は、無料で使えていたはずのAI検索空間が急速に「広告枠」としても機能し始めていることを意味する。商品データやタグの整備は、もはや自然検索対策だけでなく、広告の精度を左右する土台にもなっていく。",
+    "thumbnail": "https://ppc.land/content/images/2026/09/OpenAI-lets-advertisers-run-ChatGPT-ads-from-HubSpot-and-Shopify.jpg"
+  },
+  {
+    "slug": "perplexity-comet-ninth-circuit-ruling",
+    "title": "米控訴裁、Amazonの差止命令を取り消し。PerplexityのAI購入代行エージェントは「利用者本人のアクセス」と判断",
+    "origTitle": "Ninth Circuit frees Perplexity's shopping agent from Amazon's hacking claim",
+    "sourceUrl": "https://ppc.land/ninth-circuit-frees-perplexitys-shopping-agent-from-amazons-hacking-claim/",
+    "source": "PPC Land",
+    "date": "2026-09-14",
+    "dateDisplay": "2026年9月14日",
+    "platforms": ["other-ai", "amazon"],
+    "viewpoint": "buyer",
+    "theme": "visibility",
+    "background": "AmazonはPerplexityのAI購入代行エージェント「Comet」が同社サイトに不正アクセスしているとして、2026年3月に連邦地裁で差止命令を勝ち取っていた。この判断が第9巡回区控訴裁判所で覆り、AIエージェント経由の購入代行が法的にどう扱われるかを占う重要な判断が2026年9月14日までに示された(意見自体は8月4日付)。",
+    "bullets": [
+      "控訴裁は、Perplexityの「Comet」がAmazonにアクセスする際の通信は「利用者のマシンから送られてくる」と技術的に認定",
+      "Cometはユーザーのブラウザのスクリーンショットを撮り、Perplexityのサーバーへ送って操作指示を受け取る仕組みで、Amazonのシステムに直接接続しているのはPerplexityではなくユーザー自身と判断",
+      "コンピュータ詐欺・不正利用防止法(CFAA)およびカリフォルニア州のコンピュータ不正アクセス関連法について、「アクセス」の主体は人間の利用者であるとして、Amazonの主張を退けた",
+      "1審のMaxine M. Chesney判事による差止命令(2026年3月9日発令)は取り消され、Amazonは連邦のコンピュータ犯罪法を根拠にPerplexityを止める手段を失った。ただし契約上の救済手段は別途残る"
+    ],
+    "cardBullets": [
+      "米控訴裁、Perplexityの購入代行AIへのAmazon差止命令を取消",
+      "「AIのアクセスも利用者本人によるもの」と技術的に認定",
+      "AmazonはCFAA等を根拠にAIエージェントを止める手段を喪失"
+    ],
+    "meaning": "AIエージェントが人に代わってECサイトを操作する行為を、法律が「誰のアクセスか」で線引きしようとした最初期の判断のひとつだ。今回はエージェント側に有利な結果となったが、裏を返せば、ECサイト側が利用規約や技術的な制御でAIエージェントの挙動をコントロールする余地は限定的だということでもある。自社サイトに来るのが人間かAIエージェントかを区別できない前提で、商品情報やタグをどちらにも正しく伝わる形で整備しておく重要性が増している。",
+    "thumbnail": "https://ppc.land/content/images/2026/09/Ninth-Circuit-frees-Perplexity-s-shopping-agent-from-Amazon-s-hacking-claim.jpg"
+  },
+  {
+    "slug": "chatgpt-shopping-product-feeds-shift",
+    "title": "ChatGPTの商品推薦、7月の更新で商品フィード依存へ急転換。露出は上位ストアに集中",
+    "origTitle": "ChatGPT Shopping Results Lean Hard On Product Feeds",
+    "sourceUrl": "https://www.searchenginejournal.com/chatgpt-shopping-results-lean-hard-on-product-feeds/589000/",
+    "source": "Search Engine Journal",
+    "date": "2026-09-09",
+    "dateDisplay": "2026年9月9日",
+    "platforms": ["chatgpt"],
+    "viewpoint": "seller",
+    "theme": "optimization",
+    "background": "ChatGPTがGPT-5.6を公開した2026年7月9日を境に、商品推薦の情報源が「Web検索」中心から「商品フィード」中心へと24時間程度で急速に切り替わったことが、追跡データの分析で明らかになった。OpenAI自身はこの変更をリリースノートで明言しておらず、影響を受けた事業者側が事後的に気づく形となった。",
+    "bullets": [
+      "フィード連携による商品推薦の比率は、7月10日を境に8.26%から61.54%へ急上昇",
+      "2026年9月3日時点では、追跡対象の商品推薦のうち約65%がフィード経由",
+      "調査対象687事業者のうち450事業者が、7月7〜9日と7月10〜12日の比較でショッピング露出が3分の1以上減少",
+      "同様の幅で露出が増加したのは67事業者にとどまる",
+      "統計モデルでは、Web検索経由の露出減少とフィード経由の露出増加が、影響を受けた事業者間の露出変動の83%を説明",
+      "フィード経由の推薦は参照される店舗の幅が狭く、上位10店舗への言及割合は22.5%から41.8%に上昇",
+      "ShopifyとEtsyの出品者はすでにカタログ連携済みだが、それ以外の事業者は直接のフィード連携に順番待ちの状態"
+    ],
+    "cardBullets": [
+      "ChatGPT商品推薦、7月の更新で商品フィード依存に急転換",
+      "推薦の65%がフィード経由に、露出は上位10店舗に集中",
+      "450事業者で露出3割減、フィード未連携は順番待ちの状態"
+    ],
+    "meaning": "この記事が示すのは、AI検索対策の「土台」がある日突然切り替わりうるという現実だ。Web上のコンテンツを丁寧に整えていた事業者ほど、フィードという別の入り口を用意していなければ露出を失うことになった。タグ付けや商品属性の整備は、単にサイト上の見え方を良くするだけでなく、こうしたフィード経由の商品データとして正しく機械可読な形で用意されているかどうかが、AI検索時代の生死を分ける分岐点になりつつある。",
+    "thumbnail": "https://cdn.searchenginejournal.com/wp-content/uploads/2026/09/chatgpt-shopping-product-feeds-featured.jpg"
+  },
+  {
+    "slug": "wikipedia-ai-overviews-traffic-study",
+    "title": "Google「AI Overviews」、英語版Wikipediaへの参照を年間12億回減らしたとの推計。ワシントン大学が分析",
+    "origTitle": "What Wikipedia Reveals About AI Overviews And Web Traffic",
+    "sourceUrl": "https://www.searchenginejournal.com/what-wikipedia-reveals-about-ai-overviews-and-web-traffic/589042/",
+    "source": "Search Engine Journal",
+    "date": "2026-09-11",
+    "dateDisplay": "2026年9月11日",
+    "platforms": ["google"],
+    "viewpoint": "buyer",
+    "theme": "measurement",
+    "background": "GoogleのAI OverviewsがWebサイトへのトラフィックにどの程度影響しているかは、Google自身がデータを開示しないこともあり長らく推測の域を出なかった。ワシントン大学の研究者らは、2024年の米国内デフォルト化前後の英語版Wikipediaのクリックストリームデータを、AI Overviewsが同時期にデフォルト表示されなかったドイツ語版・フランス語版と比較する形で分析し、ワーキングペーパーとして公開した。",
+    "bullets": [
+      "AI Overviewsの米国内デフォルト表示化により、英語版Wikipediaへの検索経由の月間参照数はドイツ語版比で約5.45%、フランス語版比で約4.82%減少したと推計",
+      "年間では約12億回、月間では約1億27万回の参照減少に相当するとの試算",
+      "広告収益に換算した場合の仮想的な損失額は、年間1,082万ドルから3,708万ドルの範囲と推計",
+      "分析対象期間は2023年12月から2024年12月のWikimediaクリックストリームデータ",
+      "Wikipedia全体のページビューは2025年10月時点で前年同月比8%減少。ボットトラフィックがページビューの約35%、帯域の約65%を占める",
+      "この論文はまだ査読を経ておらず、Googleは同指標がAI Overviews単独の影響を切り分けられるものではないと反論している"
+    ],
+    "cardBullets": [
+      "AI Overviewsが英語版Wikipedia参照を年12億回減らしたと推計",
+      "広告収益換算で年間最大3,708万ドルの損失に相当との試算",
+      "査読前の研究でGoogleは指標の妥当性に反論、論争続く"
+    ],
+    "meaning": "情報源として最も引用されやすいはずのWikipediaでさえ、AI Overviewsによる参照減少から逃れられていないという事実は、コンテンツの質や権威性だけではクリックを保証できない時代に入ったことを示す。EC事業者にとっても、AIが「答えの中で完結させてしまう」情報と、実際にサイトへ来てもらう必要がある情報を見極め、後者(価格・在庫・購入手続きなど)をAIの回答内で終わらせない設計にしておくことが、トラフィック維持の鍵になる。",
+    "thumbnail": "https://cdn.searchenginejournal.com/wp-content/uploads/2026/09/wikipedia-ai-overviews-featured.jpg"
+  },
+  {
+    "slug": "google-ucp-cart-transfer-update",
+    "title": "Google、UCP経由のチェックアウトに「カート転送」機能を追加。マーチャント自身のサイトで決済完了が可能に",
+    "origTitle": "Google UCP Update Lets Merchants Enable Cart Transfer To Site",
+    "sourceUrl": "https://www.searchenginejournal.com/google-ucp-update-lets-merchants-enable-cart-transfer-to-site/589713/",
+    "source": "Search Engine Journal",
+    "date": "2026-09-16",
+    "dateDisplay": "2026年9月16日",
+    "platforms": ["google"],
+    "viewpoint": "seller",
+    "theme": "optimization",
+    "background": "Googleは購入者がGoogle上での対話型ショッピングからそのまま決済まで完了できるUCP(Universal Commerce Protocol)の統合を進めてきたが、すべてのマーチャントが「Google上で決済完結」を望むわけではない。2026年9月16日、Googleはこのハブに「カート転送」機能を追加し、購入者をマーチャント自身のサイトへ引き継いで決済を完了できる選択肢を提供開始したと報じられた。",
+    "bullets": [
+      "UCP経由のチェックアウトを利用するマーチャントは、Google上での購入体験に加え、カートをマーチャント自身のサイトへ転送し、そこで決済を完了させる流れを選べるようになった",
+      "完全な商品フィード設定を省略できる簡易な検証パスも用意し、UCP導入のハードルを下げた",
+      "YouTube広告向けのBusiness Agentベータプログラムを米国で開始",
+      "Merchant Center内のAIパフォーマンスインサイト機能を、米国・オーストラリア・カナダ・インド・ニュージーランドの5カ国に拡大",
+      "UCP経由の直接決済を有効化している数十万規模のブランド・小売業者がすでに存在するとされ、対応国はオーストラリア・カナダへの拡大を2025年初頭に予定(米国以外は段階展開)"
+    ],
+    "cardBullets": [
+      "Google、UCPに「カート転送」機能追加。自社サイト決済も選択可",
+      "商品フィード設定を省略できる簡易検証パスも新設",
+      "Merchant CenterのAI分析機能を5カ国に拡大提供"
+    ],
+    "meaning": "「Google上で決済まで完結させるか、自社サイトに引き継ぐか」という選択肢が用意されたことは、AIによる購買導線がまだ一本道ではなく、事業者側の事情に合わせて設計できる余地が残っていることを示している。すべてをプラットフォーム任せにするのではなく、自社サイトでの決済体験や顧客データの取得を重視する店舗にとって、こうした「途中で自社に引き継げる」設計が用意されているかどうかは、AI経由の販路を選ぶ際の重要な判断材料になる。",
+    "thumbnail": "https://cdn.searchenginejournal.com/wp-content/uploads/2026/09/google-ucp-cart-transfer-1600x840-1.jpg"
+  }
+]
