@@ -1,75 +1,6 @@
 <!-- Unbounceページに埋め込むコード。カスタムHTML/スクリプト要素にそのまま貼り付ける -->
 <!-- 記事の更新はこのリポジトリのarticles.jsonをpushするだけで反映される。Unbounce側の再編集は不要 -->
 <!-- デザイン: Codex案（dev/codex-workspace/design/mockups/2026-09-16_記事メディアページ_モックアップ.html）を実データ結合 -->
-<div id="aa-media-root">
-  <header class="am-header">
-    <div class="am-wrap am-header__row">
-      <a class="am-logo" id="am-logo-link" href="#aa-media-root" aria-label="AIタッガー AI検索を知る トップ">
-        <svg class="am-logo__img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440.94 112.37" width="133" height="34" role="img" aria-label="AIタッガー"><defs><style>.aa-logo-white{fill:#fff;}.aa-logo-yellow{fill:#fac60a;}.aa-logo-blue{fill:#3052fc;}.aa-logo-navy{fill:#18297d;}</style></defs><path class="aa-logo-yellow" d="M8.94,0H112.37V112.37H8.94C4,112.37,0,108.37,0,103.44V8.94C0,4,4,0,8.94,0Z"/><path class="aa-logo-blue" d="M111.16,0H384.75C415.76,0,440.94,25.18,440.94,56.19h0c0,31.01-25.18,56.19-56.19,56.19H111.16V0h0Z"/><path class="aa-logo-navy" d="M71.37,83.84v-.1L50.16,30.66l-1.35-3.18c-.15-.28-.38-.58-.68-.93-.38-.43-.97-.65-1.76-.65h-6.46c-.75,0-1.36,.23-1.82,.69-.43,.43-.69,.82-.77,1.15L15.69,81.59c-.13,.37-.29,.78-.46,1.23-.18,.47-.34,.98-.47,1.53-.04,.13-.06,.29-.06,.5,0,.55,.24,.99,.7,1.27,.38,.23,.88,.35,1.48,.35h8.02c1.22,0,2.11-.62,2.55-1.81,.45-1.23,1.01-2.66,1.66-4.3,.55-1.38,1.12-2.85,1.69-4.38,.13-.35,.46-.58,.83-.58h22.82c.37,0,.7,.23,.83,.58,.38,1.01,.76,2.01,1.15,3l2.25,5.71c.25,.59,.57,1.04,.96,1.33,.41,.3,.97,.46,1.66,.46h7.9c1.97,0,2.27-1.07,2.27-1.7,0-.16-.02-.36-.07-.6-.03-.15-.05-.26-.05-.32Zm-21.75-19.75h-13.06c-.63,0-1.06-.62-.83-1.2,1.19-3.08,2.4-6.29,3.58-9.56,.99-2.73,1.99-5.42,2.98-8.03,.29-.77,1.38-.76,1.67,.01l6.5,17.58c.21,.58-.22,1.2-.83,1.2Z"/><rect class="aa-logo-navy" x="78.94" y="25.8" width="12.87" height="60.66" rx="2.95" ry="2.95"/><g><path class="aa-logo-white" d="M185.47,29.64h-29.93c-.16,0-.3-.08-.43-.23-.13-.16-.17-.31-.12-.47,0-.16,.05-.4,.16-.74,.1-.34,.16-.59,.16-.74,.21-1.14-.08-2.16-.86-3.04-.78-.88-1.79-1.38-3.04-1.48l-3.12-.23c-1.2-.05-2.29,.33-3.27,1.13-.99,.81-1.61,1.83-1.87,3.08-1.98,9.2-6.19,17.62-12.63,25.26-.78,.88-1.13,1.94-1.05,3.16,.08,1.22,.56,2.22,1.44,3l1.95,1.79c.94,.83,2.03,1.22,3.27,1.17,1.25-.05,2.29-.52,3.12-1.4,7.17-7.67,8.34-9.64,12-18.32,.16-.42,.47-.62,.94-.62h23.54c.41,0,.62,.21,.62,.62-.36,5.56-1.3,10.37-2.81,14.42-.16,.31-.42,.39-.78,.23-3.79-1.92-4.03-1.82-10.42-4.79-1.14-.52-2.3-.58-3.47-.19-1.17,.39-2.04,1.13-2.61,2.22l-1.71,3.2c-.57,1.04-.69,2.12-.35,3.23,.34,1.12,1.05,1.94,2.14,2.46,5.82,2.7,5.8,2.5,9.64,4.47,.42,.21,.47,.47,.16,.78-5.41,4.99-14.22,8.32-26.43,9.98-.11,.01-.21,.05-.31,.07l-.94,.09c-1.65,.15-2.86,1.57-2.71,3.17l.59,6.38c.15,1.6,1.6,2.78,3.25,2.63,0,0,4.73-.5,5.01-.61,12.92-2.01,22.53-5.86,28.8-11.55,1.8-1.4,3.44-2.93,4.91-4.58,7.64-8.6,11.51-21.66,11.62-39.17,0-1.19-.44-2.22-1.33-3.08-.88-.86-1.92-1.29-3.12-1.29Z"/><path class="aa-logo-white" d="M330.52,34.69h-24.63c-.39,0-.59-.19-.62-.54v-9.67c0-1.65-1.34-2.99-2.99-2.99h-6.59c-1.65,0-2.99,1.34-2.99,2.99v9.87c-.1,.22-.31,.34-.63,.34h-13.51c-1.22,0-2.26,.45-3.14,1.35-.87,.9-1.31,1.96-1.31,3.18v2.54c0,1.22,.44,2.26,1.31,3.14s1.92,1.31,3.14,1.31h12.55c.48,0,.66,.27,.56,.79-1.01,7.42-2.67,13.47-5,18.15-1.17,2.34-2.86,4.95-4.8,7.44-.12,.13-.24,.27-.36,.41-1,1.25-2.11,2.53-3.29,3.82-.86,.9-1.72,1.76-2.58,2.52-.06,.05-.1,.11-.16,.16l-1.03,.96c-1.2,1.12-1.28,2.97-.19,4.13l4.34,4.64c1.09,1.16,2.94,1.2,4.14,.08,0,0,3.4-3.27,3.55-3.53,0,0,.01-.01,.02-.02,4.65-4.61,8.97-10.41,11.56-15.58,3.07-6.14,5.19-13.9,6.36-23.28,.11-.48,.37-.71,.79-.71h15.81c.42,0,.64,.24,.64,.71v2.78c0,7.84-.2,13.67-.6,17.48s-.93,6.24-1.59,7.27c-.66,1.03-1.71,1.55-3.14,1.55-2.01,0-9.56-.33-9.56-.33-1.64-.05-3.01,1.19-3.06,2.79l-.21,6.35c-.05,1.59,1.23,2.93,2.87,2.98,0,0,11.36,.12,13.94,.12,2.07,0,3.75-.17,5.04-.52,1.3-.34,2.55-1.07,3.77-2.18,1.22-1.11,2.17-2.65,2.86-4.61,.69-1.96,1.3-4.62,1.83-7.98,.53-3.36,.89-7.4,1.07-12.12,.18-4.71,.28-10.43,.28-17.16v-4.13c0-1.22-.44-2.28-1.31-3.18-.87-.9-1.92-1.35-3.14-1.35Z"/><path class="aa-logo-white" d="M256.39,34.6h-6.41c-1.61,0-2.91,1.34-2.91,2.99v4.13s0,.03,0,.04c-.74,10.87-3.14,18.81-7.19,23.8-4.25,4.84-11.69,8.53-22.3,11.07-.01,0-.03,0-.04,0l-4.07,.69c-1.63,.27-2.73,1.78-2.47,3.37l1.06,6.32c.27,1.59,1.8,2.65,3.43,2.37,0,0,4.68-.85,4.95-.99,13.4-3.13,22.97-8.02,28.73-14.66h0c.05-.05,.1-.12,.15-.18,.04-.05,.09-.09,.13-.14h0c5.59-6.79,8.82-17.04,9.68-30.77,.09-.29,.15-5.04,.15-5.04,0-1.65-1.3-2.99-2.91-2.99Z"/><rect class="aa-logo-white" x="353.64" y="49.64" width="58.26" height="12.87" rx="2.89" ry="2.89"/><rect class="aa-logo-white" x="334.2" y="17.88" width="8.77" height="12.87" rx="2.44" ry="2.44" transform="translate(19.6 140.41) rotate(-24.11)"/><rect class="aa-logo-white" x="321.76" y="19.37" width="8.77" height="12.87" rx="2.44" ry="2.44" transform="translate(17.9 135.46) rotate(-24.11)"/><rect class="aa-logo-white" x="222.98" y="34.6" width="11.88" height="24.11" rx="2.91" ry="2.91" transform="translate(-4.33 59.97) rotate(-14.79)"/><rect class="aa-logo-white" x="204.56" y="36.56" width="11.88" height="24.11" rx="2.91" ry="2.91" transform="translate(-5.44 55.33) rotate(-14.79)"/></g></svg>
-        <span class="am-logo__sub">メディアセンター</span>
-      </a>
-    </div>
-  </header>
-
-  <main>
-    <section class="am-intro">
-      <div class="am-wrap">
-        <h1>AI検索で、商品が<br class="am-pc-break">見つかるしくみを知る。</h1>
-        <p>Google・楽天・Yahoo!・ChatGPTの変化から、ECの商品発見に関わる情報だけを整理してお届けします。</p>
-      </div>
-    </section>
-
-    <nav class="am-nav" aria-label="プラットフォームで絞り込み">
-      <div class="am-wrap am-nav__row" id="am-tabs"></div>
-    </nav>
-
-    <section class="am-hero" id="am-hero" aria-label="新着記事">
-      <div class="am-wrap">
-        <div id="am-hero-articles" class="am-hero-slider"></div>
-        <div id="am-hero-dots" class="am-hero-dots"></div>
-      </div>
-    </section>
-
-    <section class="am-feed" id="am-sections" aria-label="テーマ別記事">
-      <div class="am-wrap am-split">
-        <div class="am-split__main" id="am-section-main"></div>
-        <aside class="am-split__side" id="am-section-side"></aside>
-      </div>
-      <div class="am-wrap" id="am-section-wide"></div>
-    </section>
-
-    <section class="am-feed am-feed--flat" id="am-flat-wrap" hidden aria-labelledby="am-feed-title">
-      <div class="am-wrap">
-        <div class="am-feed__heading">
-          <h2 id="am-feed-title">記事一覧</h2>
-          <p id="am-count" aria-live="polite"></p>
-        </div>
-        <div id="am-articles" class="am-articles" aria-live="polite"></div>
-        <p id="am-empty" class="am-empty" hidden>該当する記事はありません。</p>
-        <div class="am-more-row"><button id="am-more" class="am-more" type="button" hidden>さらに記事を表示</button></div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="am-footer">
-    <div class="am-wrap">
-      <div class="am-footer__top">
-        <div class="am-footer__company">
-          <p class="am-footer__name">LISUTO株式会社</p>
-          <p>〒106-0032 東京都港区六本木2丁目2-8-9F</p>
-          <p><a href="tel:0362777445">03-6277-7445</a> / <a href="mailto:sales@lisuto.com">sales@lisuto.com</a></p>
-        </div>
-        <nav class="am-footer__links" aria-label="関連リンク">
-          <a href="https://www.lisuto.co.jp/company/" target="_blank" rel="noopener">会社概要</a>
-          <a href="https://www.lisuto.co.jp/terms-of-use/" target="_blank" rel="noopener">利用規約</a>
-          <a href="https://www.lisuto.co.jp/privacy/" target="_blank" rel="noopener">プライバシーポリシー</a>
-        </nav>
-      </div>
-      <div class="am-footer__row"><span>&copy; 2026 LISUTO Inc.</span></div>
-    </div>
-  </footer>
-</div>
-
 <style>
   #aa-media-root{
     --am-blue:#2563EB; --am-heading:#1E3A8A; --am-ink:#0F172A; --am-muted:#475569; --am-soft:#64748B;
@@ -252,7 +183,74 @@
   }
   @media(prefers-reduced-motion:reduce){#aa-media-root *{transition:none!important}}
 </style>
+<div id="aa-media-root">
+  <header class="am-header">
+    <div class="am-wrap am-header__row">
+      <a class="am-logo" id="am-logo-link" href="#aa-media-root" aria-label="AIタッガー AI検索を知る トップ">
+        <svg class="am-logo__img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440.94 112.37" width="133" height="34" role="img" aria-label="AIタッガー"><defs><style>.aa-logo-white{fill:#fff;}.aa-logo-yellow{fill:#fac60a;}.aa-logo-blue{fill:#3052fc;}.aa-logo-navy{fill:#18297d;}</style></defs><path class="aa-logo-yellow" d="M8.94,0H112.37V112.37H8.94C4,112.37,0,108.37,0,103.44V8.94C0,4,4,0,8.94,0Z"/><path class="aa-logo-blue" d="M111.16,0H384.75C415.76,0,440.94,25.18,440.94,56.19h0c0,31.01-25.18,56.19-56.19,56.19H111.16V0h0Z"/><path class="aa-logo-navy" d="M71.37,83.84v-.1L50.16,30.66l-1.35-3.18c-.15-.28-.38-.58-.68-.93-.38-.43-.97-.65-1.76-.65h-6.46c-.75,0-1.36,.23-1.82,.69-.43,.43-.69,.82-.77,1.15L15.69,81.59c-.13,.37-.29,.78-.46,1.23-.18,.47-.34,.98-.47,1.53-.04,.13-.06,.29-.06,.5,0,.55,.24,.99,.7,1.27,.38,.23,.88,.35,1.48,.35h8.02c1.22,0,2.11-.62,2.55-1.81,.45-1.23,1.01-2.66,1.66-4.3,.55-1.38,1.12-2.85,1.69-4.38,.13-.35,.46-.58,.83-.58h22.82c.37,0,.7,.23,.83,.58,.38,1.01,.76,2.01,1.15,3l2.25,5.71c.25,.59,.57,1.04,.96,1.33,.41,.3,.97,.46,1.66,.46h7.9c1.97,0,2.27-1.07,2.27-1.7,0-.16-.02-.36-.07-.6-.03-.15-.05-.26-.05-.32Zm-21.75-19.75h-13.06c-.63,0-1.06-.62-.83-1.2,1.19-3.08,2.4-6.29,3.58-9.56,.99-2.73,1.99-5.42,2.98-8.03,.29-.77,1.38-.76,1.67,.01l6.5,17.58c.21,.58-.22,1.2-.83,1.2Z"/><rect class="aa-logo-navy" x="78.94" y="25.8" width="12.87" height="60.66" rx="2.95" ry="2.95"/><g><path class="aa-logo-white" d="M185.47,29.64h-29.93c-.16,0-.3-.08-.43-.23-.13-.16-.17-.31-.12-.47,0-.16,.05-.4,.16-.74,.1-.34,.16-.59,.16-.74,.21-1.14-.08-2.16-.86-3.04-.78-.88-1.79-1.38-3.04-1.48l-3.12-.23c-1.2-.05-2.29,.33-3.27,1.13-.99,.81-1.61,1.83-1.87,3.08-1.98,9.2-6.19,17.62-12.63,25.26-.78,.88-1.13,1.94-1.05,3.16,.08,1.22,.56,2.22,1.44,3l1.95,1.79c.94,.83,2.03,1.22,3.27,1.17,1.25-.05,2.29-.52,3.12-1.4,7.17-7.67,8.34-9.64,12-18.32,.16-.42,.47-.62,.94-.62h23.54c.41,0,.62,.21,.62,.62-.36,5.56-1.3,10.37-2.81,14.42-.16,.31-.42,.39-.78,.23-3.79-1.92-4.03-1.82-10.42-4.79-1.14-.52-2.3-.58-3.47-.19-1.17,.39-2.04,1.13-2.61,2.22l-1.71,3.2c-.57,1.04-.69,2.12-.35,3.23,.34,1.12,1.05,1.94,2.14,2.46,5.82,2.7,5.8,2.5,9.64,4.47,.42,.21,.47,.47,.16,.78-5.41,4.99-14.22,8.32-26.43,9.98-.11,.01-.21,.05-.31,.07l-.94,.09c-1.65,.15-2.86,1.57-2.71,3.17l.59,6.38c.15,1.6,1.6,2.78,3.25,2.63,0,0,4.73-.5,5.01-.61,12.92-2.01,22.53-5.86,28.8-11.55,1.8-1.4,3.44-2.93,4.91-4.58,7.64-8.6,11.51-21.66,11.62-39.17,0-1.19-.44-2.22-1.33-3.08-.88-.86-1.92-1.29-3.12-1.29Z"/><path class="aa-logo-white" d="M330.52,34.69h-24.63c-.39,0-.59-.19-.62-.54v-9.67c0-1.65-1.34-2.99-2.99-2.99h-6.59c-1.65,0-2.99,1.34-2.99,2.99v9.87c-.1,.22-.31,.34-.63,.34h-13.51c-1.22,0-2.26,.45-3.14,1.35-.87,.9-1.31,1.96-1.31,3.18v2.54c0,1.22,.44,2.26,1.31,3.14s1.92,1.31,3.14,1.31h12.55c.48,0,.66,.27,.56,.79-1.01,7.42-2.67,13.47-5,18.15-1.17,2.34-2.86,4.95-4.8,7.44-.12,.13-.24,.27-.36,.41-1,1.25-2.11,2.53-3.29,3.82-.86,.9-1.72,1.76-2.58,2.52-.06,.05-.1,.11-.16,.16l-1.03,.96c-1.2,1.12-1.28,2.97-.19,4.13l4.34,4.64c1.09,1.16,2.94,1.2,4.14,.08,0,0,3.4-3.27,3.55-3.53,0,0,.01-.01,.02-.02,4.65-4.61,8.97-10.41,11.56-15.58,3.07-6.14,5.19-13.9,6.36-23.28,.11-.48,.37-.71,.79-.71h15.81c.42,0,.64,.24,.64,.71v2.78c0,7.84-.2,13.67-.6,17.48s-.93,6.24-1.59,7.27c-.66,1.03-1.71,1.55-3.14,1.55-2.01,0-9.56-.33-9.56-.33-1.64-.05-3.01,1.19-3.06,2.79l-.21,6.35c-.05,1.59,1.23,2.93,2.87,2.98,0,0,11.36,.12,13.94,.12,2.07,0,3.75-.17,5.04-.52,1.3-.34,2.55-1.07,3.77-2.18,1.22-1.11,2.17-2.65,2.86-4.61,.69-1.96,1.3-4.62,1.83-7.98,.53-3.36,.89-7.4,1.07-12.12,.18-4.71,.28-10.43,.28-17.16v-4.13c0-1.22-.44-2.28-1.31-3.18-.87-.9-1.92-1.35-3.14-1.35Z"/><path class="aa-logo-white" d="M256.39,34.6h-6.41c-1.61,0-2.91,1.34-2.91,2.99v4.13s0,.03,0,.04c-.74,10.87-3.14,18.81-7.19,23.8-4.25,4.84-11.69,8.53-22.3,11.07-.01,0-.03,0-.04,0l-4.07,.69c-1.63,.27-2.73,1.78-2.47,3.37l1.06,6.32c.27,1.59,1.8,2.65,3.43,2.37,0,0,4.68-.85,4.95-.99,13.4-3.13,22.97-8.02,28.73-14.66h0c.05-.05,.1-.12,.15-.18,.04-.05,.09-.09,.13-.14h0c5.59-6.79,8.82-17.04,9.68-30.77,.09-.29,.15-5.04,.15-5.04,0-1.65-1.3-2.99-2.91-2.99Z"/><rect class="aa-logo-white" x="353.64" y="49.64" width="58.26" height="12.87" rx="2.89" ry="2.89"/><rect class="aa-logo-white" x="334.2" y="17.88" width="8.77" height="12.87" rx="2.44" ry="2.44" transform="translate(19.6 140.41) rotate(-24.11)"/><rect class="aa-logo-white" x="321.76" y="19.37" width="8.77" height="12.87" rx="2.44" ry="2.44" transform="translate(17.9 135.46) rotate(-24.11)"/><rect class="aa-logo-white" x="222.98" y="34.6" width="11.88" height="24.11" rx="2.91" ry="2.91" transform="translate(-4.33 59.97) rotate(-14.79)"/><rect class="aa-logo-white" x="204.56" y="36.56" width="11.88" height="24.11" rx="2.91" ry="2.91" transform="translate(-5.44 55.33) rotate(-14.79)"/></g></svg>
+        <span class="am-logo__sub">メディアセンター</span>
+      </a>
+    </div>
+  </header>
 
+  <main>
+    <section class="am-intro">
+      <div class="am-wrap">
+        <h1>AI検索で、商品が<br class="am-pc-break">見つかるしくみを知る。</h1>
+        <p>Google・楽天・Yahoo!・ChatGPTの変化から、ECの商品発見に関わる情報だけを整理してお届けします。</p>
+      </div>
+    </section>
+
+    <nav class="am-nav" aria-label="プラットフォームで絞り込み">
+      <div class="am-wrap am-nav__row" id="am-tabs"></div>
+    </nav>
+
+    <section class="am-hero" id="am-hero" aria-label="新着記事">
+      <div class="am-wrap">
+        <div id="am-hero-articles" class="am-hero-slider"></div>
+        <div id="am-hero-dots" class="am-hero-dots"></div>
+      </div>
+    </section>
+
+    <section class="am-feed" id="am-sections" aria-label="テーマ別記事">
+      <div class="am-wrap am-split">
+        <div class="am-split__main" id="am-section-main"></div>
+        <aside class="am-split__side" id="am-section-side"></aside>
+      </div>
+      <div class="am-wrap" id="am-section-wide"></div>
+    </section>
+
+    <section class="am-feed am-feed--flat" id="am-flat-wrap" hidden aria-labelledby="am-feed-title">
+      <div class="am-wrap">
+        <div class="am-feed__heading">
+          <h2 id="am-feed-title">記事一覧</h2>
+          <p id="am-count" aria-live="polite"></p>
+        </div>
+        <div id="am-articles" class="am-articles" aria-live="polite"></div>
+        <p id="am-empty" class="am-empty" hidden>該当する記事はありません。</p>
+        <div class="am-more-row"><button id="am-more" class="am-more" type="button" hidden>さらに記事を表示</button></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="am-footer">
+    <div class="am-wrap">
+      <div class="am-footer__top">
+        <div class="am-footer__company">
+          <p class="am-footer__name">LISUTO株式会社</p>
+          <p>〒106-0032 東京都港区六本木2丁目2-8-9F</p>
+          <p><a href="tel:0362777445">03-6277-7445</a> / <a href="mailto:sales@lisuto.com">sales@lisuto.com</a></p>
+        </div>
+        <nav class="am-footer__links" aria-label="関連リンク">
+          <a href="https://www.lisuto.co.jp/company/" target="_blank" rel="noopener">会社概要</a>
+          <a href="https://www.lisuto.co.jp/terms-of-use/" target="_blank" rel="noopener">利用規約</a>
+          <a href="https://www.lisuto.co.jp/privacy/" target="_blank" rel="noopener">プライバシーポリシー</a>
+        </nav>
+      </div>
+      <div class="am-footer__row"><span>&copy; 2026 LISUTO Inc.</span></div>
+    </div>
+  </footer>
+</div>
 <script>
 (function(){
   var FEED_URL = "https://junichi-lisuto.github.io/aitagger-articles/articles.json";
