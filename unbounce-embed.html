@@ -531,7 +531,7 @@
     var more = document.getElementById("am-more");
     var title = document.getElementById("am-feed-title");
 
-    root.innerHTML = shown.map(function(a, i){ return card(a, i === 0); }).join("");
+    root.innerHTML = shown.map(function(a, i){ return card(a, isMobile() ? "mlead" : i === 0); }).join("");
     empty.hidden = list.length > 0;
     more.hidden = state.visible >= list.length;
     document.getElementById("am-count").textContent = list.length ? list.length + "件の記事" : "";
@@ -600,7 +600,7 @@
       if (nowMobile !== lastIsMobile){
         lastIsMobile = nowMobile;
         var isTop = !state.pageTheme && !state.pagePlatform;
-        if (isTop) renderSections();
+        if (isTop) renderSections(); else renderArticles();
       }
       syncHeight();
     });
