@@ -1,0 +1,257 @@
+[
+  {
+    "slug": "rakuten-genz-ai-survey-2026",
+    "title": "楽天、Z世代の「生成AI利用に関する調査」結果を発表 商品検討時の利用率は54.3%",
+    "sourceUrl": "https://corp.rakuten.co.jp/news/press/2026/0904_01.html",
+    "source": "楽天グループ",
+    "date": "2026-09-04",
+    "dateDisplay": "2026年9月4日",
+    "platforms": ["rakuten"],
+    "viewpoint": "buyer",
+    "theme": "measurement",
+    "background": "楽天は「楽天学割」ユーザーを対象に、Z世代の生成AI利用実態を調査した結果を発表した。学習用途を超え、商品購入の意思決定にどこまでAIが入り込んでいるかを定量的に示した点が特徴である。",
+    "bullets": [
+      "15~25歳の楽天学割ユーザー637人を対象に、2026年7月1日~8月3日に実施した調査である。",
+      "生成AIを「ほぼ毎日利用」すると回答した割合は38.0%に達した。",
+      "商品の検討・購入時に生成AIを利用すると回答した割合は54.3%と、半数を超えた。",
+      "用途別では「勉強・学習」が62.6%で最多だったが、商品検討用途も僅差で続いている。",
+      "生成AIを導入する企業への好印象は31.7%、楽天のAI活用へのポジティブ印象は40.8%だった。"
+    ],
+    "cardBullets": [
+      "楽天調査、Z世代の54.3%が商品検討でAIを利用",
+      "生成AIを「ほぼ毎日」使う割合は38.0%に到達",
+      "楽天のAI活用に好印象な回答は40.8%"
+    ],
+    "meaning": "学習ツールとして広まった生成AIが、購買の意思決定の場面にも半数超の割合で入り込んでいるという結果は見過ごせない。Z世代にとってAIに商品を尋ねることは既に特別な行動ではなく、その対話の中でどう商品が拾われるかが今後の露出を左右する。",
+    "thumbnail": "https://corp.rakuten.co.jp/news/assets/img/press/2026_press_jp/0904/%E6%A5%BD%E5%A4%A9%E5%AD%A6%E5%89%B2_Z%E4%B8%96%E4%BB%A3%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E3%80%8C%E7%94%9F%E6%88%90AI%E5%88%A9%E7%94%A8%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E8%AA%BF%E6%9F%BB%E3%80%8D%E7%B5%90%E6%9E%9C%E3%80%8D.png"
+  },
+  {
+    "slug": "yahoo-shopping-ai-omakase-coordinate",
+    "title": "Yahoo!ショッピング、AIが服選びをサポートする「AIおまかせコーディネート」提供開始",
+    "sourceUrl": "https://www.watch.impress.co.jp/docs/news/2137744.html",
+    "source": "Impress Watch",
+    "date": "2026-09-02",
+    "dateDisplay": "2026年9月2日",
+    "platforms": ["yahoo"],
+    "viewpoint": "buyer",
+    "theme": "visibility",
+    "background": "LINEヤフーは、Yahoo!ショッピングの「AIエージェント」新機能として、生成AIがコーディネート提案・着用イメージ・サイズ感の不安解消までを一括してサポートする「AIおまかせコーディネート」の提供を開始した。",
+    "bullets": [
+      "コーディネート提案から着用イメージの確認、過去購入商品とのサイズ比較までを一貫してAIがサポートする機能である。",
+      "好みのファッションテイスト(カジュアル・きれいめなど)を選ぶと、同一ストア内の実販売商品を組み合わせたコーディネートを提案する。",
+      "先行提供の対象ストアは「antiqua」「HUG.U」「osharewalker」「Honeys」の4店舗で、対象商品は順次拡大予定である。",
+      "画像生成AIによるスタイリング画像と、購入履歴の寸法データを組み合わせ、サイズ選びの不安解消も狙う設計である。"
+    ],
+    "cardBullets": [
+      "Yahoo!ショッピングにAI服選び支援機能が登場",
+      "コーデ提案から着用イメージ・サイズ比較まで一括対応",
+      "先行導入はantiquaなど4ストアから順次拡大"
+    ],
+    "meaning": "「コーディネートを提案する」という購買体験は、単品の検索結果一覧では作れない。実店舗の実在庫を組み合わせて見せるには、色・素材・シルエットといった属性が店舗をまたいで一貫した粒度で整理されている必要があり、AIが「組み合わせられる」データになっているかが問われ始めている。",
+    "thumbnail": "https://www.watch.impress.co.jp/img/ipw/list/2137/744/00.jpg"
+  },
+  {
+    "slug": "lycorp-agent-i-task-function",
+    "title": "LINEヤフー、AIエージェント「Agent i」に価格変動を追跡する「タスク機能」を追加",
+    "sourceUrl": "https://www.lycorp.co.jp/ja/news/release/020805/",
+    "source": "LINEヤフー",
+    "date": "2026-09-11",
+    "dateDisplay": "2026年9月11日",
+    "platforms": ["yahoo"],
+    "viewpoint": "buyer",
+    "theme": "visibility",
+    "background": "LINEヤフーはAIエージェントブランド「Agent i」に、ユーザーが登録した情報を自動収集し指定タイミングで通知する「タスク機能」を追加した。「お買い物」エージェントと統合し、価格変動の追跡を人手から手放す設計になっている。",
+    "bullets": [
+      "知りたい情報をタスクとして登録すると、Agent iが自動で情報収集し指定タイミングで通知する機能である。",
+      "複数のECサイトを横断して価格を確認し、指定した金額以上値下がりした際に通知する「商品値下がり通知」を搭載する。",
+      "業界情報や芸能人ニュースなどを継続的にチェックする「キーワード登録」、設定地域のイベント情報を毎週配信する機能も同時に追加された。",
+      "「お買い物」エージェントとタスク機能が統合されており、購入検討中の商品を登録するだけで価格追跡が自動化される。"
+    ],
+    "cardBullets": [
+      "Agent iに複数EC横断の値下がり通知機能が登場",
+      "購入検討中の商品を登録するだけで価格追跡を自動化",
+      "キーワード登録やイベント通知機能も同時に追加"
+    ],
+    "meaning": "値下がり通知が複数ECサイトを横断して行われるということは、ユーザーが特定のモールに張り付いて価格をチェックする必要がなくなることを意味する。自社の価格変動がAIエージェント側にどう捕捉されるかは、価格情報がどれだけ機械的に読み取りやすい形で公開されているかに左右される。",
+    "thumbnail": "https://www.lycorp.co.jp/ja/news/2026/260811_pressrelease_01.png"
+  },
+  {
+    "slug": "amazon-ads-chatgpt-integration",
+    "title": "Amazon Ads、ChatGPT上で広告主が会話型広告を展開できる新統合を発表",
+    "sourceUrl": "https://advertising.amazon.com/ja-jp/library/news/amazon-ads-chat-gpt-advertising-integration",
+    "source": "Amazon Ads",
+    "date": "2026-09-10",
+    "dateDisplay": "2026年9月10日",
+    "platforms": ["amazon", "chatgpt"],
+    "viewpoint": "seller",
+    "theme": "optimization",
+    "background": "Amazon AdsはOpenAIと提携し、広告主がChatGPT上で会話型の広告体験を展開できる新たな統合を発表した。米国の一部広告主を対象にしたパイロットとして開始されており、Amazonの広告インフラがモール外の会話型AIへと直接接続される動きである。",
+    "bullets": [
+      "Amazon Adsの広告主が、ChatGPTアプリ内で会話型の広告キャンペーンを展開できるようになる統合機能である。",
+      "現時点では米国の一部広告主を対象としたパイロットプログラムとして実施されている。",
+      "ユーザーがChatGPT上で選択肢を比較・検討するタイミングに合わせて、広告主がアプローチできる仕組みである。",
+      "Amazon Adsが持つ購買シグナルデータを活用し、詳細な消費者インサイトに基づくターゲティングを行う設計である。"
+    ],
+    "cardBullets": [
+      "Amazon AdsがChatGPT上での会話型広告統合を発表",
+      "米国の一部広告主対象にパイロットとして開始",
+      "Amazonの購買データをChatGPT広告に活用"
+    ],
+    "meaning": "広告出稿先がモール内検索から会話型AIへと広がるほど、商品の魅力や特徴を短い会話の中でどう伝えるかが問われるようになる。従来の広告文とは異なり、AIが対話の文脈に応じて商品情報を再構成して提示する前提に立つと、元データの正確さと具体性がそのまま会話の質に直結する。",
+    "thumbnail": "https://m.media-amazon.com/images/G/01/AdProductsWebsite/images/amazonads_chatgpt.jpg"
+  },
+  {
+    "slug": "openai-testing-ads-sponsored-agents",
+    "title": "OpenAI、ChatGPT広告に対話する「スポンサードエージェント」機能をテスト開始",
+    "origTitle": "Testing ads in ChatGPT",
+    "sourceUrl": "https://openai.com/index/testing-ads-in-chatgpt/",
+    "source": "OpenAI",
+    "date": "2026-09-16",
+    "dateDisplay": "2026年9月16日",
+    "platforms": ["chatgpt"],
+    "viewpoint": "seller",
+    "theme": "optimization",
+    "background": "OpenAIは、企業がスポンサーとなるAIエージェントがユーザーと直接対話する「スポンサードエージェント」機能のテストを開始したと発表した。米国の一部広告主を対象とした試験運用で、広告表示にとどまらずAIとの会話そのものを広告体験に組み込む取り組みである。",
+    "bullets": [
+      "広告をクリックしたユーザーと会話する企業スポンサー型のAIエージェントを、米国の一部広告主向けにテストしている。",
+      "スポンサードエージェントとの会話は、元のChatGPT会話やChatGPT自体の回答とは別枠で行われる。",
+      "ユーザーは機能・サイズ・互換性など製品の詳細をスポンサードエージェントに質問し、納得した段階で広告主サイトへのリンクをたどれる。",
+      "ChatGPT AdsはHubSpotとShopifyを最初のCRM・ECパートナーとして統合し、米国のマーチャントはChatGPT Adsアプリでキャンペーンを作成・管理できる。",
+      "広告は回答内容に影響を与えず、広告主はユーザーの個別チャット内容にアクセスできないとしている。"
+    ],
+    "cardBullets": [
+      "OpenAIが対話する広告「スポンサードエージェント」をテスト",
+      "HubSpot・Shopifyと連携しChatGPT Adsを統合",
+      "広告主はユーザーの個別チャット内容にアクセス不可"
+    ],
+    "meaning": "広告が「表示される」ものから「会話する」ものへ変わると、商品の説明文はワンクリックで完結する短文ではなく、質問に応じて掘り下げられる情報として設計される必要が出てくる。サイズ・互換性・使用条件といった、これまで問い合わせ対応に回っていた情報こそが、AIとの会話を成立させる素材になる。",
+    "thumbnail": "https://images.ctfassets.net/kftzwdyauwt9/21TdmlEzFwgoo7ZER7SNCV/001b3d542fd4d025a2dcd1a5ab9417fe/OAI_AdsTest_Blog_OpenGraph_1200x630.png?w=1600&h=900&fit=fill"
+  },
+  {
+    "slug": "netshop-rakuten-2026h2-ai-strategy",
+    "title": "楽天市場、2026年下半期戦略の全貌 AIを軸に売り場・販促・物流・店舗運営を強化",
+    "sourceUrl": "https://netshop.impress.co.jp/e/2026/09/17/16713",
+    "source": "ネットショップ担当者フォーラム",
+    "date": "2026-09-17",
+    "dateDisplay": "2026年9月17日",
+    "platforms": ["rakuten"],
+    "viewpoint": "seller",
+    "theme": "optimization",
+    "background": "楽天グループは8月に開催した出店者向けカンファレンス「楽天EXPO」で2026年下半期戦略共有会を実施し、国内流通総額10兆円達成に向けた方針を示した。AIを軸に売り場・販促・物流・広告・店舗運営までを一体で進化させる方向性が明らかになった。",
+    "bullets": [
+      "国内流通総額10兆円の実現に向け、AIを軸に売り場・販促・物流・広告・店舗運営までを一体で進化させる方針を示した。",
+      "2025年9月にRakuten AIがスマホアプリに搭載されて以降、EC検索は「キーワードで探す」仕組みから「商品データを理解して探すAI検索」へ移行しつつあるとしている。",
+      "新しい検索の核はGEO(商品情報を整理・構造化する仕組み)であり、AIは商品属性・カテゴリ・整理された商品情報を手がかりに商品を理解するため、その精度が「見つけられる/見つけられない」を左右すると位置づけている。",
+      "出店者負担がどう変わるかを含め、売り場・販促・物流・店舗運営の各領域での具体的な変化が説明会で共有された。"
+    ],
+    "cardBullets": [
+      "楽天市場、下半期戦略はAIが軸と表明",
+      "検索は「キーワード」から「AI理解型」へ移行中",
+      "GEO=商品情報の構造化精度が露出を左右"
+    ],
+    "meaning": "楽天自身が「検索の核はGEO」と明言したことは、構造化データの整備がもはやオプションの対策ではなく、モール側の検索エンジンの前提条件になりつつあることを示している。商品属性やカテゴリ分類の精度をどこまで作り込めているかが、これまで以上に直接的に露出量へ跳ね返る局面に入っている。",
+    "thumbnail": "https://netshop.impress.co.jp/sites/default/files/styles/1200x630/public/images/news/2026/node16713-ogp.png?itok=UgR9xhZM"
+  },
+  {
+    "slug": "nint-ec-ai-usage-survey-2026",
+    "title": "Nint調査、EC業務のAI活用は個人利用93%も業務プロセスの自動化は32%にとどまる",
+    "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000188.000033212.html",
+    "source": "株式会社Nint",
+    "date": "2026-09-01",
+    "dateDisplay": "2026年9月1日",
+    "platforms": ["other-ai"],
+    "viewpoint": "seller",
+    "theme": "measurement",
+    "background": "EC分析サービスを提供するNintは、EC事業に携わる担当者から経営層まで100名を対象に「EC業務のAI活用実態調査2026」を実施した。「AIを使うかどうか」はもはや論点ではなくなった一方で、業務プロセスそのものをAIに任せる段階にはまだ多くの企業が入れていない実態を数値で示した。",
+    "bullets": [
+      "EC事業に携わる担当者から経営層まで100名を対象にアンケート調査を実施した。",
+      "生成AIの利用頻度は「ほぼ毎日」が71%、「週に数回」まで含めると93%に達した一方、「使ったことがない」はわずか1%にとどまった。",
+      "個人利用の広がりに対し、業務プロセスそのものの自動化にAIを活用できていると回答した割合は32%にとどまった。",
+      "時間を取られている業務の上位は、データの集計・転記が37%、社内向け報告・会議資料の作成が36%、売上・実績レポートの作成が31%だった。"
+    ],
+    "cardBullets": [
+      "Nint調査、EC担当者のAI個人利用は93%に到達",
+      "業務プロセスの自動化まで進んだのは32%にとどまる",
+      "データ集計・転記に37%が時間を取られていると回答"
+    ],
+    "meaning": "個人がAIを日常的に使う段階と、業務プロセスそのものをAIに任せる段階の間には大きな溝がある。この溝は、AI活用の意欲不足ではなく、データ集計や報告資料作成のような定型業務を自動化できる形にデータが整理されていないことが原因である場合が多く、属人的な作業の棚卸しがAI活用の次の一歩になる。",
+    "thumbnail": "https://prcdn.freetls.fastly.net/release_image/33212/188/33212-188-dfaf5a94fb21e6e08f6e7eb3a3d40a33-1672x941.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+  },
+  {
+    "slug": "prizma-ai-inflow-measurement-survey-2026",
+    "title": "PRIZMA調査、AI流入の効果を定量計測する企業は約6割 問い合わせ・売上両方につながるのは2.5割",
+    "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000220.000149156.html",
+    "source": "株式会社PRIZMA",
+    "date": "2026-09-14",
+    "dateDisplay": "2026年9月14日",
+    "platforms": ["google", "other-ai"],
+    "viewpoint": "seller",
+    "theme": "measurement",
+    "background": "株式会社PRIZMAは、企業がAI検索(AI Overviewsなど)経由の流入をどう効果測定しているかを調べる調査を実施した。AI流入への関心は広がっているものの、実際に成果へつながっているかを検証できている企業がどれだけあるかを数値で示した。",
+    "bullets": [
+      "調査対象は1,013人で、2026年9月14日に結果が公開された。",
+      "AI Overview表示回数は「1,000回以上~1万回未満」の企業が最多だった。",
+      "約6割の企業が、AI流入の効果をツールなどの定量データで数値化していると回答した。",
+      "効果測定にかける月額費用は「5万円以上~10万円未満」が36.3%で最多だった。",
+      "問い合わせと売上の両方につながっていると回答した企業は約2.5割(26.5%)にとどまった。",
+      "計測ツールの利用率はGoogle Search Consoleが61.3%で最多、次いでGoogle Analytics 4が52.9%、Ahrefsが23.2%だった。"
+    ],
+    "cardBullets": [
+      "AI流入を定量計測する企業は約6割にとどまる",
+      "問い合わせ・売上両方への貢献を確認できたのは2.5割",
+      "計測ツールはSearch Console・GA4が上位"
+    ],
+    "meaning": "AI経由の流入を「見ている」企業は増えても、それが問い合わせや売上につながっているかまで確認できている企業はまだ少数派である。表示回数やインプレッションだけを追うのではなく、実際の成果指標まで一気通貫で追える計測体制を持てているかどうかが、次の差になりつつある。",
+    "thumbnail": "https://prcdn.freetls.fastly.net/release_image/149156/220/149156-220-27821eeb5e062e44bc29dd07e62fa81f-1920x1280.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+  },
+  {
+    "slug": "hakuhodo-oneder-ai-search-traffic-202607",
+    "title": "博報堂DYグループ調査、AI検索エンジンのセッション数が2024年4月比で6,468%増加",
+    "sourceUrl": "https://oneder.hakuhodody-one.co.jp/blog/ai-search-engine-202607",
+    "source": "oneder(博報堂DYグループ)",
+    "date": "2026-09-08",
+    "dateDisplay": "2026年9月8日",
+    "platforms": ["google", "other-ai"],
+    "viewpoint": "buyer",
+    "theme": "measurement",
+    "background": "博報堂DYグループのoneder(ワンダー)は、AI検索エンジンのトラフィック推移を継続的に調査しているレポートの2026年7月分を公開した。ChatGPTやAI Overviewsなど複数のAI検索経由セッション数を独自データで追跡し、業種別の変化まで踏み込んで示している。",
+    "bullets": [
+      "AI検索エンジンのセッション数は、2024年4月を起点として6,468%増加したことを示した。",
+      "AI Overviewsの表示率は全体で前月比5.9%増加し、「Know」型クエリでは前月比9.5%増加した。",
+      "業種別では、アパレル・ファッション業種が前月比+15.0%と最も大きな伸びを示した。",
+      "独自データによる継続調査であり、月次でのAI検索トラフィックの変化を業種横断で追跡できる点が特徴である。"
+    ],
+    "cardBullets": [
+      "AI検索セッション、2年間で6,468%増と博報堂DYが分析",
+      "アパレル業種はAI Overviews表示が前月比+15.0%",
+      "Know型クエリのAI表示は前月比9.5%増と加速"
+    ],
+    "meaning": "アパレル業種で突出した伸びが見られるということは、商品の見た目や着用感といった説明しづらい情報を、AIがどう補って提示しているかが業種によって差を生み始めていることを示唆する。自社の業種がAI検索でどう伸びているかを定点観測できているかどうかが、対策の優先順位を決める材料になる。",
+    "thumbnail": "https://oneder.hakuhodody-one.co.jp/hubfs/oneder/image/blog/ai-search-engine-202607_00.jpg"
+  },
+  {
+    "slug": "zozo-niau-room-wear-ai-diagnosis",
+    "title": "ZOZO、全28タイプのAI診断で\"似合う\"を提案する新機能「似合うルーム by ZOZO」提供開始",
+    "sourceUrl": "https://realsound.jp/tech/2026/09/post-2523999.html",
+    "source": "リアルサウンド テック",
+    "date": "2026-09-15",
+    "dateDisplay": "2026年9月15日",
+    "platforms": ["other-ai"],
+    "viewpoint": "buyer",
+    "theme": "visibility",
+    "background": "ZOZOは、ファッションコーディネートアプリ「WEAR by ZOZO」において、独自データと生成AIを組み合わせて\"似合う\"を診断・提案する新機能「似合うルーム by ZOZO」の提供を開始した。診断から提案・説明・バーチャル試着までを一連の体験として提供する。",
+    "bullets": [
+      "全28タイプのファッションコア診断により、ユーザーに合うスタイルをAIが分析・提案する機能である。",
+      "生成AIによるバーチャル試着まで含めた、診断・提案・説明・試着という一連の体験を1つの機能にまとめている。",
+      "LINE公式アカウント「ZOZOの似合うコーデAI ラボくん」でも同日から「お試しコーデ」の展開を開始した。",
+      "2026年4月に発表した中期経営計画に基づくファッション特化型AIエージェント戦略の一環として位置づけられている。"
+    ],
+    "cardBullets": [
+      "ZOZOが全28タイプのAI診断で\"似合う\"提案開始",
+      "バーチャル試着まで一連の体験としてWEARに搭載",
+      "LINE公式アカウントでも同時にお試しコーデ展開"
+    ],
+    "meaning": "\"似合う\"という言語化しにくい感覚をAIが28タイプに分解して扱えるようにしたことは、商品側にも「どのタイプに似合うか」を語れるだけの属性情報が求められ始めていることを意味する。サイズや素材だけでなく、着用シーンやテイストといった主観的な情報をどこまでデータ化できているかが、この種の診断機能に商品が乗るかどうかを左右する。",
+    "thumbnail": "https://realsound.jp/wp-content/uploads/2026/09/20260915-wear-niau-room-99.jpg"
+  }
+]

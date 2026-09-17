@@ -1,0 +1,22 @@
+{
+  "slug": "openai-testing-ads-sponsored-agents",
+  "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/openai-testing-ads-sponsored-agents.html",
+  "sourceUrl": "https://openai.com/index/testing-ads-in-chatgpt/",
+  "platforms": [
+    "chatgpt"
+  ],
+  "viewpoint": "seller",
+  "theme": "optimization",
+  "source": "OpenAI",
+  "date": "2026-09-16",
+  "title": "OpenAI、ChatGPT広告に対話する「スポンサードエージェント」機能をテスト開始",
+  "bullets": [
+    "OpenAIが対話する広告「スポンサードエージェント」をテスト",
+    "HubSpot・Shopifyと連携しChatGPT Adsを統合",
+    "広告主はユーザーの個別チャット内容にアクセス不可"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "url": "https://images.ctfassets.net/kftzwdyauwt9/21TdmlEzFwgoo7ZER7SNCV/001b3d542fd4d025a2dcd1a5ab9417fe/OAI_AdsTest_Blog_OpenGraph_1200x630.png?w=1600&h=900&fit=fill"
+  }
+}
