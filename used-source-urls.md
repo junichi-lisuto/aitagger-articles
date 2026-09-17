@@ -3,6 +3,16 @@
 記事候補を探す前に必ずこの一覧を確認し、ここに載っているURLと同じ元記事は候補から除外すること。
 生成元: articles.json（更新日: 2026-09-17）
 
+- https://www.searchenginejournal.com/what-wikipedia-reveals-about-ai-overviews-and-web-traffic/589042/
+- https://ai.watch.impress.co.jp/docs/news/2141472.html
+- https://ppc.land/ninth-circuit-frees-perplexitys-shopping-agent-from-amazons-hacking-claim/
+- https://ppc.land/openai-lets-advertisers-run-chatgpt-ads-from-hubspot-and-shopify/
+- https://netshop.impress.co.jp/n/2026/09/16/16740
+- https://www.searchenginejournal.com/google-ucp-update-lets-merchants-enable-cart-transfer-to-site/589713/
+- https://shop-pro.jp/news/20260824-ai-analytics
+- https://www.searchenginejournal.com/chatgpt-shopping-results-lean-hard-on-product-feeds/589000/
+- https://prtimes.jp/main/html/rd/p/000000678.000018392.html
+- https://ppc.land/amazon-starts-selling-ads-inside-chatgpt-to-its-own-advertisers/
 - https://realsound.jp/tech/2026/09/post-2523999.html
 - https://www.watch.impress.co.jp/docs/news/2137744.html
 - https://corp.rakuten.co.jp/news/press/2026/0904_01.html

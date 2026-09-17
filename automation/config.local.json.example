@@ -1,3 +1,4 @@
 {
-  "slackApprovalWebhookUrl": "https://hooks.slack.com/services/XXXX/XXXX/XXXX"
+  "slackApprovalWebhookUrl": "https://hooks.slack.com/services/XXXX/XXXX/XXXX",
+  "alertSlackWebhookUrl": "https://hooks.slack.com/services/XXXX/XXXX/XXXX"
 }

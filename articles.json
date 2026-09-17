@@ -3,6 +3,228 @@
   "schemaVersion": 2,
   "articles": [
     {
+      "slug": "wikipedia-ai-overviews-traffic-study",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/wikipedia-ai-overviews-traffic-study.html",
+      "sourceUrl": "https://www.searchenginejournal.com/what-wikipedia-reveals-about-ai-overviews-and-web-traffic/589042/",
+      "platforms": [
+        "google"
+      ],
+      "viewpoint": "buyer",
+      "theme": "measurement",
+      "source": "Search Engine Journal",
+      "date": "2026-09-11",
+      "title": "Google「AI Overviews」、英語版Wikipediaへの参照を年間12億回減らしたとの推計。ワシントン大学が分析",
+      "bullets": [
+        "AI Overviewsが英語版Wikipedia参照を年12億回減らしたと推計",
+        "広告収益換算で年間最大3,708万ドルの損失に相当との試算",
+        "査読前の研究でGoogleは指標の妥当性に反論、論争続く"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://cdn.searchenginejournal.com/wp-content/uploads/2026/09/wikipedia-ai-overviews-featured.jpg"
+      }
+    },
+    {
+      "slug": "rakuten-music-ai-agent-search",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/rakuten-music-ai-agent-search.html",
+      "sourceUrl": "https://ai.watch.impress.co.jp/docs/news/2141472.html",
+      "platforms": [
+        "rakuten"
+      ],
+      "viewpoint": "buyer",
+      "theme": "visibility",
+      "source": "AI Watch",
+      "date": "2026-09-16",
+      "title": "楽天、「Rakuten Music」にエージェント型AI搭載。対話形式で楽曲・プレイリストを検索可能に",
+      "bullets": [
+        "楽天、音楽アプリに対話型AI検索「Rakuten AI for Music」搭載",
+        "自然言語で楽曲・アーティストを検索、気分に合わせて提案",
+        "有料プラン対象にAndroid版から順次展開、精度向上を今後強化"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ai.watch.impress.co.jp/img/aiw/list/2141/472/0400.jpg"
+      }
+    },
+    {
+      "slug": "perplexity-comet-ninth-circuit-ruling",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/perplexity-comet-ninth-circuit-ruling.html",
+      "sourceUrl": "https://ppc.land/ninth-circuit-frees-perplexitys-shopping-agent-from-amazons-hacking-claim/",
+      "platforms": [
+        "other-ai",
+        "amazon"
+      ],
+      "viewpoint": "buyer",
+      "theme": "visibility",
+      "source": "PPC Land",
+      "date": "2026-09-14",
+      "title": "米控訴裁、Amazonの差止命令を取り消し。PerplexityのAI購入代行エージェントは「利用者本人のアクセス」と判断",
+      "bullets": [
+        "米控訴裁、Perplexityの購入代行AIへのAmazon差止命令を取消",
+        "「AIのアクセスも利用者本人によるもの」と技術的に認定",
+        "AmazonはCFAA等を根拠にAIエージェントを止める手段を喪失"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ppc.land/content/images/2026/09/Ninth-Circuit-frees-Perplexity-s-shopping-agent-from-Amazon-s-hacking-claim.jpg"
+      }
+    },
+    {
+      "slug": "openai-chatgpt-ads-hubspot-shopify",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/openai-chatgpt-ads-hubspot-shopify.html",
+      "sourceUrl": "https://ppc.land/openai-lets-advertisers-run-chatgpt-ads-from-hubspot-and-shopify/",
+      "platforms": [
+        "chatgpt"
+      ],
+      "viewpoint": "seller",
+      "theme": "optimization",
+      "source": "PPC Land",
+      "date": "2026-09-16",
+      "title": "OpenAI、HubSpotとShopifyからChatGPT広告を運用可能に。広告事業は200日未満で年換算10億ドル到達",
+      "bullets": [
+        "OpenAI、ChatGPT広告をHubSpot・Shopifyから直接運用可能に",
+        "ChatGPT広告事業、200日足らずで年換算10億ドル規模に到達",
+        "無料・Goプラン表示の約26%がスポンサー付き、米国では新広告形式も試験"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ppc.land/content/images/2026/09/OpenAI-lets-advertisers-run-ChatGPT-ads-from-HubSpot-and-Shopify.jpg"
+      }
+    },
+    {
+      "slug": "mcp-dir-ec-generative-ai-directory",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/mcp-dir-ec-generative-ai-directory.html",
+      "sourceUrl": "https://netshop.impress.co.jp/n/2026/09/16/16740",
+      "platforms": [
+        "other-ai"
+      ],
+      "viewpoint": "seller",
+      "theme": "optimization",
+      "source": "ネットショップ担当者フォーラム",
+      "date": "2026-09-16",
+      "title": "生成AIとEC業務データをつなぐ案内所「mcp-dir」登場、50件のMCPサーバーを業務目的別に検索可能に",
+      "bullets": [
+        "生成AIとEC業務データの接続先を業務目的で検索できる案内所が公開",
+        "6カテゴリ・50件を掲載、34件は公式MCPサーバー対応",
+        "CSV貼り付けなど手作業を省き、生成AI活用の障壁を下げる"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://netshop.impress.co.jp/sites/default/files/styles/1200x630/public/images/news/2026/news-node16740-ogp.png?itok=PHEZ2KB5"
+      }
+    },
+    {
+      "slug": "google-ucp-cart-transfer-update",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/google-ucp-cart-transfer-update.html",
+      "sourceUrl": "https://www.searchenginejournal.com/google-ucp-update-lets-merchants-enable-cart-transfer-to-site/589713/",
+      "platforms": [
+        "google"
+      ],
+      "viewpoint": "seller",
+      "theme": "optimization",
+      "source": "Search Engine Journal",
+      "date": "2026-09-16",
+      "title": "Google、UCP経由のチェックアウトに「カート転送」機能を追加。マーチャント自身のサイトで決済完了が可能に",
+      "bullets": [
+        "Google、UCPに「カート転送」機能追加。自社サイト決済も選択可",
+        "商品フィード設定を省略できる簡易検証パスも新設",
+        "Merchant CenterのAI分析機能を5カ国に拡大提供"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://cdn.searchenginejournal.com/wp-content/uploads/2026/09/google-ucp-cart-transfer-1600x840-1.jpg"
+      }
+    },
+    {
+      "slug": "colorme-ai-visitor-analytics",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/colorme-ai-visitor-analytics.html",
+      "sourceUrl": "https://shop-pro.jp/news/20260824-ai-analytics",
+      "platforms": [
+        "other-ai"
+      ],
+      "viewpoint": "seller",
+      "theme": "measurement",
+      "source": "カラーミーショップ",
+      "date": "2026-08-24",
+      "title": "カラーミーショップ、AI経由の流入を可視化する「カラーミーAI集客アナリティクス」提供開始",
+      "bullets": [
+        "カラーミー、AI経由の流入を可視化する無料アプリを提供開始",
+        "AI経由セッション数は前年同期比で約6倍に増加と判明",
+        "llms.txt自動生成でAIに店舗情報を正確に届ける機能も搭載"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://static-www-front.shop-pro.jp/_astro/eyecatch.DWB-4dGB_Z1r2vXs.png"
+      }
+    },
+    {
+      "slug": "chatgpt-shopping-product-feeds-shift",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/chatgpt-shopping-product-feeds-shift.html",
+      "sourceUrl": "https://www.searchenginejournal.com/chatgpt-shopping-results-lean-hard-on-product-feeds/589000/",
+      "platforms": [
+        "chatgpt"
+      ],
+      "viewpoint": "seller",
+      "theme": "optimization",
+      "source": "Search Engine Journal",
+      "date": "2026-09-09",
+      "title": "ChatGPTの商品推薦、7月の更新で商品フィード依存へ急転換。露出は上位ストアに集中",
+      "bullets": [
+        "ChatGPT商品推薦、7月の更新で商品フィード依存に急転換",
+        "推薦の65%がフィード経由に、露出は上位10店舗に集中",
+        "450事業者で露出3割減、フィード未連携は順番待ちの状態"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://cdn.searchenginejournal.com/wp-content/uploads/2026/09/chatgpt-shopping-product-feeds-featured.jpg"
+      }
+    },
+    {
+      "slug": "anylive-ai-avatar-analytics-update",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/anylive-ai-avatar-analytics-update.html",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000678.000018392.html",
+      "platforms": [
+        "other-ai"
+      ],
+      "viewpoint": "seller",
+      "theme": "optimization",
+      "source": "AnyMind Group株式会社",
+      "date": "2026-09-15",
+      "title": "AIライブコマース「AnyLive」、既存動画からのAIアバター生成と配信分析機能を強化",
+      "bullets": [
+        "AIライブコマース「AnyLive」がアバター生成・分析機能を強化",
+        "既存動画からAIアバターを生成可能に、精度も改善",
+        "人間・AI双方の配信データを比較しAIが改善提案する分析機能追加"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://prcdn.freetls.fastly.net/release_image/18392/678/18392-678-0de32b7a2dd27d99750233771fcb247f-1200x675.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+      }
+    },
+    {
+      "slug": "amazon-ads-inside-chatgpt-pilot",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/amazon-ads-inside-chatgpt-pilot.html",
+      "sourceUrl": "https://ppc.land/amazon-starts-selling-ads-inside-chatgpt-to-its-own-advertisers/",
+      "platforms": [
+        "amazon",
+        "chatgpt"
+      ],
+      "viewpoint": "seller",
+      "theme": "visibility",
+      "source": "PPC Land",
+      "date": "2026-09-10",
+      "title": "Amazon、自社広告主向けにChatGPT内への広告出稿を開始。DSPから会話型広告へ拡張",
+      "bullets": [
+        "Amazon、自社広告主向けにChatGPT内広告への出稿を開始",
+        "ChatGPT広告事業は年換算10億ドル規模に急成長中",
+        "会話内広告の計測方法は未整備、効果測定に課題残る"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ppc.land/content/images/2026/09/Amazon-starts-selling-ads-inside-ChatGPT-to-its-own-advertisers.jpg"
+      }
+    },
+    {
       "slug": "zozo-niau-room-wear-ai-diagnosis",
       "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/zozo-niau-room-wear-ai-diagnosis.html",
       "sourceUrl": "https://realsound.jp/tech/2026/09/post-2523999.html",
