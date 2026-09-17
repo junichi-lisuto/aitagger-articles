@@ -1,5 +1,7 @@
 ﻿param(
-    [int]$Count
+    [int]$Count,
+    [string]$Model = "",
+    [string]$Effort = ""
 )
 
 $ErrorActionPreference = "Stop"
@@ -26,6 +28,40 @@ if (-not $Count) {
 Write-Host "目標本数: $Count 本(上限はその1.5倍まで)"
 Write-Host ""
 
+if (-not $Model) {
+    Write-Host "使用するモデルを選んでください:"
+    Write-Host "  1: 既定(claude設定に従う)"
+    Write-Host "  2: sonnet"
+    Write-Host "  3: opus"
+    Write-Host "  4: haiku"
+    $modelChoice = Read-Host "番号を入力(空Enterで既定)"
+    switch ($modelChoice) {
+        "2" { $Model = "sonnet" }
+        "3" { $Model = "opus" }
+        "4" { $Model = "haiku" }
+        default { $Model = "" }
+    }
+}
+
+if (-not $Effort) {
+    Write-Host "推論レベル(effort)を選んでください:"
+    Write-Host "  1: 既定"
+    Write-Host "  2: low"
+    Write-Host "  3: medium"
+    Write-Host "  4: high"
+    $effortChoice = Read-Host "番号を入力(空Enterで既定)"
+    switch ($effortChoice) {
+        "2" { $Effort = "low" }
+        "3" { $Effort = "medium" }
+        "4" { $Effort = "high" }
+        default { $Effort = "" }
+    }
+}
+
+Write-Host ""
+Write-Host "モデル: $(if ($Model) { $Model } else { '既定' }) / 推論レベル: $(if ($Effort) { $Effort } else { '既定' })"
+Write-Host ""
+
 # 実行前の最新summaryログを記録しておき、新しく増えたものだけを追う
 $before = Get-ChildItem $logDir -Filter "*-summary.log" -ErrorAction SilentlyContinue | Select-Object -ExpandProperty Name
 
@@ -33,9 +69,10 @@ $before = Get-ChildItem $logDir -Filter "*-summary.log" -ErrorAction SilentlyCon
 # 本数を指定する手動実行はタスクを介さず nightly-research.ps1 を直接バックグラウンド起動する
 Write-Host "自動リサーチを起動します..."
 $scriptPath = Join-Path $PSScriptRoot "nightly-research.ps1"
-Start-Process -FilePath "powershell.exe" -ArgumentList @(
-    "-NoProfile", "-ExecutionPolicy", "Bypass", "-File", "`"$scriptPath`"", "-Count", $Count
-) -WindowStyle Hidden
+$nightlyArgs = @("-NoProfile", "-ExecutionPolicy", "Bypass", "-File", "`"$scriptPath`"", "-Count", $Count)
+if ($Model) { $nightlyArgs += @("-Model", $Model) }
+if ($Effort) { $nightlyArgs += @("-Effort", $Effort) }
+Start-Process -FilePath "powershell.exe" -ArgumentList $nightlyArgs -WindowStyle Hidden
 
 Write-Host "ログファイルが作成されるのを待っています..."
 $summaryLogPath = $null
