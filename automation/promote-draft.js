@@ -47,6 +47,7 @@ function main() {
     html = html
       .replace(/href="\.\.\/([a-z0-9-]+\.html)"/g, 'href="$1"')
       .replace(/href="\.\.\/\.\.\/index\.html/g, 'href="../index.html')
+      .replace(/src="\.\.\/\.\.\/assets\//g, 'src="../assets/')
       .replace(/この記事（下書き・未公開）/g, 'この記事');
     fs.writeFileSync(destHtmlPath, html, 'utf-8');
     fs.unlinkSync(draftHtmlPath);

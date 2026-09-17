@@ -25,6 +25,7 @@ const metaDir = path.join(__dirname, 'draft-meta');
 const CAT_CLASS = { visibility: 'theme-visibility', optimization: 'theme-optimization', measurement: 'theme-measurement' };
 const THEME_LABEL = { visibility: '検索結果・購買導線の変化', optimization: '商品情報・タグ付けの対策', measurement: '計測・分析' };
 const PLATFORM_LABEL = { google: 'Google', chatgpt: 'ChatGPT', rakuten: '楽天', yahoo: 'Yahoo!', 'other-ai': 'その他AI検索', amazon: 'Amazon' };
+const SITE_TOP_URL = 'https://www.lisuto.co.jp/articles/';
 
 function esc(s) {
   return String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -41,7 +42,7 @@ function articleHtml(a) {
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script>if ('scrollRestoration' in history) { history.scrollRestoration = 'manual'; }</script>
-<title>${esc(a.title)}｜AIタッガー ツールセンター</title>
+<title>${esc(a.title)}｜AIタッガー メディアセンター</title>
 <style>
   :root{
     --blue:#2563EB;
@@ -66,17 +67,12 @@ function articleHtml(a) {
   .wrap{max-width:var(--maxw);margin:0 auto;padding-inline:24px}
 
   header{border-bottom:1px solid var(--line);background:#fff;position:sticky;top:0;z-index:20}
-  .hbar{display:flex;align-items:center;gap:28px;height:68px;max-width:1120px;margin:0 auto;padding-inline:24px}
-  .logo{display:flex;align-items:center;gap:10px;font-weight:700;font-size:17px;
+  .hbar{display:flex;align-items:center;gap:11px;height:68px;max-width:1120px;margin:0 auto;padding-inline:24px}
+  .logo{display:flex;align-items:center;gap:11px;font-weight:700;font-size:17px;
         text-decoration:none;flex:none}
-  .logo .mark{background:var(--blue);color:#fff;font-weight:800;font-size:13px;
-        padding:5px 7px;border-radius:5px;letter-spacing:.04em}
+  .logo img{display:block;height:34px;width:auto}
   .logo .sub{color:var(--ink-soft);font-weight:500;font-size:13px;
-        border-left:1px solid var(--line);padding-left:10px;margin-left:2px}
-  nav{margin-left:auto;display:flex;gap:26px;align-items:center}
-  nav a{font-size:14px;font-weight:500;color:var(--ink-mid);text-decoration:none;
-        padding:6px 0;border-bottom:2px solid transparent}
-  nav a:hover{color:var(--blue);border-bottom-color:var(--blue)}
+        border-left:1px solid var(--line);padding-left:11px;margin-left:2px}
 
   .crumb{font-size:12.5px;color:var(--ink-soft);padding:16px 0 0}
   .crumb a{text-decoration:none}
@@ -122,12 +118,21 @@ function articleHtml(a) {
   .related a{display:block;font-size:14.5px;color:var(--blue);text-decoration:none;margin-bottom:8px}
   .related a:hover{text-decoration:underline}
 
-  footer{border-top:1px solid var(--line);padding:34px 0;font-size:13px;color:var(--ink-soft)}
-  .frow{display:flex;gap:24px;align-items:center;flex-wrap:wrap;max-width:1120px;margin:0 auto;padding-inline:24px}
+  footer{border-top:1px solid var(--line);padding:40px 0 25px;font-size:12px;color:var(--ink-soft);max-width:1120px;margin:0 auto;padding-inline:24px}
+  .ftop{display:flex;justify-content:space-between;gap:32px;flex-wrap:wrap;padding-bottom:24px;border-bottom:1px solid var(--line)}
+  .fcompany p{margin:0 0 6px}
+  .fcompany p:last-child{margin-bottom:0}
+  .fname{color:var(--ink);font-size:13px;font-weight:800}
+  .fcompany a{color:var(--ink-soft);text-decoration:none}
+  .fcompany a:hover{color:var(--blue-dark);text-decoration:underline}
+  .flinks{display:flex;flex-direction:column;align-items:flex-end;gap:8px}
+  .flinks a{color:var(--ink-mid);text-decoration:none;font-size:12px;font-weight:600}
+  .flinks a:hover{color:var(--blue-dark);text-decoration:underline}
+  .frow{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;padding-top:20px}
 
   @media(max-width:560px){
     h1{font-size:21px}
-    nav{display:none}
+    .flinks{align-items:flex-start}
   }
 </style>
 </head>
@@ -135,17 +140,12 @@ function articleHtml(a) {
 
 <header>
   <div class="hbar">
-    <a class="logo" href="../../index.html"><span class="mark">AI</span>タッガー<span class="sub">ツールセンター</span></a>
-    <nav>
-      <a href="../../index.html#tools">ツール</a>
-      <a href="../../index.html#reads">AI検索を知る</a>
-      <a href="../../index.html#support">困ったときは</a>
-    </nav>
+    <a class="logo" href="${SITE_TOP_URL}"><img src="../../assets/logo.svg" alt="AIタッガー"><span class="sub">メディアセンター</span></a>
   </div>
 </header>
 
 <div class="wrap">
-  <p class="crumb"><a href="../../index.html">トップ</a><span>›</span><a href="../../index.html#reads">AI検索を知る</a><span>›</span>この記事（下書き・未公開）</p>
+  <p class="crumb"><a href="${SITE_TOP_URL}">トップ</a><span>›</span><a href="${SITE_TOP_URL}?theme=${esc(a.theme)}">${THEME_LABEL[a.theme]}</a><span>›</span>この記事（下書き・未公開）</p>
 
   <a class="thumb" href="${esc(a.sourceUrl)}" target="_blank" rel="noopener"><img src="${esc(a.thumbnail)}" alt="" loading="lazy"></a>
 
@@ -179,10 +179,19 @@ ${relatedLinks}
 </div>
 
 <footer>
-  <div class="frow">
-    <span>© 2026 LISUTO</span>
-    <span style="margin-left:auto">AIタッガーをご契約のお客様向けページです</span>
+  <div class="ftop">
+    <div class="fcompany">
+      <p class="fname">LISUTO株式会社</p>
+      <p>〒106-0032 東京都港区六本木2丁目2-8-9F</p>
+      <p><a href="tel:0362777445">03-6277-7445</a> / <a href="mailto:sales@lisuto.com">sales@lisuto.com</a></p>
+    </div>
+    <nav class="flinks">
+      <a href="https://www.lisuto.co.jp/company/" target="_blank" rel="noopener">会社概要</a>
+      <a href="https://www.lisuto.co.jp/terms-of-use/" target="_blank" rel="noopener">利用規約</a>
+      <a href="https://www.lisuto.co.jp/privacy/" target="_blank" rel="noopener">プライバシーポリシー</a>
+    </nav>
   </div>
+  <div class="frow"><span>&copy; 2026 LISUTO Inc.</span></div>
 </footer>
 
 <script>
