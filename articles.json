@@ -1,7 +1,230 @@
 {
-  "updatedAt": "2026-09-16",
+  "updatedAt": "2026-09-17",
   "schemaVersion": 2,
   "articles": [
+    {
+      "slug": "zozo-niau-room-wear-ai-diagnosis",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/zozo-niau-room-wear-ai-diagnosis.html",
+      "sourceUrl": "https://realsound.jp/tech/2026/09/post-2523999.html",
+      "platforms": [
+        "other-ai"
+      ],
+      "viewpoint": "buyer",
+      "theme": "visibility",
+      "source": "リアルサウンド テック",
+      "date": "2026-09-15",
+      "title": "ZOZO、全28タイプのAI診断で\"似合う\"を提案する新機能「似合うルーム by ZOZO」提供開始",
+      "bullets": [
+        "ZOZOが全28タイプのAI診断で\"似合う\"提案開始",
+        "バーチャル試着まで一連の体験としてWEARに搭載",
+        "LINE公式アカウントでも同時にお試しコーデ展開"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://realsound.jp/wp-content/uploads/2026/09/20260915-wear-niau-room-99.jpg"
+      }
+    },
+    {
+      "slug": "yahoo-shopping-ai-omakase-coordinate",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/yahoo-shopping-ai-omakase-coordinate.html",
+      "sourceUrl": "https://www.watch.impress.co.jp/docs/news/2137744.html",
+      "platforms": [
+        "yahoo"
+      ],
+      "viewpoint": "buyer",
+      "theme": "visibility",
+      "source": "Impress Watch",
+      "date": "2026-09-02",
+      "title": "Yahoo!ショッピング、AIが服選びをサポートする「AIおまかせコーディネート」提供開始",
+      "bullets": [
+        "Yahoo!ショッピングにAI服選び支援機能が登場",
+        "コーデ提案から着用イメージ・サイズ比較まで一括対応",
+        "先行導入はantiquaなど4ストアから順次拡大"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://www.watch.impress.co.jp/img/ipw/list/2137/744/00.jpg"
+      }
+    },
+    {
+      "slug": "rakuten-genz-ai-survey-2026",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/rakuten-genz-ai-survey-2026.html",
+      "sourceUrl": "https://corp.rakuten.co.jp/news/press/2026/0904_01.html",
+      "platforms": [
+        "rakuten"
+      ],
+      "viewpoint": "buyer",
+      "theme": "measurement",
+      "source": "楽天グループ",
+      "date": "2026-09-04",
+      "title": "楽天、Z世代の「生成AI利用に関する調査」結果を発表 商品検討時の利用率は54.3%",
+      "bullets": [
+        "楽天調査、Z世代の54.3%が商品検討でAIを利用",
+        "生成AIを「ほぼ毎日」使う割合は38.0%に到達",
+        "楽天のAI活用に好印象な回答は40.8%"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://corp.rakuten.co.jp/news/assets/img/press/2026_press_jp/0904/%E6%A5%BD%E5%A4%A9%E5%AD%A6%E5%89%B2_Z%E4%B8%96%E4%BB%A3%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E3%80%8C%E7%94%9F%E6%88%90AI%E5%88%A9%E7%94%A8%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E8%AA%BF%E6%9F%BB%E3%80%8D%E7%B5%90%E6%9E%9C%E3%80%8D.png"
+      }
+    },
+    {
+      "slug": "prizma-ai-inflow-measurement-survey-2026",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/prizma-ai-inflow-measurement-survey-2026.html",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000220.000149156.html",
+      "platforms": [
+        "google",
+        "other-ai"
+      ],
+      "viewpoint": "seller",
+      "theme": "measurement",
+      "source": "株式会社PRIZMA",
+      "date": "2026-09-14",
+      "title": "PRIZMA調査、AI流入の効果を定量計測する企業は約6割 問い合わせ・売上両方につながるのは2.5割",
+      "bullets": [
+        "AI流入を定量計測する企業は約6割にとどまる",
+        "問い合わせ・売上両方への貢献を確認できたのは2.5割",
+        "計測ツールはSearch Console・GA4が上位"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://prcdn.freetls.fastly.net/release_image/149156/220/149156-220-27821eeb5e062e44bc29dd07e62fa81f-1920x1280.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+      }
+    },
+    {
+      "slug": "openai-testing-ads-sponsored-agents",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/openai-testing-ads-sponsored-agents.html",
+      "sourceUrl": "https://openai.com/index/testing-ads-in-chatgpt/",
+      "platforms": [
+        "chatgpt"
+      ],
+      "viewpoint": "seller",
+      "theme": "optimization",
+      "source": "OpenAI",
+      "date": "2026-09-16",
+      "title": "OpenAI、ChatGPT広告に対話する「スポンサードエージェント」機能をテスト開始",
+      "bullets": [
+        "OpenAIが対話する広告「スポンサードエージェント」をテスト",
+        "HubSpot・Shopifyと連携しChatGPT Adsを統合",
+        "広告主はユーザーの個別チャット内容にアクセス不可"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://images.ctfassets.net/kftzwdyauwt9/21TdmlEzFwgoo7ZER7SNCV/001b3d542fd4d025a2dcd1a5ab9417fe/OAI_AdsTest_Blog_OpenGraph_1200x630.png?w=1600&h=900&fit=fill"
+      }
+    },
+    {
+      "slug": "nint-ec-ai-usage-survey-2026",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/nint-ec-ai-usage-survey-2026.html",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000188.000033212.html",
+      "platforms": [
+        "other-ai"
+      ],
+      "viewpoint": "seller",
+      "theme": "measurement",
+      "source": "株式会社Nint",
+      "date": "2026-09-01",
+      "title": "Nint調査、EC業務のAI活用は個人利用93%も業務プロセスの自動化は32%にとどまる",
+      "bullets": [
+        "Nint調査、EC担当者のAI個人利用は93%に到達",
+        "業務プロセスの自動化まで進んだのは32%にとどまる",
+        "データ集計・転記に37%が時間を取られていると回答"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://prcdn.freetls.fastly.net/release_image/33212/188/33212-188-dfaf5a94fb21e6e08f6e7eb3a3d40a33-1672x941.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+      }
+    },
+    {
+      "slug": "netshop-rakuten-2026h2-ai-strategy",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/netshop-rakuten-2026h2-ai-strategy.html",
+      "sourceUrl": "https://netshop.impress.co.jp/e/2026/09/17/16713",
+      "platforms": [
+        "rakuten"
+      ],
+      "viewpoint": "seller",
+      "theme": "optimization",
+      "source": "ネットショップ担当者フォーラム",
+      "date": "2026-09-17",
+      "title": "楽天市場、2026年下半期戦略の全貌 AIを軸に売り場・販促・物流・店舗運営を強化",
+      "bullets": [
+        "楽天市場、下半期戦略はAIが軸と表明",
+        "検索は「キーワード」から「AI理解型」へ移行中",
+        "GEO=商品情報の構造化精度が露出を左右"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://netshop.impress.co.jp/sites/default/files/styles/1200x630/public/images/news/2026/node16713-ogp.png?itok=UgR9xhZM"
+      }
+    },
+    {
+      "slug": "lycorp-agent-i-task-function",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/lycorp-agent-i-task-function.html",
+      "sourceUrl": "https://www.lycorp.co.jp/ja/news/release/020805/",
+      "platforms": [
+        "yahoo"
+      ],
+      "viewpoint": "buyer",
+      "theme": "visibility",
+      "source": "LINEヤフー",
+      "date": "2026-09-11",
+      "title": "LINEヤフー、AIエージェント「Agent i」に価格変動を追跡する「タスク機能」を追加",
+      "bullets": [
+        "Agent iに複数EC横断の値下がり通知機能が登場",
+        "購入検討中の商品を登録するだけで価格追跡を自動化",
+        "キーワード登録やイベント通知機能も同時に追加"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://www.lycorp.co.jp/ja/news/2026/260811_pressrelease_01.png"
+      }
+    },
+    {
+      "slug": "hakuhodo-oneder-ai-search-traffic-202607",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/hakuhodo-oneder-ai-search-traffic-202607.html",
+      "sourceUrl": "https://oneder.hakuhodody-one.co.jp/blog/ai-search-engine-202607",
+      "platforms": [
+        "google",
+        "other-ai"
+      ],
+      "viewpoint": "buyer",
+      "theme": "measurement",
+      "source": "oneder(博報堂DYグループ)",
+      "date": "2026-09-08",
+      "title": "博報堂DYグループ調査、AI検索エンジンのセッション数が2024年4月比で6,468%増加",
+      "bullets": [
+        "AI検索セッション、2年間で6,468%増と博報堂DYが分析",
+        "アパレル業種はAI Overviews表示が前月比+15.0%",
+        "Know型クエリのAI表示は前月比9.5%増と加速"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://oneder.hakuhodody-one.co.jp/hubfs/oneder/image/blog/ai-search-engine-202607_00.jpg"
+      }
+    },
+    {
+      "slug": "amazon-ads-chatgpt-integration",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/amazon-ads-chatgpt-integration.html",
+      "sourceUrl": "https://advertising.amazon.com/ja-jp/library/news/amazon-ads-chat-gpt-advertising-integration",
+      "platforms": [
+        "amazon",
+        "chatgpt"
+      ],
+      "viewpoint": "seller",
+      "theme": "optimization",
+      "source": "Amazon Ads",
+      "date": "2026-09-10",
+      "title": "Amazon Ads、ChatGPT上で広告主が会話型広告を展開できる新統合を発表",
+      "bullets": [
+        "Amazon AdsがChatGPT上での会話型広告統合を発表",
+        "米国の一部広告主対象にパイロットとして開始",
+        "Amazonの購買データをChatGPT広告に活用"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://m.media-amazon.com/images/G/01/AdProductsWebsite/images/amazonads_chatgpt.jpg"
+      }
+    },
     {
       "slug": "yahoo-finance-walmart-sparky-40percent",
       "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/yahoo-finance-walmart-sparky-40percent.html",

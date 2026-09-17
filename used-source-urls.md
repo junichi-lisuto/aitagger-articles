@@ -1,8 +1,18 @@
 # 既出の元記事URL一覧（自動生成）
 
 記事候補を探す前に必ずこの一覧を確認し、ここに載っているURLと同じ元記事は候補から除外すること。
-生成元: articles.json（更新日: 2026-09-16）
+生成元: articles.json（更新日: 2026-09-17）
 
+- https://realsound.jp/tech/2026/09/post-2523999.html
+- https://www.watch.impress.co.jp/docs/news/2137744.html
+- https://corp.rakuten.co.jp/news/press/2026/0904_01.html
+- https://prtimes.jp/main/html/rd/p/000000220.000149156.html
+- https://openai.com/index/testing-ads-in-chatgpt/
+- https://prtimes.jp/main/html/rd/p/000000188.000033212.html
+- https://netshop.impress.co.jp/e/2026/09/17/16713
+- https://www.lycorp.co.jp/ja/news/release/020805/
+- https://oneder.hakuhodody-one.co.jp/blog/ai-search-engine-202607
+- https://advertising.amazon.com/ja-jp/library/news/amazon-ads-chat-gpt-advertising-integration
 - https://finance.yahoo.com/technology/ai/articles/walmart-says-ai-assistant-sparky-163000558.html
 - https://sparktoro.com/blog/in-2026-less-than-one-third-of-google-searches-still-send-a-click/
 - https://www.semrush.com/news/463141-semrush-releases-expanded-2026-ai-visibility-index-analyzing-126-million-ai-search-prompts/
