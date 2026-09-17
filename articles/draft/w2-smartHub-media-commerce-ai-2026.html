@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script>if ('scrollRestoration' in history) { history.scrollRestoration = 'manual'; }</script>
+<title>W2、メディアコマースの基盤「W2 SmartHub」を正式リリース。複数データの統合とAIエージェント機能で売上最適化へ｜AIタッガー メディアセンター</title>
+<style>
+  :root{
+    --blue:#2563EB;
+    --blue-dark:#1E3A8A;
+    --blue-wash:#EFF6FF;
+    --ink:#0F172A;
+    --ink-mid:#475569;
+    --ink-soft:#64748B;
+    --line:#E2E8F0;
+    --tint:#F8FAFC;
+    --c-visibility:#2563EB;
+    --c-optimization:#7C3AED;
+    --c-measurement:#DC2626;
+    --maxw:760px;
+    --jp:"Noto Sans JP","Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,system-ui,sans-serif;
+  }
+  *{box-sizing:border-box}
+  [hidden]{display:none!important}
+  body{margin:0;background:#fff;color:var(--ink);font-family:var(--jp);
+       font-size:16px;line-height:1.8;-webkit-font-smoothing:antialiased}
+  a{color:inherit}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding-inline:24px}
+
+  header{border-bottom:1px solid var(--line);background:#fff;position:sticky;top:0;z-index:20}
+  .hbar{display:flex;align-items:center;gap:11px;height:68px;max-width:1120px;margin:0 auto;padding-inline:24px}
+  .logo{display:flex;align-items:center;gap:11px;font-weight:700;font-size:17px;
+        text-decoration:none;flex:none}
+  .logo img{display:block;height:34px;width:auto}
+  .logo .sub{color:var(--ink-soft);font-weight:500;font-size:13px;
+        border-left:1px solid var(--line);padding-left:11px;margin-left:2px}
+
+  .crumb{font-size:12.5px;color:var(--ink-soft);padding:16px 0 0}
+  .crumb a{text-decoration:none}
+  .crumb a:hover{color:var(--blue)}
+  .crumb span{margin:0 7px;color:#CBD5E1}
+
+  .thumb{position:relative;display:block;width:100%;padding-top:56.25%;
+         overflow:hidden;background:var(--tint);border-radius:12px;
+         margin:20px 0;transition:opacity .15s}
+  .thumb:hover{opacity:.88}
+  .thumb svg,.thumb img{position:absolute;inset:0;width:100%;height:100%;
+         display:block;object-fit:cover}
+
+  .meta{display:flex;gap:8px;align-items:center;margin:0 0 12px;flex-wrap:wrap}
+  .cat{font-size:11px;font-weight:700;padding:3px 9px;border-radius:999px;color:#fff}
+  .platform{font-size:11px;font-weight:700;color:var(--ink-soft)}
+  .cat.theme-visibility{background:var(--c-visibility)}
+  .cat.theme-optimization{background:var(--c-optimization)}
+  .cat.theme-measurement{background:var(--c-measurement)}
+  .src,.date{font-size:12.5px;color:var(--ink-soft)}
+
+  h1{font-size:26px;margin:0 0 8px;line-height:1.5;color:var(--blue-dark)}
+  .orig{font-size:13px;color:var(--ink-soft);margin:0 0 28px}
+
+  h2{font-size:15px;letter-spacing:.04em;color:var(--ink-soft);font-weight:700;margin:0 0 12px}
+  .background{font-size:15.5px;color:var(--ink);line-height:1.8;margin:0 0 28px}
+  .points{margin:0 0 28px;padding:0;list-style:none}
+  .points li{font-size:15.5px;line-height:1.8;color:var(--ink);
+        padding-left:18px;position:relative;margin-bottom:10px}
+  .points li::before{content:"";position:absolute;left:0;top:.75em;
+        width:5px;height:5px;border-radius:50%;background:var(--blue)}
+
+  .why{background:var(--blue-wash);border-radius:12px;padding:20px 22px;margin-bottom:28px}
+  .why h2{color:var(--blue-dark);margin-bottom:8px}
+  .why p{font-size:15px;color:var(--ink);margin:0;line-height:1.8}
+
+  .source-link{display:inline-flex;align-items:center;gap:6px;font-size:14.5px;
+        font-weight:600;color:var(--blue);text-decoration:none;margin-bottom:48px}
+  .source-link:hover{text-decoration:underline}
+
+  .related{border-top:1px solid var(--line);padding:32px 0 60px}
+  .related h2{color:var(--ink);margin-bottom:16px}
+  .related a{display:block;font-size:14.5px;color:var(--blue);text-decoration:none;margin-bottom:8px}
+  .related a:hover{text-decoration:underline}
+
+  footer{border-top:1px solid var(--line);padding:40px 0 25px;font-size:12px;color:var(--ink-soft);max-width:1120px;margin:0 auto;padding-inline:24px}
+  .ftop{display:flex;justify-content:space-between;gap:32px;flex-wrap:wrap;padding-bottom:24px;border-bottom:1px solid var(--line)}
+  .fcompany p{margin:0 0 6px}
+  .fcompany p:last-child{margin-bottom:0}
+  .fname{color:var(--ink);font-size:13px;font-weight:800}
+  .fcompany a{color:var(--ink-soft);text-decoration:none}
+  .fcompany a:hover{color:var(--blue-dark);text-decoration:underline}
+  .flinks{display:flex;flex-direction:column;align-items:flex-end;gap:8px}
+  .flinks a{color:var(--ink-mid);text-decoration:none;font-size:12px;font-weight:600}
+  .flinks a:hover{color:var(--blue-dark);text-decoration:underline}
+  .frow{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;padding-top:20px}
+
+  @media(max-width:560px){
+    h1{font-size:21px}
+    .flinks{align-items:flex-start}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="hbar">
+    <a class="logo" href="https://www.lisuto.co.jp/articles/"><img src="../../assets/logo.svg" alt="AIタッガー"><span class="sub">メディアセンター</span></a>
+  </div>
+</header>
+
+<div class="wrap">
+  <p class="crumb"><a href="https://www.lisuto.co.jp/articles/">トップ</a><span>›</span><a href="https://www.lisuto.co.jp/articles/?theme=optimization">商品情報・タグ付けの対策</a><span>›</span>この記事（下書き・未公開）</p>
+
+  <a class="thumb" href="https://netshop.impress.co.jp/n/2026/09/16/16749" target="_blank" rel="noopener"><img src="https://netshop.impress.co.jp/sites/default/files/styles/1200x630/public/images/news/2026/news-node16749-ogp.jpg?itok=Yccrmv4_" alt="" loading="lazy"></a>
+
+  <div class="meta">
+    <span class="cat theme-optimization">商品情報・タグ付けの対策</span>
+    <span class="platform">その他AI検索</span>
+    <span class="src">ネットショップ担当者フォーラム</span>
+    <span class="date">undefined</span>
+  </div>
+  <h1>W2、メディアコマースの基盤「W2 SmartHub」を正式リリース。複数データの統合とAIエージェント機能で売上最適化へ</h1>
+
+  <h2>背景</h2>
+  <p class="background">ECプラットフォームのW２が、ECを「売る場所」から「売上を生むメディア」へ進化させるAIエージェント基盤「W2 SmartHub」を9月15日に正式リリースしました。顧客の商品理解と選択を支援しながら売上につなげる「メディアコマース」の実現を目指すものです。</p>
+
+  <h2>結論</h2>
+  <ul class="points">
+    <li>EC・店舗・基幹システム・メディアなど複数データを統合し、AIが企画から効果検証まで支援</li>
+    <li>コンテンツ企画支援、レビュー・SNS分析、商品探索支援、個別レコメンデーション機能を提供</li>
+    <li>記事閲覧から購買までのつながりを可視化し、メディア施策の売上寄与度を測定可能に</li>
+  </ul>
+
+  <div class="why">
+    <h2>メッセージ</h2>
+    <p>販売数字だけでなく、「どの情報発信が売上につながったか」を可視化できる時代になりました。ブログや商品情報が単なる「コンテンツ」ではなく「売上を生むメディア」として評価され始めています。自社の商品情報の正確性と充実度が、AI推薦の精度とそのまま売上につながるようになったということです。</p>
+  </div>
+
+  <a class="source-link" href="https://netshop.impress.co.jp/n/2026/09/16/16749" target="_blank" rel="noopener">元記事を読む（ネットショップ担当者フォーラム）↗</a>
+
+  <div class="related">
+    <h2>関連記事</h2>
+
+  </div>
+</div>
+
+<footer>
+  <div class="ftop">
+    <div class="fcompany">
+      <p class="fname">LISUTO株式会社</p>
+      <p>〒106-0032 東京都港区六本木2丁目2-8-9F</p>
+      <p><a href="tel:0362777445">03-6277-7445</a> / <a href="mailto:sales@lisuto.com">sales@lisuto.com</a></p>
+    </div>
+    <nav class="flinks">
+      <a href="https://www.lisuto.co.jp/company/" target="_blank" rel="noopener">会社概要</a>
+      <a href="https://www.lisuto.co.jp/terms-of-use/" target="_blank" rel="noopener">利用規約</a>
+      <a href="https://www.lisuto.co.jp/privacy/" target="_blank" rel="noopener">プライバシーポリシー</a>
+    </nav>
+  </div>
+  <div class="frow"><span>&copy; 2026 LISUTO Inc.</span></div>
+</footer>
+
+<script>
+window.scrollTo(0,0);
+window.addEventListener('load', function(){ window.scrollTo(0,0); });
+</script>
+</body>
+</html>
