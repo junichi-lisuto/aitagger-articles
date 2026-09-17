@@ -32,10 +32,23 @@ Write-Host "この時点までの進捗(draft push・Slack通知)は保持され
 Write-Host "処理中の記事は中断され、途中までの状態がログに残ります。"
 Write-Host ""
 
-$answer = Read-Host "強制終了しますか？ (YES と入力すると実行します)"
+$answer = ""
+while ($answer -ne "YES" -and $answer -ne "NO") {
+    $answer = Read-Host "強制終了しますか？ このまま続行する場合は NO、強制終了する場合は YES と入力してください"
+    $answer = $answer.Trim().ToUpper()
+    if ($answer -ne "YES" -and $answer -ne "NO") {
+        Write-Host "YES か NO のどちらかを入力してください。"
+    }
+}
 
-if ($answer -ne "YES") {
-    Write-Host "キャンセルしました。プロセスは動作を継続しています。"
+if ($answer -eq "NO") {
+    Write-Host ""
+    Write-Host "続行を選択しました。自動リサーチはこのまま動作を継続します。"
+    Write-Host "  PID       : $($process.Id)"
+    Write-Host "  経過時間   : $([math]::Round(((Get-Date) - $process.StartTime).TotalMinutes, 1))分"
+    $latestLog = Get-ChildItem $logDir -Filter "nightly-research-*-summary.log" | Sort-Object LastWriteTime -Descending | Select-Object -First 1 -ExpandProperty FullName
+    Write-Host "進捗は以下のログファイルで確認できます:"
+    Write-Host "  $latestLog"
     exit 0
 }
 

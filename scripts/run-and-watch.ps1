@@ -65,29 +65,66 @@ Write-Host ""
 # Get-Content -Wait はキー入力を受け付けられずCtrl+Cでしか止められないため、
 # ここでは1秒ごとに新規行を読み出す簡易tailにして、その合間にキー入力をチェックする。
 $reader = New-Object System.IO.StreamReader(New-Object System.IO.FileStream($summaryLogPath, [System.IO.FileMode]::Open, [System.IO.FileAccess]::Read, [System.IO.FileShare]::ReadWrite))
-$stopRequested = $false
+$finished = $false
 
 try {
-    while (-not $stopRequested) {
+    while (-not $finished) {
         while (-not $reader.EndOfStream) {
             $line = $reader.ReadLine()
             if ($null -ne $line) {
                 Write-Host $line
                 if ($line -match "自動リサーチが完了しました" -or $line -match "^\[.*\] 失敗: ") {
-                    $stopRequested = $true
+                    $finished = $true
                     break
                 }
             }
         }
-        if ($stopRequested) { break }
+        if ($finished) { break }
 
         if ([Console]::KeyAvailable) {
             $key = [Console]::ReadKey($true)
+
+            # クリックやウィンドウ切り替え時にコンソールへ偶発的に1文字送られることがあるため、
+            # 'S'を検知しても即座には反応せず、直後にもう一度明示的な確認キーを求める。
             if ($key.Key -eq "S") {
+                # バッファに紛れ込んだ余分な入力を読み捨ててから確認する
+                while ([Console]::KeyAvailable) { [Console]::ReadKey($true) | Out-Null }
+
                 Write-Host ""
-                Write-Host ">>> 停止要求を受け付けました。安全に停止処理へ移ります... <<<"
-                $stopRequested = $true
-                break
+                Write-Host -NoNewline "本当に停止しますか？ よければもう一度「S」キーを押してください(3秒以内。他のキーやそのまま待つとキャンセル): "
+                $confirmed = $false
+                $waited = 0
+                while ($waited -lt 30) {
+                    if ([Console]::KeyAvailable) {
+                        $confirmKey = [Console]::ReadKey($true)
+                        if ($confirmKey.Key -eq "S") { $confirmed = $true }
+                        break
+                    }
+                    Start-Sleep -Milliseconds 100
+                    $waited++
+                }
+                Write-Host ""
+
+                if (-not $confirmed) {
+                    Write-Host "キャンセルしました。進捗表示に戻ります。"
+                    Write-Host ">>> 途中で止めたい場合は「S」キーを押してください（Enterは不要） <<<"
+                }
+                elseif (Test-Path $pidPath) {
+                    & (Join-Path $PSScriptRoot "stop-research.ps1")
+                    # stop-research.ps1側でYESが選ばれ実際に停止した場合のみ、ここでも終了する
+                    if (-not (Test-Path $pidPath)) {
+                        $finished = $true
+                        break
+                    }
+                    Write-Host ""
+                    Write-Host "進捗表示に戻ります。"
+                    Write-Host ">>> 途中で止めたい場合は「S」キーを押してください（Enterは不要） <<<"
+                }
+                else {
+                    Write-Host "実行は既に終了しています。"
+                    $finished = $true
+                    break
+                }
             }
         }
 
@@ -97,10 +134,5 @@ try {
     $reader.Close()
 }
 
-if (Test-Path $pidPath) {
-    Write-Host ""
-    & (Join-Path $PSScriptRoot "stop-research.ps1")
-} else {
-    Write-Host ""
-    Write-Host "実行は既に終了しています。"
-}
+Write-Host ""
+Write-Host "進捗表示を終了します。"

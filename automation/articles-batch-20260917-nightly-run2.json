@@ -1,0 +1,318 @@
+[
+  {
+    "slug": "google-holiday-agentic-commerce-tools-2026",
+    "sourceUrl": "https://blog.google/products-and-platforms/products/shopping/google-shopping-updates-holiday-shopping/",
+    "platforms": ["google"],
+    "viewpoint": "seller",
+    "theme": "visibility",
+    "source": "Google (公式ブログ)",
+    "date": "2026-09-16",
+    "dateDisplay": "2026年9月16日",
+    "title": "Google、ホリデー商戦に向けAI検索対応の新機能を追加。「AI Performance Insights」でブランドの露出状況を可視化",
+    "origTitle": "Retailers: Get ready for AI-driven holiday shopping",
+    "background": "Googleは2026年9月16日、年末商戦を控えた小売事業者向けにAI検索対応の新機能群を発表した。AI Mode・AI OverviewsでのAI経由の購買体験がここ数年で急速に広がる中、店舗側が自社の露出状況を把握し対策を打てる手段が不足していた課題への対応となる。",
+    "bullets": [
+      "「AI Performance Insights」をMerchant Centerに追加。豪・加・印・NZ・米で提供し、AI Mode・AI Overviewsにおける自社ブランドの「シェア・オブ・ボイス」を他ブランドと比較できるようにした",
+      "米国の対象小売事業者向けに「Business Agent」のベータ版提供を開始。YouTube広告上でも視聴者が製品について質問し、離脱せずに回答を得られるようにする",
+      "Universal Commerce Protocol(UCP)のカート引き継ぎ・チェックアウト機能を米国で拡張。豪・加へも来年展開予定",
+      "Nike、Sephora、Target、Ulta Beauty、Walmart、Wayfair、Shopify加盟店(Fenty、Steve Madden等)が対応小売事業者として名を連ねる"
+    ],
+    "cardBullets": [
+      "Google、AI Mode等での自社ブランド露出度を測る新機能をMerchant Centerに追加",
+      "「Business Agent」ベータ版開始。YouTube広告内でも製品質問に自動回答",
+      "UCPのカート引き継ぎ機能を米国で拡張、対応大手小売にNike・Targetら"
+    ],
+    "meaning": "AI検索が生成した回答の中で自社ブランドがどれだけ露出しているかを測る手段がなかった状況から一歩進み、Googleが公式に「シェア・オブ・ボイス」という指標を提供し始めた点が大きい。これまで感覚的にしか語れなかった「AI検索でどれだけ見つかっているか」が数値で確認できるようになることで、商品データやタグの整備がどれだけ効果を持ったかを検証しやすくなる。",
+    "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Think_Retail_hero_xePKgsT.width-1300.png"
+  },
+  {
+    "slug": "grannet-genai-search-survey-202609",
+    "sourceUrl": "https://www.commercepick.com/archives/102634",
+    "platforms": ["google", "other-ai"],
+    "viewpoint": "buyer",
+    "theme": "measurement",
+    "source": "コマースピック",
+    "date": "2026-09-15",
+    "dateDisplay": "2026年9月15日",
+    "title": "生成AI利用率が18ポイント増の56.4%に。購買前の比較検討での利用は66.3%まで拡大——グランネット調査",
+    "background": "EC・比較サイト運営のグランネットが2026年8月、全国の20代以上の就業者500名を対象に実施したインターネット調査の結果を2026年9月15日に公表した。前回調査からの半年〜1年でAI検索の利用実態がどう変わったかを定点観測した内容。",
+    "bullets": [
+      "情報収集での生成AI利用率は56.4%。前回調査の38.4%から18.0ポイント増加",
+      "購買前の比較検討で生成AIを使った経験がある人は66.3%(前回52.6%)",
+      "「非常に大きな影響があった」「ある程度影響があった」を合わせ、意思決定への影響を感じた人は65.2%",
+      "Google検索の日常的利用は48.6%で横ばいの一方、AIモードの使用率は36.0%(前回17.6%)まで倍増",
+      "検索利用者の54.7%がAI Overviewを確認していると回答",
+      "懸念点のトップは「情報が古い・間違っているかもしれない」で41.8%"
+    ],
+    "cardBullets": [
+      "生成AI利用率が18pt増の56.4%に。グランネットが500名調査",
+      "購買前の比較検討でのAI利用は66.3%、前回調査から13.7pt増",
+      "AIモード使用率が36.0%まで倍増、AI Overview確認は54.7%"
+    ],
+    "meaning": "生成AIの利用率そのものよりも、「購買前の比較検討」という具体的な購買行動の中でAIを使う人が66.3%まで増えている点が重要。EC店舗にとっては、商品ページの情報がAIにどう読み取られ、比較の材料としてどう扱われるかが、これまでのSEO対策以上に売上へ直結する段階に入りつつあることを示している。",
+    "thumbnail": "https://www.commercepick.com/wp-content/uploads/2026/09/main_becd96bad3bb431d883befcd1b6cbeb0.png"
+  },
+  {
+    "slug": "bazaarvoice-bluefish-ai-citation-reviews-2026",
+    "sourceUrl": "https://www.globenewswire.com/news-release/2026/09/17/3364022/19098/en/bazaarvoice-and-bluefish-team-up-as-new-research-shows-9-in-10-shoppers-want-real-reviews-behind-ai-product-recommendations.html",
+    "platforms": ["chatgpt", "google", "other-ai"],
+    "viewpoint": "buyer",
+    "theme": "measurement",
+    "source": "GlobeNewswire (Bazaarvoice / Bluefish)",
+    "date": "2026-09-17",
+    "dateDisplay": "2026年9月17日",
+    "title": "AI推奨商品の「9割はレビューを求める」。Bazaarvoice・Bluefishが23万件超のAI引用データを分析",
+    "origTitle": "Bazaarvoice and Bluefish Team Up as New Research Shows 9 in 10 Shoppers Want Real Reviews Behind AI Product Recommendations",
+    "background": "米Bazaarvoiceと分析企業Bluefishは2026年9月17日、AIが生成する商品推奨とレビューの関係についての共同調査結果を発表した。ChatGPT・Google AI Overviews・Perplexityが商品を推奨する際、実際のレビューをどこまで根拠にしているかを検証した内容。",
+    "bullets": [
+      "Bazaarvoice実施の2つの調査(2026年2月・9月、計3,000人超が回答)と、Bluefishによる2026年9月1〜7日のAI引用データ分析(23,592件のブランド・ECサイトURL、237,804件の引用インスタンス)を統合",
+      "9割のショッパーが、AIの商品推奨には本物のレビューの裏付けを求めると回答",
+      "AIの推奨への信頼度が半年間で「増加した」と回答した人は62%",
+      "最も信頼される情報として、本物のレビューと星評価を挙げた人が57%",
+      "AIに引用された商品ページ(PDP)の59%が100件以上のレビューを保有し、92%が星4つ以上の評価",
+      "AIに引用されたページの65%が、レビュー概要をページ上部に表示している"
+    ],
+    "cardBullets": [
+      "Bazaarvoice調査、9割のショッパーがAI推奨にレビューの裏付けを要求",
+      "AI引用ページの59%がレビュー100件以上、92%が星4つ以上を保有",
+      "AI引用ページの65%がレビュー概要を上部表示。23万件超のデータで検証"
+    ],
+    "meaning": "AIが商品を推薦する際、実際に参照されている商品ページの多くが「レビュー件数が多く評価も高い」という共通点を持っていたという結果は、EC店舗にとって示唆的だ。タグや属性情報の整備だけでなく、レビューの蓄積とその見せ方(上部への概要表示など)自体が、AIに拾われる商品ページの条件になりつつある。",
+    "thumbnail": "https://ml.globenewswire.com/Resource/Download/019f87f0-c090-403c-8c5b-e4024d04b13f"
+  },
+  {
+    "slug": "cyberagent-genai-search-survey-202608",
+    "sourceUrl": "https://www.advertimes.com/20260909/article556693/",
+    "platforms": ["google", "other-ai"],
+    "viewpoint": "buyer",
+    "theme": "measurement",
+    "source": "Advertimes",
+    "date": "2026-09-09",
+    "dateDisplay": "2026年9月9日",
+    "title": "生成AIの検索利用率が初の50%超え。「AIのおすすめから購入・利用」経験者は58.7%——サイバーエージェント調査",
+    "background": "サイバーエージェントは2026年9月9日、「生成AIのユーザー利用実態調査」2026年8月期の結果を公表した。全国15〜69歳の男女9,278人を対象に2026年8月7〜10日に実施した定点調査で、2025年5月の調査開始以来、生成AIの検索利用率が初めて50%を超えた。",
+    "bullets": [
+      "生成AIの検索利用率は52.3%。前回(2025年5月、21.3%)から31ポイント上昇",
+      "検索エンジンの利用率は86.9%で、前回の91.9%から低下",
+      "検索の「半分以上」を生成AIに切り替えたと答えた人は46.6%",
+      "AIのおすすめから実際に購入・利用した経験がある人は58.7%",
+      "AIの回答内のURLをクリックした経験がある人は61.0%",
+      "AIのおすすめ商品についてさらに自分で検索した経験がある人は77.3%"
+    ],
+    "cardBullets": [
+      "生成AI検索利用率が52.3%で初の50%超え。サイバーエージェント調査",
+      "検索の半分以上をAIに切り替えた人46.6%、購入経験者は58.7%",
+      "AI推薦後にさらに自分で検索する人が77.3%。裏取り検索が主流に"
+    ],
+    "meaning": "検索エンジンの利用率が下がり始め、生成AI検索が「補助的なツール」から「購入行動の起点」に変わりつつあることが数字で裏付けられた。特に、AIの回答からさらに自分で検索し直す人が77.3%もいる点は、AIに商品を見つけてもらった後、店舗の商品ページ自体がその「裏取り検索」に耐えられる情報を持っているかが問われることを意味する。",
+    "thumbnail": "https://cdn.advertimes.com/wp-content/uploads/2026/09/geo-labo01-ogp.jpg"
+  },
+  {
+    "slug": "anthropic-claude-agentic-commerce-blueprint",
+    "sourceUrl": "https://netshop.impress.co.jp/e/2026/09/17/16743",
+    "platforms": ["other-ai"],
+    "viewpoint": "seller",
+    "theme": "optimization",
+    "source": "ネットショップ担当者フォーラム",
+    "date": "2026-09-17",
+    "dateDisplay": "2026年9月17日",
+    "title": "Anthropic、「Claude」向けにエージェント型コマースの設計図を公開。導入企業で購入完了率60%向上の報告も",
+    "background": "Anthropicは2026年9月、対話型AI「Claude」を軸にしたエージェント型コマースの設計指針(blueprint)を発表した。消費者向け・店舗向けの2種類を用意し、ShopifyやVisa、Mastercardなど大手が対応を進めている。ChatGPTやGeminiが先行してきたAI経由の購買体験に、Claudeも本格参入する動きとなる。",
+    "bullets": [
+      "消費者向けの「ショッパーエージェント」は、対話を通じて商品に関する質問への回答から決済のサポートまでを一貫して支援",
+      "店舗向けの「マーチャントエージェント」は、売上分析や在庫管理に加え、マーケティング素材の作成やキャンペーン戦略の立案まで支援",
+      "Anthropicの初期データでは、AIエージェント導入により購入完了率が60%向上したケースが報告されている",
+      "導入企業にはShopify、Visa、Mastercard、Accentureなどが名を連ね、数日程度でAIエージェントを稼働できるとしている"
+    ],
+    "cardBullets": [
+      "Anthropic、Claude向けエージェント型コマースの設計図を公開",
+      "消費者向け・店舗向けの2種のAIエージェントを提供、Shopify等が対応",
+      "導入企業で購入完了率60%向上の報告。数日で稼働可能と説明"
+    ],
+    "meaning": "ChatGPTやGeminiに続きClaudeもエージェント型コマースに参入したことで、EC店舗が「どのAIに対応するか」ではなく「複数のAIエージェントに同時対応できる商品データを持っているか」を問われる段階に入ったと言える。特定のプラットフォームだけに最適化するのではなく、どのAIエージェントからも正しく読み取れる商品情報の整備が今後さらに重要になる。",
+    "thumbnail": "https://netshop.impress.co.jp/sites/default/files/styles/1200x630/public/images/article/2026/DigitalCommerce/node16743-ogp.jpg?itok=5BWoDorn"
+  },
+  {
+    "slug": "ec-ai-referral-share-shift-2026q2",
+    "sourceUrl": "https://netshop.impress.co.jp/e/2026/09/10/16691",
+    "platforms": ["chatgpt", "other-ai"],
+    "viewpoint": "buyer",
+    "theme": "measurement",
+    "source": "ネットショップ担当者フォーラム",
+    "date": "2026-09-10",
+    "dateDisplay": "2026年9月10日",
+    "title": "EC流入元のAIシェアに変化、ChatGPTが減少しGemini・Claudeが急伸。AI経由の訪問単価は非AI比53%高",
+    "background": "ネットショップ担当者フォーラムは2026年9月10日、Digital Commerce 360発のデータをもとに、EC事業者への流入元となるAIプラットフォームのシェア変化を報じた。2026年第1四半期から第2四半期にかけて、AI経由の流入を集計する対象企業数の変動から、各AIの存在感の移り変わりが浮き彫りになった。",
+    "bullets": [
+      "AI経由のEC流入は2026年7月時点で前年同月比62%増加",
+      "AI経由の訪問単価(RPV)は非AI経由の流入より53%高い",
+      "ChatGPT経由の流入がある企業数は844社から722社に減少",
+      "Gemini経由の流入がある企業数は16社から32社に倍増",
+      "Claude経由の流入がある企業数は1社から15社に急増",
+      "Perplexity経由の流入がある企業数もQ2で12社増加。アナリストは「この成長曲線が8四半期続けば、Claudeも3大AIの一角になる」と分析"
+    ],
+    "cardBullets": [
+      "EC流入元AIのシェアに変化、ChatGPT減少・Gemini/Claude急伸",
+      "AI経由の訪問単価は非AI比53%高、EC流入全体は前年比62%増",
+      "Claude経由の流入企業数が1社→15社に急増。複数AI対応が鍵に"
+    ],
+    "meaning": "これまで「AI検索対策=ChatGPT対策」と捉えられがちだったが、GeminiやClaude経由の流入企業数が急増している事実は、単一のAIに絞った対策ではなく、複数のAIから横断的に見つけてもらえる商品データの整備が必要であることを示している。ChatGPT経由の企業数が減少している点も、先行者優位が固定化されていないことの裏付けになる。",
+    "thumbnail": "https://netshop.impress.co.jp/sites/default/files/styles/1200x630/public/images/article/2026/DigitalCommerce/node16691-opg.jpg?itok=4QRKMFIu"
+  },
+  {
+    "slug": "yahoo-shopping-ai-agent-order-share-20pct",
+    "sourceUrl": "https://netshop.impress.co.jp/e/2026/09/15/16670",
+    "platforms": ["yahoo"],
+    "viewpoint": "seller",
+    "theme": "optimization",
+    "source": "ネットショップ担当者フォーラム",
+    "date": "2026-09-15",
+    "dateDisplay": "2026年9月15日",
+    "title": "Yahoo!ショッピング、AIエージェント経由の注文が全体の約20%に到達。出店者向けツール利用店舗は前年比15pt高い成長率",
+    "background": "ネットショップ担当者フォーラムは2026年9月15日、Yahoo!ショッピングが進めるAIエージェント化の進捗を報じた。2026年5月20日時点で15%だったAIエージェント経由の注文比率が、直近では約20%まで上昇したことが明らかになった。",
+    "bullets": [
+      "AIエージェントを経由した注文金額は全体の約20%に到達。2026年5月20日時点の15%から5ポイント上昇",
+      "「おトクな日を提案する機能」「AIおまかせ比較」の利用率はそれぞれ約37%",
+      "「AIお買い物メモ」の利用率は22%で、提供開始から1ヶ月で利用者数が約12倍に拡大",
+      "出店者向けAI分析ツール「Yahoo! EC Pilot」の利用ストアは全体の約半数",
+      "「Yahoo! EC Pilot」利用ストアは非利用ストアより前年比の取扱高成長率が15ポイント高い",
+      "インナーウェア販売の白鳩ではAI分析に基づく送料無料化で、CVRが40%増、月間販売数が20%増となった事例も紹介"
+    ],
+    "cardBullets": [
+      "Yahoo!ショッピング、AIエージェント経由の注文が約20%に到達",
+      "出店者ツール利用店舗は非利用店舗より前年比成長率が15pt高い",
+      "白鳩はAI分析活用でCVR40%増、月間販売数20%増の事例も"
+    ],
+    "meaning": "出店者向けツールを使ったかどうかで前年比の成長率に15ポイントもの差がついている点は見逃せない。AIエージェント経由の注文が2割に達した今、店舗側が「AIに使われる商品データ」を自分で整備しているかどうかが、そのまま売上の差になって表れ始めている。",
+    "thumbnail": "https://netshop.impress.co.jp/sites/default/files/styles/1200x630/public/images/article/2026/tanpatsu/node16670-ogp.jpg?itok=svpXU9NT"
+  },
+  {
+    "slug": "amazon-chatgpt-ads-meta-muse-shopping",
+    "sourceUrl": "https://www.commercepick.com/archives/102580",
+    "platforms": ["amazon", "chatgpt", "other-ai"],
+    "viewpoint": "seller",
+    "theme": "visibility",
+    "source": "コマースピック",
+    "date": "2026-09-15",
+    "dateDisplay": "2026年9月15日",
+    "title": "Amazon広告がChatGPTへ拡張、MetaはAI購入代行「Muse」を発表。ECの集客・購買導線が同時に変化",
+    "background": "コマースピック(2026年9月15日)によると、Amazon AdsとMetaがそれぞれAI関連の新展開を発表した。Amazon Adsは2026年9月10日、キャンペーンをChatGPT上の広告へ拡張する試験提供を開始。Metaは2026年9月8日、AIが購入手続きを代行する「Muse」を発表した。",
+    "bullets": [
+      "Amazon Adsのキャンペーンを、ChatGPT上の広告として試験的に拡張。米国の一部広告主が参加し、旅行サービスのDelta Vacationsも名を連ねる",
+      "ChatGPT上で利用者が選択肢を比較検討する場面を、新たな広告接点として位置付ける狙い",
+      "MetaのAI購入代行「Muse」は、利用者の依頼を受けてMuseが操作を進め、購入前に利用者が承認、決済に至る流れ",
+      "決済はStripeの「Link」に対応。「Shop Pay」は今後対応予定"
+    ],
+    "cardBullets": [
+      "Amazon広告、ChatGPT上への拡張を試験提供開始。旅行大手も参加",
+      "Meta、AIが購入手続きを代行する「Muse」を発表",
+      "広告・購買代行の両面でAIエージェント経由の新たな導線が誕生"
+    ],
+    "meaning": "広告と購買代行という異なる切り口から、AmazonとMetaが同時にAIエージェントへの接点づくりを進めている。EC店舗にとっては、従来の検索広告やSNS広告の枠組みだけでなく、AIエージェントが商品を選び購入手続きまで代行する新しい導線に、自社の商品情報がどう乗るかを意識する必要が出てきた。",
+    "thumbnail": "https://www.commercepick.com/wp-content/uploads/2026/09/202609141709.png"
+  },
+  {
+    "slug": "knowledge-holdings-ai-shopping-search-survey",
+    "sourceUrl": "https://www.commercepick.com/archives/102835",
+    "platforms": ["google", "other-ai"],
+    "viewpoint": "buyer",
+    "theme": "measurement",
+    "source": "コマースピック",
+    "date": "2026-09-17",
+    "dateDisplay": "2026年9月17日",
+    "title": "買い物でのAI検索利用率が68.1%に。信頼度はGoogle検索とほぼ並ぶ結果に——ナレッジホールディングス調査",
+    "background": "ナレッジホールディングスは2026年9月17日、「買い物・お店選びにおけるAI検索の利用実態」調査結果を公表した。全国20代〜50代のインターネットユーザー304名を対象に2026年8月に実施した調査で、買い物という具体的な文脈でのAI検索利用実態を明らかにしている。",
+    "bullets": [
+      "買い物でのAI検索利用率は68.1%(よく使う35.9%+たまに使う32.2%)。過去の利用経験を含めると80.9%",
+      "最も信頼する情報源としてGoogle検索を挙げた人が25.2%、AI検索が24.8%、口コミサイトが23.2%とほぼ拮抗",
+      "利用場面のトップ3は「日用品・食品の比較」55.7%、「家電・ガジェット選び」48.0%、「飲食店探し」45.1%",
+      "20代では「よく使う」と回答した人が57%に達し、世代間で利用率に差",
+      "性別では男性74%、女性59%とAI検索利用率に差が見られた"
+    ],
+    "cardBullets": [
+      "買い物でのAI検索利用率68.1%に。ナレッジHDが304名調査",
+      "信頼度はGoogle検索25.2%・AI検索24.8%とほぼ並ぶ結果に",
+      "日用品・食品の比較で使う人が55.7%とカテゴリ別トップ"
+    ],
+    "meaning": "AI検索への信頼度がGoogle検索とほぼ並んだという結果は、「AIはまだ補助的」という認識を更新する必要があることを示している。特に日用品・食品や家電といった比較検討が必要なカテゴリーでの利用が多い点は、こうした商品を扱う店舗ほど、AI検索での見え方を優先的に整えるべきであることを裏付けている。",
+    "thumbnail": "https://www.commercepick.com/wp-content/uploads/2026/09/166736-44-3592fa6f97a5bf5b3063445dd99fcb89-1920x1080-1.webp"
+  },
+  {
+    "slug": "members-sns-ugc-ai-recommendation-survey-2026",
+    "sourceUrl": "https://www.commercepick.com/archives/102640",
+    "platforms": ["other-ai"],
+    "viewpoint": "buyer",
+    "theme": "measurement",
+    "source": "コマースピック",
+    "date": "2026-09-15",
+    "dateDisplay": "2026年9月15日",
+    "title": "AI推奨を受けても49%が検索エンジンで「裏取り」。クチコミが無いと57%が購入を見送りに——メンバーズ調査",
+    "background": "株式会社メンバーズ グッドコミュニケーションズカンパニーは2026年9月15日、「SNS利用実態調査2026」を公表した。16歳〜60歳以上の男女10,180名を対象にした大規模調査で、AIによる商品推奨とSNS上のクチコミ・UGCがどう関係しているかを検証した内容。",
+    "bullets": [
+      "AIから商品を推奨された後、49%が「検索エンジンでさらに詳しく調べる」と回答し、AIの回答だけで完結させない傾向が明らかに",
+      "29%がSNS上で一般ユーザーのクチコミを確認すると回答",
+      "クチコミが見当たらない場合、57%が「購入をためらう・見送る可能性が高い」と回答",
+      "認知・購入決定のいずれの場面でも、一般ユーザーの投稿やクチコミが最も重視される情報源(いずれも4割以上)",
+      "AIが提示した情報だけで購入を決める人はわずか16%"
+    ],
+    "cardBullets": [
+      "AI推奨後も49%が検索エンジンで裏取り。メンバーズが1万人調査",
+      "クチコミが無いと57%が購入を見送りと回答。UGCの重要性浮き彫りに",
+      "AI情報のみで購入を決める人はわずか16%。裏取り行動が主流"
+    ],
+    "meaning": "AIに商品を勧められても、約半数がそのまま鵜呑みにせず検索エンジンで裏取りをしているという結果は、AI検索対策とSEO対策を切り離して考えられないことを意味する。加えて、クチコミの有無が購入見送りに直結する以上、商品タグや属性情報の整備だけでなく、レビューやUGCをどう蓄積し見せるかも、AI経由の集客を最終的な売上につなげる上で欠かせない要素だと分かる。",
+    "thumbnail": "https://www.commercepick.com/wp-content/uploads/2026/09/142993-7-b4c82ae6e888da6400327e16022d0802-990x554-1.jpg"
+  },
+  {
+    "slug": "rakuten-ai-store-manager-virtual-fitting-2026",
+    "sourceUrl": "https://netshop.impress.co.jp/e/2026/08/07/16536",
+    "platforms": ["rakuten"],
+    "viewpoint": "seller",
+    "theme": "optimization",
+    "source": "ネットショップ担当者フォーラム",
+    "date": "2026-08-07",
+    "dateDisplay": "2026年8月7日",
+    "title": "楽天市場、「AI店長」「バーチャル試着」「RMSバナー自動生成」を柱としたAI戦略を公開",
+    "background": "ネットショップ担当者フォーラムは2026年8月7日、「Rakuten AI Optimism」で示された楽天市場のAI戦略の全ぼうを報じた。店舗の接客をAIが代替する「AI店長」、購入前の試着体験をAIで再現する「バーチャル試着」、販促バナーの自動生成という3つの機能が柱となっている。",
+    "bullets": [
+      "「AI店長」は、各店舗の店長・スタッフの知識や接客スタイルを学習したAIアバターが、商品相談・比較・レビュー紹介・おすすめ提案・購入支援までを担当する構想。現時点はテキストチャットベースのデモ段階",
+      "「バーチャル試着」は、利用者が全身写真をアップロードすると、AIがコーディネートを提案し、実際に着用したような画像を生成する機能。提供時期は未定",
+      "「RMSバナー画像生成」は2026年9月提供予定。商品管理番号を入力するだけで、商品名・商品画像・キャッチコピーをもとに自動でバナー画像を生成でき、正方形(1:1)や横長(4:1)など計14種類の比率から選べる"
+    ],
+    "cardBullets": [
+      "楽天市場、「AI店長」「バーチャル試着」等のAI戦略を公開",
+      "RMSバナー自動生成は9月提供予定、14種類の比率から選択可能",
+      "接客・試着・販促をAIが肩代わりする構想、商品データの精度が鍵に"
+    ],
+    "meaning": "3つの機能はいずれも「店舗の手が回っていなかった接客・試着・販促制作をAIが肩代わりする」という方向性で共通している。特にRMSバナー自動生成のように、商品データさえ正しく登録していればAIが自動で成果物を作れる仕組みが増えていくほど、そのベースとなる商品情報・タグの精度がそのまま販促効果の差になっていく。",
+    "thumbnail": "https://netshop.impress.co.jp/sites/default/files/styles/1200x630/public/images/news/2026/news-node16536-ogp.jpg?itok=F4FkNGO-"
+  },
+  {
+    "slug": "retaildive-rtbhouse-agentic-ai-purchase-survey",
+    "sourceUrl": "https://www.retaildive.com/news/retail-shoppers-warm-up-agentic-ai-purchases/827563/",
+    "platforms": ["google", "chatgpt", "other-ai"],
+    "viewpoint": "buyer",
+    "theme": "measurement",
+    "source": "Retail Dive",
+    "date": "2026-08-13",
+    "dateDisplay": "2026年8月13日",
+    "title": "エージェント型AI購入、米消費者の42%が「検討に時間がかかる」と回答。信頼度はAIより友人・家族が上——RTB House調査",
+    "origTitle": "Consumers warm up to agentic AI purchases",
+    "background": "パフォーマンスマーケティング企業RTB Houseは、米国・英国・日本・フランスの消費者1,800人以上を対象にエージェント型AI購入に関する調査を実施し、2026年8月にRetail Diveが結果を報じた。AIエージェントが購入を代行する体験が広がる中、消費者側の受け止め方を検証した内容。",
+    "bullets": [
+      "米国消費者の42%が、AIによって検討すべき選択肢が増え「購入決定に時間がかかる」と回答",
+      "59%が、AIプラットフォームは「知らなかったブランドを強調してくれる」と評価",
+      "ミレニアル世代の42%が、7日以内に返品可能であれば250ドル予算内の自動購入をAIに許可すると回答",
+      "回答者の35%以上が、AIによる購入実行前に「人間による確認」を希望",
+      "AIツールへの信頼度は44%で、友人・家族への信頼度(59%)より低い",
+      "米国ではGoogle AI OverviewsとChatGPTが、いずれも43%で最も信頼されるショッピングAIとなった"
+    ],
+    "cardBullets": [
+      "米消費者の42%、AI経由の購入検討に「時間がかかる」と回答",
+      "AIへの信頼度44%、友人・家族の59%を下回る結果に",
+      "Google AI Overviews・ChatGPTが並んで最も信頼されるAIに"
+    ],
+    "meaning": "AIエージェントに購入を任せる動きが広がる一方で、消費者の3割以上が「人間による確認」を求め、信頼度も友人・家族には及ばないという結果は重要だ。AIに「見つけてもらう」対策と同時に、AIが提示した情報が消費者に「これなら安心して買える」と思わせられるだけの具体性(価格・返品条件・在庫状況など)を持っているかが、購入の最終判断を左右する。",
+    "thumbnail": "https://imgproxy.divecdn.com/sAF8uQpYE1-HjnSDy-ROFwcPqD-zo9WYk-3ccZaypzY/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xMTk1MDQ1MjA3LmpwZw==.webp"
+  }
+]

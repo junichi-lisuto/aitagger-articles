@@ -1,0 +1,22 @@
+{
+  "slug": "anthropic-claude-agentic-commerce-blueprint",
+  "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/anthropic-claude-agentic-commerce-blueprint.html",
+  "sourceUrl": "https://netshop.impress.co.jp/e/2026/09/17/16743",
+  "platforms": [
+    "other-ai"
+  ],
+  "viewpoint": "seller",
+  "theme": "optimization",
+  "source": "ネットショップ担当者フォーラム",
+  "date": "2026-09-17",
+  "title": "Anthropic、「Claude」向けにエージェント型コマースの設計図を公開。導入企業で購入完了率60%向上の報告も",
+  "bullets": [
+    "Anthropic、Claude向けエージェント型コマースの設計図を公開",
+    "消費者向け・店舗向けの2種のAIエージェントを提供、Shopify等が対応",
+    "導入企業で購入完了率60%向上の報告。数日で稼働可能と説明"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "url": "https://netshop.impress.co.jp/sites/default/files/styles/1200x630/public/images/article/2026/DigitalCommerce/node16743-ogp.jpg?itok=5BWoDorn"
+  }
+}
