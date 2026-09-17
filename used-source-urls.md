@@ -3,6 +3,18 @@
 記事候補を探す前に必ずこの一覧を確認し、ここに載っているURLと同じ元記事は候補から除外すること。
 生成元: articles.json（更新日: 2026-09-17）
 
+- https://www.retaildive.com/news/retail-shoppers-warm-up-agentic-ai-purchases/827563/
+- https://netshop.impress.co.jp/e/2026/08/07/16536
+- https://www.commercepick.com/archives/102640
+- https://www.commercepick.com/archives/102835
+- https://www.commercepick.com/archives/102580
+- https://netshop.impress.co.jp/e/2026/09/15/16670
+- https://netshop.impress.co.jp/e/2026/09/10/16691
+- https://netshop.impress.co.jp/e/2026/09/17/16743
+- https://www.advertimes.com/20260909/article556693/
+- https://www.globenewswire.com/news-release/2026/09/17/3364022/19098/en/bazaarvoice-and-bluefish-team-up-as-new-research-shows-9-in-10-shoppers-want-real-reviews-behind-ai-product-recommendations.html
+- https://www.commercepick.com/archives/102634
+- https://blog.google/products-and-platforms/products/shopping/google-shopping-updates-holiday-shopping/
 - https://www.searchenginejournal.com/what-wikipedia-reveals-about-ai-overviews-and-web-traffic/589042/
 - https://ai.watch.impress.co.jp/docs/news/2141472.html
 - https://ppc.land/ninth-circuit-frees-perplexitys-shopping-agent-from-amazons-hacking-claim/

@@ -3,6 +3,280 @@
   "schemaVersion": 2,
   "articles": [
     {
+      "slug": "retaildive-rtbhouse-agentic-ai-purchase-survey",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/retaildive-rtbhouse-agentic-ai-purchase-survey.html",
+      "sourceUrl": "https://www.retaildive.com/news/retail-shoppers-warm-up-agentic-ai-purchases/827563/",
+      "platforms": [
+        "google",
+        "chatgpt",
+        "other-ai"
+      ],
+      "viewpoint": "buyer",
+      "theme": "measurement",
+      "source": "Retail Dive",
+      "date": "2026-08-13",
+      "title": "エージェント型AI購入、米消費者の42%が「検討に時間がかかる」と回答。信頼度はAIより友人・家族が上——RTB House調査",
+      "bullets": [
+        "米消費者の42%、AI経由の購入検討に「時間がかかる」と回答",
+        "AIへの信頼度44%、友人・家族の59%を下回る結果に",
+        "Google AI Overviews・ChatGPTが並んで最も信頼されるAIに"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://imgproxy.divecdn.com/sAF8uQpYE1-HjnSDy-ROFwcPqD-zo9WYk-3ccZaypzY/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xMTk1MDQ1MjA3LmpwZw==.webp"
+      }
+    },
+    {
+      "slug": "rakuten-ai-store-manager-virtual-fitting-2026",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/rakuten-ai-store-manager-virtual-fitting-2026.html",
+      "sourceUrl": "https://netshop.impress.co.jp/e/2026/08/07/16536",
+      "platforms": [
+        "rakuten"
+      ],
+      "viewpoint": "seller",
+      "theme": "optimization",
+      "source": "ネットショップ担当者フォーラム",
+      "date": "2026-08-07",
+      "title": "楽天市場、「AI店長」「バーチャル試着」「RMSバナー自動生成」を柱としたAI戦略を公開",
+      "bullets": [
+        "楽天市場、「AI店長」「バーチャル試着」等のAI戦略を公開",
+        "RMSバナー自動生成は9月提供予定、14種類の比率から選択可能",
+        "接客・試着・販促をAIが肩代わりする構想、商品データの精度が鍵に"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://netshop.impress.co.jp/sites/default/files/styles/1200x630/public/images/news/2026/news-node16536-ogp.jpg?itok=F4FkNGO-"
+      }
+    },
+    {
+      "slug": "members-sns-ugc-ai-recommendation-survey-2026",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/members-sns-ugc-ai-recommendation-survey-2026.html",
+      "sourceUrl": "https://www.commercepick.com/archives/102640",
+      "platforms": [
+        "other-ai"
+      ],
+      "viewpoint": "buyer",
+      "theme": "measurement",
+      "source": "コマースピック",
+      "date": "2026-09-15",
+      "title": "AI推奨を受けても49%が検索エンジンで「裏取り」。クチコミが無いと57%が購入を見送りに——メンバーズ調査",
+      "bullets": [
+        "AI推奨後も49%が検索エンジンで裏取り。メンバーズが1万人調査",
+        "クチコミが無いと57%が購入を見送りと回答。UGCの重要性浮き彫りに",
+        "AI情報のみで購入を決める人はわずか16%。裏取り行動が主流"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://www.commercepick.com/wp-content/uploads/2026/09/142993-7-b4c82ae6e888da6400327e16022d0802-990x554-1.jpg"
+      }
+    },
+    {
+      "slug": "knowledge-holdings-ai-shopping-search-survey",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/knowledge-holdings-ai-shopping-search-survey.html",
+      "sourceUrl": "https://www.commercepick.com/archives/102835",
+      "platforms": [
+        "google",
+        "other-ai"
+      ],
+      "viewpoint": "buyer",
+      "theme": "measurement",
+      "source": "コマースピック",
+      "date": "2026-09-17",
+      "title": "買い物でのAI検索利用率が68.1%に。信頼度はGoogle検索とほぼ並ぶ結果に——ナレッジホールディングス調査",
+      "bullets": [
+        "買い物でのAI検索利用率68.1%に。ナレッジHDが304名調査",
+        "信頼度はGoogle検索25.2%・AI検索24.8%とほぼ並ぶ結果に",
+        "日用品・食品の比較で使う人が55.7%とカテゴリ別トップ"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://www.commercepick.com/wp-content/uploads/2026/09/166736-44-3592fa6f97a5bf5b3063445dd99fcb89-1920x1080-1.webp"
+      }
+    },
+    {
+      "slug": "amazon-chatgpt-ads-meta-muse-shopping",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/amazon-chatgpt-ads-meta-muse-shopping.html",
+      "sourceUrl": "https://www.commercepick.com/archives/102580",
+      "platforms": [
+        "amazon",
+        "chatgpt",
+        "other-ai"
+      ],
+      "viewpoint": "seller",
+      "theme": "visibility",
+      "source": "コマースピック",
+      "date": "2026-09-15",
+      "title": "Amazon広告がChatGPTへ拡張、MetaはAI購入代行「Muse」を発表。ECの集客・購買導線が同時に変化",
+      "bullets": [
+        "Amazon広告、ChatGPT上への拡張を試験提供開始。旅行大手も参加",
+        "Meta、AIが購入手続きを代行する「Muse」を発表",
+        "広告・購買代行の両面でAIエージェント経由の新たな導線が誕生"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://www.commercepick.com/wp-content/uploads/2026/09/202609141709.png"
+      }
+    },
+    {
+      "slug": "yahoo-shopping-ai-agent-order-share-20pct",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/yahoo-shopping-ai-agent-order-share-20pct.html",
+      "sourceUrl": "https://netshop.impress.co.jp/e/2026/09/15/16670",
+      "platforms": [
+        "yahoo"
+      ],
+      "viewpoint": "seller",
+      "theme": "optimization",
+      "source": "ネットショップ担当者フォーラム",
+      "date": "2026-09-15",
+      "title": "Yahoo!ショッピング、AIエージェント経由の注文が全体の約20%に到達。出店者向けツール利用店舗は前年比15pt高い成長率",
+      "bullets": [
+        "Yahoo!ショッピング、AIエージェント経由の注文が約20%に到達",
+        "出店者ツール利用店舗は非利用店舗より前年比成長率が15pt高い",
+        "白鳩はAI分析活用でCVR40%増、月間販売数20%増の事例も"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://netshop.impress.co.jp/sites/default/files/styles/1200x630/public/images/article/2026/tanpatsu/node16670-ogp.jpg?itok=svpXU9NT"
+      }
+    },
+    {
+      "slug": "ec-ai-referral-share-shift-2026q2",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/ec-ai-referral-share-shift-2026q2.html",
+      "sourceUrl": "https://netshop.impress.co.jp/e/2026/09/10/16691",
+      "platforms": [
+        "chatgpt",
+        "other-ai"
+      ],
+      "viewpoint": "buyer",
+      "theme": "measurement",
+      "source": "ネットショップ担当者フォーラム",
+      "date": "2026-09-10",
+      "title": "EC流入元のAIシェアに変化、ChatGPTが減少しGemini・Claudeが急伸。AI経由の訪問単価は非AI比53%高",
+      "bullets": [
+        "EC流入元AIのシェアに変化、ChatGPT減少・Gemini/Claude急伸",
+        "AI経由の訪問単価は非AI比53%高、EC流入全体は前年比62%増",
+        "Claude経由の流入企業数が1社→15社に急増。複数AI対応が鍵に"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://netshop.impress.co.jp/sites/default/files/styles/1200x630/public/images/article/2026/DigitalCommerce/node16691-opg.jpg?itok=4QRKMFIu"
+      }
+    },
+    {
+      "slug": "anthropic-claude-agentic-commerce-blueprint",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/anthropic-claude-agentic-commerce-blueprint.html",
+      "sourceUrl": "https://netshop.impress.co.jp/e/2026/09/17/16743",
+      "platforms": [
+        "other-ai"
+      ],
+      "viewpoint": "seller",
+      "theme": "optimization",
+      "source": "ネットショップ担当者フォーラム",
+      "date": "2026-09-17",
+      "title": "Anthropic、「Claude」向けにエージェント型コマースの設計図を公開。導入企業で購入完了率60%向上の報告も",
+      "bullets": [
+        "Anthropic、Claude向けエージェント型コマースの設計図を公開",
+        "消費者向け・店舗向けの2種のAIエージェントを提供、Shopify等が対応",
+        "導入企業で購入完了率60%向上の報告。数日で稼働可能と説明"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://netshop.impress.co.jp/sites/default/files/styles/1200x630/public/images/article/2026/DigitalCommerce/node16743-ogp.jpg?itok=5BWoDorn"
+      }
+    },
+    {
+      "slug": "cyberagent-genai-search-survey-202608",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/cyberagent-genai-search-survey-202608.html",
+      "sourceUrl": "https://www.advertimes.com/20260909/article556693/",
+      "platforms": [
+        "google",
+        "other-ai"
+      ],
+      "viewpoint": "buyer",
+      "theme": "measurement",
+      "source": "Advertimes",
+      "date": "2026-09-09",
+      "title": "生成AIの検索利用率が初の50%超え。「AIのおすすめから購入・利用」経験者は58.7%——サイバーエージェント調査",
+      "bullets": [
+        "生成AI検索利用率が52.3%で初の50%超え。サイバーエージェント調査",
+        "検索の半分以上をAIに切り替えた人46.6%、購入経験者は58.7%",
+        "AI推薦後にさらに自分で検索する人が77.3%。裏取り検索が主流に"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://cdn.advertimes.com/wp-content/uploads/2026/09/geo-labo01-ogp.jpg"
+      }
+    },
+    {
+      "slug": "bazaarvoice-bluefish-ai-citation-reviews-2026",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/bazaarvoice-bluefish-ai-citation-reviews-2026.html",
+      "sourceUrl": "https://www.globenewswire.com/news-release/2026/09/17/3364022/19098/en/bazaarvoice-and-bluefish-team-up-as-new-research-shows-9-in-10-shoppers-want-real-reviews-behind-ai-product-recommendations.html",
+      "platforms": [
+        "chatgpt",
+        "google",
+        "other-ai"
+      ],
+      "viewpoint": "buyer",
+      "theme": "measurement",
+      "source": "GlobeNewswire (Bazaarvoice / Bluefish)",
+      "date": "2026-09-17",
+      "title": "AI推奨商品の「9割はレビューを求める」。Bazaarvoice・Bluefishが23万件超のAI引用データを分析",
+      "bullets": [
+        "Bazaarvoice調査、9割のショッパーがAI推奨にレビューの裏付けを要求",
+        "AI引用ページの59%がレビュー100件以上、92%が星4つ以上を保有",
+        "AI引用ページの65%がレビュー概要を上部表示。23万件超のデータで検証"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ml.globenewswire.com/Resource/Download/019f87f0-c090-403c-8c5b-e4024d04b13f"
+      }
+    },
+    {
+      "slug": "grannet-genai-search-survey-202609",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/grannet-genai-search-survey-202609.html",
+      "sourceUrl": "https://www.commercepick.com/archives/102634",
+      "platforms": [
+        "google",
+        "other-ai"
+      ],
+      "viewpoint": "buyer",
+      "theme": "measurement",
+      "source": "コマースピック",
+      "date": "2026-09-15",
+      "title": "生成AI利用率が18ポイント増の56.4%に。購買前の比較検討での利用は66.3%まで拡大——グランネット調査",
+      "bullets": [
+        "生成AI利用率が18pt増の56.4%に。グランネットが500名調査",
+        "購買前の比較検討でのAI利用は66.3%、前回調査から13.7pt増",
+        "AIモード使用率が36.0%まで倍増、AI Overview確認は54.7%"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://www.commercepick.com/wp-content/uploads/2026/09/main_becd96bad3bb431d883befcd1b6cbeb0.png"
+      }
+    },
+    {
+      "slug": "google-holiday-agentic-commerce-tools-2026",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/google-holiday-agentic-commerce-tools-2026.html",
+      "sourceUrl": "https://blog.google/products-and-platforms/products/shopping/google-shopping-updates-holiday-shopping/",
+      "platforms": [
+        "google"
+      ],
+      "viewpoint": "seller",
+      "theme": "visibility",
+      "source": "Google (公式ブログ)",
+      "date": "2026-09-16",
+      "title": "Google、ホリデー商戦に向けAI検索対応の新機能を追加。「AI Performance Insights」でブランドの露出状況を可視化",
+      "bullets": [
+        "Google、AI Mode等での自社ブランド露出度を測る新機能をMerchant Centerに追加",
+        "「Business Agent」ベータ版開始。YouTube広告内でも製品質問に自動回答",
+        "UCPのカート引き継ぎ機能を米国で拡張、対応大手小売にNike・Targetら"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Think_Retail_hero_xePKgsT.width-1300.png"
+      }
+    },
+    {
       "slug": "wikipedia-ai-overviews-traffic-study",
       "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/wikipedia-ai-overviews-traffic-study.html",
       "sourceUrl": "https://www.searchenginejournal.com/what-wikipedia-reveals-about-ai-overviews-and-web-traffic/589042/",
