@@ -21,6 +21,7 @@ $repoRoot = Split-Path -Parent $PSScriptRoot
 $promptPath = Join-Path $PSScriptRoot "nightly-research-prompt.md"
 $logDir = Join-Path $repoRoot "scripts\logs"
 $pidPath = Join-Path $logDir "current-run.pid"
+$lastRunMarkerPath = Join-Path $logDir "last-run-date.txt"
 
 if (-not (Test-Path $logDir)) {
     New-Item -ItemType Directory -Force -Path $logDir | Out-Null
@@ -283,6 +284,10 @@ function Invoke-ResearchRun {
         Remove-Item -Path $pidPath -Force -ErrorAction SilentlyContinue
     }
 }
+
+# タスクスケジューラの19時トリガーが実際に発火した(=PCが起動していた)ことの記録。
+# check-missed-run.ps1がログオン時にこの日付を見て、スキップされた日がないか判定する
+(Get-Date -Format "yyyy-MM-dd") | Out-File -FilePath $lastRunMarkerPath -Encoding utf8 -Force
 
 # 1回目を実行
 Write-ControlLine "1回目の実行を開始します(目標本数: $Count)"
