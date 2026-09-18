@@ -254,10 +254,28 @@ function validate(data) {
   }
 }
 
+// 「結論」(bullets)に数値が1件も含まれない記事を警告として一覧化する。
+// 2026-09-18、公開済み48記事を後追い調査した結果17件が「元記事に数値が
+// あるのに結論が行為の要約止まり」というNGだったことが判明したため追加。
+// 元記事に本当に数値が存在しない発表記事（機能紹介のみ等）はCLAUDE.md上
+// 許容されるため、ここではビルドを止めず警告表示のみに留める。この警告が
+// 出た記事は、元記事に本当に数値がないか手動で確認すること。
+function warnBulletsWithoutNumbers(data) {
+  const hasNumber = (s) => /[0-9０-９]/.test(s);
+  const flagged = data.filter(a => Array.isArray(a.bullets) && !a.bullets.some(hasNumber));
+  if (flagged.length) {
+    console.warn('\n[警告] 以下の記事は「結論」(bullets)に数値が1件も含まれていません。');
+    console.warn('元記事に本当に数値がないか（機能紹介のみの発表等）を必ず確認してください:');
+    flagged.forEach(a => console.warn(`  - ${a.slug}`));
+    console.warn('');
+  }
+}
+
 function main() {
   const data = JSON.parse(fs.readFileSync(dataPath, 'utf-8'));
   validate(data);
   validateCardBullets(data);
+  warnBulletsWithoutNumbers(data);
   data.forEach((a) => {
     const html = articleHtml(a);
     fs.writeFileSync(path.join(draftDir, `${a.slug}.html`), html, 'utf-8');
