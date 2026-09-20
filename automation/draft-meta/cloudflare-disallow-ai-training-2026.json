@@ -1,0 +1,23 @@
+{
+  "slug": "cloudflare-disallow-ai-training-2026",
+  "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/cloudflare-disallow-ai-training-2026.html",
+  "sourceUrl": "https://www.searchenginejournal.com/cloudflare-lets-sites-disallow-ai-training-without-blocking-googlebot/589559/",
+  "platforms": [
+    "google",
+    "other-ai"
+  ],
+  "viewpoint": "seller",
+  "theme": "visibility",
+  "source": "Search Engine Journal",
+  "date": "2026-09-15",
+  "title": "Cloudflare、検索クローラーを止めずにAI学習だけを拒否する設定を提供開始",
+  "bullets": [
+    "検索クローラーを止めずAI学習だけ拒否する設定が登場",
+    "従来の「Block」は検索クローラーごと止める挙動だった",
+    "Microsoftのrobots.txt学習拒否対応は2027年初頭を予定"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "url": "https://cdn.searchenginejournal.com/wp-content/uploads/2026/09/cloudflare-disallow-ai-training-featured.jpg"
+  }
+}

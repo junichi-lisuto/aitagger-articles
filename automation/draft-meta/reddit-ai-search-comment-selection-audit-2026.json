@@ -1,0 +1,22 @@
+{
+  "slug": "reddit-ai-search-comment-selection-audit-2026",
+  "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/reddit-ai-search-comment-selection-audit-2026.html",
+  "sourceUrl": "https://www.searchenginejournal.com/reddit-ai-search-picks-already-popular-comments-audit-finds/589771/",
+  "platforms": [
+    "other-ai"
+  ],
+  "viewpoint": "seller",
+  "theme": "visibility",
+  "source": "Search Engine Journal",
+  "date": "2026-09-17",
+  "title": "RedditのAI検索監査、選ばれるのは既に人気のコメント 一人称の表現は3.3%から0.06%へ激減",
+  "bullets": [
+    "選ばれるのは上位91パーセンタイルの既に人気のコメント",
+    "フォーマルな文体は選択確率が49%高く体験談は不利だった",
+    "一人称の表現は3.3%から0.06%へ、AI要約で体験が消える"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "url": "https://cdn.searchenginejournal.com/wp-content/uploads/2026/09/reddit-ai-search-comments-featured-1600x840-1.jpg"
+  }
+}
