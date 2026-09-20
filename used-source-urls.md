@@ -1,8 +1,19 @@
 # 既出の元記事URL一覧（自動生成）
 
 記事候補を探す前に必ずこの一覧を確認し、ここに載っているURLと同じ元記事は候補から除外すること。
-生成元: articles.json（更新日: 2026-09-17）
+生成元: articles.json（更新日: 2026-09-20）
 
+- https://netshop.impress.co.jp/n/2026/09/18/16760
+- https://www.searchenginejournal.com/reddit-ai-search-picks-already-popular-comments-audit-finds/589771/
+- https://www.searchenginejournal.com/google-admits-search-console-reporting-for-ai-search-is-inadequate/589236/
+- https://ppc.land/google-drops-free-shopping-listings-across-europe-in-two-days/
+- https://www.searchenginejournal.com/google-tests-paying-publishers-for-ai-answers-via-search-console/589414/
+- https://netshop.impress.co.jp/n/2026/09/18/16761
+- https://ecnomikata.com/ecnews/ec_site_operation/51623/
+- https://ppc.land/copilot-cut-publisher-click-through-rates-up-to-94-internal-bing-data-shows/
+- https://www.searchenginejournal.com/cloudflare-lets-sites-disallow-ai-training-without-blocking-googlebot/589559/
+- https://ecnomikata.com/ecnews/marketing/51646/
+- https://www.searchenginejournal.com/ai-citation-test-finds-source-order-matters-less-than-it-looks/589806/
 - https://www.retaildive.com/news/retail-shoppers-warm-up-agentic-ai-purchases/827563/
 - https://netshop.impress.co.jp/e/2026/08/07/16536
 - https://www.commercepick.com/archives/102640

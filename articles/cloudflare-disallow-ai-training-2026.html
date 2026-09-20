@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script>if ('scrollRestoration' in history) { history.scrollRestoration = 'manual'; }</script>
-<title>Copilotがパブリッシャーのクリック率を最大94%低下させたと、Microsoftの内部データが示す｜AIタッガー メディアセンター</title>
+<title>Cloudflare、検索クローラーを止めずにAI学習だけを拒否する設定を提供開始｜AIタッガー メディアセンター</title>
 <style>
   :root{
     --blue:#2563EB;
@@ -102,45 +102,43 @@
 
 <header>
   <div class="hbar">
-    <a class="logo" href="https://www.lisuto.co.jp/articles/"><img src="../../assets/logo.svg" alt="AIタッガー"><span class="sub">メディアセンター</span></a>
+    <a class="logo" href="https://www.lisuto.co.jp/articles/"><img src="../assets/logo.svg" alt="AIタッガー"><span class="sub">メディアセンター</span></a>
   </div>
 </header>
 
 <div class="wrap">
-  <p class="crumb"><a href="https://www.lisuto.co.jp/articles/">トップ</a><span>›</span><a href="https://www.lisuto.co.jp/articles/?theme=measurement">計測・分析</a><span>›</span>この記事（下書き・未公開）</p>
+  <p class="crumb"><a href="https://www.lisuto.co.jp/articles/">トップ</a><span>›</span><a href="https://www.lisuto.co.jp/articles/?theme=visibility">検索結果・購買導線の変化</a><span>›</span>この記事</p>
 
-  <a class="thumb" href="https://ppc.land/copilot-cut-publisher-click-through-rates-up-to-94-internal-bing-data-shows/" target="_blank" rel="noopener"><img src="https://ppc.land/content/images/2026/09/Copilot-cut-publisher-click-through-rates-up-to-94---internal-Bing-data-shows.jpg" alt="" loading="lazy"></a>
+  <a class="thumb" href="https://www.searchenginejournal.com/cloudflare-lets-sites-disallow-ai-training-without-blocking-googlebot/589559/" target="_blank" rel="noopener"><img src="https://cdn.searchenginejournal.com/wp-content/uploads/2026/09/cloudflare-disallow-ai-training-featured.jpg" alt="" loading="lazy"></a>
 
   <div class="meta">
-    <span class="cat theme-measurement">計測・分析</span>
-    <span class="platform">その他AI検索</span>
-    <span class="src">PPC Land</span>
-    <span class="date">2026年9月17日</span>
+    <span class="cat theme-visibility">検索結果・購買導線の変化</span>
+    <span class="platform">Google・その他AI検索</span>
+    <span class="src">Search Engine Journal</span>
+    <span class="date">2026年9月15日</span>
   </div>
-  <h1>Copilotがパブリッシャーのクリック率を最大94%低下させたと、Microsoftの内部データが示す</h1>
+  <h1>Cloudflare、検索クローラーを止めずにAI学習だけを拒否する設定を提供開始</h1>
 
   <h2>背景</h2>
-  <p class="background">AIの回答が検索結果の上部を占めることで流入が減るという主張は繰り返されてきたが、プラットフォーム側の内部データで裏づけられる機会はほとんどなかった。New York Timesらによる訴訟の公開準備書面が、Microsoft内部の実測値を表に出した。</p>
+  <p class="background">従来のAIクローラー対策は「ブロックするか否か」の二択で、AI学習を拒否しようとすると検索用のクローラーまで止まる恐れがあった。GooglebotとGoogle-Extendedのようにクローラーが分離されていない場面もあり、実務上は扱いにくい状態が続いていた。</p>
 
   <h2>結論</h2>
   <ul class="points">
-    <li>2026年9月17日に公開された訴訟の準備書面により、Microsoftの内部データが明らかになった。訴訟はニューヨーク州南部地区連邦地裁のSidney H. Stein判事が担当している。</li>
-    <li>Copilotによるクリック率の低下幅は、New York Times系サイトで87〜93%、Daily News系サイトで83〜91%、Ziff Davis系サイトで51〜94%に達した。</li>
-    <li>学習データへの複製はTimesで3,924,653件（固有の著作物944,655件）、Daily News側の原告で7,387,394件（同1,388,384件）に及ぶ。</li>
-    <li>学習データセットから著作権表示が失われていた割合はTimesで99.9%、Ziff Davisで99.8%、Mother Jonesで99.99%、Intercept で100%だった。</li>
-    <li>Common Crawl経由のダウンロードはchicagotribune.comで2,182,079本、nytimes.comで2,064,805本の記事に及んでいる。</li>
-    <li>ChatGPTでニュースを読むTimes購読者のうち36%が、そのためにもはや同紙のニュースは「まったく必要ない」と答えている。</li>
-    <li>一方で逐語的な再生成は2,000万件の会話ログ中24件（0.00012%）にとどまり、問題は複製ではなく代替にあることを示している。</li>
-    <li>OpenAIのクロールと流入の比率は2025年5月時点で1,500対1、2025年8月時点で紹介1件あたり1,091回のクロールだった。</li>
-    <li>Google AI Overviewsによるパブリッシャーのクリック減は39.8%と別途示されている。</li>
+    <li>Cloudflareが2026年9月15日、「Disallow AI Training」という設定の提供を開始した。</li>
+    <li>この設定はAIモデルの学習用途のアクセスだけを拒否し、検索用クローラーのアクセスは維持する。</li>
+    <li>従来の「Block」設定は検索クローラーを含むすべてのクローラーを止める挙動であり、両者は明確に区別された。</li>
+    <li>対象として挙げられているのはGooglebotとGoogle-Extended、ApplebotとApplebot-Extended、Bingbotなどである。</li>
+    <li>MicrosoftはBing ChatとCopilotについて、robots.txtでの学習拒否対応を2027年初頭に予定している。</li>
+    <li>Cloudflare自身も、AIによる要約の可否を制御する仕組みを2027年初頭までに実現することを目標としている。</li>
+    <li>同社は「大半の顧客は何も変更する必要はない」としている。</li>
   </ul>
 
   <div class="why">
     <h2>メッセージ</h2>
-    <p>注目すべきは逐語的な再生成がわずか0.00012%だったという数字のほうである。AIはコンテンツを丸写ししているのではなく、内容を吸収して自分の言葉で答えているから、元のページへ行く理由が消える。ECの商品ページも同じ立場にある。商品の情報がAIの回答の中で完結してしまえば、店舗のページは訪れられない。だとすれば、ページへの流入を前提にした設計ではなく、AIの回答の中に自社の商品が正しく名指しで登場することを前提に情報を整える必要がある。</p>
+    <p>「AIに使われたくない」と「AIに見つけてもらいたい」は別の要求であり、ようやく設定として分離された。EC事業者にとって重要なのは後者で、学習拒否の設定を雑に入れると、AI検索の回答候補から自社の商品が丸ごと抜け落ちる事故が起こりうる。クローラーの名前ごとに挙動が違う以上、自社サイトがどのクローラーに何を許しているかを一度棚卸ししておく価値がある。見つけてもらえない状態は、設定ミスでも簡単に作れてしまう。</p>
   </div>
 
-  <a class="source-link" href="https://ppc.land/copilot-cut-publisher-click-through-rates-up-to-94-internal-bing-data-shows/" target="_blank" rel="noopener">元記事を読む（PPC Land）↗</a>
+  <a class="source-link" href="https://www.searchenginejournal.com/cloudflare-lets-sites-disallow-ai-training-without-blocking-googlebot/589559/" target="_blank" rel="noopener">元記事を読む（Search Engine Journal）↗</a>
 
   <div class="related">
     <h2>関連記事</h2>

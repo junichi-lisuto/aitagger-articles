@@ -1,7 +1,251 @@
 {
-  "updatedAt": "2026-09-17",
+  "updatedAt": "2026-09-20",
   "schemaVersion": 2,
   "articles": [
+    {
+      "slug": "zozo-wear-niaulab-room-2026",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/zozo-wear-niaulab-room-2026.html",
+      "sourceUrl": "https://netshop.impress.co.jp/n/2026/09/18/16760",
+      "platforms": [
+        "other-ai"
+      ],
+      "viewpoint": "seller",
+      "theme": "optimization",
+      "source": "ネットショップ担当者フォーラム",
+      "date": "2026-09-18",
+      "title": "ZOZO、「WEAR by ZOZO」に「似合うルーム by ZOZO」を提供開始 28種類の診断と1500万件超のコーデから提案",
+      "bullets": [
+        "ZOZOが「似合うルーム by ZOZO」を9月15日に提供開始",
+        "28種類の診断と1500万件超のコーデ画像から提案する",
+        "実店舗体験者はZOZOTOWNの購入金額が約2倍に伸びた"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://netshop.impress.co.jp/sites/default/files/styles/1200x630/public/images/news/2026/news-node16760-ogp.jpeg?itok=2XXVF7LC"
+      }
+    },
+    {
+      "slug": "reddit-ai-search-comment-selection-audit-2026",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/reddit-ai-search-comment-selection-audit-2026.html",
+      "sourceUrl": "https://www.searchenginejournal.com/reddit-ai-search-picks-already-popular-comments-audit-finds/589771/",
+      "platforms": [
+        "other-ai"
+      ],
+      "viewpoint": "seller",
+      "theme": "visibility",
+      "source": "Search Engine Journal",
+      "date": "2026-09-17",
+      "title": "RedditのAI検索監査、選ばれるのは既に人気のコメント 一人称の表現は3.3%から0.06%へ激減",
+      "bullets": [
+        "選ばれるのは上位91パーセンタイルの既に人気のコメント",
+        "フォーマルな文体は選択確率が49%高く体験談は不利だった",
+        "一人称の表現は3.3%から0.06%へ、AI要約で体験が消える"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://cdn.searchenginejournal.com/wp-content/uploads/2026/09/reddit-ai-search-comments-featured-1600x840-1.jpg"
+      }
+    },
+    {
+      "slug": "google-search-console-ai-reporting-limits-2026",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/google-search-console-ai-reporting-limits-2026.html",
+      "sourceUrl": "https://www.searchenginejournal.com/google-admits-search-console-reporting-for-ai-search-is-inadequate/589236/",
+      "platforms": [
+        "google"
+      ],
+      "viewpoint": "seller",
+      "theme": "measurement",
+      "source": "Search Engine Journal",
+      "date": "2026-09-13",
+      "title": "Google、Search ConsoleのAI検索レポートが不十分であることを認める 掲載順位は「ブロック単位」で計測",
+      "bullets": [
+        "GoogleがAI検索レポートの順位計測の限界を公式に認めた",
+        "順位は「1位〜10位」ではなくブロック単位でしか計測しない",
+        "2026年6月発表・8月31日に全世界展開、主眼は表示回数"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://cdn.searchenginejournal.com/wp-content/uploads/2026/09/google-ai-seo-reporting-413.jpg"
+      }
+    },
+    {
+      "slug": "google-free-shopping-listings-eea-dma-2026",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/google-free-shopping-listings-eea-dma-2026.html",
+      "sourceUrl": "https://ppc.land/google-drops-free-shopping-listings-across-europe-in-two-days/",
+      "platforms": [
+        "google"
+      ],
+      "viewpoint": "seller",
+      "theme": "visibility",
+      "source": "PPC Land",
+      "date": "2026-09-19",
+      "title": "Google、欧州経済領域で無料の商品リスティングを2日間で撤去 DMA対応で表示が90〜100%減",
+      "bullets": [
+        "GoogleがEEAの無料商品リスティングを2日間で撤去した",
+        "独仏ベルギー等で表示が約90〜100%減少している",
+        "DMAのセルフプリファレンシング禁止への対応が理由"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ppc.land/content/images/2026/09/Google-drops-free-shopping-listings-across-Europe-in-two-days.jpg"
+      }
+    },
+    {
+      "slug": "google-ai-contribution-pilot-2026",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/google-ai-contribution-pilot-2026.html",
+      "sourceUrl": "https://www.searchenginejournal.com/google-tests-paying-publishers-for-ai-answers-via-search-console/589414/",
+      "platforms": [
+        "google"
+      ],
+      "viewpoint": "seller",
+      "theme": "measurement",
+      "source": "Search Engine Journal",
+      "date": "2026-09-14",
+      "title": "Google、AI回答への寄与に対しパブリッシャーへ支払う試験をSearch Consoleで開始 収益は「雀の涙」との声も",
+      "bullets": [
+        "GoogleがAI回答への寄与に対する支払い試験を開始した",
+        "対象はGeminiアプリ・AI Overviews・AI Modeの3つ",
+        "支払額のみ表示され根拠が見えず「ブラックボックス」との声"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://cdn.searchenginejournal.com/wp-content/uploads/2026/09/google-ai-contribution-pilot-featured.jpg"
+      }
+    },
+    {
+      "slug": "dentsu-senior-ai-service-survey-2026",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/dentsu-senior-ai-service-survey-2026.html",
+      "sourceUrl": "https://netshop.impress.co.jp/n/2026/09/18/16761",
+      "platforms": [
+        "other-ai"
+      ],
+      "viewpoint": "buyer",
+      "theme": "measurement",
+      "source": "ネットショップ担当者フォーラム",
+      "date": "2026-09-18",
+      "title": "電通シニアラボ調査、シニアがAI接客に期待するのは「個別最適レコメンド」が22.2%でトップ",
+      "bullets": [
+        "50〜79歳3,600人の33.5%がAI接客に「抵抗がない」",
+        "期待するのは「個別最適レコメンド」が22.2%でトップ",
+        "50代39.2%に対し70代26.0%と年代差が13ポイント開く"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://netshop.impress.co.jp/sites/default/files/styles/1200x630/public/images/news/2026/news-node16761-ogp.jpeg?itok=pObcXbP3"
+      }
+    },
+    {
+      "slug": "dentsu-aijes-purchase-model-2026",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/dentsu-aijes-purchase-model-2026.html",
+      "sourceUrl": "https://ecnomikata.com/ecnews/ec_site_operation/51623/",
+      "platforms": [
+        "other-ai"
+      ],
+      "viewpoint": "seller",
+      "theme": "visibility",
+      "source": "ECのミカタ",
+      "date": "2026-09-16",
+      "title": "電通グループ4社、AI時代の購買行動モデル「AIJES」を提唱 AISASの発展版として5段階を定義",
+      "bullets": [
+        "電通グループ4社がAI時代の購買モデル「AIJES」を提唱",
+        "蓄積・問答・判断・参加・評価の5段階で構成される",
+        "2004年提唱の「AISAS」に代わり起点が「蓄積」に変わる"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://img.ecnomikata.com/img_contents/ecnews/images/51623_top_facebook_image.jpg"
+      }
+    },
+    {
+      "slug": "copilot-publisher-ctr-bing-internal-data-2026",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/copilot-publisher-ctr-bing-internal-data-2026.html",
+      "sourceUrl": "https://ppc.land/copilot-cut-publisher-click-through-rates-up-to-94-internal-bing-data-shows/",
+      "platforms": [
+        "other-ai"
+      ],
+      "viewpoint": "seller",
+      "theme": "measurement",
+      "source": "PPC Land",
+      "date": "2026-09-17",
+      "title": "Copilotがパブリッシャーのクリック率を最大94%低下させたと、Microsoftの内部データが示す",
+      "bullets": [
+        "Copilotでパブリッシャーのクリック率が最大94%低下した",
+        "Microsoft内部データが訴訟の準備書面で公開された",
+        "逐語的な再生成は0.00012%、問題は複製でなく代替にある"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ppc.land/content/images/2026/09/Copilot-cut-publisher-click-through-rates-up-to-94---internal-Bing-data-shows.jpg"
+      }
+    },
+    {
+      "slug": "cloudflare-disallow-ai-training-2026",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/cloudflare-disallow-ai-training-2026.html",
+      "sourceUrl": "https://www.searchenginejournal.com/cloudflare-lets-sites-disallow-ai-training-without-blocking-googlebot/589559/",
+      "platforms": [
+        "google",
+        "other-ai"
+      ],
+      "viewpoint": "seller",
+      "theme": "visibility",
+      "source": "Search Engine Journal",
+      "date": "2026-09-15",
+      "title": "Cloudflare、検索クローラーを止めずにAI学習だけを拒否する設定を提供開始",
+      "bullets": [
+        "検索クローラーを止めずAI学習だけ拒否する設定が登場",
+        "従来の「Block」は検索クローラーごと止める挙動だった",
+        "Microsoftのrobots.txt学習拒否対応は2027年初頭を予定"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://cdn.searchenginejournal.com/wp-content/uploads/2026/09/cloudflare-disallow-ai-training-featured.jpg"
+      }
+    },
+    {
+      "slug": "ai-generated-content-avoidance-survey-2026",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/ai-generated-content-avoidance-survey-2026.html",
+      "sourceUrl": "https://ecnomikata.com/ecnews/marketing/51646/",
+      "platforms": [
+        "other-ai"
+      ],
+      "viewpoint": "buyer",
+      "theme": "measurement",
+      "source": "ECのミカタ",
+      "date": "2026-09-17",
+      "title": "EnglishHub調査、AI生成を理由に利用をやめると思うもの最多は「通販サイトのレビュー」70.7%",
+      "bullets": [
+        "AI生成で利用をやめるもの最多は通販レビューの70.7%",
+        "許容条件は「AI生成と最初から表示」が54.8%で最多",
+        "AIインフルエンサーの推薦で購買意欲が下がるは44.7%"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://img.ecnomikata.com/img_contents/ecnews/images/51646_seiseiaiworiyuuniriyouwoyameru_facebook_image.jpg"
+      }
+    },
+    {
+      "slug": "ai-citation-source-order-study-2026",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/ai-citation-source-order-study-2026.html",
+      "sourceUrl": "https://www.searchenginejournal.com/ai-citation-test-finds-source-order-matters-less-than-it-looks/589806/",
+      "platforms": [
+        "chatgpt",
+        "other-ai"
+      ],
+      "viewpoint": "seller",
+      "theme": "measurement",
+      "source": "Search Engine Journal",
+      "date": "2026-09-17",
+      "title": "AI引用の順番効果を検証した研究、掲載順の入れ替えによる差は0.0ポイントで統計的に有意でないと報告",
+      "bullets": [
+        "AI引用は1位85.1%・5位42.8%だが順番効果は0.0ポイント",
+        "構造化した書き換えは引用確率を4.5ポイント押し上げた",
+        "同条件の再実行で引用判断が15%変化、計測は1回では足りない"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://cdn.searchenginejournal.com/wp-content/uploads/2026/09/ai-citation-source-credit-1600x840-1.jpg"
+      }
+    },
     {
       "slug": "retaildive-rtbhouse-agentic-ai-purchase-survey",
       "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/retaildive-rtbhouse-agentic-ai-purchase-survey.html",
