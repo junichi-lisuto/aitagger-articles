@@ -1,0 +1,256 @@
+[
+  {
+    "slug": "openai-sponsored-agents-chatgpt-20260922",
+    "title": "OpenAIがChatGPT広告に「Sponsored Agents」を投入、広告主のAIが直接会話する新形式をテスト開始",
+    "origTitle": "OpenAI's new sponsored agents are happy to chat about selling you things",
+    "sourceUrl": "https://www.seroundtable.com/openai-chatgpt-sponsored-agents-42104.html",
+    "source": "Search Engine Roundtable",
+    "date": "2026-09-16",
+    "dateDisplay": "2026年9月16日",
+    "platforms": ["chatgpt"],
+    "viewpoint": "buyer",
+    "theme": "visibility",
+    "thumbnail": "https://images.seroundtable.com/openai-chatgpt-ads-sponsored-agents-scSS0c8S.jpg",
+    "background": "OpenAIは2026年9月16日、ChatGPT広告の新形式「Sponsored Agents」の米国内テストを開始したと発表した。広告をクリックしたユーザーが、その企業がスポンサーとなったAIエージェントと直接会話に入る仕組みで、従来の静的なバナー表示型の広告から一歩進んだ形になる。同社は同時にHubSpot・Shopifyを最初のCRM・EC連携パートナーとして迎え、広告事業を急速に拡大している。",
+    "bullets": [
+      "Sponsored Agentsは、ユーザーが広告をクリックした後に開始される「独立した」ラベル付きの会話セッションであり、企業のスポンサー付きAIエージェントが応対する",
+      "ユーザーはその会話内でフォローアップの質問を続けられ、購入検討の準備ができた段階で企業サイトへのリンクをたどれる",
+      "現時点では米国内の限定された広告主のみを対象としたテスト段階である",
+      "HubSpotがChatGPT広告における最初のCRMパートナーとなり、ShopifyがApp Store経由で米国内マーチャントにチャネルを開放した最初のEC連携パートナーとなった",
+      "Shopify統合の国際展開は、ChatGPT広告が提供されている市場において2026年9月23日以降に順次進む予定である"
+    ],
+    "cardBullets": [
+      "ChatGPT広告に「Sponsored Agents」登場、企業AIと直接会話する新形式",
+      "HubSpot・Shopifyが最初の連携パートナーに、9月23日から国際展開",
+      "広告クリック後に企業AIエージェントとの専用会話が始まる仕組み"
+    ],
+    "meaning": "ChatGPT上での購買導線は「広告を見る」から「企業のAIと会話して結論を出す」段階へ移りつつある。EC店舗にとっては、広告クリエイティブの出来栄えよりも、その先でAIが何を答えられるかという商品情報の設計力が問われる場面が増えていく。タグ付けや属性情報の整備は、この先の会話型広告の応答精度にも直結する土台になる。"
+  },
+  {
+    "slug": "rakuten-ai-concierge-seller-aio-20260922",
+    "title": "楽天AIコンシェルジュへの対応、出店者が押さえるべき4つのAIO対策とは",
+    "sourceUrl": "https://jagoo.co.jp/column/rakuten-ai-concierge-2/",
+    "source": "ジャグー株式会社",
+    "date": "2026-09-20",
+    "dateDisplay": "2026年9月20日",
+    "platforms": ["rakuten"],
+    "viewpoint": "seller",
+    "theme": "optimization",
+    "thumbnail": "https://jagoo.co.jp/system/wp-content/uploads/2026/07/rakutenai-concierge-1024x584.png",
+    "background": "楽天市場のスマートフォンアプリには、2026年1月にエージェント型AIツール「Rakuten AI」が搭載された。予算や購入目的、活用シーンなどを入力すると、楽天市場内の約5億点の商品からAIが条件に合った商品を提案する仕組みで、従来のキーワード検索とは異なる購買行動を生んでいる。出店者向けに、この「楽天AIコンシェルジュ」に対応するための実務的な対策を整理した記事が2026年9月20日に公開された。",
+    "bullets": [
+      "楽天AIコンシェルジュ「Rakuten AI」は約5億点の商品データベースから、予算・目的・活用シーンの入力に応じてAIが商品を提案する",
+      "対策1: 従来の楽天SEOの強化。検索順位の安定化とレビュー獲得は、AIが参照する土台データそのものを支える",
+      "対策2: CEP（購買シーン）の整理。自店の商品がどんな場面で推奨されたいかを明確に定義する必要がある",
+      "対策3: 用途・予算・悩みへの対応。商品情報を単なる仕様一覧ではなく、利用文脈に沿った形で最適化する",
+      "対策4: 楽天市場外での一次情報強化。自社サイト・SNS・プレスリリースなど、モール外の情報発信もAIの参照先になり得る"
+    ],
+    "cardBullets": [
+      "楽天AIコンシェルジュ対応、出店者が取るべき4つのAIO対策を解説",
+      "約5億点からAIが提案、従来の楽天SEOだけでは不十分に",
+      "CEP整理・モール外の一次情報強化まで対策範囲が拡大"
+    ],
+    "meaning": "楽天の検索対策は「順位を上げる」だけでは完結しなくなってきている。AIが商品を選ぶ際に参照するのは、商品名・属性・カテゴリといった構造化された情報であり、これはタグ付けの精度そのものが競争力になる領域だ。モール内の対策とモール外の情報発信を両輪で整えることが、AI時代の出店者に求められている。"
+  },
+  {
+    "slug": "chatgpt-ads-roas-expectation-ec-20260922",
+    "title": "ChatGPT広告は「売上」を期待すべきか、EC事業者が押さえておきたい評価軸",
+    "sourceUrl": "https://www.commercepick.com/archives/102013",
+    "source": "コマースピック",
+    "date": "2026-09-08",
+    "dateDisplay": "2026年9月8日",
+    "platforms": ["chatgpt"],
+    "viewpoint": "seller",
+    "theme": "measurement",
+    "thumbnail": "https://www.commercepick.com/wp-content/uploads/2026/09/202609030601.png",
+    "background": "ChatGPT広告の自己サービス出稿が2026年6月に日本で解禁されてから約2ヶ月が経過した。広告主のあいだで期待が高まる一方、実際にどのような指標で成果を判断すべきかは定まっていない。EC事業者がChatGPT広告に何を期待し、どう評価すべきかを整理した記事が2026年9月8日に公開された。",
+    "bullets": [
+      "調査では95%の広告主が「強く」または「ある程度」ChatGPT広告への期待を示した",
+      "一方、CPA（顧客獲得単価）やROAS（広告費用対効果）の改善を具体的に期待する広告主はわずか8.9%にとどまる",
+      "この差は、期待の高さが必ずしも即時の売上効果への期待を意味しないことを示している",
+      "EC事業者への提言として、まずはインプレッション数やクリック数を追い、検索広告など既存チャネルとの訪問単価を比較すべきとしている",
+      "独自パラメータでサイト内行動を追跡し、最終的には獲得数・ROAS・CPAで評価するという段階的な計測アプローチが推奨されている"
+    ],
+    "cardBullets": [
+      "ChatGPT広告、期待は95%も即時ROAS改善への期待はわずか8.9%",
+      "EC事業者向けに段階的な効果測定アプローチを提言",
+      "検索広告との訪問単価比較から始める評価軸を解説"
+    ],
+    "meaning": "新しい広告チャネルが登場すると「売れるか売れないか」で即断しがちだが、ChatGPT広告のように評価軸自体がまだ定まっていない領域では、焦って結論を出すことがむしろ判断を誤らせる。EC店舗としては、まず何を計測できるかを整理し、段階を踏んで評価する姿勢が、AI広告時代の投資判断を安定させる。"
+  },
+  {
+    "slug": "yahoo-shopping-ai-omakase-coordinate-20260922",
+    "title": "Yahoo!ショッピング、AIが着用イメージまで提案する「AIおまかせコーディネート」を先行提供",
+    "sourceUrl": "https://ai.watch.impress.co.jp/docs/news/2137547.html",
+    "source": "AI Watch（Impress Watch）",
+    "date": "2026-09-02",
+    "dateDisplay": "2026年9月2日",
+    "platforms": ["yahoo"],
+    "viewpoint": "buyer",
+    "theme": "visibility",
+    "thumbnail": "https://ai.watch.impress.co.jp/img/aiw/list/2137/547/0100.jpg",
+    "background": "LINEヤフーは2026年9月2日、「Yahoo!ショッピング」のアパレル分野において、生成AIを活用した「AIおまかせコーディネート」機能を一部ストアで先行提供開始したと発表した。オンラインでの服選びにおける「着用イメージが分からない」という不安を解消することを狙った機能で、Yahoo!ショッピングのAIエージェント機能拡充の一環となる。",
+    "bullets": [
+      "気になる商品を選び「カジュアル」「きれいめ」などのテイストを選択すると、同じストア内の実販売商品を組み合わせたコーディネートを画像生成AIが提案する",
+      "提案内容はモデルの着用イメージ画像として約30秒で可視化される",
+      "ユーザーが過去にYahoo!ショッピングで購入した服のサイズデータも参考にされ、サイズ感の不安を軽減する設計になっている",
+      "先行提供の対象ストアは「antiqua」「HUG.U」「osharewalker」「Honeys」の一部商品である"
+    ],
+    "cardBullets": [
+      "Yahoo!ショッピングのAIが着用イメージまで生成、約30秒で提案",
+      "過去購入データでサイズ感の不安も解消する新機能",
+      "antiquaなど一部ストアで先行提供を開始"
+    ],
+    "meaning": "「見てから買う」ではなく「AIに見せてもらってから買う」という購買体験が、アパレルECで具体的な形を取り始めている。ここで機能するのは商品の色・素材・シルエットといった属性情報の精度であり、コーディネート提案の質はタグ付けの丁寧さに左右される。画像だけでなく背後のデータ整備が、この種の新機能の成否を決める。"
+  },
+  {
+    "slug": "anthropic-claude-merchant-agent-blueprint-20260922",
+    "title": "Anthropicが小売業者向けAIエージェントの「ブループリント」公開、Claude上で構築可能に",
+    "sourceUrl": "https://www.practicalecommerce.com/new-ecommerce-tools-september-8-2026",
+    "source": "Practical Ecommerce",
+    "date": "2026-09-08",
+    "dateDisplay": "2026年9月8日",
+    "platforms": ["other-ai"],
+    "viewpoint": "seller",
+    "theme": "optimization",
+    "thumbnail": "https://www.practicalecommerce.com/wp-content/uploads/2026/09/New-Ecommerce-Tools-September-8-2026.jpg",
+    "background": "会話型検索ツールへの需要がホリデーシーズンを前に高まるなか、Anthropicは2026年9月8日、小売業者がAIモデル「Claude」上でショッピング・マーチャント向けのエージェントを構築できる「ブループリント」を公開したと報じられた。同時期にはJuspayも複数のAIプラットフォームをまたいだブランド発見を可能にする「Breeze Universal」を発表している。",
+    "bullets": [
+      "ブループリントを使うことで、小売業者はClaude上で在庫・価格・マーケティング施策を提案するエージェントを構築できる",
+      "買い手側の顧客はこのエージェントを使い、商品の提案を受けたりカートに商品を追加したりできる",
+      "この動きはホリデーシーズンに向けた会話型検索・購買ツールへの需要拡大が背景にある",
+      "同時期にJuspayが発表した「Breeze Universal」は、ChatGPT・Claude・各種マーケットプレイス・自社ECをまたいだブランド発見を可能にする仕組みである"
+    ],
+    "cardBullets": [
+      "AnthropicがClaude上で小売AIエージェントを作れるブループリント公開",
+      "在庫・価格提案から顧客対応まで、Claudeで構築可能に",
+      "ホリデー商戦前の会話型購買ツール需要拡大が背景"
+    ],
+    "meaning": "AIエージェントを介した購買は、ChatGPTやGeminiだけの話ではなく、Claudeのような別系統のAIにも広がり始めている。EC店舗にとって重要なのは「どのAIに対応するか」を選ぶことよりも、どのAIからも同じ精度で読み取れる商品データを整えておくことだ。プラットフォームが増えるほど、データの一元的な整備の価値は増す。"
+  },
+  {
+    "slug": "ai-shopping-consumer-friction-survey-20260922",
+    "title": "AIで買い物をする時代の消費行動、6割がECサイトへの移動時に不満を感じる",
+    "sourceUrl": "https://netshop.impress.co.jp/n/2026/08/20/16585",
+    "source": "ネットショップ担当者フォーラム",
+    "date": "2026-08-20",
+    "dateDisplay": "2026年8月20日",
+    "platforms": ["other-ai"],
+    "viewpoint": "buyer",
+    "theme": "visibility",
+    "thumbnail": "https://netshop.impress.co.jp/sites/default/files/styles/1200x630/public/images/news/2026/news-node16585-ogp.png?itok=17KFvZRb",
+    "background": "AIに商品を提案してもらい、その先でECサイトに移動して購入するという行動が一般化するなか、AIでの提案内容と実際のECサイト上の情報が食い違うことで生じる「摩擦」が消費者の不満につながっている実態が調査で明らかになった。2026年8月20日、この調査結果を紹介する記事が公開された。",
+    "bullets": [
+      "AIで商品を提案されたあとECサイトへ移動する際、約6割の消費者が何らかの不満を感じたと回答した",
+      "不満の主な要因として、AIが提示した価格と実際のECサイト上の価格の食い違いが挙げられている",
+      "価格以外にも、AIが説明した商品仕様とECサイト上の説明が一致しないケースが摩擦を増幅させている"
+    ],
+    "cardBullets": [
+      "AI提案→EC移動時、6割の消費者が不満を経験",
+      "価格・仕様の食い違いが購買体験の摩擦を増幅",
+      "AIとECサイトの情報一致が課題として浮上"
+    ],
+    "meaning": "AIが商品を見つけてくれても、その先のECサイトで情報が違えば消費者は離脱する。これは新しい問題ではなく、商品データの一元管理という古くからの課題が、AI経由の購買が増えたことで一気に可視化されただけだ。フィード上の情報とサイト上の表示を常に一致させておくことが、AI時代の基本的な信頼づくりになる。"
+  },
+  {
+    "slug": "shopify-ceo-agentic-commerce-effect-20260922",
+    "title": "検索エンジンから「AIエージェント」へ、Shopify社長が語るAI経由の注文3倍という変化",
+    "sourceUrl": "https://netshop.impress.co.jp/e/2026/08/20/16580",
+    "source": "ネットショップ担当者フォーラム",
+    "date": "2026-08-20",
+    "dateDisplay": "2026年8月20日",
+    "platforms": ["other-ai"],
+    "viewpoint": "seller",
+    "theme": "visibility",
+    "thumbnail": "https://netshop.impress.co.jp/sites/default/files/styles/1200x630/public/images/article/2026/DigitalCommerce/node16580-1.jpg?itok=6GOTPdT4",
+    "background": "検索エンジン経由の集客からAIエージェント経由の集客への移行が、Shopify加盟店のデータにも表れ始めている。Shopify社長が語ったAI活用の効果について、2026年8月20日に紹介記事が公開された。従来の検索エンジン対策だけでは捉えきれない、購買プロセス自体の変化が示されている。",
+    "bullets": [
+      "AIエージェント経由の注文・アクセスは前年比で3倍に増加した",
+      "AIエージェント経由の新規顧客獲得率は従来チャネルの2倍に達している",
+      "AIエージェントを介した購買プロセスは、比較検討から購入までの時間が短縮される傾向がある"
+    ],
+    "cardBullets": [
+      "Shopify社長、AIエージェント経由の注文が前年比3倍と明かす",
+      "新規顧客獲得率も2倍、購買プロセスは短縮傾向に",
+      "検索エンジン対策からAIエージェント対応への移行が加速"
+    ],
+    "meaning": "集客の主戦場が検索エンジンからAIエージェントへ移るという変化は、抽象的な未来予測ではなく、実際の受注データとして既に現れている。EC店舗が向き合うべきは「検索対策かAI対策か」という二択ではなく、どちらの経路でも同じ精度で商品を理解してもらえるデータ基盤をどう作るかという一点に絞られてきている。"
+  },
+  {
+    "slug": "google-ai-mode-shopping-visibility-drop-20260922",
+    "title": "Google AI Modeでは商品表示率が標準検索の4分の1、Productrise調査が明らかにした可視性の激減",
+    "sourceUrl": "https://ppc.land/ai-mode-cuts-google-shopping-listings-95-productrise-finds/",
+    "source": "PPC Land",
+    "date": "2026-07-29",
+    "dateDisplay": "2026年7月29日",
+    "platforms": ["google"],
+    "viewpoint": "seller",
+    "theme": "measurement",
+    "thumbnail": "https://ppc.land/content/images/size/w2000/2026/07/shelves.webp",
+    "background": "Google検索のAI Modeが従来の検索結果と比べて、実際にどれだけ商品を表示しているのかを大規模に検証した調査結果を、データ分析企業Productriseが公開した。同一のショッピング検索クエリを標準検索とAI Modeの両方で3週間にわたり追跡した結果、可視性に大きな差があることが判明した。",
+    "bullets": [
+      "米国・英国で10万件以上の同一ショッピングクエリを対象に、2026年7月の3週間、標準検索とAI Modeを比較した",
+      "追跡した商品リスティングは200万件以上にのぼる",
+      "標準検索では約88%のクエリで少なくとも1つの商品が表示されたのに対し、AI Modeでは約23%にとどまった",
+      "1ページあたりの平均商品表示数は、標準検索の22.5商品に対しAI Modeでは4.3商品と、全体で約95%の可視性低下が確認された",
+      "両検索結果に同じ商品が同時に表示される「オーバーラップ率」はわずか約0.8%だった",
+      "同一商品が両方の画面に表示された場合、AI Mode側の価格表示は平均で21.6%高かった"
+    ],
+    "cardBullets": [
+      "Google AI Modeの商品表示率、標準検索の4分の1に激減と判明",
+      "10万件超のクエリ調査で可視性は約95%低下、価格差も21.6%",
+      "Productrise調査、AI Modeでの商品露出は構造的に狭いと指摘"
+    ],
+    "meaning": "AI Modeは「検索結果の一種」ではなく、商品が表示される確率そのものが根本的に低い、まったく別の画面だと捉えたほうが実態に近い。EC店舗にとっては、AI Modeで表示される少数の商品枠に選ばれるための商品データの精度が、従来の検索対策よりもいっそう重い意味を持つようになる。"
+  },
+  {
+    "slug": "google-merchant-center-ai-performance-insights-20260922",
+    "title": "Google Merchant Centerに「AI Performance Insights」、AI検索でのシェア・オブ・ボイスを可視化",
+    "sourceUrl": "https://www.seroundtable.com/google-merchant-center-ai-performance-insights-41675.html",
+    "source": "Search Engine Roundtable",
+    "date": "2026-07-14",
+    "dateDisplay": "2026年7月14日",
+    "platforms": ["google"],
+    "viewpoint": "seller",
+    "theme": "optimization",
+    "thumbnail": "https://images.seroundtable.com/google-merchant-center-ai-performance-insights-FQPmtAGS.jpg",
+    "background": "Googleは、Merchant Center上で自社商品がAI Mode・AI Overviewsでどの程度表示されているかを可視化する新しいベータレポート「AI Performance Insights」を公開した。従来の検索順位という指標だけでは捉えられなかった、AI検索での存在感を数値として確認できる仕組みで、2026年7月14日に詳細が報じられた。",
+    "bullets": [
+      "「Share of Voice」指標により、自社ブランド・商品が競合と比較してAI検索上でどの程度表示されているかを確認できる",
+      "「Query Frequency」により、どのクエリタイプ・商品用語・購買ジャーニーの段階で人気が高いかを把握できる",
+      "「Query Type」では、カテゴリ検索・製品スペック調査・レビュー検索など、顧客が使ったクエリの種類が示される",
+      "競合セットの平均シェアと自社シェアを比較する機能も含まれている",
+      "現時点では米国内の限定的なMerchant Centerアカウントでパイロット実施中で、今後オーストラリア・カナダ・インド・ニュージーランドに拡大予定である"
+    ],
+    "cardBullets": [
+      "GoogleがMerchant CenterにAI検索の可視性を測る新機能追加",
+      "Share of Voiceで競合比較したAI検索での存在感を数値化",
+      "米国で先行パイロット、今後4カ国に拡大予定"
+    ],
+    "meaning": "「AI検索で見られているかどうか」が、感覚ではなく数値で確認できる時代に入ってきている。これまでタグ付けや属性整備の効果は「なんとなく効いている気がする」という手応えでしか測れなかったが、こうした指標が整うことで、商品データ整備の投資対効果を具体的な数字で語れるようになる。"
+  },
+  {
+    "slug": "amazon-rufus-usage-frequency-survey-20260922",
+    "title": "商品のAI検索経験者は64%、「Amazon Rufus」利用頻度が「増えた」との回答は75%",
+    "sourceUrl": "https://netshop.impress.co.jp/n/2026/04/08/15879",
+    "source": "ネットショップ担当者フォーラム",
+    "date": "2026-04-08",
+    "dateDisplay": "2026年4月8日",
+    "platforms": ["amazon"],
+    "viewpoint": "buyer",
+    "theme": "visibility",
+    "thumbnail": "https://netshop.impress.co.jp/sites/default/files/styles/1200x630/public/images/news/2026/news-node15879-ogp.jpeg?itok=FLpfWV2r",
+    "background": "商品探しにAI検索を使った経験のある消費者の割合や、EC特化型AIアシスタントの利用継続傾向を調査した結果が2026年4月8日に紹介された。Amazonの生成AIショッピングアシスタント「Rufus」については、利用頻度の変化についても具体的な数値が示されている。",
+    "bullets": [
+      "商品のAI検索を経験したことがある消費者は全体の64%にのぼる",
+      "汎用AIチャットボットよりも、EC特化型のAIアシスタントの方が継続利用率が高い傾向が確認された",
+      "「Amazon Rufus」の利用者のうち、利用頻度が「増えた」と回答した割合は75%に達した"
+    ],
+    "cardBullets": [
+      "商品のAI検索経験者は64%、EC特化型AIの継続利用が優位",
+      "Amazon Rufus利用者の75%が「利用頻度が増えた」と回答",
+      "汎用AIよりEC専用AIが選ばれる傾向が調査で判明"
+    ],
+    "meaning": "消費者は一度EC特化型のAIアシスタントに慣れると、そこから離れにくくなる傾向がある。これは裏を返せば、そのAIアシスタントに自店の商品が正しく理解されていなければ、継続的に不利な状態が固定化されるということでもある。早い段階でAIに読み取られやすい商品データを整えておく価値は、利用が定着するほど大きくなる。"
+  }
+]

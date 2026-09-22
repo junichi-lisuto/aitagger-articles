@@ -1,0 +1,22 @@
+{
+  "slug": "yahoo-shopping-ai-omakase-coordinate-20260922",
+  "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/yahoo-shopping-ai-omakase-coordinate-20260922.html",
+  "sourceUrl": "https://ai.watch.impress.co.jp/docs/news/2137547.html",
+  "platforms": [
+    "yahoo"
+  ],
+  "viewpoint": "buyer",
+  "theme": "visibility",
+  "source": "AI Watch（Impress Watch）",
+  "date": "2026-09-02",
+  "title": "Yahoo!ショッピング、AIが着用イメージまで提案する「AIおまかせコーディネート」を先行提供",
+  "bullets": [
+    "Yahoo!ショッピングのAIが着用イメージまで生成、約30秒で提案",
+    "過去購入データでサイズ感の不安も解消する新機能",
+    "antiquaなど一部ストアで先行提供を開始"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "url": "https://ai.watch.impress.co.jp/img/aiw/list/2137/547/0100.jpg"
+  }
+}

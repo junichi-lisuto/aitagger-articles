@@ -1,0 +1,22 @@
+{
+  "slug": "anthropic-claude-merchant-agent-blueprint-20260922",
+  "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/anthropic-claude-merchant-agent-blueprint-20260922.html",
+  "sourceUrl": "https://www.practicalecommerce.com/new-ecommerce-tools-september-8-2026",
+  "platforms": [
+    "other-ai"
+  ],
+  "viewpoint": "seller",
+  "theme": "optimization",
+  "source": "Practical Ecommerce",
+  "date": "2026-09-08",
+  "title": "Anthropicが小売業者向けAIエージェントの「ブループリント」公開、Claude上で構築可能に",
+  "bullets": [
+    "AnthropicがClaude上で小売AIエージェントを作れるブループリント公開",
+    "在庫・価格提案から顧客対応まで、Claudeで構築可能に",
+    "ホリデー商戦前の会話型購買ツール需要拡大が背景"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "url": "https://www.practicalecommerce.com/wp-content/uploads/2026/09/New-Ecommerce-Tools-September-8-2026.jpg"
+  }
+}
