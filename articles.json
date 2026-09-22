@@ -1,7 +1,227 @@
 {
-  "updatedAt": "2026-09-20",
+  "updatedAt": "2026-09-22",
   "schemaVersion": 2,
   "articles": [
+    {
+      "slug": "yahoo-shopping-ai-omakase-coordinate-20260922",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/yahoo-shopping-ai-omakase-coordinate-20260922.html",
+      "sourceUrl": "https://ai.watch.impress.co.jp/docs/news/2137547.html",
+      "platforms": [
+        "yahoo"
+      ],
+      "viewpoint": "buyer",
+      "theme": "visibility",
+      "source": "AI Watch（Impress Watch）",
+      "date": "2026-09-02",
+      "title": "Yahoo!ショッピング、AIが着用イメージまで提案する「AIおまかせコーディネート」を先行提供",
+      "bullets": [
+        "Yahoo!ショッピングのAIが着用イメージまで生成、約30秒で提案",
+        "過去購入データでサイズ感の不安も解消する新機能",
+        "antiquaなど一部ストアで先行提供を開始"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ai.watch.impress.co.jp/img/aiw/list/2137/547/0100.jpg"
+      }
+    },
+    {
+      "slug": "shopify-ceo-agentic-commerce-effect-20260922",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/shopify-ceo-agentic-commerce-effect-20260922.html",
+      "sourceUrl": "https://netshop.impress.co.jp/e/2026/08/20/16580",
+      "platforms": [
+        "other-ai"
+      ],
+      "viewpoint": "seller",
+      "theme": "visibility",
+      "source": "ネットショップ担当者フォーラム",
+      "date": "2026-08-20",
+      "title": "検索エンジンから「AIエージェント」へ、Shopify社長が語るAI経由の注文3倍という変化",
+      "bullets": [
+        "Shopify社長、AIエージェント経由の注文が前年比3倍と明かす",
+        "新規顧客獲得率も2倍、購買プロセスは短縮傾向に",
+        "検索エンジン対策からAIエージェント対応への移行が加速"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://netshop.impress.co.jp/sites/default/files/styles/1200x630/public/images/article/2026/DigitalCommerce/node16580-1.jpg?itok=6GOTPdT4"
+      }
+    },
+    {
+      "slug": "rakuten-ai-concierge-seller-aio-20260922",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/rakuten-ai-concierge-seller-aio-20260922.html",
+      "sourceUrl": "https://jagoo.co.jp/column/rakuten-ai-concierge-2/",
+      "platforms": [
+        "rakuten"
+      ],
+      "viewpoint": "seller",
+      "theme": "optimization",
+      "source": "ジャグー株式会社",
+      "date": "2026-09-20",
+      "title": "楽天AIコンシェルジュへの対応、出店者が押さえるべき4つのAIO対策とは",
+      "bullets": [
+        "楽天AIコンシェルジュ対応、出店者が取るべき4つのAIO対策を解説",
+        "約5億点からAIが提案、従来の楽天SEOだけでは不十分に",
+        "CEP整理・モール外の一次情報強化まで対策範囲が拡大"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://jagoo.co.jp/system/wp-content/uploads/2026/07/rakutenai-concierge-1024x584.png"
+      }
+    },
+    {
+      "slug": "openai-sponsored-agents-chatgpt-20260922",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/openai-sponsored-agents-chatgpt-20260922.html",
+      "sourceUrl": "https://www.seroundtable.com/openai-chatgpt-sponsored-agents-42104.html",
+      "platforms": [
+        "chatgpt"
+      ],
+      "viewpoint": "buyer",
+      "theme": "visibility",
+      "source": "Search Engine Roundtable",
+      "date": "2026-09-16",
+      "title": "OpenAIがChatGPT広告に「Sponsored Agents」を投入、広告主のAIが直接会話する新形式をテスト開始",
+      "bullets": [
+        "ChatGPT広告に「Sponsored Agents」登場、企業AIと直接会話する新形式",
+        "HubSpot・Shopifyが最初の連携パートナーに、9月23日から国際展開",
+        "広告クリック後に企業AIエージェントとの専用会話が始まる仕組み"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://images.seroundtable.com/openai-chatgpt-ads-sponsored-agents-scSS0c8S.jpg"
+      }
+    },
+    {
+      "slug": "google-merchant-center-ai-performance-insights-20260922",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/google-merchant-center-ai-performance-insights-20260922.html",
+      "sourceUrl": "https://www.seroundtable.com/google-merchant-center-ai-performance-insights-41675.html",
+      "platforms": [
+        "google"
+      ],
+      "viewpoint": "seller",
+      "theme": "optimization",
+      "source": "Search Engine Roundtable",
+      "date": "2026-07-14",
+      "title": "Google Merchant Centerに「AI Performance Insights」、AI検索でのシェア・オブ・ボイスを可視化",
+      "bullets": [
+        "GoogleがMerchant CenterにAI検索の可視性を測る新機能追加",
+        "Share of Voiceで競合比較したAI検索での存在感を数値化",
+        "米国で先行パイロット、今後4カ国に拡大予定"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://images.seroundtable.com/google-merchant-center-ai-performance-insights-FQPmtAGS.jpg"
+      }
+    },
+    {
+      "slug": "google-ai-mode-shopping-visibility-drop-20260922",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/google-ai-mode-shopping-visibility-drop-20260922.html",
+      "sourceUrl": "https://ppc.land/ai-mode-cuts-google-shopping-listings-95-productrise-finds/",
+      "platforms": [
+        "google"
+      ],
+      "viewpoint": "seller",
+      "theme": "measurement",
+      "source": "PPC Land",
+      "date": "2026-07-29",
+      "title": "Google AI Modeでは商品表示率が標準検索の4分の1、Productrise調査が明らかにした可視性の激減",
+      "bullets": [
+        "Google AI Modeの商品表示率、標準検索の4分の1に激減と判明",
+        "10万件超のクエリ調査で可視性は約95%低下、価格差も21.6%",
+        "Productrise調査、AI Modeでの商品露出は構造的に狭いと指摘"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ppc.land/content/images/size/w2000/2026/07/shelves.webp"
+      }
+    },
+    {
+      "slug": "chatgpt-ads-roas-expectation-ec-20260922",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/chatgpt-ads-roas-expectation-ec-20260922.html",
+      "sourceUrl": "https://www.commercepick.com/archives/102013",
+      "platforms": [
+        "chatgpt"
+      ],
+      "viewpoint": "seller",
+      "theme": "measurement",
+      "source": "コマースピック",
+      "date": "2026-09-08",
+      "title": "ChatGPT広告は「売上」を期待すべきか、EC事業者が押さえておきたい評価軸",
+      "bullets": [
+        "ChatGPT広告、期待は95%も即時ROAS改善への期待はわずか8.9%",
+        "EC事業者向けに段階的な効果測定アプローチを提言",
+        "検索広告との訪問単価比較から始める評価軸を解説"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://www.commercepick.com/wp-content/uploads/2026/09/202609030601.png"
+      }
+    },
+    {
+      "slug": "anthropic-claude-merchant-agent-blueprint-20260922",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/anthropic-claude-merchant-agent-blueprint-20260922.html",
+      "sourceUrl": "https://www.practicalecommerce.com/new-ecommerce-tools-september-8-2026",
+      "platforms": [
+        "other-ai"
+      ],
+      "viewpoint": "seller",
+      "theme": "optimization",
+      "source": "Practical Ecommerce",
+      "date": "2026-09-08",
+      "title": "Anthropicが小売業者向けAIエージェントの「ブループリント」公開、Claude上で構築可能に",
+      "bullets": [
+        "AnthropicがClaude上で小売AIエージェントを作れるブループリント公開",
+        "在庫・価格提案から顧客対応まで、Claudeで構築可能に",
+        "ホリデー商戦前の会話型購買ツール需要拡大が背景"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://www.practicalecommerce.com/wp-content/uploads/2026/09/New-Ecommerce-Tools-September-8-2026.jpg"
+      }
+    },
+    {
+      "slug": "amazon-rufus-usage-frequency-survey-20260922",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/amazon-rufus-usage-frequency-survey-20260922.html",
+      "sourceUrl": "https://netshop.impress.co.jp/n/2026/04/08/15879",
+      "platforms": [
+        "amazon"
+      ],
+      "viewpoint": "buyer",
+      "theme": "visibility",
+      "source": "ネットショップ担当者フォーラム",
+      "date": "2026-04-08",
+      "title": "商品のAI検索経験者は64%、「Amazon Rufus」利用頻度が「増えた」との回答は75%",
+      "bullets": [
+        "商品のAI検索経験者は64%、EC特化型AIの継続利用が優位",
+        "Amazon Rufus利用者の75%が「利用頻度が増えた」と回答",
+        "汎用AIよりEC専用AIが選ばれる傾向が調査で判明"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://netshop.impress.co.jp/sites/default/files/styles/1200x630/public/images/news/2026/news-node15879-ogp.jpeg?itok=FLpfWV2r"
+      }
+    },
+    {
+      "slug": "ai-shopping-consumer-friction-survey-20260922",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/ai-shopping-consumer-friction-survey-20260922.html",
+      "sourceUrl": "https://netshop.impress.co.jp/n/2026/08/20/16585",
+      "platforms": [
+        "other-ai"
+      ],
+      "viewpoint": "buyer",
+      "theme": "visibility",
+      "source": "ネットショップ担当者フォーラム",
+      "date": "2026-08-20",
+      "title": "AIで買い物をする時代の消費行動、6割がECサイトへの移動時に不満を感じる",
+      "bullets": [
+        "AI提案→EC移動時、6割の消費者が不満を経験",
+        "価格・仕様の食い違いが購買体験の摩擦を増幅",
+        "AIとECサイトの情報一致が課題として浮上"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://netshop.impress.co.jp/sites/default/files/styles/1200x630/public/images/news/2026/news-node16585-ogp.png?itok=17KFvZRb"
+      }
+    },
     {
       "slug": "zozo-wear-niaulab-room-2026",
       "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/zozo-wear-niaulab-room-2026.html",
