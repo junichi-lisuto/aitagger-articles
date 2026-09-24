@@ -1,8 +1,18 @@
 # 既出の元記事URL一覧（自動生成）
 
 記事候補を探す前に必ずこの一覧を確認し、ここに載っているURLと同じ元記事は候補から除外すること。
-生成元: articles.json（更新日: 2026-09-22）
+生成元: articles.json（更新日: 2026-09-24）
 
+- https://ecnomikata.com/original_news/51756/
+- https://www.foreignpolicyjournal.com/2026/09/23/walmart-nasdaq-wmt-shares-rise-as-senators-push-ftc-to-scrutinize-sparky-ai-shopping-assistant/
+- https://netshop.impress.co.jp/n/2026/09/16/16749
+- https://ppc.land/openai-gains-7-asian-markets-for-chatgpt-ads-passing-60-countries/
+- https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse/
+- https://www.seroundtable.com/google-merchant-center-ai-updates-42095.html
+- https://www.watch.impress.co.jp/docs/news/2139606.html
+- https://prtimes.jp/main/html/rd/p/000000291.000121065.html
+- https://prtimes.jp/main/html/rd/p/000000044.000166736.html
+- https://www.searchenginejournal.com/product-pages-get-24-of-ai-citations-reddit-youtube-4/587560/
 - https://ai.watch.impress.co.jp/docs/news/2137547.html
 - https://netshop.impress.co.jp/e/2026/08/20/16580
 - https://jagoo.co.jp/column/rakuten-ai-concierge-2/

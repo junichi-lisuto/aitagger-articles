@@ -1,7 +1,228 @@
 {
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-09-24",
   "schemaVersion": 2,
   "articles": [
+    {
+      "slug": "yahoo-shopping-ai-transformation-20260924",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/yahoo-shopping-ai-transformation-20260924.html",
+      "sourceUrl": "https://ecnomikata.com/original_news/51756/",
+      "platforms": [
+        "yahoo"
+      ],
+      "viewpoint": "seller",
+      "theme": "optimization",
+      "source": "ECのミカタ",
+      "date": "2026-09-24",
+      "title": "Yahoo!ショッピングがAI化を加速、「AIお買い物メモ」は1カ月で利用者12倍に",
+      "bullets": [
+        "Yahoo!ショッピングAI化が加速、お買い物メモは1カ月で利用者12倍",
+        "AI活用店舗は取扱高の伸びが15ポイント高く、白鳩はCVR40%増",
+        "AIエージェント経由の取扱高は全体の約2割に到達"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://img.ecnomikata.com/img_contents/original_news/images/51756_3_facebook_image.jpg"
+      }
+    },
+    {
+      "slug": "walmart-sparky-ftc-scrutiny-20260924",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/walmart-sparky-ftc-scrutiny-20260924.html",
+      "sourceUrl": "https://www.foreignpolicyjournal.com/2026/09/23/walmart-nasdaq-wmt-shares-rise-as-senators-push-ftc-to-scrutinize-sparky-ai-shopping-assistant/",
+      "platforms": [
+        "other-ai"
+      ],
+      "viewpoint": "buyer",
+      "theme": "visibility",
+      "source": "Foreign Policy Journal",
+      "date": "2026-09-23",
+      "title": "WalmartのAI「Sparky」、米上院議員がFTCに監視要請 原産国表示の正確性に懸念",
+      "bullets": [
+        "米上院議員2名、WalmartのAI「Sparky」をFTCに調査要請",
+        "Sparkyは平均注文額を35%押し上げたとWalmartが報告",
+        "AI推薦の正確性が規制当局の焦点に、業界へ波及も"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://www.foreignpolicyjournal.com/wp-content/uploads/2026/04/walmart.webp"
+      }
+    },
+    {
+      "slug": "w2-smarthub-media-commerce-ai-20260924",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/w2-smarthub-media-commerce-ai-20260924.html",
+      "sourceUrl": "https://netshop.impress.co.jp/n/2026/09/16/16749",
+      "platforms": [
+        "other-ai"
+      ],
+      "viewpoint": "seller",
+      "theme": "optimization",
+      "source": "ネットショップ担当者フォーラム",
+      "date": "2026-09-16",
+      "title": "W2、AIエージェント基盤「W2 SmartHub」を正式リリース ECを『売る場所』から『売上を生むメディア』へ",
+      "bullets": [
+        "W2 SmartHub正式リリース、ECを『売る場所』から『メディア』へ",
+        "利用シーン・悩み・購買動機のタグをAIが自動生成",
+        "第2弾プラグインは2026年10月にリリース予定"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://netshop.impress.co.jp/sites/default/files/styles/1200x630/public/images/news/2026/news-node16749-ogp.jpg?itok=Yccrmv4_"
+      }
+    },
+    {
+      "slug": "openai-chatgpt-ads-asia-expansion-20260924",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/openai-chatgpt-ads-asia-expansion-20260924.html",
+      "sourceUrl": "https://ppc.land/openai-gains-7-asian-markets-for-chatgpt-ads-passing-60-countries/",
+      "platforms": [
+        "chatgpt"
+      ],
+      "viewpoint": "buyer",
+      "theme": "visibility",
+      "source": "PPC Land",
+      "date": "2026-09-23",
+      "title": "OpenAIがChatGPT広告をアジア7市場に拡大、対応60カ国突破で年間換算10億ドル規模に",
+      "bullets": [
+        "ChatGPT広告が対応63カ国に拡大、アジア7市場を追加",
+        "年間収益ペースは開始200日で10億ドル到達",
+        "1週間で米広告主7,378社、急速に商業化が進む"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ppc.land/content/images/size/w1200/2026/09/OpenAI-gains-7-Asian-markets-for-ChatGPT-ads--passing-60-countries.jpg"
+      }
+    },
+    {
+      "slug": "meta-muse-ai-shopping-agent-glasses-20260924",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/meta-muse-ai-shopping-agent-glasses-20260924.html",
+      "sourceUrl": "https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse/",
+      "platforms": [
+        "other-ai"
+      ],
+      "viewpoint": "buyer",
+      "theme": "visibility",
+      "source": "TechCrunch",
+      "date": "2026-09-23",
+      "title": "MetaのAIエージェント「Muse」がAIグラスに対応へ、Best Buy・Walmart等と連携し買い物代行",
+      "bullets": [
+        "MetaのAI「Muse」がAIグラス対応へ、数カ月内に実装予定",
+        "Best Buy・Walmart等と連携、Shopify経由で購入代行",
+        "新型スマートグラスは10月13日に349ドルで発売"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://techcrunch.com/wp-content/uploads/2026/09/mark-zuckerberg-meta-connect.jpg?resize=1200,799"
+      }
+    },
+    {
+      "slug": "google-merchant-center-ucp-ai-updates-20260924",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/google-merchant-center-ucp-ai-updates-20260924.html",
+      "sourceUrl": "https://www.seroundtable.com/google-merchant-center-ai-updates-42095.html",
+      "platforms": [
+        "google"
+      ],
+      "viewpoint": "seller",
+      "theme": "optimization",
+      "source": "Search Engine Roundtable",
+      "date": "2026-09-16",
+      "title": "Google Merchant Center、AIパフォーマンスインサイトが一般提供開始 UCP連携も簡素化",
+      "bullets": [
+        "Merchant CenterのAIパフォーマンスインサイトが一般提供開始",
+        "UCP新機能でカート転送・ネイティブチェックアウトに対応",
+        "動画リンク・会話型属性など新規推奨属性を追加"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://images.seroundtable.com/google-merchant-center-ucp-connect-0cWGUfJu.jpg"
+      }
+    },
+    {
+      "slug": "geniac-robot-foundation-models-13-adopted-20260924",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/geniac-robot-foundation-models-13-adopted-20260924.html",
+      "sourceUrl": "https://www.watch.impress.co.jp/docs/news/2139606.html",
+      "platforms": [
+        "other-ai"
+      ],
+      "viewpoint": "seller",
+      "theme": "optimization",
+      "source": "Impress Watch",
+      "date": "2026-09-09",
+      "title": "経産省「GENIAC」ロボット基盤モデル事業に13件採択、メルカリやKDDIなどが参画",
+      "bullets": [
+        "GENIACロボット基盤モデル事業に13件採択、メルカリも参画",
+        "メルカリはAIロボットで出品・検品作業の自動化に着手",
+        "政府は2040年にロボット約1,000万台導入を目標に掲げる"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://www.watch.impress.co.jp/img/ipw/list/2139/606/01.jpg"
+      }
+    },
+    {
+      "slug": "dentsu-digital-agentic-commerce-optimization-20260924",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/dentsu-digital-agentic-commerce-optimization-20260924.html",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000291.000121065.html",
+      "platforms": [
+        "other-ai"
+      ],
+      "viewpoint": "seller",
+      "theme": "optimization",
+      "source": "株式会社電通デジタル（PR TIMES）",
+      "date": "2026-09-15",
+      "title": "電通デジタル、AI自律購買時代に備える「エージェンティックコマース最適化(ACO)」支援を開始",
+      "bullets": [
+        "電通デジタル、AI自律購買に備えるACO支援サービスを開始",
+        "分散した商品情報の不足・矛盾をAIが誤読する課題に対応",
+        "データ基盤整備から購買導線の検証まで一貫支援"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://prcdn.freetls.fastly.net/release_image/121065/291/121065-291-cb0a8bc3560dd0dc1c75d42c4a144c57-1280x720.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+      }
+    },
+    {
+      "slug": "ai-search-shopping-trust-survey-20260924",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/ai-search-shopping-trust-survey-20260924.html",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000044.000166736.html",
+      "platforms": [
+        "other-ai",
+        "google"
+      ],
+      "viewpoint": "buyer",
+      "theme": "measurement",
+      "source": "株式会社ナレッジホールディングス（PR TIMES）",
+      "date": "2026-09-17",
+      "title": "買い物でAI検索を使う人は7割超に、信頼度はGoogle検索・口コミと並ぶ「三つ巴」",
+      "bullets": [
+        "買い物でAI検索を使う人が68.1%に、経験者は8割超",
+        "情報源の信頼度はGoogle検索・AI検索・口コミがほぼ横並び",
+        "20代の「よく使う」率は57%、若年層で先行して定着"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://prcdn.freetls.fastly.net/release_image/166736/44/166736-44-3592fa6f97a5bf5b3063445dd99fcb89-1920x1080.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+      }
+    },
+    {
+      "slug": "ai-citations-product-pages-share-20260924",
+      "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/ai-citations-product-pages-share-20260924.html",
+      "sourceUrl": "https://www.searchenginejournal.com/product-pages-get-24-of-ai-citations-reddit-youtube-4/587560/",
+      "platforms": [
+        "other-ai"
+      ],
+      "viewpoint": "seller",
+      "theme": "optimization",
+      "source": "Search Engine Journal",
+      "date": "2026-09-03",
+      "title": "AI引用の24%は商品ページから、ブランド管理可能なコンテンツが9割近くを占める調査結果",
+      "bullets": [
+        "AI引用の24.1%は商品ページ、最大のカテゴリーに",
+        "ブランド管理可能なコンテンツが引用全体の88.3%を占める",
+        "比較コンテンツは出現率20%で引用27%、1.33倍のリターン"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://cdn.searchenginejournal.com/wp-content/uploads/2026/08/data-ai-118.png"
+      }
+    },
     {
       "slug": "yahoo-shopping-ai-omakase-coordinate-20260922",
       "url": "https://junichi-lisuto.github.io/aitagger-articles/articles/yahoo-shopping-ai-omakase-coordinate-20260922.html",
