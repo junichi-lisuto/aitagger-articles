@@ -1,7 +1,294 @@
 {
-  "updatedAt": "2026-09-24",
+  "updatedAt": "2026-09-25",
   "schemaVersion": 2,
   "articles": [
+    {
+      "slug": "youtube-ask-shopping-comparison-table-20260925",
+      "url": "https://junichi-lisuto.github.io/lisuto-media-centre/articles/youtube-ask-shopping-comparison-table-20260925.html",
+      "sourceUrl": "https://www.searchenginejournal.com/youtube-shopping-ask-youtube-ai-search/590662/",
+      "platforms": [
+        "google"
+      ],
+      "viewpoint": "buyer",
+      "theme": "visibility",
+      "source": "Search Engine Journal",
+      "date": "2026-09-23",
+      "title": "YouTubeの対話型検索「Ask YouTube」が商品レビュー動画を比較表に整理、視聴ページ版は6月に1.4億人が利用",
+      "bullets": [
+        "Ask YouTubeが商品レビュー動画を比較表に整理して提示",
+        "視聴ページ版は6月に1.4億人以上が利用した規模",
+        "検索版は米国・英語限定、比較表は4月から試験済み"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://cdn.searchenginejournal.com/wp-content/uploads/2026/09/youtube-ask-shopping-featured.png"
+      }
+    },
+    {
+      "slug": "yahoo-shopping-youtube-affiliate-20260925",
+      "url": "https://junichi-lisuto.github.io/lisuto-media-centre/articles/yahoo-shopping-youtube-affiliate-20260925.html",
+      "sourceUrl": "https://www.lycorp.co.jp/ja/news/release/020834/",
+      "platforms": [
+        "yahoo"
+      ],
+      "viewpoint": "seller",
+      "theme": "visibility",
+      "source": "LINEヤフー株式会社",
+      "date": "2026-09-25",
+      "title": "Yahoo!ショッピング、YouTubeショッピングアフィリエイトと連携開始。クリエイター動画からの購買導線を新設",
+      "bullets": [
+        "Yahoo!ショッピングがYouTubeショッピング提携を開始",
+        "国内ショッピング動画の再生時間は前年比50%超増加",
+        "基本料率2〜4%、店舗が特別料率も上乗せ可能に"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://www.lycorp.co.jp/ja/news/2026/a2a0139eb5c6f1d5b2f60887e5d986fd08d1b47e.jpg"
+      }
+    },
+    {
+      "slug": "us-ec-ai-traffic-share-5percent-20260925",
+      "url": "https://junichi-lisuto.github.io/lisuto-media-centre/articles/us-ec-ai-traffic-share-5percent-20260925.html",
+      "sourceUrl": "https://netshop.impress.co.jp/e/2026/09/24/16769",
+      "platforms": [
+        "chatgpt",
+        "other-ai"
+      ],
+      "viewpoint": "seller",
+      "theme": "measurement",
+      "source": "ネットショップ担当者フォーラム",
+      "date": "2026-09-24",
+      "title": "米大手ECのAI経由流入が約5%に到達、訪問単価は一般ユーザーより53%高くCVR13%超の事例も",
+      "bullets": [
+        "米大手ECのAI経由流入が約5%へ、2026年初は2%未満",
+        "AI経由の訪問単価は一般ユーザーより53%高い",
+        "CVRが通常3%からAI経由13%超になった事例も出た"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://netshop.impress.co.jp/sites/default/files/styles/1200x630/public/images/article/2026/DigitalCommerce/node16769-ogp.jpg?itok=6VzKBBeE"
+      }
+    },
+    {
+      "slug": "stripe-link-meta-muse-agent-payment-20260925",
+      "url": "https://junichi-lisuto.github.io/lisuto-media-centre/articles/stripe-link-meta-muse-agent-payment-20260925.html",
+      "sourceUrl": "https://ecnomikata.com/ecnews/51663/",
+      "platforms": [
+        "other-ai"
+      ],
+      "viewpoint": "buyer",
+      "theme": "visibility",
+      "source": "ECのミカタ",
+      "date": "2026-09-24",
+      "title": "StripeがMetaのAIエージェント「Muse」にウォレット「Link」を提供、100万社以上の店舗でAIの代理決済が可能に",
+      "bullets": [
+        "StripeのLinkがMetaのAIエージェント「Muse」に対応",
+        "100万社以上の店舗でAIによる代理決済が可能に",
+        "MPPやTempoなどAI前提の決済基盤整備も並行"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://img.ecnomikata.com/img_contents/ecnews/images/51663_main1_facebook_image.jpg"
+      }
+    },
+    {
+      "slug": "members-survey-ai-recommendation-needs-ugc-20260925",
+      "url": "https://junichi-lisuto.github.io/lisuto-media-centre/articles/members-survey-ai-recommendation-needs-ugc-20260925.html",
+      "sourceUrl": "https://ecnomikata.com/ecnews/marketing/51667/",
+      "platforms": [
+        "other-ai"
+      ],
+      "viewpoint": "buyer",
+      "theme": "optimization",
+      "source": "ECのミカタ",
+      "date": "2026-09-25",
+      "title": "AIが薦めた商品でも「クチコミがなければ買わない」が57%、メンバーズの1万180人調査",
+      "bullets": [
+        "AI推奨商品でもクチコミがなければ57%が購入を見送る",
+        "AI情報だけで買うのは16%、49%は検索で裏取りする",
+        "1万180人調査、UGC不足がそのまま機会損失に"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://img.ecnomikata.com/img_contents/ecnews/images/51667_aisuisyousyouhinosusume_facebook_image.jpg"
+      }
+    },
+    {
+      "slug": "jd-sports-algolia-agentic-commerce-20260925",
+      "url": "https://junichi-lisuto.github.io/lisuto-media-centre/articles/jd-sports-algolia-agentic-commerce-20260925.html",
+      "sourceUrl": "https://www.digitalcommerce360.com/2026/09/23/jd-sports-algolia-agentic-commerce-strategy/",
+      "platforms": [
+        "other-ai"
+      ],
+      "viewpoint": "seller",
+      "theme": "optimization",
+      "source": "Digital Commerce 360",
+      "date": "2026-09-23",
+      "title": "JD Sportsがエージェント型コマースの基盤にAlgoliaを採用、検索経由売上22%増・商品一覧のCTR73%増",
+      "bullets": [
+        "JD Sportsが商品発見の基盤をAlgoliaに集約し成果を公表",
+        "検索経由売上22%増、商品一覧ページのCTRは73%増",
+        "4,800店舗・会員900万人規模でAI前提の設計へ移行"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://www.digitalcommerce360.com/wp-content/uploads/2026/09/AdobeStock_338463276_Editorial_Use_Only-scaled.jpeg"
+      }
+    },
+    {
+      "slug": "google-search-console-visual-search-data-20260925",
+      "url": "https://junichi-lisuto.github.io/lisuto-media-centre/articles/google-search-console-visual-search-data-20260925.html",
+      "sourceUrl": "https://ppc.land/google-search-console-gains-lens-and-circle-to-search-data-without-queries/",
+      "platforms": [
+        "google"
+      ],
+      "viewpoint": "seller",
+      "theme": "measurement",
+      "source": "PPC Land",
+      "date": "2026-09-24",
+      "title": "Google Search Consoleが画像検索（Lens・Circle to Search）の流入データを提供開始、ただし検索クエリは非開示",
+      "bullets": [
+        "Lens・Circle to Search経由の流入をSearch Consoleで計測可能に",
+        "指標のみで検索クエリは非開示、内容は推測に頼る形",
+        "Lensの視覚検索は月200億件、うち約20%が買い物目的"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ppc.land/content/images/2026/09/Curtained-stages-rise-in-a-blue-tower--one-open-and-empty-image-search-visibility-with-no-keywords.jpg"
+      }
+    },
+    {
+      "slug": "google-r4t-diffusion-query-fanout-20260925",
+      "url": "https://junichi-lisuto.github.io/lisuto-media-centre/articles/google-r4t-diffusion-query-fanout-20260925.html",
+      "sourceUrl": "https://www.searchenginejournal.com/google-announces-new-query-fan-out-framework-r4t-diffusion/590700/",
+      "platforms": [
+        "google"
+      ],
+      "viewpoint": "seller",
+      "theme": "visibility",
+      "source": "Search Engine Journal",
+      "date": "2026-09-24",
+      "title": "Googleがクエリ分解の新フレームワーク「R4T-Diffusion」を公開、5,390万パラメータで従来比12〜20倍の高速化",
+      "bullets": [
+        "Googleがクエリ分解の新フレームワークR4T-Diffusionを公開",
+        "5,390万パラメータで自己回帰型比12〜20倍の高速化",
+        "大バッチでも1秒未満〜数秒、約50秒から大幅短縮"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://cdn.searchenginejournal.com/wp-content/uploads/2026/09/r4t-model-728.jpg"
+      }
+    },
+    {
+      "slug": "google-ai-mode-fewer-referrals-study-20260925",
+      "url": "https://junichi-lisuto.github.io/lisuto-media-centre/articles/google-ai-mode-fewer-referrals-study-20260925.html",
+      "sourceUrl": "https://www.searchenginejournal.com/research-shows-google-ai-mode-sends-less-clicks-is-a-poor-user-experience/590221/",
+      "platforms": [
+        "google"
+      ],
+      "viewpoint": "seller",
+      "theme": "visibility",
+      "source": "Search Engine Journal",
+      "date": "2026-09-21",
+      "title": "Google AI Modeは外部サイトへの送客を減らし満足度も改善しない、米2大学が1,444人・7日間の実験で示す",
+      "bullets": [
+        "AI Modeは滞在を延ばし外部サイトへの送客を減らすと判明",
+        "1,444人・7日間の実験、AI Mode振替成功率は94.7%",
+        "競合検索エンジンへ移る利用者が有意に増加した"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://cdn.searchenginejournal.com/wp-content/uploads/2026/09/google-ai-mode-179.jpg"
+      }
+    },
+    {
+      "slug": "google-ai-mode-checkout-shopify-auto-enable-20260925",
+      "url": "https://junichi-lisuto.github.io/lisuto-media-centre/articles/google-ai-mode-checkout-shopify-auto-enable-20260925.html",
+      "sourceUrl": "https://ppc.land/google-switched-on-ai-mode-checkout-for-shopify-stores-without-asking/",
+      "platforms": [
+        "google"
+      ],
+      "viewpoint": "seller",
+      "theme": "optimization",
+      "source": "PPC Land",
+      "date": "2026-09-24",
+      "title": "GoogleがAI Modeのエージェント型チェックアウトをShopify店舗へ無断で自動有効化、UCP実装はわずか26サイトの実態も判明",
+      "bullets": [
+        "GoogleがAI Modeのエージェント決済をShopify店舗へ無断で自動有効化",
+        "無効化には管理画面から手動オプトアウトが必要な設定に",
+        "決済基盤UCPの実装サイトは調査時点でわずか26件"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://ppc.land/content/images/size/w1200/2026/09/Google-switched-on-AI-Mode-checkout-for-Shopify-stores-without-asking.jpg"
+      }
+    },
+    {
+      "slug": "best-buy-ask-blue-chatgpt-commerce-20260925",
+      "url": "https://junichi-lisuto.github.io/lisuto-media-centre/articles/best-buy-ask-blue-chatgpt-commerce-20260925.html",
+      "sourceUrl": "https://www.digitalcommerce360.com/2026/09/24/ecommerce-trends-how-best-buy-is-using-ai/",
+      "platforms": [
+        "chatgpt"
+      ],
+      "viewpoint": "seller",
+      "theme": "optimization",
+      "source": "Digital Commerce 360",
+      "date": "2026-09-24",
+      "title": "Best Buyが対話型アシスタント「Ask Blue」を8月に投入、ChatGPT内での商品発見から購入までOpenAIと提携",
+      "bullets": [
+        "Best Buyが対話型アシスタント「Ask Blue」を8月に投入",
+        "ChatGPT内で発見から購入まで完結する提携も開始",
+        "在庫・価格・レビューを1つの回答に統合する設計"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://www.digitalcommerce360.com/wp-content/uploads/2026/09/best-buy-ai-use-scaled.jpeg"
+      }
+    },
+    {
+      "slug": "amazon-marketing-cloud-5year-dataset-20260925",
+      "url": "https://junichi-lisuto.github.io/lisuto-media-centre/articles/amazon-marketing-cloud-5year-dataset-20260925.html",
+      "sourceUrl": "https://www.searchenginejournal.com/amazon-marketing-clouds-5-year-dataset-6-use-cases-worth-building-now/589137/",
+      "platforms": [
+        "amazon"
+      ],
+      "viewpoint": "seller",
+      "theme": "measurement",
+      "source": "Search Engine Journal",
+      "date": "2026-09-23",
+      "title": "Amazon Marketing Cloudが購買履歴を5年分開放、13カ月の参照制限が外れて2026年末まで無料",
+      "bullets": [
+        "AMCの購買履歴の参照期間が13カ月から5年分へ拡大",
+        "Amazon Retail Purchasesは2026年末まで無料で使える",
+        "LTV・離脱顧客の再獲得など6つの活用例を提示"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://cdn.searchenginejournal.com/wp-content/uploads/2026/09/amazon-cloud-454.png"
+      }
+    },
+    {
+      "slug": "agentic-commerce-still-unproven-20260925",
+      "url": "https://junichi-lisuto.github.io/lisuto-media-centre/articles/agentic-commerce-still-unproven-20260925.html",
+      "sourceUrl": "https://www.searchenginejournal.com/agentic-commerce-is-not-the-next-voice-shopping-but-it-is-still-unproven/589439/",
+      "platforms": [
+        "other-ai"
+      ],
+      "viewpoint": "seller",
+      "theme": "visibility",
+      "source": "Search Engine Journal",
+      "date": "2026-09-21",
+      "title": "エージェント型コマースは音声ショッピングの二の舞か、Instant Checkout採用は半年でShopify30店舗という実態",
+      "bullets": [
+        "Instant Checkout採用は半年でShopify30店舗にとどまる",
+        "音声ショッピングの400億ドル予測は外れた前例がある",
+        "加盟店が既定で組み込まれる点が過去と決定的に違う"
+      ],
+      "thumbnail": {
+        "type": "image",
+        "url": "https://cdn.searchenginejournal.com/wp-content/uploads/2026/09/ai-commerce-280.png"
+      }
+    },
     {
       "slug": "yahoo-shopping-ai-transformation-20260924",
       "url": "https://junichi-lisuto.github.io/lisuto-media-centre/articles/yahoo-shopping-ai-transformation-20260924.html",

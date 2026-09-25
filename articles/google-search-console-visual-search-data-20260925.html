@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script>if ('scrollRestoration' in history) { history.scrollRestoration = 'manual'; }</script>
-<title>Googleがクエリ分解の新フレームワーク「R4T-Diffusion」を公開、5,390万パラメータで従来比12〜20倍の高速化｜AIタッガー メディアセンター</title>
+<title>Google Search Consoleが画像検索（Lens・Circle to Search）の流入データを提供開始、ただし検索クエリは非開示｜AIタッガー メディアセンター</title>
 <style>
   :root{
     --blue:#2563EB;
@@ -102,43 +102,43 @@
 
 <header>
   <div class="hbar">
-    <a class="logo" href="https://www.lisuto.co.jp/media/"><img src="../../assets/logo.svg" alt="AIタッガー"><span class="sub">メディアセンター</span></a>
+    <a class="logo" href="https://www.lisuto.co.jp/media/"><img src="../assets/logo.svg" alt="AIタッガー"><span class="sub">メディアセンター</span></a>
   </div>
 </header>
 
 <div class="wrap">
-  <p class="crumb"><a href="https://www.lisuto.co.jp/media/">トップ</a><span>›</span><a href="https://www.lisuto.co.jp/media/?theme=visibility">検索結果・購買導線の変化</a><span>›</span>この記事（下書き・未公開）</p>
+  <p class="crumb"><a href="https://www.lisuto.co.jp/media/">トップ</a><span>›</span><a href="https://www.lisuto.co.jp/media/?theme=measurement">計測・分析</a><span>›</span>この記事</p>
 
-  <a class="thumb" href="https://www.searchenginejournal.com/google-announces-new-query-fan-out-framework-r4t-diffusion/590700/" target="_blank" rel="noopener"><img src="https://cdn.searchenginejournal.com/wp-content/uploads/2026/09/r4t-model-728.jpg" alt="" loading="lazy"></a>
+  <a class="thumb" href="https://ppc.land/google-search-console-gains-lens-and-circle-to-search-data-without-queries/" target="_blank" rel="noopener"><img src="https://ppc.land/content/images/2026/09/Curtained-stages-rise-in-a-blue-tower--one-open-and-empty-image-search-visibility-with-no-keywords.jpg" alt="" loading="lazy"></a>
 
   <div class="meta">
-    <span class="cat theme-visibility">検索結果・購買導線の変化</span>
+    <span class="cat theme-measurement">計測・分析</span>
     <span class="platform">Google</span>
-    <span class="src">Search Engine Journal</span>
+    <span class="src">PPC Land</span>
     <span class="date">2026年9月24日</span>
   </div>
-  <h1>Googleがクエリ分解の新フレームワーク「R4T-Diffusion」を公開、5,390万パラメータで従来比12〜20倍の高速化</h1>
-  <p class="orig">原題: Google Announces New Query Fan-Out Framework: R4T-Diffusion</p>
+  <h1>Google Search Consoleが画像検索（Lens・Circle to Search）の流入データを提供開始、ただし検索クエリは非開示</h1>
+  <p class="orig">原題: Google Search Console gains Lens and Circle to Search data, without queries</p>
 
   <h2>背景</h2>
-  <p class="background">AI検索は利用者の1つの問いを複数の下位クエリに分解して検索する「クエリ・ファンアウト」を前提に動いており、この処理の速度とコストがAI検索の実用性を左右してきた。Googleは、強化学習・合成データ生成・小規模な拡散モデルを組み合わせた新フレームワークを公開し、計算コストを下げながら品質を上げたと説明している。</p>
+  <p class="background">画像を起点にした検索は月間数十億件の規模まで成長していたが、Search Consoleには専用の計測手段が存在せず、サイト側は流入の実態を把握できなかった。Googleは2026年9月24日、Google LensやCircle to Searchなど画像起点の検索からの流入をSearch Consoleの検索パフォーマンスレポートで確認できるようにしたと発表し、この空白を埋めた。</p>
 
   <h2>結論</h2>
   <ul class="points">
-    <li>フレームワーク名はRetrieve-for-Train-Diffusion（R4T Diffusion Model）で、強化学習・合成データ生成・小規模な拡散モデルの3要素を組み合わせている</li>
-    <li>モデル規模は5,390万パラメータという小ささに抑えられている</li>
-    <li>従来の自己回帰型の手法に比べ、12〜20倍の高速化を実現した</li>
-    <li>大きなバッチ処理では自己回帰型が約50秒近くまで遅延する一方、R4T-Diffusionは1秒未満から数秒の範囲に収まる</li>
-    <li>論文はarXiv 2603.06397として2026年3月に公開され、ブログでの発表は2026年9月15日である</li>
-    <li>最適化は「Groundedness（データベース上の分布からの距離を罰する）」「Diversity（Vendi Scoreで測定する）」「Alignment（下位クエリを元の広いプロンプトに固定する）」の3本柱で、相反する目的を両立させている</li>
+    <li>Google LensとCircle to Searchからの流入が、Search Consoleの検索パフォーマンスレポートで分離して確認できるようになった。発表は2026年9月24日午前8時40分（米国東部時間）に行われた</li>
+    <li>提供されるのはクリック数・表示回数などの指標のみで、どのような言葉で検索されたかを示すクエリは開示されない</li>
+    <li>Lensによる視覚検索は2024年10月時点で月間約200億件に達し、そのうち約20%が買い物に関する検索だった</li>
+    <li>2025年第1四半期には、Lensの月間検索数が2024年10月から50億件増加し、Circle to Searchの利用は約40%増加した</li>
+    <li>Circle to Searchは2025年7月9日時点で3億台以上のAndroid端末に搭載され、視覚検索全体は2025年7月23日時点で前年比65%増となっている</li>
+    <li>対話しながら映像で検索するSearch Liveは、2026年3月時点で200カ国以上に提供されている</li>
   </ul>
 
   <div class="why">
     <h2>メッセージ</h2>
-    <p>AI検索は買い物客の1つの質問を、内部で複数の細かい問いに割って探している。その分解処理が20倍速く・安くなるということは、AIがこれまで省いていた細かい条件まで確認しにくるようになるということである。「予算」「用途」「サイズ」「相性」といった条件が下位クエリとして投げられたとき、商品ページにその答えが書かれていなければ、その商品は候補から静かに落ちる。商品説明を「見栄えのする一文」ではなく「想定される問いへの答えの集合」として設計し直す根拠が、ここにある。</p>
+    <p>商品を言葉ではなく画像で探す買い物客が、すでに月間200億件規模で存在している。にもかかわらず「何と検索されたか」は今回も開示されない。つまりEC店舗が手元で確認できるのは「画像検索から何回来たか」だけで、なぜ選ばれたかは商品画像そのものを見て推測するしかない。商品画像が1枚だけ・背景が雑然・角度が1方向という状態は、これまでは見栄えの問題だったが、今後は流入の入口を自ら閉じることになる。まずはレポートで画像検索の流入が何%あるかを確認し、多い商品と少ない商品で画像の作り方を比べるところから始められる。</p>
   </div>
 
-  <a class="source-link" href="https://www.searchenginejournal.com/google-announces-new-query-fan-out-framework-r4t-diffusion/590700/" target="_blank" rel="noopener">元記事を読む（Search Engine Journal）↗</a>
+  <a class="source-link" href="https://ppc.land/google-search-console-gains-lens-and-circle-to-search-data-without-queries/" target="_blank" rel="noopener">元記事を読む（PPC Land）↗</a>
 
   <div class="related">
     <h2>関連記事</h2>

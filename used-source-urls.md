@@ -1,8 +1,21 @@
 # 既出の元記事URL一覧（自動生成）
 
 記事候補を探す前に必ずこの一覧を確認し、ここに載っているURLと同じ元記事は候補から除外すること。
-生成元: articles.json（更新日: 2026-09-24）
+生成元: articles.json（更新日: 2026-09-25）
 
+- https://www.searchenginejournal.com/youtube-shopping-ask-youtube-ai-search/590662/
+- https://www.lycorp.co.jp/ja/news/release/020834/
+- https://netshop.impress.co.jp/e/2026/09/24/16769
+- https://ecnomikata.com/ecnews/51663/
+- https://ecnomikata.com/ecnews/marketing/51667/
+- https://www.digitalcommerce360.com/2026/09/23/jd-sports-algolia-agentic-commerce-strategy/
+- https://ppc.land/google-search-console-gains-lens-and-circle-to-search-data-without-queries/
+- https://www.searchenginejournal.com/google-announces-new-query-fan-out-framework-r4t-diffusion/590700/
+- https://www.searchenginejournal.com/research-shows-google-ai-mode-sends-less-clicks-is-a-poor-user-experience/590221/
+- https://ppc.land/google-switched-on-ai-mode-checkout-for-shopify-stores-without-asking/
+- https://www.digitalcommerce360.com/2026/09/24/ecommerce-trends-how-best-buy-is-using-ai/
+- https://www.searchenginejournal.com/amazon-marketing-clouds-5-year-dataset-6-use-cases-worth-building-now/589137/
+- https://www.searchenginejournal.com/agentic-commerce-is-not-the-next-voice-shopping-but-it-is-still-unproven/589439/
 - https://ecnomikata.com/original_news/51756/
 - https://www.foreignpolicyjournal.com/2026/09/23/walmart-nasdaq-wmt-shares-rise-as-senators-push-ftc-to-scrutinize-sparky-ai-shopping-assistant/
 - https://netshop.impress.co.jp/n/2026/09/16/16749
