@@ -221,7 +221,7 @@
     <p>AI検索の最新動向をまとめて受け取れます。</p>
 
     <div id="sf3z0187d763a8a2822a95749b46586da7de2897e9d72506eece5553bd0545699f6c" data-type="signupform">
-      <div id="Zc_SignupSuccess" style="display:none">Thank you for Signing Up</div>
+      <div id="Zc_SignupSuccess" style="display:none">ご登録ありがとうございます。</div>
       <form method="POST" id="zcampaignOptinForm" class="sf-row"
             action="https://ngzc-zgph.maillist-manage.com/weboptin.zc" target="_zcSignup" siq_id="autopick_k89orwvifn">
         <div id="errorMsgDiv" style="display:none">入力内容を確認してください。</div>
@@ -261,6 +261,20 @@
   function runOnFormSubmit_sf3z0187d763a8a2822a95749b46586da7de2897e9d72506eece5553bd0545699f6c(th){
     /*送信前に独自処理を行いたい場合はここに書く*/
   };
+</script>
+<script>
+(function(){
+  var successEl = document.getElementById("Zc_SignupSuccess");
+  var formEl = document.getElementById("zcampaignOptinForm");
+  if (!successEl || !formEl) return;
+  var observer = new MutationObserver(function(){
+    if (successEl.style.display !== "none"){
+      formEl.style.display = "none";
+      observer.disconnect();
+    }
+  });
+  observer.observe(successEl, { attributes: true, attributeFilter: ["style"] });
+})();
 </script>
 
 </body>
