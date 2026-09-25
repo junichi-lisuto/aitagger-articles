@@ -7,7 +7,7 @@ const fs = require('fs');
 const path = require('path');
 
 const articlesDir = path.join(__dirname, '..', 'articles');
-const SITE_TOP_URL = 'https://www.lisuto.co.jp/articles/';
+const SITE_TOP_URL = 'https://www.lisuto.co.jp/media/';
 
 const THEME_LABEL = {
   visibility: '検索結果・購買導線の変化',

@@ -25,7 +25,7 @@ const metaDir = path.join(__dirname, 'draft-meta');
 const CAT_CLASS = { visibility: 'theme-visibility', optimization: 'theme-optimization', measurement: 'theme-measurement' };
 const THEME_LABEL = { visibility: '検索結果・購買導線の変化', optimization: '商品情報・タグ付けの対策', measurement: '計測・分析' };
 const PLATFORM_LABEL = { google: 'Google', chatgpt: 'ChatGPT', rakuten: '楽天', yahoo: 'Yahoo!', 'other-ai': 'その他AI検索', amazon: 'Amazon' };
-const SITE_TOP_URL = 'https://www.lisuto.co.jp/articles/';
+const SITE_TOP_URL = 'https://www.lisuto.co.jp/media/';
 
 function esc(s) {
   return String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
