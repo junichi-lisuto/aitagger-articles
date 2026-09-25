@@ -54,13 +54,15 @@
   #aa-media-root .am-subscribe{flex:none;width:320px;max-width:100%;background:#fff;border:1px solid var(--am-line);border-radius:10px;padding:20px 22px;box-shadow:0 2px 10px rgba(15,23,42,.04)}
   #aa-media-root .am-subscribe h3{margin:0 0 5px;color:var(--am-heading);font-size:15px;font-weight:800}
   #aa-media-root .am-subscribe p{margin:0 0 14px;color:var(--am-muted);font-size:12.5px;line-height:1.6}
-  #aa-media-root .am-sf-row{display:flex;flex-direction:column;gap:10px}
+  #aa-media-root .am-sf-row{display:flex;flex-direction:column;gap:10px;position:relative}
   #aa-media-root .am-sf-row input[type="text"]{font-family:inherit;font-size:13px;border:1px solid var(--am-line);border-radius:7px;padding:10px 14px;width:100%;color:var(--am-ink);outline:none;transition:border-color .15s}
   #aa-media-root .am-sf-row input[type="text"]:focus{border-color:var(--am-blue)}
   #aa-media-root .am-sf-row input[type="button"]{font-family:inherit;font-size:13px;font-weight:700;border:0;border-radius:7px;padding:10px 16px;color:#fff;background:var(--am-blue);cursor:pointer;transition:background-color .15s;white-space:nowrap}
   #aa-media-root .am-sf-row input[type="button"]:hover{background:var(--am-heading)}
-  #aa-media-root #errorMsgDiv{width:100%;margin:-4px 0 10px;font-size:11.5px;line-height:1.5;background:#FEF2F2;color:#DC2626;border:1px solid #FECACA;border-radius:7px;padding:8px 10px}
-  #aa-media-root #Zc_SignupSuccess{width:100%;margin:-4px 0 10px!important;font-size:12px;line-height:1.5;background:#F0FDF4!important;color:#166534!important;border:1px solid #BBF7D0!important;border-radius:7px!important;padding:8px 10px!important}
+  #aa-media-root #errorMsgDiv{position:absolute;left:0;right:0;bottom:calc(100% + 9px);width:auto;margin:0;font-size:11.5px;line-height:1.5;background:#FEF2F2;color:#DC2626;border:1px solid #FECACA;border-radius:7px;padding:7px 10px;box-shadow:0 3px 10px rgba(220,38,38,.1);z-index:2}
+  #aa-media-root #errorMsgDiv::after{content:"";position:absolute;left:16px;top:100%;border:6px solid transparent;border-top-color:#FECACA}
+  #aa-media-root #errorMsgDiv::before{content:"";position:absolute;left:17px;top:100%;border:5px solid transparent;border-top-color:#FEF2F2;z-index:1}
+  #aa-media-root #Zc_SignupSuccess{width:100%;margin:0 0 10px!important;font-size:12px;line-height:1.5;background:#F0FDF4!important;color:#166534!important;border:1px solid #BBF7D0!important;border-radius:7px!important;padding:8px 10px!important}
   #aa-media-root #Zc_SignupSuccess img{display:none}
   @media(max-width:900px){
     #aa-media-root .am-subscribe{width:100%;margin-top:24px}

@@ -99,7 +99,7 @@
   .subscribe .inner{padding:48px 0;text-align:center}
   .subscribe h3{font-size:19px;font-weight:700;margin:0 0 8px;color:var(--blue-dark)}
   .subscribe p{font-size:13.5px;color:var(--ink-mid);margin:0 0 22px}
-  .sf-row{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+  .sf-row{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;position:relative}
   .sf-row input[type="text"]{font-family:var(--jp);font-size:14px;
         border:1px solid var(--line);border-radius:8px;padding:11px 14px;
         width:280px;max-width:100%;color:var(--ink);outline:none;transition:.15s}
@@ -108,9 +108,15 @@
         border:0;border-radius:8px;padding:11px 26px;color:#fff;
         background:var(--blue);cursor:pointer;transition:.15s}
   .sf-row input[type="button"]:hover{background:var(--blue-dark)}
-  #errorMsgDiv{max-width:280px;margin:0 auto 12px;font-size:12px;
+  #errorMsgDiv{position:absolute;left:50%;transform:translateX(-50%);bottom:calc(100% + 9px);
+        width:max-content;max-width:280px;margin:0;font-size:12px;
         background:#FEF2F2;color:#DC2626;border:1px solid #FECACA;
-        border-radius:8px;padding:8px 12px;text-align:left}
+        border-radius:8px;padding:8px 12px;text-align:left;
+        box-shadow:0 3px 10px rgba(220,38,38,.1);z-index:2}
+  #errorMsgDiv::after{content:"";position:absolute;left:50%;top:100%;margin-left:-6px;
+        border:6px solid transparent;border-top-color:#FECACA}
+  #errorMsgDiv::before{content:"";position:absolute;left:50%;top:100%;margin-left:-5px;
+        border:5px solid transparent;border-top-color:#FEF2F2;z-index:1}
   #Zc_SignupSuccess{max-width:320px;margin:0 auto 16px!important;font-size:13px;
         background:#F0FDF4!important;color:#166534!important;
         border:1px solid #BBF7D0!important;border-radius:8px!important;
