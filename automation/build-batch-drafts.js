@@ -282,7 +282,7 @@ function main() {
 
     const meta = {
       slug: a.slug,
-      url: `https://junichi-lisuto.github.io/aitagger-articles/articles/${a.slug}.html`,
+      url: `https://junichi-lisuto.github.io/lisuto-media-centre/articles/${a.slug}.html`,
       sourceUrl: a.sourceUrl,
       platforms: a.platforms,
       viewpoint: a.viewpoint,

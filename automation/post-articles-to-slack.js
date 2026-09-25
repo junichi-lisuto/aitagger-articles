@@ -12,7 +12,7 @@ const config = require('./config.local.json');
 
 const draftDir = path.join(__dirname, '..', 'articles', 'draft');
 const metaDir = path.join(__dirname, 'draft-meta');
-const PAGES_BASE = 'https://junichi-lisuto.github.io/aitagger-articles/articles/draft';
+const PAGES_BASE = 'https://junichi-lisuto.github.io/lisuto-media-centre/articles/draft';
 
 function loadDraftArticles(slugs) {
   return slugs.map((slug) => {
