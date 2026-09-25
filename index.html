@@ -93,6 +93,29 @@
     .thumb{width:100%;height:132px}
   }
   @media(prefers-reduced-motion:reduce){*{transition:none!important}}
+
+  .subscribe{background:var(--blue-wash);border-top:1px solid var(--line);
+        border-bottom:1px solid var(--line)}
+  .subscribe .inner{padding:48px 0;text-align:center}
+  .subscribe h3{font-size:19px;font-weight:700;margin:0 0 8px;color:var(--blue-dark)}
+  .subscribe p{font-size:13.5px;color:var(--ink-mid);margin:0 0 22px}
+  .sf-row{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+  .sf-row input[type="text"]{font-family:var(--jp);font-size:14px;
+        border:1px solid var(--line);border-radius:8px;padding:11px 14px;
+        width:280px;max-width:100%;color:var(--ink);outline:none;transition:.15s}
+  .sf-row input[type="text"]:focus{border-color:var(--blue)}
+  .sf-row input[type="button"]{font-family:var(--jp);font-size:14px;font-weight:700;
+        border:0;border-radius:8px;padding:11px 26px;color:#fff;
+        background:var(--blue);cursor:pointer;transition:.15s}
+  .sf-row input[type="button"]:hover{background:var(--blue-dark)}
+  #errorMsgDiv{max-width:280px;margin:0 auto 12px;font-size:12px;
+        background:#FEF2F2;color:#DC2626;border:1px solid #FECACA;
+        border-radius:8px;padding:8px 12px;text-align:left}
+  #Zc_SignupSuccess{max-width:320px;margin:0 auto 16px!important;font-size:13px;
+        background:#F0FDF4!important;color:#166534!important;
+        border:1px solid #BBF7D0!important;border-radius:8px!important;
+        padding:10px 14px!important}
+  #Zc_SignupSuccess img{display:none}
 </style>
 </head>
 <body>
@@ -186,12 +209,53 @@
   </div>
 </section>
 
+<div class="subscribe">
+  <div class="wrap inner">
+    <h3>最新ニュースを購読する</h3>
+    <p>AI検索まわりの動きを、メールでまとめて受け取れます。</p>
+
+    <div id="sf3z0187d763a8a2822a95749b46586da7de2897e9d72506eece5553bd0545699f6c" data-type="signupform">
+      <div id="Zc_SignupSuccess" style="display:none">Thank you for Signing Up</div>
+      <form method="POST" id="zcampaignOptinForm" class="sf-row"
+            action="https://ngzc-zgph.maillist-manage.com/weboptin.zc" target="_zcSignup" siq_id="autopick_k89orwvifn">
+        <div id="errorMsgDiv" style="display:none">入力内容を確認してください。</div>
+        <input type="text" placeholder="メールアドレス" changeitem="SIGNUP_FORM_FIELD" name="CONTACT_EMAIL" id="EMBED_FORM_EMAIL_LABEL">
+        <input type="button" name="SIGNUP_SUBMIT_BUTTON" id="zcWebOptin" value="登録する">
+        <input type="hidden" id="fieldBorder" value="">
+        <input type="hidden" id="submitType" name="submitType" value="optinCustomView">
+        <input type="hidden" id="emailReportId" name="emailReportId" value="">
+        <input type="hidden" id="formType" name="formType" value="QuickForm">
+        <input type="hidden" name="zx" id="cmpZuid" value="127f5f667">
+        <input type="hidden" name="zcvers" value="3.0">
+        <input type="hidden" name="oldListIds" id="allCheckedListIds" value="">
+        <input type="hidden" id="mode" name="mode" value="OptinCreateView">
+        <input type="hidden" id="zcld" name="zcld" value="1fc218816180ebaf">
+        <input type="hidden" id="zctd" name="zctd" value="1fc21881608643bf">
+        <input type="hidden" id="document_domain" value="">
+        <input type="hidden" id="zc_Url" value="ngzc-zgph.maillist-manage.com">
+        <input type="hidden" id="new_optin_response_in" value="2">
+        <input type="hidden" id="duplicate_optin_response_in" value="2">
+        <input type="hidden" name="zc_trackCode" id="zc_trackCode" value="ZCFORMVIEW">
+        <input type="hidden" id="zc_formIx" name="zc_formIx" value="3z0187d763a8a2822a95749b46586da7de2897e9d72506eece5553bd0545699f6c">
+        <input type="hidden" id="viewFrom" value="URL_ACTION">
+      </form>
+    </div>
+  </div>
+</div>
+
 <footer>
   <div class="wrap frow">
     <span>© 2026 LISUTO</span>
     <span class="right">AIタッガーをご契約のお客様向けページです</span>
   </div>
 </footer>
+
+<script type="text/javascript" src="https://ngzc-zgph.maillist-manage.com/js/optin.min.js" onload="setupSF('sf3z0187d763a8a2822a95749b46586da7de2897e9d72506eece5553bd0545699f6c','ZCFORMVIEW',false,'light',false,'0')"></script>
+<script type="text/javascript">
+  function runOnFormSubmit_sf3z0187d763a8a2822a95749b46586da7de2897e9d72506eece5553bd0545699f6c(th){
+    /*送信前に独自処理を行いたい場合はここに書く*/
+  };
+</script>
 
 </body>
 </html>
