@@ -1,0 +1,306 @@
+[
+  {
+    "slug": "google-search-console-visual-search-data-20260925",
+    "title": "Google Search Consoleが画像検索（Lens・Circle to Search）の流入データを提供開始、ただし検索クエリは非開示",
+    "origTitle": "Google Search Console gains Lens and Circle to Search data, without queries",
+    "sourceUrl": "https://ppc.land/google-search-console-gains-lens-and-circle-to-search-data-without-queries/",
+    "source": "PPC Land",
+    "date": "2026-09-24",
+    "dateDisplay": "2026年9月24日",
+    "platforms": ["google"],
+    "viewpoint": "seller",
+    "theme": "measurement",
+    "thumbnail": "https://ppc.land/content/images/2026/09/Curtained-stages-rise-in-a-blue-tower--one-open-and-empty-image-search-visibility-with-no-keywords.jpg",
+    "background": "画像を起点にした検索は月間数十億件の規模まで成長していたが、Search Consoleには専用の計測手段が存在せず、サイト側は流入の実態を把握できなかった。Googleは2026年9月24日、Google LensやCircle to Searchなど画像起点の検索からの流入をSearch Consoleの検索パフォーマンスレポートで確認できるようにしたと発表し、この空白を埋めた。",
+    "bullets": [
+      "Google LensとCircle to Searchからの流入が、Search Consoleの検索パフォーマンスレポートで分離して確認できるようになった。発表は2026年9月24日午前8時40分（米国東部時間）に行われた",
+      "提供されるのはクリック数・表示回数などの指標のみで、どのような言葉で検索されたかを示すクエリは開示されない",
+      "Lensによる視覚検索は2024年10月時点で月間約200億件に達し、そのうち約20%が買い物に関する検索だった",
+      "2025年第1四半期には、Lensの月間検索数が2024年10月から50億件増加し、Circle to Searchの利用は約40%増加した",
+      "Circle to Searchは2025年7月9日時点で3億台以上のAndroid端末に搭載され、視覚検索全体は2025年7月23日時点で前年比65%増となっている",
+      "対話しながら映像で検索するSearch Liveは、2026年3月時点で200カ国以上に提供されている"
+    ],
+    "cardBullets": [
+      "Lens・Circle to Search経由の流入をSearch Consoleで計測可能に",
+      "指標のみで検索クエリは非開示、内容は推測に頼る形",
+      "Lensの視覚検索は月200億件、うち約20%が買い物目的"
+    ],
+    "meaning": "商品を言葉ではなく画像で探す買い物客が、すでに月間200億件規模で存在している。にもかかわらず「何と検索されたか」は今回も開示されない。つまりEC店舗が手元で確認できるのは「画像検索から何回来たか」だけで、なぜ選ばれたかは商品画像そのものを見て推測するしかない。商品画像が1枚だけ・背景が雑然・角度が1方向という状態は、これまでは見栄えの問題だったが、今後は流入の入口を自ら閉じることになる。まずはレポートで画像検索の流入が何%あるかを確認し、多い商品と少ない商品で画像の作り方を比べるところから始められる。"
+  },
+  {
+    "slug": "google-ai-mode-fewer-referrals-study-20260925",
+    "title": "Google AI Modeは外部サイトへの送客を減らし満足度も改善しない、米2大学が1,444人・7日間の実験で示す",
+    "origTitle": "Research Shows Google AI Mode Sends Less Clicks & Is A Poor User Experience",
+    "sourceUrl": "https://www.searchenginejournal.com/research-shows-google-ai-mode-sends-less-clicks-is-a-poor-user-experience/590221/",
+    "source": "Search Engine Journal",
+    "date": "2026-09-21",
+    "dateDisplay": "2026年9月21日",
+    "platforms": ["google"],
+    "viewpoint": "seller",
+    "theme": "visibility",
+    "thumbnail": "https://cdn.searchenginejournal.com/wp-content/uploads/2026/09/google-ai-mode-179.jpg",
+    "background": "GoogleはAI Modeについて利用者の満足度が高いと繰り返し説明してきたが、その主張を第三者が実験で検証した例はほとんどなかった。ペンシルベニア大学とノースイースタン大学の研究者が2026年8月時点の草稿として公開した論文が、AI Modeが利用者の行動と外部サイトへの送客に与える影響を実測し、Googleの説明と食い違う結果を示した。",
+    "bullets": [
+      "対象となった論文は2026年8月時点の草稿として公開された「AI in Search Reduces Publisher Referrals Without Improving User Experience: Experimental Evidence」で、ペンシルベニア大学とノースイースタン大学（マサチューセッツ州）の研究者による",
+      "参加登録者は1,444人、実験期間中に行動を追跡できたのは1,100人、事後アンケートに回答したのは956人。実験期間は7日間である",
+      "検索をAI Modeへ振り替える処理は94.7%の成功率だった一方、AI Overviewsを非表示にする処理は初日90%から期間終了時には0%まで低下し、期間全体では51.1%にとどまった",
+      "7日間の実験を通じて、AI Modeを割り当てられた群はGoogleの検索体験内に留まる時間が長くなり、外部サイトへ送られる回数が減った",
+      "AI Modeを割り当てられた群では、Bing・DuckDuckGo・Yahooといった競合検索エンジンを使う利用者の割合が有意に増加した",
+      "検索のヘビーユーザーほど、AI Modeによって検索行動の量が強く減少した"
+    ],
+    "cardBullets": [
+      "AI Modeは滞在を延ばし外部サイトへの送客を減らすと判明",
+      "1,444人・7日間の実験、AI Mode振替成功率は94.7%",
+      "競合検索エンジンへ移る利用者が有意に増加した"
+    ],
+    "meaning": "「AI検索が増えても最終的にはサイトに来る」という前提が、実験データで否定された。しかも同じ実験で、競合の検索エンジンへ移る人が増えている。これはAI検索そのものへの不満であり、裏を返せば買い物客はまだ納得できる答えを探し続けているということである。EC店舗が取れる手は、来訪数を守ろうとすることではなく、AIの回答の中に正確な情報として載ること、そして来た人を確実に納得させることの二段構えになる。送客が減る前提で、1訪問あたりの成果を測る指標に切り替える時期に来ている。"
+  },
+  {
+    "slug": "youtube-ask-shopping-comparison-table-20260925",
+    "title": "YouTubeの対話型検索「Ask YouTube」が商品レビュー動画を比較表に整理、視聴ページ版は6月に1.4億人が利用",
+    "origTitle": "YouTube Adds Shopping Features To Ask YouTube AI Search",
+    "sourceUrl": "https://www.searchenginejournal.com/youtube-shopping-ask-youtube-ai-search/590662/",
+    "source": "Search Engine Journal",
+    "date": "2026-09-23",
+    "dateDisplay": "2026年9月23日",
+    "platforms": ["google"],
+    "viewpoint": "buyer",
+    "theme": "visibility",
+    "thumbnail": "https://cdn.searchenginejournal.com/wp-content/uploads/2026/09/youtube-ask-shopping-featured.png",
+    "background": "YouTubeは動画の視聴ページ上で対話型検索「Ask YouTube」を展開し、検索そのものをAIに置き換える方向へ進んできた。2026年9月23日のMade On YouTubeイベントで、このAsk YouTubeに買い物向けの機能が追加され、商品レビュー動画を比較表の形で整理して見せるようになった。",
+    "bullets": [
+      "2026年9月23日のMade On YouTubeイベントで発表された機能で、特定の商品のレビューを検索すると、商品の属性を並べた比較表の形で動画が整理されて提示される",
+      "視聴ページ版のAsk YouTubeは、6月に1億4,000万人以上が利用した",
+      "検索版は米国・英語での限定提供にとどまる一方、視聴ページ版は数十カ国・数十言語で利用できる",
+      "比較表そのものは2026年4月に初めてテストされていた機能である",
+      "利用年齢の条件は視聴ページ版が13歳以上、検索版は従来18歳以上とされていた",
+      "発表はプロダクトマネジメント担当VPのJohanna Voolich氏によるもので、「特定商品のレビューを検索すると比較表のように整理された動画の推奨を受け取れる」と説明している"
+    ],
+    "cardBullets": [
+      "Ask YouTubeが商品レビュー動画を比較表に整理して提示",
+      "視聴ページ版は6月に1.4億人以上が利用した規模",
+      "検索版は米国・英語限定、比較表は4月から試験済み"
+    ],
+    "meaning": "レビュー動画が比較表に整理されるということは、動画の中で語られた商品の属性がAIによって抜き出され、他社商品と横並びにされるということである。つまり店舗が自分で書いた商品ページの記述だけでなく、第三者が動画で語った内容が比較の材料になる。ここで効いてくるのは、サイズ・素材・対応機種・保証といった属性が誰の口からも同じ言葉で語られる状態を作れているかどうかである。商品ページの表記が揺れていれば、動画の説明も揺れ、比較表の中で自社だけ空欄になる。"
+  },
+  {
+    "slug": "google-r4t-diffusion-query-fanout-20260925",
+    "title": "Googleがクエリ分解の新フレームワーク「R4T-Diffusion」を公開、5,390万パラメータで従来比12〜20倍の高速化",
+    "origTitle": "Google Announces New Query Fan-Out Framework: R4T-Diffusion",
+    "sourceUrl": "https://www.searchenginejournal.com/google-announces-new-query-fan-out-framework-r4t-diffusion/590700/",
+    "source": "Search Engine Journal",
+    "date": "2026-09-24",
+    "dateDisplay": "2026年9月24日",
+    "platforms": ["google"],
+    "viewpoint": "seller",
+    "theme": "visibility",
+    "thumbnail": "https://cdn.searchenginejournal.com/wp-content/uploads/2026/09/r4t-model-728.jpg",
+    "background": "AI検索は利用者の1つの問いを複数の下位クエリに分解して検索する「クエリ・ファンアウト」を前提に動いており、この処理の速度とコストがAI検索の実用性を左右してきた。Googleは、強化学習・合成データ生成・小規模な拡散モデルを組み合わせた新フレームワークを公開し、計算コストを下げながら品質を上げたと説明している。",
+    "bullets": [
+      "フレームワーク名はRetrieve-for-Train-Diffusion（R4T Diffusion Model）で、強化学習・合成データ生成・小規模な拡散モデルの3要素を組み合わせている",
+      "モデル規模は5,390万パラメータという小ささに抑えられている",
+      "従来の自己回帰型の手法に比べ、12〜20倍の高速化を実現した",
+      "大きなバッチ処理では自己回帰型が約50秒近くまで遅延する一方、R4T-Diffusionは1秒未満から数秒の範囲に収まる",
+      "論文はarXiv 2603.06397として2026年3月に公開され、ブログでの発表は2026年9月15日である",
+      "最適化は「Groundedness（データベース上の分布からの距離を罰する）」「Diversity（Vendi Scoreで測定する）」「Alignment（下位クエリを元の広いプロンプトに固定する）」の3本柱で、相反する目的を両立させている"
+    ],
+    "cardBullets": [
+      "Googleがクエリ分解の新フレームワークR4T-Diffusionを公開",
+      "5,390万パラメータで自己回帰型比12〜20倍の高速化",
+      "大バッチでも1秒未満〜数秒、約50秒から大幅短縮"
+    ],
+    "meaning": "AI検索は買い物客の1つの質問を、内部で複数の細かい問いに割って探している。その分解処理が20倍速く・安くなるということは、AIがこれまで省いていた細かい条件まで確認しにくるようになるということである。「予算」「用途」「サイズ」「相性」といった条件が下位クエリとして投げられたとき、商品ページにその答えが書かれていなければ、その商品は候補から静かに落ちる。商品説明を「見栄えのする一文」ではなく「想定される問いへの答えの集合」として設計し直す根拠が、ここにある。"
+  },
+  {
+    "slug": "jd-sports-algolia-agentic-commerce-20260925",
+    "title": "JD Sportsがエージェント型コマースの基盤にAlgoliaを採用、検索経由売上22%増・商品一覧のCTR73%増",
+    "origTitle": "JD Sports deploys Algolia for agentic commerce strategy",
+    "sourceUrl": "https://www.digitalcommerce360.com/2026/09/23/jd-sports-algolia-agentic-commerce-strategy/",
+    "source": "Digital Commerce 360",
+    "date": "2026-09-23",
+    "dateDisplay": "2026年9月23日",
+    "platforms": ["other-ai"],
+    "viewpoint": "seller",
+    "theme": "optimization",
+    "thumbnail": "https://www.digitalcommerce360.com/wp-content/uploads/2026/09/AdobeStock_338463276_Editorial_Use_Only-scaled.jpeg",
+    "background": "スポーツ用品大手のJD Sportsは2024年にAlgoliaの検索基盤を導入していたが、今回これを自社ストア内の検索機能から、AIプラットフォーム上での商品発見まで統括する「intelligence layer」として位置づけ直した。自社サイト以外の場所で商品が見つけられる前提に合わせ、商品データの管理を一箇所に集約する動きである。",
+    "bullets": [
+      "検索経由の売上が22%増加し、検索のクリック率は7.65%向上した",
+      "商品一覧ページ（PLP）のクリック率は73%増、PLP経由の売上は16%増加した",
+      "動的な並べ替え（dynamic re-ranking）の導入により、クリック率が2.2%、カート追加率が4%、コンバージョン率が4%向上した",
+      "JD Sportsは世界で4,800店舗以上を展開し、900万人のアクティブなロイヤルティ会員を抱える規模である",
+      "Algoliaの導入自体は2024年に始まっており、今回はそれをAIプラットフォーム経由の商品発見まで担う基盤として再定義した",
+      "デジタルオペレーション担当VPのKristin Matter氏は「買い物客の行動変化や新たなトレンドにより速く対応できる」と述べている"
+    ],
+    "cardBullets": [
+      "JD Sportsが商品発見の基盤をAlgoliaに集約し成果を公表",
+      "検索経由売上22%増、商品一覧ページのCTRは73%増",
+      "4,800店舗・会員900万人規模でAI前提の設計へ移行"
+    ],
+    "meaning": "注目すべきは新しいAI機能を足したのではなく、すでに持っていた検索基盤を「商品データの管理の中心」に据え直しただけで、これだけの数字が動いた点である。商品一覧のクリック率73%増は、並び順と属性の整い方だけで変わる数字であり、広告費とは無関係である。自社サイト・モール・AIの回答という三つの出口に同じ商品データを流すなら、データの置き場所を一箇所に決めることが最初の一手になる。出口ごとに別の説明文を手で書き分けている状態が、いちばん高くつく。"
+  },
+  {
+    "slug": "best-buy-ask-blue-chatgpt-commerce-20260925",
+    "title": "Best Buyが対話型アシスタント「Ask Blue」を8月に投入、ChatGPT内での商品発見から購入までOpenAIと提携",
+    "origTitle": "How Best Buy is using AI",
+    "sourceUrl": "https://www.digitalcommerce360.com/2026/09/24/ecommerce-trends-how-best-buy-is-using-ai/",
+    "source": "Digital Commerce 360",
+    "date": "2026-09-24",
+    "dateDisplay": "2026年9月24日",
+    "platforms": ["chatgpt"],
+    "viewpoint": "seller",
+    "theme": "optimization",
+    "thumbnail": "https://www.digitalcommerce360.com/wp-content/uploads/2026/09/best-buy-ai-use-scaled.jpeg",
+    "background": "家電量販大手のBest Buyは2026年に入り、社内業務と顧客接点の両方でAIの適用範囲を広げてきた。CEOのCorie Barry氏はAIを成長と従業員支援の「大きな推進力」と位置づけており、ホリデー商戦を前に顧客向けの対話型アシスタントとChatGPT上での購買動線を同時に整えた。",
+    "bullets": [
+      "8月に投入した対話型ショッピングアシスタント「Ask Blue」は、商品知識・サポート情報・カスタマーレビュー・在庫状況・価格データの5種類を1つの回答に統合する",
+      "OpenAIとのコマース提携により、顧客はChatGPT内で商品を見つけ、推奨を受け、購入まで完了できる。ホリデー商戦向けの施策として位置づけられている",
+      "社内向けにもAIエージェントを導入し、「入社したばかりだが記入すべき書類は何か」といった質問に必要な情報を返せるようにしている",
+      "Best BuyはDigital Commerce 360のTop 1000 Databaseで8位、AI Rankingsで200位に位置する",
+      "CEOのCorie Barry氏は「最も強力なユースケースの1つはオーディエンスの作成のようなものだ」と述べている",
+      "11月1日付でJason Bonfig氏がCorie Barry氏に代わりCEOに就任する予定である"
+    ],
+    "cardBullets": [
+      "Best Buyが対話型アシスタント「Ask Blue」を8月に投入",
+      "ChatGPT内で発見から購入まで完結する提携も開始",
+      "在庫・価格・レビューを1つの回答に統合する設計"
+    ],
+    "meaning": "Ask Blueが統合したのは、商品知識・サポート情報・レビュー・在庫・価格という、多くの店舗では別々の場所に散らばっている5種類の情報である。AIに答えさせる難しさは賢いモデルを選ぶことではなく、この5つが同じ商品について矛盾なく揃っているかどうかにある。在庫が切れているのに「在庫あり」と答える、価格が古い、レビューが商品と紐づいていない。こうした状態のままAIを載せると、間違いを速く大量に配ることになる。AI導入の前にやるべきは、この5つの情報の突き合わせである。"
+  },
+  {
+    "slug": "agentic-commerce-still-unproven-20260925",
+    "title": "エージェント型コマースは音声ショッピングの二の舞か、Instant Checkout採用は半年でShopify30店舗という実態",
+    "origTitle": "Agentic Commerce Is Not The Next Voice Shopping, But It Is Still Unproven",
+    "sourceUrl": "https://www.searchenginejournal.com/agentic-commerce-is-not-the-next-voice-shopping-but-it-is-still-unproven/589439/",
+    "source": "Search Engine Journal",
+    "date": "2026-09-21",
+    "dateDisplay": "2026年9月21日",
+    "platforms": ["other-ai"],
+    "viewpoint": "seller",
+    "theme": "visibility",
+    "thumbnail": "https://cdn.searchenginejournal.com/wp-content/uploads/2026/09/ai-commerce-280.png",
+    "background": "AIが買い物を代行するエージェント型コマースには巨大な市場予測が並ぶ一方、実際の導入件数は伸びていない。2018年に同じく巨大な予測が付いて外れた音声ショッピングと何が違うのか、実測値と過去の事例を突き合わせて検証した分析である。",
+    "bullets": [
+      "OpenAIのInstant Checkoutは、提供開始から半年で30のShopify加盟店にしか採用されていない",
+      "2018年3月のOC&C Strategy Consultantsの予測は、音声ショッピング市場が2018年の20億ドルから2022年に400億ドル超へ拡大するとしていたが実現しなかった。Facebookのアシスタント「M」は2年半のプライベートベータを経て2018年1月に終了した",
+      "McKinseyは2030年までに米国小売で1兆ドル規模、GartnerはB2B購買の90%が2028年までにエージェント経由となり15兆ドルが仲介されると予測している",
+      "ShopifyはUCPのバージョン2026-08-25を9月4日に有効化した",
+      "W3CとGS1は9月8日・9日にチューリッヒで標準化に関するワークショップを開催した",
+      "音声ショッピングは入力方法が変わっただけだったが、エージェント型コマースは購買判断そのものを人から切り離す。加えて加盟店が明示的な同意なしに既定で組み込まれる点が、過去の技術と決定的に異なる",
+      "Mastercard「Agent Pay」、Visa「Intelligent Commerce」、Google「Agentic Checkout」「AP2」「A2A」、Stripe「Shared Payment Tokens」など、決済側の規格が並行して立ち上がっている"
+    ],
+    "cardBullets": [
+      "Instant Checkout採用は半年でShopify30店舗にとどまる",
+      "音声ショッピングの400億ドル予測は外れた前例がある",
+      "加盟店が既定で組み込まれる点が過去と決定的に違う"
+    ],
+    "meaning": "採用30店舗という数字は、まだ様子見でよいという話にも読めるが、この記事が指摘する肝はそこではない。エージェント型コマースでは、加盟店が明示的に同意していなくても既定で組み込まれる。つまり参加するかどうかを店舗が決める前に、AIが自社の商品を扱い始める。実際に9月には無断で有効化された事例も起きている。ならば店舗側の実務は「導入するか」の判断ではなく、勝手に読まれる前提で価格・在庫・送料・返品条件を正しい状態に保つことになる。様子見と放置は違う。"
+  },
+  {
+    "slug": "amazon-marketing-cloud-5year-dataset-20260925",
+    "title": "Amazon Marketing Cloudが購買履歴を5年分開放、13カ月の参照制限が外れて2026年末まで無料",
+    "origTitle": "Amazon Marketing Cloud's 5-Year Dataset: 6 Use Cases Worth Building Now",
+    "sourceUrl": "https://www.searchenginejournal.com/amazon-marketing-clouds-5-year-dataset-6-use-cases-worth-building-now/589137/",
+    "source": "Search Engine Journal",
+    "date": "2026-09-23",
+    "dateDisplay": "2026年9月23日",
+    "platforms": ["amazon"],
+    "viewpoint": "seller",
+    "theme": "measurement",
+    "thumbnail": "https://cdn.searchenginejournal.com/wp-content/uploads/2026/09/amazon-cloud-454.png",
+    "background": "2021年に提供が始まったAmazon Marketing Cloud（AMC）は、ラストクリック依存を脱した分析を可能にするデータクリーンルームだが、参照できる期間が13カ月のローリングに限られていた。2025年に公開されたAmazon Retail Purchasesデータセットによってこの制限が事実上外れ、5年分の購買履歴を使った分析が可能になった。",
+    "bullets": [
+      "AMCは2021年に提供開始されたが、これまで参照期間は13カ月のローリングに制限されていた",
+      "2025年に公開されたAmazon Retail Purchasesデータセットは5年（60カ月）分の履歴を持ち、2026年末まで無料で利用できる",
+      "一方でターゲティングに使える履歴の上限は365日のままである",
+      "記事が挙げる活用例は6つで、商品単位での顧客生涯価値（LTV）の把握、60カ月分データによる新規顧客（New-To-Brand）率の正確な算出、買い替えサイクルの特定、上位価格帯への入口となるSKUの特定、13カ月以上前に購入した離脱顧客の再獲得、自社D2Cデータとの結合による横断分析である",
+      "SQLを書かずに使える事前構築クエリのライブラリや、エージェント機能を担う「Amazon Ads Agent」も併せて提供されている"
+    ],
+    "cardBullets": [
+      "AMCの購買履歴の参照期間が13カ月から5年分へ拡大",
+      "Amazon Retail Purchasesは2026年末まで無料で使える",
+      "LTV・離脱顧客の再獲得など6つの活用例を提示"
+    ],
+    "meaning": "13カ月しか見えないと、1年以上かけて買い替える商品は「一度売れて終わった顧客」に見えてしまう。5年分が見えるようになると、どの商品が入口になり、何カ月後に何を買われているかが数字で追える。これは広告の話に見えて、実は商品情報の作り方の話でもある。入口になっている商品と、その後に買われている商品が属性で結びついていなければ、AIにも人にも次の一品を薦められない。無料期間が2026年末で切れる点も含め、まず自社の買い替え周期を測るところから着手できる。"
+  },
+  {
+    "slug": "us-ec-ai-traffic-share-5percent-20260925",
+    "title": "米大手ECのAI経由流入が約5%に到達、訪問単価は一般ユーザーより53%高くCVR13%超の事例も",
+    "sourceUrl": "https://netshop.impress.co.jp/e/2026/09/24/16769",
+    "source": "ネットショップ担当者フォーラム",
+    "date": "2026-09-24",
+    "dateDisplay": "2026年9月24日",
+    "platforms": ["chatgpt", "other-ai"],
+    "viewpoint": "seller",
+    "theme": "measurement",
+    "thumbnail": "https://netshop.impress.co.jp/sites/default/files/styles/1200x630/public/images/article/2026/DigitalCommerce/node16769-ogp.jpg?itok=6VzKBBeE",
+    "background": "AI経由の流入は長く「まだ数%未満の実験的なチャネル」と扱われてきたが、2026年に入って各社の実測値が揃い始めた。米国の大手EC企業4社の最新データから、AI経由が量としても質としても無視できない規模に達したことを記録した記事である。",
+    "bullets": [
+      "米大手EC企業のAI経由流入は全体の約5%に達した。2026年初時点では2%未満だった",
+      "2026年7月単体では、AI経由の流入が前年同月比62%増加した",
+      "AI経由で訪れた消費者の訪問単価（RPV）は、一般ユーザーより53%高い",
+      "家具ECのPovisonは全トラフィックの約5%がAI経由で、2027年初めには10%に達すると見込んでいる",
+      "ジュエリーECのLa Joya Jewelryは年初の2〜3%から現在5〜6%へ拡大し、CVRは通常3%に対しAI経由は13%超となっている",
+      "ギフト専門ECのEdible Brandsではサイト訪問全体の10%未満がAI経由だが、そのうち95%がChatGPT経由であり、平均注文額は全体平均より5.50ドル高い",
+      "記事はノンアルコールビールのBero、Povison、La Joya Jewelry、Edible Brandsの4社のデータをDigital Commerce 360が分析したものである"
+    ],
+    "cardBullets": [
+      "米大手ECのAI経由流入が約5%へ、2026年初は2%未満",
+      "AI経由の訪問単価は一般ユーザーより53%高い",
+      "CVRが通常3%からAI経由13%超になった事例も出た"
+    ],
+    "meaning": "数字の並びで最も重いのは5%という量ではなく、CVRが通常3%に対しAI経由13%超という質の差である。AI経由で来る人は、比較と絞り込みをAIの側で終えてから訪れる。つまり店舗のページは「検討の場」ではなく「最終確認の場」になっている。この前提が変わると、ページで力を入れる場所も変わる。長い訴求文よりも、サイズ・在庫・送料・返品条件が即座に確認できることが決め手になる。まずは自社の流入のうちAI経由が何%あり、そのCVRが他チャネルとどう違うかを測ることから始めたい。"
+  },
+  {
+    "slug": "members-survey-ai-recommendation-needs-ugc-20260925",
+    "title": "AIが薦めた商品でも「クチコミがなければ買わない」が57%、メンバーズの1万180人調査",
+    "sourceUrl": "https://ecnomikata.com/ecnews/marketing/51667/",
+    "source": "ECのミカタ",
+    "date": "2026-09-25",
+    "dateDisplay": "2026年9月25日",
+    "platforms": ["other-ai"],
+    "viewpoint": "buyer",
+    "theme": "optimization",
+    "thumbnail": "https://img.ecnomikata.com/img_contents/ecnews/images/51667_aisuisyousyouhinosusume_facebook_image.jpg",
+    "background": "生成AIによる商品推奨は広く使われるようになったが、消費者はAIの提案をそのまま受け入れているわけではない。株式会社メンバーズ グッドコミュニケーションズカンパニーの「SNS利用実態調査2026」が、AIの推奨を受けた後に消費者がどう動くかを1万人規模で測り、「裏取り型」の購買行動が定着していることを示した。",
+    "bullets": [
+      "生成AIが薦めた商品について、クチコミがなければ購入を見送ると答えた人は57%だった",
+      "生成AIのおすすめを受けた後の行動は、検索エンジンで詳しく調べる49%、店舗に実物を見に行く31%、SNSで一般ユーザーのクチコミを確認する29%となっている",
+      "AIの情報だけで購入すると答えた人は16%にとどまる",
+      "SNS上で「購入の後押しとなる情報」として一般ユーザーの投稿を挙げた人は4割超だった",
+      "調査は株式会社メンバーズ グッドコミュニケーションズカンパニーによる「SNS利用実態調査2026」で、サンプル数は1万180名、配信期間は2026年6月5日〜6月19日である"
+    ],
+    "cardBullets": [
+      "AI推奨商品でもクチコミがなければ57%が購入を見送る",
+      "AI情報だけで買うのは16%、49%は検索で裏取りする",
+      "1万180人調査、UGC不足がそのまま機会損失に"
+    ],
+    "meaning": "AI検索対策の議論は「AIに薦められること」に集中しがちだが、この調査はその手前で終わらないことを示している。AIに薦められても、裏取りができなければ57%は買わない。つまりAIの回答に載ることと、その後の検索・SNSで実在の評判が見つかることは、二つ揃って初めて売上になる。レビューがゼロの新商品をAIに薦められても機会は逃げるということであり、レビュー獲得の施策はAI対策の周辺業務ではなく本体に含まれる。AIに拾わせる商品情報と、人が語った言葉の両方を用意しておく必要がある。"
+  },
+  {
+    "slug": "stripe-link-meta-muse-agent-payment-20260925",
+    "title": "StripeがMetaのAIエージェント「Muse」にウォレット「Link」を提供、100万社以上の店舗でAIの代理決済が可能に",
+    "sourceUrl": "https://ecnomikata.com/ecnews/51663/",
+    "source": "ECのミカタ",
+    "date": "2026-09-24",
+    "dateDisplay": "2026年9月24日",
+    "platforms": ["other-ai"],
+    "viewpoint": "buyer",
+    "theme": "visibility",
+    "thumbnail": "https://img.ecnomikata.com/img_contents/ecnews/images/51663_main1_facebook_image.jpg",
+    "background": "AIエージェントが商品を探して比較するところまでは各社が実装してきたが、最後の決済を誰がどう担うかは空白だった。Stripeが自社のデジタルウォレットをMetaのAIエージェントに接続したことで、AIが消費者に代わって決済まで完了させる経路が実際に開いた。",
+    "bullets": [
+      "Stripeは米国時間2026年9月8日、Metaが開発するAIエージェント「Muse」にデジタルウォレット「Link」を提供開始したと発表した",
+      "この連携により、米国の消費者はAIエージェントに代理で決済を実行させられるようになる",
+      "Linkは100万社以上のオンラインストアで利用できる",
+      "StripeはAIエージェント間の決済を扱うMachine Payments Protocol（MPP）や独自ブロックチェーン「Tempo」も推進しており、AI時代の金融インフラ構築を進めている",
+      "Link事業責任者のJay Shah氏がこの取り組みを主導している"
+    ],
+    "cardBullets": [
+      "StripeのLinkがMetaのAIエージェント「Muse」に対応",
+      "100万社以上の店舗でAIによる代理決済が可能に",
+      "MPPやTempoなどAI前提の決済基盤整備も並行"
+    ],
+    "meaning": "決済が繋がった瞬間に変わるのは、買い物客がページを見る回数である。AIが探し、比べ、支払うところまで通ると、店舗のページは人の目に一度も触れないまま注文が入る。そのとき判断材料になるのは、画面の見栄えではなく機械が読む値、つまり価格・在庫・送料・納期・返品条件である。ここが古い、単位が揺れている、選択肢ごとに違う、といった状態は人間相手なら問い合わせで救われていたが、AI相手では黙って別の店に置き換えられる。決済の話題として流さず、自社の商品データの正確さを確認する合図として受け取りたい。"
+  }
+]
