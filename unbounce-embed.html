@@ -46,20 +46,21 @@
   #aa-media-root .am-hero-dot{appearance:none;border:0;width:8px;height:8px;border-radius:50%;background:var(--am-line);cursor:pointer;padding:0}
   #aa-media-root .am-hero-dot.is-active{background:var(--am-blue);width:22px;border-radius:4px;transition:width .18s ease}
 
-  #aa-media-root .am-hero-inner{position:relative}
-  #aa-media-root .am-subscribe{position:absolute;right:0;bottom:0;width:minmax(280px,1fr);max-width:320px;background:var(--am-tint);border:1px solid var(--am-line);border-radius:10px;padding:18px 20px}
-  #aa-media-root .am-subscribe h3{margin:0 0 6px;color:var(--am-heading);font-size:14px;font-weight:800}
-  #aa-media-root .am-subscribe p{margin:0 0 12px;color:var(--am-muted);font-size:12px;line-height:1.6}
-  #aa-media-root .am-sf-row{display:flex;flex-direction:column;gap:8px}
-  #aa-media-root .am-sf-row input[type="text"]{font-family:inherit;font-size:13px;border:1px solid var(--am-line);border-radius:7px;padding:9px 12px;width:100%;color:var(--am-ink);outline:none;transition:border-color .15s}
+  #aa-media-root .am-subscribe{margin-top:28px;background:var(--am-tint);border:1px solid var(--am-line);border-radius:10px;padding:20px 24px;display:flex;align-items:center;gap:24px;flex-wrap:wrap}
+  #aa-media-root .am-subscribe-copy{flex:1;min-width:220px}
+  #aa-media-root .am-subscribe h3{margin:0 0 4px;color:var(--am-heading);font-size:15px;font-weight:800}
+  #aa-media-root .am-subscribe p{margin:0;color:var(--am-muted);font-size:12.5px;line-height:1.6}
+  #aa-media-root .am-sf-row{display:flex;gap:10px;flex-wrap:wrap}
+  #aa-media-root .am-sf-row input[type="text"]{font-family:inherit;font-size:13px;border:1px solid var(--am-line);border-radius:7px;padding:10px 14px;width:240px;max-width:100%;color:var(--am-ink);outline:none;transition:border-color .15s}
   #aa-media-root .am-sf-row input[type="text"]:focus{border-color:var(--am-blue)}
-  #aa-media-root .am-sf-row input[type="button"]{font-family:inherit;font-size:13px;font-weight:700;border:0;border-radius:7px;padding:9px 14px;color:#fff;background:var(--am-blue);cursor:pointer;transition:background-color .15s}
+  #aa-media-root .am-sf-row input[type="button"]{font-family:inherit;font-size:13px;font-weight:700;border:0;border-radius:7px;padding:10px 20px;color:#fff;background:var(--am-blue);cursor:pointer;transition:background-color .15s;white-space:nowrap}
   #aa-media-root .am-sf-row input[type="button"]:hover{background:var(--am-heading)}
-  #aa-media-root #errorMsgDiv{max-width:100%;margin:0 0 8px;font-size:11px;background:#FEF2F2;color:#DC2626;border:1px solid #FECACA;border-radius:7px;padding:6px 10px}
-  #aa-media-root #Zc_SignupSuccess{max-width:100%;margin:0 0 10px!important;font-size:12px;background:#F0FDF4!important;color:#166534!important;border:1px solid #BBF7D0!important;border-radius:7px!important;padding:8px 10px!important}
+  #aa-media-root #errorMsgDiv{width:100%;margin:0 0 8px;font-size:11px;background:#FEF2F2;color:#DC2626;border:1px solid #FECACA;border-radius:7px;padding:6px 10px}
+  #aa-media-root #Zc_SignupSuccess{width:100%;margin:0 0 10px!important;font-size:12px;background:#F0FDF4!important;color:#166534!important;border:1px solid #BBF7D0!important;border-radius:7px!important;padding:8px 10px!important}
   #aa-media-root #Zc_SignupSuccess img{display:none}
-  @media(max-width:760px){
-    #aa-media-root .am-subscribe{position:static;max-width:100%;margin-top:20px}
+  @media(max-width:560px){
+    #aa-media-root .am-subscribe{flex-direction:column;align-items:stretch;padding:18px}
+    #aa-media-root .am-sf-row input[type="text"]{width:100%}
   }
   #aa-media-root .am-feed__heading a.am-count-link{color:var(--am-blue);text-decoration:none;font-size:13px;font-weight:700;white-space:nowrap}
   #aa-media-root .am-feed__heading a.am-count-link:hover{text-decoration:underline}
@@ -224,13 +225,15 @@
     </nav>
 
     <section class="am-hero" id="am-hero" aria-label="新着記事">
-      <div class="am-wrap am-hero-inner">
+      <div class="am-wrap">
         <div id="am-hero-articles" class="am-hero-slider"></div>
         <div id="am-hero-dots" class="am-hero-dots"></div>
 
         <div class="am-subscribe">
-          <h3>最新ニュースを購読する</h3>
-          <p>AI検索まわりの動きを、メールでまとめて受け取れます。</p>
+          <div class="am-subscribe-copy">
+            <h3>最新ニュースを購読する</h3>
+            <p>AI検索の最新動向をまとめて受け取れます。</p>
+          </div>
           <div id="sf3z0187d763a8a2822a95749b46586da7de2897e9d72506eece5553bd0545699f6c" data-type="signupform">
             <div id="Zc_SignupSuccess" style="display:none">Thank you for Signing Up</div>
             <form method="POST" id="zcampaignOptinForm" class="am-sf-row"
